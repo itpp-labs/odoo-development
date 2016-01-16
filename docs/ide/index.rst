@@ -1,0 +1,6 @@
+IDE
+===
+
+.. toctree::
+
+   emacs
