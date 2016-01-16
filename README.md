@@ -16,7 +16,10 @@
 ## Contribution
 
   * Edit files in the repo. Check documentations:
-    * TODO
+    * http://www.sphinx-doc.org/en/stable/rest.html
+    * http://www.sphinx-doc.org/en/stable/domains.html
+    * http://www.sphinx-doc.org/en/stable/markup/index.html
+
   * Try it out:
 
     > cd /path/to/odoo-development/docs
