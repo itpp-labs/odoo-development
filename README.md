@@ -6,7 +6,7 @@
 ## Initialization
 
   * Fork this repo
-  * Create clone
+  * Clone to your machine
   * Install dependencies
 
     > sudo pip install sphinx sphinx-autobuild
