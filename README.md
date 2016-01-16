@@ -26,7 +26,7 @@
 
     > make html
 
-    > # check warningn and errors in compilation logs
+    > \# check warningn and errors in compilation logs
 
     > google-chrome _build/html/index.html
 
