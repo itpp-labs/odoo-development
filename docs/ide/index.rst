@@ -4,3 +4,4 @@ IDE
 .. toctree::
 
    emacs
+   PyCharm
