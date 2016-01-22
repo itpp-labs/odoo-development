@@ -13,7 +13,7 @@ Current content:
    install
    ide/index
    dev/index
-   rst
+   other/index
 
 
 Indices and tables
