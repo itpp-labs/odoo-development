@@ -1,5 +1,5 @@
-Sphinx-doc short reference
-=================
+RST format
+==========
 
 
 Sections
