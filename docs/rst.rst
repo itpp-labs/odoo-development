@@ -30,3 +30,7 @@ Lists
 * 1,2,3, ... - numerated 
 
 
+More documentations
+-------------------
+
+* http://docutils.sourceforge.net/docs/user/rst/quickref.html
