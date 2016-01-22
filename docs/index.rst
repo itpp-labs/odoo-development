@@ -10,9 +10,11 @@ Current content:
 .. toctree::
    :maxdepth: 2
 
+   sphinx-doc
    install
    webpage
    ide/index
+   dev/index
 
 
 Indices and tables
