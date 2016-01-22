@@ -11,7 +11,6 @@ Current content:
    :maxdepth: 2
 
    install
-   webpage
    ide/index
    dev/index
    rst
