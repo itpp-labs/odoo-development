@@ -13,6 +13,7 @@ Current content:
    install
    ide/index
    dev/index
+   description/index
    other/index
 
 
