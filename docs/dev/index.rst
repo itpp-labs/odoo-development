@@ -5,3 +5,4 @@ Development
 
    python
    odoo
+   short_notes
