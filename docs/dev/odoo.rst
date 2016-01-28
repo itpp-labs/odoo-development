@@ -1,5 +1,6 @@
 Module structue
 ==========
+
 __openerp__ file atributes
 ------------------------------------
 
@@ -17,14 +18,18 @@ Check if some sytem application exists::
 
 Odoo database
 ==========
+
 Many to many
 ^^^^^^^^^
+
 For every *many to many* field odoo creating new relations table for example *pos_multi_rel* with *_rel* postfix. 
 
 Odoo way of shaman
 =============
+
 What to do if something not work but should to
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 #. Refresh page
 #. Update module
 #. Check openerp file **depends**, **demo** and other important fields
