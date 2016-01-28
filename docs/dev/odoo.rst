@@ -2,7 +2,9 @@ Module structue
 ==========
 __openerp__ file atributes
 ------------------------------------
-**Dependencies**
+
+Dependencies
+^^^^^^^^^^^^
 
 Check if some python library exists::
 
