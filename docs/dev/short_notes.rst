@@ -1,5 +1,8 @@
 Short notes
 =======
+Pull request from console
+------------------------------------
+Yes it possible! Try this manual: https://github.com/github/hub
 
 Odoo XML
 --------------
