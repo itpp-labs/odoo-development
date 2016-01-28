@@ -32,5 +32,5 @@ What to do if something not work but should to
 #. Uninstall and install again modules in depends
 #. Clean browser cache
 #. Carefully check logs. Look up if needed files loaded or not. May be some errors.
-#. Create new base and install all modules
+#. Create new base and install all modules.
 
