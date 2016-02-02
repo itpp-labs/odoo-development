@@ -1,6 +1,8 @@
 Odoo installation
 =================
 
+Local installation
+------------------
 
 .. code-block:: shell
 
@@ -62,3 +64,8 @@ Odoo installation
    # create different versions of conf file:
    cp ~/.openerp_serverrc ~/.openerp_serverrc-9
    cp ~/.openerp_serverrc ~/.openerp_serverrc-8
+
+Production installation
+-----------------------
+
+https://gist.github.com/yelizariev/2abdd91d00dddc4e4fa4
