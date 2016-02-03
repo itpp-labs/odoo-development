@@ -14,6 +14,7 @@ Current content:
    ide/index
    dev/index
    description/index
+   git/index
    other/index
 
 
