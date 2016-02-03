@@ -19,8 +19,8 @@ Local installation
    git clone https://github.com/odoo/odoo.git
 
    # install dependencies:
-   wget http://nightly.odoo.com/8.0/nightly/deb/odoo_8.0.latest_all.deb
-   sudo dpkg -i odoo_8.0.latest_all.deb  # shows errors -- just ignore them and execute next command:
+   wget http://nightly.odoo.com/9.0/nightly/deb/odoo_9.0.latest_all.deb
+   sudo dpkg -i odoo_9.0.latest_all.deb  # shows errors -- just ignore them and execute next command:
    sudo apt-get -f install
    sudo apt-get remove odoo
 
