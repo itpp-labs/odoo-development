@@ -1,0 +1,6 @@
+Other
+=====
+
+.. toctree::
+
+   odoo

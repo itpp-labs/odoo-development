@@ -1,10 +1,5 @@
-Short notes
-=======
-
-Odoo XML
---------------
-
-Create record of model::
+Create record of model
+======================
 
     <openerp>
         <data>

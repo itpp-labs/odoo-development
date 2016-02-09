@@ -1,0 +1,6 @@
+Odoo Python
+===========
+
+.. toctree::
+
+   decorators

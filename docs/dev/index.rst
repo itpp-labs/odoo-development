@@ -5,7 +5,9 @@ Development
    :maxdepth: 3
 
    first-steps
-   python
    odoo
-   short_notes
-   webpage
+   py/index
+   python/index
+   xml/index
+   frontend/index
+   other/index
