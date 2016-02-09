@@ -5,9 +5,10 @@ Development
    :maxdepth: 3
 
    first-steps
-   odoo
    py/index
-   python/index
    xml/index
+   yml/index
    frontend/index
+   access/index
+   hooks/index
    other/index
