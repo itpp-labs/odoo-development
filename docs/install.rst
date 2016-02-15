@@ -58,6 +58,7 @@ Local installation
    sudo su - postgres -c "createuser -s $USER"
 
    # Create new config file if you don't have it yet:
+   cd /path/to/odoo
    ./openerp-server --save
    emacs -nw ~/.openerp_serverrc
    # set dbfilter = ^%h$
