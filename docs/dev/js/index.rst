@@ -1,0 +1,6 @@
+Javascript
+==========
+
+.. toctree::
+
+   inheritance

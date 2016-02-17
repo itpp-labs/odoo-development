@@ -1,6 +1,10 @@
 Odoo installation
 =================
 
+.. contents::
+
+Local installation
+------------------
 
 .. code-block:: shell
 
@@ -17,8 +21,8 @@ Odoo installation
    git clone https://github.com/odoo/odoo.git
 
    # install dependencies:
-   wget http://nightly.odoo.com/8.0/nightly/deb/odoo_8.0.latest_all.deb
-   sudo dpkg -i odoo_8.0.latest_all.deb  # shows errors -- just ignore them and execute next command:
+   wget http://nightly.odoo.com/9.0/nightly/deb/odoo_9.0.latest_all.deb
+   sudo dpkg -i odoo_9.0.latest_all.deb  # shows errors -- just ignore them and execute next command:
    sudo apt-get -f install
    sudo apt-get remove odoo
 
@@ -56,9 +60,75 @@ Odoo installation
    sudo su - postgres -c "createuser -s $USER"
 
    # Create new config file if you don't have it yet:
+   cd /path/to/odoo
    ./openerp-server --save
    emacs -nw ~/.openerp_serverrc
    # set dbfilter = ^%h$
    # create different versions of conf file:
    cp ~/.openerp_serverrc ~/.openerp_serverrc-9
    cp ~/.openerp_serverrc ~/.openerp_serverrc-8
+
+
+   ################### /etc/hosts
+   # /etc/hosts must contains domains you use, e.g:
+   sudo bash -c "echo '127.0.0.1 8_0-project1.local'  >> /etc/hosts"
+   sudo bash -c "echo '127.0.0.1 8_0-project2.local'  >> /etc/hosts"
+   sudo bash -c "echo '127.0.0.1 9_0-project1.local'  >> /etc/hosts"
+   
+   ################### nginx
+   # put nginx_odoo.conf to /etc/nginx/sites-enabled/
+   # delete default configuration:
+   cd /etc/nginx/sites-enabled/
+   rm default
+   # restart nginx
+   sudo /etc/init.d/nginx restart
+
+   ################### run Odoo
+   cd /path/to/odoo
+   git checkout somebranch-or-revision
+   git tag 8_0-honduras.local
+   # everytime run odoo this way:
+   git checkout 8_0-client1.local && ./odoo.py --config=/path/to/.openerp_serverrc-8
+   # or
+   git checkout 8_0-project1.local && ./odoo.py --config=/path/to/.openerp_serverrc-8 --auto-reload
+   # or
+   git checkout 9_0-project1.local && ./odoo.py --config=/path/to/.openerp_serverrc-9 --dev
+   # etc.
+   # then open database you need, e.g. (type http:// explicitly, because browser could understand it as search request)
+   # http://8_0-client1.local/
+   # (database name should be 8_0-client1.local )
+
+
+nginx_odoo.conf
+^^^^^^^^^^^^^^^
+
+.. code-block:: shell
+
+    server {
+           listen 80 default_server;
+           server_name .local;
+           
+           proxy_buffers 16 64k;
+           proxy_buffer_size 128k;
+           proxy_set_header Host $host;
+           proxy_set_header X-Real-IP $remote_addr;
+           proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+           proxy_set_header X-Forwarded-Proto $scheme;
+           #proxy_redirect http:// https://; 
+           proxy_read_timeout 600s;
+           client_max_body_size 100m; 
+
+           location /longpolling {
+               proxy_pass http://127.0.0.1:8072;
+           }
+    
+           location / {
+               proxy_pass http://127.0.0.1:8069;
+           }
+   }
+
+
+Production installation
+-----------------------
+
+https://gist.github.com/yelizariev/2abdd91d00dddc4e4fa4

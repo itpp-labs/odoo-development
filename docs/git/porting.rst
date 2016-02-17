@@ -1,0 +1,46 @@
+Porting
+=======
+
+If you add some feature to one branch and need to add it to anoher branch, then you have to make *port*.
+
+Forward-port
+------------
+
+It's the simplest case. You merge commits from older branch (e.g. 8.0) to newer branch (e.g. 9.0) ::
+
+    git checkout 9.0
+    git merge origin/8.0
+    git push
+
+After ``git merge`` you probably need to make some minor changes. In that case just add new commits to newer branch ::
+
+    git add ...
+    git commit -m "...."
+    git push
+
+Back-port
+---------
+
+If you need to port new feature from newer branch (e.g. 9.0) to older one (e.g. 8.0), then you have to make *back-port*.
+
+The problem here is that newer branch has commits which should be applied for newer branch only. That is you cannot just make ``git merge 9.0``, because it brings 9.0-only commits to 8.0 branch. Possible solutions here are:
+
+git cherry-pick
+^^^^^^^^^^^^^^^
+
+Apply commits from newer branch (e.g. 9.0) to older branch (e.g. 8.0) ::
+
+  git checkout 8.0
+  git cherry-pick <commit-1>
+  git cherry-pick <commit-2>
+  # ...
+  git push
+
+Then make forward-port ::
+  
+  git fetch
+  git checkout 9.0
+  git merge origin/8.0
+
+
+

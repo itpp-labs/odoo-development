@@ -1,0 +1,6 @@
+XML
+===
+
+.. toctree::
+
+   create-records

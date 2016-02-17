@@ -1,10 +1,14 @@
 Development
-========
+===========
 
 .. toctree::
    :maxdepth: 3
 
-   python
-   odoo
-   short_notes
-   webpage
+   first-steps
+   py/index
+   xml/index
+   yml/index
+   frontend/index
+   access/index
+   hooks/index
+   other/index

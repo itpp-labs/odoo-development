@@ -1,8 +1,8 @@
 Module structue
-==========
+===============
 
 __openerp__ file atributes
-------------------------------------
+--------------------------
 
 Dependencies
 ^^^^^^^^^^^^
@@ -17,18 +17,18 @@ Check if some sytem application exists::
   external_dependencies': {'bin' : ['libreoffice']}
 
 Odoo database
-==========
+=============
 
 Many to many
-^^^^^^^^^
+^^^^^^^^^^^^
 
 For every *many to many* field odoo creating new relations table for example *pos_multi_rel* with *_rel* postfix. 
 
 Odoo way of shaman
-=============
+==================
 
 What to do if something not work but should to
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Refresh page
 #. Update module
@@ -39,3 +39,7 @@ What to do if something not work but should to
 #. Carefully check logs. Look up if needed files loaded or not. May be some errors.
 #. Create new base and install all modules.
 
+Importan stuff
+^^^^^^^^^^^^^^
+
+If some java dont work add --workers=2 to your odoo launch script.
