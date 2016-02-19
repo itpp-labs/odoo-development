@@ -8,6 +8,7 @@ Development
    py/index
    xml/index
    yml/index
+   js/index
    frontend/index
    access/index
    hooks/index
