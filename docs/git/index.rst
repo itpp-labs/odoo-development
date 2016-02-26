@@ -6,4 +6,5 @@ Git and Github
 
    porting
    conflicts
+   reset
    utils
