@@ -8,3 +8,4 @@ Git and Github
    conflicts
    reset
    utils
+   remote
