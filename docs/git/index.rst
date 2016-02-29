@@ -7,3 +7,5 @@ Git and Github
    init
    porting
    conflicts
+   reset
+   utils

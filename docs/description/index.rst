@@ -5,3 +5,4 @@ Module documentation
    :maxdepth: 3
 
    screenshots
+   create-description
