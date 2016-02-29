@@ -1,7 +1,9 @@
 Logs
 ====
 
-There are several places where you can get logs
+There are several places where you can get logs.
+
+It's better to activate developer (debug) mode in browser when you are looging for logs.
 
 Error Message
 -------------
