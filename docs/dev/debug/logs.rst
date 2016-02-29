@@ -28,15 +28,23 @@ boot.js
 ^^^^^^^
 
 If into server console no errors but boot.js raise exception that find out reason error next steps:
+
 1. Open browser inspector (F12).
+
 2. Go to error line into boot.js.
+
 3. Turn on breakpoint.
+
 4. Rerun script.
+
 5. When script stop on error line move to console.
+
 .. image:: ../img/screenshots/boot_js/breakpoint.png
 
 6. Typing command: failed[0].error
+
 7. To receive the output
+
 .. image:: ../img/screenshots/boot_js/console.png
 
 
