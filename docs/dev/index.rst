@@ -13,3 +13,4 @@ Development
    access/index
    hooks/index
    other/index
+   debug/index
