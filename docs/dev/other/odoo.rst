@@ -1,21 +1,3 @@
-Module structue
-===============
-
-__openerp__ file atributes
---------------------------
-
-Dependencies
-^^^^^^^^^^^^
-
-Check if some python library exists::
-
-  external_dependencies': {'python' : ['openid']}
-
-
-Check if some sytem application exists::
-
-  external_dependencies': {'bin' : ['libreoffice']}
-
 Odoo database
 =============
 
@@ -39,7 +21,3 @@ What to do if something not work but should to
 #. Carefully check logs. Look up if needed files loaded or not. May be some errors.
 #. Create new base and install all modules.
 
-Importan stuff
-^^^^^^^^^^^^^^
-
-If some java dont work add --workers=2 to your odoo launch script.
