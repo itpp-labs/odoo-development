@@ -51,10 +51,8 @@ Sources
 -------
 If during page load displayed the error type:
 
-``
-Missing dependencies: [...]
-Non loaded modules: [...]
-``
+``Missing dependencies: [...]
+Non loaded modules: [...]``
 
 that you can find out reason in the Developer Tool in the tab Sources. To do this:
 
