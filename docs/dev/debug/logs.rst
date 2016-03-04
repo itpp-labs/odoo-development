@@ -47,6 +47,25 @@ If into server console no errors but boot.js raise exception that find out reaso
 
 .. image:: ../img/screenshots/boot_js/console.png
 
+Sources
+-------
+If during page load displayed the error type:
+
+``
+Missing dependencies: [...]
+Non loaded modules: [...]
+``
+
+that you can find out reason in the Developer Tool in the tab Sources. To do this:
+
+1. Turn on debug mode in the url.
+
+2. Open Developer tools (F12), go to the Sources tab and reload page.
+
+3. Open left panel (if it is not open yet) and search interested app.
+
+Likely you can not find files included in the Missing dependencies list.
+Then you need to check they are included in the view (.xml) files.
 
 Network
 -------
