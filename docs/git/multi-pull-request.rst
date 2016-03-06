@@ -9,7 +9,7 @@ To find last commit ``origin/8.0`` and ``origin/9.0`` were merged, use following
 .. code-block:: shell
 
     git fetch
-    git log origin/8.0..origin/9.0 --grep="Merge remote-tracking branch 'origin/8.0'" -n 3
+    git log origin/8.0..origin/9.0 --grep="Merge remote-tracking branch 'origin/8.0'" --merges -n 3
 
     # you will get something like that:
     # commit 5cb3652be72a05330c3988d270f3aef548511b29
