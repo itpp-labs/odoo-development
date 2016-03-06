@@ -7,5 +7,6 @@ Git and Github
    init
    porting
    conflicts
+   multi-pull-request
    reset
    utils
