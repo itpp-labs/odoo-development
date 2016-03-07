@@ -14,7 +14,7 @@ What to do if you got conflicts:
   * either edit files manually:
   
     * open file with conflicts
-    * search for ``<<<`` or ``>>>`` and delete obsolete variant
+    * search for ``<<<`` or ``>>>`` and delete obsolete variant or make a mix of two variants.
 
   * or use following commands, if you are sure which version should be kept ::
 
