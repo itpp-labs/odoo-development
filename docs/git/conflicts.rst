@@ -1,7 +1,7 @@
 Conflict resolving
 ==================
 
-After making ``git merge`` there could be conflicts, because some commits try to make changes on the same line. So, you need to choose which change shall be use. It could be one variant, both variants or new variant.
+After making ``git merge`` or ``git cherry-pick`` there could be conflicts, because some commits try to make changes on the same line. So, you need to choose which change shall be use. It could be one variant, both variants or new variant.
 
 What to do if you got conflicts:
 
