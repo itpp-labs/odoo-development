@@ -67,18 +67,23 @@ If a module ported to different odoo versions (e.g. 8 and 9) and some update is
 added only to one version (e.g. 9), then version is changed as in example below:
 
 * init
+
   * [8.0] 1.0.0
   * [9.0] 1.0.0
 * feature added to 8.0 and ported to 9.0
+
   * [8.0] 1.1.0
   * [9.0] 1.1.0
 * feature added to 9.0 only and not going to be ported to 8.0:
+
   * [8.0] 1.1.0
   * [9.0] 1.2.0
 * fix made in 9.0 only and not going to be ported to 8.0:
+
   * [8.0] 1.1.0
   * [9.0] 1.2.1
 * fix made in 8.0 and ported to 9.0
+
   * [8.0] 1.2.2
   * [9.0] 1.2.2
 
