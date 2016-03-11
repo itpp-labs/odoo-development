@@ -10,3 +10,4 @@ Git and Github
    multi-pull-request
    reset
    utils
+   files-relocation
