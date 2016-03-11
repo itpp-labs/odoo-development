@@ -10,6 +10,7 @@ Current content:
 .. toctree::
    :maxdepth: 2
 
+   first-steps
    install
    ide/index
    dev/index

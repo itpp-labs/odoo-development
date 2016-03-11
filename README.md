@@ -19,6 +19,7 @@
     * http://www.sphinx-doc.org/en/stable/rest.html
     * http://www.sphinx-doc.org/en/stable/domains.html
     * http://www.sphinx-doc.org/en/stable/markup/index.html
+    * [images.md](images.md)
 
   * Try it out:
 

@@ -1,0 +1,6 @@
+Debugging
+=========
+
+.. toctree::
+
+   logs

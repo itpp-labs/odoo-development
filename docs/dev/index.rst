@@ -4,7 +4,7 @@ Development
 .. toctree::
    :maxdepth: 3
 
-   first-steps
+   __openerp__.py
    py/index
    xml/index
    yml/index
@@ -12,4 +12,5 @@ Development
    frontend/index
    access/index
    hooks/index
+   debug/index
    other/index
