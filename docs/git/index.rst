@@ -7,3 +7,4 @@ Git and Github
    init
    porting
    conflicts
+   files-relocation
