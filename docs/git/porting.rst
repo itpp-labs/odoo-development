@@ -51,6 +51,7 @@ Apply commits from newer branch (e.g. 9.0) to older branch (e.g. 8.0) ::
 Also possible to pick the commit from any remote repository. Add this repository to your remotes. Do fetch from it. And then cherry-pick.
 
 If after cherry-picking you have some conflicts then resolve it and do ::
+
   cherry-pick --continue
 
 **Important things:** 
