@@ -62,8 +62,12 @@ Local installation
    # Create new config file if you don't have it yet:
    cd /path/to/odoo
    ./openerp-server --save
+
+   # then edit it, e.g. via emacs
    emacs -nw ~/.openerp_serverrc
    # set dbfilter = ^%h$
+   # set workers = 2 # to make longpolling\bus\im work
+
    # create different versions of conf file:
    cp ~/.openerp_serverrc ~/.openerp_serverrc-9
    cp ~/.openerp_serverrc ~/.openerp_serverrc-8
