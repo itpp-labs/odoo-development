@@ -1,5 +1,5 @@
 Create record of model
-==================
+======================
 
 Create new record::
 
