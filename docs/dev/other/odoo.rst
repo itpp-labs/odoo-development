@@ -27,8 +27,7 @@ For every *many to many* field odoo creating new relations table for example *po
 Odoo way of shaman
 ==================
 
-What to do if something not work but should to
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**What to do if something not work but should to**
 
 #. Refresh page
 #. Update module

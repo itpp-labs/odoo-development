@@ -1,11 +1,11 @@
 Python decoratos
-==========
+================
 Original article
----------------------
+----------------
 http://odoo-new-api-guide-line.readthedocs.org/en/latest/decorator.html
 
 @api.one
--------------
+--------
 api.one is meant to be used when method is called only on one record. It makes sure, that there are no multiple records when calling method with api.one decorator. Let say you got record partner =  res.partner(1,). It is only one record and there is method for example (in res.partner)::
 
   @api.one
@@ -24,7 +24,7 @@ calling it, would raise Warning, telling you that you can only call it on one re
 
 
 @api.multi
----------------
+----------
 
 something. For example::
 

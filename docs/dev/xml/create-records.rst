@@ -1,5 +1,7 @@
 Create record of model
-======================
+==================
+
+Create new record::
 
     <openerp>
         <data>
