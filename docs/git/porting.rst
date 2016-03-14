@@ -48,7 +48,16 @@ Apply commits from newer branch (e.g. 9.0) to older branch (e.g. 8.0) ::
 
   git push
 
-Then make forward-port ::
+Also possible to pick the commit from any remote repository. Add this repository to your remotes. Do fetch from it. And then cherry-pick.
+
+If after cherry-picking you have some conflicts then resolve it and do ::
+  cherry-pick --continue
+
+**Important things:** 
+ * When you resolving conflicts some times may be situations in which left code brokes right code after joining. You got to manipulate *lines* to make it right order. Do not edit code here. If you want to edit code, do it after you finish with cherry-pick. 
+ * You do not need to commit cherry-pick because it creates commit by its own.
+
+In case if you need to join arrows make forward-port ::
   
   git fetch
   git checkout 9.0
