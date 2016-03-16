@@ -31,3 +31,5 @@ Notes
 ~~~~~
 
 * When you resolving conflicts some times may be situations in which left code brokes right code after joining. You got to manipulate *lines* to make it right order. Do not edit code here. If you want to edit code, do it after you finish with cherry-pick.
+* If you don't have conflicts, you do not need to make commit after cherry-pick because it creates commit by its own.
+

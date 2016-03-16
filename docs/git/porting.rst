@@ -55,9 +55,3 @@ Then make forward-port ::
   git fetch
   git checkout 9.0
   git merge origin/8.0
-
-Notes
-~~~~~
-
- * If you don't have conflicts, you do not need to make commit after cherry-pick because it creates commit by its own.
-
