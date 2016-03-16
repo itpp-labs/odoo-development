@@ -8,7 +8,7 @@ Development
    __openerp__.py
    py/index
    xml/index
-   qweb/index
+   html/index
    css/index
    yml/index
    js/index
@@ -17,4 +17,6 @@ Development
    hooks/index
    debug/index
    other/index
+   
+
 

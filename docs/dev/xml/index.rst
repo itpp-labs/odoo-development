@@ -5,4 +5,4 @@ XML
 
    create-records
    xpath
-   active_elements
+   qweb

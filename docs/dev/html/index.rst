@@ -1,4 +1,4 @@
-QWeb
+HTML
 ====
 
 .. toctree::

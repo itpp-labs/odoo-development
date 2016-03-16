@@ -1,27 +1,27 @@
 Xpath
 =====
 
-Add some attributes to tag
---------------------------
-Code::
+Add some attributes to node
+---------------------------
 
-    <xpath expr="//div[@class='container oe_website_sale']" position="attributes">
-        <attribute name="t-att-foobar">order.foobar and '1' or '0'</attribute>
-    </xpath>
+May add simple value::
+
+    <attribute name="some_field">
+
+Or even qweb::
+
+    <attribute name="t-att-another_field">website.get_another_field_value()</attribute>
+
+After rendering it becomes regular attribute::
+
+    <.... another_field="value" ...>
 
 Important
 ^^^^^^^^^
 Inside of ::
 
-    <xpath expr="//div[@class='container oe_website_sale']" position="attributes">
+    <xpath expr="//some/xpath" position="attributes">
         ...
     </xpath>
 
 you can put **only**  ``<attribute name= `` and nothing more.
-
-For example::
-
-    <xpath expr="//div[@class='container oe_website_sale']" position="attributes">
-        <attribute name="t-att-bill_enabled">not 'nobill' in website_sale_order.buy_way and '1' or '0'</attribute>
-        <attribute name="t-att-ship_enabled">not 'noship' in website_sale_order.buy_way and '1' or '0'</attribute>
-    </xpath>
