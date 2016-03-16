@@ -58,7 +58,7 @@ If after cherry-picking you have some conflicts then resolve it and do ::
  * When you resolving conflicts some times may be situations in which left code brokes right code after joining. You got to manipulate *lines* to make it right order. Do not edit code here. If you want to edit code, do it after you finish with cherry-pick. 
  * You do not need to commit cherry-pick because it creates commit by its own.
 
-In case if you need to join arrows make forward-port ::
+Then make forward-port ::
   
   git fetch
   git checkout 9.0
