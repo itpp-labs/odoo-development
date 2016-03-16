@@ -4,6 +4,7 @@ Development
 .. toctree::
    :maxdepth: 3
 
+   README.rst.rst           
    __openerp__.py
    py/index
    xml/index
@@ -14,3 +15,4 @@ Development
    hooks/index
    debug/index
    other/index
+
