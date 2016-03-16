@@ -18,4 +18,4 @@ Code::
 		<button type="submit" class="btn btn-default">My button</button>
 	</form>
 
-Wherein in controller in **post will be available some values from source form, those like <input/>.
+Wherein in controller in \**post will be available some values from source form, those like <input/>.
