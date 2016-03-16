@@ -1,9 +1,16 @@
 Xpath
 =====
 
-position="attributes"
----------------------
+Add some attributes to tag
+--------------------------
+Code::
 
+    <xpath expr="//div[@class='container oe_website_sale']" position="attributes">
+        <attribute name="t-att-foobar">order.foobar and '1' or '0'</attribute>
+    </xpath>
+
+Important
+^^^^^^^^^
 Inside of ::
 
     <xpath expr="//div[@class='container oe_website_sale']" position="attributes">

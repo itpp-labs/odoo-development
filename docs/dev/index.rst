@@ -8,6 +8,8 @@ Development
    __openerp__.py
    py/index
    xml/index
+   qweb/index
+   css/index
    yml/index
    js/index
    frontend/index

@@ -1,0 +1,6 @@
+QWeb
+====
+
+.. toctree::
+
+   main
