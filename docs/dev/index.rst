@@ -15,3 +15,4 @@ Development
    hooks/index
    debug/index
    other/index
+   res.config.settings
