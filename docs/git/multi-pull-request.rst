@@ -39,10 +39,10 @@ To find last commit ``upstream/8.0`` and ``upstream/9.0`` were merged, use follo
     git branch -r --contains 5cb3652be72a05330c3988d270f3aef548511b29
 
     # possible output:
-    #  origin/9.0
+    #  upstream/9.0
     #  origin/9.0-dev
 
-    # if there is not origin/9.0 in output,
-    # then commit have not been merge yet and you cannot use it
+    # if there is not upstream/9.0 in output,
+    # then commit has not been merged yet and you cannot use it
 
 
