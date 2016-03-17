@@ -12,10 +12,10 @@ Current content:
 
    first-steps
    install
-   ide/index
    dev/index
    description/index
    git/index
+   ide/index
    other/index
 
 
