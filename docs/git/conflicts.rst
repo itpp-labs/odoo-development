@@ -30,6 +30,6 @@ What to do if you got conflicts:
 Notes
 ~~~~~
 
-* When you resolving conflicts some times may be situations in which local code brokes remote code after joining. You got to manipulate *lines* to make it right order. Do not edit code here. If you want to edit code, do it after you finish with cherry-pick.
+* It's important, that on resolving conflict stage you should not make any updates inside conflicting lines. You can only choose which lines should be kept and which deleted. E.g. if you resolve conflicts due to porting some update\feature from one odoo version (e.g. 8.0) to another (e.g. 9.0), then such changes some time must be tuned to make update\feature work on target odoo version. But you have to make such tuning on a new commit only. Make merging\chery-picking commits be only about merging and chery-picking, make porting commits separately.
 * If you don't have conflicts, you do not need to make commit after cherry-pick because it creates commit by its own.
 

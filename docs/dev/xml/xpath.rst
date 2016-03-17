@@ -4,11 +4,13 @@ Xpath
 Add some attributes to node
 ---------------------------
 
-May add simple value::
+Code::
 
-    <attribute name="some_field">
+    <xpath expr="//some/xpath" position="attributes">
+        <attribute name="some_field">
+    </xpath>
 
-Or even qweb::
+Qweb expression::
 
     <attribute name="t-att-another_field">website.get_another_field_value()</attribute>
 

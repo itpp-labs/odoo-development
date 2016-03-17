@@ -29,8 +29,8 @@ Code::
 		<p>foobar is true</p>
 	</label>
 
-Use variable that render transmits
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Get variable transmitted by render() in XML template
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Code::
 
 	t-att-value="my_var"
