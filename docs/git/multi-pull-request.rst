@@ -44,5 +44,12 @@ To find last commit ``upstream/8.0`` and ``upstream/9.0`` were merged, use follo
 
     # if there is not upstream/9.0 in output,
     # then commit has not been merged yet and you cannot use it
+    # for branch 9.0 use this commit sha 5cb3652be72a05330c3988d270f3aef548511b29
+    # for branch 8.0 need find which of two commits in "Merge" line contains "upstream/8.0"
 
+    git branch -r --contains f1cd564
+    git branch -r --contains 6cc2562
 
+    # Use commit sha to create new branch:
+    
+    git checkout -b 'new_branch_name' 5cb3652be72a05330c3988d270f3aef548511b29
