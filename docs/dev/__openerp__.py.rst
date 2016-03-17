@@ -98,6 +98,7 @@ IT-Projects LLC uses following licences:
 * ``'GPL-3'`` for odoo 8.0 and below
 * ``'LGPL-3'`` for odoo 9.0 and above
 
+For OCA's repositories use ``'AGPL-3'``.
 
 external_dependencies
 ---------------------
