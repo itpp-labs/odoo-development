@@ -30,6 +30,17 @@ Lists
 * 1,2,3, ... - numerated 
 
 
+Links
+-----
+
+* internal link::
+
+  :doc:`Link Text<../relative/path/to/article>`
+
+* external link:: 
+  
+  `Link Text <https://google.com/>`_
+
 More documentations
 -------------------
 

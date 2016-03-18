@@ -55,6 +55,8 @@ See also:
 version
 -------
 
+*Note: whenever you change version, you have to add a record in* :doc:`changelog.rst <changelog.rst>`
+
 The `x.y.z` version numbers follow the semantics `breaking.feature.fix`:
 
   * `x` increments when the data model or the views had significant
