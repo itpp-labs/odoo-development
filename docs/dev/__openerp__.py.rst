@@ -15,6 +15,7 @@ Use example below as template. What are important here:
 * no description attribute
 * price and currency attributes are commented-out if not used
 * comma after last item in list (e.g. in 'depends' attribute)
+* add new line symbol at the end of file (i.e. right after last ``}``)
 
 .. code-block:: python
 
@@ -47,6 +48,9 @@ Use example below as template. What are important here:
         "installable": True,
         "auto_install": False,
     }
+
+
+.. image:: ../images/__openerp__.py-no-new-line-at-the-end-of-file.png
 
 See also:
 
