@@ -10,7 +10,7 @@ Guidlines
 Use example below as template. What are important here:
 
 * order of attributes 
-* quote characters (``'``, ``"""``)
+* quote characters (``"``, ``"""``)
 * empty lines
 * no description attribute
 * price and currency attributes are commented-out if not used
@@ -20,33 +20,36 @@ Use example below as template. What are important here:
 
    # -*- coding: utf-8 -*-
    {
-        'name': """Module name""",
-        'summary': """Short description of the module""",
-        'category': 'Some Category',
-        'images': []
-        'version': '1.0.0',
+        "name": """Module name""",
+        "summary": """Short description of the module""",
+        "category": "Some Category",
+        "images": []
+        "version": "1.0.0",
 
-        'author': 'IT-Projects LLC, Devenloper Name',
-        'website': 'https://it-projects.info',
-        'license': 'GPL-3',
-        #'price': 9.00,
-        #'currency': 'EUR',
+        "author": "IT-Projects LLC, Devenloper Name",
+        "website": "https://it-projects.info",
+        "license": "GPL-3",
+        #"price": 9.00,
+        #"currency": "EUR",
 
-        'depends': [
-            'dependency1',
-            'dependency2',
+        "depends": [
+            "dependency1",
+            "dependency2",
         ],
-        'external_dependencies': {'python': [], 'bin': []},
-        'data': [
-            'file1.xml',
-            'file2.xml',
-            'file3.yml',
+        "external_dependencies": {"python": [], "bin": []},
+        "data": [
+            "file1.xml",
+            "file2.xml",
+            "file3.yml",
         ],
-        'demo': [
+        "demo": [
         ],
-        'installable': True,
-        'auto_install': False,
+        "installable": True,
+        "auto_install": False,
     }
+
+See also:
+* OCA's template: https://github.com/OCA/maintainer-tools/blob/master/template/module/__openerp__.py
 
 version
 -------
