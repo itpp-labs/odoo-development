@@ -49,6 +49,7 @@ Use example below as template. What are important here:
     }
 
 See also:
+
 * OCA's template: https://github.com/OCA/maintainer-tools/blob/master/template/module/__openerp__.py
 
 version
@@ -92,27 +93,38 @@ added only to one version (e.g. 9), then version is changed as in example below:
 
 i.e. two module branches cannot have same versions with a different meaning
 
+author
+------
+
+Use company first and then developer(s): ::
+
+        "author": "IT-Projects LLC, Devenloper Name",
+
+For OCA's repositories put company name first, then OCA. Developers are listed in README file: ::
+
+    "author": "IT-Projects LLC, Odoo Community Association (OCA)",
+
 
 license
 -------
 
 IT-Projects LLC uses following licences:
 
-* ``'GPL-3'`` for odoo 8.0 and below
-* ``'LGPL-3'`` for odoo 9.0 and above
+* ``"GPL-3"`` for odoo 8.0 and below
+* ``"LGPL-3"`` for odoo 9.0 and above
 
-For OCA's repositories use ``'AGPL-3'``.
+For OCA's repositories use ``"AGPL-3"``.
 
 external_dependencies
 ---------------------
 
 Check if some python library exists::
 
-  external_dependencies': {'python' : ['openid']}
+  "external_dependencies": {"python" : ["openid"]}
 
 
 Check if some sytem application exists::
 
-  external_dependencies': {'bin' : ['libreoffice']}
+  "external_dependencies": {"bin" : ["libreoffice"]}
 
 

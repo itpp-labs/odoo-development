@@ -31,6 +31,10 @@ Guidlines
 
     Tested on Odoo 8.0 a40d48378d22309e53e6d38000d543de1d2f7a78
 
+See also:
+
+* OCA's README: https://raw.githubusercontent.com/OCA/maintainer-tools/master/template/module/README.rst
+
 Usage
 -----
 
@@ -58,3 +62,4 @@ commit sha can be found as following
 
     cd /path/to/odoo
     git rev-parse HEAD
+
