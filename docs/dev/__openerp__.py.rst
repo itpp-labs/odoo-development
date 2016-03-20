@@ -19,8 +19,8 @@ Use example below as template. What are important here:
 
 .. code-block:: python
 
-   # -*- coding: utf-8 -*-
-   {
+    # -*- coding: utf-8 -*-
+    {
         "name": """Module name""",
         "summary": """Short description of the module""",
         "category": "Some Category",
