@@ -24,7 +24,7 @@ Use example below as template. What are important here:
         "name": """Module name""",
         "summary": """Short description of the module""",
         "category": "Some Category",
-        "images": []
+        "images": [],
         "version": "1.0.0",
 
         "author": "IT-Projects LLC, Devenloper Name",
