@@ -1,5 +1,5 @@
 Pull request from console
-------------------------------------
+-------------------------
 
 Yes it possible! Try this manual: https://github.com/github/hub
 Than in console::

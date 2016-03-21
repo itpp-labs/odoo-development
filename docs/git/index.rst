@@ -10,4 +10,5 @@ Git and Github
    multi-pull-request
    reset
    utils
+   remote
    files-relocation

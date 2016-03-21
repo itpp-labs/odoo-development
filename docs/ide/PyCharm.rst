@@ -1,8 +1,8 @@
 PyCharm
-======
+=======
 
 Remote access with pgAdmin to Odoo postgre database on Ubuntu
------------------------------------------------------------------------------------------------
+-------------------------------------------------------------
 **This is for PgAdmin integration, but same method working with PyCharm.**
 
 

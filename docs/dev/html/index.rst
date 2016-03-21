@@ -1,0 +1,6 @@
+HTML
+====
+
+.. toctree::
+
+   main
