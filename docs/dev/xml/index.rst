@@ -6,3 +6,4 @@ XML
    create-records
    xpath
    qweb
+   inherit
