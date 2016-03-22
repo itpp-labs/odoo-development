@@ -50,6 +50,7 @@ To find last commit ``upstream/8.0`` and ``upstream/9.0`` were merged, use follo
     git branch -r --contains f1cd564
     git branch -r --contains 6cc2562
 
-    # Use commit sha to create new branch:
+    # Use commit sha to create new branches:
     
-    git checkout -b 'new_branch_name' 5cb3652be72a05330c3988d270f3aef548511b29
+    git checkout -b '9.0-new_branch_name' 5cb3652be72a05330c3988d270f3aef548511b29
+    git checkout -b '8.0-new_branch_name' 6cc2562
