@@ -6,6 +6,7 @@ Section helps in understanding built-in models
 .. toctree::
    :maxdepth: 3
 
+   ir.config_parameter
 ..   product
-..   ir.config_parameter
+..
 ..   stock.move
