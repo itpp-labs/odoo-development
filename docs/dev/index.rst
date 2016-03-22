@@ -6,6 +6,7 @@ Development
 
    README.rst.rst           
    __openerp__.py
+   changelog.rst.rst
    py/index
    xml/index
    html/index
