@@ -39,4 +39,20 @@ fields like ``default_XXX``, ``group_XXX`` and ``module_XXX``.  It also invokes 
 with a name that starts with ``get_default_``; such methods can be defined to provide
 current values for other fields.
 
+Example
+-------
+This for website.config.settings but it is similar to res.config.settings::
 
+    class website_config_settings(models.TransientModel):
+        _inherit = 'website.config.settings'
+        nobill_noship = fields_new_api.Boolean("Pickup and pay at store")
+        #When you press Apply
+        def set_nobill_noship(self, cr, uid, ids, context=None):
+            config_parameters = self.pool.get("ir.config_parameter")
+            for record in self.browse(cr, uid, ids, context=context):
+                config_parameters.set_param(cr, uid, "website_sale_checkout_store.nobill_noship", record.nobill_noship or '', context=context)
+        #When page loads
+        def get_default_nobill_noship(self, cr, uid, ids, context=None):
+            nobill_noship = self.pool.get("ir.config_parameter").get_param(cr, uid, "website_sale_checkout_store.nobill_noship", default=False, context=context)
+            return {'nobill_noship': nobill_noship}
+    #website_sale_checkout_store - is your module

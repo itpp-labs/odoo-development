@@ -48,11 +48,10 @@ Apply commits from newer branch (e.g. 9.0) to older branch (e.g. 8.0) ::
 
   git push
 
+Also possible to pick the commit from any remote repository. Add this repository to your remotes. Do fetch from it. And then cherry-pick.
+
 Then make forward-port ::
   
   git fetch
   git checkout 9.0
   git merge origin/8.0
-
-
-
