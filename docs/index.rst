@@ -15,6 +15,7 @@ Current content:
    dev/index
    description/index
    git/index
+   odoo/index
    ide/index
    other/index
 
