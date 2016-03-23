@@ -13,7 +13,7 @@ Code::
             <field name="value">True</value>
         </record>
 
-Instead of *myid* existed id from other module can be used to overwrite value.
+Instead of *myid* existed id from other module can be used to overwrite value. Example: <record id="auth_signup.allow_uninvited" model="ir.config_parameter">.
 
 Search addons for *model="ir.config_parameter"* for more examples.
 
