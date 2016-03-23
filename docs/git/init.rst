@@ -15,3 +15,10 @@ Initial git & github configuration
 
     git config --global user.email "your_email@example.com"
 
+* `Configure global gitignore <https://help.github.com/articles/ignoring-files/#create-a-global-gitignore>`_
+
+    Possible content for ``~/.gitignore_global``: ::
+
+    *~
+    *.pyc   
+
