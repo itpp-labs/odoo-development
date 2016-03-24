@@ -17,7 +17,7 @@ Use this approach only to manipulate keys you create.
 It's not recommended to change others modules this way.
 For example such like this::
 
-     <record model="ir.config_parameter" id="google_app_key">
+     <record model="ir.config_parameter" id="website.google_app_key">
 
 Search addons for *model="ir.config_parameter"* for more examples.
 
