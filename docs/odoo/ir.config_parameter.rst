@@ -9,11 +9,15 @@ Create new setting
 Code::
 
         <record id="myid" model="ir.config_parameter">
-            <field name="key">auth_signup.allow_uninvited</field>
+            <field name="key">mymodule.mykey</field>
             <field name="value">True</value>
         </record>
 
-Instead of *myid* existed id from other module can be used to overwrite value. Example: <record id="auth_signup.allow_uninvited" model="ir.config_parameter">.
+Use this approach only to manipulate keys you create.
+It's not recommended to change others modules this way.
+For example such like this::
+
+     <record model="ir.config_parameter" id="google_app_key">
 
 Search addons for *model="ir.config_parameter"* for more examples.
 
