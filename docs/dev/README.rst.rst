@@ -29,7 +29,7 @@ Guidlines
 
     HTML Description: https://apps.odoo.com/apps/modules/VERSION/TECHNICAL_NAME/
 
-    Tested on Odoo 8.0 a40d48378d22309e53e6d38000d543de1d2f7a78
+    Tested on Odoo 8.0 ODOO_COMMIT_SHA_TO_BE_UPDATED
 
 See also:
 
