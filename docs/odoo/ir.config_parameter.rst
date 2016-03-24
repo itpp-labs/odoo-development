@@ -13,7 +13,7 @@ Code::
             <field name="value">True</value>
         </record>
 
-Use this approach only to manipulate keys you create.
+Use this approach only to manipulate keys you created.
 It's not recommended to change others modules this way.
 For example such like this::
 
