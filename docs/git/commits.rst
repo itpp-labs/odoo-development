@@ -7,7 +7,7 @@ Commit comment prefix
 * **[IMP]** for improvements
 * **[FIX]** for bug fixes
 * **[REF]** for refactoring
-* **[ADD]** for adding new resources
+* **[ADD]** for adding new resources (new modules or files).
 * **[REM]** for removing of resources
 * **[MERGE]** for merge commits (only for forward/back-port)
 * **[CLA]** for signing the Odoo Individual Contributor License
