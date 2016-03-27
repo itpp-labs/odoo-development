@@ -30,7 +30,7 @@ Only for selling modules without html description.
 ::
 
     Need our service?
-    =================
+    -----------------
     
     Contact us by `email <mailto:it@it-projects.info>`_ or fill out `request form <https://www.it-projects.info/page/website.contactus>`_:
     
