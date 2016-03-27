@@ -1,7 +1,7 @@
 Contact us block
 ================
 
-For every selling modules IT-Projects LLC adds following block
+For every selling modules IT-Projects LLC adds following block at the end of module description
 
 HTML
 ----
