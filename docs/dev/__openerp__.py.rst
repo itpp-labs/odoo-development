@@ -100,7 +100,7 @@ added only to one version (e.g. 9), then version is changed as in example below:
 i.e. two module branches cannot have same versions with a different meaning
 
 version in OCA
-^^^
+^^^^^^^^^^^^^^
 
 While `OCA use odoo version in module version <https://github.com/OCA/maintainer-tools/blob/master/CONTRIBUTING.md#version-numbers>`_ (e.g. ``8.0.1.0.0``), we specify odoo version in :doc:`README.rst <README.rst>` file and use three numbers in version (e.g. ``1.0.0``).
 
