@@ -13,19 +13,31 @@ Guidlines
 
 .. code-block:: rst
 
+    ===========
     Module Name
     ===========
 
     Description or Technical specifications
 
     Usage
-    -----
+    =====
 
     * Open menu ...
     * Click ...
 
+    Credits
+    =======
+
+    Contributors
+    ------------
+    * Developer name <PERSON@it-projects.info>
+
+    Sponsors
+    --------
+    * `IT-Projects LLC <https://it-projects.info>`_
+
     Further information
-    -------------------
+    ===================
 
     HTML Description: https://apps.odoo.com/apps/modules/VERSION/TECHNICAL_NAME/
 
