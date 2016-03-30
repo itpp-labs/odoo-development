@@ -12,10 +12,11 @@ Current content:
 
    first-steps
    install
-   ide/index
    dev/index
    description/index
    git/index
+   odoo/index
+   ide/index
    other/index
 
 

@@ -6,8 +6,11 @@ Development
 
    README.rst.rst           
    __openerp__.py
+   changelog.rst.rst
    py/index
    xml/index
+   html/index
+   css/index
    yml/index
    js/index
    frontend/index
@@ -15,4 +18,6 @@ Development
    hooks/index
    debug/index
    other/index
-   res.config.settings
+   
+
+

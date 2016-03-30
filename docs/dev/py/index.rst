@@ -5,3 +5,5 @@ Odoo Python
 
    decorators
    python/index
+   res.config.settings
+   controllers

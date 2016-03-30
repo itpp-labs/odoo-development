@@ -30,25 +30,7 @@ It can contain error and warning about client part.
 boot.js
 ^^^^^^^
 
-If into server console no errors but boot.js raise exception that find out reason error next steps:
-
-.. image:: ../img/screenshots/boot_js/error.png
-
-1. Go to error line into boot.js.
-
-2. Turn on breakpoint.
-
-.. image:: ../img/screenshots/boot_js/breakpoint.png
-
-3. Rerun script.
-
-4. When script stop on error line move to console.
-
-5. Typing command: failed[0].error
-
-6. To receive the output
-
-.. image:: ../img/screenshots/boot_js/console.png
+Example is here:  :doc:`Failed modules <errors/failed-modules>`
 
 Sources
 -------
@@ -60,19 +42,8 @@ Allows you to check which client side files are loaded and which are not. To do 
 
 3. Open left panel (if it is not open yet) and search interested app.
 
-For example, sometimes during page load displayed the error type:
+Example:  :doc:`Missing dependencies error in console <errors/missing-dependencies>`
 
-``Missing dependencies: [...]
-Non loaded modules: [...]``
-
-.. image:: ../../images/screenshots/sources_tab/error.png
-
-You can find out reason in the Developer Tool in the tab Sources as described above.
-
-.. image:: ../../images/screenshots/sources_tab/sources.png
-
-Likely you can not find files included in the Missing dependencies list.
-Then you need to check they are included in the view (.xml) files.
 
 Network
 -------

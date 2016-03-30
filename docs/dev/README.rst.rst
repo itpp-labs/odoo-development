@@ -13,23 +13,39 @@ Guidlines
 
 .. code-block:: rst
 
+    ===========
     Module Name
     ===========
 
     Description or Technical specifications
 
     Usage
-    -----
+    =====
 
     * Open menu ...
     * Click ...
 
+    Credits
+    =======
+
+    Contributors
+    ------------
+    * Developer name <PERSON@it-projects.info>
+
+    Sponsors
+    --------
+    * `IT-Projects LLC <https://it-projects.info>`_
+
     Further information
-    -------------------
+    ===================
 
-    HTML Description: https://apps.odoo.com/apps/modules/.../...
+    HTML Description: https://apps.odoo.com/apps/modules/VERSION/TECHNICAL_NAME/
 
-    Tested on Odoo 8.0 a40d48378d22309e53e6d38000d543de1d2f7a78
+    Tested on Odoo 8.0 ODOO_COMMIT_SHA_TO_BE_UPDATED
+
+See also:
+
+* OCA's README: https://raw.githubusercontent.com/OCA/maintainer-tools/master/template/module/README.rst
 
 Usage
 -----
@@ -58,3 +74,4 @@ commit sha can be found as following
 
     cd /path/to/odoo
     git rev-parse HEAD
+

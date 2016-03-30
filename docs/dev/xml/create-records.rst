@@ -1,6 +1,8 @@
 Create record of model
 ======================
 
+Create new record::
+
     <openerp>
         <data>
             <record id="demo_multi_session" model="pos.multi_session">
