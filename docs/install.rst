@@ -135,4 +135,5 @@ nginx_odoo.conf
 Production installation
 -----------------------
 
-https://gist.github.com/yelizariev/2abdd91d00dddc4e4fa4
+* https://gist.github.com/yelizariev/2abdd91d00dddc4e4fa4
+* https://gist.github.com/bassn/996f8b168f0b1406dd54 -- Fully automated script to install Odoo and Odoo SaaS Tool (tested on a fresh Ubuntu 14.04 LTS)
