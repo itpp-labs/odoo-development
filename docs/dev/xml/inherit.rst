@@ -12,3 +12,4 @@ What you need is just set priority explicitly in your template::
 
 Less priority means prior execution.
 
+Default priority is 16.
