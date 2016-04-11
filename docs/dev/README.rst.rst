@@ -43,9 +43,23 @@ Guidlines
 
     Tested on Odoo 8.0 ODOO_COMMIT_SHA_TO_BE_UPDATED
 
-See also:
+Rendering
+^^^^^^^^^
 
-* OCA's README: https://raw.githubusercontent.com/OCA/maintainer-tools/master/template/module/README.rst
+    Be sure, that rendered README file looks as you expected.
+
+Raw:
+
+.. image:: ../images/raw-rst.png
+
+Rendered:
+
+.. image:: ../images/rendered-rst.png
+
+OCA's README
+^^^^^^^^^^^^
+
+* https://raw.githubusercontent.com/OCA/maintainer-tools/master/template/module/README.rst
 
 Usage
 -----
