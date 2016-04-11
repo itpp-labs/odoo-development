@@ -1,0 +1,7 @@
+Tests
+=====
+
+.. toctree::
+
+   python
+   js
