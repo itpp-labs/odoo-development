@@ -9,7 +9,7 @@ You can test you module web mechanics behavior using phantom js.
 
 What you need is:
 
-    * Install phantom. *pip install phantomjs*
+    * Install phantom. *sudo apt-get install phantomjs*
     * Create folder named **tests**
     * Add __init__.py file
     * Create file that name begins from **test_**
@@ -67,5 +67,8 @@ Call tour example::
         def test_01_res_partner_mails_to_count(self):
             self.phantom_js('/',  "openerp.Tour.run('mails_count_tour', 'test')", "openerp.Tour.tours.mails_count_tour", login="admin")
 
+Also odoo must be started with **-d** , **--test-enable** and without **db-filter** , **workers**.
+If assumes ti run test only on install or update use **-i** or **-u**.
+Werkzeug must be 0.11.5 or higher.
 
 Look up js tour page for details.

@@ -9,36 +9,54 @@ Creating Tour
 Tour is a simple JS file with some determined structure.
 Example::
 
-        id: 'mails_count_tour',
-        name: _t("Mails count Tour"),
-        mode: 'test',
-        path: '/web#id=3&model=res.partner',
-        steps: [
-            {
-                title:     _t("Mails count tutorial"),
-                content:   _t("Let's see how mails count work."),
-                popover:   { next: _t("Start Tutorial"), end: _t("Skip") },
-            },
-            {
-                title:     _t("New fields"),
-                content:   _t("Here is new fields with mails counters. Press one of it."),
-                element:   '.mails_to',
-            },
-            {
-                waitNot:   '.mails_to:visible',
-                title:     _t("Send message from here"),
-                placement: 'left',
-                content:   _t("Now you can see corresponding mails. You can send mail to this partner right from here. Press <em>'Send a mesage'</em>."),
-                element:   '.oe_mail_wall .oe_msg.oe_msg_composer_compact>div>.oe_compose_post',
-            },
-        ]
+        {
+            id: 'mails_count_tour',
+            name: _t("Mails count Tour"),
+            mode: 'test',
+            path: '/web#id=3&model=res.partner',
+            steps: [
+                {
+                    title:     _t("Mails count tutorial"),
+                    content:   _t("Let's see how mails count work."),
+                    popover:   { next: _t("Start Tutorial"), end: _t("Skip") },
+                },
+                {
+                    title:     _t("New fields"),
+                    content:   _t("Here is new fields with mails counters. Press one of it."),
+                    element:   '.mails_to',
+                },
+                {
+                    waitNot:   '.mails_to:visible',
+                    title:     _t("Send message from here"),
+                    placement: 'left',
+                    content:   _t("Now you can see corresponding mails. You can send mail to this partner right from here. Press <em>'Send a mesage'</em>."),
+                    element:   '.oe_mail_wall .oe_msg.oe_msg_composer_compact>div>.oe_compose_post',
+                },
+            ]
+        }
 
 What you do here is describing steps that got to be proceeded by user or phantom (phantomjs).
+
+In odoo 8 tour defines this way::
+
+    (function () {
+    'use strict';
+    var _t = openerp._t;
+    openerp.Tour.register({ ...
+
+In odoo 9 tour defines that way::
+
+    odoo.define('account.tour_bank_statement_reconciliation', function(require) {
+    'use strict';
+    var core = require('web.core');
+    var Tour = require('web.Tour');
+    var _t = core._t;
+    Tour.register({ ...
 
 Important details:
 
     * **id** - need to call this tour
-    * **path** - from this path tour will be started. Used in test mode only!
+    * **path** - from this path tour will be started in test mode
 
 Next step occurs when **all** conditions are satisfied and popup window will appear near (chose position in *placement*) element specified in *element*. Element must contain css selector of corresponding node.
 Conditions may be:
