@@ -45,7 +45,7 @@ You need to call phantom_js and give to it arguments:
 
     * Starting url
     * JS code intended for execution
-    * Ready criteria. Some JS object that indicates preparedness of web page
+    * Ready criteria. Some JS object that indicates preparedness of web page. In 9.0 it may be odoo.define('**mail_archives.archives**' ...
     * User name
 
 Use throw new Error('Error text'); for errors handling.
