@@ -9,10 +9,6 @@ Creating Tour
 Tour is a simple JS file with some determined structure.
 Example::
 
-    (function () {
-    'use strict';
-    var _t = openerp._t;
-    openerp.Tour.register({
         id: 'mails_count_tour',
         name: _t("Mails count Tour"),
         mode: 'test',
@@ -36,22 +32,22 @@ Example::
                 element:   '.oe_mail_wall .oe_msg.oe_msg_composer_compact>div>.oe_compose_post',
             },
         ]
-    });
-    }());
 
 What you do here is describing steps that got to be proceeded by user or phantom (phantomjs).
 
 Important details:
 
     * **id** - need to call this tour
-    * **path** - from this path tour will be started
+    * **path** - from this path tour will be started. Used in test mode only!
 
 Next step occurs when **all** conditions are satisfied and popup window will appear near (chose position in *placement*) element specified in *element*. Element must contain css selector of corresponding node.
 Conditions may be:
 
-    * **waitFor** - this step will not happened if *waitFor* node absent.
-    * **waitNot** - this step will not happened if *waitNot* node exists.
+    * **waitFor** - this step will not start if *waitFor* node absent.
+    * **waitNot** - this step will not start if *waitNot* node exists.
     * **wait** - just wait some amount of milliseconds before **next** step.
+    * **element** - wait for element.
+    * **closed window** - if popup window have close button it must be closed before next step.
 
 Opened popup window (from previous step) will close automatically and new window (next step) will be shown.
 
@@ -65,7 +61,7 @@ Inject JS Tour file on page::
 
 Some docs is here (begin from 10 slide):
 http://www.slideshare.net/openobject/how-to-develop-automated-tests
-Also checkout here (search 'step' word):
+Also checkout here:
 https://github.com/odoo/odoo/blob/9.0/addons/web/static/src/js/tour.js
 
 You can launch tour by entering in browser address like this mydatabase/web#/tutorial.mails_count_tour=true where after tutorial. is id of your tour.
@@ -74,7 +70,6 @@ Automatic tour launch
 ---------------------
 To run tour after module installation do next steps.
 
-    * Install phantom if you dont have it. *pip install phantomjs*
     * Create *ToDo*
     * Create *Action*
 

@@ -4,7 +4,7 @@ JS Testing
 Regular phantom JS tests
 ------------------------
 
-Odoo have superstructure on phantom_js python module and it is an only web testing tool that odoo got.
+For automatic web tests odoo uses phantom_js.
 You can test you module web mechanics behavior using phantom js.
 
 What you need is:
@@ -53,12 +53,19 @@ Use throw new Error('Error text'); for errors handling.
 JS phantom tests using Tours
 ----------------------------
 
-It is possible to run js phantom tests using Tour as JS testing code. To run test automatically after installing module do next:
+It is possible to run js phantom tests using Tour as JS testing code.
+To run test automatically after installing module you will need:
 
-    * Create *ToDo*
-    * Create *Action*
-    * Inject JS Tour on page
+    * Install phantomjs if dont have yet
+    * Inject *JS Tour* file on web page
+    * Create test as described higher
+    * Call tour
+
+Call tour example::
+
+    class TestUi(openerp.tests.HttpCase):
+        def test_01_res_partner_mails_to_count(self):
+            self.phantom_js('/',  "openerp.Tour.run('mails_count_tour', 'test')", "openerp.Tour.tours.mails_count_tour", login="admin")
+
 
 Look up js tour page for details.
-
-Don't forget **--test-enable** key.
