@@ -30,7 +30,7 @@ Guidlines
 
     Contributors
     ------------
-    * Developer name <PERSON@it-projects.info>
+    * DEVELOPER_NAME <PERSON@it-projects.info>
 
     Sponsors
     --------
