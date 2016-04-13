@@ -7,3 +7,4 @@ Module documentation
    screenshots
    create-description
    contactus
+   js_tour

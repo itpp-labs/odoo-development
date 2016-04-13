@@ -7,3 +7,4 @@ Odoo Python
    python/index
    res.config.settings
    controllers
+   x2many

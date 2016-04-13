@@ -18,6 +18,7 @@ Development
    hooks/index
    debug/index
    other/index
-   
+   tests/index
+
 
 
