@@ -5,4 +5,3 @@ YAML
 
    pure-yaml
    odoo-yaml
-   dynamic-records

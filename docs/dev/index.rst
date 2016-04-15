@@ -16,9 +16,9 @@ Development
    frontend/index
    access/index
    hooks/index
+   tests/index
    debug/index
    other/index
-   tests/index
 
 
 
