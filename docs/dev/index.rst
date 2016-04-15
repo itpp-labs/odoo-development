@@ -1,5 +1,5 @@
-Development
-===========
+Module Development
+==================
 
 .. toctree::
    :maxdepth: 3
