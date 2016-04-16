@@ -110,7 +110,7 @@ But then I type only one command instead of ten in case of fully manual approach
 
 ::
 
-addons-yelizarie$ ../movemodule.sh group_menu_no_access ../access-addons 8.0
+    addons-yelizarie$ ../movemodule.sh group_menu_no_access ../access-addons 8.0
 
 I assume here that the addons-yelizariev directory would be placed in your home
 directory along with the access-addons directory. Be  sure that you are on the 8.0 branches

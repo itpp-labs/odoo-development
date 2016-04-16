@@ -1,10 +1,6 @@
 README.rst
 ==========
 
-*README.rst* is the **first** file you have to create in new module, because *README.rst* helps you review requirements again before you start.
-
-You can consider *README.rst* as a technical description of the module.
-
 .. contents::
    :local:
 
@@ -19,18 +15,12 @@ Guidlines
 
     Description or Technical specifications
 
-    Usage
-    =====
-
-    * Open menu ...
-    * Click ...
-
     Credits
     =======
 
     Contributors
     ------------
-    * Developer name <PERSON@it-projects.info>
+    * DEVELOPER_NAME <PERSON@it-projects.info>
 
     Sponsors
     --------
@@ -41,16 +31,31 @@ Guidlines
 
     HTML Description: https://apps.odoo.com/apps/modules/VERSION/TECHNICAL_NAME/
 
+    Usage instructions: `<doc/index.rst>`_
+
+    Changelog: `<doc/changelog.rst>`_
+
     Tested on Odoo 8.0 ODOO_COMMIT_SHA_TO_BE_UPDATED
 
-See also:
+Rendering
+^^^^^^^^^
 
-* OCA's README: https://raw.githubusercontent.com/OCA/maintainer-tools/master/template/module/README.rst
+    Be sure, that rendered README file looks as you expected.
 
-Usage
------
+Raw:
+""""
 
-Instruction how to check that module works. What shall user do and what would he get. 
+.. image:: ../../images/raw-rst.png
+
+Rendered:
+"""""""""
+
+.. image:: ../../images/rendered-rst.png
+
+OCA's README
+^^^^^^^^^^^^
+
+* https://raw.githubusercontent.com/OCA/maintainer-tools/master/template/module/README.rst
 
 HTML Description
 ----------------
@@ -60,6 +65,17 @@ Link to app store, e.g.
 .. code-block:: rst
 
     HTML Description: https://apps.odoo.com/apps/modules/9.0/web_debranding/
+
+Usage instructions
+------------------
+
+* :doc:`doc/index.rst <usage-instructions>`
+
+Changelog
+---------
+
+* :doc:`doc/changelog.rst <changelog.rst>`
+
 
 Tested on
 ---------

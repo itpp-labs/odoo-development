@@ -50,7 +50,7 @@ Use example below as template. What are important here:
     }
 
 
-.. image:: ../images/__openerp__.py-no-new-line-at-the-end-of-file.png
+.. image:: ../../images/__openerp__.py-no-new-line-at-the-end-of-file.png
 
 See also:
 
@@ -144,3 +144,26 @@ Check if some sytem application exists::
   "external_dependencies": {"bin" : ["libreoffice"]}
 
 
+
+Modules categories
+------------------
+
+We got to use this categories ("category" field) if possible:
+
+   * Accounting
+   * Discuss
+   * Document Management
+   * eCommerce
+   * Human Resources
+   * Industries
+   * Localization
+   * Manufacturing
+   * Marketing
+   * Point of Sale
+   * Productivity
+   * Project
+   * Purchases
+   * Sales
+   * Warehouse
+   * Website
+   * Extra Tools

@@ -1,5 +1,5 @@
-Module documentation
-====================
+User documentation
+==================
 
 .. toctree::
    :maxdepth: 3
@@ -7,3 +7,4 @@ Module documentation
    screenshots
    create-description
    contactus
+   js_tour

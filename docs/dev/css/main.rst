@@ -10,6 +10,7 @@ Code::
 	        <link rel="stylesheet" href="/my_module/static/src/css/main.css"/>
 	    </xpath>
 	</template>
+
 *website_sale.assets_frontend* is what you inherits.
 
 Hide fields

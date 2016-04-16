@@ -1,9 +1,45 @@
+===============
 Dynamic records
 ===============
 
-While :doc:`XML <../xml/index>`  allows you  create only *static* records, there is a way to create record dynamically. You need dynamic records, for example, to add support both for enterprise and community releases or to add some records to each company in database etc.
+While :doc:`XML <../xml/index>`  allows you  create only *static* records, there is a way to create record dynamically via python code. You need dynamic records, for example, to add support both for enterprise and community releases or to add some records to each company in database etc.
 
-Here is the example from ``web_debranding`` module. To create records in ``ir.model.data`` we use name ``_web_debranding``, because otherwise odoo considers such records as ones, which were in xml files, but now deleted. It also means, that odoo will not delete such records on uninstallation, so we need to do it manually via ``uninstall_hook``.
+There several ways to execute code on installation:
+
+* TODO
+* TODO
+* TODO
+
+The problem with dynamic records is that odoo considers such records as ones, which were in xml files, but now deleted. It means that odoo will delete such dynamic records right after updating. There are two ways to resolve it.
+
+noupdate=False
+==============
+
+Simply add update=True to your ``ir.model.data`` record: ::
+
+
+    debt_account = registry['account.account'].create(cr, SUPERUSER_ID, {
+        'name': 'Debt',
+        'code': 'XDEBT',
+        'user_type_id': registry.get('ir.model.data').get_object_reference(cr, SUPERUSER_ID, 'account', 'data_account_type_current_assets')[1],
+        'company_id': company.id,
+        'note': 'code "XDEBT" should not be modified as it is used to compute debt',
+    })
+    registry['ir.model.data'].create(cr, SUPERUSER_ID, {
+        'name': 'debt_account_' + str(company.id),
+        'model': 'account.account',
+        'module': 'pos_debt_notebook',
+        'res_id': debt_account,
+        'noupdate': True,  # If it's False, target record (res_id) will be removed while module update
+    })
+
+
+noupdate=True
+=============
+
+If for some reason you cannot use noupdate=False, you can use following trick.
+
+Here is the example from ``web_debranding`` module. To create records in ``ir.model.data`` we use name ``_web_debranding``. Then odoo will consider such records as belonging to another module (``_web_debranding``) and will not delete them. But it also means, that odoo will not delete them after uninstalling. For later case, we need to use ``uninstall_hook``. 
 
 
 .. contents::

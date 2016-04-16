@@ -13,3 +13,4 @@ Git and Github
    remote
    files-relocation
    commits
+   stash

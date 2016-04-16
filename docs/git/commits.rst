@@ -2,7 +2,7 @@ Commit comment prefix
 =====================
 
 * **[ORIG]** for copy-pasted code
-* **[DOC]** for documentation
+* **[DOC]**  for documentation. Don't use any other tags when you improve, fix, refactor documentation
 * **[PORT]** for porting
 * **[IMP]** for improvements
 * **[FIX]** for bug fixes
