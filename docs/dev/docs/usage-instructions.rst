@@ -2,7 +2,7 @@
 doc/index.rst
 =============
 
-The file contains usage, installation, uninstallation instructions and notes.::
+::
 
     ===========
     Module name
@@ -16,6 +16,7 @@ The file contains usage, installation, uninstallation instructions and notes.::
     Usage
     =====
 
+    Instruction how to check that module works. What shall user do and what would user get, e.g.
     * Open menu ...
     * Click ...
 

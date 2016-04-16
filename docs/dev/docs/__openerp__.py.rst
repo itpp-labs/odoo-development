@@ -50,7 +50,7 @@ Use example below as template. What are important here:
     }
 
 
-.. image:: ../images/__openerp__.py-no-new-line-at-the-end-of-file.png
+.. image:: ../../images/__openerp__.py-no-new-line-at-the-end-of-file.png
 
 See also:
 

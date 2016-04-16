@@ -4,6 +4,21 @@ doc/changelog.rst
 Template
 ---------
 
+Use this for new modules
+
+.. code-block:: rst
+
+    Changelog
+    =========
+
+    `1.0.0`
+    -------
+    
+    - Init version
+
+Guidlines
+---------
+
 .. code-block:: rst
 
     Changelog
@@ -28,4 +43,4 @@ Template
     `1.0.0`
     -------
     
-    - init version
+    - Init version

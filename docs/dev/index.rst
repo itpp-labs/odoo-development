@@ -4,10 +4,7 @@ Module Development
 .. toctree::
    :maxdepth: 3
 
-   README.rst.rst           
-   usage-instructions
-   __openerp__.py
-   changelog.rst.rst
+   docs/index
    py/index
    xml/index
    html/index

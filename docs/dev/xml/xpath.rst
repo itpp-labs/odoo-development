@@ -26,4 +26,4 @@ Inside of ::
         ...
     </xpath>
 
-you can put **only**  ``<attribute name= `` and nothing more.
+you can put **only**  ``<attribute name=`` and nothing more.

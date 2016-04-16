@@ -1,10 +1,6 @@
 README.rst
 ==========
 
-*README.rst* is the **first** file you have to create in new module, because *README.rst* helps you review requirements again before you start.
-
-You can consider *README.rst* as a technical description of the module.
-
 .. contents::
    :local:
 
@@ -47,22 +43,19 @@ Rendering
     Be sure, that rendered README file looks as you expected.
 
 Raw:
+""""
 
-.. image:: ../images/raw-rst.png
+.. image:: ../../images/raw-rst.png
 
 Rendered:
+"""""""""
 
-.. image:: ../images/rendered-rst.png
+.. image:: ../../images/rendered-rst.png
 
 OCA's README
 ^^^^^^^^^^^^
 
 * https://raw.githubusercontent.com/OCA/maintainer-tools/master/template/module/README.rst
-
-Usage
------
-
-Instruction how to check that module works. What shall user do and what would he get. 
 
 HTML Description
 ----------------
