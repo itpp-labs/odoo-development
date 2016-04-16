@@ -1,5 +1,5 @@
-Security in Odoo
-================
+Security tutorial
+=================
 
 Resources:
  * http://odoo-docs.readthedocs.org/en/latest/04_security.html
@@ -48,7 +48,7 @@ menuitem can be hidden.
 
 The ``groups`` attribute in the ``menuitem`` element shows us that only the members of ``base.group_no_one``
 group can see the ``Groups`` menu item.
-The ``base.group_no_one`` xmlid is defined in the ``./openerp/addons/base/security/base_security.xml as follows.
+The ``base.group_no_one`` xmlid is defined in the ``./openerp/addons/base/security/base_security.xml`` as follows.
 
 ::
 
