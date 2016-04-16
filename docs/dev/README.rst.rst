@@ -19,12 +19,6 @@ Guidlines
 
     Description or Technical specifications
 
-    Usage
-    =====
-
-    * Open menu ...
-    * Click ...
-
     Credits
     =======
 
@@ -40,6 +34,10 @@ Guidlines
     ===================
 
     HTML Description: https://apps.odoo.com/apps/modules/VERSION/TECHNICAL_NAME/
+
+    Usage instructions: `<doc/index.rst>`_
+
+    Changelog: `<doc/changelog.rst>`_
 
     Tested on Odoo 8.0 ODOO_COMMIT_SHA_TO_BE_UPDATED
 
@@ -74,6 +72,17 @@ Link to app store, e.g.
 .. code-block:: rst
 
     HTML Description: https://apps.odoo.com/apps/modules/9.0/web_debranding/
+
+Usage instructions
+------------------
+
+* :doc:`doc/index.rst <usage-instructions>`
+
+Changelog
+---------
+
+* :doc:`doc/changelog.rst <changelog.rst>`
+
 
 Tested on
 ---------

@@ -1,7 +1,5 @@
-changelog.rst
-=============
-
-changelog.rst is located in ``doc/`` directory of a module. 
+doc/changelog.rst
+=================
 
 Template
 ---------
