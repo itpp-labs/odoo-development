@@ -3,5 +3,5 @@ Access
 
 .. toctree::
 
-   ir.rule
+   tutorial.rst
    
