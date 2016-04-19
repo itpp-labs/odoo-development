@@ -1,9 +1,9 @@
 product.product
 ===============
 
-If item haven't similar products as :doc:`template <product.template>` are called **product**.
+The product, unlike the :doc:`template <product.template>`, it is a separate product that can be calculated, set the price, to assign a discount.
 
-product.product used:
+product.product is used:
 
 * sale.order
 * stock
