@@ -11,6 +11,8 @@ Section helps in understanding built-in models
    res.groups
    ir.model.access
    ir.rule
+   product.template
+   product.product
 
 ..   product
 ..
