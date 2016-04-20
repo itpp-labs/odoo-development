@@ -1,11 +1,12 @@
-__openerp__.py
-==============
+================
+ __openerp__.py
+================
 
 .. contents::
    :local:
 
 Guidlines
----------
+=========
 
 Use example below as template. What are important here:
 
@@ -56,8 +57,19 @@ See also:
 
 * OCA's template: https://github.com/OCA/maintainer-tools/blob/master/template/module/__openerp__.py
 
+name
+====
+
+It must be non-technical name of the module
+
+summary
+=======
+
+Short description of the module. E.g. you can describe here which problem is solved by the module.
+
+
 version
--------
+=======
 
 *Note: whenever you change version, you have to add a record in* :doc:`changelog.rst <changelog.rst>`
 
@@ -100,12 +112,12 @@ added only to one version (e.g. 9), then version is changed as in example below:
 i.e. two module branches cannot have same versions with a different meaning
 
 version in OCA
-^^^^^^^^^^^^^^
+--------------
 
 While `OCA use odoo version in module version <https://github.com/OCA/maintainer-tools/blob/master/CONTRIBUTING.md#version-numbers>`_ (e.g. ``8.0.1.0.0``), we specify odoo version in :doc:`README.rst <README.rst>` file and use three numbers in version (e.g. ``1.0.0``).
 
 author
-------
+======
 
 Use company first and then developer(s): ::
 
@@ -114,7 +126,7 @@ Use company first and then developer(s): ::
 In the main, if module already exists and you make small updates\fixes, you should not add your name to authors.
 
 author in OCA
-^^^^^^^^^^^^^
+-------------
 
 For OCA's repositories put company name first, then OCA. Developers are listed in README file: ::
 
@@ -122,7 +134,7 @@ For OCA's repositories put company name first, then OCA. Developers are listed i
 
 
 license
--------
+=======
 
 IT-Projects LLC uses following licences:
 
@@ -132,7 +144,7 @@ IT-Projects LLC uses following licences:
 For OCA's repositories use ``"AGPL-3"``.
 
 external_dependencies
----------------------
+=====================
 
 Check if some python library exists::
 
@@ -146,7 +158,7 @@ Check if some sytem application exists::
 
 
 Modules categories
-------------------
+==================
 
 We got to use this categories ("category" field) if possible:
 
