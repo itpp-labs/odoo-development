@@ -29,6 +29,10 @@ Don't forget to keep correct rst format.
     No spaces at the beggining and end of title
     ===========================================
 
+    =========================
+     No space at the of title
+    =========================
+
     =======================================
     Incorrect number of signs in title
     ========================================
