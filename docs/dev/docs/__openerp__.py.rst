@@ -48,6 +48,7 @@ Use example below as template. What are important here:
         "installable": True,
         "auto_install": False,
     }
+    
 
 
 .. image:: ../../images/__openerp__.py-no-new-line-at-the-end-of-file.png
