@@ -5,3 +5,4 @@ Tests
 
    python
    js
+   paypal
