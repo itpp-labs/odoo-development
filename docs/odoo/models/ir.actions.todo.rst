@@ -1,8 +1,9 @@
 ir.actions.todo
 ===============
 
-The model used for configuring wizards. 
-The model allows to set conditions and sequence of appearance for the action in the "ir.actions.act_window" model.
+The model is used for executing actions (records in the "ir.actions.act_window" model).
+The model allows to set conditions and sequence of appearance of wizards. Also you can specify a regular
+interface window but only as last action.
 Code::
 
         <record id="sce.initial_setup" model="ir.actions.todo">
