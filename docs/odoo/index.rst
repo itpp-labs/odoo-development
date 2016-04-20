@@ -6,5 +6,3 @@ Odoo
 
    models/index
    usage/index
-
-
