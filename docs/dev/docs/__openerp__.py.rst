@@ -22,13 +22,13 @@ Use example below as template. What are important here:
 
     # -*- coding: utf-8 -*-
     {
-        "name": """Module name""",
-        "summary": """Short description of the module""",
-        "category": "Some Category",
+        "name": """MODULE_NAME""",
+        "summary": """SHORT_DESCRIPTION_OF_THE_MODULE""",
+        "category": "SOME_CATEGORY",
         "images": [],
         "version": "1.0.0",
 
-        "author": "IT-Projects LLC, Devenloper Name",
+        "author": "IT-Projects LLC, DEVELOPER_NAME",
         "website": "https://it-projects.info",
         "license": "GPL-3",
         #"price": 9.00,
@@ -66,6 +66,29 @@ summary
 =======
 
 Short description of the module. E.g. you can describe here which problem is solved by the module. It could sound as a slogan.
+
+category
+========
+
+Categories from the list below are preferred.
+
+   * ``Accounting``
+   * ``Discuss``
+   * ``Document Management``
+   * ``eCommerce``
+   * ``Human Resources``
+   * ``Industries``
+   * ``Localization``
+   * ``Manufacturing``
+   * ``Marketing``
+   * ``Point of Sale``
+   * ``Productivity``
+   * ``Project``
+   * ``Purchases``
+   * ``Sales``
+   * ``Warehouse``
+   * ``Website``
+   * ``Extra Tools``
 
 
 version
@@ -157,25 +180,3 @@ Check if some sytem application exists::
 
 
 
-Modules categories
-==================
-
-We got to use this categories ("category" field) if possible:
-
-   * Accounting
-   * Discuss
-   * Document Management
-   * eCommerce
-   * Human Resources
-   * Industries
-   * Localization
-   * Manufacturing
-   * Marketing
-   * Point of Sale
-   * Productivity
-   * Project
-   * Purchases
-   * Sales
-   * Warehouse
-   * Website
-   * Extra Tools
