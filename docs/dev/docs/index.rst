@@ -12,4 +12,35 @@
    __openerp__.py
    changelog.rst.rst
 
+Don't forget to keep correct rst format.
+
+::
+
+    OK:
+    ===========================
+     Correctly formatted Title
+    ===========================
+
+    Correctly formatted section
+    ===========================
+
+    BAD:
+    ===========================================
+    No spaces at the beggining and end of title
+    ===========================================
+
+    =======================================
+    Incorrect number of signs in title
+    ========================================
+
+    ================
+    Incorrect number of signs in title
+    ================
+
+    Incorrect number of signs in section
+    =====================================
+
+    Incorrect number of signs in section
+    ===================================
+
 .. [*] The only exception could be made for *"data"* field in ``__openerp__.py`` file.
