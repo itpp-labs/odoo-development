@@ -65,7 +65,7 @@ It must be non-technical name of the module
 summary
 =======
 
-Short description of the module. E.g. you can describe here which problem is solved by the module.
+Short description of the module. E.g. you can describe here which problem is solved by the module. It could sound as a slogan.
 
 
 version
