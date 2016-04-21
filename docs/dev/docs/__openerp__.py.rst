@@ -35,14 +35,13 @@ Use example below as template. What are important here:
         #"currency": "EUR",
 
         "depends": [
-            "dependency1",
-            "dependency2",
+            "DEPENDENCY1",
+            "DEPENDENCY2",
         ],
         "external_dependencies": {"python": [], "bin": []},
         "data": [
-            "file1.xml",
-            "file2.xml",
-            "file3.yml",
+            "FILE1.xml",
+            "FILE2.xml",
         ],
         "demo": [
         ],
