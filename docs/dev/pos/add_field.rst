@@ -3,7 +3,7 @@ Add new field in the model of POS module
 
 For add new field in POS modules necessary in models.js override PosModel in the parent models which we take from "point_of_sale.models". For example:
 
-.. code-block:: shell
+.. code-block:: js
 
     var models = require('point_of_sale.models');
     var _super_posmodel = models.PosModel.prototype;
