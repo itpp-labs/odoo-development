@@ -12,6 +12,7 @@ Module Development
    yml/index
    js/index
    frontend/index
+   pos/index
    access/index
    hooks/index
    tests/index
