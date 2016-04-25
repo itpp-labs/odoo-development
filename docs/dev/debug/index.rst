@@ -5,3 +5,4 @@ Debugging
 
    logs
    errors/index
+   qweb
