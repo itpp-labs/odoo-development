@@ -7,3 +7,4 @@ How to use Odoo
    create-database
    install-module
    debug-mode
+   emails
