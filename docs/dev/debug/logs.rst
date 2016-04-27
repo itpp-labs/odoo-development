@@ -49,7 +49,7 @@ Network
 -------
 
 Sometime error are not printed neither in Terminal, nor in Console. Then you can try to find some logs at Network tab of browser's developer tool.
-To see original odoo js files i.e. not minimized versions, swich odoo in debug mode first.
+To see original odoo js files i.e. not minimized versions, :doc:`swich odoo in debug mode</odoo/usage/debug-mode>` first.
 
 How to see html request initiator
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
