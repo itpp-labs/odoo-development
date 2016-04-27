@@ -49,3 +49,13 @@ Network
 -------
 
 Sometime error are not printed neither in Terminal, nor in Console. Then you can try to find some logs at Network tab of browser's developer tool.
+To see original odoo js files i.e. not minimized versions, swich odoo in debug mode first.
+
+How to see html request initiator
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Suppose we want to know which part of our script initiate the request.
+If it is javascript we could see full program stack by putting mouse pointer on the initiator column's element. 
+
+.. image:: ../../images/dev/debug/browser_debug_network_initiator.png
+
