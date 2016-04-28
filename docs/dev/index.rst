@@ -5,6 +5,7 @@ Module Development
    :maxdepth: 3
 
    docs/index
+   guidelines
    py/index
    xml/index
    html/index

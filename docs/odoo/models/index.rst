@@ -13,6 +13,7 @@ Section helps in understanding built-in models
    ir.rule
    product.template
    product.product
+   ir.actions.todo
 
 ..   product
 ..
