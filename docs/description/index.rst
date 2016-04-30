@@ -8,3 +8,4 @@ User documentation
    create-description
    contactus
    js_tour
+   app-store-preview
