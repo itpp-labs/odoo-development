@@ -9,4 +9,5 @@ Official docs:
    :maxdepth: 3
 
    install
+   longpolling
    workers
