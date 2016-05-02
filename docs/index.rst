@@ -11,11 +11,11 @@ Current content:
    :maxdepth: 2
 
    first-steps
-   install
    dev/index
    description/index
    git/index
    odoo/index
+   admin/index
    ide/index
    other/index
 

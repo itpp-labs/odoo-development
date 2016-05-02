@@ -2,7 +2,6 @@ Odoo installation
 =================
 
 .. contents::
-   :local:
 
 Local installation
 ------------------
