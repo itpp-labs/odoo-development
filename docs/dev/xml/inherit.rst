@@ -19,6 +19,7 @@ What you need is just set priority explicitly in your template::
     <record id="..." model="ir.ui.view">
         ...
         <field name="inherit_id" ref="..."/>
+        <field name="priority" eval="8" />
         <field name="arch" type="xml">
             <xpath expr="..." position="...">
             </xpath>
