@@ -111,6 +111,12 @@ Use double back-quotes with spaced slash for menus: ::
     * Open menu ''Settings / Parameters / System Parameters''
     * Open menu ``Settings \ Parameters \ System Parameters``
 
+Buttons
+-------
+Use square brackets in double back-quotes to name buttons, e.g.: ::
+
+    * click ``[Save]``
+
 Titles and sections
 -------------------
 
