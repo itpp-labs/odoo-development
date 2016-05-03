@@ -19,6 +19,7 @@ Don't forget to keep correct rst format.
 
 .. contents::
    :local:
+   :depth: 1
 
 Extra lines
 -----------
@@ -100,7 +101,7 @@ Correctly formated lists:
 References to menu
 ------------------
 
-Use double back-quotes with spaced slash for menus: ::
+Use double back-quotes with **spaced** slash for menus: ::
 
     OK:
     * Open menu ``Settings / Parameters / System Parameters``
