@@ -21,7 +21,7 @@ To activate longpolling:
         proxy_pass http://127.0.0.1:8069;
     }
 
-* if you install odoo 9.0 via deb package, then you have to restore openerp-gevent file (see `#10207 <https://github.com/odoo/odoo/pull/10207>`_):::
+* if you install odoo 9.0 via deb package, then you have to restore openerp-gevent file (see `#10207 <https://github.com/odoo/odoo/pull/10207>`_): ::
 
     cd /usr/bin/
     wget https://raw.githubusercontent.com/odoo/odoo/9.0/openerp-gevent
