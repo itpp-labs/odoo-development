@@ -38,21 +38,6 @@ Guidlines
 
     Tested on Odoo 8.0 ODOO_COMMIT_SHA_TO_BE_UPDATED
 
-Rendering
----------
-
-    Be sure, that rendered README file looks as you expected.
-
-Raw
-^^^
-
-.. image:: ../../images/raw-rst.png
-
-Rendered
-^^^^^^^^
-
-.. image:: ../../images/rendered-rst.png
-
 OCA's README
 ------------
 

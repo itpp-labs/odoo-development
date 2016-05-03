@@ -12,7 +12,107 @@
    __openerp__.py
    changelog.rst.rst
 
+RST format
+==========
+
 Don't forget to keep correct rst format.
+
+.. contents::
+   :local:
+
+Extra lines
+-----------
+
+Dont' forget about additional lines for correct formatting
+
+Raw RST
+^^^^^^^
+::
+
+    This and next sentences are joined together.
+    To split sentences to paragraphs you must add add empty line.
+
+    Splited sentence 1.
+
+    Splited sentence 2.
+
+    Lists below doesn't rendered correctly, because extra line is required:
+    * 1
+    * 2
+    * 3
+
+    The same for sublist:
+
+    * 1
+      * 1.1
+      * 1.2
+      * 1.3
+    * 2
+
+    Correctly formated lists:
+
+    * 1
+    * 2
+    * 3
+
+      * 3.1
+      * 3.2
+      * 3.3
+
+    * 4
+
+Rendered RST
+^^^^^^^^^^^^
+
+This and next sentences are joined together.
+To split sentences to paragraphs you must add add empty line.
+
+Splited sentence 1.
+
+Splited sentence 2.
+
+Lists below doesn't rendered correctly, because extra line is required:
+* 1
+* 2
+* 3
+
+The same for sublist:
+
+* 1
+  * 1.1
+  * 1.2
+  * 1.3
+* 2
+
+Correctly formated lists:
+
+* 1
+* 2
+* 3
+
+  * 3.1
+  * 3.2
+  * 3.3
+
+* 4
+
+
+References to menu
+------------------
+
+Use double back-quotes with spaced slash for menus: ::
+
+    OK:
+    * Open menu ``Settings / Parameters / System Parameters``
+
+    BAD
+    * Open menu ``Settings/Parameters/System Parameters``
+    * Open menu "Settings / Parameters / System Parameters"
+    * Open menu ''Settings / Parameters / System Parameters''
+    * Open menu ``Settings \ Parameters \ System Parameters``
+
+Titles and sections
+-------------------
 
 ::
 
