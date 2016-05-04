@@ -20,11 +20,11 @@ Guidlines
     =======
 
     Contributors
-    ============
+    ------------
     * DEVELOPER_NAME <PERSON@it-projects.info>
 
     Sponsors
-    ========
+    --------
     * `IT-Projects LLC <https://it-projects.info>`_
 
     Further information
