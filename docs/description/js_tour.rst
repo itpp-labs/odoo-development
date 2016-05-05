@@ -64,7 +64,7 @@ Conditions may be:
     * **waitFor** - this step will not start if *waitFor* node absent.
     * **waitNot** - this step will not start if *waitNot* node exists.
     * **wait** - just wait some amount of milliseconds before **next** step.
-    * **element** - wait for element.
+    * **element** - similar to *waitFor*,  but *element* must be visible
     * **closed window** - if popup window have close button it must be closed before next step.
 
 Opened popup window (from previous step) will close automatically and new window (next step) will be shown.
