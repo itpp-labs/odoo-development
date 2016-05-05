@@ -11,6 +11,7 @@
    usage-instructions
    __openerp__.py
    changelog.rst.rst
+   icon.png.rst
 
 RST format
 ==========
