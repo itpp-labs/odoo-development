@@ -114,9 +114,14 @@ Use double back-quotes with **spaced** slash for menus: ::
 
 Buttons
 -------
-Use square brackets in double back-quotes to name buttons, e.g.: ::
+Use square brackets in double back-quotes to name buttons. Keep letter cases the same as in UI. ::
 
+    OK:
     * click ``[Save]``
+
+    Bad:
+    * click ``[save]``
+
 
 Titles and sections
 -------------------
