@@ -11,8 +11,8 @@ For example we have definition in /../../../*js file::
     odoo.define('pos_reprint.pos_reprint', function (require) {
     ...
     screens.define_action_button({
-        'name': 'reprint',
-        'widget': ReprintButton,
+        'name': 'guests',
+        'widget': TableGuestsButton,
         'condition': function()
 
 This defenition doesn't return class ReprintButton. So, we cannot inherit it in a usual way.
