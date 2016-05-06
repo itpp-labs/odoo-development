@@ -6,7 +6,7 @@ action_button
 
 Here you will find explanation of how to get/inherit action_button POS objects.
 
-For example we got JS object::
+For example we have definition in /../../../*js file::
 
     odoo.define('pos_reprint.pos_reprint', function (require) {
     ...
