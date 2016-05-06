@@ -22,8 +22,8 @@ To make clear what this is like look up example where guests number button rende
 
     this.gui.screen_instances['products'].action_buttons['guests'].renderElement();
 
-Here *this.gui.screen_instances["products"].action_buttons['guests'].prototype* is undefined. So using of
-extend or include is impossible.
+While you can make call and even replace function with new one, you are not able to make inheritance via ``extend`` or ``include`` functions. It's because we cannot reach Class and only get access to instance of that class.
+
 
 This kind of approach make sense only for those widgets::
 
