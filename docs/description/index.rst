@@ -9,3 +9,4 @@ User documentation
    contactus
    js_tour
    app-store-preview
+   image-sizes

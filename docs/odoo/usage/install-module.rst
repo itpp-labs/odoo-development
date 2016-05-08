@@ -1,5 +1,5 @@
 ============================
-How to install\update module
+How to install/update module
 ============================
 
 There are several ways to install\update module

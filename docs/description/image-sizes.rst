@@ -1,0 +1,30 @@
+=============
+ Image sizes
+=============
+
+.. contents::
+   :local:
+   :depth: 1
+
+__openerp__.py -> 'images'
+==========================
+
+This images is displayed on application page (`example <https://www.odoo.com/apps/modules/8.0/res_partner_mails_count/>`_) and in application list (`example <https://www.odoo.com/apps/modules/browse?author=IT-Projects%20LLC>`_ )
+
+Displayed size:
+
+* app page::
+
+  750 x 400
+
+* app list::
+
+  262,5 x 130
+
+Recommended size (aspect) to fit both usage::
+
+    750 x 371
+
+See also
+
+* :doc:`Preview module on App Store <./app-store-preview>`

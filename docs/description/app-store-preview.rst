@@ -22,7 +22,7 @@ While it's easy to change text, it's not obvious how to preview image.
 Base64
 ------
 
-* google: convert image to base64
+* google: `convert image to base64 <https://www.google.com/#q=convert+image+to+base64>`_
 * convert image to base64 with a tool you choosed. It must be some long string started with ``data:image/``::
 
     data:image/png;base64,iVBORw0KGgoAAAAcF8RMI3xAAA......AAElFTkSuQmCC
