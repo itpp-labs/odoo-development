@@ -6,14 +6,12 @@ To activate developer mode, you need to add ``debug`` parameter to your url, e.g
 
      localhost:8069/web?debug=1
 
-Alternative way depends on your version
+Also, you can use UI to do it
 
-8.0
-===
+* click button at top right-hand corner ``<User Name> -> About Odoo``
 
-TODO
+  .. figure:: ../../images/debug-1.png
 
-9.0+
-====
+* click ``Activate the developer mode``
 
-TODO
+  .. image:: ../../images/debug-2.png

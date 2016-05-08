@@ -4,10 +4,44 @@ How to install/update module
 
 There are several ways to install\update module
 
-From App store
-==============
+.. contents::
+   :local:
 
-`Activate developer mode <debug-mode>`. Navigate to Apps menu and click on second Apps menu in left side bar then remove "Featured" filter and search module you need.
+From App store (install)
+========================
+
+8.0
+---
+
+* navigate to ``Settings / Modules / Apps``
+* remove ``Featured [x]`` filter
+* search module you need
+* click ``[Install]``
+
+9.0+
+----
+
+* :doc:`activate developer mode <debug-mode>`.
+* navigate to ``Apps`` menu
+* click on second ``Apps`` menu in left side bar
+* remove ``Featured [x]`` filter
+* search module you need
+* click ``[Install]``
+
+From App store (update)
+=======================
+
+8.0
+---
+
+* navigate to ``Settings / Modules / Updates``
+
+9.0+
+----
+
+* navigate to ``Apps`` menu
+* click ``Updates`` menu in left side bar
+
 
 From zip archive
 ================

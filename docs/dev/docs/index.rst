@@ -123,6 +123,13 @@ Use square brackets in double back-quotes to name buttons. Keep letter cases the
     Bad:
     * click ``[save]``
 
+Selections
+----------
+
+Use arrow symbol ``->`` to specify value in selection and many2one fields: ::
+
+  * Choose ``Partner -> Administrator``
+
 
 Titles and sections
 -------------------
