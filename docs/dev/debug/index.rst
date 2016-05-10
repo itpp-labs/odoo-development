@@ -6,3 +6,4 @@ Debugging
    logs
    errors/index
    qweb
+   slow internet emulation
