@@ -17,7 +17,8 @@ For example we have definition in /../../../*js file::
 
 This defenition doesn't return class ReprintButton. So, we cannot inherit it in a usual way.
 
-In order to get access (inherit) to that object we need get instance of it using gui.
+In order to reach that object we need get instance of it using ``gui``. Then we can inherit it
+
 To make clear what this is like look up example where guests number button renderings::
 
     this.gui.screen_instances['products'].action_buttons['guests'].renderElement();
