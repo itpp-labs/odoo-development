@@ -25,6 +25,8 @@ Recommended size (aspect) to fit both usage::
 
     750 x 371
 
+.. note:: Appearance in *app list* is more important, as there is less chance that user open *app page*, if small sized image in *app list* is not attractive enough.
+
 See also
 
 * :doc:`Preview module on App Store <./app-store-preview>`
