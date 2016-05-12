@@ -6,4 +6,4 @@ Debugging
    logs
    errors/index
    qweb
-   slow internet emulation
+   slow_internet_emulation
