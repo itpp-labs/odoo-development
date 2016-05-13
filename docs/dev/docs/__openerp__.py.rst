@@ -43,7 +43,11 @@ Use example below as template. What are important here:
             "FILE1.xml",
             "FILE2.xml",
         ],
+        "qweb": [
+            "static/src/xml/QWEBFILE1.xml",
+        ],
         "demo": [
+            "demo/DEMOFILE1.xml",
         ],
         "installable": True,
         "auto_install": False,
