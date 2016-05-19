@@ -14,3 +14,4 @@ Git and Github
    files-relocation
    commits
    stash
+   git_update
