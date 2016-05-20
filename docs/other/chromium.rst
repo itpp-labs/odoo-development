@@ -1,79 +1,14 @@
-============
- RST format
-============
+==================================
+Adjust chromium window size script
+==================================
 
+You can make screenshot with size exactly you need.
 
-Document Title / Subtitle
-=========================
+Open chromium. Do not expand window (or in wount work). Run this command::
 
-The title of the whole document is distinct from section titles and
-may be formatted somewhat differently (e.g. the HTML writer by default
-shows it as a centered heading).
+    wmctrl -a chromium -e 1,0,0,760,480
 
-To indicate the document title in reStructuredText, use a unique adornment
-style at the beginning of the document.  To indicate the document subtitle,
-use another unique adornment style immediately after the document title.  For
-example::
-
-    ================
-     Document Title
-    ================
-    ----------
-     Subtitle
-    ----------
-
-    Section Title
-    =============
-
-    ...
-
-Note that "Document Title" and "Section Title" above both use equals
-signs, but are distict and unrelated styles.  The text of
-overline-and-underlined titles (but not underlined-only) may be inset
-for aesthetics.
-
-
-Sections
---------
-
-* # with overline, for parts
-* \*\  with overline, for chapters
-* =, for sections
-* -, for subsections
-* ^, for subsubsections
-* ", for paragraphs
-
-Code block
----------------
-Enter double colon (\::\)  and then empty line and then at least one space and finaly you can enter your code.
-
-Also you can use ``inplace code reference`` by using \``\  \``\.
-
-Selection
-=========
-* ``**bold**``
-* ``*italic*``
-* ````code````
-
-Lists
-=====
-* \*\  - not numerated
-* \#.\  - numerated
-* 1,2,3, ... - numerated 
-
-
-Links
-=====
-
-* internal link::
-
-  :doc:`Link Text<../relative/path/to/article>`
-
-* external link:: 
-  
-  `Link Text <https://google.com/>`_
-
-More documentations
-===================
-
-* http://docutils.sourceforge.net/docs/user/rst/quickref.html
+Last two arguments is width and height.
+Consider to add chromium window borders to your screenshot size.
+In my case it 10px to width and 80px to height. Likely you got same.
+So for 750 x 400  it be 760 x 480.

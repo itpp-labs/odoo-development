@@ -5,3 +5,4 @@ Other
    :maxdepth: 3
 
    rst
+   chromium
