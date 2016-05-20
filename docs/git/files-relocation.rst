@@ -96,6 +96,10 @@ and put all lines above there and make this file executable.
 $ cd ~
 $ chmod +x movemodule.sh
 
+If you have installed git from official ubuntu 14.04 deb repository then
+you should first update it. You can update git using this instruction
+:doc:`Update git<git_update>`
+
 To do the moving of group_menu_no_access from addons-yelizariev to access-addons
 with the movemodule.sh take the following steps.
 

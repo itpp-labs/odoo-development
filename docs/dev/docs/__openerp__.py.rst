@@ -43,8 +43,16 @@ Use example below as template. What are important here:
             "FILE1.xml",
             "FILE2.xml",
         ],
-        "demo": [
+        "qweb": [
+            "static/src/xml/QWEBFILE1.xml",
         ],
+        "demo": [
+            "demo/DEMOFILE1.xml",
+        ],
+
+        "post_load": None,
+        "pre_init_hook": None,
+        "post_init_hook": None,
         "installable": True,
         "auto_install": False,
     }
