@@ -52,6 +52,8 @@ Link to app store, e.g.
 
     HTML Description: https://apps.odoo.com/apps/modules/9.0/web_debranding/
 
+You have to prepare this link even if the module is not published yet, i.e. link returns 404 error.
+
 Usage instructions
 ==================
 
