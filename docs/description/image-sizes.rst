@@ -2,6 +2,12 @@
  Image sizes
 =============
 
+See also
+
+* :doc:`Preview module on App Store <./app-store-preview>`
+
+* :doc:`Adjust chromium window size script <../other/chromium>`
+
 .. contents::
    :local:
    :depth: 1
@@ -29,9 +35,29 @@ You can scale picture, saving proportion.
 
 .. note:: Appearance in *app list* is more important, as there is less chance that user open *app page*, if small sized image in *app list* is not attractive enough.
 
-See also
+description/index.html
+======================
 
-* :doc:`Preview module on App Store <./app-store-preview>`
+All values assumed, that you put the code inside ``.oe_container`` and ``.oe_row``, e.g.::
 
-* :doc:`Adjust chromium window size script <../other/chromium>`
+    <section class="oe_container">
+        <div class="oe_row oe_spaced">
+            ...
+            <div class="oe_demo oe_picture oe_screenshot">
+                <img class="img img-responsive" src="1.png"/>
+            </div>
+            ...
+        </div>
+    </section>
 
+<div class="oe_demo oe_picture oe_screenshot">
+----------------------------------------------
+::
+    max-width: 761px;
+    max-height: 400px;
+
+<div class-"oe_demo oe_screenshot">
+-----------------------------------
+::
+    max-width: 928px;
+    
