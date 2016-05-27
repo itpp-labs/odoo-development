@@ -113,6 +113,14 @@ Use double back-quotes with **spaced** slash for menus: ::
     * Open menu ''Settings / Parameters / System Parameters''
     * Open menu ``Settings \ Parameters \ System Parameters``
 
+Fields
+------
+
+Use bold format for fields::
+
+    * Set **Name** and **Date** values
+
+
 Buttons
 -------
 Use square brackets in double back-quotes to name buttons. Keep letter cases the same as in UI. ::
