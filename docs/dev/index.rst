@@ -18,6 +18,7 @@ Module Development
    hooks/index
    tests/index
    debug/index
+   diving/index
    other/index
 
 
