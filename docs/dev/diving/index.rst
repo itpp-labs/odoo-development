@@ -8,4 +8,5 @@
 .. toctree::
 
    cases/index
+   transformed_method
    cases/transformed_method
