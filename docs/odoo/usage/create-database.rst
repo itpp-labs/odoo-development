@@ -22,7 +22,9 @@ Early version of odoo doesn't allow to create databases with dots. You can remov
 
 2. update html code via *Inspect Element* tool
 
-   TODO screenshot
+   You must remove the matches field value.
+
+    .. image:: ../images/odoo/usage/create-database-change_html.png
 
 From terminal
 =============
