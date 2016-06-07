@@ -1,72 +1,8 @@
 bus.bus
 =======
 
-**What is HTTP Long Polling?**
 
-
-Web applications were originally developed around a client/server model, where the Web client is always the initiator of transactions, requesting data from the server. Thus, there was no mechanism for the server to independently send, or push, data to the client without the client first making a request. 
-
-**In a Nutshell: HTTP Long Polling**
-
-
-To overcome this deficiency, Web app developers can implement a technique called HTTP long polling, where the client polls the server requesting new information.  The server holds the request open until new data is available. Once available, the server responds and sends the new information. When the client receives the new information, it immediately sends another request, and the operation is repeated. This effectively emulates a server push feature.
-
-Thus, each data packet means new connection which will remain open until the server sends the information.
-
-In practice the connection usually reinstalls once per 20-30 seconds to get rid of possible problems (mistakes) , e.g. problems connected with HTTP-proxy.
-
-In contradiction to usual polling, such notice appears faster.
-
-``Delay = connection installing + data transfer``
-
-**Advantages of longpolling**
-
-
-+ The loading to the server is reduced unlike usual polling
-+ Reduced traffic
-+ Supporting in all modern browsers
-
-Thus, longpolling helps the client to receive data as soon as they appear in the server in contrast to periodic, which send requests according to interval specified.
-
-**Odoo settings for longpolling work**
-
-
-In order to odoo supports longpolling you should install ``python2.7-dev`` and ``gevent`` packages: 
-
-.. code-block:: shell
-
-    sudo apt-get install python2.7-dev
-    pip install gevent
-
-write this if there is mistake
-
-``importpsycogreen.geventImportError: No module named psycogreen.gevent``
-
-``psycogreen`` also should be installed separately
-
-.. code-block:: shell
-
-    pipinstallpsycogreen==1.0
-
-After successful installment, start the server with parameter ``workers``
-
-.. code-block:: shell
-
-    --workers <count>
-
-if count is not 0 (the default), enables multiprocessing and sets up the specified number of HTTP workers (sub-processes processing HTTP and RPC requests).
-
-``Note:`` multiprocessing mode is only available on Unix-based systems
-
-``For example:``
-
-.. code-block:: shell
-
-    ./odoo.py -c /way/.openerp_serverrc --workers=2
-
-Where ``openerp_serverrc`` is your configuration file and ``way`` is the location of this file
-
-`More <https://odoo-development.readthedocs.io/en/latest/admin/longpolling.html>`_
+`About longpolling <https://odoo-development.readthedocs.io/en/latest/admin/longpolling.html>`_
 
 **Use in own modules**
 
@@ -149,7 +85,7 @@ Create an object for widget work:
 
 .. code-block:: shell
 
-    va rmy_module = new MyModule.Conversation(this)
+    var my_module = new MyModule.Conversation(this)
 
 For the work in the server write the following:
 

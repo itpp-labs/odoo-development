@@ -10,5 +10,6 @@ Official docs:
 
    install
    longpolling
+   about_longpolling
    workers
    addons_path
