@@ -66,6 +66,7 @@ if count is not 0 (the default), enables multiprocessing and sets up the specifi
 
 Where ``openerp_serverrc`` is your configuration file and ``way`` is the location of this file
 
+`More <https://odoo-development.readthedocs.io/en/latest/admin/longpolling.html>`_
 
 **Use in own modules**
 
