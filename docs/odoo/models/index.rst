@@ -14,6 +14,7 @@ Section helps in understanding built-in models
    product.template
    product.product
    ir.actions.todo
+   bus.bus
 
 ..   product
 ..
