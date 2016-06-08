@@ -26,3 +26,7 @@ To activate longpolling:
     cd /usr/bin/
     wget https://raw.githubusercontent.com/odoo/odoo/9.0/openerp-gevent
     chmod +x openerp-gevent
+
+
+`Read more about longpolling <https://odoo-development.readthedocs.io/en/latest/admin/about_longpolling.html>`_
+
