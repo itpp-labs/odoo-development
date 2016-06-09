@@ -66,7 +66,7 @@ In the js file:
     bus.add_channel(channel.uuid);
     bus.start_polling();
 
-**What can be a channel identifier**
+**What can be a channel identifiers**
 
 Identifier - is a way to distinguish one channel from another. Identifiers can be a string, tuple, list. But the most commonly used triple:
 
@@ -102,6 +102,7 @@ To subscribe to the channel, the client must be connected as follows:
             bus.start_polling();
         },
 
+``bus.start_polling();`` can not write if it was already called earlier in the stack.
 
 **How to send a message to the channel**
 
