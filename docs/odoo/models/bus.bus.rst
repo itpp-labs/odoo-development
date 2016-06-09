@@ -46,6 +46,13 @@ If the subscription is done via js, then the identifier can only be a string. An
     var channel = JSON.stringify([dbname, 'model.name', uid]);
     bus.add_channel(channel);
 
+If identifier type is string, then message in python must send as string too. But the function of converting json in python and js are different in the fact that in Python they are different format the spaces and quotation marks. Therefore, the string in python is required to form manually:
+
+.. code-block:: py
+
+    new_channel = '(%s,"%s",%s)' % (self._cr.dbname, 'model.name', id)
+    self.env['bus.bus'].sendone(new_channel, notification)
+
 **How to subscribe to a channel**
 
 You can create a subscription in two ways: on the server side via the controllers or in js file using the method ``bus.add_channel()``.
