@@ -29,42 +29,7 @@ First, you create a subscription and specify the subscription ID. Then you need 
 
 **What is a subscription**
 
-Subscription - is a channel, which stores (passes through himself) notifications from server to client. The client can subscribe to this feed and receive notifications that are sent from the server. You can create a subscription in two ways: on the server side via the controllers or in js file using the method ``bus.add channel()``.
-
-
-With controllers:
-
-*For odoo 8.0*
-
-.. code-block:: py
-
-    class Controller(openerp.addons.bus.bus.Controller):
-        def _poll(self, dbname, channels, last, options):
-            if request.session.uid:
-                registry, cr, uid, context = request.registry, request.cr, request.session.uid, request.context
-                channels.append((request.db, 'module.name', request.uid))
-            return super(Controller, self)._poll(dbname, channels, last, options)
-
-
-*For odoo 9.0*
-
-.. code-block:: py
-
-    class Controller(openerp.addons.bus.controllers.main.BusController):
-        def _poll(self, dbname, channels, last, options):
-            if request.session.uid:
-                registry, cr, uid, context = request.registry, request.cr, request.session.uid, request.context
-                channels.append((request.db, 'module.name', request.uid))
-            return super(Controller, self)._poll(dbname, channels, last, options)
-
-In the js file:
-
-.. code-block:: js
-
-    var bus = require('bus.bus').bus;
-    ...
-    bus.add_channel(channel.uuid);
-    bus.start_polling();
+Subscription - is a channel, which stores (passes through himself) notifications from server to client. The client can subscribe to this feed and receive notifications that are sent from the server.
 
 **What can be a channel identifiers**
 
@@ -74,21 +39,40 @@ Identifier - is a way to distinguish one channel from another. Identifiers can b
 
     channels.append((request.db, 'module.name', request.uid))
 
-**How to subscribe to a channel**
-
-To subscribe to the channel, the client must be connected as follows:
-
-*For odoo 8.0*
+If the subscription is done via js, then the identifier can only be a string. And, respectively in python you have to send string too.
 
 .. code-block:: js
 
-    var MyModule = openerp.MyModule = {};
-    MyModule.ConversationManager = openerp.Widget.extend({
-        init: function () {
-            this.bus = openerp.bus.bus;
-            this.bus.on("notification", this, this.on_notification);
-            this.bus.start_polling();
-        },
+    var channel = JSON.stringify([dbname, 'model.name', uid]);
+    bus.add_channel(channel);
+
+**How to subscribe to a channel**
+
+You can create a subscription in two ways: on the server side via the controllers or in js file using the method ``bus.add_channel()``.
+
+With controllers:
+
+.. code-block:: py
+
+    # If odoo 8.0:
+    import openerp.addons.bus.bus.Controller as BusController
+    # If odoo 9.0:
+    import openerp.addons.bus.controllers.main.BusController
+
+    class Controller(BusController):
+        def _poll(self, dbname, channels, last, options):
+            if request.session.uid:
+                registry, cr, uid, context = request.registry, request.cr, request.session.uid, request.context
+                new_channel = (request.db, 'module.name', request.uid)
+                channels.append(new_channel)
+            return super(Controller, self)._poll(dbname, channels, last, options)
+
+In the js file:
+
+
+*For odoo 8.0*
+
+TODO
 
 *For odoo 9.0*
 
@@ -96,11 +80,29 @@ To subscribe to the channel, the client must be connected as follows:
 
     var bus = require('bus.bus').bus;
     ...
-    var MyModule.ConversationManager = Widget.extend({
-        init: function () {
-            bus.on("notification", this, this.on_notification);
-            bus.start_polling();
-        },
+    bus.add_channel(new_channel);
+    // If not called earlier in the stack only
+    bus.start_polling();
+
+
+To start receiving notifications do as follows:
+
+*For odoo 8.0*
+
+.. code-block:: js
+
+    this.bus = openerp.bus.bus;
+    this.bus.on("notification", this, this.on_notification);
+    this.bus.start_polling();
+
+*For odoo 9.0*
+
+.. code-block:: js
+
+    var bus = require('bus.bus').bus;
+    ...
+    bus.on("notification", this, this.on_notification);
+    bus.start_polling();
 
 ``bus.start_polling();`` can not write if it was already called earlier in the stack.
 
@@ -108,34 +110,13 @@ Request /longpolling/poll it is expectation messages that will be sent to any of
 
 **How to send a message to the channel**
 
-You can send message to the server in separate widget.
-Create new widget and find ``session`` for requests (sending of message and the work of ``bus``). Create the object of widget, where ``bus`` connection and message processing are made.
-Write the following for the message sending:
+Send messages only through a python. If you want to through the client send something (e.g. via `controllers <http://odoo-development.readthedocs.io/en/latest/dev/py/controllers.html>`_), and then through the server to send the following:
 
-.. code-block:: js
+.. code-block:: py
 
-    MyModule.Conversation = openerp.Widget.extend({
-        init: function(){
-            this.openerp.session = new openerp.Session();
-            this.c_manager = new openerp.ChessChat.ConversationManager(null, channel);
-            this.send_message();
-        },
-
-``send_message()`` function sends messaged though the request ``JSON``.
-
-.. code-block:: js
-
-    send_message: function() {
-        var message = ‘’;
-        // Creating messages
-        this.openerp.session ("/send/", {message: message})
-    }
-
-Create an object for widget work:
-
-.. code-block:: js
-
-    var my_module = new MyModule.Conversation(this);
+    self.env['bus.bus'].sendmany(notifications)
+    # or
+    self.env['bus.bus'].sendone(new_channel, notification)
 
 The below function will intercept form the client the request ``/send/`` and will process this request:
 
@@ -161,16 +142,17 @@ The below function will intercept form the client the request ``/send/`` and wil
 
 **Who will get this message**
 
-After sending message , function ``this.on_notification`` accepts the message.
+After sending message, function ``this.on_notification`` accepts the message.
 
 ``this.on_notification`` – is response for accepting of server messages
 Notification, which was sent from the server, includes channel and message.
-Put to the corresponding variable values from ``notification``
+Put to the corresponding variable values from ``notification``. Notification handler receives the message. You can do whatever you you need with received message.
 
 .. code-block:: js
 
-    on_notification: function (notification) {
+    on_notification: function (notifications) {
         var self = this;
+        // Old versions passes single notification item here. Fix it.
         if (typeof notification[0][0] === 'string') {
             notification = [notification]
         }
@@ -181,12 +163,28 @@ Put to the corresponding variable values from ``notification``
         }
     },
 
-You should check if there are coincidences with the name of the model, from which the server's response comes.
+Examples
+========
+**pos_multi_session:**
 
-If everything is good, write your process in the on_notification_do():
+`add channel (python) <https://github.com/it-projects-llc/pos-addons/blob/9.0/pos_multi_session/controllers/pos_multi_session.py#L18>`_
 
-.. code-block:: js
+`subscribe <https://github.com/it-projects-llc/pos-addons/blob/9.0/pos_multi_session/static/src/js/pos_multi_session.js#L411>`_
 
-    on_notification_do: function (channel, message) {
-        // your process
-    }
+`send <https://github.com/it-projects-llc/pos-addons/blob/9.0/pos_multi_session/pos_multi_session_models.py#L25>`_
+
+**chess:**
+
+`add channel (js) <https://github.com/GabbasovDinar/addons-dev/blob/website-addons-8.0-chess/chess/static/js/chesschat.js#L11-L14>`_
+
+`subscribe <https://github.com/GabbasovDinar/addons-dev/blob/website-addons-8.0-chess/chess/models/chess.py#L282-L288>`_
+
+`send <https://github.com/GabbasovDinar/addons-dev/blob/website-addons-8.0-chess/chess/static/js/chesschat.js#L134-L145>`_
+
+**mail_move_message:**
+
+`add channel (python) <https://github.com/x620/mail-addons/blob/9.0-mail_move_message/mail_move_message/controllers/main.py#L15>`_
+
+`subscribe <https://github.com/x620/mail-addons/blob/9.0-mail_move_message/mail_base/static/src/js/base.js#L1150-L1152>`_
+
+`send <https://github.com/x620/mail-addons/blob/9.0-mail_move_message/mail_move_message/mail_move_message_models.py#L312>`_
