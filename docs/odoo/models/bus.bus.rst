@@ -104,6 +104,8 @@ To subscribe to the channel, the client must be connected as follows:
 
 ``bus.start_polling();`` can not write if it was already called earlier in the stack.
 
+Request /longpolling/poll it is expectation messages that will be sent to any of the channels that has a subscription.
+
 **How to send a message to the channel**
 
 You can send message to the server in separate widget.
