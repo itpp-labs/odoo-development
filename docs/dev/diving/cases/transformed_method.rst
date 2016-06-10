@@ -5,7 +5,7 @@
 Context
 =======
 
-When porting module mail_move_message in the file static/src/js/mail_move_message.js there is a method `session.web.form.FormOpenPopup(this) <https://github.com/yelizariev/mail-addons/blob/9.0/mail_move_message/static/src/js/mail_move_message.js#L64>`_.
+When porting module `mail_move_message <https://github.com/yelizariev/mail-addons/tree/9.0/mail_move_message>`_ in the file `static/src/js/mail_move_message.js <https://github.com/yelizariev/mail-addons/blob/9.0/mail_move_message/static/src/js/mail_move_message.js>`_ there is a method `session.web.form.FormOpenPopup(this) <https://github.com/yelizariev/mail-addons/blob/9.0/mail_move_message/static/src/js/mail_move_message.js#L64>`_.
 
 Problem
 =======
