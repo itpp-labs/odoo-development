@@ -5,65 +5,71 @@ bus.bus
 Bus
 ===
 
-Module for instant notifications via longpolling. Add it to dependencies list:
+Bus is a module for instant notifications via longpolling. Add it to dependencies list:
 
-.. code-block:: shell
+.. code-block:: python
 
     'depends': ['bus']
 
-Mail module in odoo 9.0 is already depended on module bus.
+.. note:: Mail module in odoo 9.0 is already depended on module bus.
 
 What is longpolling
 ===================
 
-`About longpolling <https://odoo-development.readthedocs.io/en/latest/admin/about_longpolling.html>`_
+* `About longpolling <https://odoo-development.readthedocs.io/en/latest/admin/about_longpolling.html>`_
 
-`Longpolling configuration <https://odoo-development.readthedocs.io/en/latest/admin/longpolling.html>`_
+* `How to enable Longpolling in odoo <https://odoo-development.readthedocs.io/en/latest/admin/longpolling.html>`_
 
-How it works
-============
+How to implement longpolling
+============================
 
-**Operating principle**
+.. contents::
+   :local:
 
-First, you create a subscription and specify the subscription ID. Then you need to connect "notification" object in the js file. It is waiting for a notification from the server with the specified subscription identifier. On the server side at some point generates and sends a notification with a specific ID. If these identifiers match, then the js object responds to it. It receives notification data and performs certain actions.
+Scheme of work
+--------------
 
-**What is a subscription**
+* Specify channels that current client is listening
+* Bind notification event to your handler
+* Start polling
+* Send notification to some channel via python code
 
-Subscription - is a channel, which stores (passes through himself) notifications from server to client. The client can subscribe to this feed and receive notifications that are sent from the server.
+Channel identifier
+------------------
 
-**What can be a channel identifiers**
+Channel identifier - is a way to distinguish one channel from another. In the main, channel contains dbname, some string and some id.
 
-Identifier - is a way to distinguish one channel from another. Identifiers can be a string, tuple, list. But the most commonly used triple:
-
-.. code-block:: py
-
-    channels.append((request.db, 'module.name', request.uid))
-
-If the subscription is done via js, then the identifier can only be a string. And, respectively in python you have to send string too.
+Added via js identifiers can be string only.
 
 .. code-block:: js
 
     var channel = JSON.stringify([dbname, 'model.name', uid]);
-    bus.add_channel(channel);
 
-If identifier type is string, then message in python must send as string too. But the function of converting json in python and js are different in the fact that in Python they are different format the spaces and quotation marks. Therefore, the string in python is required to form manually:
+Added via python identifiers can be a string or any data structure. 
 
 .. code-block:: py
 
-    new_channel = '(%s,"%s",%s)' % (self._cr.dbname, 'model.name', id)
-    self.env['bus.bus'].sendone(new_channel, notification)
+    # tuple
+    channel = (request.db, 'model.name', request.uid)
+    # or a string
+    channel = '["%s","%s","%s"]' % (request.db, 'model.name', request.uid)
 
-**How to subscribe to a channel**
 
-You can create a subscription in two ways: on the server side via the controllers or in js file using the method ``bus.add_channel()``.
+.. warning:: JSON.stringify in js and json.dumps in python could give a different result.
+
+Listened channels
+-----------------
+
+You can add channels in two ways: either on the server side via ``_poll`` function in bus controller or in js file using the method ``bus.add_channel()``.
 
 With controllers:
 
 .. code-block:: py
 
-    # If odoo 8.0:
+    # In odoo 8.0:
     import openerp.addons.bus.bus.Controller as BusController
-    # If odoo 9.0:
+
+    # In odoo 9.0:
     import openerp.addons.bus.controllers.main.BusController
 
     class Controller(BusController):
@@ -76,97 +82,65 @@ With controllers:
 
 In the js file:
 
-
-*For odoo 8.0*
-
-TODO
-
-*For odoo 9.0*
-
 .. code-block:: js
 
+    // 8.0
+    var bus = openerp.bus.bus;
+    // 9.0+
     var bus = require('bus.bus').bus;
-    ...
+
+    var channel = JSON.stringify([dbname, 'model.name', uid]);
     bus.add_channel(new_channel);
-    // If not called earlier in the stack only
-    bus.start_polling();
 
+Binding notification event
+--------------------------
 
-To start receiving notifications do as follows:
-
-*For odoo 8.0*
+In js file:
 
 .. code-block:: js
 
-    this.bus = openerp.bus.bus;
-    this.bus.on("notification", this, this.on_notification);
-    this.bus.start_polling();
-
-*For odoo 9.0*
-
-.. code-block:: js
-
-    var bus = require('bus.bus').bus;
-    ...
     bus.on("notification", this, this.on_notification);
+
+Start polling
+-------------
+
+In js file:
+
+.. code-block:: js
+
     bus.start_polling();
 
-``bus.start_polling();`` can not write if it was already called earlier in the stack.
+.. note:: You don't need to call ``bus.start_polling();`` if it was already started by other module.
 
-Request /longpolling/poll it is expectation messages that will be sent to any of the channels that has a subscription.
+When polling starts, request ``/longpolling/poll`` is sent, so you can find and check it via Network tool in your browser
 
-**How to send a message to the channel**
+Sending notification
+--------------------
 
-Send messages only through a python. If you want to through the client send something (e.g. via `controllers <http://odoo-development.readthedocs.io/en/latest/dev/py/controllers.html>`_), and then through the server to send the following:
+You can send notification only through a python. If you need to do it through the client send a signal to server in a usual way first (e.g. via `controllers <http://odoo-development.readthedocs.io/en/latest/dev/py/controllers.html>`_).
 
 .. code-block:: py
 
-    self.env['bus.bus'].sendmany(notifications)
+    self.env['bus.bus'].sendmany([(channel1, message1), (channel2, message2), ...])
     # or
-    self.env['bus.bus'].sendone(new_channel, notification)
+    self.env['bus.bus'].sendone(channel, message)
 
-The below function will intercept form the client the request ``/send/`` and will process this request:
-
-.. code-block:: py
-
-    @http.route('/send/', type="json", auth="public")
-    def message_send(self, message):
-        /* message processing */
-        request.env["model.name"].broadcast(message)
-        return True
-
-``broadcast`` function creates the notice and sends the its result (in this case, to all users except for current)
-
-.. code-block:: py
-
-    @api.model
-    def broadcast(self, message):
-        notifications = []
-        for ps in self.env['res.users'].search([('id', '!=', self.env.user.id)]):
-            notifications.append([(self._cr.dbname, 'model.name', ps.id), message])
-            self.env['bus.bus'].sendmany(notifications)
-        return 1
-
-**Who will get this message**
-
-After sending message, function ``this.on_notification`` accepts the message.
-
-``this.on_notification`` – is response for accepting of server messages
-Notification, which was sent from the server, includes channel and message.
-Put to the corresponding variable values from ``notification``. Notification handler receives the message. You can do whatever you you need with received message.
+Handling notifications
+----------------------
 
 .. code-block:: js
 
     on_notification: function (notifications) {
-        var self = this;
-        // Old versions passes single notification item here. Fix it.
+        // Old versions passes single notification item here. Convert it to the latest format.
         if (typeof notification[0][0] === 'string') {
             notification = [notification]
         }
         for (var i = 0; i < notification.length; i++) {
             var channel = notification[i][0];
             var message = notification[i][1];
-            this.on_notification_do(channel, message);
+
+            // proceed a message as you need
+            // ...
         }
     },
 
