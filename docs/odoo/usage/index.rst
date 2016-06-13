@@ -5,5 +5,6 @@ How to use Odoo
    :maxdepth: 3
 
    create-database
+   technical-features
    install-module
    debug-mode
