@@ -32,6 +32,8 @@ Guidlines
     Further information
     ===================
 
+    Demo: http://runbot.it-projects.info/demo/REPO-NAME/BRANCH
+
     HTML Description: https://apps.odoo.com/apps/modules/VERSION/TECHNICAL_NAME/
 
     Usage instructions: `<doc/index.rst>`_
@@ -44,6 +46,25 @@ OCA's README
 ------------
 
 * https://raw.githubusercontent.com/OCA/maintainer-tools/master/template/module/README.rst
+
+Demo
+====
+
+Link to the runbot. Supported repo names are below. Change branche name to 8.0 or 7.0 if needed.
+
+.. code-block:: rst
+
+    Demo: http://runbot.it-projects.info/demo/access-addons/9.0
+    Demo: http://runbot.it-projects.info/demo/l10n-addons/9.0
+    Demo: http://runbot.it-projects.info/demo/mail-addons/9.0
+    Demo: http://runbot.it-projects.info/demo/misc-addons/9.0
+    Demo: http://runbot.it-projects.info/demo/odoo-saas-tools/9.0
+    Demo: http://runbot.it-projects.info/demo/odoo-telegram/9.0
+    Demo: http://runbot.it-projects.info/demo/pos-addons/9.0
+    Demo: http://runbot.it-projects.info/demo/rental-addons/9.0
+    Demo: http://runbot.it-projects.info/demo/website-addons/9.0
+
+
 
 HTML Description
 ================
