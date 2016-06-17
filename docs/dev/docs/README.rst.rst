@@ -50,11 +50,12 @@ OCA's README
 Demo
 ====
 
-Link to the runbot. Supported repo names are below. Change branche name to 8.0 or 7.0 if needed.
+Link to the runbot. Supported repo names are below. Change branche name if needed.
 
 .. code-block:: rst
 
     Demo: http://runbot.it-projects.info/demo/access-addons/9.0
+    Demo: http://runbot.it-projects.info/demo/addons-dev/addons-yelizariev-9.0-some_feature
     Demo: http://runbot.it-projects.info/demo/l10n-addons/9.0
     Demo: http://runbot.it-projects.info/demo/mail-addons/9.0
     Demo: http://runbot.it-projects.info/demo/misc-addons/9.0
