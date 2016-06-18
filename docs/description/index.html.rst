@@ -41,7 +41,7 @@ Text + Image
             </div>
             <div class="oe_span6">
                 <div class="oe_row_img oe_centered">
-                    <img class="oe_picture oe_screenshot" src="IMAGE.png"/>
+                    <img class="oe_demo oe_picture oe_screenshot" src="IMAGE.png"/>
                 </div>
             </div>
         </div>
@@ -65,7 +65,7 @@ Text, Image
                 </p>
             </div>
             <div class="oe_row_img oe_centered">
-                 <img class="oe_picture oe_screenshot" src="IMAGE.png"/>
+                 <img class="oe_demo oe_picture oe_screenshot" src="IMAGE.png"/>
              </div>
         </div>
     </section>
