@@ -6,10 +6,10 @@ You can create records and call module methods and do some assertions.
 
 To make some tests do next steps:
 
-    * Create folder named **tests**
-    * Add __init__.py file
-    * Create file that name begins from **test_**
-    * Add test methods than names start from **test_**
+   * Create folder named **tests**
+   * Add __init__.py file
+   * Create file that name begins from **test_**
+   * Add test methods that names start from **test_**
 
 Example (will result testing error)::
 
