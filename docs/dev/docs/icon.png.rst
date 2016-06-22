@@ -49,3 +49,10 @@ Website_Sale
 .. image:: ../../images/module-icons/website_sale/icon.png
 
 `Download <https://raw.githubusercontent.com/yelizariev/odoo-development/master/docs/images/module-icons/website_sale/icon.png>`_
+
+Misc
+----
+
+.. image:: ../../images/module-icons/misc/icon.png
+
+`Download <https://raw.githubusercontent.com/yelizariev/odoo-development/master/docs/images/module-icons/misc/icon.png>`_

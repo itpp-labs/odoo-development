@@ -13,12 +13,14 @@ Bus is a module for instant notifications via longpolling. Add it to dependencie
 
 .. note:: Mail module in odoo 9.0 is already depended on module bus.
 
+.. warning:: Don't mistake longpolling bus with :doc:`core.bus <../../dev/js/core.bus>` which is client-side only and part of ``web`` module.
+
 What is longpolling
 ===================
 
-* `About longpolling <https://odoo-development.readthedocs.io/en/latest/admin/about_longpolling.html>`_
+* :doc:`About longpolling <../../admin/about_longpolling>`
 
-* `How to enable Longpolling in odoo <https://odoo-development.readthedocs.io/en/latest/admin/longpolling.html>`_
+* :doc:`How to enable Longpolling in odoo <../../admin/longpolling>`
 
 How to implement longpolling
 ============================
