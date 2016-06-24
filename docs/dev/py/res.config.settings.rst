@@ -71,10 +71,10 @@ TODO
 group_XXX
 ---------
 
-If a group from "implied_group" parameter in the ``res.config.settings`` model  will be added to the
+True if a group from "implied_group" parameter in the ``res.config.settings`` model  will be added to the
 "implied_ids" field in the group which is defined in the "group" parameter.
 
 module_XXX
 ----------
 
-If a module with name which is specified after the prefix "module_" will be installed.
+True if a module with name which is specified after the prefix "module_" will be installed.
