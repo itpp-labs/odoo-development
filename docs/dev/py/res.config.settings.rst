@@ -56,3 +56,25 @@ This for website.config.settings but it is similar to res.config.settings::
             nobill_noship = self.pool.get("ir.config_parameter").get_param(cr, uid, "website_sale_checkout_store.nobill_noship", default=False, context=context)
             return {'nobill_noship': nobill_noship}
     #website_sale_checkout_store - is your module
+
+
+Update settings on module install
+=================================
+
+Values of fields in the ``res.config.settings`` model will be updated after some events:
+
+default_XXX
+-----------
+
+TODO
+
+group_XXX
+---------
+
+If a group from "implied_group" parameter in the ``res.config.settings`` model  will be added to the
+"implied_ids" field in the group which is defined in the "group" parameter.
+
+module_XXX
+----------
+
+If a module with name which is specified after the prefix "module_" will be installed.
