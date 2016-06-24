@@ -6,3 +6,4 @@ Javascript
    inheritance
    pos_gui
    core.bus
+   rpc
