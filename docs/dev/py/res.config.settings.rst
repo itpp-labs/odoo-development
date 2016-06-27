@@ -56,3 +56,33 @@ This for website.config.settings but it is similar to res.config.settings::
             nobill_noship = self.pool.get("ir.config_parameter").get_param(cr, uid, "website_sale_checkout_store.nobill_noship", default=False, context=context)
             return {'nobill_noship': nobill_noship}
     #website_sale_checkout_store - is your module
+
+
+Update settings on module install
+=================================
+
+If you want config parameters, which are depended on the ``res.config.settings`` model will ba recomputed
+after install some module you have to implement the following conditions:
+
+default_XXX
+-----------
+
+TODO
+
+group_XXX
+---------
+
+Create a record of the ``res.groups`` model, which is adds group(s) from "implied_group" parameter in the
+``res.config.settings`` model to the "implied_ids" field in the group which is defined in the "group" parameter.::
+
+    <record model="res.groups" id="base.group_user">
+        <field name="implied_ids" eval="[
+            (4, ref('stock.group_production_lot')),
+            (4, ref('product.group_uom'))
+        ]"/>
+    </record>
+
+module_XXX
+----------
+
+Add module_name to the "depends" parameter in the ``__openerp__.py`` file
