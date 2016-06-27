@@ -73,7 +73,7 @@ group_XXX
 ---------
 
 Create a record of the ``res.groups`` model, which is adds group(s) from "implied_group" parameter in the
-``res.config.settings`` model to the "implied_ids" field in the group which is defined in the "group" parameter.
+``res.config.settings`` model to the "implied_ids" field in the group which is defined in the "group" parameter.::
 
     <record model="res.groups" id="base.group_user">
         <field name="implied_ids" eval="[
