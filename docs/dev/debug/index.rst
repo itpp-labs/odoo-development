@@ -7,3 +7,4 @@ Debugging
    errors/index
    qweb
    slow_internet_emulation
+   emulation_barcode
