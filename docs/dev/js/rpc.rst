@@ -2,6 +2,9 @@
  Remote Procedure Call (RPC)
 =============================
 
+Call method
+===========
+
 .. code-block:: js
 
     /**
@@ -16,8 +19,12 @@
     call: function (method, args, kwargs, options) {
     */
 
-    options.model = 'mail.compose.message';
-    var compose_model = new Model(options.model);
+How to call wizard method from js
+=================================
+
+.. code-block:: js
+
+    var compose_model = new Model('mail.compose.message');
     return compose_model.call('create', [msg, {default_parent_id: options.parent_id}])
         .then(function(id){
             return compose_model.call('send_mail_action', [id, {}]);
