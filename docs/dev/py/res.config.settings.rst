@@ -61,7 +61,8 @@ This for website.config.settings but it is similar to res.config.settings::
 Update settings on module install
 =================================
 
-Values of fields in the ``res.config.settings`` model will be updated after some events:
+If you want config parameters, which are depended on the ``res.config.settings`` model will ba recomputed
+after install some module you have to implement the following conditions:
 
 default_XXX
 -----------
@@ -71,10 +72,17 @@ TODO
 group_XXX
 ---------
 
-True if a group from "implied_group" parameter in the ``res.config.settings`` model  will be added to the
-"implied_ids" field in the group which is defined in the "group" parameter.
+Create a record of the ``res.groups`` model, which is adds group(s) from "implied_group" parameter in the
+``res.config.settings`` model to the "implied_ids" field in the group which is defined in the "group" parameter.
+
+    <record model="res.groups" id="base.group_user">
+        <field name="implied_ids" eval="[
+            (4, ref('stock.group_production_lot')),
+            (4, ref('product.group_uom'))
+        ]"/>
+    </record>
 
 module_XXX
 ----------
 
-True if a module with name which is specified after the prefix "module_" will be installed.
+Add module_name to the "depends" parameter in the ``__openerp__.py`` file
