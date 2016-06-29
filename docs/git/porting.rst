@@ -62,4 +62,4 @@ The command ``git cherry-pick A..B`` applies commits betwwen A and B, but withou
 
 For example, to backport this PR https://github.com/it-projects-llc/odoo-saas-tools/pull/286/commits , use command::
 
-   git cherry-pick 9133939a25f9e163f52e6662045fc2dc6010ac14^..6ee4fa07d4c0adc837d7061e09da14638d8abf8d
+   git cherry-pick 6ee4fa07d4c0adc837d7061e09da14638d8abf8d^..9133939a25f9e163f52e6662045fc2dc6010ac14
