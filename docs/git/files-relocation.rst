@@ -15,6 +15,9 @@ Constraints:
  $ git clone https://github.com/yelizariev/addons-yelizariev.git
  $ cd addons-yelizariev
 
+
+.. warning:: Cloning - this is required step. It is temporary directory. It will removed all modules except the one that you want to move.
+
 We have the group_menu_no_access module that we are about to move from addons-yelizariev
 to the access-addons repo.
 

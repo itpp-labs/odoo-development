@@ -56,3 +56,30 @@ This for website.config.settings but it is similar to res.config.settings::
             nobill_noship = self.pool.get("ir.config_parameter").get_param(cr, uid, "website_sale_checkout_store.nobill_noship", default=False, context=context)
             return {'nobill_noship': nobill_noship}
     #website_sale_checkout_store - is your module
+
+
+Update settings on module install
+=================================
+
+To update settings from any ``res.config.settings`` do as follows:
+
+default_XXX
+-----------
+
+TODO
+
+group_XXX
+---------
+
+Add **implied group(s)** to a **group** via ``implied_ids`` field::
+
+    <record model="res.groups" id="base.group_user">
+        <field name="implied_ids" eval="[
+            (4, ref('my.group'))
+        ]"/>
+    </record>
+
+module_XXX
+----------
+
+Add XXX to the "depends" parameter in the ``__openerp__.py`` file
