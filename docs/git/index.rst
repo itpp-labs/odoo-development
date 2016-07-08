@@ -15,3 +15,4 @@ Git and Github
    commits
    stash
    git_update
+   squash
