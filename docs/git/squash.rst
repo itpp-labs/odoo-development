@@ -19,15 +19,15 @@ Remote backup
 
    git push origin 9.0-new-module:9.0-new-module-backup
 
-git commit --amend
-==================
+``git commit --amend``
+======================
 
 Adds current commit to latest commit
 
-git rebase -i
-=============
+``git rebase -i``
+=================
 
-Interactive squahing
+Interactive squashing
 
 .. code-block:: sh
 
