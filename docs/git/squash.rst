@@ -36,3 +36,10 @@ Interactive squashing
     git rebase -i 7801c8b^
 
 Then edit opened file and use ``pick`` for first commit and ``squash`` for the rest.
+
+Push
+====
+
+.. code-block:: sh
+
+    git push -f origin 9.0-new-module
