@@ -22,7 +22,7 @@ Remote backup
 ``git commit --amend``
 ======================
 
-Adds current commit to latest commit
+Instead of creating new commit, adds updates to the latest commit.
 
 ``git rebase -i``
 =================
