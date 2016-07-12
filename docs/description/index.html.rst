@@ -59,7 +59,7 @@ Text, Image
 
     <section class="oe_container">
         <div class="oe_row oe_spaced">
-            <div class="oe_span12">
+            <div class="oe_span12 text-center">
                 <p class="oe_mt32">
                 TEXT
                 </p>
