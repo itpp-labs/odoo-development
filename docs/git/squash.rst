@@ -19,6 +19,19 @@ Remote backup
 
    git push origin 9.0-new-module:9.0-new-module-backup
 
+To restore original state you can use following command:
+
+.. code-block:: sh
+
+    # be sure that you on the branch you are going to change
+    git status
+
+    # restore from tag
+    git rebase 9.0-new-module-backup -X theirs
+
+    # restore from remote branchtag
+    git rebase origin/9.0-new-module-backup -X theirs
+
 ``git commit --amend``
 ======================
 
