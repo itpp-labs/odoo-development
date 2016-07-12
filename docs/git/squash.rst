@@ -35,7 +35,7 @@ Interactive squashing
     # e.g.
     git rebase -i 7801c8b^
 
-Then edit opened file and use ``reword`` for first commit and ``squash`` for the rest. E.g.
+Then edit opened file and replace ``pick`` with ``reword`` for first commit and ``squash`` for the rest. E.g.
 
 Origin::
 
