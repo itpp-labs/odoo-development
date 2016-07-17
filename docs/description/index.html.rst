@@ -32,7 +32,7 @@ Text + Image
 
 .. code-block:: html
 
-    <section class="oe_container">
+    <section class="oe_container oe_dark">
         <div class="oe_row oe_spaced">
             <div class="oe_span6">
                 <p class="oe_mt32">
@@ -57,7 +57,7 @@ Text, Image
 
 .. code-block:: html
 
-    <section class="oe_container">
+    <section class="oe_container oe_dark">
         <div class="oe_row oe_spaced">
             <div class="oe_span12 text-center">
                 <p class="oe_mt32">
