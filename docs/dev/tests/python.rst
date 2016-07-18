@@ -1,7 +1,7 @@
 Basic python tests
 ==================
 
-This tests runs with ``--test-enable`` key.
+This tests runs with ``-d [my_db] -u [module_to_be_tested] --test-enable`` key.
 You can create records and call module methods and do some assertions.
 
 To make some tests do next steps:
