@@ -50,14 +50,20 @@ All values assumed, that you put the code inside ``.oe_container`` and ``.oe_row
         </div>
     </section>
 
-<div class="oe_demo oe_picture oe_screenshot">
-----------------------------------------------
+oe_span6 img.oe_demo.oe_picture.oe_screenshot
+---------------------------------------------
+::
+    max-width: 362px;
+    max-height: 400px;
+
+img.oe_demo.oe_picture.oe_screenshot
+------------------------------------
 ::
     max-width: 761px;
     max-height: 400px;
 
-<div class-"oe_demo oe_screenshot">
------------------------------------
+img.oe_demo.oe_screenshot
+-------------------------
 ::
     max-width: 928px;
     
