@@ -97,6 +97,14 @@ Categories from the list below are preferred.
    * ``Website``
    * ``Extra Tools``
 
+Hidden
+------
+
+For technical modules ``Hidden`` category can be used::
+
+    "category": "Hidden",
+
+Such modules are excluded for search results on app store.
 
 version
 =======
