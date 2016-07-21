@@ -60,3 +60,7 @@ From `openerp/tests/common.py <https://github.com/odoo/odoo/blob/master/openerp/
     class HttpCase(TransactionCase):
         """ Transactional HTTP TestCase with url_open and phantomjs helpers.
         """
+
+Assert Methods
+==============
+https://docs.python.org/2.7/library/unittest.html#assert-methods
