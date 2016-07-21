@@ -22,6 +22,13 @@ SaaS
 
 `Download <https://raw.githubusercontent.com/it-projects-llc/odoo-development/master/docs/images/module-icons/saas/icon.png>`_
 
+Telegram
+--------
+
+.. image:: ../../images/module-icons/telegram/icon.png
+
+`Download <https://raw.githubusercontent.com/it-projects-llc/odoo-development/master/docs/images/module-icons/telegram/icon.png>`_
+
 Access
 ------
 
