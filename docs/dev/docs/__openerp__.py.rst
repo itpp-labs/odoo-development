@@ -104,7 +104,7 @@ For technical modules ``Hidden`` category can be used::
 
     "category": "Hidden",
 
-Such modules are excluded for search results on app store.
+Such modules are excluded from search results on app store.
 
 version
 =======
