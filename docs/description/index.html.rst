@@ -85,6 +85,9 @@ Use ``oe_dark`` class on every even ``section``. Don't use ``oe_dark`` on the la
         <!--Title-->
     </section>
 
+    <section class="oe_container">
+    </section>
+
     <section class="oe_container oe_dark">
     </section>
 
