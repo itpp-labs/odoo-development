@@ -11,14 +11,14 @@
     Installation
     ============
     
-    Optional section for installation notes. Delete it if you don't have notes for installation.
+    * `Install <https://odoo-development.readthedocs.io/en/latest/odoo/usage/install-module.html>`_ this module in a usual way
+    * Additional notes if any
     
     Configuration
     =============
     
     Instruction how to configure the module.
 
-    * `Install <https://odoo-development.readthedocs.io/en/latest/odoo/usage/install-module.html>`_ this module
     * `Enable technical features <https://odoo-development.readthedocs.io/en/latest/odoo/usage/technical-features.html>`_
     * Open menu ...
     * Click ...    
