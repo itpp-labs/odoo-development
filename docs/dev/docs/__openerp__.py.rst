@@ -55,6 +55,7 @@ Use example below as template. What are important here:
         "post_init_hook": None,
         "installable": True,
         "auto_install": False,
+        "application": False,
     }
 
 
