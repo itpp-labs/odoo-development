@@ -11,6 +11,7 @@ Guidlines
 Use example below as template. What are important here:
 
 * order of attributes 
+* not used attributes are represented
 * quote characters (``"``, ``"""``)
 * empty lines
 * no description attribute
