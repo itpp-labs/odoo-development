@@ -16,6 +16,7 @@ Example (will result testing error)::
 
     from openerp.tests.common import TransactionCase
     class test_message_count(TransactionCase):
+        at_install = False
         post_install = True
         def test_count(self):
             self.assertEqual(1, 0)
@@ -60,6 +61,20 @@ From `openerp/tests/common.py <https://github.com/odoo/odoo/blob/master/openerp/
     class HttpCase(TransactionCase):
         """ Transactional HTTP TestCase with url_open and phantomjs helpers.
         """
+
+at_install, post_install
+========================
+By default, odoo runs test with paramaters::
+
+        at_install = False
+        post_install = True
+
+``at_install`` - run tests right after loading module's files. It runs only in demo mode.
+
+``post_install`` - run test after full installation process. It differs from ``at_install``, because 
+
+* it runs after calling ``registry.setup_models(cr)``
+* it runs after calling ``model._register_hook(cr)``
 
 Assert Methods
 ==============
