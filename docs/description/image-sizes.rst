@@ -54,13 +54,13 @@ oe_span6 img.oe_demo.oe_picture.oe_screenshot
 ---------------------------------------------
 ::
     max-width: 362px;
-    max-height: 400px;
+    max-height: 382px;
 
 img.oe_demo.oe_picture.oe_screenshot
 ------------------------------------
 ::
     max-width: 761px;
-    max-height: 400px;
+    max-height: 382px;
 
 img.oe_demo.oe_screenshot
 -------------------------
