@@ -13,3 +13,4 @@ Official docs:
    about_longpolling
    workers
    addons_path
+   log-handler
