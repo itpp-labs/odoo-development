@@ -55,7 +55,7 @@ Link to the runbot. Supported repo names are below. Change branche name if neede
 .. code-block:: rst
 
     Demo: http://runbot.it-projects.info/demo/access-addons/9.0
-    Demo: http://runbot.it-projects.info/demo/addons-dev/addons-yelizariev-9.0-some_feature
+    Demo: http://runbot.it-projects.info/demo/addons-dev/misc-addons-9.0-some_feature
     Demo: http://runbot.it-projects.info/demo/l10n-addons/9.0
     Demo: http://runbot.it-projects.info/demo/mail-addons/9.0
     Demo: http://runbot.it-projects.info/demo/misc-addons/9.0
@@ -64,6 +64,11 @@ Link to the runbot. Supported repo names are below. Change branche name if neede
     Demo: http://runbot.it-projects.info/demo/pos-addons/9.0
     Demo: http://runbot.it-projects.info/demo/rental-addons/9.0
     Demo: http://runbot.it-projects.info/demo/website-addons/9.0
+
+addons-dev
+----------
+In most cases, if you work in addons-dev, you shall not use demo link to addons-dev (e.g. ``http://runbot.it-projects.info/demo/addons-dev/misc-addons-9.0-some_feature``). Use a link for target repo instead (e.g. ``http://runbot.it-projects.info/demo/misc-addons/9.0``). 
+You can use links to addons-dev only if you know who will use it. 
 
 
 
