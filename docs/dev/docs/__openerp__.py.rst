@@ -28,6 +28,7 @@ Use example below as template. What are important here:
         "category": "SOME_CATEGORY",
         "images": [],
         "version": "1.0.0",
+        "application": False,
 
         "author": "IT-Projects LLC, DEVELOPER_NAME",
         "website": "https://it-projects.info",
@@ -54,9 +55,9 @@ Use example below as template. What are important here:
         "post_load": None,
         "pre_init_hook": None,
         "post_init_hook": None,
-        "installable": True,
+
         "auto_install": False,
-        "application": False,
+        "installable": True,
     }
 
 
