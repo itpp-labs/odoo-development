@@ -58,6 +58,8 @@ Edited::
 
     TODO
 
+.. warning:: If you remove a line here THAT COMMIT WILL BE LOST.
+
 Push
 ====
 
