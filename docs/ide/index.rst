@@ -3,6 +3,5 @@ IDE
 
 .. toctree::
 
-   emacs
-   spacemacs
-   PyCharm
+   emacs/index
+   pycharm/index
