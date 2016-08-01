@@ -8,3 +8,5 @@ Odoo Python
    res.config.settings
    controllers
    x2many
+   fields
+   constraints
