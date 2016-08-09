@@ -1,0 +1,7 @@
+Tmux
+====
+
+.. toctree::
+
+   installation
+   configufation
