@@ -4,4 +4,4 @@ Tmux
 .. toctree::
 
    installation
-   configufation
+   configuration
