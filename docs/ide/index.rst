@@ -5,3 +5,4 @@ IDE
 
    emacs/index
    pycharm/index
+   tmux/index
