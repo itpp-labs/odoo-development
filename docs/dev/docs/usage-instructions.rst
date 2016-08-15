@@ -12,7 +12,7 @@
     ============
     
     * `Install <https://odoo-development.readthedocs.io/en/latest/odoo/usage/install-module.html>`_ this module in a usual way
-    * OPTIONAL `Activate longpolling <https://odoo-development.readthedocs.io/en/latest/admin/longpolling.html>`_ 
+    * OPTIONAL `Activate longpolling <https://odoo-development.readthedocs.io/en/latest/admin/longpolling.html>`__ 
     * Additional notes if any
     
     Configuration
@@ -20,7 +20,7 @@
     
     Instruction how to configure the module.
 
-    * `Enable technical features <https://odoo-development.readthedocs.io/en/latest/odoo/usage/technical-features.html>`_
+    * `Enable technical features <https://odoo-development.readthedocs.io/en/latest/odoo/usage/technical-features.html>`__
     * Open menu ...
     * Click ...    
 
