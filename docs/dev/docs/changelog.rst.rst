@@ -7,6 +7,7 @@ Template
 Use this for new modules
 
 .. code-block:: rst
+    .. _changelog:
 
     Changelog
     =========
@@ -20,6 +21,8 @@ Guidlines
 ---------
 
 .. code-block:: rst
+
+    .. _changelog:
 
     Changelog
     =========
