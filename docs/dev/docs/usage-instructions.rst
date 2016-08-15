@@ -11,7 +11,7 @@
     Installation
     ============
     
-    * `Install <https://odoo-development.readthedocs.io/en/latest/odoo/usage/install-module.html>`_ this module in a usual way
+    * `Install <https://odoo-development.readthedocs.io/en/latest/odoo/usage/install-module.html>`__ this module in a usual way
     * OPTIONAL `Activate longpolling <https://odoo-development.readthedocs.io/en/latest/admin/longpolling.html>`__ 
     * Additional notes if any
     
