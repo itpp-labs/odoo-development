@@ -10,8 +10,8 @@ Use this for new modules
 
     .. _changelog:
 
-    Changelog
-    =========
+    Updates
+    =======
 
     `1.0.0`
     -------
@@ -25,8 +25,8 @@ Guidlines
 
     .. _changelog:
 
-    Changelog
-    =========
+    Updates
+    =======
     
     `2.0.0`
     -------
