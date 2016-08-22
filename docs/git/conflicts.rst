@@ -27,6 +27,14 @@ What to do if you got conflicts:
 
     git push
 
+Deleted files
+~~~~~~~~~~~~~
+Sometimes, changes can be conflicted because files are not exist anymore in *ours* version, but updated in *theirs*. In that case execute the code below in order to ignore such changes:
+.. code:: bash
+
+    git status | grep 'deleted by us' | awk '{print $4}' | xargs git rm
+
+
 Notes
 ~~~~~
 
