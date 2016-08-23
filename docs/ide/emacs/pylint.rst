@@ -47,8 +47,8 @@ Add the plugin in pylintrc.
  load-plugins=pylint_odoo
 
 
-Useful configuration
---------------------
+Useful configurations
+---------------------
 
 By default there is 100 characters per line allowed.
 Allow 120 characters
@@ -57,7 +57,7 @@ Allow 120 characters
 
  max-line-length=120
 
-To desable certain warning add its code to ``disable`` list in pylintrc.
+To disable certain warning add its code to ``disable`` list in pylintrc.
 For example, If you don't like this message ``Missing method docstring`` with code C0111 or
 this ``Use of super on an old style class`` (E1002)
 
