@@ -6,3 +6,4 @@ Emacs
    emacs
    spacemacs
    find-and-replace-files
+   pylint
