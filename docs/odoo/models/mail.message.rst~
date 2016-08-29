@@ -13,23 +13,23 @@ It needs to be defined in XML which will have following syntax.
 
 .. code-block:: xml
 
-    <record id="mt_task_planned_hours" model="mail.message.subtype">
-        <field name="name">Task planned hours changed</field>
-        <field name="res_model">project.task</field>
-        <field name="default" eval="True"/>
-        <field name="description">Task planned hours changed</field>
+    <record id=”mt_task_planned_hours” model=”mail.message.subtype”>
+        <field name=”name”>Task planned hours changed</field>
+        <field name=”res_model”>project.task</field>
+        <field name=”default” eval=”True”/>
+        <field name=”description”>Task planned hours changed</field>
     </record>
 
-Users can also have a mail.message.subtype that depends on an other to act through a relation field. For the planned hours, we can have following sysntax for it.
+Users can also have a mail.message.subtype that depends on an other to act through a relation field. For the planned hours,we can have following sysntax for it.
 
 .. code-block:: xml
 
-    <record id="mt_task_planned_hours_change" model="mail.message.subtype">
-        <field name="name">Task planned hours changed</field>
-        <field name="sequence">10</field>
-        <field name="res_model">project.task</field>
-        <field name="parent_id" eval="ref('mt_task_planned_hours')"/>
-        <field name="relation_field">project_id</field>
+    <record id=”mt_task_planned_hours_change” model=”mail.message.subtype”>
+        <field name=”name”>Task planned hours changed</field>
+        <field name=”sequence”>10</field>
+        <field name=”res_model”>project.task</field>
+        <field name=”parent_id” eval=”ref(‘mt_task_planned_hours’)”/>
+        <field name=”relation_field”>project_id</field>
     </record>
 
 Odoo provide feature to track various events related with one particular document with the help of _track attribute. If we inherit mail.thread object then with the help of _track attribute, user can sent notification also to keep aware others about changes happening against this particular document. The syntax can be as follow.
@@ -46,6 +46,6 @@ In order to track changes related with any field,Odoo provides an attribute name
 
 .. code-block:: shell
 
-    planned_hours = fields.Float(string = 'Initially Planned Hours', track_visibility='onchange', help='Estimated time to do the task, it is project manager when the task is in draft state.')
+    planned_hours = fields.Float(string = ‘Initially Planned Hours’, track_visibility=’onchange’, help=’Estimated time to do the task, it is project manager when the task is in draft state.’)
 
 Hence, it is easy to track the changes done so far against any particular document by different users.
