@@ -15,6 +15,8 @@ Section helps in understanding built-in models
    product.product
    ir.actions.todo
    bus.bus
+   ir.cron
+   mail.message
 
 ..   product
 ..
