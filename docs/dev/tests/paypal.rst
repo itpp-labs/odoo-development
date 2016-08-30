@@ -31,6 +31,7 @@ Configure odoo
 * Pres **Edit**.
 * Enter here **Paypal Email ID** - it is *seller* account (like seller@mail.ru).
 * Enter **Paypal Merchant ID** - paste *protected seller code*.
+* Set price list currency same as in paypal account.
 
 Directly testing
 ^^^^^^^^^^^^^^^^
