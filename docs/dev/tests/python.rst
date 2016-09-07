@@ -14,7 +14,7 @@ To make some tests do next steps:
 Example (will result testing error)::
 
     from openerp.tests.common import TransactionCase
-    class test_message_count(TransactionCase):
+    class TestMessage(TransactionCase):
         at_install = False
         post_install = True
         def test_count(self):
