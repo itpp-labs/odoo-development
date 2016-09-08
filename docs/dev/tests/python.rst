@@ -2,7 +2,8 @@
  Basic python tests
 ====================
 
-This tests runs with ``-d [my_db] -u [module_to_be_tested] --test-enable`` key. Also, you can add ``--stop-after-init --xmlrpc-port 8888`` to run tests simultaneously with usual (non-test) running.
+This tests runs with ``-d [my_db] -u [module_to_be_tested] --test-enable --workers=0`` parameters. 
+
 
 To make some tests do next steps:
 
