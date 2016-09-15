@@ -33,8 +33,8 @@ Use example below as template. What are important here:
         "author": "IT-Projects LLC, DEVELOPER_NAME",
         "website": "https://it-projects.info",
         "license": "GPL-3",
-        #"price": 9.00,
-        #"currency": "EUR",
+        # "price": 9.00,
+        # "currency": "EUR",
 
         "depends": [
             "DEPENDENCY1",
