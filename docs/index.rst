@@ -27,3 +27,12 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
+.. note:: We are trying our best to improve this manual, but if you still have difficults, we can offer private tutoring / advising / consultation on odoo development (resolve problem that developer(s) stack on, reveview code, pull requests ect). Feel free to hire us on upwork:
+
+   * `Ivan Yelizariev <https://www.upwork.com/fl/ivanyelizariev>`__
+   * `Ildar Nasyrov <https://www.upwork.com/fl/ildarnasyrov>`__
+
+   For module development contact us by `email <mailto:it@it-projects.info>`__ or fill out `request form <https://www.it-projects.info/page/website.contactus>`__:
+
+   * it@it-projects.info
+   * https://www.it-projects.info/page/website.contactus
