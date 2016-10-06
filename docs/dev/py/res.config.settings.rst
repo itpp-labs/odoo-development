@@ -52,7 +52,7 @@ This for website.config.settings but it is similar to res.config.settings::
             for record in self.browse(cr, uid, ids, context=context):
                 config_parameters.set_param(cr, uid, "website_sale_checkout_store.nobill_noship", record.nobill_noship or '', context=context)
         #When page loads
-        def get_default_nobill_noship(self, cr, uid, ids, context=None):
+        def get_default_nobill_noship(self, cr, uid, fields, context=None):
             nobill_noship = self.pool.get("ir.config_parameter").get_param(cr, uid, "website_sale_checkout_store.nobill_noship", default=False, context=context)
             return {'nobill_noship': nobill_noship}
     #website_sale_checkout_store - is your module
