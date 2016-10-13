@@ -12,6 +12,7 @@ Current content:
 
    first-steps
    dev/index
+   migration/index
    description/index
    git/index
    odoo/index
