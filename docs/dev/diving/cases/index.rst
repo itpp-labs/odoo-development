@@ -8,7 +8,7 @@ Each case contains problem description and possible solutions. Use problems as e
 
 .. toctree::
 
-   check_for_rerender
+   transformed_method
 
 Guidelines
 ==========
