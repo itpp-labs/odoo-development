@@ -1,7 +1,9 @@
+:orphan:
+
 ===================================
  Solutions for Source Diving Cases
 ===================================
 
 .. toctree::
 
-   check_for_rerender
+   transformed_method
