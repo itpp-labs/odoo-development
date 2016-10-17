@@ -24,5 +24,5 @@ raise an exception if its invariant is not satisfied::
 SQL constraints are defined through the model attribute
 :attr:`~openerp.models.Model._sql_constraints`. The latter is assigned to a list
 of triples of strings ``(name, sql_definition, message)``, where ``name`` is a
-valid SQL constraint name, ``sql_definition`` is a table_constraint_ expression,
+valid SQL constraint name, ``sql_definition`` is a ``table_constraint_`` expression,
 and ``message`` is the error message.
