@@ -9,8 +9,7 @@ install:
   - pip install -r requirements.txt
 
 script:
-  - mkdir docs/_static
-  - cd docs; sphinx-build -nW -b html -d _build/doctrees . _build/html
+  - mkdir docs/_static; cd docs; sphinx-build -nW -b html -d _build/doctrees . _build/html
 
 notifications:
   email: false
