@@ -150,24 +150,24 @@ Examples
 ========
 **pos_multi_session:**
 
-* `add channel (python) <https://github.com/it-projects-llc/pos-addons/blob/9.0/pos_multi_session/controllers/pos_multi_session.py#L18>`_
+* `add channel (python) <https://github.com/it-projects-llc/pos-addons/blob/9.0/pos_multi_session/controllers/pos_multi_session.py#L18>`__
 
-* `bind event <https://github.com/it-projects-llc/pos-addons/blob/9.0/pos_multi_session/static/src/js/pos_multi_session.js#L411>`_
+* `bind event <https://github.com/it-projects-llc/pos-addons/blob/9.0/pos_multi_session/static/src/js/pos_multi_session.js#L411>`__
 
-* `send notification <https://github.com/it-projects-llc/pos-addons/blob/9.0/pos_multi_session/pos_multi_session_models.py#L25>`_
+* `send notification <https://github.com/it-projects-llc/pos-addons/blob/9.0/pos_multi_session/pos_multi_session_models.py#L25>`__
 
 **chess:**
 
-* `add channel (js) <https://github.com/GabbasovDinar/addons-dev/blob/website-addons-8.0-chess/chess/static/js/chesschat.js#L11-L14>`_
+* `add channel (js) <https://github.com/GabbasovDinar/addons-dev/blob/website-addons-8.0-chess/chess/static/js/chesschat.js#L11-L14>`__
 
-* `bind event <https://github.com/GabbasovDinar/addons-dev/blob/website-addons-8.0-chess/chess/models/chess.py#L282-L288>`_
+* `bind event <https://github.com/GabbasovDinar/addons-dev/blob/website-addons-8.0-chess/chess/models/chess.py#L282-L288>`__
 
-* `send notification <https://github.com/GabbasovDinar/addons-dev/blob/website-addons-8.0-chess/chess/static/js/chesschat.js#L134-L145>`_
+* `send notification <https://github.com/GabbasovDinar/addons-dev/blob/website-addons-8.0-chess/chess/static/js/chesschat.js#L134-L145>`__
 
 **mail_move_message:**
 
-* `add channel (python) <https://github.com/x620/mail-addons/blob/9.0-mail_move_message/mail_move_message/controllers/main.py#L15>`_
+* `add channel (python) <https://github.com/x620/mail-addons/blob/9.0-mail_move_message/mail_move_message/controllers/main.py#L15>`__
 
-* `bind event <https://github.com/x620/mail-addons/blob/9.0-mail_move_message/mail_base/static/src/js/base.js#L1150-L1152>`_
+* `bind event <https://github.com/x620/mail-addons/blob/9.0-mail_move_message/mail_base/static/src/js/base.js#L1150-L1152>`__
 
-* `send notification <https://github.com/x620/mail-addons/blob/9.0-mail_move_message/mail_move_message/mail_move_message_models.py#L312>`_
+* `send notification <https://github.com/x620/mail-addons/blob/9.0-mail_move_message/mail_move_message/mail_move_message_models.py#L312>`__
