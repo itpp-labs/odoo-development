@@ -19,6 +19,7 @@ Current content:
    admin/index
    ide/index
    other/index
+   wrong_url3
 
 
 Indices and tables
