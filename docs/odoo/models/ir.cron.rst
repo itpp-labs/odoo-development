@@ -82,7 +82,9 @@ Number of times the scheduler is to be called based on the "interval_type"
 .. code-block:: xml
 
     <field name="interval_type">days</field>
+
 Interval Unit.
+
 It should be one value for the list: ``minutes``, ``hours``, ``days``, ``weeks``, ``months``.
 
 .. code-block:: xml
