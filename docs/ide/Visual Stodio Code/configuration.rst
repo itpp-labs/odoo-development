@@ -1,5 +1,5 @@
 Configuration:-
-=========== 
+=============== 
 
 sample configuration (for user or workspace setting)
 
