@@ -21,8 +21,8 @@ In case if you need to emulate *bad* connection, i.e. it works and probably fast
     # * wlan0 - wireless connection
     # * lo - local connection. Use this, if your run a server on your machine
     
-    # lose 10 %
-    sudo tc qdisc add dev eth0 root netem loss 10%
+    # lose 30 %
+    sudo tc qdisc add dev eth0 root netem loss 30%
     
     # "burst of losing"
     # Probabilyt of each next lossing depends on previous result.
