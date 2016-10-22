@@ -68,4 +68,7 @@ The commands doesn't update code fully and usually you need to continue updates 
     # remove cr, uid
     find . -type f -name '*.py' | xargs sed -i 's/(cr, [^,]*, /(/g'
     find . -type f -name '*.py' | xargs sed -i 's/(self, cr, [^,]*, ids/(self/g'
+    find . -type f -name '*.py' | xargs sed -i 's/(self, cr, uid, /(self, /g'
     find . -type f -name '*.py' | xargs sed -i 's/, context=[^,)]*//g'
+    find . -type f -name '*.py' | xargs sed -i 's/self.env.get(\([^)]*\))/self.env[\1]/g'
+
