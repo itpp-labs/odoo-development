@@ -1,4 +1,4 @@
-Visual Stodio Code
+Visual Studio Code
 ==================
 
 .. toctree::
