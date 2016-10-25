@@ -1,5 +1,5 @@
 ============================
- Install Visual Stodio Code
+ Install Visual Studio Code
 ============================
 
  * install visualstudiocode from https://code.visualstudio.com
