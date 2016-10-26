@@ -15,18 +15,13 @@ Current content:
    migration/index
    description/index
    git/index
+   ci/index
    odoo/index
    admin/index
+   cd/index
    ide/index
    other/index
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
 
 .. note:: We try our best to improve this manual, but if you still have difficults, we can offer private tutoring / advising / consultation on odoo development (resolve problem that developer(s) stack on, reveview code and pull requests ect). Feel free to hire us on upwork:
 
