@@ -11,4 +11,5 @@
     # hr
     find . -type f -name '*.xml' | xargs sed -i 's/menu_hr_configuration/menu_human_resources_configuration/g'
     find . -type f -name '*.csv'  -o -name '*.py' -o -name '*.xml'  | xargs sed -i 's/base.group_hr/hr.group_hr/g'
+    find . -type f -name '*.xml' | xargs sed -i 's/product.prod_config_main/sale.prod_config_main/g'
 
