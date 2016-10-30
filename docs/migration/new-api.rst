@@ -54,6 +54,10 @@ Automatic replacements
     find . -type f -name '*.py' | xargs perl -i -p0e 's/    _columns = {(.*?)    }/$1/gs'
     find . -type f -name '*.py' | xargs sed -i 's/fields\.\(.\)/fields.\u\1/g'
     find . -type f -name '*.py' | xargs sed -i 's/    [\x27"]\(.*\)[\x27"].*:.*\(fields.*\),$/\1 = \2/g'
+    
+    # renamed attributes
+    find . -type f -name '*.py' | xargs sed -i 's/select=/index=/g'
+    find . -type f -name '*.py' | xargs sed -i 's/digits_compute=/digits=/g'
 
 Semi-Automatic replacements
 ===========================
