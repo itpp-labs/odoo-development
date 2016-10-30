@@ -29,6 +29,7 @@ Automatic replacements
     # replace http import
     find . -type f -name '*.py' | xargs sed -i 's/from openerp.addons.web import http/from odoo import http/g'
     find . -type f -name '*.py' | xargs sed -i 's/openerp.addons.web.http/odoo.http/g'
+    find . -type f -name '*.py' | xargs sed -i 's/openerp.http/odoo.http/g'
 
     # replace odoo
     # fix importing. Otherwise you will get error:
