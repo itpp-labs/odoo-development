@@ -24,7 +24,7 @@ Let's start
  $ git remote rm origin
  $ git filter-branch --subdirectory-filter $MODULE -- --all
  $ mkdir $MODULE
- $ mv * $MODULE # never mind the "mv: cannot move..." warning messeage
+ $ mv * $MODULE # never mind the "mv: cannot move..." warning message
  $ git add .
  $ git commit -m "[MOV] $MODULE: ready"
  $ cd ~
