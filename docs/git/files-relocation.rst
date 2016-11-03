@@ -8,40 +8,36 @@ Goal:
 Constraints:
  - Git repository A contains other directories that we don’t want to move.
  - We’d like to perserve the Git commit history for the directory we are moving.
+Let's start
+ - $REPO: the repository hosting the module (e.g. ``misc-addons``)
+ - $DEST_REPO: the repository you want to move the module to (e.g. ``access-addons``)
+ - $MODULE: the name of the module you want to move (e.g. ``group_menu_no_access``)
+ - $BRANCH: the branch of the $REPO with $MODULE (source branch, e.g. ``8.0``)
+
+.. warning:: If you have installed git from official ubuntu 14.04 deb repository then you should first update it. You can update git using this instruction :doc:`Update git<git_update>`
 
 ::
 
  $ cd ~
- $ git clone https://github.com/yelizariev/addons-yelizariev.git
- $ cd addons-yelizariev
+ $ git clone https://github.com/it-projects-llc/$REPO -b $BRANCH
+ $ cd $REPO
+ $ git remote rm origin
+ $ git filter-branch --subdirectory-filter $MODULE -- --all
+ $ mkdir $MODULE
+ $ mv * $MODULE # never mind the "mv: cannot move..." warning message
+ $ git add .
+ $ git commit -m "[MOV] $MODULE: ready"
+ $ cd ~
+ $ cd $DEST_REPO
+ $ git remote add $MODULE-hosting-remote ~/$REPO
+ $ git pull $MODULE-hosting-remote $BRANCH
 
+After the last command you will have the module with all its commits in your destination repo.
+Now you can push it on github etc. You can remove ``~/$REPO`` folder - no use of it now.
 
 .. warning:: Cloning - this is required step. It is temporary directory. It will removed all modules except the one that you want to move.
 
-We have the group_menu_no_access module that we are about to move from addons-yelizariev
-to the access-addons repo.
-
-::
-
- addons-yelizariev$ git remote rm origin
- addons-yelizariev$ git filter-branch --subdirectory-filter group_menu_no_access -- --all
- addons-yelizariev$ mkdir group_menu_no_access
- addons-yelizariev$ mv * group_menu_no_access/
- addons-yelizariev$ git add .
- addons-yelizariev$ git commit -m '[MOV] group_menu_no_access: ready to move'
-
- $ cd ../access-addons-8/
- access-addons-8$ git remote add repo-addons-yelizariev-branch ../addons-yelizariev
- access-addons-8$ git pull repo-addons-yelizariev-branch 8.0
- access-addons-8$ git push origin 8.0
-
-Create pull request from your origin to upstream on github in your fork
-of https://github.com/yelizariev/access-addons.git.
-There must be the [MOV] commits along with the group_menu_no_access module ralated commits
-that was created earlier in the addons-yelizariev repo.
-
-After some time of typing the same commands to move several modules, I
-decided to make simple bash bash script. Here it is
+The following script may come in handy if you need to move several modules. But be sure that you understand all its commands before using.
 
 ::
 
@@ -99,10 +95,6 @@ and put all lines above there and make this file executable.
 $ cd ~
 $ chmod +x movemodule.sh
 
-If you have installed git from official ubuntu 14.04 deb repository then
-you should first update it. You can update git using this instruction
-:doc:`Update git<git_update>`
-
 To do the moving of group_menu_no_access from addons-yelizariev to access-addons
 with the movemodule.sh take the following steps.
 
@@ -113,17 +105,11 @@ with the movemodule.sh take the following steps.
  $ cd addons-yelizariev
 
 This part is the same as moving without the script.
-But then I type only one command instead of ten in case of fully manual approach.
+But then I type only one command instead of many in case of fully manual approach.
 
 ::
 
-    addons-yelizarie$ ../movemodule.sh group_menu_no_access ../access-addons 8.0
-
-I assume here that the addons-yelizariev directory would be placed in your home
-directory along with the access-addons directory. Be  sure that you are on the 8.0 branches
-in both of your addons-yelizariev and access-addons.
-
-
+    addons-yelizarie$ ~/movemodule.sh group_menu_no_access ~/access-addons 8.0
 
 
 
