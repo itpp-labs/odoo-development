@@ -9,7 +9,7 @@ Constraints:
  - Git repository A contains other directories that we don’t want to move.
  - We’d like to perserve the Git commit history for the directory we are moving.
 Let's start
- - $REPO: the repository hosting the module (e.g. ``misc-addons.git``)
+ - $REPO: the repository hosting the module (e.g. ``misc-addons``)
  - $DEST_REPO: the repository you want to move the module to (e.g. ``access-addons``)
  - $MODULE: the name of the module you want to move (e.g. ``group_menu_no_access``)
  - $BRANCH: the branch of the $REPO with $MODULE (source branch, e.g. ``8.0``)
