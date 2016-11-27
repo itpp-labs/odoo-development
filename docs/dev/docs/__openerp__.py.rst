@@ -1,12 +1,17 @@
-================
- __openerp__.py
-================
+==================================
+ __openerp__.py / __manifest__.py
+==================================
 
 .. contents::
    :local:
 
-Guidlines
-=========
+Filename
+========
+* Use ``__openerp__.py`` for odoo 9.0 and earler versions.
+* Use ``__manifest__.py`` for odoo 10.0 and later versions, but don't rename filename on porting module from one version to another
+
+Template
+========
 
 Use example below as template. What are important here:
 
