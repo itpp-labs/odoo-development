@@ -1,39 +1,58 @@
-ir.config_parameter
-===================
+=====================
+ ir.config_parameter
+=====================
 
-XML operations
---------------
+Add record by module
+====================
 
-Create new setting
-^^^^^^^^^^^^^^^^^^
+XML: <record>
+-------------
 Code::
 
+    <data noupdate="1">
         <record id="myid" model="ir.config_parameter">
             <field name="key">mymodule.mykey</field>
             <field name="value">True</value>
         </record>
 
-Use this approach only to manipulate keys you created.
-It's not recommended to change others modules this way.
-For example such like this::
+Prons:
 
-     <record model="ir.config_parameter" id="website.google_app_key">
+* record is deleted on uninstalling
 
-Search addons for *model="ir.config_parameter"* for more examples.
+Cons:
 
-Such record usually used with <data noupdate="1">.
+* it raises error, if record with that key is already created manulally
 
-Change existing setting
-^^^^^^^^^^^^^^^^^^^^^^^
+XML: <function>
+---------------
+
 Code::
 
     <function model="ir.config_parameter" name="set_param" eval="('auth_signup.allow_uninvited', True)" />
 
 Prons:
 
-    works if you are not sure whether key already used or not
+* it doesn't raise error, if record with that key is already created manulally
 
 Cons:
 
-    record is not deleted on uninstalling
+* record is not deleted on uninstalling
+* value is overwrited after each module updating
 
+YML
+---
+-
+Code::
+
+  !python {model: ir.config_parameter}: |
+    SUPERUSER_ID = 1
+    if not self.get_param(cr, SUPERUSER_ID, "ir_attachment.location"):
+      self.set_param(cr, SUPERUSER_ID, "ir_attachment.location", "postgresql:lobject")
+
+Prons:
+
+* value is not overwrited if it already exists
+
+Cons:
+
+* record is not deleted on uninstalling
