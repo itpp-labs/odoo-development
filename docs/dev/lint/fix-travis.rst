@@ -27,6 +27,9 @@ Script
     # fix line break symbols
     cd /path/to/MODULE_NAME
     find * -type f | grep -v ".\(svg\|png\|jpg\)$" | xargs sed -i 's/\r//g'
+    
+    # add line break to the end of file
+    find * -type f | grep -v ".\(png\|jpg\)$" | xargs sed -i '$a\'
 
     # trim trailing whitespaces
     find * -type f | grep -v ".\(svg\|png\|jpg\)$" | xargs sed -i 's/[ \t]*$//g'
