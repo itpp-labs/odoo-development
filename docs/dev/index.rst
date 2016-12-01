@@ -19,6 +19,7 @@ Module Development
    tests/index
    debug/index
    diving/index
+   lint/index
    other/index
 
 
