@@ -81,7 +81,7 @@ Script
     '\n'\
     '    \@api.multi\n'\
     '    def $1_one($2):\n'\
-    '        self.ensure_one()/g' && git diff
+    '        self.ensure_one()/g'
 
 
 
