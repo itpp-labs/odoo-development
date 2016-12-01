@@ -74,6 +74,5 @@ Script
 Run following script only once::
 
     # Correction is links in rst-files
-    # (run 1 time!)
     #`_   ->   `__
     find . -type f -name '*.rst' | xargs sed -i 's/`_/`__/g'
