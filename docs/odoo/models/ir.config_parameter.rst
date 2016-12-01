@@ -41,14 +41,15 @@ Cons:
 
 YML
 ---
--
 Code::
 
-  !python {model: ir.config_parameter}: |
-    SUPERUSER_ID = 1
-    if not self.get_param(cr, SUPERUSER_ID, "ir_attachment.location"):
-      self.set_param(cr, SUPERUSER_ID, "ir_attachment.location", "postgresql:lobject")
-
+  -
+    !python {model: ir.config_parameter}: |
+      SUPERUSER_ID = 1
+      if not self.get_param(cr, SUPERUSER_ID, "ir_attachment.location"):
+        self.set_param(cr, SUPERUSER_ID, "ir_attachment.location", "
+        postgresql:lobject")
+  
 Prons:
 
 * value is not overwrited if it already exists
