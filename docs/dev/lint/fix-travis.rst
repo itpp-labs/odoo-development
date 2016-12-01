@@ -69,6 +69,22 @@ Script
     # Duplicate implicit target name: "changelog".
     find . -type f -name 'changelog.rst' | xargs sed -i 's/^Changelog/Updates/g'
     find . -type f -name 'changelog.rst' | xargs sed -i 's/^=========/=======/g'
+    
+    # Replace @api.one -> @api.multi
+    find . -type f -name '*.py' | xargs perl -i -p0e 's/'\
+    '@api\.one\n'\
+    '    def ([^(]*)\(([^(]*)\):/'\
+    '@api.multi\n'\
+    '    def $1($2):\n'\
+    '        for r in self:\n'\
+    '            r.$1_one($2)\n'\
+    '\n'\
+    '    \@api.multi\n'\
+    '    def $1_one($2):\n'\
+    '        self.ensure_one()/g' && git diff
+
+
+
 
 
 Run following script only once::
