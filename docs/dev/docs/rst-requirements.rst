@@ -91,13 +91,13 @@ References to menu
 Use double back-quotes with **spaced** slash for menus: ::
 
     OK:
-    * Open menu ``Settings / Parameters / System Parameters``
+    * Open menu ``Settings >> Parameters >> System Parameters``
 
     BAD
-    * Open menu ``Settings/Parameters/System Parameters``
-    * Open menu "Settings / Parameters / System Parameters"
-    * Open menu ''Settings / Parameters / System Parameters''
-    * Open menu ``Settings \ Parameters \ System Parameters``
+    * Open menu ``Settings>>Parameters>>System Parameters``
+    * Open menu "Settings >> Parameters >> System Parameters"
+    * Open menu ''Settings >> Parameters >> System Parameters''
+    * Open menu ``Settings > Parameters > System Parameters``
 
 Fields
 ======
