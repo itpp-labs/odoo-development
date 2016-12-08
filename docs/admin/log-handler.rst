@@ -19,11 +19,9 @@ To disable werkzeug logs add following parameter::
 Log levels
 ==========
 
-+----------+------+
-| CRITICAL |   50 |
-| ERROR    | 	 40 |
-| WARNING  | 	 30 |
-| INFO	   |   20 |
-| DEBUG 	 |   10 |
-| NOTSET   |  	0 |
-+----------+------+
+* CRITICAL
+* ERROR
+* WARNING
+* INFO
+* DEBUG
+* NOTSET
