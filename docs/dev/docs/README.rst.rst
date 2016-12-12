@@ -28,6 +28,10 @@ Guidlines
     Sponsors
     --------
     * `IT-Projects LLC <https://it-projects.info>`_
+    
+    Maintainers
+    -----------
+    * `IT-Projects LLC <https://it-projects.info>`_
 
     Further information
     ===================
