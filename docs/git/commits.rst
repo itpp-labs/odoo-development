@@ -2,7 +2,6 @@ Commit comment prefix
 =====================
 Based on: https://www.odoo.com/documentation/8.0/reference/guidelines.html
 
-* **[ORIG]** for copy-pasted code
 * **[DOC]**  for documentation. Don't use any other tags when you improve, fix, refactor documentation
 * **[PORT]** for porting
 * **[IMP]** for improvements
@@ -12,6 +11,7 @@ Based on: https://www.odoo.com/documentation/8.0/reference/guidelines.html
 * **[REM]** for removing of resources
 * **[REL]** for releases
 * **[CI]** for updating travis and related files
+* **[LINT]** for fixing lint errors
 
 Forbidden
 ---------
