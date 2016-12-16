@@ -44,7 +44,7 @@ Guidlines
 
     Changelog: `<doc/changelog.rst>`_
 
-    Tested on Odoo 8.0 ODOO_COMMIT_SHA_TO_BE_UPDATED
+    Tested on Odoo 10.0 ODOO_COMMIT_SHA_TO_BE_UPDATED
 
 OCA's README
 ------------
@@ -58,20 +58,20 @@ Link to the runbot. Supported repo names are below. Change branche name if neede
 
 .. code-block:: rst
 
-    Demo: http://runbot.it-projects.info/demo/access-addons/9.0
-    Demo: http://runbot.it-projects.info/demo/addons-dev/misc-addons-9.0-some_feature
-    Demo: http://runbot.it-projects.info/demo/l10n-addons/9.0
-    Demo: http://runbot.it-projects.info/demo/mail-addons/9.0
-    Demo: http://runbot.it-projects.info/demo/misc-addons/9.0
-    Demo: http://runbot.it-projects.info/demo/odoo-saas-tools/9.0
-    Demo: http://runbot.it-projects.info/demo/odoo-telegram/9.0
-    Demo: http://runbot.it-projects.info/demo/pos-addons/9.0
-    Demo: http://runbot.it-projects.info/demo/rental-addons/9.0
-    Demo: http://runbot.it-projects.info/demo/website-addons/9.0
+    Demo: http://runbot.it-projects.info/demo/access-addons/10.0
+    Demo: http://runbot.it-projects.info/demo/addons-dev/misc-addons-10.0-some_feature
+    Demo: http://runbot.it-projects.info/demo/l10n-addons/10.0
+    Demo: http://runbot.it-projects.info/demo/mail-addons/10.0
+    Demo: http://runbot.it-projects.info/demo/misc-addons/10.0
+    Demo: http://runbot.it-projects.info/demo/odoo-saas-tools/10.0
+    Demo: http://runbot.it-projects.info/demo/odoo-telegram/10.0
+    Demo: http://runbot.it-projects.info/demo/pos-addons/10.0
+    Demo: http://runbot.it-projects.info/demo/rental-addons/10.0
+    Demo: http://runbot.it-projects.info/demo/website-addons/10.0
 
 addons-dev
 ----------
-In most cases, if you work in addons-dev, you shall not use demo link to addons-dev (e.g. ``http://runbot.it-projects.info/demo/addons-dev/misc-addons-9.0-some_feature``). Use a link for target repo instead (e.g. ``http://runbot.it-projects.info/demo/misc-addons/9.0``). 
+In most cases, if you work in addons-dev, you shall not use demo link to addons-dev (e.g. ``http://runbot.it-projects.info/demo/addons-dev/misc-addons-10.0-some_feature``). Use a link for target repo instead (e.g. ``http://runbot.it-projects.info/demo/misc-addons/10.0``). 
 You can use links to addons-dev only if you know who will use it. 
 
 
@@ -83,7 +83,7 @@ Link to app store, e.g.
 
 .. code-block:: rst
 
-    HTML Description: https://apps.odoo.com/apps/modules/9.0/web_debranding/
+    HTML Description: https://apps.odoo.com/apps/modules/10.0/web_debranding/
 
 You have to prepare this link even if the module is not published yet, i.e. link returns 404 error.
 
@@ -103,7 +103,7 @@ Tested on
 
 .. code-block:: rst
 
-    Tested on Odoo 8.0 a40d48378d22309e53e6d38000d543de1d2f7a78
+    Tested on Odoo 10.0 03bc8c5f9ac53a3349c1caac222f7619a632ccd8
 
 commit sha can be found as following
 
