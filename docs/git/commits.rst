@@ -12,6 +12,7 @@ Based on: https://www.odoo.com/documentation/8.0/reference/guidelines.html
 * **[REL]** for releases
 * **[CI]** for updating travis and related files
 * **[LINT]** for fixing lint errors
+* **[i18n]** for translations
 
 Forbidden
 ---------
