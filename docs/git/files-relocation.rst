@@ -1,7 +1,53 @@
-Files relocation
+==================
+ Files relocation
+==================
+
+.. contents::
+   :local:
+
+git format-patch
 ================
 
-This article based on http://gbayer.com/development/moving-files-from-one-git-repository-to-another-preserving-history/
+This section is based on OCA's `instruction. <https://github.com/OCA/maintainer-tools/wiki/Migration-to-version-10.0>`_
+
+Used variabes:
+
+* ``$REPO_PATH``, ``$REPO_NAME`` - source repository path
+* ``$MODULE`` - the name of the module you want to move
+* ``$BRANCH`` - the branch of the $REPO with $MODULE
+* ``$DEST_REPO_PATH``, ``$DEST_REPO_NAME`` - target repository path
+
+.. code-block:: sh
+
+    # set variables
+    export REPO_PATH=/path/to/misc-addons REPO_NAME=misc-addons MODULE=some_module BRANCH=10.0 DEST_REPO_PATH=/path/to/mail-addons DEST_REPO_NAME=mail-addons
+
+    # create patch
+    cd $REPO_PATH
+    git fetch upstream
+    git format-patch --stdout --root upstream/$BRANCH -- $MODULE > /tmp/relocation.patch
+
+    # remove module from source repository
+    git checkout -b $BRANCH-$MODULE-relocation-remove upstream/$BRANCH
+    git rm -r $MODULE
+    git commit -m "[REM] $MODULE is relocated to $DEST_REPO_NAME"
+    git push origin
+    # Then create PR on github
+    
+    # add commits to target repository
+    cd $DEST_REPO_PATH
+    git fetch upstream
+    git checkout -b $BRANCH-$MODULE-relocation-add upstream/$BRANCH
+    git am -3 < /tmp/relocation.patch
+    git push origin
+    # Then create PR on github
+    
+
+
+git filter-branch
+=================
+
+This section is based on http://gbayer.com/development/moving-files-from-one-git-repository-to-another-preserving-history/
 
 Goal:
  - Move directory 1 from Git repository A to Git repository B.
