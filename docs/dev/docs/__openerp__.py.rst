@@ -178,6 +178,10 @@ For OCA's repositories put company name first, then OCA. Developers are listed i
 
     "author": "IT-Projects LLC, Odoo Community Association (OCA)",
 
+website
+=======
+
+Url to developer's twitter (e.g. ``"https://twitter.com/yelizariev"``)  or company's website (e.g. ``"https://it-projects.info"``)
 
 license
 =======
