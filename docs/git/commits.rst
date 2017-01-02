@@ -10,7 +10,7 @@ Based on: https://www.odoo.com/documentation/8.0/reference/guidelines.html
 * **[ADD]** for adding new resources (new modules or files).
 * **[REM]** for removing of resources
 * **[REL]** for releases
-* **[CI]** for updating travis and related files
+* **[CI]** for updating ``.travis.yml``, ``requirements.txt``, ``*/tests/*``, etc. files
 * **[LINT]** for fixing lint errors
 * **[i18n]** for translations
 
