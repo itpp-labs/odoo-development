@@ -12,35 +12,35 @@ This section is based on OCA's `instruction. <https://github.com/OCA/maintainer-
 
 Used variabes:
 
-* ``$REPO_PATH``, ``$REPO_NAME`` - source repository path
+* ``$REPO_PATH``, ``$REPO_NAME`` - source repository
 * ``$MODULE`` - the name of the module you want to move
 * ``$BRANCH`` - the branch of the $REPO with $MODULE
-* ``$DEST_REPO_PATH``, ``$DEST_REPO_NAME`` - target repository path
+* ``$DEST_REPO_PATH``, ``$DEST_REPO_NAME`` - target repository
 
 .. code-block:: sh
 
-    # set variables
+    # Set variables
     export REPO_PATH=/path/to/misc-addons REPO_NAME=misc-addons MODULE=some_module BRANCH=10.0 DEST_REPO_PATH=/path/to/mail-addons DEST_REPO_NAME=mail-addons
 
-    # create patch
+    # Create patch
     cd $REPO_PATH
     git fetch upstream
     git format-patch --stdout --root upstream/$BRANCH -- $MODULE > /tmp/relocation.patch
 
-    # remove module from source repository
+    # Remove module from source repository
     git checkout -b $BRANCH-$MODULE-relocation-remove upstream/$BRANCH
     git rm -r $MODULE
     git commit -m "[REM] $MODULE is relocated to $DEST_REPO_NAME"
     git push origin
-    # Then create PR on github
+    # then create PR on github
     
-    # add commits to target repository
+    # Add commits to target repository
     cd $DEST_REPO_PATH
     git fetch upstream
     git checkout -b $BRANCH-$MODULE-relocation-add upstream/$BRANCH
     git am -3 < /tmp/relocation.patch
     git push origin
-    # Then create PR on github
+    # then create PR on github
     
 
 
