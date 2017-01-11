@@ -8,11 +8,6 @@ Use this for new modules
 
 .. code-block:: rst
 
-    .. _changelog:
-
-    Updates
-    =======
-
     `1.0.0`
     -------
     
@@ -22,27 +17,22 @@ Guidlines
 ---------
 
 .. code-block:: rst
-
-    .. _changelog:
-
-    Updates
-    =======
     
     `2.0.0`
     -------
 
-    - ADD: absolutely new way of ..
+    - **ADD:** absolutely new way of ..
 
     `1.2.0`
     -------
 
-    - ADD: new interface for ..
+    - **ADD:** new interface for ..
 
     `1.0.1`
     -------
 
-    - FIX: issue about ...
-    - FIX: another issue about ...
+    - **FIX:** issue about ...
+    - **FIX:** another issue about ...
 
     `1.0.0`
     -------
