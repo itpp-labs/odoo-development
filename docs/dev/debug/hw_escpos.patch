@@ -1,0 +1,74 @@
+diff --git a/addons/hw_escpos/controllers/main.py b/addons/hw_escpos/controllers/main.py
+index 812e8d7..9ff2f50 100644
+--- a/addons/hw_escpos/controllers/main.py
++++ b/addons/hw_escpos/controllers/main.py
+@@ -9,11 +9,13 @@ import os.path
+ import subprocess
+ import time
+ import traceback
++import re
+ 
+ try: 
+     from .. escpos import *
+     from .. escpos.exceptions import *
+     from .. escpos.printer import Usb
++    from .. escpos.printer import File
+ except ImportError:
+     escpos = printer = None
+ 
+@@ -97,7 +99,8 @@ class EscposDriver(Thread):
+                 self.start()
+     
+     def get_escpos_printer(self):
+-  
++        self.set_status('connected','Connected')
++        return File('/tmp/printer')
+         printers = self.connected_usb_devices()
+         if len(printers) > 0:
+             print_dev = Usb(printers[0]['vendor'], printers[0]['product'])
+@@ -160,6 +163,10 @@ class EscposDriver(Thread):
+                 elif task == 'xml_receipt':
+                     if timestamp >= time.time() - 1 * 60 * 60:
+                         printer.receipt(data)
++                        print 'PRINTER DATA'
++                        cut = data
++                        cut = re.sub('img src="[^"]*"', 'img src="CUT"', cut)
++                        print cut
+                 elif task == 'cashbox':
+                     if timestamp >= time.time() - 12:
+                         self.open_cashbox(printer)
+diff --git a/addons/hw_escpos/escpos/printer.py b/addons/hw_escpos/escpos/printer.py
+index f994d94..24dbaa8 100644
+--- a/addons/hw_escpos/escpos/printer.py
++++ b/addons/hw_escpos/escpos/printer.py
+@@ -217,3 +217,30 @@ class Network(Escpos):
+         """ Close TCP connection """
+         self.device.close()
+ 
++
++class File(Escpos):
++    def __init__(self, file="/tmp/printer"):
++        self.file = file
++        self.open()
++
++    def open(self):
++        self.fd = open(self.file, 'a')
++
++        if self.fd is not None:
++            print "File printer enabled"
++        else:
++            print "Unable to open file printer : %s" % self.file
++
++    def _raw(self, msg):
++        """ Print any command sent in raw format """
++        self.fd.write(msg)
++
++    def __del__(self):
++        """ Close Serial interface """
++        if self.device is not None:
++            self.device.close()
++
++    def close(self):
++        """ Close Serial interface """
++        if self.device is not None:
++            self.device.close()
