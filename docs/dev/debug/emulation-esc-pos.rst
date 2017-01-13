@@ -25,10 +25,11 @@ On printing:
 
 POS
 ---
+At any database, including one on runbot:
 
 * set ``Receipt printer`` checkbox in pos.config and set ip equal to ``127.0.0.1``
 
-* open POS interface (at any database, including one on runbot)
+* open POS interface 
 
 * print ticket
 
