@@ -81,6 +81,7 @@ Script
     '    def $1($2):\n'\
     '        for r in self:\n'\
     '            r.$1_one($2)\n'\
+    '        return True'\
     '\n'\
     '    \@api.multi\n'\
     '    def $1_one($2):\n'\
