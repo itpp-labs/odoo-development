@@ -83,6 +83,7 @@ Script
     '            r.$1_one($2)\n'\
     '        return True'\
     '\n'\
+    '\n'\
     '    \@api.multi\n'\
     '    def $1_one($2):\n'\
     '        self.ensure_one()/g'
