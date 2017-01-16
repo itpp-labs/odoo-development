@@ -76,16 +76,30 @@ Script
     # Replace @api.one -> @api.multi
     find . -type f -name '*.py' | xargs perl -i -p0e 's/'\
     '@api\.one\n'\
-    '    def ([^(]*)\(([^(]*)\):/'\
+    '    def ([^(]*)\(self, ([^(]*)\):/'\
     '@api.multi\n'\
-    '    def $1($2):\n'\
+    '    def $1(self, $2):\n'\
     '        for r in self:\n'\
     '            r.$1_one($2)\n'\
     '        return True'\
     '\n'\
     '\n'\
     '    \@api.multi\n'\
-    '    def $1_one($2):\n'\
+    '    def $1_one(self, $2):\n'\
+    '        self.ensure_one()/g'
+
+    find . -type f -name '*.py' | xargs perl -i -p0e 's/'\
+    '@api\.one\n'\
+    '    def ([^(]*)\(self\):/'\
+    '@api.multi\n'\
+    '    def $1(self):\n'\
+    '        for r in self:\n'\
+    '            r.$1_one()\n'\
+    '        return True'\
+    '\n'\
+    '\n'\
+    '    \@api.multi\n'\
+    '    def $1_one(self):\n'\
     '        self.ensure_one()/g'
 
 
