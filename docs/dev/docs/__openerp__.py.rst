@@ -36,6 +36,7 @@ Use example below as template. What are important here:
         "application": False,
 
         "author": "IT-Projects LLC, DEVELOPER_NAME",
+        "support": "apps@it-projects.info",
         "website": "https://it-projects.info",
         "license": "LGPL-3",
         # "price": 9.00,
