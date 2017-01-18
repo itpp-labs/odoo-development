@@ -36,6 +36,10 @@ Automatic replacements
     #   AttributeError: 'module' object has no attribute 'session_dir'
     find . -type f -name '*.py' | xargs sed -i 's/openerp.tools.config/odoo.tools.config/g'
 
+    # general replacement
+    find . -type f -name '*.py' | xargs sed -i 's/from openerp/from odoo/g'
+
+
     # FIELDS
     # update fields
     # (multiline: http://stackoverflow.com/questions/1251999/how-can-i-replace-a-newline-n-using-sed/7697604#7697604 )
