@@ -74,7 +74,7 @@ Script
     find . -type f -name 'changelog.rst' | xargs sed -i 's/^=========/=======/g'
     
     # Replace @api.one -> @api.multi
-    # Note. This solution doesn't work on methods that call (e.g. write, create methods)
+    # Note. This solution doesn't work on methods that call super (e.g. write, create methods) or has to return value
     find . -type f -name '*.py' | xargs perl -i -p0e 's/'\
     '@api\.one\n'\
     '    def ([^(]*)\(self, ([^(]*)\):/'\
