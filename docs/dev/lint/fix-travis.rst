@@ -23,16 +23,17 @@ Installation
 Script
 ======
 ::
-
+ 
+    EXCLUDE_FILES=".\(svg\|gif\|png\|jpg\)$"
     # fix line break symbols
     cd /path/to/MODULE_NAME
-    find * -type f | grep -v ".\(svg\|png\|jpg\)$" | xargs sed -i 's/\r//g'
+    find * -type f | grep -v $EXCLUDE_FILES | xargs sed -i 's/\r//g'
     
     # add line break to the end of file
-    find * -type f | grep -v ".\(png\|jpg\)$" | xargs sed -i '$a\'
+    find * -type f | grep -v $EXCLUDE_FILES | xargs sed -i '$a\'
 
     # trim trailing whitespaces
-    find * -type f | grep -v ".\(svg\|png\|jpg\)$" | xargs sed -i 's/[ \t]*$//g'
+    find * -type f | grep -v $EXCLUDE_FILES | xargs sed -i 's/[ \t]*$//g'
 
     # PEP8 для py-файлов:
     autopep8 --in-place -r --aggressive --aggressive --ignore E501 ./
