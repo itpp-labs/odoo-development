@@ -10,6 +10,9 @@ To create Postgres View in odoo do as follows:
 * all fields must have the flag ``readonly=True``.
 * specify the parameter ``_auto=False`` to the odoo model, so no table corresponding to the fields is created automatically.
 * add a method ``init(self, cr)`` that creates a PostgreSQL View matching the fields declared in the model.
+
+  * ``id`` field has to be specified in ``SELECT`` part. See example below
+
 * add views for the model in a usual way
 
 Example:
