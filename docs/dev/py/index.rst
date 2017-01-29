@@ -10,3 +10,4 @@ Odoo Python
    x2many
    fields
    constraints
+   postgres-views
