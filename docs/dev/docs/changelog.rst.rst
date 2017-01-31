@@ -21,12 +21,12 @@ Guidlines
     `2.0.0`
     -------
 
-    - **ADD:** absolutely new way of ..
+    - **NEW:** absolutely new way of ..
 
     `1.2.0`
     -------
 
-    - **ADD:** new interface for ..
+    - **NEW:** new interface for ..
 
     `1.0.1`
     -------
