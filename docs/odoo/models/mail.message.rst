@@ -27,7 +27,7 @@ Users can also have a mail.message.subtype that depends on an other to act throu
     <record id="mt_task_planned_hours_change" model="mail.message.subtype">
         <field name="name">Task planned hours changed</field>
         <field name="sequence">10</field>
-        <field name="res_model">projec.project</field>
+        <field name="res_model">project.project</field>
         <field name="parent_id" eval="ref('mt_task_planned_hours')"/>
         <field name="relation_field">project_id</field>
     </record>
