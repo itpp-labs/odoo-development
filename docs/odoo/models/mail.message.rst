@@ -20,14 +20,14 @@ It needs to be defined in XML which will have following syntax.
         <field name="description">Task planned hours changed</field>
     </record>
 
-Users can also have a mail.message.subtype that depends on an other to act through a relation field. For the planned hours, we can have following sysntax for it.
+Users can also have a mail.message.subtype that depends on an other to act through a relation field. For the planned hours, we can have following syntax for it.
 
 .. code-block:: xml
 
     <record id="mt_task_planned_hours_change" model="mail.message.subtype">
         <field name="name">Task planned hours changed</field>
         <field name="sequence">10</field>
-        <field name="res_model">project.task</field>
+        <field name="res_model">projec.project</field>
         <field name="parent_id" eval="ref('mt_task_planned_hours')"/>
         <field name="relation_field">project_id</field>
     </record>
