@@ -38,7 +38,7 @@ Odoo provide feature to track various events related with one particular documen
 
     _track = {
         'planned_hours': {
-        'module_name.mt_task_planned_hours': lambda self, cr, uid, obj, ctx=None: obj.planned_hours,
+        'project.mt_task_planned_hours': lambda self, cr, uid, obj, ctx=None: obj.planned_hours,
     },
 
 
