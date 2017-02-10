@@ -25,7 +25,7 @@ On printing:
 
 POS
 ---
-At any database, including one on runbot:
+At any database (including one on runbot as well as database where you have installed hw_escpos):
 
 * set ``Receipt printer`` checkbox in pos.config and set ip equal to ``127.0.0.1``
 
