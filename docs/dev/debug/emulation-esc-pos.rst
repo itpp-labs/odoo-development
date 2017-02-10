@@ -23,7 +23,9 @@ hw_escpos
 
 * install hw_escpos on odoo
 
-* run odoo with ``-d DB_WITH_HW_ESCPOS --db-filter=DB_WITH_HW_ESCPOS``
+* run a separate odoo with following args::
+
+  -d DB_WITH_HW_ESCPOS --db-filter=DB_WITH_HW_ESCPOS --xmlrpc-port=8888 --workers=0
 
 * in new terminal run
 
@@ -40,7 +42,7 @@ POS
 ---
 At any database (including one on runbot as well as database where you have installed hw_escpos):
 
-* set ``Receipt printer`` checkbox in pos.config and set ip equal to ``127.0.0.1``
+* set ``Receipt printer`` checkbox in pos.config and set ip equal to ``127.0.0.1:8888``
 
 * open POS interface 
 
