@@ -6,7 +6,20 @@
 hw_escpos
 ---------
 
-* apply `patch <https://raw.githubusercontent.com/it-projects-llc/odoo-development/master/docs/dev/debug/hw_escpos.patch>`__
+* apply patch
+
+  .. code-block:: sh
+
+      cd /path/to/odoo/
+
+      # odoo 10
+      curl https://raw.githubusercontent.com/it-projects-llc/odoo-development/master/docs/dev/debug/hw_escpos-patch/hw_escpos-10.patch > hw_escpos.patch
+
+      # odoo 9
+      curl https://raw.githubusercontent.com/it-projects-llc/odoo-development/master/docs/dev/debug/hw_escpos-patch/hw_escpos-9.patch > hw_escpos.patch
+
+      git apply hw_escpos.patch
+
 
 * install hw_escpos on odoo
 
