@@ -44,7 +44,9 @@ At any database (including one on runbot as well as database where you have inst
 
 * set ``Receipt printer`` checkbox in pos.config and set ip equal to ``127.0.0.1:8888``
 
-* open POS interface 
+* open POS interface
+
+  .. warning:: for some reason printer emulation doesn't work in debug mode
 
 * print ticket
 
