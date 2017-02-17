@@ -6,8 +6,8 @@ ssh keys
 ========
 Configure github ssh keys: https://help.github.com/articles/generating-ssh-keys/
 
-github emails
-=============
+github profile
+==============
 
 *IT-Projects LLC employees only:*
 
@@ -15,6 +15,9 @@ github emails
 
     * public email must be personal address …@it-projects.info
     * URL must be personal twitter account
+    * Company must be set to ``@it-projects-llc``
+    * Location must be your ``YouCity, Country``
+    * Photo must be your real photo
 
   * https://github.com/settings/emails
 
