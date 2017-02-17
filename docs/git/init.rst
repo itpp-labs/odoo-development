@@ -54,7 +54,7 @@ gitignore
 
 * `Configure global gitignore <https://help.github.com/articles/ignoring-files/#create-a-global-gitignore>`_
 
-    Possible content for ``~/.gitignore_global``: ::
+  Possible content for ``~/.gitignore_global``: ::
 
     *~
     *.pyc   
