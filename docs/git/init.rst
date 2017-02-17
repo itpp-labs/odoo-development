@@ -13,11 +13,13 @@ github emails
 
   * https://github.com/settings/profile
 
-    * public email should be personal address …@it-projects.info
+    * public email must be personal address …@it-projects.info
+    * URL must be personal twitter account
+
   * https://github.com/settings/emails
 
-    * primary email should be personal address …@it-projects.info
-    * “Keep my email address private” should be turned off
+    * primary email must be personal address …@it-projects.info
+    * “Keep my email address private” must be switched off
   
   * https://github.com/orgs/it-projects-llc/people
   
