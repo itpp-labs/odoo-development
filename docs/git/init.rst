@@ -18,6 +18,11 @@ github emails
 
     * primary email should be personal address …@it-projects.info
     * “Keep my email address private” should be turned off
+  
+  * https://github.com/orgs/it-projects-llc/people
+  
+    * get invitation
+    * set ``Organization visibility`` to ``Public``
 
 git email
 =========
