@@ -78,6 +78,7 @@ Script
     
     # Replace @api.one -> @api.multi
     # Note. This solution doesn't work on methods that call super (e.g. write, create methods) or has to return value
+    # Note. This solution doesn't handle properly methods with kwargs
     find . -type f -name '*.py' | xargs perl -i -p0e 's/'\
     '@api\.one\n'\
     '    def ([^(]*)\(self, ([^(]*)\):/'\
