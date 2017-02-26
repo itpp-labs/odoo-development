@@ -23,10 +23,15 @@ Current content:
    other/index
 
 
-.. note:: We try our best to improve this manual, but if you still have difficults, we can offer private tutoring / advising / consultation on odoo development (resolve problem that developer(s) stack on, reveview code and pull requests ect). Feel free to hire us on upwork:
 
-   * `Ivan Yelizariev <https://www.upwork.com/fl/ivanyelizariev>`__
-   * `Ildar Nasyrov <https://www.upwork.com/fl/ildarnasyrov>`__
+.. admonition:: Want to talk with other developers?
+   :class: note
+
+   Check out our `telegramm group <https://t.me/joinchat/AAAAAAzvae_5DjgiXpgEHg>`__, but don't take it too seriously ;-)
+
+
+.. admonition:: Need our service?
+   :class: warning
 
    For module development contact us by `email <mailto:it@it-projects.info>`__ or fill out `request form <https://www.it-projects.info/page/website.contactus>`__:
 
