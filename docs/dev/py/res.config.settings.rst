@@ -41,7 +41,7 @@ current values for other fields.
 
 Example
 -------
-.. code-block::
+.. code-block:: py
 
     from openerp import models, fields, api
     
