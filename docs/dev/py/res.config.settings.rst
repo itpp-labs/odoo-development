@@ -1,21 +1,21 @@
 res.config.settings
 ===================
 
-*Based on* https://github.com/odoo/odoo/blob/9.0/openerp/addons/base/res/res_config.py
+*Based on* https://github.com/odoo/odoo/blob/10.0/odoo/addons/base/res/res_config.py
 
 ``res.config.settings`` is a base configuration wizard for application settings.  It provides support for setting
 default values, assigning groups to employee users, and installing modules.
 To make such a 'settings' wizard, define a model like::
 
-    class my_config_wizard(osv.osv_memory):
+    class MyConfigWizard(models.TransientModel):
         _name = 'my.settings'
         _inherit = 'res.config.settings'
-        _columns = {
-            'default_foo': fields.type(..., default_model='my.model'),
-            'group_bar': fields.boolean(..., group='base.group_user', implied_group='my.group'),
-            'module_baz': fields.boolean(...),
-            'other_field': fields.type(...),
-        }
+        default_foo = fields.type(..., default_model='my.model')
+        group_bar = fields.Boolean(..., group='base.group_user', implied_group='my.group')
+        module_baz = fields.Boolean(...)
+        other_field = fields.type(...)
+
+
 
 The method ``execute`` (*Apply* button) provides some support based on a naming convention:
 
