@@ -11,7 +11,7 @@ Basic tags
 * **[IMP]** for improvements
 * **[FIX]** for bug fixes
 * **[REF]** for refactoring
-* **[ADD]** for adding new resources (new modules or files).
+* **[ADD]** for adding new resources (new modules or files) and some time - for new features.
 * **[REM]** for removing of resources
 * **[REL]** for releases
 * **[CI]** for updating ``.travis.yml``, ``requirements.txt``, ``*/tests/*``, etc. files
