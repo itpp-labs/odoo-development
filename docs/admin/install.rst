@@ -1,10 +1,94 @@
-Odoo installation
-=================
+===================
+ Odoo installation
+===================
 
 .. contents::
 
-Local installation
+.. note:: This article covers development installation only. For production installation follow https://github.com/it-projects-llc/install-odoo
+
+Docker installation
+===================
+
+Install docker
+--------------
+
+Follow https://docs.docker.com/engine/installation/
+
+Clone repositories
 ------------------
+
+.. code-block:: shell
+
+   cd /some/work/path
+
+   ## Settings
+   ODOO_BRANCHES=(10.0 9.0 8.0)  # update if needed
+   GITHUB_USER=yelizariev  # change it to your user
+
+   ## Common functions
+   function init_repo {
+     MAIN=$1
+     NAME=$2
+     if [ ! -d $NAME ]; then
+       # clone
+       git clone https://github.com/${MAIN}/${NAME}.git $NAME
+       # rename
+       git -C $NAME remote rename origin upstream
+     fi
+
+     # NAME origin over ssh
+     git -C $NAME remote add origin git@github.com:${GITHUB_USER}/${NAME}.git
+
+     for b in "${ODOO_BRANCHES[@]}"
+     do
+       DEST=odoo-$b/$NAME
+
+       if [ ! -d $DEST ]; then
+         # copy
+         cp -r $NAME $DEST
+         # checkout to branch
+         git -C $DEST checkout upstream/$b
+       fi
+     done
+
+     # clean up
+     rm -rf $NAME
+   }
+
+
+   ## Create folder odoo-$b for each branch
+   for b in "${ODOO_BRANCHES[@]}"
+   do
+     mkdir -p odoo-$b
+   done
+
+   ## Clone odoo (fork odoo repo before executing: https://github.com/odoo/odoo )
+   init_repo odoo odoo
+
+   ## Clone IT_PROJECTS_LLC_REPOS
+   # be sure that you have forks for repos below
+   IT_PROJECTS_LLC_REPOS=(
+   "pos-addons"
+   "access-addons"
+   "website-addons"
+   "misc-addons"
+   "mail-addons"
+   "odoo-saas-tools"
+   )
+
+   for r in "${IT_PROJECTS_LLC_REPOS[@]}"
+   do
+     init_repo it-projects-llc $r
+   done
+
+   ## Clone addons-dev
+   init_repo it-projects-llc addons-dev
+
+
+Straightforward installation
+============================
+
+.. warning:: This way is not recommended and script may be obsolete
 
 .. code-block:: shell
 
@@ -78,7 +162,7 @@ Local installation
    sudo bash -c "echo '127.0.0.1 8_0-project1.local'  >> /etc/hosts"
    sudo bash -c "echo '127.0.0.1 8_0-project2.local'  >> /etc/hosts"
    sudo bash -c "echo '127.0.0.1 9_0-project1.local'  >> /etc/hosts"
-   
+
    ################### nginx
    # put nginx_odoo.conf to /etc/nginx/sites-enabled/
    # delete default configuration:
@@ -103,36 +187,32 @@ Local installation
    # (database name should be 8_0-client1.local )
 
 
-nginx_odoo.conf
-^^^^^^^^^^^^^^^
+Nginx configuration
+===================
+
+Working via nginx is recommended for any type of installation
 
 .. code-block:: shell
 
     server {
            listen 80 default_server;
            server_name .local;
-           
+
            proxy_buffers 16 64k;
            proxy_buffer_size 128k;
            proxy_set_header Host $host;
            proxy_set_header X-Real-IP $remote_addr;
            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
            proxy_set_header X-Forwarded-Proto $scheme;
-           #proxy_redirect http:// https://; 
+           #proxy_redirect http:// https://;
            proxy_read_timeout 600s;
-           client_max_body_size 100m; 
+           client_max_body_size 100m;
 
            location /longpolling {
                proxy_pass http://127.0.0.1:8072;
            }
-    
+
            location / {
                proxy_pass http://127.0.0.1:8069;
            }
    }
-
-
-Production installation
------------------------
-
-* https://github.com/yelizariev/install-odoo
