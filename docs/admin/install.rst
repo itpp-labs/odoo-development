@@ -84,6 +84,72 @@ Clone repositories
    ## Clone addons-dev
    init_repo it-projects-llc addons-dev
 
+Create dockers
+--------------
+
+.. code-block:: shell
+
+   # Create postgres docker container. 
+   # You create one per each odoo version or one per each project / module
+   DB_CONTAINER=db-odoo-10
+   docker run -d -e POSTGRES_USER=odoo -e POSTGRES_PASSWORD=odoo --name $DB_CONTAINER postgres:9.5
+
+   ODOO_CONTAINER=some-container-name-for-odoo-10
+   ODOO_BRANCH=10.0
+
+   # Create docker without adding folders from host machine. 
+   # Usually for demostration and testing, not for development.
+   docker run \
+   -p 8069:8069 \
+   -p 8072:8072 \
+   -e ODOO_MASTER_PASS=admin \
+   --name $ODOO_CONTAINER \
+   --link $DB_CONTAINER:db \
+   -t itprojectsllc/install-odoo:$ODOO_BRANCH
+
+   # Attach folder from host to make updates there.
+   # Example for misc-addons
+   docker run \
+   -p 8069:8069 \
+   -p 8072:8072 \
+   -e ODOO_MASTER_PASS=admin \
+   -v /some/path/at/host-machine/with/clone-of-misc-addons-or-addons-dev/:/mnt/addons/it-projects-llc/misc-addons/ \
+   --name $ODOO_CONTAINER \
+   --link $DB_CONTAINER:db \
+   -t itprojectsllc/install-odoo:$ODOO_BRANCH
+
+
+   # Update all repos
+   docker exec -t $ODOO_CONTAINER /bin/bash -c "export GIT_PULL=yes; bash /install-odoo-saas.sh"
+
+   # Update odoo only
+   docker exec -t $ODOO_CONTAINER git -C /mnt/odoo-source/ pull
+
+   # Update misc-addons only
+   docker exec -t $ODOO_CONTAINER git -C /mnt/addons/it-projects-llc/misc-addons pull
+
+Control dockers
+---------------
+
+.. code-block:: shell
+
+   # open docker terminal as odoo
+   docker exec -i -t $ODOO_CONTAINER /bin/bash
+
+   # open docker terminal as root
+   docker exec -i -u root -t $ODOO_CONTAINER /bin/bash
+
+   # watch logs
+   docker attach $ODOO_CONTAINER
+
+   # stop container
+   docker stop $ODOO_CONTAINER
+
+   # start container
+   docker start $ODOO_CONTAINER
+
+   # remove container (if you don't need one anymore or want to recreate it)
+   docker rm $ODOO_CONTAINER
 
 Straightforward installation
 ============================
