@@ -28,14 +28,15 @@ Use example below as template. What are important here:
 
     # -*- coding: utf-8 -*-
     {
-        "name": """MODULE_NAME""",
-        "summary": """SHORT_DESCRIPTION_OF_THE_MODULE""",
-        "category": "SOME_CATEGORY",
+        "name": """{MODULE_NAME}""",
+        "summary": """{SHORT_DESCRIPTION_OF_THE_MODULE}""",
+        "category": "{SOME_CATEGORY}",
+        # "live_test_URL": "",
         "images": [],
         "version": "1.0.0",
         "application": False,
 
-        "author": "IT-Projects LLC, DEVELOPER_NAME",
+        "author": "IT-Projects LLC, {DEVELOPER_NAME}",
         "support": "apps@it-projects.info",
         "website": "https://it-projects.info",
         "license": "LGPL-3",
@@ -43,19 +44,19 @@ Use example below as template. What are important here:
         # "currency": "EUR",
 
         "depends": [
-            "DEPENDENCY1",
-            "DEPENDENCY2",
+            "{DEPENDENCY1}",
+            "{DEPENDENCY2}",
         ],
         "external_dependencies": {"python": [], "bin": []},
         "data": [
-            "FILE1.xml",
-            "FILE2.xml",
+            "{FILE1}.xml",
+            "{FILE2}.xml",
         ],
         "qweb": [
-            "static/src/xml/QWEBFILE1.xml",
+            "static/src/xml/{QWEBFILE1}.xml",
         ],
         "demo": [
-            "demo/DEMOFILE1.xml",
+            "demo/{DEMOFILE1}.xml",
         ],
 
         "post_load": None,

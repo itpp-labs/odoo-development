@@ -19,6 +19,8 @@ Installation
 
     # install fixmyjs
     sudo npm install fixmyjs -g
+    # increase max errors to be fixed (otherwise script stops)
+    echo '{"maxerr": 1000}' > ~/.jshintrc
 
 Script
 ======
@@ -62,7 +64,7 @@ Script
     find . -type f -name '*.py' | xargs sed -i -e 's/ #\([^ ]\)/ # \1/g'
 
     #lint for js:
-    fixmyjs --legacy --config ~/js_conf.json ./
+    fixmyjs --legacy --config ~/.jshintrc ./
 
     # Addition of the first row (coding) in py-files
     find -iname '*.py' | xargs grep -rLP 'coding: *utf-8' | xargs sed -i '1s/^/# -*- coding: utf-8 -*-\n/'
@@ -76,6 +78,7 @@ Script
     
     # Replace @api.one -> @api.multi
     # Note. This solution doesn't work on methods that call super (e.g. write, create methods) or has to return value
+    # Note. This solution doesn't handle properly methods with kwargs
     find . -type f -name '*.py' | xargs perl -i -p0e 's/'\
     '@api\.one\n'\
     '    def ([^(]*)\(self, ([^(]*)\):/'\

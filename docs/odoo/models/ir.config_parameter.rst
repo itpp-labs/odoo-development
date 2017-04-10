@@ -13,6 +13,7 @@ Code::
         <record id="myid" model="ir.config_parameter">
             <field name="key">mymodule.mykey</field>
             <field name="value">True</value>
+            <field name="group_ids" eval="[(4, ref('base.group_system'))]"/>
         </record>
 
 Prons:
@@ -28,7 +29,7 @@ XML: <function>
 
 Code::
 
-    <function model="ir.config_parameter" name="set_param" eval="('auth_signup.allow_uninvited', True)" />
+    <function model="ir.config_parameter" name="set_param" eval="('auth_signup.allow_uninvited', True, ['base.group_system'])" />
 
 Prons:
 

@@ -1,21 +1,21 @@
 res.config.settings
 ===================
 
-*Based on* https://github.com/odoo/odoo/blob/9.0/openerp/addons/base/res/res_config.py
+*Based on* https://github.com/odoo/odoo/blob/10.0/odoo/addons/base/res/res_config.py
 
 ``res.config.settings`` is a base configuration wizard for application settings.  It provides support for setting
 default values, assigning groups to employee users, and installing modules.
 To make such a 'settings' wizard, define a model like::
 
-    class my_config_wizard(osv.osv_memory):
+    class MyConfigWizard(models.TransientModel):
         _name = 'my.settings'
         _inherit = 'res.config.settings'
-        _columns = {
-            'default_foo': fields.type(..., default_model='my.model'),
-            'group_bar': fields.boolean(..., group='base.group_user', implied_group='my.group'),
-            'module_baz': fields.boolean(...),
-            'other_field': fields.type(...),
-        }
+        default_foo = fields.type(..., default_model='my.model')
+        group_bar = fields.Boolean(..., group='base.group_user', implied_group='my.group')
+        module_baz = fields.Boolean(...)
+        other_field = fields.type(...)
+
+
 
 The method ``execute`` (*Apply* button) provides some support based on a naming convention:
 
@@ -41,21 +41,38 @@ current values for other fields.
 
 Example
 -------
-This for website.config.settings but it is similar to res.config.settings::
+.. code-block:: py
 
-    class website_config_settings(models.TransientModel):
-        _inherit = 'website.config.settings'
-        nobill_noship = fields_new_api.Boolean("Pickup and pay at store")
-        #When you press Apply
-        def set_nobill_noship(self, cr, uid, ids, context=None):
-            config_parameters = self.pool.get("ir.config_parameter")
-            for record in self.browse(cr, uid, ids, context=context):
-                config_parameters.set_param(cr, uid, "website_sale_checkout_store.nobill_noship", record.nobill_noship or '', context=context)
-        #When page loads
-        def get_default_nobill_noship(self, cr, uid, fields, context=None):
-            nobill_noship = self.pool.get("ir.config_parameter").get_param(cr, uid, "website_sale_checkout_store.nobill_noship", default=False, context=context)
-            return {'nobill_noship': nobill_noship}
-    #website_sale_checkout_store - is your module
+    from openerp import models, fields, api
+    
+    PARAMS = [
+        ("login", "apps_odoo_com.login"),
+        ("password", "apps_odoo_com.password"),
+    ]
+    
+    
+    class Settings(models.TransientModel):
+    
+        _name = 'apps_odoo_com.settings'
+        _inherit = 'res.config.settings'
+    
+        login = fields.Char("Login")
+        password = fields.Char("Password")
+    
+        @api.multi
+        def set_params(self):
+            self.ensure_one()
+    
+            for field_name, key_name in PARAMS:
+                value = getattr(self, field_name, '').strip()
+                self.env['ir.config_parameter'].set_param(key_name, value)
+    
+        def get_default_params(self, cr, uid, fields, context=None):
+            res = {}
+            for field_name, key_name in PARAMS:
+                res[field_name] = self.env['ir.config_parameter'].get_param(key_name, '').strip()
+            return res
+
 
 
 Update settings on module install
