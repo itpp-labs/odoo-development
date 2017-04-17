@@ -5,7 +5,10 @@
 README.rst
 ==========
 
-Contains information interested for developers
+Contains information interested for developers:
+
+* short description
+* technical details
 
 index.rst
 =========
