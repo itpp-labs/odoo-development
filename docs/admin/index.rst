@@ -14,3 +14,4 @@ Official docs:
    workers
    addons_path
    log-handler
+   server_wide_modules
