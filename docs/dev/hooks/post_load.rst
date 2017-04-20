@@ -98,3 +98,12 @@ Something else we need to know?
 Yes.
 
 Additionally, if you need to apply monkey patch before any other initialisation, the module has to be added to :doc:`server_wide_modules<../../admin/server_wide_modules>` parameter.
+
+Other usage of post_load?
+=========================
+
+In case of extending pos-box modules (e.g. ``hw_escpos``), you probably need to use post_load, because importing hw_escpos from your module runs posbox specific initialisation. 
+
+Example from hw_printer_network module:
+
+TODO
