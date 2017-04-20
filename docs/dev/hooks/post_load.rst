@@ -106,4 +106,22 @@ In case of extending pos-box modules (e.g. ``hw_escpos``), you probably need to 
 
 Example from hw_printer_network module:
 
-TODO
+In *__manifest__.py*
+
+.. code-block:: py
+
+        ...
+        "post_load": "post_load",
+        "pre_init_hook": None,
+        "post_init_hook": None,
+        "installable": True,
+        "auto_install": False,
+        "application": True,
+    }
+
+In *__init__.py*
+
+.. code-block:: py
+
+    def post_load():
+        from . import controllers
