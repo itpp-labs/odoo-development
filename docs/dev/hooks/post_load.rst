@@ -125,3 +125,17 @@ In *__init__.py*
 
     def post_load():
         from . import controllers
+
+In *controllers/hw_printer_network_controller.py*
+
+.. code-block:: py
+
+    # first reason of using post_load
+    from odoo.addons.hw_escpos.escpos import escpos
+    import odoo.addons.hw_escpos.controllers.main as hw_escpos_main
+    
+    ...
+
+    # second reason - monkey patch:
+    driver = UpdatedEscposDriver()
+    hw_escpos_main.driver = driver
