@@ -4,7 +4,7 @@
 
 ssh keys
 ========
-Configure github ssh keys: https://help.github.com/articles/generating-ssh-keys/
+Configure github ssh keys: https://help.github.com/articles/connecting-to-github-with-ssh/
 
 github profile
 ==============
