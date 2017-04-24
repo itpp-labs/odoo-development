@@ -1,0 +1,13 @@
+   DB_CONTAINER=db-odoo-8
+   docker run -d -e POSTGRES_USER=odoo -e POSTGRES_PASSWORD=odoo --name $DB_CONTAINER postgres:9.5
+
+   ODOO_CONTAINER=apps_odoo_com.8.local
+   ODOO_BRANCH=8.0
+   docker run \
+   -p 8069:8069 \
+   -p 8072:8072 \
+   -e ODOO_MASTER_PASS=admin \
+   -v /mnt/files/odoo/odoo-8.0/addons-dev/:/mnt/addons/it-projects-llc/misc-addons/ \
+   --name $ODOO_CONTAINER \
+   --link $DB_CONTAINER:db \
+   -t itprojectsllc/install-odoo:$ODOO_BRANCH
