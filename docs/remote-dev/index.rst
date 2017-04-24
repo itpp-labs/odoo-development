@@ -13,7 +13,10 @@ Usage
 =====
 
 .. toctree::
+   :maxdepth: 1
+
    ../admin/install
+   ssh-forwarding
 
 Server administration
 =====================
