@@ -20,6 +20,7 @@ Current content:
    admin/index
    cd/index
    ide/index
+   remote-dev/index
    other/index
 
 
