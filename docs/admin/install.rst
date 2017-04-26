@@ -118,7 +118,7 @@ Create dockers
    -v /some/path/at/host-machine/with/clone-of-misc-addons-or-addons-dev/:/mnt/addons/it-projects-llc/misc-addons/ \
    --name $ODOO_CONTAINER \
    --link $DB_CONTAINER:db \
-   -t itprojectsllc/install-odoo:$ODOO_BRANCH -- -d misc --db-filter %d
+   -t itprojectsllc/install-odoo:$ODOO_BRANCH -- -d misc --db-filter ^%d$
 
 
    # Update all repos
