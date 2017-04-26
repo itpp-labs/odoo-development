@@ -107,8 +107,10 @@ Create dockers
    --link $DB_CONTAINER:db \
    -t itprojectsllc/install-odoo:$ODOO_BRANCH
 
-   # Attach folder from host to make updates there.
-   # Example for misc-addons
+   # Attach folder from host to make updates there (example for misc-addons).
+   # It also runs odoo with "-d" and "--db-filter" parameters to work only with one database named "misc". 
+   # It prevents running cron task on all available databases
+   # In this example you need to add misc.local to /etc/hosts and open odoo via http://misc.local
    docker run \
    -p 8069:8069 \
    -p 8072:8072 \
@@ -116,7 +118,7 @@ Create dockers
    -v /some/path/at/host-machine/with/clone-of-misc-addons-or-addons-dev/:/mnt/addons/it-projects-llc/misc-addons/ \
    --name $ODOO_CONTAINER \
    --link $DB_CONTAINER:db \
-   -t itprojectsllc/install-odoo:$ODOO_BRANCH
+   -t itprojectsllc/install-odoo:$ODOO_BRANCH -- -d misc --db-filter %d
 
 
    # Update all repos
