@@ -13,3 +13,9 @@ Then connect to your server and type to test::
     ssh -T git@github.com
 
 For more information see: https://developer.github.com/guides/using-ssh-agent-forwarding/
+
+Putty users (Windows)
+=====================
+
+* install  Pageant SSH agent (pageant.exe) https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+* Enable ssh agent forwarding in putty settings
