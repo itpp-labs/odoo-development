@@ -18,4 +18,5 @@ Putty users (Windows)
 =====================
 
 * install  Pageant SSH agent (pageant.exe) https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
-* Enable ssh agent forwarding in putty settings
+* add your keys to Pageant SSH
+* enable ssh agent forwarding in putty settings
