@@ -83,3 +83,10 @@ The commands doesn't update code fully and usually you need to continue updates 
     # res_config.py
     find . -type f -name 'res_config.py' | xargs sed -i 's/\(def get_default_.*\)(self)/\1(self, fields)/g'
 
+10.0+ updates
+=============
+
+.. code-block:: sh
+
+    # rename all manifests
+    find . -type f -name __openerp__.py -exec rename 's/__openerp__.py/__manifest__.py/' '{}' \;
