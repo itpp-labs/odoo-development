@@ -125,8 +125,3 @@ From zip archive (update)
 * navigate to ``Apps`` menu
 * search and open a module you need
 * click ``Upgrade``
-
-
-From addons path on server
-==========================
-TODO
