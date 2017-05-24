@@ -32,6 +32,11 @@ Price
 
 * Review ``"price"`` attribute at  :doc:`manifest file<../dev/docs/__openerp__.py>`
 
+Category
+========
+
+* Review ``"category"`` attribute at  :doc:`manifest file<../dev/docs/__openerp__.py>`
+
 doc/index.rst
 =============
 
