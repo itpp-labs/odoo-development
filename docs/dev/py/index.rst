@@ -11,3 +11,4 @@ Odoo Python
    fields
    constraints
    postgres-views
+   external-imports
