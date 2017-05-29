@@ -208,4 +208,5 @@ Check if some sytem application exists::
   "external_dependencies": {"bin" : ["libreoffice"]}
 
 
+See also: :doc:`External dependencies in odoo<../py/external-imports>`
 
