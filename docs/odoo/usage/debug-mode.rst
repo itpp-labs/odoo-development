@@ -22,7 +22,7 @@
 10.0+
 =====
 
-* click button ``Settings``
+* go to ``Settings``
 
 * click ``Activate the developer mode``
 
