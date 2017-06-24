@@ -12,7 +12,7 @@
     LXD_NETWORK="dev-network2"
 
     # install lxd 2.3+
-    apt-get install software-properties-common
+    apt-get install software-properties-common iptables-persistent
 
     add-apt-repository ppa:ubuntu-lxc/lxd-stable
     apt-get update
@@ -44,6 +44,10 @@
     # forward ssh port
     iptables -t nat -A PREROUTING -p tcp -i eth0 --dport ${PORT} -j DNAT \
       --to-destination ${LOCAL_IP}:22
+      
+    # save iptables record. Otherwise it's disappeared after rebooting
+    sudo netfilter-persistent save
+    sudo netfilter-persistent reload
 
     lxc start ${CONTAINER}
     lxc exec ${CONTAINER} -- mkdir -p /root/.ssh
