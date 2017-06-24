@@ -21,15 +21,15 @@
     {Instruction how to configure the module.}
 
     * `Enable technical features <https://odoo-development.readthedocs.io/en/latest/odoo/usage/technical-features.html>`__
-    * Open menu {...}
-    * Click {...}
+    * Open menu ``{Menu} >> {Submenu} >> {Subsubmenu}``
+    * Click ``[{Button Name}]``
 
     Usage
     =====
 
     {Instruction for daily usage. It should describe how to check that module works. What shall user do and what would user get.} 
-    * Open menu {...}
-    * Click {...}
+    * Open menu ``{Menu} >> {Submenu} >> {Subsubmenu}``
+    * Click ``[{Button Name}]``
 
     Uninstallation
     ==============
