@@ -73,6 +73,7 @@ Clone repositories
    "misc-addons"
    "mail-addons"
    "odoo-saas-tools"
+   "odoo-telegram"
    )
 
    for r in "${IT_PROJECTS_LLC_REPOS[@]}"
