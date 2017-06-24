@@ -62,11 +62,10 @@ Clone repositories
      mkdir -p odoo-$b
    done
 
-   ## Clone odoo (fork odoo repo before executing: https://github.com/odoo/odoo )
+   ## Clone odoo
    init_repo odoo odoo
 
    ## Clone IT_PROJECTS_LLC_REPOS
-   # be sure that you have forks for repos below
    IT_PROJECTS_LLC_REPOS=(
    "pos-addons"
    "access-addons"
