@@ -17,6 +17,7 @@ Usage
 
    ../admin/install
    ssh-forwarding
+   edit-remote-files
 
 Server administration
 =====================
