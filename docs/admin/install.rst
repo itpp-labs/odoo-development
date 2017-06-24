@@ -83,7 +83,16 @@ Clone repositories
 
    ## Clone addons-dev
    init_repo it-projects-llc addons-dev
-
+   for b in "${ODOO_BRANCHES[@]}"
+   do
+     git -C odoo-$b/addons-dev/ remote add misc-addons       https://github.com/it-projects-llc/misc-addons.git
+     git -C odoo-$b/addons-dev/ remote add pos-addons        https://github.com/it-projects-llc/pos-addons.git
+     git -C odoo-$b/addons-dev/ remote add mail-addons       https://github.com/it-projects-llc/mail-addons.git
+     git -C odoo-$b/addons-dev/ remote add access-addons     https://github.com/it-projects-llc/access-addons.git
+     git -C odoo-$b/addons-dev/ remote add website-addons    https://github.com/it-projects-llc/website-addons.git
+     git -C odoo-$b/addons-dev/ remote add l10n-addons       https://github.com/it-projects-llc/l10n-addons.git
+   done
+    
 Create dockers
 --------------
 
