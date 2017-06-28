@@ -29,11 +29,23 @@ gpg keys
 
      # tell git to use gpg-agent
      git config --global gpg.program gpg2
+     
+     # install gpg2 if needed
+     sudo apt-get install gnupg2
 
      # restart gpg-agent
      gpgconf --kill gpg-agent
      gpg-agent --daemon
 
+* Make a backup if needed 
+
+  .. code-block:: sh
+
+     # make backup file and move it to secret place
+     gpg --export-secret-keys > secret-backup.gpg
+     
+     # you will be able to restore keys by following command:
+     gpg --import secret-backup.gpg
 
 github profile
 ==============
