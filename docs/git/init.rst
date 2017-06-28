@@ -18,6 +18,14 @@ gpg keys
 
      git config --global commit.gpgsign true
 
+* Make gpg remember your passphrase
+
+  .. code-block:: sh
+
+     # 28800 is 8 hours
+     echo "default-cache-ttl 28800" >> ~/.gnupg/gpg-agent.conf
+     echo "max-cache-ttl 28800" >> ~/.gnupg/gpg-agent.conf
+
 github profile
 ==============
 
