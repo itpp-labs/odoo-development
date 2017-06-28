@@ -6,6 +6,18 @@ ssh keys
 ========
 Configure github ssh keys: https://help.github.com/articles/connecting-to-github-with-ssh/
 
+gpg keys
+========
+
+* Generate gpg keys: https://help.github.com/articles/generating-a-new-gpg-key/
+* Add gpg key to github: https://help.github.com/articles/adding-a-new-gpg-key-to-your-github-account/
+* Tell to git which key to use https://help.github.com/articles/telling-git-about-your-gpg-key/
+* Tell git to sign all commits:
+
+  .. code-block:: sh
+
+     git config --global commit.gpgsign true
+
 github profile
 ==============
 
