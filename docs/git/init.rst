@@ -22,9 +22,18 @@ gpg keys
 
   .. code-block:: sh
 
+     # Update gpg-agent config 
      # 28800 is 8 hours
      echo "default-cache-ttl 28800" >> ~/.gnupg/gpg-agent.conf
      echo "max-cache-ttl 28800" >> ~/.gnupg/gpg-agent.conf
+
+     # tell git to use gpg-agent
+     git config --global gpg.program gpg2
+
+     # restart gpg-agent
+     gpgconf --kill gpg-agent
+     gpg-agent --daemon
+
 
 github profile
 ==============
