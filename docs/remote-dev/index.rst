@@ -18,6 +18,7 @@ Usage
    ../admin/install
    ssh-forwarding
    edit-remote-files
+   x2goclient
 
 Server administration
 =====================
@@ -25,3 +26,4 @@ Server administration
 .. toctree::
 
    lxd/lxd
+   x2go
