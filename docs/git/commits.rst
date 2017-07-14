@@ -12,9 +12,9 @@ Basic tags
 * **[FIX]** for bug fixes
 * **[REF]** for refactoring
 * **[TEXT]** for commits with text changes only: labels, hints, comments, etc., but not for updates in documentation (\*.rst and \*.html files)
-* **[ADD]** for adding new resources (new modules or files) and some time - for new features.
+* **[NEW]** for uploading new modules
+* **[ADD]** for adding new resources  and some time - for new features.
 * **[REM]** for removing of resources
-* **[REL]** for releases
 * **[CI]** for updating ``.travis.yml``, ``requirements.txt``, ``*/tests/*``, etc. files
 * **[LINT]** for fixing lint errors
 * **[i18n]** for translations
