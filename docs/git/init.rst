@@ -55,14 +55,7 @@ github profile
 * https://github.com/settings/profile
 
   * public email must be personal address …@it-projects.info
-  * URL must be personal twitter account
-
-    * you can use your account to tweet about development, work, traveling, vacation, fun
-    * twitter profile's website URL has to be https://www.it-projects.info/
-    * no requirements for profile description, header photo
-    * profile photo should be a real face photo
-    * location has to be specifed ``YouCity, Country``
-  
+  * URL must be link to public profile at company's website
   * Company must be set to ``@it-projects-llc``
   * Location must be your ``YouCity, Country``
   * Photo must be your real face photo
