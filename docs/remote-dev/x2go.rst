@@ -1,8 +1,8 @@
-============================================
- Deploying x2go server inside LXD Container
-============================================
+==============================
+ Deploying x2go server inside
+==============================
 
-* Start x2go server inside user's LXD container on 2222 port
+* Start x2go server on 2222 port
 
 source: https://hub.docker.com/r/paimpozhil/docker-x2go-xubuntu/
 
@@ -14,10 +14,9 @@ source: https://hub.docker.com/r/paimpozhil/docker-x2go-xubuntu/
 
 * note the root/dockerx passwords
 
-* Connect to your dev environment
-
+* Connect to your server using port forwarding (``-L`` option), e.g.
 .. code-block:: sh
 
- ssh -L 2222:localhost:2222 ildar@iledarn.dev.it-projects.info -p 10101
+ ssh -L 2222:localhost:2222 user@server.example.com
 
 * port ``2222`` is available now on your localhost, connect to it using :doc:`x2go client <x2goclient>`
