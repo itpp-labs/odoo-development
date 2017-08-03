@@ -21,8 +21,8 @@ Usage
    x2go
    x2goclient
 
-Server administration
-=====================
+Containers administration
+=========================
 
 .. toctree::
 
