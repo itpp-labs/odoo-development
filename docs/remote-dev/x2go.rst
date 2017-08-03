@@ -1,6 +1,6 @@
-==============================
- Deploying x2go server inside
-==============================
+=======================
+ Deploying x2go server 
+=======================
 
 x2go allows you to run remotely browser (or any other application on x-server)
 
