@@ -2,6 +2,8 @@
  Deploying x2go server inside
 ==============================
 
+x2go allows you to run remotely browser (or any other application on x-server)
+
 * Start x2go server on 2222 port
 
 source: https://hub.docker.com/r/paimpozhil/docker-x2go-xubuntu/
