@@ -10,8 +10,8 @@ source: https://hub.docker.com/r/paimpozhil/docker-x2go-xubuntu/
 
 .. code-block:: sh
 
- CID=$(docker run -p 2222:22 -t -d paimpozhil/docker-x2go-xubuntu)
- docker logs $CID
+ docker run --name x2go -p 2222:22 -t -d paimpozhil/docker-x2go-xubuntu
+ docker logs x2go
 
 
 * note the root/dockerx passwords
