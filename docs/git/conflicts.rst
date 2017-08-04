@@ -33,7 +33,7 @@ Sometimes, changes can be conflicted because files are not exist anymore in *our
 
 .. code:: bash
 
-    git status | grep 'deleted by us' | awk '{print $5}' | xargs git rm
+    git status | grep 'deleted by us' | awk '{print $4}' | xargs git rm
 
 
 Notes
