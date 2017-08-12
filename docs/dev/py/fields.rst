@@ -282,8 +282,7 @@ You can attribute it a value or a function
 
 Using a fun will force you to define function before fields definition.
 
-
-
+Note. Default value cannot depend on values of other fields of a record, i.e. you cannot read other fields via ``self`` in the function.
 
 Computed Fields
 ---------------
