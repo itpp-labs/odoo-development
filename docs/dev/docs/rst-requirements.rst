@@ -106,6 +106,13 @@ Use bold format for fields::
 
     * Set **Name** and **Date** values
 
+Checkboxes
+==========
+
+Same as Fields but draw box (with mark or without), e.g.::
+
+    * Set  **[x] Use Longpooling**
+    * Switch **[ ] Use Longpooling** off
 
 Buttons
 =======
