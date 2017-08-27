@@ -17,6 +17,7 @@ source: https://hub.docker.com/r/paimpozhil/docker-x2go-xubuntu/
 * note the root/dockerx passwords
 
 * Connect to your server using port forwarding (``-L`` option), e.g.
+
 .. code-block:: sh
 
    ssh -L 2222:localhost:2222 user@server.example.com
