@@ -19,6 +19,6 @@ source: https://hub.docker.com/r/paimpozhil/docker-x2go-xubuntu/
 * Connect to your server using port forwarding (``-L`` option), e.g.
 .. code-block:: sh
 
- ssh -L 2222:localhost:2222 user@server.example.com
+   ssh -L 2222:localhost:2222 user@server.example.com
 
 * port ``2222`` is available now on your localhost, connect to it using :doc:`x2go client <x2goclient>`
