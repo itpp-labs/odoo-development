@@ -27,3 +27,6 @@
 * click ``Activate the developer mode``
 
 .. image:: ../../images/debug-3.png
+
+`web_debranding <https://www.odoo.com/apps/modules/10.0/web_debranding/>`_ module 
+---------------
