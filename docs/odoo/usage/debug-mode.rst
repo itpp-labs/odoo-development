@@ -30,7 +30,7 @@
 
 `web_debranding <https://www.odoo.com/apps/modules/10.0/web_debranding/>`_ module 
 ===============
-* go to User menu on the upper right corner
+* go to the User menu on the upper right corner
 
 * click ``Developer mode``
 
