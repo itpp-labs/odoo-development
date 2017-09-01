@@ -28,8 +28,9 @@
 
 .. image:: ../../images/debug-3.png
 
-`web_debranding <https://www.odoo.com/apps/modules/10.0/web_debranding/>`_ module 
+10.0+ with the `web_debranding <https://www.odoo.com/apps/modules/10.0/web_debranding/>`_ module installed
 ===============
+
 * go to the User menu on the upper right corner
 
 * click ``Developer mode``
