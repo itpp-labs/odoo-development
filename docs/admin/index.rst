@@ -15,4 +15,4 @@ Official docs:
    addons_path
    log-handler
    server_wide_modules
-   posbox
+   posbox/index
