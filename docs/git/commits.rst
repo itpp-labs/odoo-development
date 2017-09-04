@@ -27,9 +27,56 @@ Version tags
 * **[10.0]**
 * etc.
 
-Forbidden
----------
+Temporar tags
+-------------
 
-Don't use tags below
+* **[WIP]**, **[DEV]**, **[TMP]** -- for commits that has to be squashed before merging
 
-* **[WIP]**, **[DEV]** -- instead of noting that work in progress make message as if your work is already done.
+Which tag to use?
+-----------------
+* If commit upload new module:
+
+  * use **[NEW]**
+
+* If commit updates are only in module description (*doc/\**, *static/description/\**,  *README.rst*, ``name`` and ``summarry`` attributes at manifest):
+
+  * use **[DOC]**
+
+* If commit works with translation\localisations only:
+
+  * use **[i18n]**
+
+* If commit changes only some string related to UI (e.g. Error Message, Name of something etc.)
+
+  * use **[TEXT]**
+
+* If commit fixes issue related to switch to another major odoo version 
+
+  * use *Version tag* and
+
+    * use **[PORT]** if target version is newer than original (e.g. porting from odoo 10.0 to odoo 11.0)
+    * use **[BACKPORT]** if target version is older than original (e.g. porting from odoo 10.0 to odoo 9.0)
+
+* If commit updates\configures automatic tests
+
+  * use **[CI]**
+
+* If commit fixes existing features:
+
+  * use **[FIX]**
+
+* If commit improves existing features:
+
+  * use **[IMP]**
+
+* If commit adds new features:
+
+  * use **[ADD]**
+
+* If commit makes updates asked by lint tools:
+
+  * use **[LINT]**
+
+* If commit updates (refactors) existing code without adding or fixing features:
+
+  * use **[REF]**
