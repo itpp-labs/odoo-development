@@ -34,6 +34,8 @@ Temporar tags
 
 Which tag to use?
 -----------------
+Note. Order of this *if-then-that* list matters. Use some *that* only if all *if-blocks* above it are false.
+
 * If commit upload new module:
 
   * use **[NEW]**
