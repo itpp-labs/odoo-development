@@ -63,7 +63,7 @@ Subsection
 
     <h4 class="oe_slogan">SUBSECTION NAME</h4>
 
-*(Put it inside <section> tag)*
+*(Put it inside <section class="..."><div class="oe_row oe_spaced"> tags)*
 
 Text + Image
 ------------
