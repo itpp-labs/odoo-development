@@ -56,6 +56,14 @@ Key features
       </div>
     </section>
 
+Subsection
+----------
+
+.. code-block:: html
+
+    <h4 class="oe_slogan">SUBSECTION NAME</h4>
+
+*(Put it inside <section> tag)*
 
 Text + Image
 ------------
