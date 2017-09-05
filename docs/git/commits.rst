@@ -34,7 +34,6 @@ Temporar tags
 
 Which tag to use?
 -----------------
-Note. Order of this *if-then-that* list matters. Use some *that* only if all *if-blocks* above it are false.
 
 * If commit upload new module:
 
@@ -82,3 +81,12 @@ Note. Order of this *if-then-that* list matters. Use some *that* only if all *if
 * If commit updates (refactors) existing code without adding or fixing features:
 
   * use **[REF]**
+
+**Notes**
+
+* Order of this *if-then-that* list matters. Use some *that* only if all *if-blocks* above it are false.
+* If your commit makes update of different types you need to describe each update separately using appropriate tag, e.g.::
+
+    [FIX] bug in feature X ...
+    [IMP] UI improvements in feature Y ...
+    ...
