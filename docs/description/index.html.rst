@@ -21,7 +21,7 @@ Title
     <section class="oe_container">
         <div class="oe_row oe_spaced">
             <div class="oe_span12">
-                <h2 class="oe_slogan">NAME</h2>
+                <h2 class="oe_slogan" style="color:#875A7B;">NAME</h2>
                 <h3 class="oe_slogan">SUMMARY OR SLOGAN</h3>
             </div>
         </div>
@@ -107,6 +107,18 @@ Text, Image
              </div>
         </div>
     </section>
+
+Free Support
+------------
+.. code-block:: html
+
+    <section class="oe_container">
+      <div class="oe_row oe_spaced">
+        <h2 class="oe_slogan" style="color:#875A7B;">Free Support</h2>
+        <h3 class="oe_slogan">You will get free support in case of any issues</h3>
+      </div>
+    </section>
+
 
 Contact us
 ----------
