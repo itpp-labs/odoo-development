@@ -127,7 +127,7 @@ Contact us
 oe_dark
 =======
 
-Use ``oe_dark`` class on every even ``section``. Don't use ``oe_dark`` on the last section **Contact us**.
+Use ``oe_dark`` class on every even ``section``. Don't use ``oe_dark`` for beginning and ending sections.
 
 .. code-block:: html
 
@@ -152,6 +152,10 @@ Use ``oe_dark`` class on every even ``section``. Don't use ``oe_dark`` on the la
     </section>
 
     <section class="oe_container">
+    </section>
+
+    <section class="oe_container">
+        <!--Free support section-->
     </section>
 
     <section class="oe_container">
