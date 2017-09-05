@@ -27,6 +27,36 @@ Title
         </div>
     </section>
 
+Key features
+------------
+.. code-block:: html
+
+    <section class="oe_container">
+      <div class="oe_row oe_spaced">
+        <div class="oe_span12">
+
+        <div class="alert alert-info oe_mt32" style="padding:0.3em 0.6em; font-size: 150%;">
+          <i class="fa fa-hand-o-right"></i><b> Key features: </b>
+          <ul class="list-unstyled">
+
+            <li>
+            <i class="fa fa-check-square-o text-primary"></i>
+              FEATURE 1 
+            </li>
+
+            <li>
+            <i class="fa fa-check-square-o text-primary"></i>
+              FEATURE 2 
+            </li>
+
+          </ul>
+        </div>
+
+        </div>
+      </div>
+    </section>
+
+
 Text + Image
 ------------
 
@@ -83,6 +113,10 @@ Use ``oe_dark`` class on every even ``section``. Don't use ``oe_dark`` on the la
 
     <section class="oe_container">
         <!--Title-->
+    </section>
+    
+    <section class="oe_container">
+        <!--Key features-->
     </section>
 
     <section class="oe_container">
