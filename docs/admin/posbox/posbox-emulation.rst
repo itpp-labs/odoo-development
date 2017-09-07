@@ -19,17 +19,17 @@ then the settings for the second odoo server ``/path/to/openerp-server2.conf`` c
 
 Example of running **PosBox** on your computer with used ``Network Printer``:
 
-   * Run first Odoo Server, e.g.::
+* Run first Odoo Server, e.g.::
 
-      ./openerp-server --config=/path/to/openerp-server1.conf
+   ./openerp-server --config=/path/to/openerp-server1.conf
 
-   * Install the `Pos Printer Network <https://www.odoo.com/apps/modules/10.0/pos_printer_network/>`_ module on Odoo in a `usual <http://odoo-development.readthedocs.io/en/latest/odoo/usage/install-module.html?highlight=install#from-app-store-install>`_ way.
-   * Configure PosBox using the `installation instructions <https://apps.odoo.com/apps/modules/10.0/pos_printer_network/>`_.
-   * Run second Odoo Server using new settings and add to ``--load parameters``, e.g.::
+* Install the `Pos Printer Network <https://www.odoo.com/apps/modules/10.0/pos_printer_network/>`_ module on Odoo in a `usual <http://odoo-development.readthedocs.io/en/latest/odoo/usage/install-module.html?highlight=install#from-app-store-install>`_ way.
+* Configure PosBox using the `installation instructions <https://apps.odoo.com/apps/modules/10.0/pos_printer_network/>`_.
+* Run second Odoo Server using new settings and add to ``--load parameters``, e.g.::
 
-         ./openerp-server --load=web,hw_proxy,hw_posbox_homepage,hw_scale,hw_scanner,hw_escpos,hw_printer_network --config=/path/to/openerp-server2.conf
+      ./openerp-server --load=web,hw_proxy,hw_posbox_homepage,hw_scale,hw_scanner,hw_escpos,hw_printer_network --config=/path/to/openerp-server2.conf
 
-   * Print in network printer.
+* Print in network printer.
 
 Run PosBox via docker
 ---------------------
