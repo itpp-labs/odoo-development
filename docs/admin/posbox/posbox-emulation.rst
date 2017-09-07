@@ -27,7 +27,7 @@ Example of running **PosBox** on your computer with used ``Network Printer``:
    * Configure PosBox using the `installation instructions <https://apps.odoo.com/apps/modules/10.0/pos_printer_network/>`_.
    * Run second Odoo Server using new settings and add to ``--load parameters``, e.g.::
 
-         ./openerp-server --load=web,hw_proxy,hw_posbox_homepage,hw_posbox_upgrade,hw_scale,hw_scanner,hw_escpos,hw_printer_network --config=/path/to/openerp-server2.conf
+         ./openerp-server --load=web,hw_proxy,hw_posbox_homepage,hw_scale,hw_scanner,hw_escpos,hw_printer_network --config=/path/to/openerp-server2.conf
 
    * Print in network printer.
 
@@ -45,5 +45,6 @@ Example with `hw_printer_network <https://www.odoo.com/apps/modules/10.0/pos_pri
     -e ODOO_MASTER_PASS=admin \
     --name 8.0-posbox \
     --link db-posbox-8.0:db \
-    -t itprojectsllc/install-odoo:8.0-posbox --  --load=web,hw_proxy,hw_posbox_homepage,hw_posbox_upgrade,hw_scale,hw_scanner,hw_escpos,hw_printer_network
+    -t itprojectsllc/install-odoo:8.0-posbox --  --load=web,hw_proxy,hw_posbox_homepage,hw_scale,hw_scanner,hw_escpos,hw_printer_network
 
+Source of this docker can be found here: https://github.com/it-projects-llc/install-odoo/tree/8.0/dockers/posbox
