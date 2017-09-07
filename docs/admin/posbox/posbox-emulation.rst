@@ -14,8 +14,8 @@ For example, if the run settings for the first odoo server ``/path/to/openerp-se
 
 then the settings for the second odoo server ``/path/to/openerp-server2.conf`` can be as follows::
 
-   xmlrpc_port = 8071
-   longpolling_port = 8073
+   xmlrpc_port = 9069
+   longpolling_port = 9072
 
 Example of running **PosBox** on your computer with used ``Network Printer``:
 
@@ -30,3 +30,20 @@ Example of running **PosBox** on your computer with used ``Network Printer``:
          ./openerp-server --load=web,hw_proxy,hw_posbox_homepage,hw_posbox_upgrade,hw_scale,hw_scanner,hw_escpos,hw_printer_network --config=/path/to/openerp-server2.conf
 
    * Print in network printer.
+
+Run PosBox via docker
+---------------------
+Example with `hw_printer_network <https://www.odoo.com/apps/modules/10.0/pos_printer_network/>`_ and PosBox 10.0:
+
+.. code-block:: sh
+
+    docker run -d -e POSTGRES_USER=odoo -e POSTGRES_PASSWORD=odoo --name db-posbox-10.0 postgres:9.5
+
+    docker run \
+    -p 9069:8069 \
+    -p 9072:8072 \
+    -e ODOO_MASTER_PASS=admin \
+    --name 10.0-posbox \
+    --link db-posbox-10.0:db \
+    -t itprojectsllc/install-odoo:10.0 --  --load=web,hw_proxy,hw_posbox_homepage,hw_posbox_upgrade,hw_scale,hw_scanner,hw_escpos,hw_printer_network
+
