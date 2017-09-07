@@ -33,17 +33,17 @@ Example of running **PosBox** on your computer with used ``Network Printer``:
 
 Run PosBox via docker
 ---------------------
-Example with `hw_printer_network <https://www.odoo.com/apps/modules/10.0/pos_printer_network/>`_ and PosBox 10.0:
+Example with `hw_printer_network <https://www.odoo.com/apps/modules/10.0/pos_printer_network/>`_ and `PosBox 8.0 <https://github.com/odoo/odoo/tree/8.0/addons/point_of_sale/tools/posbox>`_:
 
 .. code-block:: sh
 
-    docker run -d -e POSTGRES_USER=odoo -e POSTGRES_PASSWORD=odoo --name db-posbox-10.0 postgres:9.5
+    docker run -d -e POSTGRES_USER=odoo -e POSTGRES_PASSWORD=odoo --name db-posbox-8.0 postgres:9.5
 
     docker run \
     -p 9069:8069 \
     -p 9072:8072 \
     -e ODOO_MASTER_PASS=admin \
     --name 10.0-posbox \
-    --link db-posbox-10.0:db \
-    -t itprojectsllc/install-odoo:10.0 --  --load=web,hw_proxy,hw_posbox_homepage,hw_posbox_upgrade,hw_scale,hw_scanner,hw_escpos,hw_printer_network
+    --link db-posbox-8.0:db \
+    -t itprojectsllc/install-odoo:8.0-posbox --  --load=web,hw_proxy,hw_posbox_homepage,hw_posbox_upgrade,hw_scale,hw_scanner,hw_escpos,hw_printer_network
 
