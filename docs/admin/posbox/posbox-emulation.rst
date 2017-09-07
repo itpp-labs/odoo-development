@@ -43,6 +43,8 @@ Example with `hw_printer_network <https://www.odoo.com/apps/modules/10.0/pos_pri
     -p 9069:8069 \
     -p 9072:8072 \
     -e ODOO_MASTER_PASS=admin \
+    --privileged \
+    -v /dev/bus/usb:/dev/bus/usb
     --name 8.0-posbox \
     --link db-posbox-8.0:db \
     -t itprojectsllc/install-odoo:8.0-posbox --  --load=web,hw_proxy,hw_posbox_homepage,hw_scale,hw_scanner,hw_escpos,hw_printer_network
