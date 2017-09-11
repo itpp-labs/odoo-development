@@ -56,6 +56,57 @@ Key features
       </div>
     </section>
 
+Warnings and notes
+------------------
+
+Green:
+
+.. code-block:: html
+
+    <section class="oe_container">
+      <div class="oe_row oe_spaced">
+        <div class="oe_span12">
+
+        <div class="alert alert-success oe_mt32" style="padding:0.3em 0.6em; font-size: 150%;">
+          YOUR TEXT HERE
+        </div>
+
+        </div>
+      </div>
+    </section>
+
+Yellow:
+
+.. code-block:: html
+
+    <section class="oe_container">
+      <div class="oe_row oe_spaced">
+        <div class="oe_span12">
+
+        <div class="alert alert-warning oe_mt32" style="padding:0.3em 0.6em; font-size: 150%;">
+          YOUR TEXT HERE
+        </div>
+
+        </div>
+      </div>
+    </section>
+
+Red:
+
+.. code-block:: html
+
+    <section class="oe_container">
+      <div class="oe_row oe_spaced">
+        <div class="oe_span12">
+
+        <div class="alert alert-danger oe_mt32" style="padding:0.3em 0.6em; font-size: 150%;">
+          YOUR TEXT HERE
+        </div>
+
+        </div>
+      </div>
+    </section>
+
 Subsection
 ----------
 
