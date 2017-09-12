@@ -12,6 +12,8 @@ Official docs:
    longpolling
    about_longpolling
    workers
+   db_maxconn
+   max_cron_threads
    addons_path
    log-handler
    server_wide_modules
