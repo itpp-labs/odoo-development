@@ -39,7 +39,7 @@ Which tag to use?
 
   * use **[NEW]**
 
-* If commit updates are only in module description (*doc/\**, *static/description/\**,  *README.rst*, ``name`` and ``summarry`` attributes at manifest):
+* If commit updates are only in module description (*doc/\**, *static/description/\**,  *README.rst*, ``name`` and ``summarry`` attributes at manifest) or in code comments:
 
   * use **[DOC]**
 
