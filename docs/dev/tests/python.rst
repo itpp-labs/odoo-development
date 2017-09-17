@@ -4,16 +4,21 @@
 
 How to run tests
 ================
-This tests runs with ``-d [DB_NAME] -u [module_to_be_tested] --test-enable --workers=0`` parameters. 
+This tests runs with ``-d $DB_CONTAINER -u $MODULE --test-enable --workers=0`` parameters. 
 
 Docker users
 ------------
-You don't need to remove docker container to run test. You can run it in a separate container (don't worry about name for new container -- just use ``--rm`` arg).
+You don't need to remove docker container to run test. You can run it in a separate container 
+
+* don't worry about name for new container -- just use ``--rm`` arg
+* No need to expose ports
+
+So, to run tests with docker:
 
 * stop main odoo container, but keep db container
 * run new container, e.g.::
 
-      docker run --rm --link db-container-name:db -v /something/at/host:/something/at/image [...] -- -d DB_NAME --db-filter=^%d$ -u module_to_be_tested --test-enable --workers=0
+      docker run --rm --link $DB_CONTAINER:db -v /something/at/host:/something/at/image itprojectsllc/install-odoo:$ODOO_BRANCH -- -d $DB_CONTAINER --db-filter=^%d$ -u $MODULE --test-enable --workers=0
 
 How to make tests
 =================
