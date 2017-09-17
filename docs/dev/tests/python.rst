@@ -14,7 +14,7 @@ To make some tests do next steps:
 
 Example (will result testing error)::
 
-    from openerp.tests.common import TransactionCase
+    from odoo.tests.common import TransactionCase
     class TestMessage(TransactionCase):
         at_install = False
         post_install = True
@@ -24,7 +24,7 @@ Example (will result testing error)::
 Test class
 ==========
 
-From `openerp/tests/common.py <https://github.com/odoo/odoo/blob/master/openerp/tests/common.py>`_::
+From `openerp/tests/common.py <https://github.com/odoo/odoo/blob/master/odoo/tests/common.py>`_::
 
     class BaseCase(unittest.TestCase):
         """
