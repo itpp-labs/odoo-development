@@ -2,15 +2,28 @@
  Basic python tests
 ====================
 
-This tests runs with ``-d [my_db] -u [module_to_be_tested] --test-enable --workers=0`` parameters. 
+How to run tests
+================
+This tests runs with ``-d [DB_NAME] -u [module_to_be_tested] --test-enable --workers=0`` parameters. 
 
+Docker users
+------------
+You don't need to remove docker container to run test. You can run it in a separate container (don't worry about name for new container -- just use ``--rm`` arg).
+
+* stop main odoo container, but keep db container
+* run new container, e.g.::
+
+      docker run --rm --link db-container-name:db -v /something/at/host:/something/at/image [...] -- -d DB_NAME --db-filter=^%d$ -u module_to_be_tested --test-enable --workers=0
+
+How to make tests
+=================
 
 To make some tests do next steps:
 
-   * Create folder named **tests**
-   * Add __init__.py file
-   * Create file that name begins from **test_**
-   * Add test methods that names start from **test_**
+* Create folder named **tests**
+* Add __init__.py file
+* Create file that name begins from **test_**
+* Add test methods that names start from **test_**
 
 Example (will result testing error)::
 
