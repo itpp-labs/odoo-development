@@ -2,19 +2,37 @@
  Basic python tests
 ====================
 
-This tests runs with ``-d [my_db] -u [module_to_be_tested] --test-enable --workers=0`` parameters. 
+How to run tests
+================
+This tests runs with ``-d $DB_CONTAINER -u $MODULE --test-enable --workers=0`` parameters. 
 
+Docker users
+------------
+You don't need to remove docker container to run test. You can run it in a separate container 
+
+* don't worry about name for new container -- just use ``--rm`` arg
+* No need to expose ports
+
+So, to run tests with docker:
+
+* stop main odoo container, but keep db container
+* run new container, e.g.::
+
+      docker run --rm --link $DB_CONTAINER:db -v /something/at/host:/something/at/image itprojectsllc/install-odoo:$ODOO_BRANCH -- -d $DB_CONTAINER --db-filter=^%d$ -u $MODULE --test-enable --workers=0
+
+How to make tests
+=================
 
 To make some tests do next steps:
 
-   * Create folder named **tests**
-   * Add __init__.py file
-   * Create file that name begins from **test_**
-   * Add test methods that names start from **test_**
+* Create folder named **tests**
+* Add __init__.py file
+* Create file that name begins from **test_**
+* Add test methods that names start from **test_**
 
 Example (will result testing error)::
 
-    from openerp.tests.common import TransactionCase
+    from odoo.tests.common import TransactionCase
     class TestMessage(TransactionCase):
         at_install = False
         post_install = True
@@ -24,7 +42,7 @@ Example (will result testing error)::
 Test class
 ==========
 
-From `openerp/tests/common.py <https://github.com/odoo/odoo/blob/master/openerp/tests/common.py>`_::
+From `openerp/tests/common.py <https://github.com/odoo/odoo/blob/master/odoo/tests/common.py>`_::
 
     class BaseCase(unittest.TestCase):
         """

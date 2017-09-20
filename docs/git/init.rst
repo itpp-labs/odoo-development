@@ -46,6 +46,8 @@ gpg keys
      
      # you will be able to restore keys by following command:
      gpg --import secret-backup.gpg
+     # or
+     gpg2 --import secret-backup.gpg
 
 github profile
 ==============
