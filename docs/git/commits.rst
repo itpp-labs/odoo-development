@@ -15,6 +15,7 @@ Basic tags
 * **[NEW]** for uploading new modules
 * **[ADD]** for adding new resources and features.
 * **[REM]** for removing of resources
+* **[DEMO]** for adding\updating demostration data
 * **[CI]** for updating ``.travis.yml``, ``requirements.txt``, ``*/tests/*``, etc. files
 * **[LINT]** for fixing lint errors
 * **[i18n]** for translations
@@ -57,6 +58,9 @@ Which tag to use?
 
     * use **[PORT]** if target version is newer than original (e.g. porting from odoo 10.0 to odoo 11.0)
     * use **[BACKPORT]** if target version is older than original (e.g. porting from odoo 10.0 to odoo 9.0)
+* If commit updates demostration data
+
+  * use **[DEMO]**
 
 * If commit updates\configures automatic tests
 
