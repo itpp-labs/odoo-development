@@ -62,7 +62,7 @@ Which tag to use?
 
   * use **[DEMO]**
 
-* If commit updates\configures automatic tests
+* If commit updates / configures automatic tests
 
   * use **[CI]**
 
