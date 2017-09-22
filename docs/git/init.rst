@@ -50,7 +50,7 @@ gpg keys
      gpg2 --import secret-backup.gpg
 
 .. warning:: If you lost your key or forgot password, you need to create new
-             one, but don't remove it from github, because otherwise all signed
+             one, but don't remove old one from github, because otherwise all signed
              by old key commits will be "Unverified"
 
 github profile
