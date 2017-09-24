@@ -23,7 +23,7 @@ Guidlines
 
     Contributors
     ------------
-    * {DEVELOPER_NAME} <{PERSON}@it-projects.info>
+    * `{DEVELOPER_NAME} <https://it-projects.info/team/{DEVELOPER_GITHUB_USERNAME}>`__
 
     Sponsors
     --------
