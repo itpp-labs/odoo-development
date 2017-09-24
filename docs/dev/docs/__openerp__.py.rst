@@ -38,7 +38,7 @@ Use example below as template. What are important here:
 
         "author": "IT-Projects LLC, {DEVELOPER_NAME}",
         "support": "apps@it-projects.info",
-        "website": "https://it-projects.info",
+        "website": "https://it-projects.info/team/{DEVELOPER_GITHUB_USERNAME}",
         "license": "LGPL-3",
         # "price": 9.00,
         # "currency": "EUR",
@@ -183,7 +183,7 @@ For OCA's repositories put company name first, then OCA. Developers are listed i
 website
 =======
 
-Url to company's website (e.g. ``"https://it-projects.info"``)
+Url to personal page at company's website (e.g. ``"https://it-projects.info/team/yelizariev"``)
 
 license
 =======
