@@ -12,7 +12,7 @@ Basic tags
 * **[FIX]** for bug fixes
 * **[REF]** for refactoring
 * **[TEXT]** for commits with text changes only: labels, hints, comments, etc., but not for updates in documentation (\*.rst and \*.html files)
-* **[NEW]** for uploading new modules
+* **[NEW]** for uploading new modules *(version tag is required)*
 * **[ADD]** for adding new resources and features.
 * **[REM]** for removing of resources
 * **[DEMO]** for adding / updating demostration data
@@ -27,6 +27,10 @@ Version tags
 * **[9.0]**
 * **[10.0]**
 * etc.
+
+Put tags before other tags, e.g.::
+
+    [9.0][BACKPORT] module_xxx
 
 Temporar tags
 -------------
