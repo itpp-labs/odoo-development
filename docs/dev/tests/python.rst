@@ -19,7 +19,9 @@ So, to run tests with docker:
 * stop main odoo container, but keep db container
 * run new container, e.g.::
 
-      docker run --rm --link $DB_CONTAINER:db -v /something/at/host:/something/at/image itprojectsllc/install-odoo:$ODOO_BRANCH -- -d $DB_CONTAINER --db-filter=^%d$ -u $MODULE --test-enable --workers=0
+      docker run --rm --link $DB_CONTAINER:db \
+      -v /something/at/host:/something/at/container itprojectsllc/install-odoo:$ODOO_BRANCH \
+      -- -d $DB_CONTAINER --db-filter=^%d$ -u $MODULE --test-enable --workers=0
 
 How to make tests
 =================
