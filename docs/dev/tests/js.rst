@@ -9,7 +9,7 @@ You can test you module web mechanics behavior using phantom js.
 
 What you need is:
 
-    * Install phantom. *sudo apt-get install phantomjs*
+    * Install phantom or use dockers.
     * Create folder named **tests**
     * Add __init__.py file
     * Create file that name begins from **test_**
