@@ -21,7 +21,7 @@ So, to run tests with docker:
 
       docker run --rm --link $DB_CONTAINER:db \
       -v /something/at/host:/something/at/container itprojectsllc/install-odoo:$ODOO_BRANCH \
-      -- -d $DB_CONTAINER --db-filter=^%d$ -u $MODULE --test-enable --workers=0
+      -- -d $DB_CONTAINER -u $MODULE --test-enable --workers=0
 
 How to make tests
 =================
