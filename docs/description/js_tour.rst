@@ -1,10 +1,99 @@
-JS Tour
-=======
+=========
+ JS Tour
+=========
 
-Used to demonstrate module capabilities step by step with popup windows. It may be launched automatically or manually.
+
+Tours are used to demonstrate module capabilities step by step with popup windows. It may be launched automatically or manually.
+
+.. contents::
+   :local:
 
 Creating Tour
--------------
+=============
+
+10.0+
+-----
+
+Example from `website_sale <https://github.com/odoo/odoo/blob/10.0/addons/website_sale/static/src/js/website_sale_tour_buy.js>`_ module:
+
+.. code-block:: js
+
+    odoo.define('website_sale.tour', function (require) {
+    'use strict';
+    
+    var tour = require("web_tour.tour");
+    var base = require("web_editor.base");
+    
+    var options = {
+        test: true,
+        url: '/shop',
+        wait_for: base.ready()
+    }
+
+    var tour_name = 'shop_buy_product';
+    tour.register(tour_name, options,
+        [
+            {
+                content: "search ipod",
+                trigger: 'form input[name="search"]',
+                run: "text ipod",
+            },
+            {
+                content: "search ipod",
+                trigger: 'form:has(input[name="search"]) .oe_search_button',
+            },
+            {
+                content: "select ipod",
+                trigger: '.oe_product_cart a:contains("iPod")',
+            },
+            {
+                content: "select ipod 32GB",
+                extra_trigger: '#product_detail',
+                trigger: 'label:contains(32 GB) input',
+            },
+            {
+                content: "click on add to cart",
+                extra_trigger: 'label:contains(32 GB) input:propChecked',
+                trigger: '#product_detail form[action^="/shop/cart/update"] .btn',
+            },
+            /* ... */
+        ]
+    );
+    
+    });
+
+
+Each step may have following attrubutes:
+
+* **content** -- name or title of the step
+* **trigger** (mandatory) -- where to place tip. *In js tests: where to click*
+* **extra_trigger** -- when this becomes visible, the tip is appeared. *In js tests: when to click*
+* **position** -- how to show tip (left, rigth, top, bottom), default right
+* **width** -- width in px of the tip when opened, default 270
+* **run** -- what to do when tour runs automatically (e.g. in tests)
+
+  * ``'text SOMETEXT'`` -- writes value in **trigger** element
+  * ``'click'``
+  * ``'drag_and_drop TO_SELECTOR'``
+  * ``'auto'`` -- auto action (click or text)
+  * ``function: (actions) { ... }`` -- actions is instance of RunningTourActionHelper -- see `tour_manager.js <https://github.com/odoo/odoo/blob/10.0/addons/web_tour/static/src/js/tour_manager.js>`_ for its methods.
+
+Options (second argument of ``tour.register``):
+
+* **test** -- only for tests
+* **url** -- open link before running the tour
+* **wait_for** -- wait for deffered object before running the script
+* **skip_enabled** -- adds *Skip* button in tips
+
+More documentation:
+
+* https://www.odoo.com/slides/slide/the-new-way-to-develop-automated-tests-beautiful-tours-440
+* https://github.com/odoo/odoo/blob/10.0/addons/web_tour/static/src/js/tour_manager.js
+* https://github.com/odoo/odoo/blob/10.0/addons/web_tour/static/src/js/tip.js
+
+
+8.0, 9.0
+--------
 
 Tour is a simple JS file with some determined structure.
 Example::
@@ -84,8 +173,40 @@ https://github.com/odoo/odoo/blob/9.0/addons/web/static/src/js/tour.js
 
 You can launch tour by entering in browser address like this mydatabase/web#/tutorial.mails_count_tour=true where after tutorial. is id of your tour.
 
-Automatic tour launch
----------------------
+Manual launching
+================
+
+10.0+
+-----
+
+* :doc:`activate developer mode <../odoo/usage/debug-mode>`.
+* Click *Bug* icon (between chat *icon* and *Username* at top right-hand corner)
+
+  * click ``Start tour``
+
+* Click *Play* button -- it starts tour in auto mode
+
+To run *test-only* tours (or to run tours in auto mode but with some delay) do as following:
+
+* open browser console (F12 in Chrome)
+* Type in console:
+
+  .. code-block:: js
+
+    odoo.__DEBUG__.services['web_tour.tour'].run('TOUR_NAME', 1000); // 1000 is delay in ms before auto action
+  
+
+Launch Tour after installation
+==============================
+
+10.0+
+-----
+
+TODO
+
+8.0, 9.0
+--------
+
 To run tour after module installation do next steps.
 
     * Create *ToDo*
