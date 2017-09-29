@@ -8,6 +8,16 @@
 
 2. Or use UI
 
+
+10.0+
+=====
+
+* go to ``Settings``
+
+* click ``Activate the developer mode``
+
+.. image:: ../../images/debug-3.png
+
 9.0
 ===
 
@@ -18,12 +28,3 @@
 * click ``Activate the developer mode``
 
   .. image:: ../../images/debug-2.png
-
-10.0+
-=====
-
-* go to ``Settings``
-
-* click ``Activate the developer mode``
-
-.. image:: ../../images/debug-3.png
