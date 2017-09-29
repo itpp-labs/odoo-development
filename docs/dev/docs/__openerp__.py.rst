@@ -31,7 +31,7 @@ Use example below as template. What are important here:
         "name": """{MODULE_NAME}""",
         "summary": """{SHORT_DESCRIPTION_OF_THE_MODULE}""",
         "category": "{SOME_CATEGORY}",
-        # "live_test_URL": "",
+        # "live_test_url": "",
         "images": [],
         "version": "1.0.0",
         "application": False,
