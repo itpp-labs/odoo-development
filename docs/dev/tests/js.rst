@@ -113,7 +113,7 @@ How to run tour in unittests:
             URL_PATH,
 
             "odoo.__DEBUG__.services['web_tour.tour']"
-            ".run(TOUR_NAME)",
+            ".run('TOUR_NAME')",
 
             "odoo.__DEBUG__.services['web_tour.tour']"
             ".tours.TOUR_NAME.ready",
@@ -129,7 +129,7 @@ How to run tour in unittests:
             URL_PATH,
 
             "odoo.__DEBUG__.services['web.Tour']"
-            ".run(TOUR_NAME, 'test')",
+            ".run('TOUR_NAME', 'test')",
 
             "odoo.__DEBUG__.services['web.Tour']"
             ".tours.TOUR_NAME",
