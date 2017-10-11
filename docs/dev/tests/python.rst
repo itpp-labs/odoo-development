@@ -33,6 +33,8 @@ To make some tests do next steps:
 * Create file that name begins from **test_**
 * Add test methods that names start from **test_**
 
+.. warning:: you shall NOT import ``tests`` in module folder, i.e. do NOT add ``from . import tests`` to main ``__init__.py`` file
+
 Example (will result testing error)::
 
     from odoo.tests.common import TransactionCase
