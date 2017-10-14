@@ -99,6 +99,21 @@ By default, odoo runs test with paramaters::
 * it runs after calling ``registry.setup_models(cr)``
 * it runs after calling ``model._register_hook(cr)``
 
+setUp and other methods
+=======================
+
+For more information see https://docs.python.org/2.7/library/unittest.html#test-cases
+
+* ``setUp()`` -- Method called to prepare the test fixture. This is called immediately before calling the test method. It's recommended to use in ``TransactionCase`` and ``HttpCase`` classes
+* ``setUpClass()`` -- A class method called before tests in an individual class run. setUpClass is called with the class as the only argument and must be decorated as a ``classmethod()``. It's recommended to use in ``SingleTransactionCase`` and ``SavepointCase`` classes
+
+  .. code-block:: py
+
+    @classmethod
+    def setUpClass(cls):
+        ...
+* ``tearDown()``, ``tearDownClass`` -- are called *after* test(s). Usually are not used in odoo tests 
+
 Assert Methods
 ==============
 https://docs.python.org/2.7/library/unittest.html#assert-methods
