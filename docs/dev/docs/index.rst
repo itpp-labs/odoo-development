@@ -68,9 +68,6 @@ Update templates:
     # this command returns name of current folder, so you MUST be at module's root
     TECHNICAL_NAME=`basename $PWD`
 
-    # to get commit sha use following inside odoo repo: "git show HEAD | head" 
-    ODOO_REVISION={ODOO_COMMIT_SHA_TO_BE_UPDATED}
-
     # module description
     MODULE_NAME="{SOME Non-technical name}"
     MODULE_SUMMARY="{SHORT module description for REAMDE and manifest}"
@@ -90,6 +87,12 @@ Update templates:
     ODOO_BRANCH=10.0
     ODOO_BRANCH=9.0
     ODOO_BRANCH=8.0
+
+    # to get commit sha use following inside odoo repo: "git show HEAD | head" 
+    ODOO_REVISION={ODOO_COMMIT_SHA_TO_BE_UPDATED}
+    # alternatively (use appropriate path to odoo source):
+    git -C ~/odoo/odoo-${ODOO_BRANCH}/odoo fetch upstream &&  export ODOO_REVISION=`git -C ~/odoo/odoo-10.0/odoo rev-parse upstream/${ODOO_BRANCH}
+
 
     # Category: shoose one of the options
     MODULE_CATEGORY="Accounting"
