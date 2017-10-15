@@ -26,4 +26,4 @@ Notes
    rst-requirements           
    doc-files-understanding
 
-.. [*] The only exception could be made for *"data"* field in ``__openerp__.py`` file.
+.. [*] The only exception could be made for lists of files in ``__manifest__.py`` (*"data"*, *"qweb"*, *"demo"* fields).
