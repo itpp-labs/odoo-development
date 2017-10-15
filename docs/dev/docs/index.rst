@@ -46,6 +46,8 @@ Download templates:
     # doc/changelog.rst
     wget https://raw.githubusercontent.com/it-projects-llc/odoo-development/master/docs/dev/docs/templates/doc/changelog.rst
     cd ..
+    # empty __init__.py
+    touch __init__.py
 
 
 
