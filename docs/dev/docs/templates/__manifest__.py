@@ -2,7 +2,7 @@
 {
     "name": """{MODULE_NAME}""",
     "summary": """{SHORT_DESCRIPTION_OF_THE_MODULE}""",
-    "category": "{SOME_CATEGORY}",
+    "category": "{MODULE_CATEGORY}",
     # "live_test_url": "",
     "images": [],
     "version": "1.0.0",
