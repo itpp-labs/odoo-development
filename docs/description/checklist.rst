@@ -18,24 +18,24 @@ Module Name
 
   * Backend Debranding
 
-* Module Name MUST be the same at :doc:`manifest file<../dev/docs/__openerp__.py>`, :doc:`README.rst<../dev/docs/README.rst>`, :doc:`doc/index.rst<../dev/docs/usage-instructions>`
+* Module Name MUST be the same at :doc:`manifest file<../dev/docs/__manifest__.py>`, :doc:`README.rst<../dev/docs/README.rst>`, :doc:`doc/index.rst<../dev/docs/usage-instructions>`
 
 
 Summary
 =======
 
-* Review ``"summary"`` attribute at  :doc:`manifest file<../dev/docs/__openerp__.py>` and first paragraph at :doc:`README.rst<../dev/docs/README.rst>`. They MUST be presented, but MAY be different.
+* Review ``"summary"`` attribute at  :doc:`manifest file<../dev/docs/__manifest__.py>` and first paragraph at :doc:`README.rst<../dev/docs/README.rst>`. They MUST be presented, but MAY be different.
 
 
 Price
 =====
 
-* Review ``"price"`` attribute at  :doc:`manifest file<../dev/docs/__openerp__.py>`
+* Review ``"price"`` attribute at  :doc:`manifest file<../dev/docs/__manifest__.py>`
 
 Category
 ========
 
-* Review ``"category"`` attribute at  :doc:`manifest file<../dev/docs/__openerp__.py>`
+* Review ``"category"`` attribute at  :doc:`manifest file<../dev/docs/__manifest__.py>`
 
 doc/index.rst
 =============
@@ -56,5 +56,5 @@ static/description/index.html
 Main image
 ==========
 
-* Prepare image and specify it at ``"images"`` attribute at :doc:`manifest file<../dev/docs/__openerp__.py>`
+* Prepare image and specify it at ``"images"`` attribute at :doc:`manifest file<../dev/docs/__manifest__.py>`
 * :doc:`Preview image at app store<app-store-preview>`

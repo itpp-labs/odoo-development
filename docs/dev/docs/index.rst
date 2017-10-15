@@ -13,7 +13,7 @@ Files
 
    README.rst.rst           
    usage-instructions
-   __openerp__.py
+   __manifest__.py
    changelog.rst.rst
    icon.png.rst
 
