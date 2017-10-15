@@ -46,6 +46,9 @@ Download templates:
     # doc/changelog.rst
     wget https://raw.githubusercontent.com/it-projects-llc/odoo-development/master/docs/dev/docs/templates/doc/changelog.rst
     cd ..
+
+
+
     #
 
 Update templates:
@@ -137,5 +140,7 @@ Update templates:
     sed -i "s/{ODOO_COMMIT_SHA_TO_BE_UPDATED}/${ODOO_REVISION}/g" README.rst
 
 
+    
+    #
 
 .. [*] The only exception could be made for lists of files in ``__manifest__.py`` (*"data"*, *"qweb"*, *"demo"* fields).
