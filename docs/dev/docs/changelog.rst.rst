@@ -6,12 +6,7 @@ Template
 
 Use this for new modules
 
-.. code-block:: rst
-
-    `1.0.0`
-    -------
-    
-    - Init version
+.. literalinclude:: templates/doc/changelog.rst
 
 Guidlines
 ---------
