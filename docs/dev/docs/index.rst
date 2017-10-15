@@ -38,7 +38,7 @@ Download templates:
     # __manifest__.py
     wget https://raw.githubusercontent.com/it-projects-llc/odoo-development/master/docs/dev/docs/templates/__manifest__.py
     # __README__.rst
-    wget https://raw.githubusercontent.com/it-projects-llc/odoo-development/master/docs/dev/docs/templates/__manifest__.py
+    wget https://raw.githubusercontent.com/it-projects-llc/odoo-development/master/docs/dev/docs/templates/README.rst
     mkdir doc
     cd doc
     # doc/index.rst
