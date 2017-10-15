@@ -51,6 +51,15 @@ Download templates:
 
 
 
+    # OTHER TEMPLATES
+
+    # security/ir.model.access.csv
+    mkdir
+    echo "id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink" >> security/ir.model.access.csv
+
+
+    
+
     #
 
 Update templates:
