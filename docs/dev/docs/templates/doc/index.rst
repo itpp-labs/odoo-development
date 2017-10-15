@@ -1,5 +1,5 @@
 ===============
- {Module name}
+ {MODULE_NAME}
 ===============
 
 Installation
