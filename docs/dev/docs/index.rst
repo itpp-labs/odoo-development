@@ -139,7 +139,7 @@ Update templates:
     # EXECUTING
     mkdir -p static/description
     # static/description/icon.png
-    wget https://raw.githubusercontent.com/it-projects-llc/odoo-development/master/docs/images/module-icons/${ICON}/icon.png -o static/description/icon.png
+    wget https://raw.githubusercontent.com/it-projects-llc/odoo-development/master/docs/images/module-icons/${ICON}/icon.png -O static/description/icon.png
 
     sed -i "s/{MODULE_NAME}/${MODULE_NAME}/g" __manifest__.py README.rst doc/index.rst
     sed -i "s/{Put some short introduction first.}/${MODULE_SUMMARY}/g" README.rst
