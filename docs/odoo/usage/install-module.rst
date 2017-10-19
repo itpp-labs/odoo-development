@@ -10,10 +10,12 @@ There are several ways to install\update module
 From App store (install)
 ========================
 
-8.0
----
+10.0+
+-----
 
-* navigate to ``Settings / Modules / Apps``
+* :doc:`activate developer mode <debug-mode>`
+* navigate to ``Apps`` menu
+* click on ``App Store`` menu in left side bar
 * remove ``Featured [x]`` filter
 * search module you need
 * click ``[Install]``
@@ -28,12 +30,10 @@ From App store (install)
 * search module you need
 * click ``[Install]``
 
-10.0+
------
+8.0
+---
 
-* :doc:`activate developer mode <debug-mode>`
-* navigate to ``Apps`` menu
-* click on ``App Store`` menu in left side bar
+* navigate to ``Settings / Modules / Apps``
 * remove ``Featured [x]`` filter
 * search module you need
 * click ``[Install]``
@@ -42,10 +42,11 @@ From App store (install)
 From App store (update)
 =======================
 
-8.0
----
+10.0+
+-----
 
-* navigate to ``Settings / Modules / Updates``
+* navigate to ``Apps`` menu
+* click ``Updates`` in left side bar
 
 9.0
 ---
@@ -53,18 +54,37 @@ From App store (update)
 * navigate to ``Apps`` menu
 * click ``Updates`` in left side bar
 
-10.0+
------
+8.0
+---
 
-* navigate to ``Apps`` menu
-* click ``Updates`` in left side bar
-
+* navigate to ``Settings / Modules / Updates``
 
 From zip archive (install)
 ==========================
 
 * unzip module to your addons folder
 * restart odoo server
+
+
+10.0+
+-----
+
+* :doc:`activate developer mode <debug-mode>`
+* navigate to ``Apps`` menu
+* click ``Update Apps List``
+* click ``Apps`` in left side bar
+* search and open a module you need
+* click ``[Install]``
+
+9.0
+---
+
+* :doc:`activate developer mode <debug-mode>`
+* navigate to ``Apps`` menu
+* click ``Update Apps List``
+* click ``Apps`` in left side bar
+* search and open a module you need
+* click ``[Install]``
 
 8.0
 ---
@@ -74,27 +94,6 @@ From zip archive (install)
 * click ``Local Modules`` in left side bar
 * search and open a module you need
 * click ``[Install]``
-
-9.0
----
-
-* :doc:`activate developer mode <debug-mode>`
-* navigate to ``Apps`` menu
-* click ``Update Apps List``
-* click ``Apps`` in left side bar
-* search and open a module you need
-* click ``[Install]``
-
-10.0+
------
-
-* :doc:`activate developer mode <debug-mode>`
-* navigate to ``Apps`` menu
-* click ``Update Apps List``
-* click ``Apps`` in left side bar
-* search and open a module you need
-* click ``[Install]``
-
 
 From zip archive (update)
 =========================

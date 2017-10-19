@@ -8,16 +8,6 @@
 
 2. Or use UI
 
-9.0
-===
-
-* click button at top right-hand corner ``<User Name> -> About Odoo``
-
-  .. figure:: ../../images/debug-1.png
-
-* click ``Activate the developer mode``
-
-  .. image:: ../../images/debug-2.png
 
 10.0+
 =====
@@ -27,6 +17,17 @@
 * click ``Activate the developer mode``
 
 .. image:: ../../images/debug-3.png
+
+9.0, 8.0
+========
+
+* click button at top right-hand corner ``<User Name> -> About Odoo``
+
+  .. figure:: ../../images/debug-1.png
+
+* click ``Activate the developer mode``
+
+.. image:: ../../images/debug-2.png
 
 10.0+ with the `web_debranding <https://www.odoo.com/apps/modules/10.0/web_debranding/>`_
 =========================================================================================

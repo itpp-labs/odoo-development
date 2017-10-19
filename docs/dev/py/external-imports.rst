@@ -34,7 +34,7 @@ need to add ``try-except`` with a debug log.
 This rule doesn't apply to the test files since these files are loaded only when
 running tests and in such a case your module and their external dependencies are installed.
 
-Also, you you need to add external dependencies to :doc:`manifest<../docs/__openerp__.py>`.
+Also, you you need to add external dependencies to :doc:`manifest<../docs/__manifest__.py>`.
 
 Why
 ===
@@ -42,6 +42,6 @@ Why
 Odoo loads python files of a module whenever following conditions are satisfied:
 
 * the module has static folder (e.g. for :doc:`icon.png<../docs/icon.png>`)
-* the module marked as installable in :doc:`manifest<../docs/__openerp__.py>`, i.e. the module *can* be installed
+* the module marked as installable in :doc:`manifest<../docs/__manifest__.py>`, i.e. the module *can* be installed
 
 One can see, that odoo loads python files even if module is not installed (and even not intenteded to be installed). But modules usually are added to addons-path as a part of some repository (e.g. *pos-addons*). This is why importing external dependencies without ``try-except`` leads to problems on adding repostitory to :doc:`addons-path<../../admin/addons_path>`.

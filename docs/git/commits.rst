@@ -12,9 +12,10 @@ Basic tags
 * **[FIX]** for bug fixes
 * **[REF]** for refactoring
 * **[TEXT]** for commits with text changes only: labels, hints, comments, etc., but not for updates in documentation (\*.rst and \*.html files)
-* **[NEW]** for uploading new modules
+* **[NEW]** for uploading new modules *(version tag is required)*
 * **[ADD]** for adding new resources and features.
 * **[REM]** for removing of resources
+* **[DEMO]** for adding / updating demostration data
 * **[CI]** for updating ``.travis.yml``, ``requirements.txt``, ``*/tests/*``, etc. files
 * **[LINT]** for fixing lint errors
 * **[i18n]** for translations
@@ -26,6 +27,10 @@ Version tags
 * **[9.0]**
 * **[10.0]**
 * etc.
+
+Put tags before other tags, e.g.::
+
+    [9.0][BACKPORT] module_xxx
 
 Temporar tags
 -------------
@@ -57,8 +62,11 @@ Which tag to use?
 
     * use **[PORT]** if target version is newer than original (e.g. porting from odoo 10.0 to odoo 11.0)
     * use **[BACKPORT]** if target version is older than original (e.g. porting from odoo 10.0 to odoo 9.0)
+* If commit updates demostration data
 
-* If commit updates\configures automatic tests
+  * use **[DEMO]**
+
+* If commit updates / configures automatic tests
 
   * use **[CI]**
 

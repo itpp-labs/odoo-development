@@ -15,10 +15,13 @@ You don't need to remove docker container to run test. You can run it in a separ
 
 So, to run tests with docker:
 
+* use a db which contains required modules (if you haven't got such db run new container with the key ``-i`` instead of ``-u``. ``-i`` installs required module with its dependencies, whereas ``-u`` update already installed module)
 * stop main odoo container, but keep db container
 * run new container, e.g.::
 
-      docker run --rm --link $DB_CONTAINER:db -v /something/at/host:/something/at/image itprojectsllc/install-odoo:$ODOO_BRANCH -- -d $DB_CONTAINER --db-filter=^%d$ -u $MODULE --test-enable --workers=0
+      docker run --rm --link $DB_CONTAINER:db \
+      -v /something/at/host:/something/at/container itprojectsllc/install-odoo:$ODOO_BRANCH-dev \
+      -- -d $DATABASE_NAME -u $MODULE --test-enable --workers=0 --stop-after-init
 
 How to make tests
 =================
@@ -29,6 +32,8 @@ To make some tests do next steps:
 * Add __init__.py file
 * Create file that name begins from **test_**
 * Add test methods that names start from **test_**
+
+.. warning:: you shall NOT import ``tests`` in module folder, i.e. do NOT add ``from . import tests`` to main ``__init__.py`` file
 
 Example (will result testing error)::
 
@@ -42,7 +47,7 @@ Example (will result testing error)::
 Test class
 ==========
 
-From `openerp/tests/common.py <https://github.com/odoo/odoo/blob/master/odoo/tests/common.py>`_::
+From `odoo/tests/common.py <https://github.com/odoo/odoo/blob/master/odoo/tests/common.py>`_::
 
     class BaseCase(unittest.TestCase):
         """
@@ -93,6 +98,21 @@ By default, odoo runs test with paramaters::
 
 * it runs after calling ``registry.setup_models(cr)``
 * it runs after calling ``model._register_hook(cr)``
+
+setUp and other methods
+=======================
+
+For more information see https://docs.python.org/2.7/library/unittest.html#test-cases
+
+* ``setUp()`` -- Method called to prepare the test fixture. This is called immediately before calling the test method. It's recommended to use in ``TransactionCase`` and ``HttpCase`` classes
+* ``setUpClass()`` -- A class method called before tests in an individual class run. setUpClass is called with the class as the only argument and must be decorated as a ``classmethod()``. It's recommended to use in ``SingleTransactionCase`` and ``SavepointCase`` classes
+
+  .. code-block:: py
+
+    @classmethod
+    def setUpClass(cls):
+        ...
+* ``tearDown()``, ``tearDownClass`` -- are called *after* test(s). Usually are not used in odoo tests 
 
 Assert Methods
 ==============

@@ -22,7 +22,7 @@ Clone repositories
    cd /some/work/path
 
    ## Settings
-   ODOO_BRANCHES=(10.0 9.0 8.0)  # update if needed
+   ODOO_BRANCHES=(11.0 10.0 9.0 8.0)  # update if needed
    GITHUB_USER=yelizariev  # change it to your user
 
    ## Common functions

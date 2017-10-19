@@ -135,7 +135,7 @@ Use arrow symbol ``->`` to specify value in selection and many2one fields: ::
 Titles and sections
 ===================
 
-::
+.. code-block:: rst
 
     OK:
     ===========================
