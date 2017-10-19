@@ -7,6 +7,7 @@
 
    new-api
    fix-refs
+   python3
 
 Quick source review
 ===================
