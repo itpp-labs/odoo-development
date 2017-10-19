@@ -28,8 +28,8 @@
 
 .. image:: ../../images/debug-3.png
 
-10.0+ with the `web_debranding <https://www.odoo.com/apps/modules/10.0/web_debranding/>`_ module installed
-===============
+10.0+ with the `web_debranding <https://www.odoo.com/apps/modules/10.0/web_debranding/>`_
+=========================================================================================
 
 * go to the User menu on the upper right corner
 
