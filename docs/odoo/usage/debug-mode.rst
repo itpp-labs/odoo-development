@@ -18,6 +18,15 @@
 
 .. image:: ../../images/debug-3.png
 
+10.0+ with the `web_debranding <https://www.odoo.com/apps/modules/10.0/web_debranding/>`_
+=========================================================================================
+
+* go to the User menu on the upper right corner
+
+* click ``Developer mode``
+
+.. image:: ../../images/debug-4.png
+
 9.0, 8.0
 ========
 
@@ -28,12 +37,3 @@
 * click ``Activate the developer mode``
 
 .. image:: ../../images/debug-2.png
-
-10.0+ with the `web_debranding <https://www.odoo.com/apps/modules/10.0/web_debranding/>`_
-=========================================================================================
-
-* go to the User menu on the upper right corner
-
-* click ``Developer mode``
-
-.. image:: ../../images/debug-4.png
