@@ -14,7 +14,7 @@ Configuration
 
 {Instruction how to configure the module.}
 
-* `Enable technical features <https://odoo-development.readthedocs.io/en/latest/odoo/usage/technical-features.html>`__
+* `Activate Developer Mode <https://odoo-development.readthedocs.io/en/latest/odoo/usage/debug-mode.html>`__
 * Open menu ``{Menu} >> {Submenu} >> {Subsubmenu}``
 * Click ``[{Button Name}]``
 
