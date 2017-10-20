@@ -88,16 +88,17 @@ Correctly formated lists:
 References to menu
 ==================
 
-Use double back-quotes with **spaced** slash for menus: ::
+For menus use double back-quotes with **spaced** slash and with top menu surrounded by double square brackets : ::
 
     OK:
-    * Open menu ``Settings >> Parameters >> System Parameters``
+    * Open menu ``[[ Settings ]] >> Parameters >> System Parameters``
 
     BAD
-    * Open menu ``Settings>>Parameters>>System Parameters``
-    * Open menu "Settings >> Parameters >> System Parameters"
-    * Open menu ''Settings >> Parameters >> System Parameters''
-    * Open menu ``Settings > Parameters > System Parameters``
+    * Open menu ``[[Settings]]>>Parameters>>System Parameters``
+    * Open menu "[[ Settings ]] >> Parameters >> System Parameters"
+    * Open menu ''[[ Settings ]] >> Parameters >> System Parameters''
+    * Open menu ``[[ Settings ]] > Parameters > System Parameters``
+    * Open menu ``[[ Settings ]]>> Parameters >> System Parameters``
 
 Fields
 ======
