@@ -77,6 +77,7 @@ Each step may have following attrubutes:
   * ``'drag_and_drop TO_SELECTOR'``
   * ``'auto'`` -- auto action (click or text)
   * ``function: (actions) { ... }`` -- actions is instance of RunningTourActionHelper -- see `tour_manager.js <https://github.com/odoo/odoo/blob/10.0/addons/web_tour/static/src/js/tour_manager.js>`_ for its methods.
+* **auto** -- step is skipped in non-auto running
 
 Options (second argument of ``tour.register``):
 
