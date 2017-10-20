@@ -37,3 +37,5 @@
 * click ``Activate the developer mode``
 
 .. image:: ../../images/debug-2.png
+
+* In odoo 8.0 you may need to :doc:`Enable technical features<technical-features>` too
