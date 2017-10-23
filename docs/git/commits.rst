@@ -101,8 +101,6 @@ Which tag to use?
 Emoji
 -----
 
-Yes, you can add some fun and emotions to your commit :wink:. Select emojii you like `here < https://gist.github.com/yelizariev/6277767c8e3e01148a52f15024efc2fd>`_ and copy-paste to you commit meessage, e.g.:
+Yes, you can add some fun and emotions to your commit. Select emojii you like `here <https://gist.github.com/yelizariev/6277767c8e3e01148a52f15024efc2fd>`_ and copy-paste to you commit meessage, `e.g. <https://github.com/yelizariev/dummy-addons/commit/30e3c1cd7723583a52c6ea268381ef6922781826>`_:
 
 ``[NEW] super-puper module is released! :boom:``
-
-*[NEW] super-puper module is released! :boom:*
