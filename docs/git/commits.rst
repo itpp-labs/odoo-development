@@ -98,3 +98,11 @@ Which tag to use?
     [FIX] bug in feature X ...
     [IMP] UI improvements in feature Y ...
     ...
+Emoji
+-----
+
+Yes, you can add some fun and emotions to your commit :wink:. Select emojii you like `here < https://gist.github.com/yelizariev/6277767c8e3e01148a52f15024efc2fd>`_ and copy-paste to you commit meessage, e.g.:
+
+``[NEW] super-puper module is released! :boom:``
+
+*[NEW] super-puper module is released! :boom:*
