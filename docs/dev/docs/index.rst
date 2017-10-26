@@ -54,10 +54,14 @@ Download templates:
     # OTHER TEMPLATES
 
     # security/ir.model.access.csv
-    mkdir
+    mkdir security
     echo "id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink" >> security/ir.model.access.csv
 
-
+    # controllers/main.py
+    mkdir controllers
+    echo "from . import controllers" >> __init__.py
+    echo "from . import main" >> controllers/__init__.py
+    echo "# -*- coding: utf-8 -*-" >> controllers/main.py
     
 
     #
