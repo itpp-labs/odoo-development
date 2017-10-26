@@ -6,10 +6,16 @@
 
 To activate longpolling:
 
-* install gevent and psycogreen ::
+* install dependencies
 
-    python -c "import gevent" || sudo pip install gevent
-    python -c "import psycogreen" || sudo pip install psycogreen
+  * odoo 11.0 ::
+
+       python -c "import gevent" || sudo pip install gevent
+
+  * odoo 10.0 ::
+
+       python -c "import gevent" || sudo pip install gevent
+       python -c "import psycogreen" || sudo pip install psycogreen
 
 * set non-zero value for :doc:`workers <workers>` parameter
 * configure nginx ::
