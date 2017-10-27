@@ -36,15 +36,15 @@ Download templates:
     cd PATH/TO/MODULE-ROOT/
 
     # __manifest__.py
-    wget https://raw.githubusercontent.com/it-projects-llc/odoo-development/master/docs/dev/docs/templates/__manifest__.py
+    wget -q https://raw.githubusercontent.com/it-projects-llc/odoo-development/master/docs/dev/docs/templates/__manifest__.py
     # __README__.rst
-    wget https://raw.githubusercontent.com/it-projects-llc/odoo-development/master/docs/dev/docs/templates/README.rst
+    wget -q https://raw.githubusercontent.com/it-projects-llc/odoo-development/master/docs/dev/docs/templates/README.rst
     mkdir doc
     cd doc
     # doc/index.rst
-    wget https://raw.githubusercontent.com/it-projects-llc/odoo-development/master/docs/dev/docs/templates/doc/index.rst
+    wget -q https://raw.githubusercontent.com/it-projects-llc/odoo-development/master/docs/dev/docs/templates/doc/index.rst
     # doc/changelog.rst
-    wget https://raw.githubusercontent.com/it-projects-llc/odoo-development/master/docs/dev/docs/templates/doc/changelog.rst
+    wget -q https://raw.githubusercontent.com/it-projects-llc/odoo-development/master/docs/dev/docs/templates/doc/changelog.rst
     cd ..
     # empty __init__.py
     touch __init__.py
@@ -144,7 +144,7 @@ Update templates:
     # EXECUTING
     mkdir -p static/description
     # static/description/icon.png
-    wget https://raw.githubusercontent.com/it-projects-llc/odoo-development/master/docs/images/module-icons/${ICON}/icon.png -O static/description/icon.png
+    wget -q https://raw.githubusercontent.com/it-projects-llc/odoo-development/master/docs/images/module-icons/${ICON}/icon.png -O static/description/icon.png
 
     sed -i "s/{MODULE_NAME}/${MODULE_NAME}/g" __manifest__.py README.rst doc/index.rst
     sed -i "s/{Put some short introduction first.}/${MODULE_SUMMARY}/g" README.rst
