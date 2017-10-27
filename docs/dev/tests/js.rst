@@ -109,7 +109,9 @@ How to run tour in unittests:
 
     .. code-block:: python
 
+        class CLASS_NAME(...):
         def test_NAME(self):
+
             self.phantom_js(
                 URL_PATH,
 
@@ -126,18 +128,20 @@ How to run tour in unittests:
 
     .. code-block:: python
 
-        def test_NAME(self):
-            self.phantom_js(
-                URL_PATH,
+        class CLASS_NAME(...):
+            def test_NAME(self):
 
-                "odoo.__DEBUG__.services['web.Tour']"
-                ".run('TOUR_NAME', 'test')",
+                self.phantom_js(
+                    URL_PATH,
 
-                "odoo.__DEBUG__.services['web.Tour']"
-                ".tours.TOUR_NAME",
+                    "odoo.__DEBUG__.services['web.Tour']"
+                    ".run('TOUR_NAME', 'test')",
 
-                login=LOGIN_OR_NONE
-            )
+                    "odoo.__DEBUG__.services['web.Tour']"
+                    ".tours.TOUR_NAME",
+
+                    login=LOGIN_OR_NONE
+                )
 
 
 How to run js tests
