@@ -109,33 +109,35 @@ How to run tour in unittests:
 
     .. code-block:: python
 
-        self.phantom_js(
-            URL_PATH,
+        def test_NAME(self):
+            self.phantom_js(
+                URL_PATH,
 
-            "odoo.__DEBUG__.services['web_tour.tour']"
-            ".run('TOUR_NAME')",
+                "odoo.__DEBUG__.services['web_tour.tour']"
+                ".run('TOUR_NAME')",
 
-            "odoo.__DEBUG__.services['web_tour.tour']"
-            ".tours.TOUR_NAME.ready",
+                "odoo.__DEBUG__.services['web_tour.tour']"
+                ".tours.TOUR_NAME.ready",
 
-            login=LOGIN_OR_NONE
-        )
+                login=LOGIN_OR_NONE
+            )
 
   * 8.0, 9.0:
 
     .. code-block:: python
 
-        self.phantom_js(
-            URL_PATH,
+        def test_NAME(self):
+            self.phantom_js(
+                URL_PATH,
 
-            "odoo.__DEBUG__.services['web.Tour']"
-            ".run('TOUR_NAME', 'test')",
+                "odoo.__DEBUG__.services['web.Tour']"
+                ".run('TOUR_NAME', 'test')",
 
-            "odoo.__DEBUG__.services['web.Tour']"
-            ".tours.TOUR_NAME",
+                "odoo.__DEBUG__.services['web.Tour']"
+                ".tours.TOUR_NAME",
 
-            login=LOGIN_OR_NONE
-        )
+                login=LOGIN_OR_NONE
+            )
 
 
 How to run js tests
