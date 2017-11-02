@@ -10,8 +10,8 @@ Switching off unported modules
     # (create fresh branch from upstream)
 
     # mark all modules as non-installable
-    find . -type f -name __openerp__.py  -or -name __manifest__.py | xargs sed -i 's/"installable": True,/"installable": False,/'
-    find . -type f -name __openerp__.py  -or -name __manifest__.py | xargs sed -i 's/'installable': True,/'installable': False,/'
+    find . -type f -name __openerp__.py  -or -name __manifest__.py | xargs sed -i 's/"installable": True/"installable": False/'
+    find . -type f -name __openerp__.py  -or -name __manifest__.py | xargs sed -i 's/'installable': True/'installable': False/'
 
     # check for fiels without "installable" tag in manfiest
     find . -type f -name __openerp__.py  -or -name __manifest__.py | xargs grep -L "installable.: "
