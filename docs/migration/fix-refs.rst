@@ -19,3 +19,10 @@
     # product.prod_config_main
     find . -type f -name '*.xml' | xargs sed -i 's/product.prod_config_main/sale.prod_config_main/g'
 
+
+``10.0-`` → ``11.0+``
+====================
+
+.. code-block:: sh
+
+    find . -type f -name '*.js' | xargs sed -i 's/core.mixins/requere("web.mixins")/g'
