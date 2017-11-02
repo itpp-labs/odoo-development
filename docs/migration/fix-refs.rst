@@ -28,4 +28,4 @@
     # mixins in js
     find . -type f -name '*.js' | xargs sed -i 's/core\.mixins/require("web.mixins")/g'
     # 11.0 doesn't have website.config.settings
-    find . -type f -name '*.py' -o '*.xml' | xargs sed -i 's/website\.config\.settings/res.config.settings/g'
+    find . -type f -name '*.py' -o -iname'*.xml' | xargs sed -i 's/website\.config\.settings/res.config.settings/g'
