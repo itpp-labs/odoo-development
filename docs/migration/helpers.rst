@@ -22,5 +22,5 @@ Switching off unported modules
     # check commit diff
     git diff --cached
     git commit -m "[PORT] mark unported modules as non-installable"
-    # make "git push" and pull request
+    # (make "git push" and pull request at github)
 
