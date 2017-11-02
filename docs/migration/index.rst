@@ -5,6 +5,7 @@
 .. toctree::
    :maxdepth: 3
 
+   helpers
    new-api
    fix-refs
    python3
