@@ -7,6 +7,8 @@ Switching off unported modules
 
 .. code-block:: sh
 
+    # (create fresh branch from upstream)
+
     # mark all modules as non-installable
     find . -type f -name __openerp__.py  -or -name __manifest__.py | xargs sed -i 's/"installable": True,/"installable": False,/'
     find . -type f -name __openerp__.py  -or -name __manifest__.py | xargs sed -i 's/'installable': True,/'installable': False,/'
