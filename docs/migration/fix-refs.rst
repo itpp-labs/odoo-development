@@ -25,4 +25,4 @@
 
 .. code-block:: sh
 
-    find . -type f -name '*.js' | xargs sed -i 's/core.mixins/requere("web.mixins")/g'
+    find . -type f -name '*.js' | xargs sed -i 's/core.mixins/require("web.mixins")/g'
