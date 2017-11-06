@@ -90,3 +90,12 @@ The commands doesn't update code fully and usually you need to continue updates 
 
     # rename all manifests
     find . -type f -name __openerp__.py -exec rename 's/__openerp__.py/__manifest__.py/' '{}' \;
+
+11.0+ updates
+=============
+
+.. code-block:: sh
+
+    # ir.config_parameter sudo access
+    find . -type f -name '*.py' | xargs perl -i -p0e 's/(?<!sudo\(\)\.)(get_param)/sudo().$1/g'
+    find . -type f -name '*.py' | xargs perl -i -p0e 's/(?<!sudo\(\)\.)(set_param)/sudo().$1/g'
