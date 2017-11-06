@@ -97,5 +97,4 @@ The commands doesn't update code fully and usually you need to continue updates 
 .. code-block:: sh
 
     # ir.config_parameter sudo access
-    find . -type f -name '*.py' | xargs perl -i -p0e 's/(?<!sudo\(\)\.)(get_param)/sudo().$1/g'
-    find . -type f -name '*.py' | xargs perl -i -p0e 's/(?<!sudo\(\)\.)(set_param)/sudo().$1/g'
+    find . -type f -name '*.py' | xargs perl -i -p0e 's/(?<!sudo\(\)\.)(get_param|set_param)/sudo().$1/g'
