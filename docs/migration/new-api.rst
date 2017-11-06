@@ -96,5 +96,5 @@ The commands doesn't update code fully and usually you need to continue updates 
 
 .. code-block:: sh
 
-    # ir.config_parameter -- prefxi get_para / set_param with sudo()
+    # ir.config_parameter -- prefix get_param / set_param with sudo()
     find . -type f -name '*.py' | xargs perl -i -p0e 's/(?<!sudo\(\)\.)(get_param|set_param)/sudo().$1/g'
