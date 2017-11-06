@@ -5,30 +5,27 @@
 
 ## Initialization
 
-  * Fork this repo
-  * Clone to your machine
-  * Install dependencies
+* Fork this repo
+* Clone to your machine
+* Install dependencies:
 
-    > sudo pip install sphinx sphinx-autobuild
-
-    > sudo pip install sphinx_rtd_theme
+        sudo pip install sphinx sphinx-autobuild
+        sudo pip install sphinx_rtd_theme
 
 ## Contribution
 
-  * Edit files in the repo. Check documentations:
-    * http://www.sphinx-doc.org/en/stable/rest.html
-    * http://www.sphinx-doc.org/en/stable/domains.html
-    * http://www.sphinx-doc.org/en/stable/markup/index.html
-    * [images.md](images.md)
+* Edit files in the repo. Check documentations:
 
-  * Try it out:
+  * http://www.sphinx-doc.org/en/stable/rest.html
+  * http://www.sphinx-doc.org/en/stable/domains.html
+  * http://www.sphinx-doc.org/en/stable/markup/index.html
+  * [images.md](images.md)
 
-    > cd /path/to/odoo-development/docs
+* Try it out::
 
-    > make html
+      cd /path/to/odoo-development/docs
+      make html
+      # check warningn and errors in compilation logs
+      google-chrome _build/html/index.html
 
-    > \# check warningn and errors in compilation logs
-
-    > google-chrome _build/html/index.html
-
-  * Make commits, push, create Pull Request
+* Make commits, push, create Pull Request
