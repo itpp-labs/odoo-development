@@ -13,7 +13,7 @@ raise an exception if its invariant is not satisfied::
 
     from openerp.exceptions import ValidationError
 
-    @api.constrains('age')
+    @api.constraints('age')
     def _check_something(self):
         for record in self:
             if record.age > 20:
