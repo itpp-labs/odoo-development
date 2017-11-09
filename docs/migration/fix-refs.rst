@@ -30,3 +30,6 @@
 
     # 11.0 doesn't have website.config.settings
     find . -type f -name '*.py' -o -iname '*.xml' | xargs sed -i 's/website\.config\.settings/res.config.settings/g'
+
+    # pos.config form
+    find . -type f -name '*.xml' | xargs sed -i 's/point_of_sale\.view_pos_config_form/point_of_sale\.pos_config_view_form/g'
