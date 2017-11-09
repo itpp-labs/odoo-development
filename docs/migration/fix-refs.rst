@@ -35,4 +35,4 @@
     find . -type f -name '*.xml' | xargs sed -i 's/ page="True"//g'
 
     # pos.config form
-    find . -type f -name '*.xml' | xargs sed -i 's/view_pos_config_form/pos_config_view_form/g'
+    find . -type f -name '*.xml' | xargs sed -i 's/point_of_sale\.view_pos_config_form/point_of_sale\.pos_config_view_form/g'
