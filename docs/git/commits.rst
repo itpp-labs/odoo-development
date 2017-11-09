@@ -14,7 +14,7 @@ Basic tags
 * **[TEXT]** for commits with text changes only: labels, hints, comments, etc., but not for updates in documentation (\*.rst and \*.html files)
 * **[NEW]** for uploading new modules *(version tag is required)*
 * **[ADD]** for adding new resources and features.
-* **[REM]** for removing of resources
+* **[REM]** for removing of resources *(version tag is required)*
 * **[DEMO]** for adding / updating demostration data
 * **[CI]** for updating ``.travis.yml``, ``requirements.txt``, ``*/tests/*``, etc. files
 * **[LINT]** for fixing lint errors
