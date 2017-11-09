@@ -33,3 +33,6 @@
 
     # page="True" is not used anymore
     find . -type f -name '*.xml' | xargs sed -i 's/ page="True"//g'
+
+    # pos.config form
+    find . -type f -name '*.xml' | xargs sed -i 's/view_pos_config_form/pos_config_view_form/g'
