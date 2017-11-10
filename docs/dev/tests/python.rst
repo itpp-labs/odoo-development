@@ -39,7 +39,7 @@ Example (will result testing error)::
 
     from odoo.tests.common import TransactionCase
     class TestMessage(TransactionCase):
-        at_install = False
+        at_install = True
         post_install = True
         def test_count(self):
             self.assertEqual(1, 0)
