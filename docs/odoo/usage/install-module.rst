@@ -1,17 +1,20 @@
-============================
-How to install/update module
-============================
+==============================
+ How to install/update module
+==============================
 
-There are several ways to install\update module
+There are several ways to install/update a module
 
 .. contents::
    :local:
 
-From App store (install)
-========================
+From App store
+==============
 
 10.0+
 -----
+
+install
+~~~~~~~
 
 * :doc:`activate developer mode <debug-mode>`
 * navigate to ``Apps`` menu
@@ -20,8 +23,18 @@ From App store (install)
 * search module you need
 * click ``[Install]``
 
+update
+~~~~~~
+
+* navigate to ``Apps`` menu
+* click ``Updates`` in left side bar
+
+
 9.0
 ---
+
+install
+~~~~~~~
 
 * :doc:`activate developer mode <debug-mode>`.
 * navigate to ``Apps`` menu
@@ -30,8 +43,17 @@ From App store (install)
 * search module you need
 * click ``[Install]``
 
+update
+~~~~~~
+
+* navigate to ``Apps`` menu
+* click ``Updates`` in left side bar
+
 8.0
 ---
+
+install
+~~~~~~~
 
 * navigate to ``Settings / Modules / Apps``
 * remove ``Featured [x]`` filter
@@ -39,28 +61,14 @@ From App store (install)
 * click ``[Install]``
 
 
-From App store (update)
-=======================
-
-10.0+
------
-
-* navigate to ``Apps`` menu
-* click ``Updates`` in left side bar
-
-9.0
----
-
-* navigate to ``Apps`` menu
-* click ``Updates`` in left side bar
-
-8.0
----
+update
+~~~~~~
 
 * navigate to ``Settings / Modules / Updates``
 
-From zip archive (install)
-==========================
+
+From zip archive
+================
 
 * unzip module to your addons folder
 * restart odoo server
@@ -69,15 +77,28 @@ From zip archive (install)
 10.0+
 -----
 
+install
+~~~~~~~
+
 * :doc:`activate developer mode <debug-mode>`
 * navigate to ``Apps`` menu
 * click ``Update Apps List``
 * click ``Apps`` in left side bar
 * search and open a module you need
 * click ``[Install]``
+
+update
+~~~~~~
+
+* :doc:`activate developer mode <debug-mode>`
+* navigate to ``Apps`` menu
+* search and open a module you need
+* click ``Upgrade``
 
 9.0
 ---
+install
+~~~~~~~
 
 * :doc:`activate developer mode <debug-mode>`
 * navigate to ``Apps`` menu
@@ -86,8 +107,19 @@ From zip archive (install)
 * search and open a module you need
 * click ``[Install]``
 
+update
+~~~~~~
+
+* :doc:`activate developer mode <debug-mode>`
+* navigate to ``Apps`` menu
+* search and open a module you need
+* click ``Upgrade``
+
 8.0
 ---
+
+install
+~~~~~~~
 
 * navigate to ``Settings / Modules``
 * click ``Update Modules List``
@@ -95,32 +127,10 @@ From zip archive (install)
 * search and open a module you need
 * click ``[Install]``
 
-From zip archive (update)
-=========================
-
-* unzip and replace module in your addons folder
-* restart odoo server
-
-8.0
----
+update
+~~~~~~
 
 * navigate to ``Settings / Modules``
 * click ``Local Modules`` in left side bar
-* search and open a module you need
-* click ``Upgrade``
-
-9.0
----
-
-* :doc:`activate developer mode <debug-mode>`
-* navigate to ``Apps`` menu
-* search and open a module you need
-* click ``Upgrade``
-
-10.0+
------
-
-* :doc:`activate developer mode <debug-mode>`
-* navigate to ``Apps`` menu
 * search and open a module you need
 * click ``Upgrade``
