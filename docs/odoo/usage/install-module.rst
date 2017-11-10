@@ -7,6 +7,8 @@ There are several ways to install/update a module
 .. contents::
    :local:
 
+.. warning:: Using ``Import Module`` tool (import from a zip  file) is not recommended at this moment, because it may not work in some deployments
+
 From App store
 ==============
 
@@ -18,7 +20,7 @@ install
 
 * :doc:`activate developer mode <debug-mode>`
 * navigate to ``Apps`` menu
-* click on ``App Store`` menu in left side bar
+* click on ``App Store`` menu
 * remove ``Featured [x]`` filter
 * search module you need
 * click ``[Install]``
