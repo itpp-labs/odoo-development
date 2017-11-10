@@ -89,8 +89,8 @@ at_install, post_install
 ========================
 By default, odoo runs test with paramaters::
 
-        at_install = False
-        post_install = True
+        at_install = True
+        post_install = False
 
 ``at_install`` - run tests right after loading module's files. It runs only in demo mode.
 
@@ -98,6 +98,7 @@ By default, odoo runs test with paramaters::
 
 * it runs after calling ``registry.setup_models(cr)``
 * it runs after calling ``model._register_hook(cr)``
+* it runs after installing all modules in current installation set
 
 setUp and other methods
 =======================
