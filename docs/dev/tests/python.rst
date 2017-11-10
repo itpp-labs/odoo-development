@@ -99,6 +99,7 @@ By default, odoo runs test with paramaters::
 * it runs after calling ``registry.setup_models(cr)``
 * it runs after calling ``model._register_hook(cr)``
 * it runs after installing all modules in current installation set
+* it runs as if only modules from dependencies are installed
 
 setUp and other methods
 =======================
