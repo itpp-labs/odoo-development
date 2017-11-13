@@ -99,7 +99,8 @@ JS tests via Tours
 
 It is possible to run js phantom tests using :doc:`odoo tours<../../description/js_tour>` as JS testing code.
 
-How to run tour in unittests:
+How to run tour in unittests
+----------------------------
 
 * :doc:`Create tour<../../description/js_tour>` via js file
 * Follow instruction for `python tests <./python.html#docker-users>`_
@@ -143,6 +144,37 @@ How to run tour in unittests:
                     login=LOGIN_OR_NONE
                 )
 
+How js tour works via phantomjs
+-------------------------------
+
+The order is as following:
+
+* OPEN *url_path* from python ``phantom_js`` method
+* WAIT *ready* condition (Truthy or Falsy) from python ``phantom_js`` method
+* OPEN *url* from tour's options in js file 
+* WAIT *wait_for* (deferred object) from tour's options in js file
+* DO first step from js tour
+
+  * WAIT when *trigger* becomes visible
+  * WAIT when *extra_trigger*  becomes visible (if extra_trigger* is presented)
+  * EXECUTE action (*run* or click on *trigger*)
+
+* DO NEXT step
+
+  * ...
+
+* STOP Running when:
+
+  * error happens:
+
+    * thrown via ``raise``
+    * reported via ``console.log('error', ...)``
+    * reported via ``console.error(...)``, etc.
+
+  * ``'ok'`` is reported via ``console.log('ok', ...)
+
+    * directly by code 
+    * indirectly by tour system when all steps are done
 
 How to run js tests
 ===================
