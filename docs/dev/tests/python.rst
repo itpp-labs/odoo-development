@@ -16,7 +16,7 @@ You don't need to remove docker container to run test. You can run it in a separ
 So, to run tests with docker:
 
 * use a db which contains required modules (if you haven't got such db run new container with the key ``-i`` instead of ``-u``. ``-i`` installs required module with its dependencies, whereas ``-u`` update already installed module)
-* stop main odoo container, but keep db container
+* OPTIONAL: stop main odoo container, but keep db container
 * run new container, e.g.::
 
       docker run --rm --link $DB_CONTAINER:db \
