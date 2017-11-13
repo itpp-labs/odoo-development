@@ -172,7 +172,7 @@ The order is as following:
     * reported via ``console.error(...)``, etc.
     * reported by tour system if step takes more than 10 seconds (can be increased by value of *step_delay* in ``run`` js method)
 
-  * ``'ok'`` is reported via ``console.log('ok', ...)
+  * ``'ok'`` is reported via ``console.log('ok')``
 
     * directly by code 
     * indirectly by tour system when all steps are done
