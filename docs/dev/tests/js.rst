@@ -198,3 +198,23 @@ If you need you run some python code before or after calling ``phantom_js`` you 
     phantom_env = api.Environment(self.registry.test_cr, self.uid, {}) 
 
 This is because ``HttpCase`` uses special cursor and using regular cursor via ``self.env`` leads to deadlocks or different values in database.
+
+Screenshots in Phantom tests
+============================
+Open file ``odoo/tests/phantomtest.js`` and after the line
+
+.. code-block:: js
+
+    console.log("PhantomTest.run: execution launched, waiting for console.log('ok')...");
+
+add following
+
+.. code-block:: js
+
+                    i=1;
+                    setInterval(function(){
+                        self.page.render('/tmp/phantomjs-'+i+'.png');
+                        i++;
+                    }, 1000);
+
+It will create screenshot every 1 second (you can update it if needed)
