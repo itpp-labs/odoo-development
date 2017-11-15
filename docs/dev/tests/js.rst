@@ -199,8 +199,8 @@ If you need you run some python code before or after calling ``phantom_js`` you 
 
 This is because ``HttpCase`` uses special cursor and using regular cursor via ``self.env`` leads to deadlocks or different values in database.
 
-Screenshots in Phantom tests
-============================
+Screenshots in PhantomJS tests
+==============================
 Open file ``odoo/tests/phantomtest.js`` and after the line
 
 .. code-block:: js
