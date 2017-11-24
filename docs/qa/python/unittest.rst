@@ -1,52 +1,13 @@
-====================
- Basic python tests
-====================
+===============
+ Odoo unittest
+===============
 
-How to run tests
-================
-This tests runs with ``-d $DB_CONTAINER -u $MODULE --test-enable --workers=0`` parameters. 
+.. contents::
+   :local:
 
-Docker users
-------------
-You don't need to remove docker container to run test. You can run it in a separate container 
 
-* don't worry about name for new container -- just use ``--rm`` arg
-* No need to expose ports
-
-So, to run tests with docker:
-
-* use a db which contains required modules (if you haven't got such db run new container with the key ``-i`` instead of ``-u``. ``-i`` installs required module with its dependencies, whereas ``-u`` update already installed module)
-* OPTIONAL: stop main odoo container, but keep db container
-* run new container, e.g.::
-
-      docker run --rm --link $DB_CONTAINER:db \
-      -v /something/at/host:/something/at/container \
-      itprojectsllc/install-odoo:$ODOO_BRANCH-dev \
-      -- -d $DATABASE_NAME -u $MODULE --test-enable --workers=0 --stop-after-init
-
-How to make tests
-=================
-
-To make some tests do next steps:
-
-* Create folder named **tests**
-* Add __init__.py file
-* Create file that name begins from **test_**
-* Add test methods that names start from **test_**
-
-.. warning:: you shall NOT import ``tests`` in module folder, i.e. do NOT add ``from . import tests`` to main ``__init__.py`` file
-
-Example (will result testing error)::
-
-    from odoo.tests.common import TransactionCase
-    class TestMessage(TransactionCase):
-        at_install = True
-        post_install = True
-        def test_count(self):
-            self.assertEqual(1, 0)
-
-Test class
-==========
+Test classes
+============
 
 From `odoo/tests/common.py <https://github.com/odoo/odoo/blob/master/odoo/tests/common.py>`_::
 
@@ -85,25 +46,6 @@ From `odoo/tests/common.py <https://github.com/odoo/odoo/blob/master/odoo/tests/
     class HttpCase(TransactionCase):
         """ Transactional HTTP TestCase with url_open and phantomjs helpers.
         """
-
-at_install, post_install
-========================
-By default, odoo runs test with paramaters::
-
-        at_install = True
-        post_install = False
-
-at_install 
-----------
-* runs tests right after loading module's files. It runs only in demo mode.
-* runs as if other not loaded yet modules are not installed at all
-* runs before marking module as installed, which also leads to not loading module's qweb without fixing it manually. See  `tests from point_of_sale module <https://github.com/odoo/odoo/blob/11.0/addons/point_of_sale/tests/test_frontend.py#L292-L297>`__: 
-
-post_install
-------------
-* runs after installing all modules in current installation set
-* runs after calling ``registry.setup_models(cr)``
-* runs after calling ``model._register_hook(cr)``
 
 setUp and other methods
 =======================
