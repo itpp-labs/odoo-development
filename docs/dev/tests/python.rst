@@ -20,7 +20,8 @@ So, to run tests with docker:
 * run new container, e.g.::
 
       docker run --rm --link $DB_CONTAINER:db \
-      -v /something/at/host:/something/at/container itprojectsllc/install-odoo:$ODOO_BRANCH-dev \
+      -v /something/at/host:/something/at/container \
+      itprojectsllc/install-odoo:$ODOO_BRANCH-dev \
       -- -d $DATABASE_NAME -u $MODULE --test-enable --workers=0 --stop-after-init
 
 How to make tests
