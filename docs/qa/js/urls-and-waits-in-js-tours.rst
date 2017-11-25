@@ -5,8 +5,8 @@
 
 The order is as following:
 
-* OPEN *url_path* from **python** ``phantom_js`` method
-* WAIT *ready* condition (Truthy or Falsy) from **python** ``phantom_js`` method
+* OPEN *url_path* from **python** :doc:`phantom_js <phantom_js>` method
+* WAIT *ready* condition (Truthy or Falsy) from **python** :doc:`phantom_js <phantom_js>` method
 * OPEN *url* from tour's options in **js** file 
 * WAIT *wait_for* (deferred object) from tour's options in **js** file
 * DO first step from **js** tour
@@ -33,5 +33,5 @@ The order is as following:
     * directly by code 
     * indirectly by tour system when all steps are done
 
-  * **timeout** from **python** ``phantom_js`` method is occured. Default is 60 sec
+  * **timeout** from **python** :doc:`phantom_js <phantom_js>` method is occured. Default is 60 sec
   
