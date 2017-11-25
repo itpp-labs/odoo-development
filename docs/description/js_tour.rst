@@ -3,7 +3,9 @@
 =========
 
 
-Tours are used to demonstrate module capabilities step by step with popup windows. It may be launched automatically or manually.
+Tour is a set of steps of possible scenario of module usage. 
+
+Steps may be executed automatically for **testing** purpose or by user for **demostrating** purpose.
 
 .. contents::
    :local:
@@ -172,8 +174,6 @@ http://www.slideshare.net/openobject/how-to-develop-automated-tests
 Also checkout here:
 https://github.com/odoo/odoo/blob/9.0/addons/web/static/src/js/tour.js
 
-You can launch tour by entering in browser address like this mydatabase/web#/tutorial.mails_count_tour=true where after tutorial. is id of your tour.
-
 Manual launching
 ================
 
@@ -195,9 +195,17 @@ To run *test-only* tours (or to run tours in auto mode but with some delay) do a
   .. code-block:: js
 
     odoo.__DEBUG__.services['web_tour.tour'].run('TOUR_NAME', 1000); // 1000 is delay in ms before auto action
-  
 
-Launch Tour after installation
+8.0, 9.0
+--------
+
+You can launch tour by url of following format: 
+
+``/web#/tutorial.mails_count_tour=true``
+
+where *mails_count_tour*  is id of your tour.
+
+Auto Launch after installation
 ==============================
 
 10.0+
