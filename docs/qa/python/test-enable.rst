@@ -2,11 +2,11 @@
  How to run tests
 ==================
 
-This tests runs with following parameters:
+Use following parameters when you start odoo:
 
+*  ``--test-enable``
 *  ``-d $DB_CONTAINER``
 *  ``-i $MODULE``
-*  ``--test-enable``
 *  ``--workers=0``
 
 
