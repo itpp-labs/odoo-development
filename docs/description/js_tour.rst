@@ -10,12 +10,13 @@ Steps may be executed automatically for **testing** purpose or by user for **dem
 .. contents::
    :local:
 
-Creating Tour
-=============
+Tour Definition
+===============
 
 10.0+
 -----
-
+Example
+~~~~~~~
 Example from `website_sale <https://github.com/odoo/odoo/blob/10.0/addons/website_sale/static/src/js/website_sale_tour_buy.js>`_ module:
 
 .. code-block:: js
@@ -65,6 +66,19 @@ Example from `website_sale <https://github.com/odoo/odoo/blob/10.0/addons/websit
     });
 
 
+Options
+~~~~~~~
+
+Options (second argument of ``tour.register``):
+
+* **test** -- only for tests
+* **url** -- open link before running the tour
+* **wait_for** -- wait for deffered object before running the script
+* **skip_enabled** -- adds *Skip* button in tips
+
+Step
+~~~~
+
 Each step may have following attrubutes:
 
 * **content** -- name or title of the step
@@ -81,14 +95,8 @@ Each step may have following attrubutes:
   * ``function: (actions) { ... }`` -- actions is instance of RunningTourActionHelper -- see `tour_manager.js <https://github.com/odoo/odoo/blob/10.0/addons/web_tour/static/src/js/tour_manager.js>`_ for its methods.
 * **auto** -- step is skipped in non-auto running
 
-Options (second argument of ``tour.register``):
-
-* **test** -- only for tests
-* **url** -- open link before running the tour
-* **wait_for** -- wait for deffered object before running the script
-* **skip_enabled** -- adds *Skip* button in tips
-
-More documentation:
+More documentation
+~~~~~~~~~~~~~~~~~~
 
 * https://www.odoo.com/slides/slide/the-new-way-to-develop-automated-tests-beautiful-tours-440
 * https://github.com/odoo/odoo/blob/10.0/addons/web_tour/static/src/js/tour_manager.js
@@ -98,8 +106,10 @@ More documentation:
 8.0, 9.0
 --------
 
-Tour is a simple JS file with some determined structure.
-Example::
+Example
+~~~~~~~
+
+.. cdoe-block:: js 
 
         {
             id: 'mails_count_tour',
@@ -127,7 +137,8 @@ Example::
             ]
         }
 
-What you do here is describing steps that got to be proceeded by user or phantom (phantomjs).
+Tour.register
+~~~~~~~~~~~~~
 
 In odoo 8 tour defines this way::
 
@@ -150,6 +161,9 @@ Important details:
     * **id** - need to call this tour
     * **path** - from this path tour will be started in test mode
 
+Step
+~~~~
+
 Next step occurs when **all** conditions are satisfied and popup window will appear near (chose position in *placement*) element specified in *element*. Element must contain css selector of corresponding node.
 Conditions may be:
 
@@ -168,6 +182,9 @@ Inject JS Tour file on page::
             <script src="/res_partner_mails_count/static/src/js/res_partner_mails_count_tour.js" type="text/javascript"></script>
         </xpath>
     </template>
+
+More documentation
+~~~~~~~~~~~~~~~~~~
 
 Some docs is here (begin from 10 slide):
 http://www.slideshare.net/openobject/how-to-develop-automated-tests
