@@ -2,14 +2,14 @@
  JS tests via Tours
 ====================
 
-**How to run :doc:`odoo tours<../../description/js_tour>` in :doc:`phantom_js <phantom_js>` method?**
+How to run :doc:`odoo tours<../../description/js_tour>` in :doc:`phantom_js <phantom_js>` method?
 
 10.0+
 =====
 
 .. code-block:: python
 
-        class CLASS_NAME(...):
+    class CLASS_NAME(...):
         def test_NAME(self):
 
             self.phantom_js(
