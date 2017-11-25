@@ -7,9 +7,9 @@ The order is as following:
 
 * OPEN *url_path* from **python** :doc:`phantom_js <phantom_js>` method
 * WAIT *ready* condition (Truthy or Falsy) from **python** :doc:`phantom_js <phantom_js>` method
-* OPEN *url* from tour's options in **js** file 
-* WAIT *wait_for* (deferred object) from tour's options in **js** file
-* DO first step from **js** tour
+* OPEN *url* from :doc:`tour <../../description/js_tour>`'s options in **js** file 
+* WAIT *wait_for* (deferred object) from :doc:`tour <../../description/js_tour>`'s options in **js** file
+* DO first step from **js** :doc:`tour <../../description/js_tour>`
 
   * WAIT when *trigger* becomes visible
   * WAIT when *extra_trigger*  becomes visible (if *extra_trigger* is presented)
@@ -26,7 +26,7 @@ The order is as following:
     * thrown via ``raise``
     * reported via ``console.log('error', ...)``
     * reported via ``console.error(...)``, etc.
-    * reported by tour system on step **timeout**. Default is 10 seconds, can be increased by value of *step_delay* in ``run`` **js** method
+    * reported by tour system on step **timeout**. Default is 10 seconds, can be increased by value of *step_delay* in `run <https://github.com/odoo/odoo/blob/10.0/addons/web_tour/static/src/js/tour_manager.js#L267>`_ **js** method, which is called in **python** :doc:`phantom_js <phantom_js>` method
 
   * ``'ok'`` is reported via ``console.log('ok')``
 
