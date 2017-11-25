@@ -9,7 +9,7 @@ How to run tour in unittests
 ============================
 
 * :doc:`Create tour<../../description/js_tour>` via js file
-* Follow instruction for `python tests <../python/test-enable#docker-users>`_
+* Follow instruction for `python tests <../python/test-enable.html#docker-users>`_
 * run tour via phantom js
 
   * 10.0+:
