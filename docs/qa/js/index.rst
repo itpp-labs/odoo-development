@@ -14,8 +14,8 @@ For automatic web tests odoo uses `phantomjs <http://phantomjs.org>`_.
 .. toctree::
    :maxdepth: 3
 
-   tests-via-tours
    phantom_js
+   tests-via-tours
    urls-and-waits-in-js-tours
    phantom_js-test_cr
    phantomjs-screenshots
