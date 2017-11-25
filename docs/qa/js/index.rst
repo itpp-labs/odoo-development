@@ -6,7 +6,7 @@ For automatic web tests odoo uses `phantomjs <http://phantomjs.org>`_.
 
 **How to write automatic js tests:**
 
-* Follow instruction for `python tests <../python/test-enable.html#docker-users>`_
+* Follow instruction for :doc:`python tests <../python>`_
 * In test method call :doc:`self.phantom_js() <phantom_js>`
 
 **Documentation:**
