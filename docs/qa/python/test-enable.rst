@@ -13,7 +13,7 @@ Use following parameters when you start odoo:
 js tests
 ========
 
-To run odoo with phantomjs tests you additionally you need:
+To run tests with phantomjs tests you also need:
 
 * `Install phantomjs <http://phantomjs.org/download.html>`_ or use dockers (see below)
 * use ``--db-filter=.*``
