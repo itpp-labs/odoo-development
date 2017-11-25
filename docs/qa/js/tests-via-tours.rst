@@ -2,19 +2,12 @@
  JS tests via Tours
 ====================
 
+**How to run :doc:`odoo tours<../../description/js_tour>` in :doc:`phantom_js <phantom_js>` method?**
 
-It is possible to run js phantom tests using :doc:`odoo tours<../../description/js_tour>` as JS testing code.
+10.0+
+=====
 
-How to run tour in unittests
-============================
-
-* :doc:`Create tour<../../description/js_tour>` via js file
-* Follow instruction for `python tests <../python/test-enable.html#docker-users>`_
-* run tour via phantom js
-
-  * 10.0+:
-
-    .. code-block:: python
+.. code-block:: python
 
         class CLASS_NAME(...):
         def test_NAME(self):
@@ -31,9 +24,10 @@ How to run tour in unittests
                 login=LOGIN_OR_NONE
             )
 
-  * 8.0, 9.0:
+8.0, 9.0
+========
 
-    .. code-block:: python
+.. code-block:: python
 
         class CLASS_NAME(...):
             def test_NAME(self):
