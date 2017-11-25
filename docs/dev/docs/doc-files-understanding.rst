@@ -10,14 +10,14 @@ Contains information interested for developers:
 * short description
 * technical details
 
-index.rst
-=========
+doc/index.rst
+=============
 
 Usage instruction. Used by end users after purchasing the module. It shall give an answer to the question *"How to check that module works (how to install, how to configure, how to use)?"*. Also, it may cover the question *"How to safely uninstall the module"*.
 
 
-index.html
-==========
+static/description/index.html
+=============================
 
 Module representation. It shall give an answer to the questions *"Do I need this module? Should I buy it?"*.
 
