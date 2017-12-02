@@ -1,7 +1,7 @@
 Fields
 ======
 
-*Based on: http://odoo-new-api-guide-line.readthedocs.io/en/latest/fields.html*
+*Based on:* http://odoo-new-api-guide-line.readthedocs.io/en/latest/fields.html
 
 Now fields are class property: ::
 
