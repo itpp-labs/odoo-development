@@ -3,7 +3,7 @@
 ===================
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
 
    python/index
    js/index
