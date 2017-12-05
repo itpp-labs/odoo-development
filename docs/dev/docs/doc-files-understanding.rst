@@ -19,7 +19,7 @@ Usage instruction. Used by end users after purchasing the module. It shall give 
 static/description/index.html
 =============================
 
-Module representation. It shall give an answer to the questions *"Do I need this module? Should I buy it?"*.
+Module presentation. It shall give an answer to the question *"Is this module interesting for me?"*. Presentation has to give the answer as quickly as posible. 
 
 Content intersection
 ====================
