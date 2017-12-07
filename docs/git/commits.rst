@@ -39,6 +39,7 @@ Temporar tags
 
 Which tag to use?
 -----------------
+Tags priorities are following (from more priority to less priority)
 
 * If commit upload new module:
 
