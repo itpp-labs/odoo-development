@@ -29,7 +29,7 @@ What to do if you got conflicts:
 
 Deleted files
 ~~~~~~~~~~~~~
-Sometimes, changes can be conflicted because files are not exist anymore in *ours* version, but updated in *theirs* (and vice versa). In that case execute the code below in order to ignore such changes:
+Sometimes, changes can be conflicted because files are not exist anymore in *ours* version, but updated in *theirs* (or vice versa). In that case execute the code below in order to ignore such changes:
 
 .. code:: bash
 
