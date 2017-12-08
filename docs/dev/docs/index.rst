@@ -61,6 +61,9 @@ Download templates:
     mkdir controllers
     echo "from . import controllers" >> __init__.py
     echo "from . import main" >> controllers/__init__.py
+    touch controllers/main.py
+
+    # only for 10.0- versions:
     echo "# -*- coding: utf-8 -*-" >> controllers/main.py
     
 
