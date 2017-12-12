@@ -109,7 +109,7 @@ More documentation
 Example
 ~~~~~~~
 
-.. cdoe-block:: js 
+.. code-block:: js
 
         {
             id: 'mails_count_tour',
