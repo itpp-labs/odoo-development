@@ -16,3 +16,4 @@ Git and Github
    stash
    git_update
    squash
+   checkout-pr
