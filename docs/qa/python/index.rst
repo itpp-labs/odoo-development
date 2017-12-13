@@ -7,8 +7,9 @@
 
 * Create folder named **tests**
 * Add ``__init__.py`` file
-* Create file that name starts with **test_**
-* Add test methods that names start from **test_**
+* Create a file whose name starts with **test_** (put corresponding import to ``__init__.py`` file from the previous step)
+* Add new Class based on one of `test classes <https://odoo-development.readthedocs.io/en/latest/qa/python/unittest.html#test-classes>`__
+* Add test methods whose names start with **test_**
 
 .. warning:: you shall NOT import ``tests`` in module folder, i.e. do NOT add ``from . import tests`` to main ``__init__.py`` file
 
