@@ -33,3 +33,6 @@
 
     # pos.config form
     find . -type f -name '*.xml' | xargs sed -i 's/point_of_sale\.view_pos_config_form/point_of_sale\.pos_config_view_form/g'
+
+    # web.webclient_bootstrap template
+    find . -type f -name '*.xml' | xargs sed -i 's/web\.webclient_script/web\.webclient_bootstrap/g'
