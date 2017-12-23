@@ -16,7 +16,6 @@ Module Development
    pos/index
    access/index
    hooks/index
-   debug/index
    diving/index
    lint/index
    other/index

@@ -4,7 +4,7 @@
 
 
 
-.. image:: ../../images/dev/debug/emulate_slow_internet.png
+.. image:: ../images/dev/debug/emulate_slow_internet.png
 
 Emulation of package lossing
 ============================

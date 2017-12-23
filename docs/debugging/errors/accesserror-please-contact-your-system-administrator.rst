@@ -8,7 +8,7 @@ There is an AccessError which doesn't specify groups that have access to an oper
 
     The requested operation cannot be completed due to security restrictions. Please contact your system administrator.
 
-.. image:: ../../../images/accesserror-please-contact-your-system-administrator.png
+.. image:: ../../images/accesserror-please-contact-your-system-administrator.png
 
-Such error means, that your user doesn't satisfy access requirements specified in  :doc:`ir.rule <../../../odoo/models/ir.rule>`. See :doc:`Access section <../../access/index>` for general understanding how odoo security works.
+Such error means, that your user doesn't satisfy access requirements specified in  :doc:`ir.rule <../../odoo/models/ir.rule>`. See :doc:`Access section <../../dev/access/index>` for general understanding how odoo security works.
 

@@ -12,6 +12,7 @@ Current content:
 
    first-steps
    dev/index
+   debugging/index
    qa/index
    migration/index
    description/index
