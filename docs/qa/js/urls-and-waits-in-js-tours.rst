@@ -26,7 +26,7 @@ The order is as following:
     * thrown via ``raise``
     * reported via ``console.log('error', ...)``
     * reported via ``console.error(...)``, etc.
-    * reported by tour system on step **timeout**. Default is 10 seconds, can be increased by value of *step_delay* in `run <https://github.com/odoo/odoo/blob/10.0/addons/web_tour/static/src/js/tour_manager.js#L267>`_ **js** method, which is called in **python** :doc:`phantom_js <phantom_js>` method
+    * reported by tour system on step **timeout**. Default is 10 seconds, can be increased by value of *step_delay* in `run <https://github.com/odoo/odoo/blob/10.0/addons/web_tour/static/src/js/tour_manager.js#L267>`_ **js** method, which is called in **python** :doc:`phantom_js <phantom_js>` method. PR to make timeout customazable per step is not accepted yet: https://github.com/odoo/odoo/pull/21750
 
   * ``'ok'`` is reported via ``console.log('ok')``
 
