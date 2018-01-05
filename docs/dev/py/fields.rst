@@ -3,6 +3,10 @@ Fields
 
 *Based on:* http://odoo-new-api-guide-line.readthedocs.io/en/latest/fields.html
 
+.. contents::
+   :local:
+
+
 Now fields are class property: ::
 
     from openerp import models, fields
