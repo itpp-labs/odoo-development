@@ -254,8 +254,8 @@ Specific options:
 
   * comodel_name: name of the opposite model
   * relation: relational table name
-  * columns1: relational table left column name
-  * columns2: relational table right column name
+  * columns1: relational table left column name (reference to record in current table)
+  * columns2: relational table right column name (reference to record in *comodel_name* table)
 
 
 Name Conflicts
