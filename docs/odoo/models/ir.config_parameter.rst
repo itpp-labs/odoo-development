@@ -22,7 +22,7 @@ Prons:
 
 Cons:
 
-* it raises error, if record with that key is already created manulally
+* it raises error, if record with that key is already created manually
 
 XML: <function>
 ---------------
@@ -33,7 +33,7 @@ Code::
 
 Prons:
 
-* it doesn't raise error, if record with that key is already created manulally
+* it doesn't raise error, if record with that key is already created manually
 
 Cons:
 
