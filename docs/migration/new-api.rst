@@ -108,4 +108,4 @@ The commands doesn't update code fully and usually you need to continue updates 
     find . -type f -name '*.xml' | xargs sed -i 's/ page="True"//g'
 
     # coding: utf-8 is not needed anymore
-    find . -type f -name '*.py' | xargs sed -i 's/# -\*- coding: utf-8 -\*-//'
+    find . -type f -name '*.py' | xargs sed -i '/# -\*- coding: utf-8 -\*-/d'
