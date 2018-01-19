@@ -16,6 +16,10 @@ To disable werkzeug logs add following parameter::
 
    --log-handler=werkzeug:CRITICAL
 
+To see all available log messages::
+
+   --log-handler=odoo:DEBUG
+
 Log levels
 ==========
 
