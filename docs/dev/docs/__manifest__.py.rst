@@ -79,6 +79,11 @@ version
 
 *Note: whenever you change version, you have to add a record in* :doc:`changelog.rst <changelog.rst>`
 
+The version number in the module manifest should be the Odoo major
+version (e.g. `8.0`) followed by the module `x.y.z` version numbers.
+For example: `8.0.1.0.0` is expected for the first release of an 8.0
+module.
+
 The `x.y.z` version numbers follow the semantics `breaking.feature.fix`:
 
   * `x` increments when the data model or the views had significant
@@ -89,38 +94,34 @@ The `x.y.z` version numbers follow the semantics `breaking.feature.fix`:
   * `z` increments when bugfixes were made. Usually a server restart
     is needed for the fixes to be made available.
 
-On each version change a record in ``doc/changelog.rst`` should be added.
+If applicable, breaking changes are expected to include instructions
+or scripts to perform migration on current installations.
 
 If a module ported to different odoo versions (e.g. 8 and 9) and some update is
 added only to one version (e.g. 9), then version is changed as in example below:
 
 * init
 
-  * [8.0] 1.0.0
-  * [9.0] 1.0.0
+  * 8.0.1.0.0
+  * 9.0.1.0.0
 * feature added to 8.0 and ported to 9.0
 
-  * [8.0] 1.1.0
-  * [9.0] 1.1.0
+  * 8.0.1.1.0
+  * 9.0.1.1.0
 * feature added to 9.0 only and not going to be ported to 8.0:
 
-  * [8.0] 1.1.0
-  * [9.0] 1.2.0
+  * 8.0.1.1.0
+  * 9.0.1.2.0
 * fix made in 9.0 only and not going to be ported to 8.0:
 
-  * [8.0] 1.1.0
-  * [9.0] 1.2.1
+  * 8.0.1.1.0
+  * 9.0.1.2.1
 * fix made in 8.0 and ported to 9.0
 
-  * [8.0] 1.2.2
-  * [9.0] 1.2.2
+  * 8.0.1.2.2
+  * 9.0.1.2.2
 
 i.e. two module branches cannot have same versions with a different meaning
-
-version in OCA
---------------
-
-While `OCA use odoo version in module version <https://github.com/OCA/maintainer-tools/blob/master/CONTRIBUTING.md#version-numbers>`_ (e.g. ``8.0.1.0.0``), we specify odoo version in :doc:`README.rst <README.rst>` file and use three numbers in version (e.g. ``1.0.0``).
 
 author
 ======
