@@ -100,3 +100,14 @@ module_XXX
 ----------
 
 Add XXX to the "depends" parameter in the ``__openerp__.py`` file
+
+Other fields
+------------
+
+Usually, other fields are saved to ir.config.parameters, so to update data in these fields use the next method::
+
+    <function model="ir.config_parameter" name="set_param" eval="(
+        'pos_debt_notebook.debt_type', 'credit', ['base.group_system']
+    )" />
+
+Here we updated the field debt_type in model "pos.config.parameters" by setting an appropriate value via "ir.config_parameter".
