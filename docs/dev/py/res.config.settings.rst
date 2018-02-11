@@ -99,15 +99,14 @@ Add **implied group(s)** to a **group** via ``implied_ids`` field::
 module_XXX
 ----------
 
-Add XXX to the "depends" parameter in the ``__openerp__.py`` file
+Add XXX to the "depends" parameter in the :doc:`__manifest__.py<../docs/__manifest__.py>` file.
 
 Other fields
 ------------
 
-Usually, other fields are saved to ir.config.parameters, so to update data in these fields use the next method::
+Usually, other fields are saved to ``ir.config_parameter``, so just update :doc:`ir.config_parameter<../../odoo/models/ir.config_parameter>`, for example::
 
     <function model="ir.config_parameter" name="set_param" eval="(
-        'pos_debt_notebook.debt_type', 'credit', ['base.group_system']
+        'pos_debt_notebook.debt_type', 'credit'
     )" />
-
-Here we updated the field debt_type in model "pos.config.parameters" by setting an appropriate value via "ir.config_parameter".
+  
