@@ -104,7 +104,7 @@ Add XXX to the "depends" parameter in the :doc:`__manifest__.py<../docs/__manife
 Other fields
 ------------
 
-Usually, other fields are saved to ``ir.config_parameter``, so just update :doc:`ir.config_parameter<../../odoo/models/ir.config_parameter>`, for example::
+Usually, other fields are saved to ``ir.config_parameter``, so just :doc:`update ir.config_parameter<../../odoo/models/ir.config_parameter>`, for example::
 
     <function model="ir.config_parameter" name="set_param" eval="(
         'pos_debt_notebook.debt_type', 'credit'
