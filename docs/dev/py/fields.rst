@@ -257,6 +257,16 @@ Specific options:
   * columns1: relational table left column name (reference to record in current table)
   * columns2: relational table right column name (reference to record in *comodel_name* table)
 
+In order to make two mutual many2many fields in different models use in them the same relation table and inverse columns::
+
+    _name = 'model1'
+    model2_ids = fields.Many2many(
+        'model2', 'model2_ids_model1_ids_rel', 'model2_id', 'model1_id',
+
+    _name = 'model2'
+    model1_ids = fields.Many2many(
+        'model1', 'model2_ids_model1_ids_rel', 'model1_id', 'model2_id',
+
 
 Name Conflicts
 --------------
