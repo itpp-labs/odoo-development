@@ -33,3 +33,13 @@ Log levels
 * INFO
 * DEBUG
 * NOTSET
+
+Usefull logs
+============
+
+Show api requests::
+
+   --log-handler=odoo.api:DEBUG
+
+
+
