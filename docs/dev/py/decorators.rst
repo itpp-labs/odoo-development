@@ -1,5 +1,5 @@
-Python decoratos
-================
+Python decorators
+=================
 Original article
 ----------------
 http://odoo-new-api-guide-line.readthedocs.org/en/latest/decorator.html
