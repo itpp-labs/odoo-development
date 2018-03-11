@@ -1,4 +1,4 @@
-Python decoratos
+Python decorators
 ================
 Original article
 ----------------
