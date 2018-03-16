@@ -6,7 +6,6 @@ Prepearing
 ----------
 
 Those migrations are between module version.
-At first add at least two python migration files *pre-migrate.py* and *post-migrate.py* according the instruction below.
 
 From Odoo https://github.com/odoo/odoo/blob/11.0/odoo/modules/migration.py#L53:
 
@@ -54,7 +53,8 @@ Then, after the module was updated, Odoo search for post-migrate files by the sa
 Example
 -------
 
-*POS Debt & Credit notebook*. We need to preserve credit_product field data in the product.template model after updating to a newer version
+*POS Debt & Credit notebook*. We need to preserve credit_product field data in the ``product.template`` model after updating to a newer version.
+In previous version it was boolean field, now it is a many2one field with the relation to ``account.journal`` model.
 Here, we, using a temporary column, calculate transfer data from boolean to many2one credit_product field.
 
 *pre-migrate.py*::
