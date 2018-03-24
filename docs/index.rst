@@ -21,6 +21,7 @@ Current content:
    odoo/index
    admin/index
    cd/index
+   maintenance/index
    ide/index
    remote-dev/index
    other/index
