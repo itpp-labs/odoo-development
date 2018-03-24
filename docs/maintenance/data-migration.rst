@@ -1,6 +1,8 @@
-==========================
- Module Version Migration
-==========================
+================
+ Data Migration
+================
+
+Data Migration is a process of keeping correct data in database after updating to new module version. For example, simple field renaming leads to data lost if you don't have proper data migration scripts.
 
 Prepearing
 ----------
