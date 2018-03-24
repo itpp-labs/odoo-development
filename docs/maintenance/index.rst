@@ -5,5 +5,5 @@
 .. toctree::
    :maxdepth: 3
 
-   migration
+   data-migration
 
