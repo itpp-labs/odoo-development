@@ -46,8 +46,8 @@ Download templates:
     # doc/changelog.rst
     wget -q https://raw.githubusercontent.com/it-projects-llc/odoo-development/master/docs/dev/docs/templates/doc/changelog.rst
     cd ..
-    # empty __init__.py
-    touch __init__.py
+    # new __init__.py
+    echo "# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html)." >> __init__.py
 
 
 
@@ -60,8 +60,10 @@ Download templates:
     # controllers/main.py
     mkdir controllers
     echo "from . import controllers" >> __init__.py
+    echo "# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html)." >> controllers/__init__.py
     echo "from . import main" >> controllers/__init__.py
-    touch controllers/main.py
+    echo "# Copyright 2018 {DEVELOPER_NAME} <https://it-projects.info/team/{DEVELOPER_GITHUB_USERNAME}>" >> controllers/main.py
+    echo "# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html)." >> controllers/main.py
 
     # only for 10.0- versions:
     echo "# -*- coding: utf-8 -*-" >> controllers/main.py
