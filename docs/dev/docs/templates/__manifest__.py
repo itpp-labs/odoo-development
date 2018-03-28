@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# Copyright 2018 {DEVELOPER_NAME} <https://it-projects.info/team/{DEVELOPER_GITHUB_USERNAME}>
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html).
 {
     "name": """{MODULE_NAME}""",
     "summary": """{SHORT_DESCRIPTION_OF_THE_MODULE}""",
