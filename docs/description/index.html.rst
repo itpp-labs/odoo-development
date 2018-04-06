@@ -112,9 +112,19 @@ Subsection
 
 .. code-block:: html
 
-    <h4 class="oe_slogan">SUBSECTION NAME</h4>
+    <h4 class="oe_slogan"><b>SUBSECTION NAME</b></h4>
 
 *(Put it inside <section class="..."><div class="oe_row oe_spaced"> tags)*
+
+Reference to menu
+-----------------
+
+To specify references to menu, use right arrow character ``&rarr;``, for example:
+
+.. code-block:: html
+
+    Sales &rarr; Configuration &rarr; Settings
+
 
 Text + Image
 ------------
@@ -139,7 +149,20 @@ Text + Image
 Image + Text
 ------------
 
-TODO
+    <section class="oe_container oe_dark">
+        <div class="oe_row oe_spaced">
+	    <div class="oe_span6">
+                <div class="oe_row_img oe_centered">
+                    <img class="oe_demo oe_picture oe_screenshot" src="IMAGE.png"/>
+                </div>
+            </div>
+            <div class="oe_span6">
+                <p class="oe_mt32">
+                TEXT
+                </p>
+            </div>
+        </div>
+    </section>
 
 Text, Image
 -----------
@@ -158,7 +181,7 @@ Text, Image
              </div>
         </div>
     </section>
-
+    
 Demo note
 ---------
 
