@@ -149,6 +149,8 @@ Text + Image
 Image + Text
 ------------
 
+.. code-block:: html
+
     <section class="oe_container oe_dark">
         <div class="oe_row oe_spaced">
 	    <div class="oe_span6">
@@ -191,14 +193,14 @@ Text, Image (large size)
         <div class="oe_row oe_spaced">
             <div class="oe_span12 text-center">
                 <p class="oe_mt32">
-                <font style="font-size: 120%;">TEXT</font>
+                  <font style="font-size: 120%;">TEXT</font>
                 </p>
             </div>
             <div class="oe_screenshot">
                  <img style="max-width: 80%" src="IMAGE.png"/>
              </div>
-        </div>
-    </section>
+         </div>
+     </section>
     
 Demo note
 ---------
