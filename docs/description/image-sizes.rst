@@ -66,4 +66,10 @@ img.oe_demo.oe_screenshot
 -------------------------
 ::
     max-width: 928px;
-    
+
+img.oe_screenshot
+-----------------
+::
+    max-width: 1500px;
+    max-height: 1000px;
+
