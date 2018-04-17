@@ -67,7 +67,7 @@ install
 * :doc:`activate developer mode <debug-mode>`
 * navigate to ``Apps`` menu
 * click ``Update Apps List``
-* click ``Apps`` in left side bar
+* click ``Apps``
 * search and open a module you need
 * click ``[Install]``
 
@@ -87,7 +87,7 @@ install
 
 * navigate to ``Settings / Modules``
 * click ``Update Modules List``
-* click ``Local Modules`` in left side bar
+* click ``Local Modules`` 
 * search and open a module you need
 * click ``[Install]``
 
@@ -95,6 +95,6 @@ update
 ~~~~~~
 
 * navigate to ``Settings / Modules``
-* click ``Local Modules`` in left side bar
+* click ``Local Modules`` 
 * search and open a module you need
 * click ``Upgrade``
