@@ -17,8 +17,8 @@ From zip archive
 * unzip module to your addons folder
 * restart odoo server
 
-11.0+e (Enterprise Edition)
----------------------------
+11.0+
+-----
 
 install
 ~~~~~~~
@@ -29,31 +29,6 @@ install
 * click ``Apps`` 
 * search and open a module you need
 * click ``[Install]``
-
-.. image:: ../../images/install-11-2.png
-
-update
-~~~~~~
-
-* :doc:`activate developer mode <debug-mode>`
-* navigate to ``Apps`` menu
-* search and open a module you need
-* click ``Upgrade``
-
-11.0+e (Community Edition)
---------------------------
-
-install
-~~~~~~~
-
-* :doc:`activate developer mode <debug-mode>`
-* navigate to ``Apps`` menu
-* click ``Update Apps List`` 
-* click ``Apps`` 
-* search and open a module you need
-* click ``[Install]``
-
-.. image:: ../../images/install-11-1.png
 
 update
 ~~~~~~
