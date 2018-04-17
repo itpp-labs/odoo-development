@@ -7,7 +7,7 @@ There are several ways to install/update a module
 .. contents::
    :local:
 
-.. warning:: Using ``Import Module`` tool (import from a zip  file) is not recommended at this moment, because it may not work in some deployments
+.. warning:: ``Import Module`` tool (import from a zip  file) doesn't work for modules with python files. It means that it doesn't work in most cases
 
 From App store
 ==============
