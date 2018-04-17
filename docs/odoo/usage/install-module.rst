@@ -25,8 +25,8 @@ install
 
 * :doc:`activate developer mode <debug-mode>`
 * navigate to ``Apps`` menu
-* click ``Update Apps List`` in top side bar
-* click ``Apps`` in top side bar
+* click ``Update Apps List`` 
+* click ``Apps`` 
 * search and open a module you need
 * click ``[Install]``
 
@@ -48,8 +48,8 @@ install
 
 * :doc:`activate developer mode <debug-mode>`
 * navigate to ``Apps`` menu
-* click ``Update Apps List`` in left side bar
-* click ``Apps`` in left side bar
+* click ``Update Apps List`` 
+* click ``Apps`` 
 * search and open a module you need
 * click ``[Install]``
 
@@ -72,7 +72,7 @@ install
 * :doc:`activate developer mode <debug-mode>`
 * navigate to ``Apps`` menu
 * click ``Update Apps List``
-* click ``Apps`` in left side bar
+* click ``Apps`` 
 * search and open a module you need
 * click ``[Install]``
 
