@@ -7,12 +7,61 @@
 
 .. warning:: ``Import Module`` tool (import from a zip  file) doesn't work for modules with python files. It means that it doesn't work in most cases
 
+.. image:: ../../images/import-11.png
+
+.. image:: ../../images/import-11-1.png
+
 From zip archive
 ================
 
 * unzip module to your addons folder
 * restart odoo server
 
+11.0+e (Enterprise Edition)
+---------------------------
+
+install
+~~~~~~~
+
+* :doc:`activate developer mode <debug-mode>`
+* navigate to ``Apps`` menu
+* click ``Update Apps List`` in top side bar
+* click ``Apps`` in top side bar
+* search and open a module you need
+* click ``[Install]``
+
+.. image:: ../../images/install-11-2.png
+
+update
+~~~~~~
+
+* :doc:`activate developer mode <debug-mode>`
+* navigate to ``Apps`` menu
+* search and open a module you need
+* click ``Upgrade``
+
+11.0+e (Community Edition)
+--------------------------
+
+install
+~~~~~~~
+
+* :doc:`activate developer mode <debug-mode>`
+* navigate to ``Apps`` menu
+* click ``Update Apps List`` in left side bar
+* click ``Apps`` in left side bar
+* search and open a module you need
+* click ``[Install]``
+
+.. image:: ../../images/install-11-1.png
+
+update
+~~~~~~
+
+* :doc:`activate developer mode <debug-mode>`
+* navigate to ``Apps`` menu
+* search and open a module you need
+* click ``Upgrade``
 
 10.0+
 -----
