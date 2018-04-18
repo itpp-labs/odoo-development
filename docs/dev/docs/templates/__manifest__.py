@@ -7,7 +7,7 @@
     "category": "{MODULE_CATEGORY}",
     # "live_test_url": "",
     "images": [],
-    "version": "{BRANCH}.1.0.0",
+    "version": "{ODOO_BRANCH}.1.0.0",
     "application": False,
 
     "author": "IT-Projects LLC, {DEVELOPER_NAME}",
