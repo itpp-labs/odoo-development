@@ -8,9 +8,9 @@
      
 2. Or use UI
 
-============
- 10.0+, 11+
-============ 
+========
+ 10.0+
+========
 * go to ``Settings``
 
 * click ``Activate the developer mode(with assets)``
