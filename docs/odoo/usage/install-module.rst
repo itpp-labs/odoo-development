@@ -82,14 +82,13 @@ update
 install
 ~~~~~~~
 
-* navigate to ``Settings / Modules``
-* click ``Update Modules List``
+* navigate to ``[[ Settings ]] >> Local Modules``
 * search and open a module you need
 * click ``[Install]``
 
 update
 ~~~~~~
 
-* navigate to ``Settings / Modules``
+* navigate to ``[[ Settings ]] >> Local Modules``
 * search and open a module you need
 * click ``Upgrade``
