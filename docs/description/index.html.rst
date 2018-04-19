@@ -196,7 +196,7 @@ Text, Image (large size)
                   <font style="font-size: 120%;">TEXT</font>
                 </p>
             </div>
-            <div class="oe_screenshot">
+            <div class="oe_screenshot" align="center">
                  <img style="max-width: 80%" src="IMAGE.png"/>
              </div>
          </div>
