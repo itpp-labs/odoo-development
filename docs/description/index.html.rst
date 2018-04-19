@@ -123,7 +123,7 @@ To specify references to menu, use right arrow character ``&rarr;``, for example
 
 .. code-block:: html
 
-    Sales &rarr; Configuration &rarr; Settings
+    Go to <em>Sales &rarr; Configuration &rarr; Settings</em>
 
 
 Text + Image
