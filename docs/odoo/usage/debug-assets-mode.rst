@@ -1,6 +1,6 @@
------------------------------------
+===================================
  How to activate debug assets mode 
------------------------------------
+===================================
 
 1.  Add ``debug=assets`` parameter to your url, e.g.: ::
 
@@ -8,8 +8,9 @@
      
 2. Use UI
 
- 10.0+
- ~~~~~
+10.0+
+~~~~  
+ 
 * go to ``Settings``
 
 * click ``Activate the developer mode(with assets)``
