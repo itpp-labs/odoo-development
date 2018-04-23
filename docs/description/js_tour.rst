@@ -31,7 +31,7 @@ Example from `website_sale <https://github.com/odoo/odoo/blob/10.0/addons/websit
         test: true,
         url: '/shop',
         wait_for: base.ready()
-    }
+    };
 
     var tour_name = 'shop_buy_product';
     tour.register(tour_name, options,
