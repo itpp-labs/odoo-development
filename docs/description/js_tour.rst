@@ -86,6 +86,7 @@ Each step may have following attrubutes:
 * **extra_trigger** -- when this becomes visible, the tip is appeared. *In js tests: when to click*
 * **position** -- how to show tip (left, rigth, top, bottom), default right
 * **width** -- width in px of the tip when opened, default 270
+* **edition** -- specify to execute in *"community"* or in *"enterprise"* only. By default empty -- execute at any edition.
 * **run** -- what to do when tour runs automatically (e.g. in tests)
 
   * ``'text SOMETEXT'`` -- writes value in **trigger** element
