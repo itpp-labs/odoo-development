@@ -42,4 +42,6 @@ Usage instructions: `<doc/index.rst>`_
 
 Changelog: `<doc/changelog.rst>`_
 
+Notifications on updates: `via Atom <https://github.com/it-projects-llc/{REPO_NAME}/commits/{BRANCH}/{TECHNICAL_NAME}.atom>`_, `by Email <https://blogtrottr.com/?subscribe=https://github.com/it-projects-llc/{REPO_NAME}/commits/{BRANCH}/{TECHNICAL_NAME}.atom>`_
+
 Tested on Odoo {VERSION} {ODOO_COMMIT_SHA_TO_BE_UPDATED}

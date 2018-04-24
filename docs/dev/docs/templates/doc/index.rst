@@ -24,7 +24,7 @@ Usage
 
 {Instruction for daily usage. It should describe how to check that module works. What shall user do and what would user get.} 
 
-* Open menu ``{Menu} >> {Submenu} >> {Subsubmenu}``
+* Open menu ``[[ {Menu} ]]>> {Submenu} >> {Subsubmenu}``
 * Click ``[{Button Name}]``
 * RESULT: {what user gets, how the modules changes default behaviour}
 
