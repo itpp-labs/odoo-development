@@ -5,7 +5,7 @@
 
 Tour is a set of steps of possible scenario of module usage. 
 
-Steps may be executed automatically for :doc:`testing <../qa/js/index>` purpose or by user for **demostrating** purpose.
+Steps may be executed automatically for :doc:`testing <../qa/js/index>` purpose or by user for :ref:`demostrating <auto_launch_after_installation>` purpose.
 
 .. contents::
    :local:
@@ -293,6 +293,8 @@ You can launch tour by url of following format:
 ``/web#/tutorial.mails_count_tour=true``
 
 where *mails_count_tour*  is id of your tour.
+
+.. _auto_launch_after_installation:
 
 Auto Launch after installation
 ==============================
