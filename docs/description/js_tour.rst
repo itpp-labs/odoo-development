@@ -5,7 +5,7 @@
 
 Tour is a set of steps of possible scenario of module usage. 
 
-Steps may be executed automatically for **testing** purpose or by user for **demostrating** purpose.
+Steps may be executed automatically for :doc:`testing <../qa/js>` purpose or by user for **demostrating** purpose.
 
 .. contents::
    :local:
