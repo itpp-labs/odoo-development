@@ -12,7 +12,7 @@ Here is definition from ``odoo/tools/config.py``
 
 More accurate explanantion of this option is as following:
 
-   ``db_maxconn`` -- specify the the maximum number of physical connections to posgresql **per odoo process**
+   ``db_maxconn`` -- specify the the maximum number of physical connections to posgresql **per odoo process, but for all databases**
 
 **How much process odoo runs?**
 
