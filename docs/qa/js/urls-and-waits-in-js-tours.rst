@@ -26,6 +26,7 @@ The order is as following:
     * thrown via ``raise``
     * reported via ``console.log('error', ...)``
     * reported via ``console.error(...)``, etc.
+    * reported by tour system on **timeout** for initial *ready* condition. `Timeout value is 10 sec <https://github.com/odoo/odoo/blob/98f72ef/odoo/tests/phantomtest.js#L7-L8>`__ and `it cannot be changed <https://github.com/odoo/odoo/blob/98f72ef/odoo/tests/phantomtest.js#L118-L135>`__.
     * reported by tour system on step **timeout**.
 
   * ``'ok'`` is reported via ``console.log('ok')``
