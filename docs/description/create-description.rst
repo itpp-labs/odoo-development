@@ -8,7 +8,7 @@ Next, in the ``__openerp__.py`` file you need make the relevant record:
 
 .. code-block:: shell
 
-   'images': ['images/main-screenshot.png']
+   'images': ['images/banner.png']
 
 Icon and index.html
 -----------------------------
