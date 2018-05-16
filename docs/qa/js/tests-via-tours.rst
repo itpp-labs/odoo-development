@@ -19,7 +19,7 @@ How to run :doc:`odoo tours<../../description/js_tour>` in :doc:`phantom_js <pha
                 ".run('TOUR_NAME')",
 
                 "odoo.__DEBUG__.services['web_tour.tour']"
-                ".tours.TOUR_NAME.ready",
+                ".tours['TOUR_NAME'].ready",
 
                 login=LOGIN_OR_NONE
             )
