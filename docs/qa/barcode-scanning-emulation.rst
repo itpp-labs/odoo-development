@@ -14,13 +14,13 @@ Emulation scanning barcode:
 
 .. code-block:: shell
 
-    sleep 3 && echo '1234567890128'| grep -o . | xargs xdotool key && xargs xdotool key \n &
+    sleep 3 && echo '1234567890128' | grep -o . | xargs xdotool key && xargs xdotool key \n &
 
 or so:
 
 .. code-block:: shell
 
-    sleep 3 && echo '3333333333338'| grep -o . | xargs xdotool key && xargs xdotool key \n &
+    sleep 3 && echo '3333333333338' | grep -o . | xargs xdotool key && xargs xdotool key \n &
 
 Where: 3 - sleep seconds; 3333333333338 - barcode.
 
