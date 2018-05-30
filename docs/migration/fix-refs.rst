@@ -36,3 +36,6 @@
 
     # web.webclient_bootstrap template
     find . -type f -name '*.xml' | xargs sed -i 's/web\.webclient_script/web\.webclient_bootstrap/g'
+
+    # 11.0 doesn't have base.action.rule
+    find . -type f -name '*.xml' | xargs sed -i 's/base\.action\.rule/base\.automation/g'
