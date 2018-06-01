@@ -32,7 +32,6 @@ install
 update
 ~~~~~~
 
-* :doc:`activate developer mode <debug-mode>`
 * navigate to ``Apps`` menu
 * search and open a module you need
 * click ``[Upgrade]``
@@ -52,7 +51,6 @@ install
 update
 ~~~~~~
 
-* :doc:`activate developer mode <debug-mode>`
 * navigate to ``Apps`` menu
 * search and open a module you need
 * click ``[Upgrade]``
@@ -71,7 +69,6 @@ install
 update
 ~~~~~~
 
-* :doc:`activate developer mode <debug-mode>`
 * navigate to ``Apps`` menu
 * search and open a module you need
 * click ``[Upgrade]``
