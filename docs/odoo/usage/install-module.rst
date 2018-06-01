@@ -35,7 +35,7 @@ update
 * :doc:`activate developer mode <debug-mode>`
 * navigate to ``Apps`` menu
 * search and open a module you need
-* click ``Upgrade``
+* click ``[Upgrade]``
 
 10.0+
 -----
@@ -55,7 +55,7 @@ update
 * :doc:`activate developer mode <debug-mode>`
 * navigate to ``Apps`` menu
 * search and open a module you need
-* click ``Upgrade``
+* click ``[Upgrade]``
 
 9.0
 ---
@@ -74,7 +74,7 @@ update
 * :doc:`activate developer mode <debug-mode>`
 * navigate to ``Apps`` menu
 * search and open a module you need
-* click ``Upgrade``
+* click ``[Upgrade]``
 
 8.0
 ---
@@ -91,4 +91,4 @@ update
 
 * navigate to ``[[ Settings ]] >> Local Modules``
 * search and open a module you need
-* click ``Upgrade``
+* click ``[Upgrade]``
