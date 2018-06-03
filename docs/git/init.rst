@@ -53,28 +53,6 @@ gpg keys
              one, but don't remove old one from github, because otherwise all signed
              by old key commits will be "Unverified"
 
-github profile
-==============
-
-*IT-Projects LLC employees only:*
-
-* https://github.com/settings/profile
-
-  * public email must be personal address …@it-projects.info
-  * URL must be link to public profile at company's website
-  * Company must be set to ``@it-projects-llc``
-  * Location must be your ``YouCity, Country``
-  * Photo must be your real face photo
-
-* https://github.com/settings/emails
-
-  * primary email must be personal address …@it-projects.info
-  * “Keep my email address private” must be switched off
-
-* https://github.com/orgs/it-projects-llc/people
-
-  * get invitation
-  * set ``Organization visibility`` to ``Public``
 
 git email
 =========

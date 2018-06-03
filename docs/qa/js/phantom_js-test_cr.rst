@@ -15,3 +15,5 @@ If you need you run some python code before or after calling ``phantom_js`` you 
     phantom_env = api.Environment(self.registry.test_cr, self.uid, {}) 
 
 This is because ``HttpCase`` uses special cursor and using regular cursor via ``self.env`` leads to deadlocks or different values in database.
+
+Also, see `tests from point_of_sale module <https://github.com/odoo/odoo/blob/11.0/addons/point_of_sale/tests/test_frontend.py#L292-L297>`__

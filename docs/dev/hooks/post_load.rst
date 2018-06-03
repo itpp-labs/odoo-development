@@ -37,6 +37,8 @@ Example of monkey patch in odoo
 Why shall we use ``post_load`` to apply monkey patch?
 =====================================================
 
+.. note:: Since `odoo 12 <https://github.com/odoo/odoo/commit/8226aa1db828d2a559c7ffaa31a27ef3e5ba4d0b>`_ monkey patch could be applied without post_load, but it's still recommended to use it to be sure.
+
 Because otherwise monkey patch will be applied every time it is available in addons path.
 It happens because odoo loads python files of a module if there is a static
 folder in the module (no matter if the module is installed or not -- see

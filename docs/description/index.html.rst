@@ -123,7 +123,7 @@ To specify references to menu, use right arrow character ``&rarr;``, for example
 
 .. code-block:: html
 
-    Sales &rarr; Configuration &rarr; Settings
+    Go to <em>Sales &rarr; Configuration &rarr; Settings</em>
 
 
 Text + Image
@@ -196,7 +196,7 @@ Text, Image (large size)
                   <font style="font-size: 120%;">TEXT</font>
                 </p>
             </div>
-            <div class="oe_screenshot">
+            <div class="oe_screenshot" align="center">
                  <img style="max-width: 80%" src="IMAGE.png"/>
              </div>
          </div>

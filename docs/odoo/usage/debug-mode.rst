@@ -2,11 +2,11 @@
  How to activate developer mode
 ================================
 
-1.  Add ``debug`` parameter to your url, e.g.: ::
+Add ``debug`` parameter to your url, for example::
 
      localhost:8069/web?debug=1
 
-2. Or use UI
+or use UI as described below
 
 
 10.0+

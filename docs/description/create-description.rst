@@ -1,14 +1,15 @@
 Module description
 =============================
 
-Main screenshot
------------------------------
-The main screenshot displayed only in Odoo Apps should be located in the ``path_to_module/images/`` directory and its size should not exceed 1500x1000 px.
+Banner
+------
+
+The Banner is displayed only in Odoo Apps. It should be located in the ``path_to_module/images/`` directory and its size should not exceed 1500x1000 px.
 Next, in the ``__openerp__.py`` file you need make the relevant record:
 
 .. code-block:: shell
 
-   'images': ['images/main-screenshot.png']
+   "images": ["images/banner.png"],
 
 Icon and index.html
 -----------------------------

@@ -158,7 +158,8 @@ Update templates:
     sed -i "s/{DEVELOPER_NAME}/${DEVELOPER_NAME}/g" __manifest__.py README.rst doc/index.rst
     sed -i "s/{DEVELOPER_GITHUB_USERNAME}/${DEVELOPER_GITHUB_USERNAME}/g" __manifest__.py README.rst doc/index.rst
     sed -i "s/{REPO_NAME}/${REPO_NAME}/g" README.rst
-    sed -i "s/{BRANCH}/${ODOO_BRANCH}/g" README.rst
+    sed -i "s/{ODOO_BRANCH}/${ODOO_BRANCH}/g" __manifest__.py
+    sed -i "s/{BRANCH}/${ODOO_BRANCH}/g" README.rst 
     sed -i "s/{TECHNICAL_NAME}/${TECHNICAL_NAME}/g" README.rst
     sed -i "s/{VERSION}/${ODOO_BRANCH}/g" README.rst
     sed -i "s/{ODOO_COMMIT_SHA_TO_BE_UPDATED}/${ODOO_REVISION}/g" README.rst
