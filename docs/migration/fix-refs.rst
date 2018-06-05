@@ -36,3 +36,6 @@
 
     # web.webclient_bootstrap template
     find . -type f -name '*.xml' | xargs sed -i 's/web\.webclient_script/web\.webclient_bootstrap/g'
+
+    # kanban_record in js
+    find . -type f -name '*.js' | xargs sed -i 's/web_kanban\.Record/web.KanbanRecord/g'
