@@ -37,5 +37,10 @@
     # web.webclient_bootstrap template
     find . -type f -name '*.xml' | xargs sed -i 's/web\.webclient_script/web\.webclient_bootstrap/g'
 
+    # 11.0 doesn't have base_action_rule module, it was was renamed to base_automation
+    find . -type f -name '*.xml' | xargs sed -i 's/base\.action\.rule/base\.automation/g'
+    find . -type f -name '*.py' | xargs sed -i "s/'base_action_rule'/'base_automation'/g"
+    find . -type f -name '*.py' | xargs sed -i 's/"base_action_rule"/"base_automation"/g'
+
     # kanban_record in js
     find . -type f -name '*.js' | xargs sed -i 's/web_kanban\.Record/web.KanbanRecord/g'
