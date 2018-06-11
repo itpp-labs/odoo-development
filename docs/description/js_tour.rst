@@ -97,6 +97,13 @@ Each step may have following attrubutes:
   * ``function: (actions) { ... }`` -- actions is instance of RunningTourActionHelper -- see `tour_manager.js <https://github.com/odoo/odoo/blob/10.0/addons/web_tour/static/src/js/tour_manager.js>`_ for its methods.
 * **auto** -- step is skipped in non-auto running
 
+Predefined steps
+~~~~~~~~~~~~~~~~
+
+* ``tour.STEPS.MENU_MORE`` -- clicks on menu *More* in backend when visible
+* ``tour.STEPS.TOGGLE_APPSWITCHER`` -- nagivate to Apps page when running in enterprise
+* ``tour.STEPS.WEBSITE_NEW_PAGE`` -- clicks create new page button in frontend
+
 More documentation
 ~~~~~~~~~~~~~~~~~~
 
