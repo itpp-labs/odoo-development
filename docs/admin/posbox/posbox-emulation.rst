@@ -54,3 +54,5 @@ Example with `hw_printer_network <https://www.odoo.com/apps/modules/10.0/pos_pri
 To use your version of built-in odoo modules use add following ``-v path/to/odoo:/mnt/odoo-source``.
     
 Source of this docker can be found here: https://github.com/it-projects-llc/install-odoo/tree/8.0/dockers/posbox
+
+.. warning:: It actually doesn't work and raises error "No backend available". Probably --device=/dev/SOMETHING has to be sued instead of `` --privileged     -v /dev/bus/usb:/dev/bus/usb ``
