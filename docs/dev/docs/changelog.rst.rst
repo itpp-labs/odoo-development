@@ -1,7 +1,9 @@
 doc/changelog.rst
 =================
 
-.. note:: Don't use too technical description of the updates. For fixes describe when the error happened without diving too much in technical details
+Changelog must answer a question: *What is changed, do I need those updates?*
+
+.. note:: Don't use too technical description of the updates. For fixes, describe which error fixed, when the error happened, but without diving too much in technical details
 
 Template
 ---------
