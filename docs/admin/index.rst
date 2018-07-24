@@ -17,5 +17,6 @@ Official docs:
    max_cron_threads
    addons_path
    log-handler
+   dbfilter
    server_wide_modules
    posbox/index
