@@ -15,10 +15,6 @@ Core code: https://github.com/odoo/odoo/search?l=Python&q=%22def+db_monodb%22
 
 Additional option: https://github.com/OCA/server-tools/tree/11.0/dbfilter_from_header
 
-Video Lessons:
-
-* `Multi-database installation (TODO) <https://www.youtube.com/watch?v=TODO>`__ (Russian)
-
 Examples
 ========
 
