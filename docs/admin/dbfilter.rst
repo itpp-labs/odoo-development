@@ -36,6 +36,7 @@ To force odoo always use only one database, say ``mydb``, use following filter::
 Database names equal to hostname
 --------------------------------
 ::
+
     --db-filter=^%h$
 
 To use filter above, you must name databases equal to host address, for example:
@@ -49,8 +50,8 @@ To use filter above, you must name databases equal to host address, for example:
 
 Database names equal to subdomain
 ---------------------------------
-
 ::
+
     --db-filter=^%d$
 
 To use filter above, you must name databases equal to subdomain, for example if database name is ``shop``, then the filter will use it for any of following requests:
