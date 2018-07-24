@@ -4,7 +4,7 @@
 
 The main purpose of ``--db-filter`` is to avoid asking user which database he needs to use (he may not know it). This is implemented by checking HOST address, which was used.
 
-For example, if you have two independent websites, say ``shop1.example.com`` and ``shop2.example.com``, that point to the same odoo server with two databases. By using ``--db-filter``  you can configure odoo to use corresponding database depending on used host address. Check the documentation links below or jump to examples to find out how to do it.
+For example, you have two independent websites, say ``shop1.example.com`` and ``shop2.example.com``, that point to the same odoo server with two databases. By using ``--db-filter``  you can configure odoo to use corresponding database depending on used host address. Check the documentation links below or jump to examples to find out how to do it.
 
 Docs
 ====
