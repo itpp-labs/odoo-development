@@ -1,12 +1,9 @@
-=============================
- Switching module to new api
-=============================
-
-``7.0-`` → ``8.0+``
-===================
+=====================
+ ``7.0-`` → ``8.0+``
+=====================
 
 Automatic replacements
-----------------------
+======================
 
 .. code-block:: sh
 
@@ -67,7 +64,7 @@ Automatic replacements
     find . -type f -name '*.py' | xargs sed -i 's/digits_compute=/digits=/g'
 
 Semi-Automatic replacements
----------------------------
+===========================
 
 We recommend to use commands below after commiting previous changes. It allows you to check differences.
 
@@ -85,27 +82,3 @@ The commands doesn't update code fully and usually you need to continue updates 
     find . -type f -name '*.py' | xargs sed -i 's/self.env.get(\([^)]*\))/self.env[\1]/g'
     # res_config.py
     find . -type f -name 'res_config.py' | xargs sed -i 's/\(def get_default_.*\)(self)/\1(self, fields)/g'
-
-10.0+ updates
-=============
-
-.. code-block:: sh
-
-    # rename all manifests
-    find . -type f -name __openerp__.py -exec rename 's/__openerp__.py/__manifest__.py/' '{}' \;
-
-11.0+ updates
-=============
-
-.. code-block:: sh
-
-
-    # ir.config_parameter -- prefix get_param / set_param with sudo()
-    find . -type f -name '*.py' | xargs perl -i -p0e 's/(?<!sudo\(\)\.)(get_param|set_param)/sudo().$1/g'
-    find . -type f -name '*.xml' | xargs perl -i -p0e 's/(?<!sudo\(\)\.)(get_param|set_param)/sudo().$1/g'
-
-    # page="True" is not used anymore
-    find . -type f -name '*.xml' | xargs sed -i 's/ page="True"//g'
-
-    # coding: utf-8 is not needed anymore
-    find . -type f -name '*.py' | xargs sed -i '/# -\*- coding: utf-8 -\*-/d'
