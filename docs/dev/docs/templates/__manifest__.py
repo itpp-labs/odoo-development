@@ -5,7 +5,7 @@
     "name": """{MODULE_NAME}""",
     "summary": """{SHORT_DESCRIPTION_OF_THE_MODULE}""",
     "category": "{MODULE_CATEGORY}",
-    # "live_test_url": "",
+    # "live_test_url": "http://apps.it-projects.info/shop/product/DEMO-URL?version={ODOO_BRANCH}",
     "images": [],
     "version": "{ODOO_BRANCH}.1.0.0",
     "application": False,
@@ -40,4 +40,15 @@
 
     "auto_install": False,
     "installable": True,
+
+    # "demo_title": "{MODULE_NAME}",
+    # "demo_addons": [
+    # ],
+    # "demo_addons_hidden": [
+    # ],
+    # "demo_url": "DEMO-URL",
+    # "demo_summary": "{SHORT_DESCRIPTION_OF_THE_MODULE}",
+    # "demo_images": [
+    #    "images/MAIN_IMAGE",
+    # ]
 }
