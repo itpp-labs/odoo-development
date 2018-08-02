@@ -5,7 +5,7 @@
     "name": """{MODULE_NAME}""",
     "summary": """{SHORT_DESCRIPTION_OF_THE_MODULE}""",
     "category": "{MODULE_CATEGORY}",
-    # "live_test_url": "http://apps.it-projects.info/shop/product/{demo_url}?version={ODOO_BRANCH}",
+    # "live_test_url": "http://apps.it-projects.info/shop/product/DEMO-URL?version={ODOO_BRANCH}",
     "images": [],
     "version": "{ODOO_BRANCH}.1.0.0",
     "application": False,
@@ -49,6 +49,6 @@
     # "demo_url": "module-name-url",
     # "demo_summary": "{SHORT_DESCRIPTION_OF_THE_MODULE}",
     # "demo_images": [
-    #    "images/{MAIN_IMAGE}",
+    #    "images/MAIN_IMAGE",
     # ]
 }
