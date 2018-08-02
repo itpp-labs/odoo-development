@@ -11,9 +11,6 @@ Browser's dev tools allows to preview Module in App Store before actual uploadin
 * change text and images
 * Done! Now can decide do you need make changes or keep current images and text
 
-.. contents::
-   :local:
-
 Preview image
 =============
 
