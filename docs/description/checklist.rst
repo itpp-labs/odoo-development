@@ -58,3 +58,16 @@ Main image
 
 * Prepare image and specify it at ``"images"`` attribute at :doc:`manifest file<../dev/docs/__manifest__.py>`
 * :doc:`Preview image at app store<app-store-preview>`
+
+Live Preview
+============
+
+* Review ``"live_test_url"`` attribute at :doc:`manifest file<../dev/docs/__manifest__.py>`
+
+  For example: ::
+  
+   "live_test_url": "http://apps.it-projects.info/shop/product/pos-multi-session?version=11.0",
+
+* ``Live Preview`` button will appear at Odoo Apps Store after releasing the updates
+
+.. image:: ../../images/live_preview.png
