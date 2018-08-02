@@ -43,12 +43,12 @@
 
     # "demo_title": "{MODULE_NAME}",
     # "demo_addons": [
-    #],
+    # ],
     # "demo_addons_hidden": [
-    #],
+    # ],
     # "demo_url": "module-name-url",
     # "demo_summary": "{SHORT_DESCRIPTION_OF_THE_MODULE}",
     # "demo_images": [
     #    "images/{MAIN_IMAGE}",
-    #]
+    # ]
 }
