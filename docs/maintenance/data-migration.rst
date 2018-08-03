@@ -6,8 +6,8 @@ Data Migration is a process of keeping correct data in database after updating t
 
 For *Module Migration* see :doc:`Porting Modules<../migration/index>`
 
-Prepearing
-----------
+Preparing
+---------
 
 Those migrations are between module version.
 

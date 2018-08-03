@@ -8,3 +8,4 @@ How to use Odoo
    technical-features
    install-module
    debug-mode
+   debug-assets-mode

@@ -6,6 +6,9 @@ http://odoo-new-api-guide-line.readthedocs.org/en/latest/decorator.html
 
 @api.one
 --------
+
+.. warning:: the decorator is deprecated. Use ``@api.multi`` instead
+
 api.one is meant to be used when method is called only on one record. It makes sure, that there are no multiple records when calling method with api.one decorator. Let say you got record partner =  res.partner(1,). It is only one record and there is method for example (in res.partner)::
 
   @api.one
@@ -26,6 +29,8 @@ calling it, would raise Warning, telling you that you can only call it on one re
 @api.multi
 ----------
 
+.. note:: Methods without decorators works the same way as ``@api.multi``
+
 something. For example::
 
   @api.multi
@@ -34,5 +39,8 @@ something. For example::
     for rec in self:
     names.append(rec.name)
     return ', '.join(names)
+
+@api.model
+----------
 
 And api.model is considered to be used when you need to do something with model itself and don't need to modify/check some exact model's record/records. For example there could be method that returns some meta info about model's structure or some helper methods, etc. Also in documentation it is said that this api is good to use when migrating from old api, because it "politely" converts code to new api. Also in my own experience, if you need method to return something, model decorator is good for it. api.one returns empty list, so it might lead to unexpected behavior when using api.one on method when it is supposed to return something.

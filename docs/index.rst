@@ -26,14 +26,6 @@ Current content:
    remote-dev/index
    other/index
 
-
-
-.. admonition:: Want to talk with other developers?
-   :class: note
-
-   Check out our `telegram group <https://t.me/odoo_talks>`__, but don't take it too seriously ;-)
-
-
 .. admonition:: Need our service?
    :class: warning
 

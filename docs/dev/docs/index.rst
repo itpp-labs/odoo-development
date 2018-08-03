@@ -46,8 +46,8 @@ Download templates:
     # doc/changelog.rst
     wget -q https://raw.githubusercontent.com/it-projects-llc/odoo-development/master/docs/dev/docs/templates/doc/changelog.rst
     cd ..
-    # empty __init__.py
-    touch __init__.py
+    # new __init__.py
+    echo "# License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl.html)." >> __init__.py
 
 
 
@@ -60,8 +60,10 @@ Download templates:
     # controllers/main.py
     mkdir controllers
     echo "from . import controllers" >> __init__.py
+    echo "# License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl.html)." >> controllers/__init__.py
     echo "from . import main" >> controllers/__init__.py
-    touch controllers/main.py
+    echo "# Copyright 2018 {DEVELOPER_NAME} <https://it-projects.info/team/{DEVELOPER_GITHUB_USERNAME}>" >> controllers/main.py
+    echo "# License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl.html)." >> controllers/main.py
 
     # only for 10.0- versions:
     echo "# -*- coding: utf-8 -*-" >> controllers/main.py
@@ -154,9 +156,10 @@ Update templates:
     sed -i "s/{SHORT_DESCRIPTION_OF_THE_MODULE}/${MODULE_SUMMARY}/g" __manifest__.py
     sed -i "s/{MODULE_CATEGORY}/${MODULE_CATEGORY}/g" __manifest__.py
     sed -i "s/{DEVELOPER_NAME}/${DEVELOPER_NAME}/g" __manifest__.py README.rst doc/index.rst
-    sed -i "s/{DEVELOPER_GITHUB_USERNAME}/${DEVELOPER_GITHUB_USERNAME}/g" __manifest__.py README.rst doc/index.rst
+    sed -i "s/{DEVELOPER_GITHUB_USERNAME}/${DEVELOPER_GITHUB_USERNAME}/g" __manifest__.py README.rst doc/index.rst controllers/main.py
     sed -i "s/{REPO_NAME}/${REPO_NAME}/g" README.rst
-    sed -i "s/{BRANCH}/${ODOO_BRANCH}/g" README.rst
+    sed -i "s/{ODOO_BRANCH}/${ODOO_BRANCH}/g" __manifest__.py
+    sed -i "s/{BRANCH}/${ODOO_BRANCH}/g" README.rst 
     sed -i "s/{TECHNICAL_NAME}/${TECHNICAL_NAME}/g" README.rst
     sed -i "s/{VERSION}/${ODOO_BRANCH}/g" README.rst
     sed -i "s/{ODOO_COMMIT_SHA_TO_BE_UPDATED}/${ODOO_REVISION}/g" README.rst

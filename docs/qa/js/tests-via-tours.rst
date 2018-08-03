@@ -9,17 +9,20 @@ How to run :doc:`odoo tours<../../description/js_tour>` in :doc:`phantom_js <pha
 
 .. code-block:: python
 
-    class CLASS_NAME(...):
+    from odoo.tests.common import HttpCase
+
+    class CLASS_NAME(HttpCase):
         def test_NAME(self):
 
+            tour = 'TOUR_NAME'
             self.phantom_js(
                 URL_PATH,
 
                 "odoo.__DEBUG__.services['web_tour.tour']"
-                ".run('TOUR_NAME')",
+                ".run('%s')" % tour,
 
                 "odoo.__DEBUG__.services['web_tour.tour']"
-                ".tours.TOUR_NAME.ready",
+                ".tours['%s'].ready" % tour,
 
                 login=LOGIN_OR_NONE
             )

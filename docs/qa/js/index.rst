@@ -26,3 +26,4 @@ For automatic web tests odoo uses `phantomjs <http://phantomjs.org>`_.
    urls-and-waits-in-js-tours
    phantom_js-test_cr
    phantomjs-screenshots
+   unittest-longpolling
