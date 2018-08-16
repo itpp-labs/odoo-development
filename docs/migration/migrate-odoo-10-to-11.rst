@@ -1,6 +1,6 @@
-==================================
- ``10.0-`` → ``11.0+``, py2 → py3
-==================================
+=====================================================================
+ ``10.0-`` → ``11.0+``, py2 → py3, shared Settings, sudo.get_param()
+=====================================================================
 
 New API
 =======
@@ -13,6 +13,8 @@ New API
 
     # page="True" is not used anymore
     find . -type f -name '*.xml' | xargs sed -i 's/ page="True"//g'
+    
+    # TODO: commands for "shared Settings" (python and xml)
 
 New references
 ==============
