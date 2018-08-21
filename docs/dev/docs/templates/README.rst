@@ -20,6 +20,7 @@ Contributors
 Sponsors
 --------
 * `IT-Projects LLC <https://it-projects.info>`__
+You can become a sponsor by `requesting paid updates <it@it-projects.info>`__ or `funding maintainance <https://salt.bountysource.com/checkout/amount?team=it-projects-llc>`__
 
 Maintainers
 -----------
