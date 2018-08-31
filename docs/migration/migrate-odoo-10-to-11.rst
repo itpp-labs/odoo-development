@@ -38,8 +38,15 @@ New references
     find . -type f -name '*.py' | xargs sed -i "s/'base_action_rule'/'base_automation'/g"
     find . -type f -name '*.py' | xargs sed -i 's/"base_action_rule"/"base_automation"/g'
 
+    # base.config.settings merged into res.config.settings
+    find . -type f -name '*.xml' -or -name "*.py"  | xargs sed -i 's/base\.config\.settings/res.config.settings/g'
+
     # kanban_record in js
     find . -type f -name '*.js' | xargs sed -i 's/web_kanban\.Record/web.KanbanRecord/g'
+
+    # Model -> rpc in require
+    find . -type f -name '*.js' | xargs sed -i "s/var Model = require('web\.Model');/var rpc = require('web\.rpc');/g"
+    find . -type f -name '*.js' | xargs sed -i 's/var Model = require("web\.Model");/var rpc = require("web\.rpc");/g'
 
 Python 3
 ========
