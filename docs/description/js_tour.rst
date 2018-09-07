@@ -206,7 +206,7 @@ Open backend menu
 11.0+
 -----
 
-`No additional actions are required.<https://github.com/odoo/odoo/commit/7e008469e4e5afe9b4c7151a4738240462359f98>`__
+`No additional actions are required. <https://github.com/odoo/odoo/commit/7e008469e4e5afe9b4c7151a4738240462359f98>`__
 
 9.0, 10.0
 ---------
