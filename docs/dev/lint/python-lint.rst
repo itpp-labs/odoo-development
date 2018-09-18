@@ -1,53 +1,16 @@
-========================================
- Script for fixing travis error on odoo
-========================================
+=============================
+ Fixing python lints in odoo
+=============================
 
-Installation
+All versions
 ============
 ::
-
-    # install autopep8
-    sudo pip install --upgrade autopep8
-
-    # install oca-autopep8
-    git clone https://github.com/OCA/maintainer-tools.git
-    cd maintainer-tools
-    sudo python setup.py install
-
-    # install autoflake
-    sudo pip install --upgrade autoflake
-
-    # install fixmyjs
-    sudo npm install fixmyjs -g
-    # increase max errors to be fixed (otherwise script stops)
-    echo '{"maxerr": 1000}' > ~/.jshintrc
-
-Script
-======
-::
  
-    EXCLUDE_FILES=".\(svg\|gif\|png\|jpg\)$"
-    # fix line break symbols
-    cd /path/to/MODULE_NAME
-    find * -type f | grep -v $EXCLUDE_FILES | xargs sed -i 's/\r//g'
-    
-    # add line break to the end of file
-    find * -type f | grep -v $EXCLUDE_FILES | xargs sed -i '$a\'
-
-    # trim trailing whitespaces
-    find * -type f | grep -v $EXCLUDE_FILES | xargs sed -i 's/[ \t]*$//g'
-
-    # PEP8 для py-файлов:
+    # PEP8 for py-files:
     autopep8 --in-place -r --aggressive --aggressive --ignore E501 ./
 
     # fix CamelCase
     oca-autopep8 -ri --select=CW0001 .
-
-    # Replacement button 'Tab' on 4 button 'Space':
-    find . -type f -name '*.xml' | xargs sed -i 's/\t/    /g'
-    find . -type f -name '*.py' | xargs sed -i 's/\t/    /g'
-    find . -type f -name '*.js' | xargs sed -i 's/\t/    /g'
-
 
     # Replacement (relative-import)
     find . -type f -name '__init__.py' | xargs sed -i 's/^import/from . import/g'
@@ -63,20 +26,22 @@ Script
     #Fix comments:
     find . -type f -name '*.py' | xargs sed -i -e 's/ #\([^ ]\)/ # \1/g'
 
-    #lint for js:
-    fixmyjs --legacy --config ~/.jshintrc ./
-
-    # Addition of the first row (coding) in py-files
-    find -iname '*.py' | xargs grep -rLP 'coding: *utf-8' | xargs sed -i '1s/^/# -*- coding: utf-8 -*-\n/'
 
     # Correction is rights for run:
     find -iname '*.py' | xargs chmod -x
 
-    # Duplicate implicit target name: "changelog".
-    find . -type f -name 'changelog.rst' | xargs sed -i 's/^Changelog/Updates/g'
-    find . -type f -name 'changelog.rst' | xargs sed -i 's/^=========/=======/g'
-    
-    # Replace @api.one -> @api.multi
+Odoo 10-
+========
+::
+    # Addition of the first row (coding) in py-files
+    find -iname '*.py' | xargs grep -rLP 'coding: *utf-8' | xargs sed -i '1s/^/# -*- coding: utf-8 -*-\n/'
+
+
+ 
+@api.one -> @api.multi
+======================
+::
+
     # Note. This solution doesn't work on methods that call super (e.g. write, create methods) or has to return value
     # Note. This solution doesn't handle properly methods with kwargs
     find . -type f -name '*.py' | xargs perl -i -p0e 's/'\
@@ -106,13 +71,3 @@ Script
     '    \@api.multi\n'\
     '    def $1_one(self):\n'\
     '        self.ensure_one()/g'
-
-
-
-
-
-Run following script only once::
-
-    # Correction is links in rst-files
-    #`_   ->   `__
-    find . -type f -name '*.rst' | xargs sed -i 's/`_/`__/g'

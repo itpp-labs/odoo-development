@@ -28,14 +28,6 @@ Switching off unported modules
     git commit -m ":one::two::sos: mark unported modules as non-installable"
     # (make "git push" and pull request at github)
 
-Lint cleanups
-=============
-
-.. code-block:: sh
-
-    # xml-deprecated-tree-attribute
-    find . -type f -name '*.xml' | xargs sed -i 's/\(\<tree.*\) string="[^"]*"/\1/g'
-    
 Reviewing odoo updates
 ======================
 
