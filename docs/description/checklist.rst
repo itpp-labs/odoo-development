@@ -70,4 +70,4 @@ Live Preview
 
 * ``Live Preview`` button will appear at Odoo Apps Store after releasing the updates
 
-.. image:: ../../images/live_preview.png
+.. image:: ../images/live_preview.png
