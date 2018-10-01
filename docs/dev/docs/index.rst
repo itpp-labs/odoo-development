@@ -113,7 +113,7 @@ Update templates:
     # to get commit sha use following inside odoo repo: "git show HEAD | head" 
     ODOO_REVISION={ODOO_COMMIT_SHA_TO_BE_UPDATED}
     # alternatively (use appropriate path to odoo source):
-    git -C ~/odoo/odoo-${ODOO_BRANCH}/odoo fetch upstream &&  export ODOO_REVISION=`git -C ~/odoo/odoo-10.0/odoo rev-parse upstream/${ODOO_BRANCH}`
+    git -C ~/odoo/odoo-${ODOO_BRANCH}/odoo fetch upstream &&  export ODOO_REVISION=`git -C ~/odoo/odoo-${ODOO_BRANCH}/odoo rev-parse upstream/${ODOO_BRANCH}`
 
 
     # Category: shoose one of the options
