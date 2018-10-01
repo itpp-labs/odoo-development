@@ -104,6 +104,7 @@ Update templates:
     REPO_NAME=website-addons
 
     # Branch: choose one of the options
+    ODOO_BRANCH=12.0
     ODOO_BRANCH=11.0
     ODOO_BRANCH=10.0
     ODOO_BRANCH=9.0
