@@ -157,7 +157,7 @@ Update templates:
     sed -i "s/{Put some short introduction first.}/${MODULE_SUMMARY}/g" README.rst
     sed -i "s/{SHORT_DESCRIPTION_OF_THE_MODULE}/${MODULE_SUMMARY}/g" __manifest__.py
     sed -i "s/{MODULE_CATEGORY}/${MODULE_CATEGORY}/g" __manifest__.py
-    sed -i "s/{DEVELOPER_NAME}/${DEVELOPER_NAME}/g" __manifest__.py README.rst doc/index.rst
+    sed -i "s/{DEVELOPER_NAME}/${DEVELOPER_NAME}/g" __manifest__.py README.rst doc/index.rst controllers/main.py
     sed -i "s/{DEVELOPER_GITHUB_USERNAME}/${DEVELOPER_GITHUB_USERNAME}/g" __manifest__.py README.rst doc/index.rst controllers/main.py
     sed -i "s/{REPO_NAME}/${REPO_NAME}/g" README.rst
     sed -i "s/{ODOO_BRANCH}/${ODOO_BRANCH}/g" __manifest__.py
