@@ -134,6 +134,7 @@ Update templates:
     MODULE_CATEGORY="Warehouse"
     MODULE_CATEGORY="Website"
     MODULE_CATEGORY="Extra Tools"
+    MODULE_CATEGORY="SaaS"
     MODULE_CATEGORY="Hidden"
 
     # icon: choose one of options
