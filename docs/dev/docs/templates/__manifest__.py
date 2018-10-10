@@ -46,7 +46,7 @@
     # "demo_addons_hidden": [
     # ],
     # "demo_url": "DEMO-URL",
-    # "demo_summary": "{SHORT_DESCRIPTION_OF_THE_MODULE}",
+    # "demo_summary": "{SHORT_DESCRIPTION_OF_THE_DEMO_ADDONS}",
     # "demo_images": [
     #    "images/MAIN_IMAGE",
     # ]
