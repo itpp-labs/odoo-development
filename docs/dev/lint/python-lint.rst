@@ -35,7 +35,7 @@ Odoo 10-
 ::
 
     # Addition of the first row (coding) in py-files
-    find -iname '*.py' |  | grep -v "__init__.py" | xargs grep -rLP 'coding: *utf-8' | xargs sed -i '1s/^/# -*- coding: utf-8 -*-\n/'
+    find -iname '*.py' | grep -v "__init__.py" | xargs grep -rLP 'coding: *utf-8' | xargs sed -i '1s/^/# -*- coding: utf-8 -*-\n/'
 
 
  
