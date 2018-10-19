@@ -9,3 +9,4 @@ How to use Odoo
    install-module
    debug-mode
    debug-assets-mode
+   login-as-superuser
