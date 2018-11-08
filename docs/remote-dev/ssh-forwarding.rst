@@ -3,7 +3,7 @@
 ======================
 
 
-To send commit or get access to private repositories you can use either login-password authentication or ssh keys. In later case you can face a problem to do it on remote server, because your private ssh key is not installed there. The good news is that you don't need to do it. You can "forward ssh keys". Simply add following lines to ``~/.ssh/config`` file on your (local) computer::
+To send commit or get access to private repositories you can use either login-password authentication or ssh keys. In later case you can face a problem to do it on remote server, because your private ssh key is not installed there. The good news is that you don't need to do it. You can "forward ssh keys". Just add ``-A`` to your ssh command or add following lines to your ssh config (``~/.ssh/config``) on your (local) computer::
 
   Host your.dev.server.example.com
     ForwardAgent yes
