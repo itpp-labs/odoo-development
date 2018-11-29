@@ -14,7 +14,7 @@ Odoo way of shaman
 #. Refresh page
 #. Update module
 #. Check openerp file **depends**, **demo** and other important fields
-#. Check odoo config you use to run odoo. Especially adons paths
+#. Check odoo config you use to run odoo. Especially addons paths
 #. Uninstall and install again modules in depends
 #. Clean browser cache
 #. Carefully check logs. Look up if needed files loaded or not. May be some errors.
