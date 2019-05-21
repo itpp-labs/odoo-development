@@ -15,6 +15,7 @@ Join our telegram group: https://t.me/odoo_talks
    git/index
    ci/index
    odoo/index
+   pos/index
    admin/index
    cd/index
    maintenance/index
