@@ -2,7 +2,7 @@
  ``odoo.define`` function
 ==========================
 
-Official doc about the topic is `here: <https://www.odoo.com/documentation/12.0/reference/javascript_reference.html#javascript-module-system>`_
+Official doc about the topic is `here: <https://www.odoo.com/documentation/12.0/reference/javascript_reference.html#javascript-module-system>`__
 
 *Javascript Module* in odoo is some piece of code declared via ``odoo.define('js_module_name', ...)`` and can be used in other modules via ``require('js_module_name')``.
 

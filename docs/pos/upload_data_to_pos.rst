@@ -9,7 +9,7 @@ By default POS uploads next models:
 If we've added a new field in the backend and want them to be presented in the POS we can use **load_fields method** inside the ``PosModel`` **initialize function**.
 
 In the next example taken from ``POS Debt & Credit notebook`` module we add some new fields to the ``account.journal`` `model:
-<https://github.com/it-projects-llc/pos-addons/blob/fb8b0724fd4b5a0e66a64ece17643025e45330a8/pos_debt_notebook/static/src/js/pos.js#L29-L30::>`_
+<https://github.com/it-projects-llc/pos-addons/blob/fb8b0724fd4b5a0e66a64ece17643025e45330a8/pos_debt_notebook/static/src/js/pos.js#L29-L30::>`__
 
  .. code-block:: javascript
 
@@ -18,7 +18,7 @@ In the next example taken from ``POS Debt & Credit notebook`` module we add some
 
 In order to upload a new model into POS we use ``load_models(models,options)``.
 Description's taken from `odoo
-<https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/static/src/js/models.js#L1175-L1215::>`_ .
+<https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/static/src/js/models.js#L1175-L1215::>`__ .
 
 Loads ``openerp`` models at the point of sale startup.
 
@@ -63,7 +63,7 @@ Example below uploads all records meet the domain ``account.invoice`` model.
 
 The ``loaded`` function is a handler for uploaded data.
 
-Here you can proceed and save this `example, <https://github.com/it-projects-llc/pos-addons/blob/d0323907e35082d6d10416c2f7ef8497aa47dc31/pos_invoice_pay/static/src/js/main.js#L51-L64::>`_ which is taken from ``Pay Sale Orders & Invoices over POS`` module:
+Here you can proceed and save this `example, <https://github.com/it-projects-llc/pos-addons/blob/d0323907e35082d6d10416c2f7ef8497aa47dc31/pos_invoice_pay/static/src/js/main.js#L51-L64::>`__ which is taken from ``Pay Sale Orders & Invoices over POS`` module:
 
  .. code-block:: javascript
 

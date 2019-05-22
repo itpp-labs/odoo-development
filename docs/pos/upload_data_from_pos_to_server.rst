@@ -2,7 +2,7 @@
  POS Order Creation Process
 ============================
 
-When POS Order is created and paid the data to be sent to the server gets composed with the ``export_as_JSON`` `method. <https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/static/src/js/models.js#L2077::>`_
+When POS Order is created and paid the data to be sent to the server gets composed with the ``export_as_JSON`` `method. <https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/static/src/js/models.js#L2077::>`__
 
 Here the talk goes only about ``export_as_JSON``  for order model.
 
@@ -10,7 +10,7 @@ Similar methods for ``Orderline``, ``Packlotline``, ``Paymentline`` are skipped.
 
 Any custom data needed to be uploded to the server is has to be added with this method.
 
-For example ``POS Debt & Credit notebook`` `module <https://github.com/it-projects-llc/pos-addons/blob/fb8b0724fd4b5a0e66a64ece17643025e45330a8/pos_debt_notebook/static/src/js/pos.js#L249-L253::>`_, where we send to the server one more custom variable ``updates_debt``:
+For example ``POS Debt & Credit notebook`` `module <https://github.com/it-projects-llc/pos-addons/blob/fb8b0724fd4b5a0e66a64ece17643025e45330a8/pos_debt_notebook/static/src/js/pos.js#L249-L253::>`__, where we send to the server one more custom variable ``updates_debt``:
 
 
 .. code-block:: javascript
@@ -21,13 +21,13 @@ For example ``POS Debt & Credit notebook`` `module <https://github.com/it-projec
         return data;
     },
 
-The created order is sent to the server and be processed with the **create_from_ui** `method: <https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/models/pos_order.py#L722-L751>`_
+The created order is sent to the server and be processed with the **create_from_ui** `method: <https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/models/pos_order.py#L722-L751>`__
 
 The method might be called for several orders at once so we will take a look at the ``_process_order``: the function called to create a ``pos.order`` record out of the incoming order data dictionary for each incoming POS `order:
-<https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/models/pos_order.py#L116-L155>`_
+<https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/models/pos_order.py#L116-L155>`__
 
 For example in our ``POS Debt & Credit notebook`` `module
-<https://github.com/it-projects-llc/pos-addons/blob/fb8b0724fd4b5a0e66a64ece17643025e45330a8/pos_debt_notebook/models.py#L493-L520>`_ we inherit and override this method in order to process so called 'Zero transactions on credit payments' journals:
+<https://github.com/it-projects-llc/pos-addons/blob/fb8b0724fd4b5a0e66a64ece17643025e45330a8/pos_debt_notebook/models.py#L493-L520>`__ we inherit and override this method in order to process so called 'Zero transactions on credit payments' journals:
 
 
 .. code-block:: javascript
@@ -66,8 +66,8 @@ We update payment data before the ``pos.order`` record was created on the call o
 All paymentlines with **credits_via_discount** journals are removed and replaced with ``pos.credit.update`` model record, so the order has no such kind of payments.
 
 All Non-Transaction paid amounts is counted in the ``amount_via_discount`` order `attribute.
-<https://github.com/it-projects-llc/pos-addons/blob/fb8b0724fd4b5a0e66a64ece17643025e45330a8/pos_debt_notebook/models.py#L515>`_
+<https://github.com/it-projects-llc/pos-addons/blob/fb8b0724fd4b5a0e66a64ece17643025e45330a8/pos_debt_notebook/models.py#L515>`__
 
-Later, within the **create_from_ui** the ``action_pos_order_paid`` `method <https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/models/pos_order.py#L740>`_ is called, which we override to set discounts with total discount amount equals to `amount_via_discount` for POS order lines to make the order be `finished <https://github.com/it-projects-llc/pos-addons/blob/fb8b0724fd4b5a0e66a64ece17643025e45330a8/pos_debt_notebook/models.py#L528-L530>`_
+Later, within the **create_from_ui** the ``action_pos_order_paid`` `method <https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/models/pos_order.py#L740>`__ is called, which we override to set discounts with total discount amount equals to `amount_via_discount` for POS order lines to make the order be `finished <https://github.com/it-projects-llc/pos-addons/blob/fb8b0724fd4b5a0e66a64ece17643025e45330a8/pos_debt_notebook/models.py#L528-L530>`__
 
-Order completeness is checked in the ``test_paid`` `method. <https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/models/pos_order.py#L753-L762>`_
+Order completeness is checked in the ``test_paid`` `method. <https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/models/pos_order.py#L753-L762>`__
