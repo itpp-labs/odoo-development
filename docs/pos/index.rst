@@ -8,6 +8,7 @@ Point of Sales (POS)
    adding_js
    cache
    custom_popup
+   custom_receipt
    custom_screen
    inheritance
    longpolling
