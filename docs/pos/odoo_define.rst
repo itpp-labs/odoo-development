@@ -8,7 +8,7 @@ Official doc about the topic is `here: <https://www.odoo.com/documentation/12.0/
 
 **Example:**
 
-.. code-block:: javascript
+.. code-block:: js
 
     odoo.define('js_module_name', function (require) {
         "use strict";
@@ -21,11 +21,17 @@ Official doc about the topic is `here: <https://www.odoo.com/documentation/12.0/
         return something;
     });
 
-.. warning::  You cannot rename variable ``require``.
+.. warning::
 
-.. note::  Single file may have several *JS modules*, though it's recommended to put them to different files
+   You cannot rename variable ``require``.
 
-.. note::  You can use any string as a module name, but recommended way is ``<ODOO_MODULE>.<JS_MODULE>``, e.g. ``point_of_sale.popups``
+.. note::
+
+   Single file may have several *JS modules*, though it's recommended to put them to different files
+
+.. note::
+
+   You can use any string as a module name, but recommended way is ``<ODOO_MODULE>.<JS_MODULE>``, e.g. ``point_of_sale.popups``
 
 Return value
 ============
@@ -34,7 +40,7 @@ A js-module may return value. That value can be used in another js-modules (of t
 
 For example:
 
-.. code-block:: javascript
+.. code-block:: js
 
     odoo.define('point_of_sale.gui', function (require) {
 	    "use strict";
@@ -47,7 +53,7 @@ For example:
 
 Then, we can use ``define_screen`` as following:
 
-.. code-block:: javascript
+.. code-block:: js
 
     odoo.define('point_of_sale.screens', function (require) {
 	    "use strict";
@@ -69,7 +75,7 @@ Asynchronous modules
 It can happen that a module needs to perform some work before it is ready. For
 example, it could do a rpc to load some data. In that case, the module can simply return a deferred (promise). In that case, the module system will simply wait for the deferred to complete before registering the module.
 
-.. code-block:: javascript
+.. code-block:: js
 
     odoo.define('module.Something', function (require) {
         "use strict";

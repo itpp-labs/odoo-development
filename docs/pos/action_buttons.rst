@@ -14,13 +14,13 @@ In POS module buttons above ``numpad`` are called ``Action Buttons``.
 
 In order to use ``ActionButtonWidget``, which specified in Screens please start with downloading the ``screens`` widget:
 
-.. code-block:: javascript
+.. code-block:: js
 
     var screens = require('point_of_sale.screens');
 
 Then you need to declare a new variable and inherit ``ActionButtonWidget``:
 
-.. code-block:: javascript
+.. code-block:: js
 
     var PopupButton = screens.ActionButtonWidget.extend({
 
@@ -29,7 +29,7 @@ Then you need to declare a new variable and inherit ``ActionButtonWidget``:
 Thus ``PopupButton`` contains all methods from ``ActionButtonWidget``.
 Now we need to define Template for our button:
 
-.. code-block:: javascript
+.. code-block:: js
 
     template: 'PopupButton'
 
@@ -37,7 +37,7 @@ Now we need to define Template for our button:
 
 We define ``template`` in ``Qweb`` as follows:
 
-.. code-block:: xml
+.. code-block:: XML
 
     <t t-name="PopupButton">
    <div class="control-button">
@@ -48,7 +48,7 @@ We define ``template`` in ``Qweb`` as follows:
 
 We also need to choose the Action, which which will be executed after we click the button. For this purpose we define ``button_click`` method.
 
-.. code-block:: javascript
+.. code-block:: js
 
    button_click: function () {
 	this.gui.show_popup('confirm', {
@@ -58,7 +58,7 @@ We also need to choose the Action, which which will be executed after we click t
 	});
   }
 
-.. code-block:: javascript
+.. code-block:: js
 
     screens.define_action_button({
 	'name': 'popup_button',
@@ -76,7 +76,7 @@ We also need to choose the Action, which which will be executed after we click t
 
 **Listing:**
 
-.. code-block:: javascript
+.. code-block:: js
 
     odoo.define('pos_popup_button', function (require) {
 	'use_strict';

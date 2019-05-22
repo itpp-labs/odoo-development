@@ -8,7 +8,7 @@ While calling the function of saving unpaid orders in POS another function, whic
 
 During downloading or updating the page with POS the ``init_from_JSON`` function is called, which gets saved data in the browser and actualize data for models. For example:
 
-.. code-block:: javascript
+.. code-block:: js
 
     export_as_JSON: function () {
 		var data = _super_order.export_as_JSON.apply(this, arguments);
@@ -34,7 +34,7 @@ This method allows using the browser cache during the next generation of dom ele
 
 With elements generation you need to check whether saved data in cache for this element:
 
-.. code-block:: javascript
+.. code-block:: js
 
     this.cache = new screens.DomCache();
     var key = item.id;
@@ -42,7 +42,7 @@ With elements generation you need to check whether saved data in cache for this 
 
 In case if the cache is found you need to use this cache as dom element template, otherwise you need to save the result of generation:
 
-.. code-block:: javascript
+.. code-block:: js
 
    if (!cache) {
 	var item_html = QWeb.render('ITEM_TEMPLATE', {
@@ -58,7 +58,7 @@ In case if the cache is found you need to use this cache as dom element template
 
 A complete listing of the ``DomCache`` usage can be presented as follows:
 
-.. code-block:: javascript
+.. code-block:: js
 
     init: function () {
 		this._super(parent, options);

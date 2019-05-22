@@ -9,14 +9,14 @@ Use the Custom Pop-Ups to provide information or to prompt Users to do something
 First, attach necessary `requirements:
 <https://github.com/it-projects-llc/pos-addons/blob/6eaac4e168d7cf854d302b298b068e2b38db822c/pos_qr_scan/static/src/js/qr_scan.js#L10::>`__
 
-.. code-block:: javascript
+.. code-block:: js
 
     var PopupWidget = require('point_of_sale.popups');
 
 Then, create a new instance, the new default pop-up `extension:
 <https://github.com/it-projects-llc/pos-addons/blob/6eaac4e168d7cf854d302b298b068e2b38db822c/pos_qr_scan/static/src/js/qr_scan.js#L29-L30::>`__
 
-.. code-block:: javascript
+.. code-block:: js
 
     var QrScanPopupWidget = PopupWidget.extend({
     // It requires the template attribute with a Qweb template name for showing pop-up
@@ -25,7 +25,7 @@ Then, create a new instance, the new default pop-up `extension:
 To make the pop-up be reachable with regular methods after the ``QrScanPopupWidget`` declaration do the `following:
 <https://github.com/it-projects-llc/pos-addons/blob/6eaac4e168d7cf854d302b298b068e2b38db822c/pos_qr_scan/static/src/js/qr_scan.js#L194::>`__
 
-.. code-block:: javascript
+.. code-block:: js
 
     gui.define_popup({
 	name: 'qr_scan',
@@ -36,7 +36,7 @@ To make the pop-up be reachable with regular methods after the ``QrScanPopupWidg
 so it can be called with the next `code:
 <https://github.com/it-projects-llc/pos-addons/blob/6eaac4e168d7cf854d302b298b068e2b38db822c/pos_qr_scan/static/src/js/qr_scan.js#L17-L20::>`__
 
-.. code-block:: javascript
+.. code-block:: js
 
     this.gui.show_popup('qr_scan',{
     'title': 'QR Scanning',

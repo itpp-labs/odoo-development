@@ -11,7 +11,7 @@ If we've added a new field in the backend and want them to be presented in the P
 In the next example taken from ``POS Debt & Credit notebook`` module we add some new fields to the ``account.journal`` `model:
 <https://github.com/it-projects-llc/pos-addons/blob/fb8b0724fd4b5a0e66a64ece17643025e45330a8/pos_debt_notebook/static/src/js/pos.js#L29-L30::>`__
 
- .. code-block:: javascript
+ .. code-block:: js
 
     var models = require('point_of_sale.models');
     models.load_fields('account.journal', ['debt', 'debt_limit', 'credits_via_discount', 'pos_cash_out','category_ids', 'credits_autopay']);
@@ -30,7 +30,7 @@ Loader arguments can be functions that return a dynamic value. The function take
 
 There is no dependency management. The models must be loaded in the right order. Newly added models are loaded at the end but the after / before options can be used to load directly before / after another model.
 
- .. code-block:: javascript
+ .. code-block:: js
 
      models: [{
       model: [string] the name of the openerp model to load.
@@ -65,7 +65,7 @@ The ``loaded`` function is a handler for uploaded data.
 
 Here you can proceed and save this `example, <https://github.com/it-projects-llc/pos-addons/blob/d0323907e35082d6d10416c2f7ef8497aa47dc31/pos_invoice_pay/static/src/js/main.js#L51-L64::>`__ which is taken from ``Pay Sale Orders & Invoices over POS`` module:
 
- .. code-block:: javascript
+ .. code-block:: js
 
     var models = require('point_of_sale.models');
     models.load_models({

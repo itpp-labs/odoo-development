@@ -11,7 +11,7 @@ In order to synchronize new user data Order or Orderline models of one POS with 
 Let us have some data for the order and we need to synchronize it with all POSes, which use the same multi-session:
 
 
-.. code-block:: javascript
+.. code-block:: js
 
     apply_ms_data: function (data) {
 		// This methods is added for compatibility with module https://www.odoo.com/apps/modules/10.0/pos_multi_session/

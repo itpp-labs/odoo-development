@@ -5,8 +5,9 @@
 POS has two types of classes: Models, Widget. Extending those classes are slightly different.
 
 .. note::
-    Not all classes has easy way to get them to inherit.
-    Some tricks are available `here <https://odoo-development.readthedocs.io/en/latest/dev/pos/gui.html>`__ .
+
+   Not all classes has easy way to get them to inherit.
+   Some tricks are available `here <https://odoo-development.readthedocs.io/en/latest/dev/pos/gui.html>`__ .
 
 Model
 =====
@@ -17,7 +18,7 @@ To extend that kind of class, you need to use ``extend`` method. It creates a co
 
 Here is an `example <https://github.com/it-projects-llc/pos-addons/blob/fb8b072/pos_debt_notebook/static/src/js/pos.js#L23-L33>`__:
 
-.. code-block:: javascript
+.. code-block:: js
 
     odoo.define('pos_debt_notebook.pos', function (require) {
         "use strict";
@@ -46,7 +47,7 @@ Widget extend is much easier than Model extending: just use ``include`` and ``_s
 
 Here is an `example <https://github.com/it-projects-llc/pos-addons/blob/fb8b072/pos_debt_notebook/static/src/js/pos.js#L379-L385>`__:
 
-.. code-block:: javascript
+.. code-block:: js
 
     odoo.define('pos_debt_notebook.pos', function (require) {
     "use strict";

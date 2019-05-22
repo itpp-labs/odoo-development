@@ -13,7 +13,7 @@ Using ``t-extend`` mechanism, which takes the template's name to be modified as 
 
 ``t-jquery`` directives use the CSS selector. This selector is used in the extended template for choosing context nodes, for which ``t-operation`` can be applied. If you want to add, for example, another title for Product in ``XmlReceipt``, you need to create ``Qweb`` with the following content:
 
-.. code-block:: xml
+.. code-block:: XML
 
     <t t-extend="XmlReceipt">
         <t t-jquery="t[t-if='simple'] line" t-operation="after">
@@ -29,7 +29,7 @@ Using ``t-extend`` mechanism, which takes the template's name to be modified as 
 
 For the same action for PosTicket:
 
-.. code-block:: xml
+.. code-block:: XML
 
     <t t-extend="PosTicket">
 	    <t t-jquery=".receipt-orderlines tr[t-foreach='orderlines']" t-operation="append">
@@ -44,7 +44,7 @@ One of the difficult but at the same time flexible method of creating Customer r
 
 In POS you need to convert this text format into ``XML`` and generate a receipt using this template:
 
-.. code-block:: javascript
+.. code-block:: js
 
     convert_to_xml: function (template) {
 	var parser = new DOMParser();
@@ -54,14 +54,14 @@ In POS you need to convert this text format into ``XML`` and generate a receipt 
 
 Usage of this template instead of standards ones requires to generate received ``XML``, in order to do this you need to connect ``Qweb``:
 
-.. code-block:: javascript
+.. code-block:: js
 
     var core = require('web.core');
     var Qweb = core.qweb;
 
 To define a custom function, which will generate a user's ``Qweb`` as follows:
 
-.. code-block:: javascript
+.. code-block:: js
 
     custom_qweb_render: function (template, options) {
 	var template_name = $(template).attr('t-name');
