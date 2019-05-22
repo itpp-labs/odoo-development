@@ -1,6 +1,6 @@
-=======================
+===========================
  Adding ``js`` file to POS
-=======================
+===========================
 
 Adding ``javascript file`` opens a new set of possibilities in Odoo.
 
