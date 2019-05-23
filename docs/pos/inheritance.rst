@@ -6,8 +6,8 @@ POS has two types of classes: Models, Widget. Extending those classes are slight
 
 .. note::
 
-   Not all classes has easy way to get them to inherit.
-   Some tricks are available `here <https://odoo-development.readthedocs.io/en/latest/dev/pos/gui.html>`__ .
+    Not all classes has easy way to get them to inherit.
+    Some tricks are available `here <https://odoo-development.readthedocs.io/en/latest/dev/pos/gui.html>`__ .
 
 Model
 =====

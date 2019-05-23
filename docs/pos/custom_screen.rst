@@ -65,7 +65,7 @@ This ``Qweb`` will be rendered every time when the method ``renderElement`` runs
 .. code-block:: js
 
     renderElement: function () {
-	this._super();
+	    this._super();
 
 	this.$('.back').click(function () {
 		self.gui.back();
@@ -90,3 +90,4 @@ In order to open Custom Screen you need to call the next function (for example a
     this.gui.show_screen('custom_screen');
 
 *where* ``this`` is a pointer to ``PosModel``.
+

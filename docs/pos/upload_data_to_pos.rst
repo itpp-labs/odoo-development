@@ -14,7 +14,8 @@ In the next example taken from ``POS Debt & Credit notebook`` module we add some
  .. code-block:: js
 
     var models = require('point_of_sale.models');
-    models.load_fields('account.journal', ['debt', 'debt_limit', 'credits_via_discount', 'pos_cash_out','category_ids', 'credits_autopay']);
+    models.load_fields('account.journal', ['debt', 'debt_limit', 'credits_via_discount', 'pos_cash_out',
+                        'category_ids', 'credits_autopay']);
 
 In order to upload a new model into POS we use ``load_models(models,options)``.
 Description's taken from `odoo
@@ -70,22 +71,14 @@ Here you can proceed and save this `example, <https://github.com/it-projects-llc
     var models = require('point_of_sale.models');
     models.load_models({
 			model: 'account.invoice',
-			fields: ['name', 'partner_id', 'date_invoice', 'number', 'date_due', 'origin', ', '
-				user_id ', '
-				residual ', '
-				state ', '
-				amount_untaxed ', '
-				amount_tax '],
-				domain: [
-					['state', '=', 'open'],
-					['type', '=', 'out_invoice']
-				],
+			fields: ['name', 'partner_id', 'date_invoice', 'number', 'date_due', 'origin', ', 'user_id ', 'residual ', 'state ', 'amount_untaxed ', 'amount_tax '],
+            domain: [['state', '=', 'open'],['type', '=', 'out_invoice']],
 				loaded: function (self, invoices) {
 					var invoices_ids = _.pluck(invoices, 'id');
 					self.prepare_invoices_data(invoices);
 					self.invoices = invoices;
 					self.db.add_invoices(invoices);
 					self.get_invoice_lines(invoices_ids);
-				}
+                }
     });
 

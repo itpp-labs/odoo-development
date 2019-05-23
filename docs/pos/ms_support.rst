@@ -16,15 +16,15 @@ Let us have some data for the order and we need to synchronize it with all POSes
     apply_ms_data: function (data) {
 		// This methods is added for compatibility with module https://www.odoo.com/apps/modules/10.0/pos_multi_session/
 		/*
-		It is necessary to check the presence of the super method
-		in order to be able to inherit the apply_ms_data
-		without calling require('pos_multi_session')
-		and without adding pos_multi_session in dependencies in the manifest.
+		    It is necessary to check the presence of the super method
+		    in order to be able to inherit the apply_ms_data
+		    without calling require('pos_multi_session')
+		    and without adding pos_multi_session in dependencies in the manifest.
 
-		At the time of loading, the super method may not exist. So, if the js file is loaded
-		first among all inherited, then there is no super method and it is not called.
-		If the file is not the first, then the super method is already created by other modules,
-		and we call super method.
+		    At the time of loading, the super method may not exist. So, if the js file is loaded
+		    first among all inherited, then there is no super method and it is not called.
+		    If the file is not the first, then the super method is already created by other modules,
+		    and we call super method.
 		*/
 		if (_super_order.apply_ms_data) {
 			_super_order.apply_ms_data.apply(this, arguments);

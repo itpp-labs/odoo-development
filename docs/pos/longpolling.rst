@@ -20,11 +20,11 @@ First, define the channel and `link <https://github.com/it-projects-llc/pos-addo
 .. code-block:: js
 
     initialize: function () {
-	PosModelSuper.prototype.initialize.apply(this, arguments);
-	var self = this;
-	this.ready.then(function () {
-		self.bus.add_channel_callback("pos_partner_sync", self.on_barcode_updates, self);
-	});
+	    PosModelSuper.prototype.initialize.apply(this, arguments);
+	    var self = this;
+	    this.ready.then(function () {
+		    self.bus.add_channel_callback("pos_partner_sync", self.on_barcode_updates, self);
+	    });
     },
 
 There after the ``PosModel`` is loaded we add a new `channel <https://github.com/it-projects-llc/pos-addons/blob/e471b4af2f062852d256d46c200e582b0f20d0ad/pos_partner_sync/static/src/js/pos_partner_sync.js#L20-L38>`__ ``pos_partner_sync`` with related handler function ``on_barcode_updates``:
@@ -57,13 +57,9 @@ Also it's possible to send updates only for specied POS by its **config.id** usi
 
     @api.model
     def _send_to_channel_by_id(self, dbname, pos_id, channel_name, message = 'PONG'):
-	channel = self._get_full_channel_name_by_id(dbname, pos_id, channel_name)
-    self.env['bus.bus'].sendmany([
-	[channel, message]
-    ])
-    _logger.debug('POS notifications for %s: %s', pos_id, [
-	[channel, message]
-    ])
+	    channel = self._get_full_channel_name_by_id(dbname, pos_id, channel_name)
+    self.env['bus.bus'].sendmany([[channel, message]])
+    _logger.debug('POS notifications for %s: %s', pos_id, [[channel, message]])
     return 1
 
 But it requires a **dbname** to be able to provide updates for POSes use different, separated data bases.
@@ -74,20 +70,20 @@ It can be demonstrated with ``Sync Server for POS orders`` `module.
 .. code-block:: js
 
     @api.multi
-    def broadcast_message(self, message):
-	self.ensure_one()
-            notifications = []
-            channel_name = "pos.multi_session"
-            for pos in self.env['pos_multi_session_sync.pos'].search([('multi_session_ID', '=', self.multi_session_ID)]):
-	message_ID = pos.multi_session_message_ID + 1
-                pos.write({
+        def broadcast_message(self, message):
+	        self.ensure_one()
+                notifications = []
+                channel_name = "pos.multi_session"
+                for pos in self.env['pos_multi_session_sync.pos'].search([('multi_session_ID', '=', self.multi_session_ID)]):
+	                    message_ID = pos.multi_session_message_ID + 1
+                    pos.write({
                     'multi_session_message_ID': message_ID
-                })
-        message['data']['message_ID'] = message_ID
-            self.env['pos.config']._send_to_channel_by_id(self.dbname, pos.pos_ID, channel_name, message)
-     if self.env.context.get('phantomtest') == 'slowConnection':
-	_logger.info('Delayed notifications from %s: %s', self.env.user.id, notifications)
-        # commit to update values on DB
-        self.env.cr.commit()
-        time.sleep(3)
-        return 1
+                    })
+                    message['data']['message_ID'] = message_ID
+                        self.env['pos.config']._send_to_channel_by_id(self.dbname, pos.pos_ID, channel_name, message)
+                if self.env.context.get('phantomtest') == 'slowConnection':
+	                _logger.info('Delayed notifications from %s: %s', self.env.user.id, notifications)
+                    # commit to update values on DB
+                    self.env.cr.commit()
+                    time.sleep(3)
+                    return 1

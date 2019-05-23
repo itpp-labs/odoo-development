@@ -27,10 +27,7 @@ To make the pop-up be reachable with regular methods after the ``QrScanPopupWidg
 
 .. code-block:: js
 
-    gui.define_popup({
-	name: 'qr_scan',
-	widget: QrScanPopupWidget
-    });
+    gui.define_popup({name:'qr_scan', widget: QrScanPopupWidget});
 
 
 so it can be called with the next `code:
@@ -39,6 +36,6 @@ so it can be called with the next `code:
 .. code-block:: js
 
     this.gui.show_popup('qr_scan',{
-    'title': 'QR Scanning',
-    'value': false,
+        'title': 'QR Scanning',
+        'value': false,
     });

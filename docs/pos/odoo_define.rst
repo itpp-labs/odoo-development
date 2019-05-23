@@ -23,15 +23,15 @@ Official doc about the topic is `here: <https://www.odoo.com/documentation/12.0/
 
 .. warning::
 
-   You cannot rename variable ``require``.
+    You cannot rename variable ``require``.
 
 .. note::
 
-   Single file may have several *JS modules*, though it's recommended to put them to different files
+    Single file may have several *JS modules*, though it's recommended to put them to different files
 
 .. note::
 
-   You can use any string as a module name, but recommended way is ``<ODOO_MODULE>.<JS_MODULE>``, e.g. ``point_of_sale.popups``
+    You can use any string as a module name, but recommended way is ``<ODOO_MODULE>.<JS_MODULE>``, e.g. ``point_of_sale.popups``
 
 Return value
 ============
@@ -44,7 +44,7 @@ For example:
 
     odoo.define('point_of_sale.gui', function (require) {
 	    "use strict";
-	        return {
+        return {
 		    Gui: Gui,
 		    define_screen: define_screen,
 		    define_popup: define_popup,
@@ -67,7 +67,9 @@ Then, we can use ``define_screen`` as following:
 	return ....
     })
 
-.. note::  If you don't to use value returned by another js-module, you still might you you *import js-module* (via require(....)) to be sure that that module is loaded before executing you module.
+.. note::
+
+    If you don't to use value returned by another js-module, you still might you you *import js-module* (via require(....)) to be sure that that module is loaded before executing you module.
 
 Asynchronous modules
 ---------------------

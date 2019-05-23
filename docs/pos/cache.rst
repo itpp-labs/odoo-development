@@ -68,9 +68,7 @@ A complete listing of the ``DomCache`` usage can be presented as follows:
 	item_template: 'ITEM_TEMPLATE',
 	renderElement: function () {
 		var self = this;
-		var el_str = QWeb.render(this.template, {
-			widget: this
-		});
+		var el_str = QWeb.render(this.template, {widget: this});
 		var el_node = document.createElement('div');
 		el_node.innerHTML = el_str;
 		el_node = el_node.childNodes[1];

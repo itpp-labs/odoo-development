@@ -1,6 +1,6 @@
-===============
-Action Buttons
-===============
+================
+ Action Buttons
+================
 
 In POS module buttons above ``numpad`` are called ``Action Buttons``.
 
@@ -40,33 +40,31 @@ We define ``template`` in ``Qweb`` as follows:
 .. code-block:: XML
 
     <t t-name="PopupButton">
-   <div class="control-button">
-      <i class="fa fa-list-alt" />
-      Popup Button
-   </div>
+        <div class="control-button">
+            <i class="fa fa-list-alt" /> Popup Button
+        </div>
     </t>
 
 We also need to choose the Action, which which will be executed after we click the button. For this purpose we define ``button_click`` method.
 
 .. code-block:: js
 
-   button_click: function () {
-	this.gui.show_popup('confirm', {
-		'title': 'Popup',
-		'body': 'Opening popup after clicking on the button'
-		',
-	});
-  }
+    button_click: function () {
+	    this.gui.show_popup('confirm', {
+		    'title': 'Popup',
+		    'body': 'Opening popup after clicking on the button'',
+	    });
+    }
 
 .. code-block:: js
 
     screens.define_action_button({
-	'name': 'popup_button',
-	'widget': PopupButton,
-	'condition': function (self) {
+	    'name': 'popup_button',
+	    'widget': PopupButton,
+	    'condition': function (self) {
 		return self.config.show_popup_button;
-	},
-  });
+	    },
+    });
 
 *where:* ``name`` - Button name;
 
@@ -78,28 +76,27 @@ We also need to choose the Action, which which will be executed after we click t
 
 .. code-block:: js
 
-    odoo.define('pos_popup_button', function (require) {
-	'use_strict';
-	var screens = require('point_of_sale.screens');
+    odoo.define('pos_popup_button', function (require){
+	    'use_strict';
+	    var screens = require('point_of_sale.screens');
 
-	var PopupButton = screens.ActionButtonWidget.extend({
-		template: 'PopupButton',
-		button_click: function () {
-			this.gui.show_popup('confirm', {
-				'title': 'Popup',
-				'body': 'Opening popup after clicking on the button'
-				',
+	    var PopupButton = screens.ActionButtonWidget.extend({
+		    template: 'PopupButton',
+		    button_click: function () {
+			    this.gui.show_popup('confirm', {
+				    'title': 'Popup',
+				    'body': 'Opening popup after clicking on the button'',
 			});
-		}
-	});
+		    }
+	    });
 
-	screens.define_action_button({
-		'name': 'popup_button',
-		'widget': PopupButton,
-		'condition': function () {
-			return this.pos.config.popup_button;
-		},
-	});
+	    screens.define_action_button({
+		    'name': 'popup_button',
+		    'widget': PopupButton,
+		    'condition': function () {
+			    return this.pos.config.popup_button;
+		    },
+	    });
 
-	return PopupButton;
-  });
+	    return PopupButton;
+    });
