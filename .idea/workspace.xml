@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a78fa81-231e-4a6c-8036-434b03c40134" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev/pos/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev/pos/index.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/pos/adding_js.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev/pos/adding_js.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/pos/cache.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev/pos/cache.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/pos/custom_popup.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev/pos/custom_popup.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/pos/custom_receipt.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev/pos/custom_receipt.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/pos/custom_screen.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev/pos/custom_screen.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/pos/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/pos/inheritance.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev/pos/inheritance.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/pos/longpolling.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev/pos/longpolling.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/pos/ms_support.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev/pos/ms_support.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/pos/odoo_define.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev/pos/odoo_define.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/pos/upload_data_from_pos_to_server.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev/pos/upload_data_from_pos_to_server.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/pos/upload_data_to_pos.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev/pos/upload_data_to_pos.rst" afterDir="false" />
-    </list>
+    <list default="true" id="5a78fa81-231e-4a6c-8036-434b03c40134" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,37 +30,17 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/dev/pos/inheritance.rst">
-          <provider selected="true" editor-type-id="restructured-text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/dev/pos/longpolling.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/dev/pos/ms_support.rst">
-          <provider selected="true" editor-type-id="restructured-text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/dev/pos/odoo_define.rst">
-          <provider selected="true" editor-type-id="restructured-text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/dev/pos/upload_data_from_pos_to_server.rst">
+        <entry file="file://$PROJECT_DIR$/docs/dev/pos/upload_data_to_pos.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/index.rst">
-          <provider selected="true" editor-type-id="restructured-text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/dev/pos/upload_data_to_pos.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
@@ -103,9 +67,9 @@
         <option value="$PROJECT_DIR$/docs/index.rst" />
         <option value="$PROJECT_DIR$/docs/dev/pos/index.rst" />
         <option value="$PROJECT_DIR$/docs/dev/pos/inheritance.rst" />
+        <option value="$PROJECT_DIR$/docs/dev/pos/action_buttons.rst" />
         <option value="$PROJECT_DIR$/docs/dev/pos/longpolling.rst" />
         <option value="$PROJECT_DIR$/docs/dev/pos/upload_data_to_pos.rst" />
-        <option value="$PROJECT_DIR$/docs/dev/pos/action_buttons.rst" />
       </list>
     </option>
   </component>
@@ -208,7 +172,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9414000" />
+    <option name="totallyTimeSpent" value="9678000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -275,22 +239,20 @@
     <entry file="file://$PROJECT_DIR$/docs/index.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/pos/index.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/pos/index.rst" />
     <entry file="file://$PROJECT_DIR$/docs/dev/pos/index.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/dev/pos/inheritance.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/dev/pos/add_field.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/dev/pos/longpolling.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/dev/pos/upload_data_to_pos.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/dev/pos/add_field.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/dev/pos/action_buttons.rst">

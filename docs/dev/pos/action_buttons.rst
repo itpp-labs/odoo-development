@@ -49,8 +49,8 @@ We also need to choose the Action, which which will be executed after we click t
 
 .. code-block:: js
 
-    button_click: function () {
-	    this.gui.show_popup('confirm', {
+    button_click: function (){
+	    this.gui.show_popup('confirm',{
 		    'title': 'Popup',
 		    'body': 'Opening popup after clicking on the button'',
 	    });
