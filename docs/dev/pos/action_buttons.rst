@@ -65,4 +65,3 @@ The definition of the ``template`` in ``Qweb``:
             <i class="fa fa-list-alt" /> Popup Button
         </div>
     </t>
-
