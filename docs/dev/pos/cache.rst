@@ -28,7 +28,7 @@ In order to avoid the disappearance of note after updating or downloading POS (b
  Dom Cache
 ===========
 
-**One of the examples of using ``Dom Cache`` is the generation of product list.**
+One of the **examples** of using ``Dom Cache`` is the generation of product list.
 
 This method allows using the browser cache during the next generation of dom elements of templates in POS, therefore, rendering time are decreased.
 
