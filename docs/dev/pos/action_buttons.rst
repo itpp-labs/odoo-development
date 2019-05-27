@@ -56,6 +56,8 @@ We also need to choose the Action, which which will be executed after we click t
 	    });
     }
 
+Finally, register the button:
+
 .. code-block:: js
 
     screens.define_action_button({
