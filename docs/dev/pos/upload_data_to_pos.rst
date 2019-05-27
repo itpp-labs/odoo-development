@@ -71,7 +71,7 @@ Here you can proceed and save this `example, <https://github.com/it-projects-llc
     var models = require('point_of_sale.models');
     models.load_models({
 			model: 'account.invoice',
-			fields: ['name', 'partner_id', 'date_invoice', 'number', 'date_due', 'origin', ', 'user_id ', 'residual ', 'state ', 'amount_untaxed ', 'amount_tax '],
+			fields: ['name', 'partner_id', 'date_invoice', 'number', 'date_due', 'origin', 'user_id ', 'residual ', 'state ', 'amount_untaxed ', 'amount_tax '],
             domain: [['state', '=', 'open'],['type', '=', 'out_invoice']],
 				loaded: function (self, invoices) {
 					var invoices_ids = _.pluck(invoices, 'id');
