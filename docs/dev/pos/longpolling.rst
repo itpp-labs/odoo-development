@@ -53,7 +53,7 @@ It checks for the specific ``data.message`` to provide required handler where **
 Also it's possible to send updates only for specied POS by its **config.id** using the ``_send_to_channel_by_id`` `method:
 <https://github.com/it-projects-llc/pos-addons/blob/28d2b00bfd3f5d09bb65d5bf3245a6b87ed1d67b/pos_longpolling/models/pos_longpolling_models.py#L33-L38::>`__
 
-.. code-block:: js
+.. code-block:: python
 
     @api.model
     def _send_to_channel_by_id(self, dbname, pos_id, channel_name, message = 'PONG'):
@@ -67,7 +67,7 @@ But it requires a **dbname** to be able to provide updates for POSes use differe
 It can be demonstrated with ``Sync Server for POS orders`` `module.
 <https://github.com/it-projects-llc/pos-addons/blob/4b9385b71f13f5df993317196d23972b65a7c2f8/pos_multi_session_sync/models/pos_multi_session_sync_models.py#L257-L276>`__
 
-.. code-block:: js
+.. code-block:: python
 
     @api.multi
         def broadcast_message(self, message):

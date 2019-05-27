@@ -30,7 +30,7 @@ For example in our ``POS Debt & Credit notebook`` `module
 <https://github.com/it-projects-llc/pos-addons/blob/fb8b0724fd4b5a0e66a64ece17643025e45330a8/pos_debt_notebook/models.py#L493-L520>`__ we inherit and override this method in order to process so called 'Zero transactions on credit payments' journals:
 
 
-.. code-block:: js
+.. code-block:: python
 
     def _process_order(self, pos_order):
         credit_updates = []
