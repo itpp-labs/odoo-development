@@ -43,13 +43,13 @@ For example:
 .. code-block:: js
 
     odoo.define('point_of_sale.gui', function (require) {
-	"use strict";
-	// ...
+  "use strict";
+  // ...
         return {
             Gui: Gui,
             define_screen: define_screen,
             define_popup: define_popup,
-	};
+  };
     });
 
 Then, we can use ``define_screen`` as following:
@@ -57,15 +57,15 @@ Then, we can use ``define_screen`` as following:
 .. code-block:: js
 
     odoo.define('point_of_sale.screens', function (require) {
-	    "use strict";
-	        var gui = require('point_of_sale.gui');
-	        //...
-	        gui.define_screen({
-		        name: 'scale',
-		        widget: ScaleScreenWidget
-	        });
+      "use strict";
+          var gui = require('point_of_sale.gui');
+          //...
+          gui.define_screen({
+            name: 'scale',
+            widget: ScaleScreenWidget
+          });
             // ..
-	return ....
+  return ....
     })
 
 .. note::
