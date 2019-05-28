@@ -43,12 +43,13 @@ For example:
 .. code-block:: js
 
     odoo.define('point_of_sale.gui', function (require) {
-	    "use strict";
+	"use strict";
+	// ...
         return {
-		    Gui: Gui,
-		    define_screen: define_screen,
-		    define_popup: define_popup,
-	    };
+            Gui: Gui,
+            define_screen: define_screen,
+            define_popup: define_popup,
+	};
     });
 
 Then, we can use ``define_screen`` as following:
