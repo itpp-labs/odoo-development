@@ -4,6 +4,8 @@
 
 ``Action Buttons`` are buttons in POS module that are located above **numpad**.
 
+
+
 * These buttons only show up after installing **pos_discount** module (``Discount`` button, which allows defining the size of discount for the order) and **pos_restaurant** module (``Split``, ``Guests`` buttons etc.)
 
 * You can create your own buttons assigning them to actions (for example **open_popup**, **screen** and etc).
