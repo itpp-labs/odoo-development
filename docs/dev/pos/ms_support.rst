@@ -28,13 +28,13 @@ Let us have some data for the order and we need to synchronize it with all POSes
       if (_super_order.apply_ms_data) {
         _super_order.apply_ms_data.apply(this, arguments);
       }
-        this.first_new_variable = data.first_new_variable;
-        this.second_new_variable = data.second_new_variable;
-		// etc ...
+      this.first_new_variable = data.first_new_variable;
+      this.second_new_variable = data.second_new_variable;
+      // etc ...
 
-		/*
-        Call renderElement direclty or trigger corresponding
-        event if you need to rerender something after updating */
+      /*
+      Call renderElement direclty or trigger corresponding
+      event if you need to rerender something after updating */
 	},
 	export_as_JSON: function () {
       // export new data as JSON

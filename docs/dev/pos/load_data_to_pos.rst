@@ -61,9 +61,9 @@ There is no dependency management. The models must be loaded in the right order.
 
 Example below uploads all records meet the domain ``account.invoice`` model.
 
-The ``loaded`` function is a handler for uploaded data.
+The **loaded** function is a handler for uploaded data.
 
-Here you can proceed and save this `example, <https://github.com/it-projects-llc/pos-addons/blob/d0323907e35082d6d10416c2f7ef8497aa47dc31/pos_invoice_pay/static/src/js/main.js#L51-L64::>`__ which is taken from ``Pay Sale Orders & Invoices over POS`` module:
+Here you can proceed and save this `example <https://github.com/it-projects-llc/pos-addons/blob/d0323907e35082d6d10416c2f7ef8497aa47dc31/pos_invoice_pay/static/src/js/main.js#L51-L64::>`__ which is taken from ``Pay Sale Orders & Invoices over POS`` module:
 
 .. code-block:: js
 
