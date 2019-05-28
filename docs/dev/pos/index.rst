@@ -16,4 +16,4 @@ Point of Sale (POS)
    ms_support
    longpolling
    load_data_to_pos
-   upload_data_from_pos_to_server
+   send_pos_orders_to_server

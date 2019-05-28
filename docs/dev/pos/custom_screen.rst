@@ -2,9 +2,9 @@
  Custom Screens
 ================
 
-List of partners, payment's screen, and floor screen are examples of *screens*.
+List of **partners**, **payment's screen**, and **floor screen** are examples of ``screens``.
 
-We will consider **an example of creating the User interface.**
+We will consider *an example of creating the User interface*.
 
 In order to create a new ``custom screen`` we plug ``screens`` and ``gui``:
 
@@ -89,3 +89,5 @@ In order to open Custom Screen you need to call the next function (for example a
 
 *where* ``this`` is a pointer to ``PosModel``.
 
+For a concrete example check the **POS Orders History** `module <https://github.com/it-projects-llc/pos-addons/blob/12.0/pos_orders_history/static/src/js/screens.js#L311>`__ ,
+where ``orders_history_screen`` is defined.

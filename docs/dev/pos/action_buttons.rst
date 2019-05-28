@@ -2,7 +2,18 @@
  Action Buttons
 ================
 
-``Action Buttons`` are buttons in POS module that are located above **numpad**.
+``Action Buttons`` are following buttons:
+
+* ``Note``
+* ``Transfer``
+* ``Guests``
+* ``Bill``
+* ``Split``
+* ``Order``
+* ``Discount``
+* etc.
+
+that are located above **Numpad**.
 
 * These buttons only show up after installing **pos_discount** module (``Discount`` button, which allows defining the size of discount for the order) and **pos_restaurant** module (``Split``, ``Guests`` buttons etc.)
 
@@ -69,3 +80,6 @@ The definition of the ``template`` in ``Qweb``:
         <i class="fa fa-list-alt" /> Popup Button
       </div>
     </t>
+
+For a concrete example check the **POS Orders History** `module <https://github.com/it-projects-llc/pos-addons/blob/12.0/pos_orders_history/static/src/js/screens.js#L22>`__ ,
+where you can see that a button with the label *Orders History* is added.
