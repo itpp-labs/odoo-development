@@ -2,7 +2,7 @@
  Custom Screens
 ================
 
-List of partners, payment's screen, and floor screen are called screens.
+List of partners, payment's screen, and floor screen are examples of *screens*.
 
 We will consider **an example of creating the User interface.**
 
