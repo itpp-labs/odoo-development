@@ -11,14 +11,13 @@ Official doc about the topic is `here: <https://www.odoo.com/documentation/12.0/
 .. code-block:: js
 
     odoo.define('js_module_name', function (require) {
-        "use strict";
+      "use strict";
+      var A = require('js_module_name_A');
+      var B = require('js_module_name_B');
+      require('js_module_name_C');
 
-        var A = require('js_module_name_A');
-        var B = require('js_module_name_B');
-        require('js_module_name_C');
-
-        // some code
-        return something;
+      // some code
+      return something;
     });
 
 .. warning::
@@ -43,13 +42,12 @@ For example:
 .. code-block:: js
 
     odoo.define('point_of_sale.gui', function (require) {
-  "use strict";
-  // ...
+      "use strict";
         return {
-            Gui: Gui,
-            define_screen: define_screen,
-            define_popup: define_popup,
-  };
+          Gui: Gui,
+          define_screen: define_screen,
+          define_popup: define_popup,
+	    };
     });
 
 Then, we can use ``define_screen`` as following:
@@ -58,14 +56,14 @@ Then, we can use ``define_screen`` as following:
 
     odoo.define('point_of_sale.screens', function (require) {
       "use strict";
-          var gui = require('point_of_sale.gui');
-          //...
+        var gui = require('point_of_sale.gui');
+        //...
           gui.define_screen({
-            name: 'scale',
-            widget: ScaleScreenWidget
+          name: 'scale',
+          widget: ScaleScreenWidget
           });
-            // ..
-  return ....
+        // ..
+	  return ....
     })
 
 .. note::
@@ -81,12 +79,10 @@ example, it could do a rpc to load some data. In that case, the module can simpl
 .. code-block:: js
 
     odoo.define('module.Something', function (require) {
-        "use strict";
-
+      "use strict";
         var ajax = require('web.ajax');
-
-        return ajax.rpc(...).then(function (result) {
-            // some code here
-            return something;
-        });
+          return ajax.rpc(...).then(function (result) {
+          // some code here
+        return something;
+      });
     });

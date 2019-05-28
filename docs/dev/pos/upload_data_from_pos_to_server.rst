@@ -16,9 +16,9 @@ For example ``POS Debt & Credit notebook`` `module <https://github.com/it-projec
 .. code-block:: js
 
     export_as_JSON: function(){
-        var data = _super_order.export_as_JSON.apply(this, arguments);
-        data.updates_debt = this.updates_debt();
-        return data;
+      var data = _super_order.export_as_JSON.apply(this, arguments);
+      data.updates_debt = this.updates_debt();
+      return data;
     },
 
 The created order is sent to the server and be processed with the **create_from_ui** `method: <https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/models/pos_order.py#L722-L751>`__

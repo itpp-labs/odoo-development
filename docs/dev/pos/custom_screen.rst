@@ -18,7 +18,6 @@ Then we declare a new variable and inherit ``ScreenWidget``:
 .. code-block:: js
 
     var CustomScreenWidget = screens.ScreenWidget.extend({
-
     });
 
 Now ``CustomScreenWidget`` consist of all methods from ``ScreenWidget``. Then we need to define a template, where the structure of the screen is described using ``Qweb``:
@@ -32,29 +31,28 @@ In ``Qweb`` we define a template as follows:
 .. code-block:: XML
 
     <t t-name="CustomScreenWidget">
-       <div class="custom-screen screen">
-          <div class="screen-content">
-             <section class="top-content">
-                <span class="button back">
-                   <i class="fa fa-angle-double-left" />
-                   Cancel
-                </span>
-                <span class="button next oe_hidden highlight">
-                   Apply
-                   <i class="fa fa-angle-double-right" />
-                </span>
-             </section>
-             <section class="full-content">
-                <div class="window">
-                   <section class="subwindow collapsed">
-                      <div class="subwindow-container collapsed">
-                         <div class="subwindow-container-fix custom-details-contents" />
-                      </div>
-                   </section>
-                </div>
-             </section>
-          </div>
-       </div>
+      <div class="custom-screen screen">
+        <div class="screen-content">
+           <section class="top-content">
+             <span class="button back">
+               <i class="fa fa-angle-double-left" />
+                 Cancel
+             </span>
+             <span class="button next oe_hidden highlight">
+                 Apply
+               <i class="fa fa-angle-double-right" />
+             </span>
+           </section>
+           <section class="full-content">
+             <div class="window">
+               <section class="subwindow collapsed">
+                 <div class="subwindow-container collapsed">
+                   <div class="subwindow-container-fix custom-details-contents" />
+                 </div>
+               </section>
+             </div>
+           </section>
+      </div>
     </t>
 
 
@@ -65,15 +63,15 @@ This ``Qweb`` will be rendered every time when the method ``renderElement`` runs
 .. code-block:: js
 
     renderElement: function () {
-	    this._super();
+      this._super();
 
 	this.$('.back').click(function () {
-		self.gui.back();
+      self.gui.back();
 	});
 
 	this.$('.next').click(function () {
-		// some actions
-	});
+      // some actions
+      });
     },
 
 All screens are hidden by default (except those, which are called after POS downloading).

@@ -8,7 +8,6 @@ Point of Sale (POS)
    odoo_define
    inheritance
    action_buttons
-   add_field
    gui
    cache
    custom_popup
