@@ -1,11 +1,10 @@
-One2one organization
-====================
+=======================
+ One2one field in odoo
+=======================
 
-You need two records of different models have referred to each other.
+Odoo ORM doesn't support ``One2one`` fields, but you can do them manually. In the example below we make one2one relationship between models ``fleet.vehicle`` and ``account.asset.asset``.
 
-Changing the reference in one place requires also changing it in another.
-
-Follow this code:
+In short, you set normal ``Mane2one`` field (``vehicle_id`` in the example) in a one model (doesn't really matter which of the models you choose) and corresponding ``One2many`` field (``asset_ids`` in the example) in another model. Then we add virtural ``Many2one`` field (``asset_id`` in the example) with attributes ``compute`` and ``inverse``.
 
 .. code-block:: python
 
@@ -24,11 +23,12 @@ Follow this code:
 
     @api.one
     def asset_inverse(self):
-        new_asset = self.env['account.asset.asset'].browse(self.asset_id.id)
         if len(self.asset_ids) > 0:
+            # delete previous reference
             asset = self.env['account.asset.asset'].browse(self.asset_ids[0].id)
             asset.vehicle_id = False
-        new_asset.vehicle_id = self
+        # set new reference
+        self.asset_id.vehicle_id = self
 
 
     class Asset(models.Model):
@@ -37,3 +37,4 @@ Follow this code:
     vehicle_id = fields.Many2one('fleet.vehicle', string='Vehicle')
 
 
+TODO: replace ``@api.one`` to ``@api.multi``
