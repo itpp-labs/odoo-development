@@ -7,6 +7,7 @@ Odoo Python
    python/index
    res.config.settings
    controllers
+   one2one
    x2many
    fields
    constraints
