@@ -4,16 +4,16 @@ Point of Sale (POS)
 .. toctree::
 
 
-   adding-js
-   odoo-define
+   adding_js
+   odoo_define
    inheritance
-   action-buttons
+   action_buttons
    gui
    cache
-   custom-popup
-   custom-receipt
-   custom-screen
-   ms-support
+   custom_popup
+   custom_receipt
+   custom_screen
+   ms_support
    longpolling
-   load-data-to-pos
-   send-pos-orders-to-server
+   load_data_to_pos
+   send_pos_orders_to_server

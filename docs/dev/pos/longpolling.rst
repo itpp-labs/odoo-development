@@ -6,11 +6,11 @@ It is a custom odoo `module <https://github.com/it-projects-llc/pos-addons/tree/
 
 It provides following methods in *Backend side*:
 
-* **self.env['pos.config].send_to_all_poses(channel_name, data)**:broadcasts messages to all opened POSes  (see `example <https://github.com/it-projects-llc/pos-addons/blob/28d2b00bfd3f5d09bb65d5bf3245a6b87ed1d67b/pos_longpolling/models/pos_longpolling_models.py#L49-L53>`__)
+* ``self.env['pos.config].send_to_all_poses(channel_name, data)``:broadcasts messages to all opened POSes  (see `example <https://github.com/it-projects-llc/pos-addons/blob/28d2b00bfd3f5d09bb65d5bf3245a6b87ed1d67b/pos_longpolling/models/pos_longpolling_models.py#L49-L53>`__)
 
-* **pos_set._send_to_channel(channel_name, data)**:broadcasts message to the POSes in ``pos_set`` (see `example <https://github.com/it-projects-llc/pos-addons/blob/28d2b00bfd3f5d09bb65d5bf3245a6b87ed1d67b/pos_longpolling/models/pos_longpolling_models.py#L22-L31>`__)
+* ``pos_set._send_to_channel(channel_name, data)``:broadcasts message to the POSes in ``pos_set`` (see `example <https://github.com/it-projects-llc/pos-addons/blob/28d2b00bfd3f5d09bb65d5bf3245a6b87ed1d67b/pos_longpolling/models/pos_longpolling_models.py#L22-L31>`__)
 
-* **_send_to_channel_by_id(self, dbname, pos_id, channel_name)**:sends message to exact POS ``pos_id``, uses data base name ``dbname`` , ``channel_name``, ``message='PONG'`` (see `example <https://github.com/it-projects-llc/pos-addons/blob/28d2b00bfd3f5d09bb65d5bf3245a6b87ed1d67b/pos_longpolling/models/pos_longpolling_models.py#L34-L38>`__)
+* ``_send_to_channel_by_id(self, dbname, pos_id, channel_name)``:sends message to exact POS ``pos_id``, uses data base name ``dbname`` , ``channel_name``, ``message='PONG'`` (see `example <https://github.com/it-projects-llc/pos-addons/blob/28d2b00bfd3f5d09bb65d5bf3245a6b87ed1d67b/pos_longpolling/models/pos_longpolling_models.py#L34-L38>`__)
 
 .. note::
 
@@ -22,9 +22,9 @@ For *Client side* the methods are:
 
 .. note::
 
-    You don't need to use it if you connect with your regular odoo server.
+    You don't need to use ``add_bus`` if you connect with your regular odoo server.
 
-* **add_channel_callback: function(channel_name, callback, thisArg)**:subscribes to specific channel (see `example <https://github.com/it-projects-llc/pos-addons/blob/28d2b00bfd3f5d09bb65d5bf3245a6b87ed1d67b/pos_longpolling/static/src/js/pos_longpolling.js#L97>`__)
+* ``add_channel_callback: function(channel_name, callback, thisArg)``:subscribes to specific channel (see `example <https://github.com/it-projects-llc/pos-addons/blob/28d2b00bfd3f5d09bb65d5bf3245a6b87ed1d67b/pos_longpolling/static/src/js/pos_longpolling.js#L97>`__)
 
 Let's check  example of usage taking as a basis ``Sync Partners in POS`` module:
 
@@ -33,12 +33,12 @@ Sync Partners in POS module
 
 This `module <https://github.com/it-projects-llc/pos-addons/blob/907b16cc3a4ea613bf4fc81891a03739405e57a7/pos_partner_sync/>`__ on each partner update (in Backend) notifies POSes to update partner data.
 
-Here you can see how it uses **pos_longpolling**:
+Here you can see how it uses ``pos_longpolling``:
 
 BACKEND
 -------
 
-* On partner update **send_field_updates**  `method. <https://github.com/it-projects-llc/pos-addons/blob/907b16cc3a4ea613bf4fc81891a03739405e57a7/pos_partner_sync/models/res_partner.py#L39-L43::>`__ is called:
+* On partner update ``send_field_updates``  `method. <https://github.com/it-projects-llc/pos-addons/blob/907b16cc3a4ea613bf4fc81891a03739405e57a7/pos_partner_sync/models/res_partner.py#L39-L43::>`__ is called:
 
 .. code-block:: python
 
@@ -48,7 +48,7 @@ BACKEND
         data = {'message': 'update_partner_fields', 'action': action, 'partner_ids': partner_ids}
         self.env['pos.config'].send_to_all_poses(channel_name, data)
 
-* It uses **send_to_all_poses** `method <https://github.com/it-projects-llc/pos-addons/blob/907b16cc3a4ea613bf4fc81891a03739405e57a7/pos_partner_sync/models/res_partner.py#L43>`__.
+* It uses ``send_to_all_poses`` method.
 
 CLIENT
 ------
@@ -65,7 +65,7 @@ CLIENT
         });
     },
 
-* On notification we call **load_new_partners** to update partner's data. There after the ``PosModel`` is loaded we add a new `channel <https://github.com/it-projects-llc/pos-addons/blob/e471b4af2f062852d256d46c200e582b0f20d0ad/pos_partner_sync/static/src/js/pos_partner_sync.js#L20-L38>`__ **pos_partner_sync** with related handler function **on_barcode_updates**:
+* On notification ``load_new_partners`` is called, which reloads partner data. There after the ``PosModel`` is loaded we add a new `channel <https://github.com/it-projects-llc/pos-addons/blob/e471b4af2f062852d256d46c200e582b0f20d0ad/pos_partner_sync/static/src/js/pos_partner_sync.js#L20-L38>`__ **pos_partner_sync** with related handler function **on_barcode_updates**:
 
 .. code-block:: js
 

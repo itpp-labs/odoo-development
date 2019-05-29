@@ -2,10 +2,10 @@
  Multi-session Support
 =======================
 
-``pos_multi_session`` is a module, which allows synchronizing data in POSes within one multi_session.
+``pos_multi_session`` is a `module <https://www.odoo.com/apps/modules/10.0/pos_multi_session/>`__, which allows synchronizing data in POSes within one multi_session.
 
 In order to synchronize new user data Order or Orderline models of one POS with others, you no need to add a new module ``pos_multi_session`` into ``depends`` on your module, you need to extend such methods as ``export_as_JSON``, ``init_from_JSON`` and add the method ``apply_ms_data``,
-which is used for compatibility with `module <https://www.odoo.com/apps/modules/10.0/pos_multi_session/>`__ .
+which is used for compatibility with .
 
 Сonsider the **Example of synchronization for the Order model.**
 

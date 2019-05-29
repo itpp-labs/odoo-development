@@ -7,4 +7,4 @@ XML
    xpath
    qweb
    inherit
-   group-id-in-views
+   group_id_in_views
