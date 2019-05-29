@@ -36,6 +36,6 @@ so it can be called with the next `code:
 .. code-block:: js
 
     this.gui.show_popup('qr_scan',{
-        'title': 'QR Scanning',
-        'value': false,
+      'title': 'QR Scanning',
+      'value': false,
     });

@@ -21,21 +21,21 @@ Here is an `example <https://github.com/it-projects-llc/pos-addons/blob/fb8b072/
 .. code-block:: js
 
     odoo.define('pos_debt_notebook.pos', function (require) {
-        "use strict";
+      "use strict";
 
-        var models = require('point_of_sale.models');
+    var models = require('point_of_sale.models');
 
-        // save original class
-        var _super_posmodel = models.PosModel.prototype;
-        // override original class with extended one
-        models.PosModel = models.PosModel.extend({
-            initialize: function (session, attributes) {
-                var self = this;
-                // some new code in this method
-                models.load_fields('product.product',['credit_product']);
-                // call original method via "apply"
-                _super_posmodel.initialize.apply(this, arguments);
-        },
+      // save original class
+    var _super_posmodel = models.PosModel.prototype;
+      // override original class with extended one
+      models.PosModel = models.PosModel.extend({
+        initialize: function (session, attributes) {
+          var self = this;
+          // some new code in this method
+          models.load_fields('product.product',['credit_product']);
+          // call original method via "apply"
+          _super_posmodel.initialize.apply(this, arguments);
+      },
     })
 
 Widget
@@ -50,18 +50,18 @@ Here is an `example <https://github.com/it-projects-llc/pos-addons/blob/fb8b072/
 .. code-block:: js
 
     odoo.define('pos_debt_notebook.pos', function (require) {
-    "use strict";
-    var screens = require('point_of_sale.screens');
+      "use strict";
+      var screens = require('point_of_sale.screens');
 
-    // "include" updates original method
-        screens.PaymentScreenWidget.include({
-            init: function(parent, options) {
-            // call super in a easy way
-            this._super(parent, options);
-            // add some new code
-            this.pos.on('updateDebtHistory', function(partner_ids){
-                this.update_debt_history(partner_ids);
-            }, this);
+      // "include" updates original method
+      screens.PaymentScreenWidget.include({
+        init: function(parent, options) {
+        // call super in a easy way
+        this._super(parent, options);
+        // add some new code
+        this.pos.on('updateDebtHistory', function(partner_ids){
+          this.update_debt_history(partner_ids);
+          }, this);
         },
-    })
+      })
     })

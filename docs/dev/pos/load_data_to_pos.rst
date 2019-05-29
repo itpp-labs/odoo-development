@@ -33,52 +33,51 @@ There is no dependency management. The models must be loaded in the right order.
 
 .. code-block:: js
 
-     models: [{
-      model: [string] the name of the openerp model to load.
-      label: [string] The label displayed during load.
-      fields: [[string]|function] the list of fields to be loaded.
-          Empty Array / Null loads all fields.
-      order:  [[string]|function] the models will be ordered by
-          the provided fields
-      domain: [domain|function] the domain that determines what
-          models need to be loaded. Null loads everything
-      ids:    [[id]|function] the id list of the models that must
-          be loaded. Overrides domain.
-      context: [Dict|function] the openerp context for the model read
-      condition: [function] do not load the models if it evaluates to
-             false.
-      loaded: [function(self,model)] this function is called once the
-          models have been loaded, with the data as second argument
-          if the function returns a deferred, the next model will
-          wait until it resolves before loading.
+    models: [{
+        model: [string] the name of the openerp model to load.
+        label: [string] The label displayed during load.
+        fields: [[string]|function] the list of fields to be loaded.
+                Empty Array / Null loads all fields.
+        order:  [[string]|function] the models will be ordered by the provided fields
+        domain: [domain|function] the domain that determines what
+                models need to be loaded. Null loads everything
+        ids:    [[id]|function] the id list of the models that must
+                be loaded. Overrides domain.
+        context: [Dict|function] the openerp context for the model read
+        condition: [function] do not load the models if it evaluates to
+                false.
+        loaded: [function(self,model)] this function is called once the
+                models have been loaded, with the data as second argument
+                if the function returns a deferred, the next model will
+                wait until it resolves before loading.
      }]
 
-     options:
-       before: [string] The model will be loaded before the named models
-           (applies to both model name and label)
-       after:  [string] The model will be loaded after the (last loaded)
-           named model. (applies to both model name and label)
+    options:
+        before: [string] The model will be loaded before the named models
+                (applies to both model name and label)
+        after:  [string] The model will be loaded after the (last loaded)
+                named model. (applies to both model name and label)
 
 
 Example below uploads all records meet the domain ``account.invoice`` model.
 
-The ``loaded`` function is a handler for uploaded data.
+The **loaded** function is a handler for uploaded data.
 
-Here you can proceed and save this `example, <https://github.com/it-projects-llc/pos-addons/blob/d0323907e35082d6d10416c2f7ef8497aa47dc31/pos_invoice_pay/static/src/js/main.js#L51-L64::>`__ which is taken from ``Pay Sale Orders & Invoices over POS`` module:
+Here you can proceed and save this `example <https://github.com/it-projects-llc/pos-addons/blob/d0323907e35082d6d10416c2f7ef8497aa47dc31/pos_invoice_pay/static/src/js/main.js#L51-L64::>`__ which is taken from ``Pay Sale Orders & Invoices over POS`` module:
 
 .. code-block:: js
 
     var models = require('point_of_sale.models');
-    models.load_models({
-			model: 'account.invoice',
-			fields: ['name', 'partner_id', 'date_invoice', 'number', 'date_due', 'origin', 'user_id ', 'residual ', 'state ', 'amount_untaxed ', 'amount_tax '],
-            domain: [['state', '=', 'open'],['type', '=', 'out_invoice']],
-				loaded: function (self, invoices) {
-					var invoices_ids = _.pluck(invoices, 'id');
-					self.prepare_invoices_data(invoices);
-					self.invoices = invoices;
-					self.db.add_invoices(invoices);
-					self.get_invoice_lines(invoices_ids);
-                }
+      models.load_models({
+        model: 'account.invoice',
+        fields: ['name', 'partner_id', 'date_invoice', 'number', 'date_due', 'origin', 'user_id ', 'residual ', 'state ', 'amount_untaxed ', 'amount_tax '],
+        domain: [['state', '=', 'open'],['type', '=', 'out_invoice']],
+        loaded: function (self, invoices) {
+          var invoices_ids = _.pluck(invoices, 'id');
+          self.prepare_invoices_data(invoices);
+          self.invoices = invoices;
+          self.db.add_invoices(invoices);
+          self.get_invoice_lines(invoices_ids);
+      }
     });
 
