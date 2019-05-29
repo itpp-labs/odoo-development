@@ -42,7 +42,10 @@ In order to do it we:
 
 .. code-block:: js
 
-    // here we collect custom fields as ``canceled_lines``, ``reason``, ``is_cancelled`` to save them on the server side
+    /* canceled_lines is used only on the client side
+    to cache those data in order to prevent misbehavior
+    in case the page was refreshed
+    */
     export_as_JSON: function() {
       var data = _super_order.export_as_JSON.apply(this, arguments);
       data.canceled_lines = this.canceled_lines || [];
