@@ -65,7 +65,7 @@ CLIENT
         });
     },
 
-* On notification ``load_new_partners`` is called, which reloads partner data. There after the ``PosModel`` is loaded we add a new `channel <https://github.com/it-projects-llc/pos-addons/blob/e471b4af2f062852d256d46c200e582b0f20d0ad/pos_partner_sync/static/src/js/pos_partner_sync.js#L20-L38>`__ **pos_partner_sync** with related handler function **on_barcode_updates**:
+* On notification `on_barcode_updates <https://github.com/it-projects-llc/pos-addons/blob/e471b4af2f062852d256d46c200e582b0f20d0ad/pos_partner_sync/static/src/js/pos_partner_sync.js#L20-L38>`__ is called, which reloads partner data:
 
 .. code-block:: js
 
