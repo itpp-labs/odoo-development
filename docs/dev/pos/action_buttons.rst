@@ -11,6 +11,7 @@
 * ``Split``
 * ``Order``
 * ``Discount``
+* etc.
 
 that are located above **Numpad**.
 
