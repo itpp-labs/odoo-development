@@ -6,11 +6,11 @@ It is a custom odoo `module <https://github.com/it-projects-llc/pos-addons/tree/
 
 It provides following methods in *Backend side*:
 
-* ``self.env['pos.config].send_to_all_poses(channel_name, data)``:broadcasts messages to all opened POSes  (see `example <https://github.com/it-projects-llc/pos-addons/blob/28d2b00bfd3f5d09bb65d5bf3245a6b87ed1d67b/pos_longpolling/models/pos_longpolling_models.py#L49-L53>`__)
+* ``self.env['pos.config].send_to_all_poses(channel_name, data)``: broadcasts messages to all opened POSes  (see `example <https://github.com/it-projects-llc/pos-addons/blob/28d2b00bfd3f5d09bb65d5bf3245a6b87ed1d67b/pos_longpolling/models/pos_longpolling_models.py#L49-L53>`__)
 
-* ``pos_set._send_to_channel(channel_name, data)``:broadcasts message to the POSes in ``pos_set`` (see `example <https://github.com/it-projects-llc/pos-addons/blob/28d2b00bfd3f5d09bb65d5bf3245a6b87ed1d67b/pos_longpolling/models/pos_longpolling_models.py#L22-L31>`__)
+* ``pos_set._send_to_channel(channel_name, data)``: broadcasts message to the POSes in ``pos_set`` (see `example <https://github.com/it-projects-llc/pos-addons/blob/28d2b00bfd3f5d09bb65d5bf3245a6b87ed1d67b/pos_longpolling/models/pos_longpolling_models.py#L22-L31>`__)
 
-* ``_send_to_channel_by_id(self, dbname, pos_id, channel_name)``:sends message to exact POS ``pos_id``, uses data base name ``dbname`` , ``channel_name``, ``message='PONG'`` (see `example <https://github.com/it-projects-llc/pos-addons/blob/28d2b00bfd3f5d09bb65d5bf3245a6b87ed1d67b/pos_longpolling/models/pos_longpolling_models.py#L34-L38>`__)
+* ``_send_to_channel_by_id(self, dbname, pos_id, channel_name)``: sends message to exact POS ``pos_id``, uses data base name ``dbname`` , ``channel_name``, ``message='PONG'`` (see `example <https://github.com/it-projects-llc/pos-addons/blob/28d2b00bfd3f5d09bb65d5bf3245a6b87ed1d67b/pos_longpolling/models/pos_longpolling_models.py#L34-L38>`__)
 
 .. note::
 
@@ -18,13 +18,13 @@ It provides following methods in *Backend side*:
 
 For *Client side* the methods are:
 
-* **add_bus(key, sync_server)**: allows to create additional Bus to sync data with another Sync Server (see `example <https://github.com/it-projects-llc/pos-addons/blob/4b9385b71f13f5df993317196d23972b65a7c2f8/pos_multi_session/static/src/js/pos_multi_session.js#L146>`__ in **pos_multi_session** - it gets data from local server to speed up synchronization).
+* ``add_bus(key, sync_server)``: allows to create additional Bus to sync data with another Sync Server (see `example <https://github.com/it-projects-llc/pos-addons/blob/4b9385b71f13f5df993317196d23972b65a7c2f8/pos_multi_session/static/src/js/pos_multi_session.js#L146>`__ in ``pos_multi_session`` - it gets data from local server to speed up synchronization)
 
 .. note::
 
     You don't need to use ``add_bus`` if you connect with your regular odoo server.
 
-* ``add_channel_callback: function(channel_name, callback, thisArg)``:subscribes to specific channel (see `example <https://github.com/it-projects-llc/pos-addons/blob/28d2b00bfd3f5d09bb65d5bf3245a6b87ed1d67b/pos_longpolling/static/src/js/pos_longpolling.js#L97>`__)
+* ``add_channel_callback: function(channel_name, callback, thisArg)``: subscribes to specific channel (see `example <https://github.com/it-projects-llc/pos-addons/blob/28d2b00bfd3f5d09bb65d5bf3245a6b87ed1d67b/pos_longpolling/static/src/js/pos_longpolling.js#L97>`__)
 
 Let's check  example of usage taking as a basis ``Sync Partners in POS`` module:
 
