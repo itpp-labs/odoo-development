@@ -52,7 +52,7 @@ In order to do it we:
       // updata data to be sent to the server
       data.reason = this.reason;
       data.is_cancelled = this.is_cancelled;
-    return data;
+      return data;
     },
 
 
