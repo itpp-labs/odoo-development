@@ -8,8 +8,9 @@ Point of Sale (POS)
    odoo-define
    inheritance
    action-buttons
+   dom-cache
    gui
-   cache
+   custom-order-data
    custom-popup
    custom-receipt
    custom-screen
