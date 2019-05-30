@@ -42,16 +42,17 @@ In order to do it we:
 
 .. code-block:: js
 
-    /* canceled_lines is used only on the client side
-    to cache those data in order to prevent misbehavior
-    in case the page was refreshed
-    */
     export_as_JSON: function() {
       var data = _super_order.export_as_JSON.apply(this, arguments);
+      /* canceled_lines is used only on the client side
+      to cache those data in order to prevent misbehavior
+      in case the page was refreshed
+      */
       data.canceled_lines = this.canceled_lines || [];
+      // updata data to be sent to the server
       data.reason = this.reason;
       data.is_cancelled = this.is_cancelled;
-      return data;
+    return data;
     },
 
 

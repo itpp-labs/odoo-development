@@ -18,7 +18,7 @@ It provides following methods in *Backend side*:
 
 For *Client side* the methods are:
 
-* **add_bus(key, sync_server)**: allows to create additional Bus to sync data with another Sync Server (see `example <https://github.com/it-projects-llc/pos-addons/blob/4b9385b71f13f5df993317196d23972b65a7c2f8/pos_multi_session/static/src/js/pos_multi_session.js#L146>`__ in **pos_multi_session** - it gets data from local server to speed up synchronization).
+* ``add_bus(key, sync_server)``: allows to create additional Bus to sync data with another Sync Server (see `example <https://github.com/it-projects-llc/pos-addons/blob/4b9385b71f13f5df993317196d23972b65a7c2f8/pos_multi_session/static/src/js/pos_multi_session.js#L146>`__ in **pos_multi_session** - it gets data from local server to speed up synchronization).
 
 .. note::
 
@@ -65,7 +65,8 @@ CLIENT
         });
     },
 
-* On notification ``load_new_partners`` is called, which reloads partner data. There after the ``PosModel`` is loaded we add a new `channel <https://github.com/it-projects-llc/pos-addons/blob/e471b4af2f062852d256d46c200e582b0f20d0ad/pos_partner_sync/static/src/js/pos_partner_sync.js#L20-L38>`__ **pos_partner_sync** with related handler function **on_barcode_updates**:
+* On notification ``load_new_partners`` is called, which reloads partner data. There after the ``PosModel`` is loaded we add a new `channel <https://github.com/it-projects-llc/pos-addons/blob/e471b4af2f062852d256d46c200e582b0f20d0ad/pos_partner_sync/static/src/js/pos_partner_sync.js#L20-L38>`__ ``pos_partner_sync`` with related handler function ``on_barcode_updates``:
+
 
 .. code-block:: js
 
