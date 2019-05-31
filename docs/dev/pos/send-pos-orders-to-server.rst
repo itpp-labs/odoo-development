@@ -9,7 +9,7 @@ The general process is as follows:
 
 Client side:
 
-* ``export_as_JSON``: combines *order data* to send to the server
+* ``export_as_JSON``: converts *order data* to send to the server
 
 * then *order* is saved to browser cache
 
