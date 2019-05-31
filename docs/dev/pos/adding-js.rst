@@ -10,7 +10,7 @@ Let take the example of the ``POS Debt & Credit notebook`` `module: <https://git
 
     <template id="assets" inherit_id="point_of_sale.assets">
       <xpath expr="." position="inside">
-      <script type="text/javascript" src="/pos_debt_notebook/static/src/js/pos.js" />
+        <script type="text/javascript" src="/pos_debt_notebook/static/src/js/pos.js" />
         <link rel="stylesheet" href="/pos_debt_notebook/static/src/css/pos.css" id="pos_debt_notebook-stylesheet" />
       </xpath>
     </template>
