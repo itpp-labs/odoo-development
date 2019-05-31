@@ -39,6 +39,6 @@ This `module <https://github.com/it-projects-llc/pos-addons/blob/12.0/pos_order_
 
 When you add the note to your Order, the trigger which calls ``export_as_JSON`` launches to convert data of current order into string (including notes) and save it in browser storage.
 
-While loading POS in order to get saved notes from the browser storage, you need to use ``init_from_JSON`` function.
+While loading POS in order to get saved notes from the browser storage, you need to extend ``init_from_JSON`` function.
 
 Without this code, your module will work, but if you reload POS, your notes will not be presented (because they are not saved).
