@@ -40,6 +40,7 @@
     lxc network attach ${LXD_NETWORK} ${CONTAINER} eth0
     lxc config device set ${CONTAINER} eth0 ipv4.address ${LOCAL_IP}
     lxc config set ${CONTAINER} security.privileged true
+    lxc config device add ${CONTAINER} sharedcache disk path=/root/.cache source=/var/lxc/share/cache
 
     # forward ssh port
     iptables -t nat -A PREROUTING -p tcp -i eth0 --dport ${PORT} -j DNAT \
