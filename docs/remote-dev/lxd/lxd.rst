@@ -60,7 +60,8 @@
     # install some packages
     lxc exec  ${CONTAINER} -- apt update
     lxc exec  ${CONTAINER} -- apt dist-upgrade -y
-    lxc exec  ${CONTAINER} -- apt install docker.io htop nginx -y
+    lxc exec  ${CONTAINER} -- apt install docker.io htop nginx python3-pip -y
+    lxc exec  ${CONTAINER} -- pip install odooup -y
 
     ## nginx on host machine
     cd /tmp/
