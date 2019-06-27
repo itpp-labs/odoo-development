@@ -33,7 +33,7 @@
     CONTAINER="${GITHUB_USERNAME}"
     SERVER_DOMAIN="${GITHUB_USERNAME}.dev.it-projects.info"
     NGINX_CONF="dev-${GITHUB_USERNAME}.conf"
-    LOCAL_IP="10.0.3.123"  # use one from network subnet
+    LOCAL_IP="10.37.82.123"  # use one from network subnet
     PORT="10100"  # unique per each developer
 
     lxc init ubuntu-daily:16.04 ${CONTAINER} -p default -p docker
