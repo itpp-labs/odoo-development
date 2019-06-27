@@ -43,7 +43,7 @@
     lxc config device add ${CONTAINER} sharedcache disk path=/root/.cache source=/var/lxc/share/cache
 
     # forward ssh port
-    iptables -t nat -A PREROUTING -p tcp -i eth0 --dport ${PORT} -j DNAT \
+    iptables -t nat -A PREROUTING -p tcp --dport ${PORT} -j DNAT \
       --to-destination ${LOCAL_IP}:22
       
     # save iptables record. Otherwise it's disappeared after rebooting
