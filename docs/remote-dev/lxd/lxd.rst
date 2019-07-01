@@ -63,7 +63,7 @@
     lxc exec  ${CONTAINER} -- apt dist-upgrade -y
     lxc exec  ${CONTAINER} -- apt install docker.io htop python3-pip -y
     lxc exec  ${CONTAINER} -- ln -s /usr/bin/pip3 /usr/bin/pip
-    lxc exec  ${CONTAINER} -- pip3 install odooup -y
+    lxc exec  ${CONTAINER} -- pip install odooup
     # https://docs.docker.com/v17.09/compose/install/#install-compose
     lxc exec  ${CONTAINER} -- curl -L https://github.com/docker/compose/releases/download/1.18.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
     lxc exec  ${CONTAINER} -- chmod +x /usr/local/bin/docker-compose
