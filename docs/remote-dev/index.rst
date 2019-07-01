@@ -17,7 +17,7 @@ Usage
 
    ../admin/install
    ssh-forwarding
-   edit-remote-files
+   run-local-files-remotely
    x2go
    x2goclient
 
