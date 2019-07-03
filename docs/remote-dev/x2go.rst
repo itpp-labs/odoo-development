@@ -22,4 +22,12 @@ x2go allows you to run remotely browser (or any other application on x-server)
 
 * note the root/dockerx passwords
 
+* Optionaly. Add ssh keys to authorize without password:
+
+.. code-block:: sh
+
+ PUB_KEY=$(curl --silent https://github.com/YOUR_GITHUB_ACCOUNT.keys)  # Be sure that you have added ssh keys on github
+ docker exec -i -u dockerx -t x2go bash -c "mkdir ~/.ssh && echo '$PUB_KEY' >> ~/.ssh/authorized_keys"
+
+
 * port ``2222`` is available now on your localhost, connect to it using :doc:`x2go client <x2goclient>`
