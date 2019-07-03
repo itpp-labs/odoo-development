@@ -31,5 +31,7 @@
 
  Host : localhost
  Port : 2222
+ [x] Try auto Login
+ Input / Output: Use Whole Display
  Username : dockerx
  Password : (get it from the Docker logs when starting the server container)
