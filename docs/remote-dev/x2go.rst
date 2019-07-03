@@ -16,7 +16,7 @@ x2go allows you to run remotely browser (or any other application on x-server)
 
 .. code-block:: sh
 
- docker run --name x2go -p 2222:22 -t -d paimpozhil/docker-x2go-xubuntu || docker start x2go
+ docker run --privileged --name x2go -p 2222:22 -t -d paimpozhil/docker-x2go-xubuntu || docker start x2go
  docker logs x2go 
 
 
