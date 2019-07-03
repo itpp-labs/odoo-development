@@ -31,6 +31,7 @@
 
  Host : localhost
  Port : 2222
+ Session type: xfce
  [x] Try auto Login
  Input / Output: Use Whole Display
  Username : dockerx
