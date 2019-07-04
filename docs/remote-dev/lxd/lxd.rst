@@ -75,7 +75,7 @@
     lxc exec ${CONTAINER} -- sudo -u "noroot" sed -i "s/01;32m/01;93m/" /home/noroot/.bashrc
     # Manage Docker as a non-root user https://docs.docker.com/install/linux/linux-postinstall/
     lxc exec ${CONTAINER} -- usermod -aG docker noroot
-    lxc exec ${CONTAINER} -- usermod -aG sudo username
+    lxc exec ${CONTAINER} -- usermod -aG sudo noroot
 
     # install some packages
     lxc exec  ${CONTAINER} -- apt update
