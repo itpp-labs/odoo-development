@@ -70,6 +70,8 @@
     lxc exec ${CONTAINER} -- sudo -u "noroot" bash -c "mkdir -p /home/noroot/.ssh"
     lxc exec ${CONTAINER} -- sudo -u "noroot" bash -c "curl --silent https://github.com/${GITHUB_USERNAME}.keys >> /home/noroot/.ssh/authorized_keys"
     lxc exec ${CONTAINER} -- sudo -u "noroot" sed -i "s/01;32m/01;93m/" /home/noroot/.bashrc
+    # Manage Docker as a non-root user https://docs.docker.com/install/linux/linux-postinstall/
+    lxc exec ${CONTAINER} -- usermod -aG docker noroot
 
     # install some packages
     lxc exec  ${CONTAINER} -- apt update
