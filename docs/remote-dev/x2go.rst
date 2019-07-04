@@ -73,10 +73,3 @@ X2GO Client
  Username: noroot
 
 
-* Once you connected, fix a `firefox bug <https://bugzilla.mozilla.org/show_bug.cgi?id=1283089>`_:
-
-  * run firefox
-  * open new page and type ``about:config``
-  * *Accept the risk*
-  * find config ``gfx.xrender.enabled`` and set value to ``True``
-  * restart firefox
