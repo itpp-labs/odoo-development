@@ -60,7 +60,7 @@
     sudo netfilter-persistent reload
 
     lxc start ${CONTAINER}
-    lxc exex ${CONTAINER} -- adduser noroot --disabled-password --gecos ""
+    lxc exec ${CONTAINER} -- adduser noroot --disabled-password --gecos ""
     lxc exec ${CONTAINER} -- mkdir -p /root/.ssh
     lxc exec ${CONTAINER} -- bash -c "curl --silent https://github.com/${GITHUB_USERNAME}.keys >> /root/.ssh/authorized_keys"
     # colorize prompt:
