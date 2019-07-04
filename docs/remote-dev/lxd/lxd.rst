@@ -67,6 +67,9 @@
     lxc exec ${CONTAINER} -- sed -i "s/#force_color_prompt=yes/force_color_prompt=yes/" /root/.bashrc
     lxc exec ${CONTAINER} -- sed -i "s/01;32m/01;36m/" /root/.bashrc
     # access for noroot
+    PASS="$(< /dev/urandom tr -dc _A-Za-z0-9 | head -c${1:-32};echo;)"
+    lxc exec ${CONTAINER} -- bash -c "echo $PASS > /root/noroot-password"    
+    lxc exec ${CONTAINER} -- bash -c "echo noroot:$PASS | chpasswd "    
     lxc exec ${CONTAINER} -- sudo -u "noroot" bash -c "mkdir -p /home/noroot/.ssh"
     lxc exec ${CONTAINER} -- sudo -u "noroot" bash -c "curl --silent https://github.com/${GITHUB_USERNAME}.keys >> /home/noroot/.ssh/authorized_keys"
     lxc exec ${CONTAINER} -- sudo -u "noroot" sed -i "s/01;32m/01;93m/" /home/noroot/.bashrc
