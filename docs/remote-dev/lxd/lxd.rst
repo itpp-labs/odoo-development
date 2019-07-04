@@ -76,7 +76,10 @@
     # Manage Docker as a non-root user https://docs.docker.com/install/linux/linux-postinstall/
     lxc exec ${CONTAINER} -- usermod -aG docker noroot
     lxc exec ${CONTAINER} -- usermod -aG sudo noroot
+    lxc exec ${CONTAINER} -- locale-gen --purge en_US.UTF-8
+    lxc exec ${CONTAINER} -- bash -c "echo -e 'LANG=\"en_US.UTF-8\"\nLANGUAGE=\"en_US:en\"\n' > /etc/default/locale"
 
+    
     # install some packages
     lxc exec  ${CONTAINER} -- apt update
     lxc exec  ${CONTAINER} -- apt dist-upgrade -y
