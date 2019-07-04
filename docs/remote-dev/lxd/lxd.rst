@@ -60,11 +60,16 @@
     sudo netfilter-persistent reload
 
     lxc start ${CONTAINER}
+    lxc exex ${CONTAINER} -- adduser noroot --disabled-password --gecos ""
     lxc exec ${CONTAINER} -- mkdir -p /root/.ssh
     lxc exec ${CONTAINER} -- bash -c "curl --silent https://github.com/${GITHUB_USERNAME}.keys >> /root/.ssh/authorized_keys"
     # colorize prompt:
     lxc exec ${CONTAINER} -- sed -i "s/#force_color_prompt=yes/force_color_prompt=yes/" /root/.bashrc
     lxc exec ${CONTAINER} -- sed -i "s/01;32m/01;36m/" /root/.bashrc
+    # access for noroot
+    lxc exec ${CONTAINER} -- sudo -u "noroot" bash -c "mkdir -p /home/noroot/.ssh"
+    lxc exec ${CONTAINER} -- sudo -u "noroot" bash -c "curl --silent https://github.com/${GITHUB_USERNAME}.keys >> /home/noroot/.ssh/authorized_keys"
+    lxc exec ${CONTAINER} -- sudo -u "noroot" sed -i "s/01;32m/01;93m/" /home/noroot/.bashrc
 
     # install some packages
     lxc exec  ${CONTAINER} -- apt update
