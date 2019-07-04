@@ -1,33 +1,82 @@
-=======================
- Deploying x2go server 
-=======================
+=========================
+ Remote desktop via X2GO
+=========================
+
+Deploying X2GO server
+=====================
 
 x2go allows you to run remotely browser (or any other application on x-server)
 
 
-* Connect to your server using port forwarding (``-L`` option), e.g.
-
-.. code-block:: sh
-
-   ssh -L 2222:localhost:2222 user@server.example.com -p 22
-
-* Start `x2go server <https://hub.docker.com/r/paimpozhil/docker-x2go-xubuntu/>`_ on 2222 port
+* Connect to your server:
+* `install x2go server <https://wiki.x2go.org/doku.php/doc:installation:x2goserver>`_ :
 
 
 .. code-block:: sh
 
- docker run --privileged --name x2go -p 2222:22 -t -d paimpozhil/docker-x2go-xubuntu || docker start x2go
- docker logs x2go 
+ sudo add-apt-repository ppa:x2go/stable
+ sudo apt-get update
+ sudo apt-get install x2goserver x2goserver-xsession
 
 
-* note the root/dockerx passwords
-
-* Optionaly. Add ssh keys to authorize without password:
+* install desktop environment you prefer, e.g. LXDE:
 
 .. code-block:: sh
 
- PUB_KEY=$(curl --silent https://github.com/YOUR_GITHUB_ACCOUNT.keys)  # Be sure that you have added ssh keys on github
- docker exec -i -u dockerx -t x2go bash -c "mkdir ~/.ssh && echo '$PUB_KEY' >> ~/.ssh/authorized_keys"
+ sudo apt-get install lubuntu-desktop
+ # choose lightdm
+
+* Install browser `Pale Moon <http://linux.palemoon.org>`_
+
+.. code-block:: sh
+
+ # http://linux.palemoon.org
+ sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/stevenpusser/xUbuntu_16.04/ /' > /etc/apt/sources.list.d/home:stevenpusser.list"
+ sudo apt-get update
+ sudo apt-get install palemoon -y
+
+X2GO Client
+===========
+
+* :doc:`Run or start x2go server container <x2go>`
+* install ``x2goclient``
+
+  Ubuntu:
+
+  .. code-block:: sh
+
+      sudo add-apt-repository ppa:x2go/stable
+      sudo apt-get update
+      sudo apt-get install x2goclient
+
+  References:
+
+  * https://www.howtoforge.com/tutorial/x2go-server-ubuntu-14-04/
+  * http://wiki.x2go.org/doku.php/doc:installation:x2goclient
+
+* Run client:
+
+.. code-block:: sh
+
+   x2goclient
 
 
-* port ``2222`` is available now on your localhost, connect to it using :doc:`x2go client <x2goclient>`
+* create a new session with the settings below and connect to it (we assume that you have user named "noroot" with ssh keys configured):
+
+::
+
+ Host : YOUHOST
+ Port : 22
+ Session type: LXDE
+ [x] Try auto Login
+ Input / Output: Use Whole Display
+ Username: noroot
+
+
+* Once you connected, fix a `firefox bug <https://bugzilla.mozilla.org/show_bug.cgi?id=1283089>`_:
+
+  * run firefox
+  * open new page and type ``about:config``
+  * *Accept the risk*
+  * find config ``gfx.xrender.enabled`` and set value to ``True``
+  * restart firefox

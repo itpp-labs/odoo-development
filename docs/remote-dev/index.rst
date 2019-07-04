@@ -19,7 +19,6 @@ Usage
    ssh-forwarding
    run-local-files-remotely
    x2go
-   x2goclient
 
 Containers administration
 =========================
