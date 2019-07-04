@@ -38,7 +38,6 @@ x2go allows you to run remotely browser (or any other application on x-server)
 X2GO Client
 ===========
 
-* :doc:`Run or start x2go server container <x2go>`
 * install ``x2goclient``
 
   Ubuntu:
