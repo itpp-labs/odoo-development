@@ -11,7 +11,7 @@
 
     "author": "IT-Projects LLC, {DEVELOPER_NAME}",
     "support": "apps@it-projects.info",
-    "website": "https://it-projects.info/team/{DEVELOPER_GITHUB_USERNAME}",
+    "website": "https://apps.odoo.com/apps/modules/{VERSION}/{TECHNICAL_NAME}/",
     "license": "LGPL-3",
     # "price": 9.00,
     # "currency": "EUR",
