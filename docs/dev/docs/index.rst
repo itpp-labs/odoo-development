@@ -163,8 +163,8 @@ Update templates:
     sed -i "s/{REPO_NAME}/${REPO_NAME}/g" README.rst
     sed -i "s/{ODOO_BRANCH}/${ODOO_BRANCH}/g" __manifest__.py
     sed -i "s/{BRANCH}/${ODOO_BRANCH}/g" README.rst 
-    sed -i "s/{TECHNICAL_NAME}/${TECHNICAL_NAME}/g" README.rst
-    sed -i "s/{VERSION}/${ODOO_BRANCH}/g" README.rst
+    sed -i "s/{TECHNICAL_NAME}/${TECHNICAL_NAME}/g" README.rst __manifest__.py
+    sed -i "s/{VERSION}/${ODOO_BRANCH}/g" README.rst __manifest__.py
     sed -i "s/{ODOO_COMMIT_SHA_TO_BE_UPDATED}/${ODOO_REVISION}/g" README.rst
 
 
