@@ -14,8 +14,8 @@ x2go allows you to run remotely browser (or any other application on x-server)
 
 .. code-block:: sh
 
- sudo add-apt-repository ppa:x2go/stable
- sudo apt-get update
+ sudo add-apt-repository ppa:x2go/stable && \
+ sudo apt-get update && \
  sudo apt-get install x2goserver x2goserver-xsession
 
 
