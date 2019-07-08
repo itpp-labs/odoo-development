@@ -16,7 +16,7 @@ x2go allows you to run remotely browser (or any other application on x-server)
 
  sudo add-apt-repository ppa:x2go/stable && \
  sudo apt-get update && \
- sudo apt-get install x2goserver x2goserver-xsession
+ sudo apt-get install -y x2goserver x2goserver-xsession
 
 
 * install desktop environment you prefer, e.g. LXDE:
