@@ -36,11 +36,11 @@
     LOCAL_IP="10.37.82.100"  # use one from network subnet
     PORT="10100"  # unique per each developer
 
-    lxc init ubuntu-daily:16.04 ${CONTAINER} -p default
-    lxc network attach ${LXD_NETWORK} ${CONTAINER} eth0
-    lxc config device set ${CONTAINER} eth0 ipv4.address ${LOCAL_IP}
-    lxc config device add ${CONTAINER} sharedcachenoroot disk path=/home/root/.cache source=/var/lxc/share/cache
-    lxc config set ${CONTAINER} security.privileged true
+    lxc init ubuntu-daily:16.04 ${CONTAINER} -p default && \
+    lxc network attach ${LXD_NETWORK} ${CONTAINER} eth0 && \
+    lxc config device set ${CONTAINER} eth0 ipv4.address ${LOCAL_IP} && \
+    lxc config device add ${CONTAINER} sharedcachenoroot disk path=/home/root/.cache source=/var/lxc/share/cache && \
+    lxc config set ${CONTAINER} security.privileged true && \
     # allow run docker in previliged mode. 
     # https://discuss.linuxcontainers.org/t/failed-to-write-a-rwm-to-devices-allow-operation-not-permitted-in-privileged-container/925/3
     # https://discuss.linuxcontainers.org/t/docker-cannot-write-to-devices-allow/998/3
@@ -59,39 +59,38 @@
     sudo netfilter-persistent save
     sudo netfilter-persistent reload
 
-    lxc start ${CONTAINER}
+    lxc start ${CONTAINER} && \
     # update git. See https://github.com/xoe-labs/odooup/issues/8
-    lxc exec ${CONTAINER} -- add-apt-repository ppa:git-core/ppa
-    lxc exec ${CONTAINER} -- apt-get update
-    lxc exec ${CONTAINER} -- apt-get install git
-    lxc exec ${CONTAINER} -- adduser noroot --disabled-password --gecos ""
-    lxc exec ${CONTAINER} -- mkdir -p /root/.ssh
-    lxc exec ${CONTAINER} -- bash -c "curl --silent https://github.com/${GITHUB_USERNAME}.keys >> /root/.ssh/authorized_keys"
+    lxc exec ${CONTAINER} -- add-apt-repository ppa:git-core/ppa && \
+    lxc exec ${CONTAINER} -- apt-get update && \
+    lxc exec ${CONTAINER} -- apt-get install git && \
+    lxc exec ${CONTAINER} -- adduser noroot --disabled-password --gecos "" && \
+    lxc exec ${CONTAINER} -- mkdir -p /root/.ssh && \
+    lxc exec ${CONTAINER} -- bash -c "curl --silent https://github.com/${GITHUB_USERNAME}.keys >> /root/.ssh/authorized_keys" && \
     # colorize prompt:
-    lxc exec ${CONTAINER} -- sed -i "s/#force_color_prompt=yes/force_color_prompt=yes/" /root/.bashrc
-    lxc exec ${CONTAINER} -- sed -i "s/01;32m/01;36m/" /root/.bashrc
+    lxc exec ${CONTAINER} -- sed -i "s/#force_color_prompt=yes/force_color_prompt=yes/" /root/.bashrc && \
+    lxc exec ${CONTAINER} -- sed -i "s/01;32m/01;36m/" /root/.bashrc && \
     # access for noroot
     PASS="$(< /dev/urandom tr -dc _A-Za-z0-9 | head -c${1:-32};echo;)"
-    lxc exec ${CONTAINER} -- bash -c "echo $PASS > /root/noroot-password"    
-    lxc exec ${CONTAINER} -- bash -c "echo noroot:$PASS | chpasswd "    
-    lxc exec ${CONTAINER} -- sudo -u "noroot" bash -c "mkdir -p /home/noroot/.ssh"
-    lxc exec ${CONTAINER} -- sudo -u "noroot" bash -c "curl --silent https://github.com/${GITHUB_USERNAME}.keys >> /home/noroot/.ssh/authorized_keys"
-    lxc exec ${CONTAINER} -- sudo -u "noroot" sed -i "s/01;32m/01;93m/" /home/noroot/.bashrc
+    lxc exec ${CONTAINER} -- bash -c "echo $PASS > /root/noroot-password"     && \
+    lxc exec ${CONTAINER} -- bash -c "echo noroot:$PASS | chpasswd "     && \
+    lxc exec ${CONTAINER} -- sudo -u "noroot" bash -c "mkdir -p /home/noroot/.ssh" && \
+    lxc exec ${CONTAINER} -- sudo -u "noroot" bash -c "curl --silent https://github.com/${GITHUB_USERNAME}.keys >> /home/noroot/.ssh/authorized_keys" && \
+    lxc exec ${CONTAINER} -- sudo -u "noroot" sed -i "s/01;32m/01;93m/" /home/noroot/.bashrc && \
     # Manage Docker as a non-root user https://docs.docker.com/install/linux/linux-postinstall/
-    lxc exec ${CONTAINER} -- usermod -aG docker noroot
-    lxc exec ${CONTAINER} -- usermod -aG sudo noroot
-    lxc exec ${CONTAINER} -- locale-gen --purge en_US.UTF-8
-    lxc exec ${CONTAINER} -- bash -c "echo -e 'LANG=\"en_US.UTF-8\"\nLANGUAGE=\"en_US:en\"\n' > /etc/default/locale"
-
-    
+    lxc exec ${CONTAINER} -- usermod -aG docker noroot && \
+    lxc exec ${CONTAINER} -- usermod -aG sudo noroot && \
+    lxc exec ${CONTAINER} -- locale-gen --purge en_US.UTF-8 && \
+    lxc exec ${CONTAINER} -- bash -c "echo -e 'LANG=\"en_US.UTF-8\"\nLANGUAGE=\"en_US:en\"\n' > /etc/default/locale" && \
     # install some packages
-    lxc exec  ${CONTAINER} -- apt dist-upgrade -y
-    lxc exec  ${CONTAINER} -- apt install docker.io htop python3-pip -y
-    lxc exec  ${CONTAINER} -- ln -s /usr/bin/pip3 /usr/bin/pip
-    lxc exec  ${CONTAINER} -- pip install odooup
+    lxc exec  ${CONTAINER} -- apt dist-upgrade -y && \
+    lxc exec  ${CONTAINER} -- apt install docker.io htop python3-pip -y && \
+    lxc exec  ${CONTAINER} -- ln -s /usr/bin/pip3 /usr/bin/pip && \
+    lxc exec  ${CONTAINER} -- pip install odooup && \
     # https://docs.docker.com/v17.09/compose/install/#install-compose
-    lxc exec  ${CONTAINER} -- curl -L https://github.com/docker/compose/releases/download/1.18.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+    lxc exec  ${CONTAINER} -- curl -L https://github.com/docker/compose/releases/download/1.18.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose && \
     lxc exec  ${CONTAINER} -- chmod +x /usr/local/bin/docker-compose
+
 
     ## nginx on host machine
     cd /tmp/
