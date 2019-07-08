@@ -72,7 +72,7 @@
     lxc exec  ${CONTAINER} -- pip install odooup && \
     # https://docs.docker.com/v17.09/compose/install/#install-compose
     lxc exec  ${CONTAINER} -- curl -L https://github.com/docker/compose/releases/download/1.18.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose && \
-    lxc exec  ${CONTAINER} -- chmod +x /usr/local/bin/docker-compose
+    lxc exec  ${CONTAINER} -- chmod +x /usr/local/bin/docker-compose && \
     # update git. See https://github.com/xoe-labs/odooup/issues/8
     lxc exec ${CONTAINER} -- add-apt-repository ppa:git-core/ppa -y && \
     lxc exec ${CONTAINER} -- apt-get update && \
