@@ -46,7 +46,7 @@
     lxc init ubuntu-daily:16.04 ${CONTAINER} -p default && \
     lxc network attach ${LXD_NETWORK} ${CONTAINER} eth0 && \
     lxc config device set ${CONTAINER} eth0 ipv4.address ${LOCAL_IP} && \
-    lxc config device add ${CONTAINER} sharedcachenoroot disk path=/home/root/.cache source=/var/lxc/share/cache && \
+    lxc config device add ${CONTAINER} sharedcachenoroot disk path=/home/noroot/.cache source=/var/lxc/share/cache && \
     lxc config set ${CONTAINER} security.privileged true && \
     # allow run docker in previliged mode. 
     # https://discuss.linuxcontainers.org/t/failed-to-write-a-rwm-to-devices-allow-operation-not-permitted-in-privileged-container/925/3
