@@ -62,7 +62,8 @@
     PASS="$(< /dev/urandom tr -dc _A-Za-z0-9 | head -c${1:-32};echo;)"
     lxc start ${CONTAINER} && \
     # update git. See https://github.com/xoe-labs/odooup/issues/8
-    lxc exec ${CONTAINER} -- add-apt-repository ppa:git-core/ppa && \
+    lxc exec ${CONTAINER} -- apt-get update && \
+    lxc exec ${CONTAINER} -- add-apt-repository ppa:git-core/ppa -y && \
     lxc exec ${CONTAINER} -- apt-get update && \
     lxc exec ${CONTAINER} -- apt-get install git -y && \
     lxc exec ${CONTAINER} -- adduser noroot --disabled-password --gecos "" && \
