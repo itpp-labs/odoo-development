@@ -65,6 +65,7 @@
     lxc exec ${CONTAINER} -- sed -i "s/#force_color_prompt=yes/force_color_prompt=yes/" /root/.bashrc && \
     lxc exec ${CONTAINER} -- sed -i "s/01;32m/01;36m/" /root/.bashrc && \
     # install some packages
+    lxc exec ${CONTAINER} -- apt-get update && \
     lxc exec  ${CONTAINER} -- apt dist-upgrade -y && \
     lxc exec  ${CONTAINER} -- apt install docker.io htop python3-pip -y && \
     lxc exec  ${CONTAINER} -- ln -s /usr/bin/pip3 /usr/bin/pip && \
@@ -73,7 +74,6 @@
     lxc exec  ${CONTAINER} -- curl -L https://github.com/docker/compose/releases/download/1.18.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose && \
     lxc exec  ${CONTAINER} -- chmod +x /usr/local/bin/docker-compose
     # update git. See https://github.com/xoe-labs/odooup/issues/8
-    lxc exec ${CONTAINER} -- apt-get update && \
     lxc exec ${CONTAINER} -- add-apt-repository ppa:git-core/ppa -y && \
     lxc exec ${CONTAINER} -- apt-get update && \
     lxc exec ${CONTAINER} -- apt-get install git -y && \
