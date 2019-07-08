@@ -31,8 +31,8 @@ x2go allows you to run remotely browser (or any other application on x-server)
 .. code-block:: sh
 
  # http://linux.palemoon.org
- sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/stevenpusser/xUbuntu_16.04/ /' > /etc/apt/sources.list.d/home:stevenpusser.list"
- sudo apt-get update
+ sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/stevenpusser/xUbuntu_16.04/ /' > /etc/apt/sources.list.d/home:stevenpusser.list" && \
+ sudo apt-get update && \
  sudo apt-get install palemoon
 
 X2GO Client
@@ -44,8 +44,8 @@ X2GO Client
 
   .. code-block:: sh
 
-      sudo add-apt-repository ppa:x2go/stable
-      sudo apt-get update
+      sudo add-apt-repository ppa:x2go/stable && \
+      sudo apt-get update && \
       sudo apt-get install x2goclient
 
   References:
