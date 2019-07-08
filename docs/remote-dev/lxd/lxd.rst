@@ -61,14 +61,6 @@
 
     PASS="$(< /dev/urandom tr -dc _A-Za-z0-9 | head -c${1:-32};echo;)"
     lxc start ${CONTAINER} && \
-    # update git. See https://github.com/xoe-labs/odooup/issues/8
-    lxc exec ${CONTAINER} -- apt-get update && \
-    lxc exec ${CONTAINER} -- add-apt-repository ppa:git-core/ppa -y && \
-    lxc exec ${CONTAINER} -- apt-get update && \
-    lxc exec ${CONTAINER} -- apt-get install git -y && \
-    lxc exec ${CONTAINER} -- adduser noroot --disabled-password --gecos "" && \
-    lxc exec ${CONTAINER} -- mkdir -p /root/.ssh && \
-    lxc exec ${CONTAINER} -- bash -c "curl --silent https://github.com/${GITHUB_USERNAME}.keys >> /root/.ssh/authorized_keys" && \
     # colorize prompt:
     lxc exec ${CONTAINER} -- sed -i "s/#force_color_prompt=yes/force_color_prompt=yes/" /root/.bashrc && \
     lxc exec ${CONTAINER} -- sed -i "s/01;32m/01;36m/" /root/.bashrc && \
@@ -80,6 +72,14 @@
     # https://docs.docker.com/v17.09/compose/install/#install-compose
     lxc exec  ${CONTAINER} -- curl -L https://github.com/docker/compose/releases/download/1.18.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose && \
     lxc exec  ${CONTAINER} -- chmod +x /usr/local/bin/docker-compose
+    # update git. See https://github.com/xoe-labs/odooup/issues/8
+    lxc exec ${CONTAINER} -- apt-get update && \
+    lxc exec ${CONTAINER} -- add-apt-repository ppa:git-core/ppa -y && \
+    lxc exec ${CONTAINER} -- apt-get update && \
+    lxc exec ${CONTAINER} -- apt-get install git -y && \
+    lxc exec ${CONTAINER} -- adduser noroot --disabled-password --gecos "" && \
+    lxc exec ${CONTAINER} -- mkdir -p /root/.ssh && \
+    lxc exec ${CONTAINER} -- bash -c "curl --silent https://github.com/${GITHUB_USERNAME}.keys >> /root/.ssh/authorized_keys" && \
     # access for noroot
     lxc exec ${CONTAINER} -- bash -c "echo $PASS > /root/noroot-password"     && \
     lxc exec ${CONTAINER} -- bash -c "echo noroot:$PASS | chpasswd "     && \
