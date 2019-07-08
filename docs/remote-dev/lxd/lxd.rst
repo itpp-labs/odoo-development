@@ -36,13 +36,6 @@
     LOCAL_IP="10.37.82.100"  # use one from network subnet
     PORT="10100"  # unique per each developer
 
-    lxc init ubuntu-daily:16.04 ${CONTAINER} -p default && \
-    lxc network attach ${LXD_NETWORK} ${CONTAINER} eth0 && \
-    lxc config device set ${CONTAINER} eth0 ipv4.address ${LOCAL_IP} && \
-    lxc config device add ${CONTAINER} sharedcachenoroot disk path=/home/root/.cache source=/var/lxc/share/cache && \
-    lxc config set ${CONTAINER} security.privileged true && \
-    # allow run docker in previliged mode. 
-    # https://discuss.linuxcontainers.org/t/failed-to-write-a-rwm-to-devices-allow-operation-not-permitted-in-privileged-container/925/3
     # https://discuss.linuxcontainers.org/t/docker-cannot-write-to-devices-allow/998/3
     read -r -d '' RAW_LXC <<EOF
     lxc.apparmor.profile=unconfined
@@ -50,6 +43,13 @@
     lxc.cgroup.devices.allow=a
     lxc.cap.drop=
     EOF
+    lxc init ubuntu-daily:16.04 ${CONTAINER} -p default && \
+    lxc network attach ${LXD_NETWORK} ${CONTAINER} eth0 && \
+    lxc config device set ${CONTAINER} eth0 ipv4.address ${LOCAL_IP} && \
+    lxc config device add ${CONTAINER} sharedcachenoroot disk path=/home/root/.cache source=/var/lxc/share/cache && \
+    lxc config set ${CONTAINER} security.privileged true && \
+    # allow run docker in previliged mode. 
+    # https://discuss.linuxcontainers.org/t/failed-to-write-a-rwm-to-devices-allow-operation-not-permitted-in-privileged-container/925/3
     lxc config set ${CONTAINER} raw.lxc "$RAW_LXC"
     # forward ssh port
     iptables -t nat -A PREROUTING -p tcp --dport ${PORT} -j DNAT \
