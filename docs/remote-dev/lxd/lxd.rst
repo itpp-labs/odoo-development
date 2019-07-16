@@ -62,7 +62,8 @@
     sudo netfilter-persistent reload
 
     PASS="$(< /dev/urandom tr -dc _A-Za-z0-9 | head -c${1:-32};echo;)"
-    lxc start ${CONTAINER} && \
+    lxc start ${CONTAINER}
+    
     lxc exec ${CONTAINER} -- apt-get update && \
     lxc exec  ${CONTAINER} -- apt dist-upgrade -y
 
