@@ -15,7 +15,6 @@ Usage
 .. toctree::
    :maxdepth: 1
 
-   ../admin/install
    ssh-forwarding
    run-local-files-remotely
    x2go
