@@ -61,12 +61,13 @@
 
     PASS="$(< /dev/urandom tr -dc _A-Za-z0-9 | head -c${1:-32};echo;)"
     lxc start ${CONTAINER} && \
-    # colorize prompt:
+    lxc exec ${CONTAINER} -- apt-get update && \
+    lxc exec  ${CONTAINER} -- apt dist-upgrade -y
+
+# colorize prompt:
     lxc exec ${CONTAINER} -- sed -i "s/#force_color_prompt=yes/force_color_prompt=yes/" /root/.bashrc && \
     lxc exec ${CONTAINER} -- sed -i "s/01;32m/01;36m/" /root/.bashrc && \
     # install some packages
-    lxc exec ${CONTAINER} -- apt-get update && \
-    lxc exec  ${CONTAINER} -- apt dist-upgrade -y && \
     lxc exec  ${CONTAINER} -- apt install docker.io htop python3-pip -y && \
     lxc exec  ${CONTAINER} -- ln -s /usr/bin/pip3 /usr/bin/pip && \
     lxc exec  ${CONTAINER} -- pip install odooup && \
