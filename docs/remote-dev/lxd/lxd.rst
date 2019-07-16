@@ -66,7 +66,7 @@
     lxc exec ${CONTAINER} -- apt-get update && \
     lxc exec  ${CONTAINER} -- apt dist-upgrade -y
 
-# colorize prompt:
+    # colorize prompt:
     lxc exec ${CONTAINER} -- sed -i "s/#force_color_prompt=yes/force_color_prompt=yes/" /root/.bashrc && \
     lxc exec ${CONTAINER} -- sed -i "s/01;32m/01;36m/" /root/.bashrc && \
     # install some packages
