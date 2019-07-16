@@ -95,7 +95,9 @@
     lxc exec ${CONTAINER} -- locale-gen --purge en_US.UTF-8 && \
     lxc exec ${CONTAINER} -- bash -c "echo -e 'LANG=\"en_US.UTF-8\"\nLANGUAGE=\"en_US:en\"\n' > /etc/default/locale"
 
-    lxc config device add ${CONTAINER} sharedcachenoroot disk path=/home/noroot/.cache source=/var/lxc/share/cache
+    lxc config device add ${CONTAINER} sharedcachenoroot disk path=/home/noroot/.cache source=/var/lxc/share/cache && \
+    lxc stop ${CONTAINER} && \
+    lxc start ${CONTAINER}
 
     ## nginx on host machine
     cd /tmp/
