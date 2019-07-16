@@ -1,3 +1,5 @@
+.. note:: This article is obsolete and will be removed soon
+
 ===================
  Odoo installation
 ===================
