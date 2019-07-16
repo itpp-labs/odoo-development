@@ -77,7 +77,7 @@
     lxc exec ${CONTAINER} -- add-apt-repository ppa:git-core/ppa -y && \
     lxc exec ${CONTAINER} -- apt-get update && \
     lxc exec ${CONTAINER} -- apt-get install git -y && \
-    lxc exec ${CONTAINER} -- adduser noroot --disabled-password --gecos "" && \
+    lxc exec ${CONTAINER} -- env -i bash -c 'adduser noroot --disabled-password --gecos ""' && \
     lxc exec ${CONTAINER} -- mkdir -p /root/.ssh && \
     lxc exec ${CONTAINER} -- bash -c "curl --silent https://github.com/${GITHUB_USERNAME}.keys >> /root/.ssh/authorized_keys" && \
     # access for noroot
