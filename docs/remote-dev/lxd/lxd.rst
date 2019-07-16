@@ -51,6 +51,8 @@
     # allow run docker in previliged mode. 
     # https://discuss.linuxcontainers.org/t/failed-to-write-a-rwm-to-devices-allow-operation-not-permitted-in-privileged-container/925/3
     lxc config set ${CONTAINER} raw.lxc "$RAW_LXC"
+
+
     # forward ssh port
     iptables -t nat -A PREROUTING -p tcp --dport ${PORT} -j DNAT \
       --to-destination ${LOCAL_IP}:22
