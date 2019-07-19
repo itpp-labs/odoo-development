@@ -43,7 +43,7 @@
     lxc.cgroup.devices.allow=a
     lxc.cap.drop=
     EOF
-    lxc init ubuntu-daily:16.04 ${CONTAINER} -p default && \
+    lxc init ubuntu-daily:18.04 ${CONTAINER} -p default && \
     lxc network attach ${LXD_NETWORK} ${CONTAINER} eth0 && \
     lxc config device set ${CONTAINER} eth0 ipv4.address ${LOCAL_IP} && \
     lxc config set ${CONTAINER} security.privileged true && \
