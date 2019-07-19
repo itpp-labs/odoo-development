@@ -77,6 +77,7 @@
     lxc exec  ${CONTAINER} -- curl -L https://github.com/docker/compose/releases/download/1.18.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose && \
     lxc exec  ${CONTAINER} -- chmod +x /usr/local/bin/docker-compose && \
     # update git. See https://github.com/xoe-labs/odooup/issues/8
+    # TODO: this may not be needed in ubuntu 18
     lxc exec ${CONTAINER} -- add-apt-repository ppa:git-core/ppa -y && \
     lxc exec ${CONTAINER} -- apt-get update && \
     lxc exec ${CONTAINER} -- apt-get install git -y && \
