@@ -45,8 +45,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Odoo development'
-copyright = u'2016, IT-Projects LLC'
+project = u'Odoo Development'
+copyright = u'2016-2019, IT-Projects LLC'
 author = u'IT-Projects LLC'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -109,6 +109,7 @@ import sphinx_rtd_theme
 html_theme = "sphinx_rtd_theme"
 
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+html_show_sphinx = False
 
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
