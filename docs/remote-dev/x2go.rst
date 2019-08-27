@@ -1,25 +1,74 @@
-=======================
- Deploying x2go server 
-=======================
+=========================
+ Remote desktop via X2GO
+=========================
+
+Deploying X2GO server
+=====================
 
 x2go allows you to run remotely browser (or any other application on x-server)
 
-* Start x2go server on 2222 port
 
-source: https://hub.docker.com/r/paimpozhil/docker-x2go-xubuntu/
+* Connect to your server:
+* `install x2go server <https://wiki.x2go.org/doku.php/doc:installation:x2goserver>`_ :
+
 
 .. code-block:: sh
 
- docker run --name x2go -p 2222:22 -t -d paimpozhil/docker-x2go-xubuntu
- docker logs x2go
+ sudo add-apt-repository ppa:x2go/stable && \
+ sudo apt-get update && \
+ sudo apt-get install -y x2goserver x2goserver-xsession
 
 
-* note the root/dockerx passwords
-
-* Connect to your server using port forwarding (``-L`` option), e.g.
+* install desktop environment you prefer, e.g. LXDE:
 
 .. code-block:: sh
 
-   ssh -L 2222:localhost:2222 user@server.example.com
+ sudo apt-get install lubuntu-desktop
+ # choose lightdm
 
-* port ``2222`` is available now on your localhost, connect to it using :doc:`x2go client <x2goclient>`
+* Install browser `Pale Moon <http://linux.palemoon.org>`_
+
+.. code-block:: sh
+
+ # http://linux.palemoon.org
+ sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/stevenpusser/xUbuntu_18.04/ /' > /etc/apt/sources.list.d/home:stevenpusser.list" && \
+ sudo apt-get update && \
+ sudo apt-get install palemoon
+
+X2GO Client
+===========
+
+* install ``x2goclient``
+
+  Ubuntu:
+
+  .. code-block:: sh
+
+      sudo add-apt-repository ppa:x2go/stable && \
+      sudo apt-get update && \
+      sudo apt-get install x2goclient
+
+  References:
+
+  * https://www.howtoforge.com/tutorial/x2go-server-ubuntu-14-04/
+  * http://wiki.x2go.org/doku.php/doc:installation:x2goclient
+
+* Run client:
+
+.. code-block:: sh
+
+   x2goclient
+
+
+* create a new session with the settings below and connect to it (we assume that you have user named "noroot" with ssh keys configured):
+
+::
+
+ Host : YOUHOST
+ Port : 22
+ Session type: LXDE
+ [x] Try auto Login
+ Input / Output: Use Whole Display
+ Username: noroot
+
+

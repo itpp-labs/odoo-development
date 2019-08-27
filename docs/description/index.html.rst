@@ -139,7 +139,7 @@ Text + Image
                 </p>
             </div>
             <div class="oe_span6">
-                <div class="oe_row_img oe_centered">
+                <div class="oe_row_img oe_centered" align="center">
                     <img class="oe_demo oe_picture oe_screenshot" src="IMAGE.png"/>
                 </div>
             </div>
@@ -154,7 +154,7 @@ Image + Text
     <section class="oe_container oe_dark">
         <div class="oe_row oe_spaced">
 	    <div class="oe_span6">
-                <div class="oe_row_img oe_centered">
+                <div class="oe_row_img oe_centered" align="center">
                     <img class="oe_demo oe_picture oe_screenshot" src="IMAGE.png"/>
                 </div>
             </div>

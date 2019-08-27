@@ -398,3 +398,13 @@ There is a dev running that will prevent to redefine copy by simply
 setting a copy option on fields: ::
 
   copy=False  # !! WIP to prevent redefine copy
+
+Special fields
+--------------
+
+active
+###### 
+
+TODO
+
+See https://github.com/odoo/odoo/blob/11.0/odoo/models.py#L3556-L3560

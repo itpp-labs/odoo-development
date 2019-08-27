@@ -54,6 +54,8 @@ Then, after the module was updated, Odoo search for post-migrate files by the sa
 
 *end* scripts are run after all modules have been updated.
 
+.. warning:: Migration updates are not rollbacked if some errors happened later during modules updating process. So, you shall always try to update module with migration scripts on a copy first.
+
 Example
 -------
 

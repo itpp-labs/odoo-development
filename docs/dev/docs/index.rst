@@ -62,7 +62,7 @@ Download templates:
     echo "from . import controllers" >> __init__.py
     echo "# License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl.html)." >> controllers/__init__.py
     echo "from . import main" >> controllers/__init__.py
-    echo "# Copyright 2018 {DEVELOPER_NAME} <https://it-projects.info/team/{DEVELOPER_GITHUB_USERNAME}>" >> controllers/main.py
+    echo "# Copyright 2019 {DEVELOPER_NAME} <https://it-projects.info/team/{DEVELOPER_GITHUB_USERNAME}>" >> controllers/main.py
     echo "# License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl.html)." >> controllers/main.py
 
     # only for 10.0- versions:
@@ -98,11 +98,13 @@ Update templates:
     REPO_NAME=mail-addons
     REPO_NAME=misc-addons
     REPO_NAME=odoo-saas-tools
+    REPO_NAME=saas-addons
     REPO_NAME=odoo-telegram
     REPO_NAME=pos-addons
     REPO_NAME=website-addons
 
     # Branch: choose one of the options
+    ODOO_BRANCH=12.0
     ODOO_BRANCH=11.0
     ODOO_BRANCH=10.0
     ODOO_BRANCH=9.0
@@ -111,7 +113,7 @@ Update templates:
     # to get commit sha use following inside odoo repo: "git show HEAD | head" 
     ODOO_REVISION={ODOO_COMMIT_SHA_TO_BE_UPDATED}
     # alternatively (use appropriate path to odoo source):
-    git -C ~/odoo/odoo-${ODOO_BRANCH}/odoo fetch upstream &&  export ODOO_REVISION=`git -C ~/odoo/odoo-10.0/odoo rev-parse upstream/${ODOO_BRANCH}`
+    git -C ~/odoo/odoo-${ODOO_BRANCH}/odoo fetch upstream &&  export ODOO_REVISION=`git -C ~/odoo/odoo-${ODOO_BRANCH}/odoo rev-parse upstream/${ODOO_BRANCH}`
 
 
     # Category: shoose one of the options
@@ -132,6 +134,7 @@ Update templates:
     MODULE_CATEGORY="Warehouse"
     MODULE_CATEGORY="Website"
     MODULE_CATEGORY="Extra Tools"
+    MODULE_CATEGORY="SaaS"
     MODULE_CATEGORY="Hidden"
 
     # icon: choose one of options
@@ -155,13 +158,13 @@ Update templates:
     sed -i "s/{Put some short introduction first.}/${MODULE_SUMMARY}/g" README.rst
     sed -i "s/{SHORT_DESCRIPTION_OF_THE_MODULE}/${MODULE_SUMMARY}/g" __manifest__.py
     sed -i "s/{MODULE_CATEGORY}/${MODULE_CATEGORY}/g" __manifest__.py
-    sed -i "s/{DEVELOPER_NAME}/${DEVELOPER_NAME}/g" __manifest__.py README.rst doc/index.rst
+    sed -i "s/{DEVELOPER_NAME}/${DEVELOPER_NAME}/g" __manifest__.py README.rst doc/index.rst controllers/main.py
     sed -i "s/{DEVELOPER_GITHUB_USERNAME}/${DEVELOPER_GITHUB_USERNAME}/g" __manifest__.py README.rst doc/index.rst controllers/main.py
     sed -i "s/{REPO_NAME}/${REPO_NAME}/g" README.rst
     sed -i "s/{ODOO_BRANCH}/${ODOO_BRANCH}/g" __manifest__.py
     sed -i "s/{BRANCH}/${ODOO_BRANCH}/g" README.rst 
-    sed -i "s/{TECHNICAL_NAME}/${TECHNICAL_NAME}/g" README.rst
-    sed -i "s/{VERSION}/${ODOO_BRANCH}/g" README.rst
+    sed -i "s/{TECHNICAL_NAME}/${TECHNICAL_NAME}/g" README.rst __manifest__.py
+    sed -i "s/{VERSION}/${ODOO_BRANCH}/g" README.rst __manifest__.py
     sed -i "s/{ODOO_COMMIT_SHA_TO_BE_UPDATED}/${ODOO_REVISION}/g" README.rst
 
 

@@ -1,6 +1,6 @@
-=======================
- ``10.0-`` → ``11.0+``
-=======================
+=====================================================================
+ ``10.0-`` → ``11.0+``, py2 → py3, shared Settings, sudo.get_param()
+=====================================================================
 
 New API
 =======
@@ -13,9 +13,8 @@ New API
 
     # page="True" is not used anymore
     find . -type f -name '*.xml' | xargs sed -i 's/ page="True"//g'
-
-    # coding: utf-8 is not needed anymore
-    find . -type f -name '*.py' | xargs sed -i '/# -\*- coding: utf-8 -\*-/d'
+    
+    # TODO: commands for "shared Settings" (python and xml)
 
 New references
 ==============
@@ -39,13 +38,23 @@ New references
     find . -type f -name '*.py' | xargs sed -i "s/'base_action_rule'/'base_automation'/g"
     find . -type f -name '*.py' | xargs sed -i 's/"base_action_rule"/"base_automation"/g'
 
+    # base.config.settings merged into res.config.settings
+    find . -type f -name '*.xml' -or -name "*.py"  | xargs sed -i 's/base\.config\.settings/res.config.settings/g'
+
     # kanban_record in js
     find . -type f -name '*.js' | xargs sed -i 's/web_kanban\.Record/web.KanbanRecord/g'
+
+    # Model -> rpc in require
+    find . -type f -name '*.js' | xargs sed -i "s/var Model = require('web\.Model');/var rpc = require('web\.rpc');/g"
+    find . -type f -name '*.js' | xargs sed -i 's/var Model = require("web\.Model");/var rpc = require("web\.rpc");/g'
 
 Python 3
 ========
 
 .. code-block:: sh
+
+    # coding: utf-8 is not needed anymore
+    find . -type f -name '*.py' | xargs sed -i '/# -\*- coding: utf-8 -\*-/d'
 
     # urlparse
     find . -type f -name '*.py' | xargs sed -i 's/import urlparse/import urllib.parse as urlparse/g'

@@ -1,5 +1,4 @@
-# -*- coding: utf-8 -*-
-# Copyright 2018 {DEVELOPER_NAME} <https://it-projects.info/team/{DEVELOPER_GITHUB_USERNAME}>
+# Copyright 2019 {DEVELOPER_NAME} <https://it-projects.info/team/{DEVELOPER_GITHUB_USERNAME}>
 # License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl.html).
 {
     "name": """{MODULE_NAME}""",
@@ -12,7 +11,7 @@
 
     "author": "IT-Projects LLC, {DEVELOPER_NAME}",
     "support": "apps@it-projects.info",
-    "website": "https://it-projects.info/team/{DEVELOPER_GITHUB_USERNAME}",
+    "website": "https://apps.odoo.com/apps/modules/{VERSION}/{TECHNICAL_NAME}/",
     "license": "LGPL-3",
     # "price": 9.00,
     # "currency": "EUR",

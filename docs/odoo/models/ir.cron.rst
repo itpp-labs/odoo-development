@@ -37,7 +37,7 @@ An important thing to note with automated actions is that they should always be 
             	<field name="interval_number">1</field>
             	<field name="interval_type">days</field>
             	<field name="numbercall">-1</field>
-            	<field name="doal">1</field>
+            	<field name="doall">1</field>
             	<!--<field name="nextcall" >2016-12-31 23:59:59</field>--> 
             	<field name="model" eval="'model.name '" />
             	<field name="function" eval="'method_name '" />
@@ -95,7 +95,7 @@ An integer value specifying how many times the job is executed. A negative value
 
 .. code-block:: xml
 
-    <field name="doal">1</field>
+    <field name="doall">1</field>
 
 A boolean value indicating whether missed occurrences should be executed when the server restarts.
 

@@ -1,11 +1,7 @@
 Odoo development
 ================
 
-* Ask new questions: https://github.com/it-projects-llc/odoo-development/issues/new
-* Check open questions: https://github.com/it-projects-llc/odoo-development/issues
-* Push your answers and improvements: https://github.com/it-projects-llc/odoo-development
-
-Current content:
+Join our telegram group: https://t.me/odoo_talks
 
 .. toctree::
    :maxdepth: 2

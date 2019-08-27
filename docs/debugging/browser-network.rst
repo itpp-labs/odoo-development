@@ -12,7 +12,13 @@ Who made http request
 =====================
 
 Suppose we want to know which part of our script initiate the request.
-To do that put mouse pointer above initiator column's element. 
+To do that put mouse pointer above initiator column's element.
+
+Preserve log
+============
+
+Ticking the **Preserve log** checkbox will save your console output across page refreshes and closing / reopening Browser's dev tools.
+Console history will only clear when the tab is closed or you manually clear the Console.
 
 .. image:: ../images/dev/debug/browser_debug_network_initiator.png
 

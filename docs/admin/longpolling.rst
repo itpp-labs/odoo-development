@@ -10,7 +10,7 @@ To activate longpolling:
 
   * odoo 11.0 ::
 
-       python -c "import gevent" || sudo pip install gevent
+       python -c "import gevent" || sudo pip3 install gevent
 
   * odoo 10.0 ::
 
