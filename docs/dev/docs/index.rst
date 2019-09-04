@@ -99,7 +99,7 @@ Update templates:
     REPO_NAME=misc-addons
     REPO_NAME=odoo-saas-tools
     REPO_NAME=saas-addons
-    REPO_NAME=odoo-telegram
+    REPO_NAME=sync-addons
     REPO_NAME=pos-addons
     REPO_NAME=website-addons
 
