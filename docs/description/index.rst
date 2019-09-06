@@ -9,7 +9,7 @@ User documentation
    screenshots
    create-description
    contactus
-   js_tour
+   js-tour
    app-store-preview
    image-sizes
    
