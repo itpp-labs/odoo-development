@@ -11,7 +11,6 @@ Join our telegram group: https://t.me/odoo_talks
    debugging/index
    qa/index
    migration/index
-   description/index
    git/index
    ci/index
    odoo/index
