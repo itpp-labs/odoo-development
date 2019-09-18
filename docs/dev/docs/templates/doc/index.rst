@@ -33,3 +33,11 @@ Uninstallation
 ==============
 
 {Optional section for uninstallation notes. Delete it if you don't have notes for uninstallation.}
+
+Odoo.sh
+=======
+
+{Does it work or not in odoo.sh?}
+The module is compatible with odoo.sh deployment
+
+The module is not compatible with odoo.sh deployment, until Odoo.sh support updating server_wide_modules parameter
