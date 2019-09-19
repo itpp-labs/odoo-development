@@ -7,5 +7,3 @@
 * Does not use OCA
 
 * Our ``doc/index.rst`` is available here: TODO
-
-
