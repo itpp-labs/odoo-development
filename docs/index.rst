@@ -18,7 +18,6 @@ Join our telegram group: https://t.me/odoo_talks
    cd/index
    maintenance/index
    ide/index
-   remote-dev/index
    other/index
 
 .. admonition:: Need our service?
