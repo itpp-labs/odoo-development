@@ -1,6 +1,6 @@
-=============
- Longpolling
-=============
+===================================
+ How to enable Longpolling in odoo
+===================================
 
 `Longpolling <https://www.google.com/#q=longpolling>`_ is a way to deliver instant notification to web client (e.g. in chats).
 
