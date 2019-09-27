@@ -28,6 +28,11 @@ Switching off unported modules
     git commit -m ":one::two::sos: mark unported modules as non-installable"
     # (make "git push" and pull request at github)
 
+Updating odoo versions in docs
+==============================
+
+    # TODO
+
 Reviewing odoo updates
 ======================
 
