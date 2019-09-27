@@ -64,6 +64,6 @@
     ValueError: External ID not found in the system: web.login
 
 
-The error above usually means that there was another problem on database initialization. So, if you got such error in test database, just drop the database, start dabase creation again and pay attention on logs for errors.
+The error above usually means that there was another problem on database initialization. So, if you got such error in test database, just drop the database, start database creation again and pay attention on logs for errors.
 
 If you got such error in production database, then it could be difficult to fix that. Sorry ¯ \ _ (ツ) _ / ¯
