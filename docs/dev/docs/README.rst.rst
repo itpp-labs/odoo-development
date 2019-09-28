@@ -7,8 +7,8 @@ OCA's README
 
 * https://raw.githubusercontent.com/OCA/maintainer-tools/master/template/module/README.rst
 
-Our README
-----------
+IT-Projects' LLC README
+----------------------
 
 TODO:
-* https://gitlab.com/itpp/handbook
+* https://gitlab.com/itpp/handbook/raw/blob/master/technical-docs/README.md

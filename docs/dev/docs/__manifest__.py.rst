@@ -40,7 +40,6 @@ Categories from the list below are preferred.
    * ``Website``
    * ``Extra Tools``
 
-Our Template
-==============
-
-TODO
+IT-Projects' LLC Template
+=========================
+* https://gitlab.com/itpp/handbook/raw/blob/master/technical-docs/__manifest__.md

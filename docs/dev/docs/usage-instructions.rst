@@ -6,4 +6,4 @@
 
 * Does not use OCA
 
-* Our ``doc/index.rst`` is available here: TODO
+* IT-Projects' LLC ``doc/index.rst`` is available here: https://gitlab.com/itpp/handbook/raw/blob/master/technical-docs/usage-instruction.md
