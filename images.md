@@ -1,5 +1,7 @@
 Images
-======
+=
+
+=====
 
 Images must be put to ``docs/images/`` directory.
 
