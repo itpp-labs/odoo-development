@@ -2,7 +2,7 @@
  __manifest__.py (__openerp__.py)
 ==================================
 
-OCA's Template
+OCA's manifest
 ==============
 
 https://github.com/OCA/maintainer-tools/blob/master/template/module/__openerp__.py
@@ -52,11 +52,9 @@ Such modules are excluded from search results on app store.
 version
 =======
 
-For more information about version-tracking, see the following articles:
-
 version in IT-Projects
 ----------------------
-https://gitlab.com/itpp/handbook/blob/master/technical-docs/copyrights.md
+https://gitlab.com/itpp/handbook/blob/master/technical-docs/__manifest__.md#version
 
 version in OCA
 --------------

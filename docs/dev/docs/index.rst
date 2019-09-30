@@ -15,6 +15,9 @@ Files
    README.rst.rst
    usage-instructions
    __manifest__.py
+
+and these two files:
+
    `changelog.rst <https://gitlab.com/itpp/handbook/blob/master/technical-docs/changelog.rst.md>`__
    `icon.png <https://gitlab.com/itpp/handbook/blob/master/technical-docs/icon.png.md>`__
 

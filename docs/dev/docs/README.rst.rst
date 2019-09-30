@@ -10,5 +10,4 @@ OCA's README
 IT-Projects' README
 ----------------------
 
-TODO:
-* https://gitlab.com/itpp/handbook/blob/master/technical-docs/README.md
+* https://gitlab.com/itpp/handbook/blob/master/technical-docs/README.rst.md
