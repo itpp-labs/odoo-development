@@ -2,6 +2,8 @@
 
 Source of https://odoo-development.readthedocs.io/ website
 
+Maybe it's a conflict?
+
 # How to contribute
 
 ## Initialization
