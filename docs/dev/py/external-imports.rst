@@ -41,7 +41,7 @@ Why
 
 Odoo loads python files of a module whenever following conditions are satisfied:
 
-* the module has static folder (e.g. for :doc:`icon.png<../docs/icon.png>`)
+* the module has static folder (e.g. for an icon)
 * the module marked as installable in :doc:`manifest<../docs/__manifest__.py>`, i.e. the module *can* be installed
 
 One can see, that odoo loads python files even if module is not installed (and even not intenteded to be installed). But modules usually are added to addons-path as a part of some repository (e.g. *pos-addons*). This is why importing external dependencies without ``try-except`` leads to problems on adding repostitory to :doc:`addons-path<../../admin/addons_path>`.

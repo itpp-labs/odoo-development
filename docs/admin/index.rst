@@ -9,7 +9,6 @@ Official docs:
 .. toctree::
    :maxdepth: 3
 
-   install
    longpolling
    about_longpolling
    workers
