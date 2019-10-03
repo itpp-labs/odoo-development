@@ -5,6 +5,11 @@
 .. contents::
    :local:
 
+Creating Pull Requests in batch
+===============================
+
+See https://odoo-devops.readthedocs.io/en/latest/git/github.html
+
 Switching off unported modules
 ==============================
 
