@@ -36,7 +36,10 @@ Switching off unported modules
 Updating odoo versions in docs
 ==============================
 
-    # TODO
+.. code-block:: sh
+
+    # bump versions in docs (excluding "Tested on Odoo" expression)
+    find . -type f -name *.rst -or -name *.html | xargs sed -i '/Tested on Odoo/!s/12.0/13.0/g'
 
 Reviewing odoo updates
 ======================
