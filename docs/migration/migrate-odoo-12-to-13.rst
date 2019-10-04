@@ -7,6 +7,8 @@ web_settings_dashboard
 
 ``web_settings_dashboard`` is merged to ``base_setup`` https://github.com/odoo/odoo/commit/78565b1dc933692abba46a73f2298b7ea8e03c88
 
+* ``[[ Settings ]] >> Dashboard`` is deleted!
+
 Automatic update
 ----------------
 
@@ -23,6 +25,7 @@ Processing old js file
     # check for js files that like have to be deleted
     find . -type f -name "*.js" | xargs grep "require.*web_settings_dashboard"
 
-If the code above gives non-empty output, you may need to delete that js and make following updates:
+If the code above gives non-empty output, you may need to do following updates:
 
-* TODO
+* get rid of that js
+* Move missed configuration to Settings menu (``res.config``)
