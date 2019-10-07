@@ -12,6 +12,12 @@ New API
     # * delete imports
     # * replace TODO with self.env or request.registry
     find . -type f -name '*.py' | xargs sed -i "s/serialize_exception/TODO ['ir.http'].serialize_exception/g"
+    
+    # pycompat: support for python2 is deleted: https://github.com/odoo/odoo/commit/758382b3a73da024d6e1dc04a474d2868223767a
+    # You may need:
+    # * delete pycompat importing manually
+    find . -type f -name '*.py' | xargs sed -i "s/pycompat.text_type/str/g"
+    find . -type f -name '*.py' | xargs sed -i "s/text_type/str/g"
 
 
 web_settings_dashboard
