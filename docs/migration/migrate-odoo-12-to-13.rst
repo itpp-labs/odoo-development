@@ -2,6 +2,18 @@
  ``12.0-`` → ``13.0+``
 =======================
 
+New API
+=======
+
+.. code-block:: sh
+
+    # serialize_exception was move from odoo/http.py https://github.com/odoo/odoo/commit/0d1407a715901ea06e9a7211c0e3dbe09fadb785
+    # Following command fixes only partly. You need to do manually:
+    # * delete imports
+    # * replace TODO with self.env or request.registry
+    find . -type f -name '*.py' | xargs sed -i "s/serialize_exception/TODO ['ir.http'].serialize_exception/g"
+
+
 web_settings_dashboard
 ======================
 
