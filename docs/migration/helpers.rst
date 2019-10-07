@@ -69,7 +69,7 @@ Code below helps you to find what is new between odoo branches
 
     # to get diff of such commits (e.g. to find in which commit something is added or removed), execute following:
     git log \
-        --format=format:%H 
+        --format=format:%H \
         --invert-grep \
         --grep='\[FIX\]' \
         --grep='\[MERGE\]' \
