@@ -7,6 +7,10 @@ New API
 
 .. code-block:: sh
 
+    # @api.multi is deleted
+    # https://github.com/odoo/odoo/commit/a8767716cfd14abc7f87204d4d180811f663b648
+    find . -type f -name '*.py' | xargs perl -i -pe 's/    \@api.multi\n//g'
+    
     # serialize_exception was move from odoo/http.py
     # https://github.com/odoo/odoo/commit/0d1407a715901ea06e9a7211c0e3dbe09fadb785
     # Following command fixes only partly. You need to do manually:
