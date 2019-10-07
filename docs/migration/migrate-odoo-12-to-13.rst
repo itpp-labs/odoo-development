@@ -11,6 +11,12 @@ New API
     # https://github.com/odoo/odoo/commit/a8767716cfd14abc7f87204d4d180811f663b648
     find . -type f -name '*.py' | xargs perl -i -pe 's/    \@api.multi\n//g'
     
+    # view_type is deleted:
+    # https://github.com/odoo/odoo/commit/3cd7ed07a29c89ddf193796c20a812b9bf21e284
+    find . -type f -name '*.xml' | xargs perl -i -pe 's/\s*\<field name="view_type"\>form\<\/field\>\n//g'
+    # TODO: script for python files
+    
+    
     # serialize_exception was move from odoo/http.py
     # https://github.com/odoo/odoo/commit/0d1407a715901ea06e9a7211c0e3dbe09fadb785
     # Following command fixes only partly. You need to do manually:
