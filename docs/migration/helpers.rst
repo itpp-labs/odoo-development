@@ -65,7 +65,7 @@ Code below helps you to find what is new between odoo branches
         --grep='\[DOC\]' \
         --grep='\[CLA\]' \
         --grep='\[I18N\]' \
-        origin/10.0..origin/11.0 -- . # use corresponding remote name and version
+        origin/10.0..origin/11.0 -- . # use corresponding remote name, version and path to folder or file
 
 Reviewing module source
 =======================
