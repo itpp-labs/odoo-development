@@ -53,8 +53,8 @@ Code below helps you to find what is new between odoo branches
     # check name for remote corresponding to https://github.com/odoo/odoo.git
     git remote -v
 
-    # change directory to the module you need. To check core updates use "cd odoo/"
-    cd addons/mail/
+    # update to specific file or folder if needed
+    PATHTOCHECK=. 
 
     git log \
         --date=relative \
@@ -65,8 +65,19 @@ Code below helps you to find what is new between odoo branches
         --grep='\[DOC\]' \
         --grep='\[CLA\]' \
         --grep='\[I18N\]' \
-        origin/10.0..origin/11.0 -- . # use corresponding remote name, version and path to folder or file
+        origin/10.0..origin/11.0 -- $PATHTOCHECK # use corresponding remote name, version and path to folder or file
 
+    # to get diff of such commits (e.g. to find in which commit something is added or removed), execute following:
+    git log \
+        --format=format:%H 
+        --invert-grep \
+        --grep='\[FIX\]' \
+        --grep='\[MERGE\]' \
+        --grep='\[DOC\]' \
+        --grep='\[CLA\]' \
+        --grep='\[I18N\]' \
+        origin/10.0..origin/11.0 -- $PATHTOCHECK | xargs -I{} git --no-pager show {} -- $PATHTOCHECK | less
+    
 Reviewing module source
 =======================
 
