@@ -91,3 +91,8 @@ Commands below may help you to estimate amount of work to migrate module. The co
   # view source without docs
   find . -iname "*.py" -or -iname "*.xml" -or -iname "*.csv" -or -iname "*.yml" -or -iname "*.js" | xargs tail -n +1 | less
   
+Other tools
+===========
+
+* https://github.com/grap/odoo-migrate
+* OCA autopep: https://github.com/OCA/maintainer-tools#auto-fix-pep8-guidelines
