@@ -96,3 +96,4 @@ Other tools
 
 * https://github.com/grap/odoo-migrate
 * OCA autopep: https://github.com/OCA/maintainer-tools#auto-fix-pep8-guidelines
+* `bowler <https://pybowler.io>`__ based fixers: https://gist.github.com/blaggacao/13cf79fad489bca962e4a43eb580e9ee
