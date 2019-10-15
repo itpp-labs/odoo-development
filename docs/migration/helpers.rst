@@ -39,7 +39,7 @@ Updating odoo versions in docs
 .. code-block:: sh
 
     # bump versions in docs (excluding "Tested on Odoo" expression)
-    find . -type f -name *.rst -or -name *.html | xargs sed -i '/Tested on Odoo/!s/12.0/13.0/g'
+    find . -type f -name *.rst -or -name *.html | xargs sed -i '/Tested on /!s/12.0/13.0/g'
 
 Reviewing odoo updates
 ======================
