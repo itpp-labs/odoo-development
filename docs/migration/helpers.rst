@@ -94,5 +94,6 @@ Commands below may help you to estimate amount of work to migrate module. The co
 Other tools
 ===========
 
-* https://github.com/grap/odoo-migrate
+* all-in-one tool: https://github.com/grap/odoo-migrate
 * OCA autopep: https://github.com/OCA/maintainer-tools#auto-fix-pep8-guidelines
+* `bowler <https://pybowler.io>`__ based fixers: https://gist.github.com/blaggacao/13cf79fad489bca962e4a43eb580e9ee
