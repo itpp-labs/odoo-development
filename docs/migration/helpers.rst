@@ -60,7 +60,6 @@ Code below helps you to find what is new between odoo branches
         --date=relative \
         --pretty=format:"%h%x09%Cblue%ad%Creset%x09%ae%x09%Cgreen%s%Creset" \
         --invert-grep \
-        --grep='\[FIX\]' \
         --grep='\[MERGE\]' \
         --grep='\[DOC\]' \
         --grep='\[CLA\]' \
@@ -71,7 +70,6 @@ Code below helps you to find what is new between odoo branches
     git log \
         --format=format:%H \
         --invert-grep \
-        --grep='\[FIX\]' \
         --grep='\[MERGE\]' \
         --grep='\[DOC\]' \
         --grep='\[CLA\]' \
