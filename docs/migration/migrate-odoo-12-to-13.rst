@@ -9,7 +9,14 @@ New API
 
     # @api.multi is deleted
     # https://github.com/odoo/odoo/commit/a8767716cfd14abc7f87204d4d180811f663b648
-    find . -type f -name '*.py' | xargs perl -i -pe 's/    \@api.multi\n//g'
+    find . -type f -name '*.py' | xargs sed -i '/@api.multi/d'
+    
+    # remove deprecated decorators
+    # https://github.com/odoo/odoo/commit/c552fb7a618afe2feea2e0358ead9eb6ebff0c94
+    find . -type f -name '*.py' | xargs sed -i '/@api.model_cr/d'
+    find . -type f -name '*.py' | xargs sed -i '/@api.v8/d'
+    find . -type f -name '*.py' | xargs sed -i '/@api.model_cr_context/d'
+    find . -type f -name '*.py' | xargs sed -i '/@api.noguess/d'
     
     # view_type is deleted:
     # https://github.com/odoo/odoo/commit/3cd7ed07a29c89ddf193796c20a812b9bf21e284
