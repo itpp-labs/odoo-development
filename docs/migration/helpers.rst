@@ -85,7 +85,7 @@ Code below helps you to find what is new between odoo branches
         --grep='\[DOC\]' \
         --grep='\[CLA\]' \
         --grep='\[I18N\]' \
-        origin/10.0..origin/11.0 -- $PATHTOCHECK # use corresponding remote name, version and path to folder or file
+        origin/12.0..origin/13.0 -- $PATHTOCHECK # use corresponding remote name, version and path to folder or file
 
     # to get diff of such commits (e.g. to find in which commit something is added or removed), execute following:
     git log \
@@ -95,7 +95,7 @@ Code below helps you to find what is new between odoo branches
         --grep='\[DOC\]' \
         --grep='\[CLA\]' \
         --grep='\[I18N\]' \
-        origin/10.0..origin/11.0 -- $PATHTOCHECK | xargs -I{} git --no-pager show {} -- $PATHTOCHECK | less
+        origin/12.0..origin/13.0 -- $PATHTOCHECK | xargs -I{} git --no-pager show {} -- $PATHTOCHECK | less
     
 Reviewing module source
 =======================
