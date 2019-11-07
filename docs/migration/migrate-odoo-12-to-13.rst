@@ -85,7 +85,7 @@ If the code above gives non-empty output, you may need to do following updates:
 nvd3
 ====
 
-The library is deleted: TODO
+The library is deleted: https://github.com/odoo/odoo/commit/596206cdf6d
 
 Here are examples how to update code:
 
