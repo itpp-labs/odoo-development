@@ -38,9 +38,11 @@ Updating odoo versions in docs
 
 .. code-block:: sh
 
-    # bump versions in urls in docs (excluding "Tested on Odoo" expression)
+    # bump versions in urls in docs (excluding "Tested on Odoo 12.0 SHA" expression)
     find . -type f -name *.rst -or -name index.html -or -name *.md | xargs sed -i '/\(Tested on \| 12.0\)/!s/12.0/13.0/g'
+    # update "tested on Odoo 12.0 community / enterprise" -- IT-Projects specific
     find . -type f -name index.html | xargs sed -i 's;<br/>12.0;<br/>13.0;g'
+    # update CI stuff
     sed -i '/Build Status/s/12.0/13.0/g' README.md
     sed -i '/VERSION=/s/12.0/13.0/' .travis.yml
     git commit *.rst *.html *.md -m ":book::one::three: bump versions in docs"
