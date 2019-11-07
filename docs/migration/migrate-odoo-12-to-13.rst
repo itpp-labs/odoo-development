@@ -24,6 +24,12 @@ New API
     find . -type f -name '*.xml' | xargs perl -i -pe 's/view_type="form"//g'
     # TODO: script for python files
     
+    # key2 is deleted, src_model is renamed
+    # https://github.com/odoo/odoo/commit/10f1a1a0c45
+    find . -type f -name '*.xml' | xargs sed -i 's/src_model="\([^"]*\)"/binding_model="\1"/g'
+    find . -type f -name '*.xml' | xargs sed -i 's/key2="client_action_multi"//g'
+    
+    
     
     # serialize_exception was move from odoo/http.py
     # https://github.com/odoo/odoo/commit/0d1407a715901ea06e9a7211c0e3dbe09fadb785
