@@ -21,6 +21,7 @@ New API
     # view_type is deleted:
     # https://github.com/odoo/odoo/commit/3cd7ed07a29c89ddf193796c20a812b9bf21e284
     find . -type f -name '*.xml' | xargs perl -i -pe 's/\s*\<field name="view_type"\>form\<\/field\>\n//g'
+    find . -type f -name '*.xml' | xargs perl -i -pe 's/view_type="form"//g'
     # TODO: script for python files
     
     
