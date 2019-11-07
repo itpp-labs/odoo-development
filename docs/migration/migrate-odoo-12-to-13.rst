@@ -29,6 +29,12 @@ New API
     find . -type f -name '*.xml' | xargs sed -i 's/src_model="\([^"]*\)"/binding_model="\1"/g'
     find . -type f -name '*.xml' | xargs sed -i 's/key2="client_action_multi"//g'
     
+    # ControlPanelMixin is deleted
+    # https://github.com/odoo/odoo/commit/40dd1219385
+    # delete line with require('web.ControlPanelMixin');
+    find . -type f -name '*.js' | xargs sed -i '/web.ControlPanelMixin/d'
+    find . -type f -name '*.js' | xargs perl -i -p0e 's/ControlPanelMixin, \{\n\s*template/{\n    hasControlPanel: true,\n    contentTemplate/g'
+    
     
     
     # serialize_exception was move from odoo/http.py
