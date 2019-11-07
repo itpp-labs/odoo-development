@@ -35,6 +35,8 @@ New API
     # https://github.com/odoo/odoo/commit/758382b3a73da024d6e1dc04a474d2868223767a
     # You may need:
     # * delete pycompat importing manually
+    find . -type f -name '*.py' | xargs sed -i "s/odoo.tools.pycompat.text_type/str/g"
+    find . -type f -name '*.py' | xargs sed -i "s/tools.pycompat.text_type/str/g"
     find . -type f -name '*.py' | xargs sed -i "s/pycompat.text_type/str/g"
     find . -type f -name '*.py' | xargs sed -i "s/text_type/str/g"
 
