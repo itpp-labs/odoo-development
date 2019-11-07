@@ -81,3 +81,14 @@ If the code above gives non-empty output, you may need to do following updates:
 
 * get rid of that js
 * Move missed configuration to Settings menu (``res.config``)
+
+nvd3
+====
+
+The library is deleted: TODO
+
+Here are examples how to update code:
+
+* Switch to Chart.js:
+
+  * https://github.com/odoo/odoo/commit/3ab3082a326
