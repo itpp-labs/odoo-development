@@ -92,3 +92,9 @@ Here are examples how to update code:
 * Switch to Chart.js:
 
   * https://github.com/odoo/odoo/commit/3ab3082a326
+
+external_dependencies
+=====================
+
+This manifest's attribute `should use pypi name <https://github.com/odoo/odoo/commit/795c7b0a9415d04a777e1a5d48921adbd72f38cf
+>`__, instead of python package. I.e. use name you use on installing via ``pip install ...``, rather than in python code on importing via ``import ...`` 
