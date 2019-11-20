@@ -110,3 +110,13 @@ For example, if you have following values:
 * max_connections = 100 (default)
 
 then ``(1 + 1 + 2) * 64 = 256 > 100``, i.e. the condition is not satisfied and such deployment may face the error described above.
+
+**Ok, but which values are good for specific server and load conditions?**
+
+*Checkout `this comment <https://github.com/odoo/odoo/issues/39825#issuecomment-555175814>`__ from odony. Specifically, for ``db_maxconn`` param the quote is below.*
+
+PostgreSQL's ``max_connections`` should be set higher than ``db_maxpool * number_of_processes``. You may need to tweak the kernel sysctl if you need ``max_connections`` higher than 1-2k.
+
+For multi-processing mode, each HTTP worker handles a single request at a time, so theoretically ``db_maxconn=2`` could work (some requests need 2 cursors, hence 2 db connections). However for multi-tenant this is not optimal because each request will need to reopen a new connection to a different db - setting it a bit higher is better. With lots of workers, 32 is a good trade-off, as 64 could make you reach kernel limits. Also keep in mind that the limit applies to the longpolling worker too, and you don't want to delay chat messages too much because of a full connection pool, so don't set it too low no matter what. Keeping the value in the 32-64 range usually seems a good choice.
+
+For multi-thread mode, since there is only 1 process, this is the size of the global connection pool. To prevent errors, it should be set between 1x and 2x the expected number of concurrent requests at a time. Can be estimated based on the number of databases and the expected activity. Having a single process handle more than 20 request at a time on a single core (remember that multi-thread depends on the GIL) is unlikely to give good performance, so again, a setting in the 32-64 range will most likely work for a normal load.
