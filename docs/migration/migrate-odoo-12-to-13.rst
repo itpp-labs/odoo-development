@@ -98,7 +98,7 @@ external_dependencies
 
 This manifest's attribute `should use pypi name <https://github.com/odoo/odoo/commit/795c7b0a9415d04a777e1a5d48921adbd72f38cf>`__, instead of python package. Which is the name you use on installing via ``pip install ...``, and not the name in python code like ``import ...`` 
 
-company_ids in res.user
-=======================
+company_ids in res.users
+========================
 
 The field ``company_ids`` is mandatory: https://github.com/odoo/odoo/commit/4205cb2728041487bd026bf5c6bac590e0ace1e9
