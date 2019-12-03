@@ -113,7 +113,7 @@ then ``(1 + 1 + 2) * 64 = 256 > 100``, i.e. the condition is not satisfied and s
 
 **Ok, but which values are good for specific server and load conditions?**
 
-> Checkout `this comment <https://github.com/odoo/odoo/issues/39825#issuecomment-555175814>`__ from odony. Specifically, for ``db_maxconn`` param the quote is below.
+    Checkout `this comment <https://github.com/odoo/odoo/issues/39825#issuecomment-555175814>`__ from odony. Specifically, for ``db_maxconn`` param the quote is below.
 
 PostgreSQL's ``max_connections`` should be set higher than ``db_maxpool * number_of_processes``. You may need to tweak the kernel sysctl if you need ``max_connections`` higher than 1-2k.
 
