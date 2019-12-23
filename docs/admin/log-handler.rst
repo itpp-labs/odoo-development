@@ -42,4 +42,10 @@ Show api requests::
    --log-handler=odoo.api:DEBUG
 
 
+Using in config file
+====================
 
+To make settings via config file use keyword ``log_handler`` and set the values as comma-seprated list, e.g.
+::
+
+    log_handler=werkzeug:CRITICAL,odoo.api:DEBUG
