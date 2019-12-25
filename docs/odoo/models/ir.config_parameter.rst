@@ -44,6 +44,7 @@ YML
 ---
 
 .. note:: Yaml files are not supported `since <https://odoo-development.readthedocs.io/en/latest/odoo/models/ir.config_parameter.html>`__ odoo 12
+
 Code::
 
   -
