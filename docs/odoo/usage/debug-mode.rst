@@ -1,6 +1,5 @@
 ================================
  How to activate developer mode
-
 ================================
 
 Add ``debug`` parameter to your url, for example::
@@ -31,7 +30,7 @@ or use UI as described below
 
 
 12.0+ with the `web_debranding <https://www.odoo.com/apps/modules/12.0/web_debranding/>`
-==============================
+========================================================================================
 
 * go to the User menu on the upper right corner
 
@@ -46,12 +45,11 @@ or use UI as described below
 
 
 10.0+
-
 =====
 
 
 
-* go to ``[[ Settings ]] ``
+* go to ``[[ Settings ]]``
 
 
 
@@ -65,7 +63,7 @@ or use UI as described below
 
 
 10.0+ with the `web_debranding <https://www.odoo.com/apps/modules/10.0/web_debranding/>`
-==============================
+========================================================================================
 
 
 * go to the User menu on the upper right corner
@@ -84,7 +82,6 @@ or use UI as described below
 
 
 9.0, 8.0
-
 ========
 
 
