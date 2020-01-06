@@ -33,3 +33,11 @@ Source of https://odoo-development.readthedocs.io/ website
       google-chrome _build/html/index.html
 
 * Make commits, push, create Pull Request
+
+# Translation
+
+ReadTheDocs doc: https://docs.readthedocs.io/en/stable/guides/manage-translations.html
+
+To update translation make PR with updates in ``docs/locales`` folder.
+
+To activate new language send PR with update of ``.github/workflow/translations.yml``
