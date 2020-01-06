@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Development master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-06 17:16+0500\n"
+"POT-Creation-Date: 2020-01-06 13:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,32 +19,36 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 
 # 5ca0023ec18b48109cde1087645c9c43
-#: ../../admin/about_longpolling.rst:2
+#: /home/runner/work/odoo-development/odoo-development/docs/admin/about_longpolling.rst:2
+#: b20f8b8d3cdf456eb9a4914f64cdd7e8
 msgid "About longpolling"
 msgstr "Про лонгполлинг"
 
 # 451914f3ac5a4a6cb62e6ee6fd3a985e
-#: ../../admin/about_longpolling.rst:4
+#: /home/runner/work/odoo-development/odoo-development/docs/admin/about_longpolling.rst:4
+#: 38593684940b4931bcf36f94207e446d
 msgid "**What is HTTP Long Polling?**"
 msgstr ""
 
-# 09aee688dad043e2bd7d238b3611ea96
-#: ../../admin/about_longpolling.rst:7
+#: /home/runner/work/odoo-development/odoo-development/docs/admin/about_longpolling.rst:7
+#: b7c8830c60ec4a2da9dedc7fa20e64af
 msgid ""
 "Web applications were originally developed around a client/server model, "
-"where the Web client is always the initiator of transactions, requesting "
-"data from the server. Thus, there was no mechanism for the server to "
+"where the client is always the initiator of transactions, requesting data"
+" from the server. Thus, there was no mechanism for the server to "
 "independently send, or push, data to the client without the client first "
 "making a request."
 msgstr ""
 
 # 43e32419843d44dc9a287faf80fc141f
-#: ../../admin/about_longpolling.rst:9
+#: /home/runner/work/odoo-development/odoo-development/docs/admin/about_longpolling.rst:9
+#: 85fa843254e7455dab1380a6084b92eb
 msgid "**In a Nutshell: HTTP Long Polling**"
 msgstr ""
 
 # 7aa86fb9814d42d88b6d6bb3440b3aa3
-#: ../../admin/about_longpolling.rst:12
+#: /home/runner/work/odoo-development/odoo-development/docs/admin/about_longpolling.rst:12
+#: 436d3f410dff4d0baf7089d90ed05e49
 msgid ""
 "To overcome this deficiency, Web app developers can implement a technique"
 " called HTTP long polling, where the client polls the server requesting "
@@ -56,14 +60,16 @@ msgid ""
 msgstr ""
 
 # 4f49f42530ff46a6ade57655d6b0d9f2
-#: ../../admin/about_longpolling.rst:14
+#: /home/runner/work/odoo-development/odoo-development/docs/admin/about_longpolling.rst:14
+#: 695d953cc86944fa8d142e852f3223ab
 msgid ""
 "Thus, each data packet means new connection which will remain open until "
 "the server sends the information."
 msgstr ""
 
 # 6b2e01f38cf34555858c79e4f70038d4
-#: ../../admin/about_longpolling.rst:16
+#: /home/runner/work/odoo-development/odoo-development/docs/admin/about_longpolling.rst:16
+#: 7b6c4c329e414104a027e32bf85e8ca4
 msgid ""
 "In practice the connection usually reinstalls once per 20-30 seconds to "
 "get rid of possible problems (mistakes) , e.g. problems connected with "
@@ -71,37 +77,44 @@ msgid ""
 msgstr ""
 
 # b2eee97bf77b46929a69981c2b47a0e4
-#: ../../admin/about_longpolling.rst:18
+#: /home/runner/work/odoo-development/odoo-development/docs/admin/about_longpolling.rst:18
+#: 9e9ee769df094c7fb2444f0b7dbbecd5
 msgid "In contradiction to usual polling, such notice appears faster."
 msgstr ""
 
 # 5799bd987e984d00b2146ecbb3804c36
-#: ../../admin/about_longpolling.rst:20
+#: /home/runner/work/odoo-development/odoo-development/docs/admin/about_longpolling.rst:20
+#: 6587b28f7c524114a5fd157cfb0c0e9c
 msgid "``Delay = connection installing + data transfer``"
 msgstr ""
 
 # 7467b42cd256464c88478397009883d6
-#: ../../admin/about_longpolling.rst:22
+#: /home/runner/work/odoo-development/odoo-development/docs/admin/about_longpolling.rst:22
+#: 75a53157ec9a49e88c10edc321b4a120
 msgid "**Advantages of longpolling**"
 msgstr ""
 
 # 71ed39c4cfdf431baa1f0ec0b900debe
-#: ../../admin/about_longpolling.rst:25
+#: /home/runner/work/odoo-development/odoo-development/docs/admin/about_longpolling.rst:25
+#: 58a33175f3854c7f8f8a5216a96e0933
 msgid "The loading to the server is reduced unlike usual polling"
 msgstr ""
 
 # 297faca2340341a69ec0add7c2538bee
-#: ../../admin/about_longpolling.rst:26
+#: /home/runner/work/odoo-development/odoo-development/docs/admin/about_longpolling.rst:26
+#: c3b1776ae6f24b028cb8ba2318c3516f
 msgid "Reduced traffic"
 msgstr ""
 
 # 1da571c594444a0abea3ced2fc85ad76
-#: ../../admin/about_longpolling.rst:27
+#: /home/runner/work/odoo-development/odoo-development/docs/admin/about_longpolling.rst:27
+#: c776dfb5081a4f3392e34ddc1aed52c9
 msgid "Supporting in all modern browsers"
 msgstr ""
 
 # 1c5d66373bd1479681cfca5769ab74e4
-#: ../../admin/about_longpolling.rst:29
+#: /home/runner/work/odoo-development/odoo-development/docs/admin/about_longpolling.rst:29
+#: 2a1697c410e349388705053cefb031a4
 msgid ""
 "Thus, longpolling helps the client to receive data as soon as they appear"
 " in the server in contrast to periodic, which send requests according to "
@@ -114,5 +127,18 @@ msgstr ""
 
 # 451914f3ac5a4a6cb62e6ee6fd3a985e
 #~ msgid "**What the heck is HTTP Long Polling?**"
+#~ msgstr ""
+
+# 09aee688dad043e2bd7d238b3611ea96
+#~ msgid ""
+#~ "Web applications were originally developed "
+#~ "around a client/server model, where the"
+#~ " Web client is always the initiator"
+#~ " of transactions, requesting data from "
+#~ "the server. Thus, there was no "
+#~ "mechanism for the server to "
+#~ "independently send, or push, data to "
+#~ "the client without the client first "
+#~ "making a request."
 #~ msgstr ""
 
