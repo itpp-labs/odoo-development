@@ -31,13 +31,12 @@ msgstr "Смотрите также:"
 # d504a16d40014e2fa4f38be681f8064a
 #: ../../dev/access/index.rst:11
 msgid ":doc:`ir.model.access <../../odoo/models/ir.model.access>`"
-msgstr ""
-": doc: `ir.model.access &lt;../../ odoo / models / ir.model.access&gt;`"
+msgstr " :doc:`ir.model.access <../../odoo/models/ir.model.access>`"
 
 # 3e1df20f5a914cd6a34949998f0c2dcc
 #: ../../dev/access/index.rst:12
 msgid ":doc:`ir.rule <../../odoo/models/ir.rule>`"
-msgstr ": doc: `ir.rule &lt;../../ odoo / models / ir.rule&gt;`"
+msgstr " :doc:`ir.rule <../../odoo/models/ir.rule>`"
 
 # 16855992094b48dab875cebd4b537add
 #: ../../dev/access/index.rst:15

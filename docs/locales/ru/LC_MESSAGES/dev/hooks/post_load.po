@@ -138,8 +138,8 @@ msgid ""
 ":doc:`server_wide_modules<../../admin/server_wide_modules>` parameter."
 msgstr ""
 "Кроме того, если вам нужно применить monkey patch перед любой другой "
-"инициализацией, модуль необходимо добавить в параметр: doc: "
-"`server_wide_modules &lt;../../ admin / server_wide_modules&gt;`."
+"инициализацией, модуль необходимо добавить в параметр "
+":doc:`server_wide_modules<../../admin/server_wide_modules>`."
 
 # 555703d6040541fabdbf6172f9bbb395
 #: ../../dev/hooks/post_load.rst:105

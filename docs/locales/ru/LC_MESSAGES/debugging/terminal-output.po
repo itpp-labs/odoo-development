@@ -39,8 +39,8 @@ msgstr ""
 msgid ""
 "To control output level use :doc:`- - log-handler <../admin/log-handler>`"
 msgstr ""
-"Для управления уровнем вывода используйте: doc: `- - log-handler &lt;../ "
-"admin / log-handler&gt;`"
+"Для управления уровнем вывода используйте :doc:`- - log-handler "
+"<../admin/log-handler>`"
 
 # 620e9e744bd64738ab072936ee4269f8
 #: ../../debugging/terminal-output.rst:10
@@ -85,9 +85,8 @@ msgid ""
 "*PID* is a process ID. E.g. ID of one of :doc:`worker <../admin/workers>` or"
 " :doc:`cron process <../admin/max_cron_threads>`"
 msgstr ""
-"* PID * - это идентификатор процесса. Например, ID одного из: doc: `worker "
-"&lt;../ admin / worker&gt;` или: doc: `процесс cron &lt;../ admin / "
-"max_cron_threads&gt;`"
+"* PID * - это идентификатор процесса. Например, ID одного из :doc:`worker "
+"<../admin/workers>` или :doc:`worker <../admin/workers>`"
 
 # 79f3d4eb24e14948b5f566af2499b28f
 #: ../../debugging/terminal-output.rst:38

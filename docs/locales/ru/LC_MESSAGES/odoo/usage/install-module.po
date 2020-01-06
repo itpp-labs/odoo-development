@@ -70,7 +70,7 @@ msgstr "устанавливать"
 #: ../../odoo/usage/install-module.rst:45
 #: ../../odoo/usage/install-module.rst:63
 msgid ":doc:`activate developer mode <debug-mode>`"
-msgstr ": doc: `активировать режим разработчика <debug-mode> `"
+msgstr " :doc:`activate developer mode <debug-mode>`"
 
 # 3d064b3d8a7444ae87bfdfa59bb4abfe
 # aedb075767db4d48a49a028f81bc1409

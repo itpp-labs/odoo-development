@@ -29,8 +29,9 @@ msgid ""
 "The product, unlike the :doc:`template <product.template>`, it is a separate"
 " product that can be calculated, set the price, to assign a discount."
 msgstr ""
-"Продукт, в отличие от шаблона: doc: ` <product.template> `, это отдельный "
-"продукт, который можно рассчитать, установить цену, назначить скидку."
+"Продукт, в отличие от шаблона :doc:`template <product.template>`, это "
+"отдельный продукт, который можно рассчитать, установить цену, назначить "
+"скидку."
 
 # 262bec6c513348d4a4380182fe5992d4
 #: ../../odoo/models/product.product.rst:6

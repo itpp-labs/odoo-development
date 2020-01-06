@@ -151,7 +151,7 @@ msgid ""
 msgstr ""
 "Если вы установили git из официального Deb-репозитория Ubuntu 14.04, то вам "
 "следует сначала обновить его. Вы можете обновить git, используя эту "
-"инструкцию: doc: `Обновить git <git_update> `"
+"инструкцию :doc:`Update git<git_update>`"
 
 # 9ad09e600aca418fbb098ea52dab0617
 #: ../../git/files-relocation.rst:81

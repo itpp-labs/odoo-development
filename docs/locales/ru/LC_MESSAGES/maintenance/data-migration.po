@@ -39,8 +39,7 @@ msgstr ""
 #: ../../maintenance/data-migration.rst:7
 msgid "For *Module Migration* see :doc:`Porting Modules<../migration/index>`"
 msgstr ""
-"Для * Миграции модулей * см .: doc: `Портирование модулей &lt;../ миграция /"
-" индекс&gt;`"
+"Для * Миграции модулей * см . :doc:`Porting Modules<../migration/index>`"
 
 # 9d4a3585efa147e7a600a09154b743d2
 #: ../../maintenance/data-migration.rst:10
