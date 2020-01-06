@@ -28,117 +28,136 @@ msgstr "Про лонгполлинг"
 #: /home/runner/work/odoo-development/odoo-development/docs/admin/about_longpolling.rst:4
 #: 38593684940b4931bcf36f94207e446d
 msgid "**What is HTTP Long Polling?**"
-msgstr ""
+msgstr "** Что такое длинный опрос HTTP? **"
 
 #: /home/runner/work/odoo-development/odoo-development/docs/admin/about_longpolling.rst:7
 #: b7c8830c60ec4a2da9dedc7fa20e64af
 msgid ""
 "Web applications were originally developed around a client/server model, "
-"where the client is always the initiator of transactions, requesting data"
-" from the server. Thus, there was no mechanism for the server to "
+"where the client is always the initiator of transactions, requesting data "
+"from the server. Thus, there was no mechanism for the server to "
 "independently send, or push, data to the client without the client first "
 "making a request."
 msgstr ""
+"Веб-приложения изначально разрабатывались на основе модели клиент / сервер, "
+"где клиент всегда является инициатором транзакций, запрашивающих данные с "
+"сервера. Таким образом, у сервера не было механизма для самостоятельной "
+"отправки или передачи данных клиенту без предварительного запроса клиента."
 
 # 43e32419843d44dc9a287faf80fc141f
 #: /home/runner/work/odoo-development/odoo-development/docs/admin/about_longpolling.rst:9
 #: 85fa843254e7455dab1380a6084b92eb
 msgid "**In a Nutshell: HTTP Long Polling**"
-msgstr ""
+msgstr "** В двух словах: HTTP длинный опрос **"
 
 # 7aa86fb9814d42d88b6d6bb3440b3aa3
 #: /home/runner/work/odoo-development/odoo-development/docs/admin/about_longpolling.rst:12
 #: 436d3f410dff4d0baf7089d90ed05e49
 msgid ""
-"To overcome this deficiency, Web app developers can implement a technique"
-" called HTTP long polling, where the client polls the server requesting "
-"new information.  The server holds the request open until new data is "
-"available. Once available, the server responds and sends the new "
-"information. When the client receives the new information, it immediately"
-" sends another request, and the operation is repeated. This effectively "
-"emulates a server push feature."
+"To overcome this deficiency, Web app developers can implement a technique "
+"called HTTP long polling, where the client polls the server requesting new "
+"information.  The server holds the request open until new data is available."
+" Once available, the server responds and sends the new information. When the"
+" client receives the new information, it immediately sends another request, "
+"and the operation is repeated. This effectively emulates a server push "
+"feature."
 msgstr ""
+"Чтобы преодолеть этот недостаток, разработчики веб-приложений могут "
+"реализовать метод, называемый длинным опросом HTTP, при котором клиент "
+"опрашивает сервер, запрашивая новую информацию. Сервер удерживает запрос "
+"открытым до тех пор, пока не будут доступны новые данные. Когда сервер "
+"станет доступен, он ответит и отправит новую информацию. Когда клиент "
+"получает новую информацию, он немедленно отправляет другой запрос, и "
+"операция повторяется. Это эффективно имитирует функцию проталкивания "
+"сервера."
 
 # 4f49f42530ff46a6ade57655d6b0d9f2
 #: /home/runner/work/odoo-development/odoo-development/docs/admin/about_longpolling.rst:14
 #: 695d953cc86944fa8d142e852f3223ab
 msgid ""
-"Thus, each data packet means new connection which will remain open until "
-"the server sends the information."
+"Thus, each data packet means new connection which will remain open until the"
+" server sends the information."
 msgstr ""
+"Таким образом, каждый пакет данных означает новое соединение, которое будет "
+"оставаться открытым, пока сервер не отправит информацию."
 
 # 6b2e01f38cf34555858c79e4f70038d4
 #: /home/runner/work/odoo-development/odoo-development/docs/admin/about_longpolling.rst:16
 #: 7b6c4c329e414104a027e32bf85e8ca4
 msgid ""
-"In practice the connection usually reinstalls once per 20-30 seconds to "
-"get rid of possible problems (mistakes) , e.g. problems connected with "
-"HTTP-proxy."
+"In practice the connection usually reinstalls once per 20-30 seconds to get "
+"rid of possible problems (mistakes) , e.g. problems connected with HTTP-"
+"proxy."
 msgstr ""
+"На практике соединение обычно переустанавливается один раз в 20-30 секунд, "
+"чтобы избавиться от возможных проблем (ошибок), например, проблем, связанных"
+" с HTTP-прокси."
 
 # b2eee97bf77b46929a69981c2b47a0e4
 #: /home/runner/work/odoo-development/odoo-development/docs/admin/about_longpolling.rst:18
 #: 9e9ee769df094c7fb2444f0b7dbbecd5
 msgid "In contradiction to usual polling, such notice appears faster."
-msgstr ""
+msgstr "В отличие от обычного опроса, такое уведомление появляется быстрее."
 
 # 5799bd987e984d00b2146ecbb3804c36
 #: /home/runner/work/odoo-development/odoo-development/docs/admin/about_longpolling.rst:20
 #: 6587b28f7c524114a5fd157cfb0c0e9c
 msgid "``Delay = connection installing + data transfer``"
-msgstr ""
+msgstr "`` Задержка = установка соединения + передача данных``"
 
 # 7467b42cd256464c88478397009883d6
 #: /home/runner/work/odoo-development/odoo-development/docs/admin/about_longpolling.rst:22
 #: 75a53157ec9a49e88c10edc321b4a120
 msgid "**Advantages of longpolling**"
-msgstr ""
+msgstr "** Преимущества лонгполлинга **"
 
 # 71ed39c4cfdf431baa1f0ec0b900debe
 #: /home/runner/work/odoo-development/odoo-development/docs/admin/about_longpolling.rst:25
 #: 58a33175f3854c7f8f8a5216a96e0933
 msgid "The loading to the server is reduced unlike usual polling"
-msgstr ""
+msgstr "Загрузка на сервер снижена в отличие от обычного опроса"
 
 # 297faca2340341a69ec0add7c2538bee
 #: /home/runner/work/odoo-development/odoo-development/docs/admin/about_longpolling.rst:26
 #: c3b1776ae6f24b028cb8ba2318c3516f
 msgid "Reduced traffic"
-msgstr ""
+msgstr "Снижение трафика"
 
 # 1da571c594444a0abea3ced2fc85ad76
 #: /home/runner/work/odoo-development/odoo-development/docs/admin/about_longpolling.rst:27
 #: c776dfb5081a4f3392e34ddc1aed52c9
 msgid "Supporting in all modern browsers"
-msgstr ""
+msgstr "Поддержка во всех современных браузерах"
 
 # 1c5d66373bd1479681cfca5769ab74e4
 #: /home/runner/work/odoo-development/odoo-development/docs/admin/about_longpolling.rst:29
 #: 2a1697c410e349388705053cefb031a4
 msgid ""
-"Thus, longpolling helps the client to receive data as soon as they appear"
-" in the server in contrast to periodic, which send requests according to "
+"Thus, longpolling helps the client to receive data as soon as they appear in"
+" the server in contrast to periodic, which send requests according to "
 "interval specified."
 msgstr ""
+"Таким образом, длинный опрос помогает клиенту получать данные, как только "
+"они появляются на сервере, в отличие от периодических, которые отправляют "
+"запросы в соответствии с указанным интервалом."
 
 # 451914f3ac5a4a6cb62e6ee6fd3a985e
 #~ msgid "**What the hell is HTTP Long Polling?**"
-#~ msgstr ""
+#~ msgstr "** Что, черт возьми, HTTP длинный опрос? **"
 
 # 451914f3ac5a4a6cb62e6ee6fd3a985e
 #~ msgid "**What the heck is HTTP Long Polling?**"
-#~ msgstr ""
+#~ msgstr "** Какого черта HTTP Длинный опрос? **"
 
 # 09aee688dad043e2bd7d238b3611ea96
 #~ msgid ""
-#~ "Web applications were originally developed "
-#~ "around a client/server model, where the"
-#~ " Web client is always the initiator"
-#~ " of transactions, requesting data from "
-#~ "the server. Thus, there was no "
-#~ "mechanism for the server to "
-#~ "independently send, or push, data to "
-#~ "the client without the client first "
+#~ "Web applications were originally developed around a client/server model, "
+#~ "where the Web client is always the initiator of transactions, requesting "
+#~ "data from the server. Thus, there was no mechanism for the server to "
+#~ "independently send, or push, data to the client without the client first "
 #~ "making a request."
 #~ msgstr ""
-
+#~ "Веб-приложения изначально разрабатывались на основе модели клиент-сервер, "
+#~ "где веб-клиент всегда является инициатором транзакций, запрашивающих данные "
+#~ "с сервера. Таким образом, у сервера не было механизма для самостоятельной "
+#~ "отправки или передачи данных клиенту без предварительного запроса клиента."

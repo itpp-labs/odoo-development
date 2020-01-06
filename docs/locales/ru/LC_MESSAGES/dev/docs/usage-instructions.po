@@ -21,19 +21,21 @@ msgstr ""
 # 75371b5e3f5e41359bfdc1275538a6de
 #: ../../dev/docs/usage-instructions.rst:3
 msgid "doc/index.rst"
-msgstr ""
+msgstr "док / index.rst"
 
 # eda9092fb71843c0b1530112f133183a
 #: ../../dev/docs/usage-instructions.rst:5
 msgid ""
-"This description will be available in App store under *Documentation* "
-"tab. Example: https://www.odoo.com/apps/modules/8.0/pos_multi_session/"
+"This description will be available in App store under *Documentation* tab. "
+"Example: https://www.odoo.com/apps/modules/8.0/pos_multi_session/"
 msgstr ""
+"Это описание будет доступно в магазине приложений на вкладке * Документация "
+"*. Пример: https://www.odoo.com/apps/modules/8.0/pos_multi_session/"
 
 # 9be610a2f91e476893e4cbd77af05291
 #: ../../dev/docs/usage-instructions.rst:7
 msgid "Does not use OCA"
-msgstr ""
+msgstr "Не использует ОСА"
 
 # 959fd98cadfb4c4a8b34f870bf708ab7
 #: ../../dev/docs/usage-instructions.rst:9
@@ -42,4 +44,6 @@ msgid ""
 "https://gitlab.com/itpp/handbook/blob/master/technical-docs/usage-"
 "instruction.md"
 msgstr ""
-
+"`` `Doc / index.rst`` ИТ-проектов доступен здесь: "
+"https://gitlab.com/itpp/handbook/blob/master/technical-docs/usage-"
+"instruction.md"

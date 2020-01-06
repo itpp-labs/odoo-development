@@ -21,7 +21,7 @@ msgstr ""
 # 6cb3d91d4c34465a9d6317360223ccd3
 #: ../../dev/py/res.config.settings.rst:2
 msgid "res.config.settings"
-msgstr ""
+msgstr "res.config.settings"
 
 # a6423259991e41318cb6fdbcbec617fb
 #: ../../dev/py/res.config.settings.rst:4
@@ -29,15 +29,21 @@ msgid ""
 "*Based on* "
 "https://github.com/odoo/odoo/blob/10.0/odoo/addons/base/res/res_config.py"
 msgstr ""
+"* На основе * "
+"https://github.com/odoo/odoo/blob/10.0/odoo/addons/base/res/res_config.py"
 
 # 37c517fa792e4c1a8e5803091205031d
 #: ../../dev/py/res.config.settings.rst:6
 msgid ""
 "``res.config.settings`` is a base configuration wizard for application "
-"settings.  It provides support for setting default values, assigning "
-"groups to employee users, and installing modules. To make such a "
-"'settings' wizard, define a model like::"
+"settings.  It provides support for setting default values, assigning groups "
+"to employee users, and installing modules. To make such a 'settings' wizard,"
+" define a model like::"
 msgstr ""
+"`` res.config.settings`` - мастер базовой конфигурации для настроек "
+"приложения. Он обеспечивает поддержку установки значений по умолчанию, "
+"назначения групп пользователям-сотрудникам и установки модулей. Чтобы "
+"создать такой мастер настройки, определите модель, например:"
 
 # c18fa969c2224ade92ffa034f038d56b
 #: ../../dev/py/res.config.settings.rst:20
@@ -45,90 +51,113 @@ msgid ""
 "The method ``execute`` (*Apply* button) provides some support based on a "
 "naming convention:"
 msgstr ""
+"Метод `` execute`` (кнопка * Apply *) обеспечивает некоторую поддержку, "
+"основанную на соглашении об именах:"
 
 # 20d37358cecb4986b3c8f497980bb32d
 #: ../../dev/py/res.config.settings.rst:22
 msgid ""
 "For a field like ``default_XXX``, ``execute`` sets the (global) default "
-"value of the field ``XXX`` in the model named by ``default_model`` to the"
-" field's value."
+"value of the field ``XXX`` in the model named by ``default_model`` to the "
+"field's value."
 msgstr ""
+"Для поля типа `` default_XXX``, `` execute`` устанавливает (глобальное) "
+"значение по умолчанию поля `` XXX`` в модели, названной `` default_model``, "
+"равным значению поля."
 
 # 15bab585a61b4b208a068cefabaed5e5
 #: ../../dev/py/res.config.settings.rst:25
 msgid ""
 "For a boolean field like ``group_XXX``, ``execute`` adds/removes "
 "'implied_group' to/from the implied groups of 'group', depending on the "
-"field's value. By default 'group' is the group Employee.  Groups are "
-"given by their xml id. The attribute 'group' may contain several xml ids,"
-" separated by commas."
+"field's value. By default 'group' is the group Employee.  Groups are given "
+"by their xml id. The attribute 'group' may contain several xml ids, "
+"separated by commas."
 msgstr ""
+"Для логического поля, такого как `` group_XXX``, `` execute`` добавляет / "
+"удаляет &#39;implied_group&#39; в / из подразумеваемых групп "
+"&#39;group&#39;, в зависимости от значения поля. По умолчанию «группа» - это"
+" группа «Сотрудник». Группы задаются своим идентификатором xml. Атрибут "
+"group может содержать несколько идентификаторов xml, разделенных запятыми."
 
 # d2cb67980f87418a96dd8dd183c407c6
 #: ../../dev/py/res.config.settings.rst:30
 msgid ""
-"For a boolean field like ``module_XXX``, ``execute`` triggers the "
-"immediate installation of the module named ``XXX`` if the field has value"
-" ``True``."
+"For a boolean field like ``module_XXX``, ``execute`` triggers the immediate "
+"installation of the module named ``XXX`` if the field has value ``True``."
 msgstr ""
+"Для логического поля, подобного `` module_XXX``, `` execute`` запускает "
+"немедленную установку модуля с именем `` XXX``, если поле имеет значение `` "
+"True``."
 
 # 9d90fb077dfe4ad2a2cf2169639045a8
 #: ../../dev/py/res.config.settings.rst:33
 msgid ""
-"For the other fields, the method ``execute`` invokes all methods with a "
-"name that starts with ``set_``; such methods can be defined to implement "
-"the effect of those fields."
+"For the other fields, the method ``execute`` invokes all methods with a name"
+" that starts with ``set_``; such methods can be defined to implement the "
+"effect of those fields."
 msgstr ""
+"Для других полей метод `` execute`` вызывает все методы с именем, которое "
+"начинается с `` set_``; такие методы могут быть определены для реализации "
+"эффекта этих полей."
 
 # 525e973c45674fa780c13dfd844b0fdf
 #: ../../dev/py/res.config.settings.rst:37
 msgid ""
-"The method ``default_get`` retrieves values that reflect the current "
-"status of the fields like ``default_XXX``, ``group_XXX`` and "
-"``module_XXX``.  It also invokes all methods with a name that starts with"
-" ``get_default_``; such methods can be defined to provide current values "
-"for other fields."
+"The method ``default_get`` retrieves values that reflect the current status "
+"of the fields like ``default_XXX``, ``group_XXX`` and ``module_XXX``.  It "
+"also invokes all methods with a name that starts with ``get_default_``; such"
+" methods can be defined to provide current values for other fields."
 msgstr ""
+"Метод `` default_get`` извлекает значения, отражающие текущее состояние "
+"полей, таких как `` default_XXX``, `` group_XXX`` и `` module_XXX``. Он "
+"также вызывает все методы с именем, которое начинается с `` get_default_``; "
+"такие методы могут быть определены для предоставления текущих значений для "
+"других полей."
 
 # e01cd5922b5b44ffb10a218183fcace1
 #: ../../dev/py/res.config.settings.rst:43
 msgid "Example"
-msgstr ""
+msgstr "пример"
 
 # 83c36317aa0d47bf83fdec334f99302c
 #: ../../dev/py/res.config.settings.rst:79
 msgid "Update settings on module install"
-msgstr ""
+msgstr "Обновление настроек при установке модуля"
 
 # 8bbd68a4e877480b8abdb3e91b8d40a5
 #: ../../dev/py/res.config.settings.rst:81
 msgid "To update settings from any ``res.config.settings`` do as follows:"
 msgstr ""
+"Чтобы обновить настройки из любого `` res.config.settings``, выполните "
+"следующие действия:"
 
 # 2cd2987dbb634dc59cf1fa08e8e160e8
 #: ../../dev/py/res.config.settings.rst:84
 msgid "default_XXX"
-msgstr ""
+msgstr "default_XXX"
 
 # 3396fa8f8dcc47b195ab1dd412b7274f
 #: ../../dev/py/res.config.settings.rst:86
 msgid "TODO"
-msgstr ""
+msgstr "СДЕЛАТЬ"
 
 # b175a05944c747c9860fe5b01d32db5a
 #: ../../dev/py/res.config.settings.rst:89
 msgid "group_XXX"
-msgstr ""
+msgstr "group_XXX"
 
 # e0fb0e6bfddb4ca5ae08bc5d67e4d8ca
 #: ../../dev/py/res.config.settings.rst:91
 msgid "Add **implied group(s)** to a **group** via ``implied_ids`` field::"
 msgstr ""
+"Добавьте ** подразумеваемую группу (ы) ** к ** группе ** через поле `` "
+"implied_ids`` ::"
 
 # c901d8b534014d5481f63cd7e4c437bb
 #: ../../dev/py/res.config.settings.rst:100
 msgid "module_XXX"
-msgstr ""
+msgstr "module_XXX"
 
 # 14e3e5d4143c48b2b9e5ba71282f4c6f
 #: ../../dev/py/res.config.settings.rst:102
@@ -136,17 +165,21 @@ msgid ""
 "Add XXX to the \"depends\" parameter in the "
 ":doc:`__manifest__.py<../docs/__manifest__.py>` file."
 msgstr ""
+"Добавьте XXX к параметру зависимость в файле: doc: `__manifest __. Py "
+"&lt;../ docs / __ manifest __. Py&gt;`."
 
 # b5d993b983d84fc5b682cf8d3469e385
 #: ../../dev/py/res.config.settings.rst:105
 msgid "Other fields"
-msgstr ""
+msgstr "Другие поля"
 
 # 5b2c447734744b078ba44ac4de561671
 #: ../../dev/py/res.config.settings.rst:107
 msgid ""
 "Usually, other fields are saved to ``ir.config_parameter``, so just "
-":doc:`update ir.config_parameter<../../odoo/models/ir.config_parameter>`,"
-" for example::"
+":doc:`update ir.config_parameter<../../odoo/models/ir.config_parameter>`, "
+"for example::"
 msgstr ""
-
+"Обычно другие поля сохраняются в `` ir.config_parameter``, поэтому просто: "
+"doc: `update ir.config_parameter &lt;../../ odoo / models / "
+"ir.config_parameter&gt;`, например ::"

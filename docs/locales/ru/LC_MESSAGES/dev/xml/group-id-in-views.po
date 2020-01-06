@@ -21,24 +21,30 @@ msgstr ""
 # a035c874d9e04ec1a89f9c9a4e9774be
 #: ../../dev/xml/group-id-in-views.rst:3
 msgid "``Group_id`` in views"
-msgstr ""
+msgstr "`` Group_id`` в представлениях"
 
 # 4872af73218e4fe5b322f147a73505ac
 #: ../../dev/xml/group-id-in-views.rst:5
 msgid ""
-"``groups_id`` in views (mostly in views that inherits other views) allows"
-" to specify for which group make those inheritance."
+"``groups_id`` in views (mostly in views that inherits other views) allows to"
+" specify for which group make those inheritance."
 msgstr ""
+"`` groups_id`` в представлениях (в основном в представлениях, которые "
+"наследуют другие представления) позволяет указать, для какой группы "
+"производится это наследование."
 
 # beffed2e93dc43039bf2059dbc927c3e
 #: ../../dev/xml/group-id-in-views.rst:7
 msgid ""
-"For example, if you need to add a button that will be available for "
-"managers only, make the following:"
+"For example, if you need to add a button that will be available for managers"
+" only, make the following:"
 msgstr ""
+"Например, если вам нужно добавить кнопку, которая будет доступна только для "
+"менеджеров, сделайте следующее:"
 
 # 5a6c2c6541c343178f70d7aa982a2827
 #: ../../dev/xml/group-id-in-views.rst:25
 msgid "If ``groups_id`` is omitted, then the update is applied for all users."
 msgstr ""
-
+"Если `` groups_id`` опущено, то обновление применяется ко всем "
+"пользователям."

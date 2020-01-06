@@ -21,15 +21,16 @@ msgstr ""
 # c1a25339f8a649679024d265e38a5451
 #: ../../admin/posbox/index.rst:2
 msgid "PosBox"
-msgstr ""
+msgstr "PosBox"
 
 # 11b77ab02dc748d4be00f8ed5252f5cd
 #: ../../admin/posbox/index.rst:4
 msgid "Official docs:"
-msgstr ""
+msgstr "Официальные документы:"
 
 # 95bc4ade9b7b4e9281e4b3a151a76de5
 #: ../../admin/posbox/index.rst:6
-msgid "https://www.odoo.com/documentation/user/9.0/point_of_sale/overview/setup.html"
+msgid ""
+"https://www.odoo.com/documentation/user/9.0/point_of_sale/overview/setup.html"
 msgstr ""
-
+"https://www.odoo.com/documentation/user/9.0/point_of_sale/overview/setup.html"

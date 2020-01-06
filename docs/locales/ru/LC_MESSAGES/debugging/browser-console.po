@@ -21,17 +21,18 @@ msgstr ""
 # 0dc09d47aca540e595127fe976275123
 #: ../../debugging/browser-console.rst:3
 msgid "Browser's Console"
-msgstr ""
+msgstr "Консоль браузера"
 
 # 147b943144f644a19f5726dd86b552a0
 #: ../../debugging/browser-console.rst:6
 msgid ""
-"Browser's console (short name: *console*) may contain userfull logs about"
-" client part."
+"Browser's console (short name: *console*) may contain userfull logs about "
+"client part."
 msgstr ""
+"Консоль браузера (короткое имя: * console *) может содержать "
+"пользовательские журналы о клиентской части."
 
 # 4aa7aa7843c740db9c2d7981c85691fd
 #: ../../debugging/browser-console.rst:8
 msgid "To open console Click F12 in browser."
-msgstr ""
-
+msgstr "Чтобы открыть консоль Нажмите F12 в браузере."

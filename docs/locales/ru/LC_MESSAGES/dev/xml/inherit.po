@@ -21,28 +21,31 @@ msgstr ""
 # 3bd7500bee0c4014adb06b85c78825d3
 #: ../../dev/xml/inherit.rst:2
 msgid "Inherit"
-msgstr ""
+msgstr "Наследование"
 
 # bc040d228aba48ddb87816dfe61c5154
 #: ../../dev/xml/inherit.rst:5
 msgid "Collisions and priority"
-msgstr ""
+msgstr "Столкновения и приоритет"
 
 # b793cdb47df143bf9a9fb2332038ae02
 #: ../../dev/xml/inherit.rst:7
 msgid ""
-"If two or more xml templates inherit same parent template they can have "
-"same priorities. It may produce conflicts and unexpected behavior. What "
-"you need is just set priority explicitly in your template::"
+"If two or more xml templates inherit same parent template they can have same"
+" priorities. It may produce conflicts and unexpected behavior. What you need"
+" is just set priority explicitly in your template::"
 msgstr ""
+"Если два или более шаблонов xml наследуют один и тот же родительский шаблон,"
+" они могут иметь одинаковые приоритеты. Это может привести к конфликтам и "
+"неожиданному поведению. То, что вам нужно, это просто явно установить "
+"приоритет в вашем шаблоне:"
 
 # e6bcd39fff44414aaf37679a307f2b55
 #: ../../dev/xml/inherit.rst:29
 msgid "Less priority means prior execution."
-msgstr ""
+msgstr "Меньший приоритет означает предварительное исполнение."
 
 # 938f5f70f11b4a2bb452c10b3f0b2670
 #: ../../dev/xml/inherit.rst:31
 msgid "Default priority is 16."
-msgstr ""
-
+msgstr "Приоритет по умолчанию - 16."

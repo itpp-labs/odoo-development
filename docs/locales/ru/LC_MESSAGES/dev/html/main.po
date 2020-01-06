@@ -21,18 +21,18 @@ msgstr ""
 # 1d4d93d54cff42e3b66214920780d0be
 #: ../../dev/html/main.rst:2
 msgid "Active elements"
-msgstr ""
+msgstr "Активные элементы"
 
 # 70ad0fc2810748aeb0752f3c5341b60a
 #: ../../dev/html/main.rst:4
 msgid "Link-button that calls controller"
-msgstr ""
+msgstr "Link-кнопка, которая вызывает контроллер"
 
 # 4608e37519824a09a001488d52a57dac
 # a244513035104efe94c46a70295a25f7
 #: ../../dev/html/main.rst:5 ../../dev/html/main.rst:15
 msgid "Code::"
-msgstr ""
+msgstr "Код::"
 
 # 33b4e23d805c49c58a0226c1a83dc2da
 #: ../../dev/html/main.rst:11
@@ -40,16 +40,19 @@ msgid ""
 "Here action=\"/shop/checkout\" sets controller address. Class a-submit "
 "usually means do what in 'action' of form."
 msgstr ""
+"Здесь action = &quot;/ shop / checkout&quot; устанавливает адрес "
+"контроллера. Класс a-submit обычно означает «делать то, что в форме»."
 
 # 6eac7bbfe30f47d88bc26ecfdfe11bd9
 #: ../../dev/html/main.rst:14
 msgid "Submit with button"
-msgstr ""
+msgstr "Отправить с помощью кнопки"
 
 # 60a3bb1ea2d34b0e847861fd67fc68c4
 #: ../../dev/html/main.rst:21
 msgid ""
-"Wherein in controller in \\**post will be available some values from "
-"source form, those like <input/>."
+"Wherein in controller in \\**post will be available some values from source "
+"form, those like <input/>."
 msgstr ""
-
+"При этом в контроллере в \\ ** post будут доступны некоторые значения из "
+"исходной формы, такие как <input/> ,"

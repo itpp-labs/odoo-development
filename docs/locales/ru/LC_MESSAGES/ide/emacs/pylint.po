@@ -21,85 +21,107 @@ msgstr ""
 # 213a145834f04136a26f515e8664fa1c
 #: ../../ide/emacs/pylint.rst:3
 msgid "Pylint"
-msgstr ""
+msgstr "Pylint"
 
 # fe2a058e12ce478aafe7d2c5aa3ade2c
 #: ../../ide/emacs/pylint.rst:5
 msgid ""
-"Pylint is a tool that checks for errors in Python code, tries to enforce "
-"a coding standard and looks for code smells. It can also look for certain"
-" type errors, it can recommend suggestions about how particular blocks "
-"can be refactored and can offer you details about the code’s complexity. "
+"Pylint is a tool that checks for errors in Python code, tries to enforce a "
+"coding standard and looks for code smells. It can also look for certain type"
+" errors, it can recommend suggestions about how particular blocks can be "
+"refactored and can offer you details about the code’s complexity. "
 "https://pylint.readthedocs.io/en/latest/"
 msgstr ""
+"Pylint - это инструмент, который проверяет ошибки в коде Python, пытается "
+"внедрить стандарт кодирования и ищет запахи кода. Он также может искать "
+"определенные ошибки типа, он может порекомендовать предложения о том, как "
+"конкретные блоки могут быть реорганизованы, и может предложить вам "
+"подробности о сложности кода. https://pylint.readthedocs.io/en/latest/"
 
 # 071267864a4b402fb96a02dd9e0a72c1
 #: ../../ide/emacs/pylint.rst:8
 msgid "Install pylint."
-msgstr ""
+msgstr "Установить пилинт."
 
 # 5f75b9a6e2194334bb1a9a6f29f612eb
 #: ../../ide/emacs/pylint.rst:14
 msgid ""
 "With the Flycheck emacs extension, pylint’s output will be shown right "
-"inside your emacs buffers. Spacemacs has flycheck in his ``syntax-"
-"checking`` layer."
+"inside your emacs buffers. Spacemacs has flycheck in his ``syntax-checking``"
+" layer."
 msgstr ""
+"С расширением Flycheck emacs вывод pylint будет показан прямо внутри ваших "
+"буферов emacs. Spacemacs имеет flycheck в своем слое `` синтаксическая "
+"проверка``."
 
 # 48a6a059f4bd469abfb316bd77b792e0
 #: ../../ide/emacs/pylint.rst:21
 msgid "Configure pylint by using a pylintrc file."
-msgstr ""
+msgstr "Настройте pylint с помощью файла pylintrc."
 
 # 6fb1e83648a944a5a7ebd294d5d5ad66
 #: ../../ide/emacs/pylint.rst:29
 msgid "Pylint Odoo plugin"
-msgstr ""
+msgstr "Пилинт Odoo плагин"
 
 # 4743fbe21ce248aabc5e26a6fc5479ad
 #: ../../ide/emacs/pylint.rst:31
 msgid "Install pylint odoo plugin https://github.com/OCA/pylint-odoo"
-msgstr ""
+msgstr "Установите плагин pylint odoo https://github.com/OCA/pylint-odoo"
 
 # 474c3e6de7b44deab0c0f5a1285b9fc7
 #: ../../ide/emacs/pylint.rst:43
 msgid "Add the plugin in pylintrc."
-msgstr ""
+msgstr "Добавьте плагин в pylintrc."
 
 # 2bc6af48e7fb4f3e9fce74edc18d798e
 #: ../../ide/emacs/pylint.rst:51
 msgid "Useful configurations"
-msgstr ""
+msgstr "Полезные конфигурации"
 
 # 7341e75b192b4cfbb5775b2b086522a1
 #: ../../ide/emacs/pylint.rst:53
-msgid "By default there is 100 characters per line allowed. Allow 120 characters"
+msgid ""
+"By default there is 100 characters per line allowed. Allow 120 characters"
 msgstr ""
+"По умолчанию в каждой строке допускается 100 символов. Разрешить 120 "
+"символов"
 
 # 84c3d19221cc49148b12da371cd77033
 #: ../../ide/emacs/pylint.rst:60
 msgid ""
-"To disable certain warning add its code to ``disable`` list in pylintrc. "
-"For example, If you don't like this message ``Missing method docstring`` "
-"with code C0111 or this ``Use of super on an old style class`` (E1002)"
+"To disable certain warning add its code to ``disable`` list in pylintrc. For"
+" example, If you don't like this message ``Missing method docstring`` with "
+"code C0111 or this ``Use of super on an old style class`` (E1002)"
 msgstr ""
+"Чтобы отключить определенное предупреждение, добавьте его код в список `` "
+"disable`` в pylintrc. Например, если вам не нравится это сообщение `` "
+"Отсутствует метод docstring`` с кодом C0111 или это `` Использование super в"
+" классе старого стиля`` (E1002)"
 
 # df127ff9e56442a788dc75e05f3d0c62
 #: ../../ide/emacs/pylint.rst:68
 msgid "You can find other codes here: http://pylint-messages.wikidot.com/"
 msgstr ""
+"Вы можете найти другие коды здесь: http://pylint-messages.wikidot.com/"
 
 # b3b7b2d6a8e54e53b4bb48fbb74d88c7
 #: ../../ide/emacs/pylint.rst:71
 msgid ""
 "Flychek highlights odoo import lines as ``from openerp import models, "
-"fields, api`` with error message ``F0401: Unable to import...``. There "
-"are two options to fix it - http://stackoverflow.com/questions/1899436"
-"/pylint-unable-to-import-error-how-to-set-pythonpath."
+"fields, api`` with error message ``F0401: Unable to import...``. There are "
+"two options to fix it - http://stackoverflow.com/questions/1899436/pylint-"
+"unable-to-import-error-how-to-set-pythonpath."
 msgstr ""
+"Flychek выделяет строки импорта odoo как `` из моделей импорта openerp, "
+"полей, api`` с сообщением об ошибке `` F0401: Невозможно импортировать ... "
+"``. Есть два варианта, чтобы исправить это - "
+"http://stackoverflow.com/questions/1899436/pylint-unable-to-import-error-"
+"how-to-set-pythonpath."
 
 # bcf77cb1a78c4b6faa1625fbccbe637b
 #: ../../ide/emacs/pylint.rst:75
 msgid "Edit ``pylintrc`` to include your odoo directory like this:"
 msgstr ""
-
+"Отредактируйте `` pylintrc``, чтобы включить ваш каталог odoo следующим "
+"образом:"

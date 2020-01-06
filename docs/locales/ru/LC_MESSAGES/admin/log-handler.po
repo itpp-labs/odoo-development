@@ -21,85 +21,91 @@ msgstr ""
 # 3cc0772e55354021a05ed8434e60ed4f
 #: ../../admin/log-handler.rst:3
 msgid "``--log-handler``"
-msgstr ""
+msgstr "`` --Log-handler``"
 
 # 369c9ddddeb042e9af5a40368216592d
 #: ../../admin/log-handler.rst:9
-msgid "Setups a handler at LEVEL for a given PREFIX. This option can be repeated."
+msgid ""
+"Setups a handler at LEVEL for a given PREFIX. This option can be repeated."
 msgstr ""
+"Устанавливает обработчик на УРОВЕНЬ для данного ПРЕФИКСА. Эта опция может "
+"быть повторена."
 
 # e029293c92e240c6894ccf72493a0e9c
 #: ../../admin/log-handler.rst:11
 msgid ""
 "For example, if you want to have DEBUG level for module `telegram "
-"<https://github.com/it-projects-llc/odoo-telegram/tree/9.0/telegram>`_ "
-"only, you can run it with parameter::"
+"<https://github.com/it-projects-llc/odoo-telegram/tree/9.0/telegram>`_ only,"
+" you can run it with parameter::"
 msgstr ""
+"Например, если вы хотите иметь уровень DEBUG для модуля `telegram "
+"<https://github.com/it-projects-llc/odoo-telegram/tree/9.0/telegram> `_ "
+"только, вы можете запустить его с параметром ::"
 
 # 008a904a85fc413a990aff81877ac16c
 #: ../../admin/log-handler.rst:15
 msgid "To disable werkzeug logs add following parameter::"
-msgstr ""
+msgstr "Чтобы отключить логи werkzeug, добавьте следующий параметр:"
 
 # 6a4fe65abe344323b2709dda4d156e44
 #: ../../admin/log-handler.rst:19
 msgid "To see all odoo log messages::"
-msgstr ""
+msgstr "Чтобы увидеть все сообщения журнала odoo:"
 
 # 07538de85a5d4a709972313271c76e39
 #: ../../admin/log-handler.rst:23
 msgid "To see all log messages (including ones from libs)::"
-msgstr ""
+msgstr "Чтобы увидеть все сообщения журнала (в том числе от libs):"
 
 # ef30ee0d30284e1c978cdd49abdaf6fb
 #: ../../admin/log-handler.rst:28
 msgid "Log levels"
-msgstr ""
+msgstr "Уровни журнала"
 
 # 66eaa76b3320486fad1903996475569c
 #: ../../admin/log-handler.rst:30
 msgid "CRITICAL"
-msgstr ""
+msgstr "КРИТИЧЕСКИЕ"
 
 # 10ac4abcecd14ec4acfa702c9016c017
 #: ../../admin/log-handler.rst:31
 msgid "ERROR"
-msgstr ""
+msgstr "ОШИБКА"
 
 # 07ef78a8c86a4a42943e2bc42bf781bb
 #: ../../admin/log-handler.rst:32
 msgid "WARNING"
-msgstr ""
+msgstr "ПРЕДУПРЕЖДЕНИЕ"
 
 # 0cfc860eedef42169736c942d61e8e15
 #: ../../admin/log-handler.rst:33
 msgid "INFO"
-msgstr ""
+msgstr "ИНФОРМАЦИЯ"
 
 # f0860a23db8747d586e8da8d757cfefd
 #: ../../admin/log-handler.rst:34
 msgid "DEBUG"
-msgstr ""
+msgstr "DEBUG"
 
 # e0dd45bd9c0c4d33b7df62ba3f5fe373
 #: ../../admin/log-handler.rst:35
 msgid "NOTSET"
-msgstr ""
+msgstr "НЕ УСТАНОВЛЕНО"
 
 # c3a9ea398ce24098b581fda732bedb0e
 #: ../../admin/log-handler.rst:38
 msgid "Usefull logs"
-msgstr ""
+msgstr "Полезные журналы"
 
 # ba68c62d31ab4b9eb1f705911c804eb2
 #: ../../admin/log-handler.rst:40
 msgid "Show api requests::"
-msgstr ""
+msgstr "Показать запросы API:"
 
 # 1f4a822b72c14088aa8b07e3dead68fa
 #: ../../admin/log-handler.rst:46
 msgid "Using in config file"
-msgstr ""
+msgstr "Использование в конфигурационном файле"
 
 # 7a21f141b08e4267a6f2ca3ca95e59a8
 #: ../../admin/log-handler.rst:48
@@ -107,4 +113,6 @@ msgid ""
 "To make settings via config file use keyword ``log_handler`` and set the "
 "values as comma-seprated list, e.g. ::"
 msgstr ""
-
+"Чтобы выполнить настройки через конфигурационный файл, используйте ключевое "
+"слово `` log_handler`` и задайте значения в виде списка, разделенного "
+"запятыми, например:"

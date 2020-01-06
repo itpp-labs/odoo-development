@@ -21,30 +21,29 @@ msgstr ""
 # ac8f695b55aa4a4b93902041de41f78f
 #: ../../odoo/usage/debug-assets-mode.rst:3
 msgid "How to activate debug assets mode"
-msgstr ""
+msgstr "Как активировать режим отладочных ресурсов"
 
 # ee1c59b566a34514b56a90612d023610
 #: ../../odoo/usage/debug-assets-mode.rst:5
 msgid "Add ``debug=assets`` parameter to your url, e.g.: ::"
-msgstr ""
+msgstr "Добавьте параметр `` debug = assets`` в ваш URL, например: ::"
 
 # 527a17f885dc48079831baf0418ed171
 #: ../../odoo/usage/debug-assets-mode.rst:9
 msgid "or use UI as described below"
-msgstr ""
+msgstr "или используйте пользовательский интерфейс, как описано ниже"
 
 # 282c505b13c54b58b4b86d47812753e1
 #: ../../odoo/usage/debug-assets-mode.rst:12
 msgid "10.0+"
-msgstr ""
+msgstr "10.0+"
 
 # 324bf41701704137a9755397dfd4cfa6
 #: ../../odoo/usage/debug-assets-mode.rst:14
 msgid "go to ``Settings``"
-msgstr ""
+msgstr "перейти к `` Настройки``"
 
 # 819abac42adc467faee938a0252a20c4
 #: ../../odoo/usage/debug-assets-mode.rst:16
 msgid "click ``Activate the developer mode(with assets)``"
-msgstr ""
-
+msgstr "нажмите `` Активировать режим разработчика (с активами) ``"

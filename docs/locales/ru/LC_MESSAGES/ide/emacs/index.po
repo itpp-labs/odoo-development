@@ -21,5 +21,4 @@ msgstr ""
 # 8d51282a049d44db9c85d93901f7cf41
 #: ../../ide/emacs/index.rst:2
 msgid "Emacs"
-msgstr ""
-
+msgstr "Emacs"

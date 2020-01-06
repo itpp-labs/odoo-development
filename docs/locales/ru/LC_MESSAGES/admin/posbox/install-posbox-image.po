@@ -21,22 +21,24 @@ msgstr ""
 # b1d3ded74a364beeab6b54e0d484534f
 #: ../../admin/posbox/install-posbox-image.rst:3
 msgid "PosBox installation"
-msgstr ""
+msgstr "Установка PosBox"
 
 # 8d6cd9ada3cb43a09cb9cfeea8bc5f8e
 #: ../../admin/posbox/install-posbox-image.rst:5
 msgid "Download last version ``posbox_image``:"
-msgstr ""
+msgstr "Скачать последнюю версию `` posbox_image``:"
 
 # 2dd53831c62945d5b5d93d852e8cb1f3
 #: ../../admin/posbox/install-posbox-image.rst:7
 msgid "https://nightly.odoo.com/master/posbox/"
-msgstr ""
+msgstr "https://nightly.odoo.com/master/posbox/"
 
 # 958a73c142204baaaba9840e5d70698e
 #: ../../admin/posbox/install-posbox-image.rst:9
 msgid "Use another computer with an SD card reader to install the image."
 msgstr ""
+"Используйте другой компьютер с устройством для чтения карт SD, чтобы "
+"установить образ."
 
 # 0b395015f84b420ca235049ee25f9dbc
 #: ../../admin/posbox/install-posbox-image.rst:11
@@ -44,25 +46,32 @@ msgid ""
 "You will need to use an image writing tool to install the image you have "
 "downloaded on your SD card."
 msgstr ""
+"Вам нужно будет использовать инструмент для записи изображений, чтобы "
+"установить изображение, которое вы загрузили на свою SD-карту."
 
 # f9d719cca84c4d8c91307ecb27e7b2b0
 #: ../../admin/posbox/install-posbox-image.rst:13
 msgid ""
-"**Etcher** is a graphical SD card writing tool that works on Mac OS, "
-"Linux and Windows, and is the easiest option for most users. Etcher also "
-"supports writing images directly from the zip file, without any unzipping"
-" required. To write your image with Etcher:"
+"**Etcher** is a graphical SD card writing tool that works on Mac OS, Linux "
+"and Windows, and is the easiest option for most users. Etcher also supports "
+"writing images directly from the zip file, without any unzipping required. "
+"To write your image with Etcher:"
 msgstr ""
+"** Etcher ** - это графический инструмент для записи на SD-карту, который "
+"работает в Mac OS, Linux и Windows и является самым простым вариантом для "
+"большинства пользователей. Etcher также поддерживает запись изображений "
+"непосредственно из zip-файла без необходимости распаковки. Чтобы написать "
+"свое изображение с Etcher:"
 
 # 811be78f0aba405dae9815b20351eff9
 #: ../../admin/posbox/install-posbox-image.rst:16
 msgid "Download `Etcher <https://etcher.io/>`_ and install it."
-msgstr ""
+msgstr "Скачать `Etcher <https://etcher.io/> `_ и установите его."
 
 # 0b4c3aa0a2fd4a85aa52c477cda03b3a
 #: ../../admin/posbox/install-posbox-image.rst:17
 msgid "Connect an SD card reader with the SD card inside."
-msgstr ""
+msgstr "Подключите устройство для чтения SD-карт к SD-карте внутри."
 
 # aa08940ddb5248b4b71a93aecb397c69
 #: ../../admin/posbox/install-posbox-image.rst:18
@@ -70,23 +79,26 @@ msgid ""
 "Open Etcher and select from your hard drive the Raspberry Pi ``.img`` or "
 "``.zip`` file you wish to write to the SD card."
 msgstr ""
+"Откройте Etcher и выберите на своем жестком диске файл Raspberry Pi `` "
+".img`` или `` .zip``, который вы хотите записать на SD-карту."
 
 # acf3d65418c74df1b5dbb68276b0327b
 #: ../../admin/posbox/install-posbox-image.rst:19
 msgid "Select the SD card you wish to write your image to."
-msgstr ""
+msgstr "Выберите SD-карту, на которую вы хотите записать свое изображение."
 
 # f121b458be9a46c792226c3dcf9c78e4
 #: ../../admin/posbox/install-posbox-image.rst:20
 msgid ""
-"Review your selections and click 'Flash!' to begin writing data to the SD"
-" card."
+"Review your selections and click 'Flash!' to begin writing data to the SD "
+"card."
 msgstr ""
+"Проверьте свой выбор и нажмите «Flash!» начать запись данных на SD-карту."
 
 # ba627743634e4d41957468a4fbed0781
 #: ../../admin/posbox/install-posbox-image.rst:22
 msgid "**Connect peripheral devices**"
-msgstr ""
+msgstr "** Подключение периферийных устройств **"
 
 # 5c0266e245f040519f7cc39b482153b9
 #: ../../admin/posbox/install-posbox-image.rst:24
@@ -95,95 +107,122 @@ msgid ""
 "<https://www.odoo.com/page/point-of-sale-hardware>`_, but other hardware "
 "might work as well."
 msgstr ""
+"Официально поддерживаемое оборудование указано на странице «POS Hardware». "
+"<https://www.odoo.com/page/point-of-sale-hardware> `_, но другое "
+"оборудование также может работать."
 
 # a75356394236417aad571b8b5ab669b9
 #: ../../admin/posbox/install-posbox-image.rst:26
 msgid "``Printer:`` Connect an ESC/POS printer to a USB port and power it on."
 msgstr ""
+"`` Принтер: `` Подключите принтер ESC / POS к порту USB и включите его."
 
 # 336e5491b4bd4d9a967d16a12d4ba031
 #: ../../admin/posbox/install-posbox-image.rst:27
 msgid ""
-"``Cash drawer:`` The cash drawer should be connected to the printer with "
-"an RJ25 cable."
+"``Cash drawer:`` The cash drawer should be connected to the printer with an "
+"RJ25 cable."
 msgstr ""
+"`` Денежный ящик: `` Денежный ящик должен быть подключен к принтеру с "
+"помощью кабеля RJ25."
 
 # 86fdfb250c4e42b6afb4954a6cbb9a24
 #: ../../admin/posbox/install-posbox-image.rst:28
 msgid ""
-"``Barcode scanner:`` Connect your barcode scanner. In order for your "
-"barcode scanner to be compatible it must behave as a keyboard and must be"
-" configured in US QWERTY. It also must end barcodes with an Enter "
-"character (keycode 28). This is most likely the default configuration of "
-"your barcode scanner."
+"``Barcode scanner:`` Connect your barcode scanner. In order for your barcode"
+" scanner to be compatible it must behave as a keyboard and must be "
+"configured in US QWERTY. It also must end barcodes with an Enter character "
+"(keycode 28). This is most likely the default configuration of your barcode "
+"scanner."
 msgstr ""
+"`` Сканер штрих-кода: `` Подключите ваш сканер штрих-кода. Для того, чтобы "
+"ваш сканер штрих-кода был совместимым, он должен вести себя как клавиатура и"
+" должен быть настроен в США. QWERTY. Он также должен заканчиваться штрих-"
+"кодами с символа Enter (код клавиши 28). Скорее всего, это стандартная "
+"конфигурация вашего сканера штрих-кода."
 
 # b7590e74f2c94eb88382bc1212d57b68
 #: ../../admin/posbox/install-posbox-image.rst:29
 msgid "``Scale:`` Connect your scale and power it on."
-msgstr ""
+msgstr "`` Весы: `` Подключите весы и включите их."
 
 # e3517160603249f2b766894b188f8390
 #: ../../admin/posbox/install-posbox-image.rst:30
 msgid ""
-"``Ethernet:`` If you do not wish to use Wi-Fi, plug in the Ethernet "
-"cable. Make sure this will connect the POSBox to the same network as your"
-" POS device."
+"``Ethernet:`` If you do not wish to use Wi-Fi, plug in the Ethernet cable. "
+"Make sure this will connect the POSBox to the same network as your POS "
+"device."
 msgstr ""
+"`` Ethernet: `` Если вы не хотите использовать Wi-Fi, подключите кабель "
+"Ethernet. Убедитесь, что это подключит POSBox к той же сети, что и ваше POS-"
+"устройство."
 
 # b079e804e6b94cf68ea4f5c01954c478
 #: ../../admin/posbox/install-posbox-image.rst:31
 msgid ""
-"``Wi-Fi:`` If you do not wish to use Ethernet, plug in a Linux compatible"
-" USB Wi-Fi adapter. Most commercially available Wi-Fi adapters are Linux "
+"``Wi-Fi:`` If you do not wish to use Ethernet, plug in a Linux compatible "
+"USB Wi-Fi adapter. Most commercially available Wi-Fi adapters are Linux "
 "compatible. Officially supported are Wi-Fi adapters with a Ralink 5370 "
 "chipset. Make sure not to plug in an Ethernet cable, because all Wi-Fi "
-"functionality will be bypassed when a wired network connection is "
-"available."
+"functionality will be bypassed when a wired network connection is available."
 msgstr ""
+"`` Wi-Fi: `` Если вы не хотите использовать Ethernet, подключите совместимый"
+" с Linux USB-адаптер Wi-Fi. Большинство имеющихся в продаже адаптеров Wi-Fi "
+"совместимы с Linux. Официально поддерживаются адаптеры Wi-Fi с чипсетом "
+"Ralink 5370. Не подключайте кабель Ethernet, потому что все функции Wi-Fi "
+"будут отключены, если доступно проводное сетевое соединение."
 
 # 70b6f8493efd49aeaf33c5026d5e57b4
 #: ../../admin/posbox/install-posbox-image.rst:32
 msgid "``Network Printer:`` Connect Network Printer."
-msgstr ""
+msgstr "`` Сетевой принтер: `` Подключить сетевой принтер."
 
 # 650f52a50338483fb8b9102793f53079
 #: ../../admin/posbox/install-posbox-image.rst:34
 msgid "**Power the POSBox**"
-msgstr ""
+msgstr "** Питание POSBox **"
 
 # ce2c4d3cfcf241ca9974e58899ba01e7
 #: ../../admin/posbox/install-posbox-image.rst:36
 msgid ""
-"Plug the power adapter into the POSBox, a bright red status led should "
-"light up."
+"Plug the power adapter into the POSBox, a bright red status led should light"
+" up."
 msgstr ""
+"Подключите адаптер питания к POSBox, должен загореться ярко-красный "
+"индикатор состояния."
 
 # f0b4e82064314eefbe06bd338ec615a0
 #: ../../admin/posbox/install-posbox-image.rst:38
 msgid "**Make sure the POSBox is ready**"
-msgstr ""
+msgstr "** Убедитесь, что POSBox готов **"
 
 # 17f6d1b098584f69a3ee703874f8dd8f
 #: ../../admin/posbox/install-posbox-image.rst:40
 msgid ""
-"Once powered, The POSBox needs a while to boot. Once the POSBox is ready,"
-" it should print a status receipt with its IP address. Also the status "
-"LED, just next to the red power LED, should be permanently lit green."
+"Once powered, The POSBox needs a while to boot. Once the POSBox is ready, it"
+" should print a status receipt with its IP address. Also the status LED, "
+"just next to the red power LED, should be permanently lit green."
 msgstr ""
+"После включения POSBox требуется некоторое время для загрузки. Когда POSBox "
+"готов, он должен распечатать квитанцию о состоянии со своим IP-адресом. "
+"Также индикатор состояния, расположенный рядом с красным индикатором "
+"питания, должен постоянно гореть зеленым цветом."
 
 # 2c72be78281f436ba1727a7fbd60948a
 #: ../../admin/posbox/install-posbox-image.rst:42
 msgid "More information read the:"
-msgstr ""
+msgstr "Больше информации читайте в:"
 
 # 44d04177a21e4b0dab5f482eeb172c36
 #: ../../admin/posbox/install-posbox-image.rst:44
-msgid "https://www.raspberrypi.org/documentation/installation/installing-images/"
+msgid ""
+"https://www.raspberrypi.org/documentation/installation/installing-images/"
 msgstr ""
+"https://www.raspberrypi.org/documentation/installation/installing-images/"
 
 # 241e4ef21a5a4bd9ac7a2654c9bd20a0
 #: ../../admin/posbox/install-posbox-image.rst:45
-msgid "https://www.odoo.com/documentation/user/9.0/point_of_sale/overview/setup.html"
+msgid ""
+"https://www.odoo.com/documentation/user/9.0/point_of_sale/overview/setup.html"
 msgstr ""
-
+"https://www.odoo.com/documentation/user/9.0/point_of_sale/overview/setup.html"

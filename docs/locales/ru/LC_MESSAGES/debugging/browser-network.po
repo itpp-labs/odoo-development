@@ -21,54 +21,61 @@ msgstr ""
 # d9ff2b511a6b4ce4a89f1aed2585178f
 #: ../../debugging/browser-network.rst:3
 msgid "Network tab at Browser's dev tools"
-msgstr ""
+msgstr "Вкладка «Сеть» в инструментах разработчика браузера"
 
 # f8c2e1c8c14440e380b99157c57e6869
 #: ../../debugging/browser-network.rst:5
 msgid ""
-"Sometimes error are not printed neither in :doc:`Terminal <terminal-"
-"output>` nor in :doc:`Console <browser-console>`. Then you can try to "
-"find some usefull information  at Network tab of browser's developer "
-"tools."
+"Sometimes error are not printed neither in :doc:`Terminal <terminal-output>`"
+" nor in :doc:`Console <browser-console>`. Then you can try to find some "
+"usefull information  at Network tab of browser's developer tools."
 msgstr ""
+"Иногда ошибки не выводятся ни в: doc: `Терминал <terminal-output> `ни в: "
+"doc:` Консоль <browser-console> `. Затем вы можете попробовать найти "
+"полезную информацию на вкладке «Сеть» инструментов разработчика браузера."
 
 # efba22e7067b4a6eb5602da654c1cc47
 #: ../../debugging/browser-network.rst:8
 msgid "Response value"
-msgstr ""
+msgstr "Значение ответа"
 
 # a55c838e20e64e17a403dff0a2d98117
 #: ../../debugging/browser-network.rst:9
 msgid ""
-"To see Response click on the request line and then navigate to Response "
-"tab."
+"To see Response click on the request line and then navigate to Response tab."
 msgstr ""
+"Чтобы увидеть ответ, щелкните строку запроса и перейдите на вкладку «Ответ»."
 
 # dd5c83058a0a401495e5c597b00c434b
 #: ../../debugging/browser-network.rst:12
 msgid "Who made http request"
-msgstr ""
+msgstr "Кто сделал http запрос"
 
 # 7e7059ef1cd34ae5b7987702939086e1
 #: ../../debugging/browser-network.rst:14
 msgid ""
-"Suppose we want to know which part of our script initiate the request. To"
-" do that put mouse pointer above initiator column's element."
+"Suppose we want to know which part of our script initiate the request. To do"
+" that put mouse pointer above initiator column's element."
 msgstr ""
+"Предположим, мы хотим знать, какая часть нашего скрипта инициирует запрос. "
+"Для этого поместите указатель мыши над элементом столбца инициатора."
 
 # b6de2fcba35c4552a7ebb81a44d3177d
 #: ../../debugging/browser-network.rst:18
 msgid "Preserve log"
-msgstr ""
+msgstr "Сохранить журнал"
 
 # da23e279a56044ef8d62516311be9678
 #: ../../debugging/browser-network.rst:20
 msgid ""
-"Ticking the **Preserve log** checkbox will save your console output "
-"across page refreshes and closing / reopening Browser's dev tools. "
-"Console history will only clear when the tab is closed or you manually "
-"clear the Console."
+"Ticking the **Preserve log** checkbox will save your console output across "
+"page refreshes and closing / reopening Browser's dev tools. Console history "
+"will only clear when the tab is closed or you manually clear the Console."
 msgstr ""
+"Отметив флажок ** Сохранить журнал **, вы сохраните вывод консоли при "
+"обновлении страницы и закрытии / повторном открытии инструментов "
+"разработчика браузера. История консоли будет очищена только когда вкладка "
+"закрыта или вы вручную очистите консоль."
 
 # d7f5fda1ef244bcdbe164f02a2f81e96
 #: ../../debugging/browser-network.rst:26
@@ -76,4 +83,5 @@ msgid ""
 "To see original odoo js files i.e. not minimized versions, open odoo in "
 "*debug mode (with assets)* first"
 msgstr ""
-
+"Чтобы увидеть оригинальные файлы odoo js, т.е. не свернутые версии, сначала "
+"откройте odoo в * режиме отладки (с ресурсами) *"

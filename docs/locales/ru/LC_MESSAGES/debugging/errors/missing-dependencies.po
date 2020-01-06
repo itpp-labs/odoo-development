@@ -21,17 +21,17 @@ msgstr ""
 # f4a5f9b7acdb47ed8cf4306d4596362d
 #: ../../debugging/errors/missing-dependencies.rst:2
 msgid "Error: Missing dependencies"
-msgstr ""
+msgstr "Ошибка: отсутствуют зависимости"
 
 # 4ea0c111e63249df8ae7821e15c2cf48
 #: ../../debugging/errors/missing-dependencies.rst:4
 msgid "For example, sometimes during page load displayed the error type:"
-msgstr ""
+msgstr "Например, иногда при загрузке страницы отображается тип ошибки:"
 
 # 9dcaf39bbc8c4199abc2a6a5cefc9a32
 #: ../../debugging/errors/missing-dependencies.rst:6
 msgid "``Missing dependencies: [...] Non loaded modules: [...]``"
-msgstr ""
+msgstr "`` Отсутствуют зависимости: [...] Не загруженные модули: [...] ``"
 
 # ae1a5c7784594476815f9e4455edefe8
 #: ../../debugging/errors/missing-dependencies.rst:11
@@ -39,6 +39,8 @@ msgid ""
 "You can find out reason in the Developer Tool in the tab Sources as "
 "described above."
 msgstr ""
+"Вы можете узнать причину в инструменте разработчика на вкладке Sources, как "
+"описано выше."
 
 # e2a21f0e017b4f5fbae06a3a306b6af9
 #: ../../debugging/errors/missing-dependencies.rst:15
@@ -46,4 +48,6 @@ msgid ""
 "Likely you can not find files included in the Missing dependencies list. "
 "Then you need to check they are included in the view (.xml) files."
 msgstr ""
-
+"Скорее всего, вы не можете найти файлы, включенные в список отсутствующих "
+"зависимостей. Затем вам нужно проверить, включены ли они в файлы "
+"представлений (.xml)."

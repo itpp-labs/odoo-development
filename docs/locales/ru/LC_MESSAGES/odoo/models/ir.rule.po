@@ -21,15 +21,18 @@ msgstr ""
 # b5451e767a6d417e97d423b585aee399
 #: ../../odoo/models/ir.rule.rst:3
 msgid "ir.rule"
-msgstr ""
+msgstr "ir.rule"
 
 # 1b72d32d79c54f33a02ec0817d67ab95
 #: ../../odoo/models/ir.rule.rst:5
 msgid ""
 "Record rules are conditions that records must satisfy for an operation "
-"(create, read, write or delete) to be allowed. Example of a condition: "
-"*User can update Task that assigned to him*."
+"(create, read, write or delete) to be allowed. Example of a condition: *User"
+" can update Task that assigned to him*."
 msgstr ""
+"Правила записи - это условия, которым записи должны удовлетворять для "
+"выполнения операции (создание, чтение, запись или удаление). Пример условия:"
+" * Пользователь может обновить задание, которое ему назначено *."
 
 # 9885f87039264f2db8a90ba50547afb0
 #: ../../odoo/models/ir.rule.rst:7
@@ -37,89 +40,107 @@ msgid ""
 "Group field defines for which group rule is applied. If Group is not "
 "specified, then rule is *global* and applied for all users."
 msgstr ""
+"Поле группы определяет, для какого правила группы применяется. Если группа "
+"не указана, то правило является * глобальным * и применяется ко всем "
+"пользователям."
 
 # ca599231dcad4734bafefe657c5b5385
 #: ../../odoo/models/ir.rule.rst:9
 msgid "Domain field defines conditions for records."
-msgstr ""
+msgstr "Доменное поле определяет условия для записей."
 
 # c6ecc79254d54e77a71c5b98f55417ab
 #: ../../odoo/models/ir.rule.rst:11
 msgid ""
 "Boolean fields (read, write, create, delete) of ir.rule mean *Apply this "
-"rule for this kind of operation*. They do **not** mean *restrict access "
-"for this kind of operation*."
+"rule for this kind of operation*. They do **not** mean *restrict access for "
+"this kind of operation*."
 msgstr ""
+"Булевы поля (чтение, запись, создание, удаление) ir.rule означают * "
+"Применить это правило для операций такого типа *. Они ** не ** означают * "
+"ограничивают доступ для такого рода операций *."
 
 # bae114f9855b429b8f6ac8ce57c23ce0
 #: ../../odoo/models/ir.rule.rst:14
 msgid "Checking access algorithm"
-msgstr ""
+msgstr "Проверка алгоритма доступа"
 
 # 56818ebd149242b8a08488986ef6ba57
 #: ../../odoo/models/ir.rule.rst:15
 msgid ""
-"To check either user has access for example to *read* a record, system do"
-" as following:"
+"To check either user has access for example to *read* a record, system do as"
+" following:"
 msgstr ""
+"Чтобы проверить, есть ли у пользователя доступ, например, к * чтению * "
+"записи, система делает следующее:"
 
 # beeac1fb5e9846eab35e8fddbcdffb29
 #: ../../odoo/models/ir.rule.rst:17
 msgid ""
-"Check access according to :doc:`ir.model.access <ir.model.access>` "
-"records. If it doesn't pass, then user **doesn't get** access"
+"Check access according to :doc:`ir.model.access <ir.model.access>` records. "
+"If it doesn't pass, then user **doesn't get** access"
 msgstr ""
+"Проверьте доступ в соответствии с: doc: `ir.model.access <ir.model.access> "
+"записи. Если это не проходит, то пользователь ** не получает ** доступ"
 
 # 15e4b4d72d604ec48e5eff7913acc2ae
 #: ../../odoo/models/ir.rule.rst:19
 msgid "Find and check global rules for the **model** and for *read* operation"
 msgstr ""
+"Найти и проверить общие правила для ** модели ** и для операции * read *"
 
 # 548f16d477b1471abb01f1ff83b0c960
 #: ../../odoo/models/ir.rule.rst:21
 msgid ""
-"if the record **doesn't satisfy** (doesn't fit to domain) for at least "
-"one of the global rules, then user **doesn't get** access"
+"if the record **doesn't satisfy** (doesn't fit to domain) for at least one "
+"of the global rules, then user **doesn't get** access"
 msgstr ""
+"если запись ** не удовлетворяет ** (не подходит для домена) хотя бы по "
+"одному из глобальных правил, то пользователь ** не получает ** доступа"
 
 # a36c2d1b69b2453ebfe660f7fbe207aa
 #: ../../odoo/models/ir.rule.rst:23
 msgid ""
-"Find and check non-global rules for the **model** and for *read* "
-"operation."
+"Find and check non-global rules for the **model** and for *read* operation."
 msgstr ""
+"Найдите и проверьте неглобальные правила для ** модели ** и для операции * "
+"read *."
 
 # 9f77f19c3eb54559b42345e8772e95ae
 #: ../../odoo/models/ir.rule.rst:25
 msgid "if there are no such groups, then user **get** access"
-msgstr ""
+msgstr "если таких групп нет, то пользователь ** получает ** доступ"
 
 # 004b12e57ca143bd9de03a02a88d7fed
 #: ../../odoo/models/ir.rule.rst:26
 msgid ""
-"if the record **satisfy** (fit to domain) for **at least one** of the "
-"non-global rules, then user **get** access"
+"if the record **satisfy** (fit to domain) for **at least one** of the non-"
+"global rules, then user **get** access"
 msgstr ""
+"если запись ** удовлетворяет ** (соответствует домену) для ** хотя бы одного"
+" ** неглобальных правил, то пользователь ** получает ** доступ"
 
 # fe0dc99ac6974529933734f93c53a50c
 #: ../../odoo/models/ir.rule.rst:27
 msgid ""
-"if the record **doesn't satisfy** for **all**  non-global rules, then "
-"user **doesn't get** access"
+"if the record **doesn't satisfy** for **all**  non-global rules, then user "
+"**doesn't get** access"
 msgstr ""
+"если запись ** не удовлетворяет ** для ** всех ** неглобальных правил, то "
+"пользователь ** не получает ** доступа"
 
 # 1522cc4325ad47eb85eaca47460d1781
 #: ../../odoo/models/ir.rule.rst:29
 msgid "See also:"
-msgstr ""
+msgstr "Смотрите также:"
 
 # b17287cf0596488cad566b2356268ae8
 #: ../../odoo/models/ir.rule.rst:31
 msgid ":doc:`Superuser rights <../../../dev/access/admin>`"
 msgstr ""
+": doc: `Права суперпользователя &lt;../../../ dev / access / admin&gt;`"
 
 # 783a213f070b453794dbfded0c86d254
 #: ../../odoo/models/ir.rule.rst:34
 msgid "Fields"
-msgstr ""
-
+msgstr "поля"

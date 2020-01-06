@@ -21,17 +21,19 @@ msgstr ""
 # 08c81840c04e47b49d532bce51250211
 #: ../../dev/py/controllers.rst:2
 msgid "Web controllers"
-msgstr ""
+msgstr "Веб контроллеры"
 
 # d6d61a90156643d59c93c93a2b18ebf2
 #: ../../dev/py/controllers.rst:4
 msgid "Send values to web page"
-msgstr ""
+msgstr "Отправить значения на веб-страницу"
 
 # 9971eb5d33cb4870911adbb08242fb43
 #: ../../dev/py/controllers.rst:6
 msgid ""
-"If you need to transmit on rendering page some vars, you need to put that"
-" vars in dictionary and place it as second argument::"
+"If you need to transmit on rendering page some vars, you need to put that "
+"vars in dictionary and place it as second argument::"
 msgstr ""
-
+"Если вам нужно передать на страницу рендеринга некоторые переменные, вам "
+"нужно поместить эти переменные в словарь и поместить их в качестве второго "
+"аргумента:"

@@ -21,14 +21,16 @@ msgstr ""
 # 0f451314ed7741338bea6a6d9ed9295a
 #: ../../dev/pos/inheritance.rst:3
 msgid "Inheritance"
-msgstr ""
+msgstr "наследование"
 
 # 2e558380e2624a80a005fe956bb03882
 #: ../../dev/pos/inheritance.rst:5
 msgid ""
-"POS has two types of classes: Models, Widget. Extending those classes are"
-" slightly different."
+"POS has two types of classes: Models, Widget. Extending those classes are "
+"slightly different."
 msgstr ""
+"POS имеет два типа классов: модели, виджеты. Расширение этих классов немного"
+" отличается."
 
 # 1aa7427dcab34ff98bfd5369cf31d495
 #: ../../dev/pos/inheritance.rst:9
@@ -37,25 +39,34 @@ msgid ""
 "available `here <https://odoo-"
 "development.readthedocs.io/en/latest/dev/pos/gui.html>`__ ."
 msgstr ""
+"Не у всех классов есть простой способ заставить их наследовать. Некоторые "
+"трюки доступны здесь <https://odoo-"
+"development.readthedocs.io/en/latest/dev/pos/gui.html> `__"
 
 # 14d78cba24654bfc8a3b072dfcf472e6
 #: ../../dev/pos/inheritance.rst:13
 msgid "Model"
-msgstr ""
+msgstr "модель"
 
 # f5569a03bd7141ce85bda8e5a93abc91
 #: ../../dev/pos/inheritance.rst:15
 msgid "Model classes work with data only and don't work with UI directly."
 msgstr ""
+"Классы моделей работают только с данными и не работают с пользовательским "
+"интерфейсом напрямую."
 
 # ba49c50af6db4fd5a076e94b4ff6f369
 #: ../../dev/pos/inheritance.rst:17
 msgid ""
-"To extend that kind of class, you need to use ``extend`` method. It "
-"creates a copy of class with redefined method. Normally, you need to "
-"override original class with updated one. Also, to call original method, "
-"put original class to a variable."
+"To extend that kind of class, you need to use ``extend`` method. It creates "
+"a copy of class with redefined method. Normally, you need to override "
+"original class with updated one. Also, to call original method, put original"
+" class to a variable."
 msgstr ""
+"Чтобы расширить класс такого типа, вам нужно использовать метод `` extend``."
+" Создает копию класса с переопределенным методом. Обычно вам нужно "
+"переопределить исходный класс обновленным. Также, чтобы вызвать оригинальный"
+" метод, поместите оригинальный класс в переменную."
 
 # 1bc459c6035f4fe48b6b8c33086ccd9a
 #: ../../dev/pos/inheritance.rst:19
@@ -63,23 +74,27 @@ msgid ""
 "Here is an `example <https://github.com/it-projects-llc/pos-"
 "addons/blob/fb8b072/pos_debt_notebook/static/src/js/pos.js#L23-L33>`__:"
 msgstr ""
+"Вот пример <https://github.com/it-projects-llc/pos-"
+"addons/blob/fb8b072/pos_debt_notebook/static/src/js/pos.js#L23-L33> `__:"
 
 # 7ff24763bfec49538bb72235be654ff6
 #: ../../dev/pos/inheritance.rst:42
 msgid "Widget"
-msgstr ""
+msgstr "Виджет"
 
 # c32c63e6694c4195b4ba6b78183a8776
 #: ../../dev/pos/inheritance.rst:44
 msgid "Widget classes work with UI."
-msgstr ""
+msgstr "Классы виджетов работают с пользовательским интерфейсом."
 
 # 52dfb42d4e314fbc835ac7b64a7570cb
 #: ../../dev/pos/inheritance.rst:46
 msgid ""
-"Widget extend is much easier than Model extending: just use ``include`` "
-"and ``_super``."
+"Widget extend is much easier than Model extending: just use ``include`` and "
+"``_super``."
 msgstr ""
+"Расширение виджета намного проще, чем расширение модели: просто используйте "
+"`` include`` и `` _super``."
 
 # ed0f522b95d4434682b1d876db6372e1
 #: ../../dev/pos/inheritance.rst:48
@@ -87,4 +102,5 @@ msgid ""
 "Here is an `example <https://github.com/it-projects-llc/pos-"
 "addons/blob/fb8b072/pos_debt_notebook/static/src/js/pos.js#L379-L385>`__:"
 msgstr ""
-
+"Вот пример <https://github.com/it-projects-llc/pos-"
+"addons/blob/fb8b072/pos_debt_notebook/static/src/js/pos.js#L379-L385> `__:"

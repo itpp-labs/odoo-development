@@ -21,5 +21,4 @@ msgstr ""
 # 2f9626bcb3e6486d99bb566495d1f2fb
 #: ../../odoo/usage/index.rst:2
 msgid "How to use Odoo"
-msgstr ""
-
+msgstr "Как использовать Odoo"

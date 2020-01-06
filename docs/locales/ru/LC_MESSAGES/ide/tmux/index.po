@@ -21,5 +21,4 @@ msgstr ""
 # e03733c683174c799e62b7422e81f94c
 #: ../../ide/tmux/index.rst:2
 msgid "Tmux"
-msgstr ""
-
+msgstr "Tmux"

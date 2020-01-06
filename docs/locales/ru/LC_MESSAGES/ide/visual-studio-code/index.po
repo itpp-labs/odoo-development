@@ -21,5 +21,4 @@ msgstr ""
 # 11ea8da7c5204ddb814e85ef91b711af
 #: ../../ide/visual-studio-code/index.rst:2
 msgid "Visual Studio Code"
-msgstr ""
-
+msgstr "Visual Studio Code"

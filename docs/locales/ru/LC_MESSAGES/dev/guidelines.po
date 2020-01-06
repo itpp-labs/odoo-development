@@ -21,22 +21,22 @@ msgstr ""
 # 713d83f433f94dc589dbb030d0138203
 #: ../../dev/guidelines.rst:3
 msgid "Guidelines"
-msgstr ""
+msgstr "Методические рекомендации"
 
 # 2ea7a6a60ffe407783ea9d258e8f3fe5
 #: ../../dev/guidelines.rst:5
 msgid "Source:"
-msgstr ""
+msgstr "Источник:"
 
 # ca83676585ef4fbcb5fb3b7c3f46fa89
 #: ../../dev/guidelines.rst:7
 msgid "https://www.odoo.com/documentation/8.0/reference/guidelines.html"
-msgstr ""
+msgstr "https://www.odoo.com/documentation/8.0/reference/guidelines.html"
 
 # b0e167eb8e33491cbbcc0108a05f05a3
 #: ../../dev/guidelines.rst:10
 msgid "Comments"
-msgstr ""
+msgstr "Комментарии"
 
 # 29acf3f9a7f84f5d8ef071ee1c0cd77f
 #: ../../dev/guidelines.rst:12
@@ -44,11 +44,14 @@ msgid ""
 "First of all, comments in the source are required if it's not obvious "
 "**why** are doing something."
 msgstr ""
+"Прежде всего, комментарии в источнике обязательны, если неясно ** почему ** "
+"что-то делают."
 
 # e2fabdeb943a4dc49de5f7acf3af6491
 #: ../../dev/guidelines.rst:14
 msgid ""
-"Additionally, you can add comments about **what** are you doing, if it "
-"could be helpful."
+"Additionally, you can add comments about **what** are you doing, if it could"
+" be helpful."
 msgstr ""
-
+"Кроме того, вы можете добавить комментарии о **, что ** вы делаете, если это"
+" может быть полезно."

@@ -21,15 +21,18 @@ msgstr ""
 # eb2730e9e8b24a45913e9c58212493ef
 #: ../../dev/pos/custom-order-data.rst:3
 msgid "Custom order data in browser storage"
-msgstr ""
+msgstr "Данные пользовательского заказа в хранилище браузера"
 
 # 756e9b2ac8cb4053ab39a4d1633d541e
 #: ../../dev/pos/custom-order-data.rst:5
 msgid ""
-"Before the payment orders in POS are kept in browser storage. Thereby if "
-"we again open POS module (should not be confused with the closing of the "
+"Before the payment orders in POS are kept in browser storage. Thereby if we "
+"again open POS module (should not be confused with the closing of the "
 "session) the system automatically retrieves data from the storage."
 msgstr ""
+"Перед тем как платежные поручения в POS хранятся в хранилище браузера. Таким"
+" образом, если мы снова откроем модуль POS (не следует путать с закрытием "
+"сессии), система автоматически извлекает данные из хранилища."
 
 # d85d5280160b4f1d8e203fe8c9a7d3bc
 #: ../../dev/pos/custom-order-data.rst:7
@@ -37,40 +40,57 @@ msgid ""
 "If your model adds data (of the field), then you need to make additional "
 "data processing in order to save this data among reopenings."
 msgstr ""
+"Если ваша модель добавляет данные (поля), вам необходимо выполнить "
+"дополнительную обработку данных, чтобы сохранить эти данные среди повторных "
+"открытий."
 
 # 038e7cd2ae98443e8c0aa4a340213557
 #: ../../dev/pos/custom-order-data.rst:9
 msgid ""
-"Because of the browser storage (*localStorage*) allows saving data only "
-"with the type String POS converts the ``Order`` object to the String and "
+"Because of the browser storage (*localStorage*) allows saving data only with"
+" the type String POS converts the ``Order`` object to the String and "
 "inversely."
 msgstr ""
+"Поскольку хранилище браузера (* localStorage *) позволяет сохранять данные "
+"только с типом String, POS преобразует объект `` Order`` в String и обратно."
 
 # 3bc0f54635a64db588a88a62c8a0c448
 #: ../../dev/pos/custom-order-data.rst:11
 msgid "For this purpose following methods are used:"
-msgstr ""
+msgstr "Для этого используются следующие методы:"
 
 # a0be04d8b48f4ff79f2cff931ce3259f
 #: ../../dev/pos/custom-order-data.rst:13
 msgid ""
-"``init_from_JSON``: function reads parameters of the order from the "
-"*json-String* and saves to the current object (see realization of the "
-"Orderline `here "
+"``init_from_JSON``: function reads parameters of the order from the *json-"
+"String* and saves to the current object (see realization of the Orderline "
+"`here "
 "<https://github.com/odoo/odoo/blob/8d7ee3921384ce070d3333cbc4073ffc4f8febc4/addons/point_of_sale/static/src/js/models.js#L1365-L1383>`__"
 " and for the Model `there "
 "<https://github.com/odoo/odoo/blob/8d7ee3921384ce070d3333cbc4073ffc4f8febc4/addons/point_of_sale/static/src/js/models.js#L2024-L2082>`__)"
 msgstr ""
+"`` init_from_JSON``: функция считывает параметры порядка из * json-String * "
+"и сохраняет в текущий объект (см. реализацию Orderline `здесь "
+"<https://github.com/odoo/odoo/blob/8d7ee3921384ce070d3333cbc4073ffc4f8febc4/addons/point_of_sale/static/src/js/models.js#L1365-L1383>"
+" `__ и для Модели` "
+"<https://github.com/odoo/odoo/blob/8d7ee3921384ce070d3333cbc4073ffc4f8febc4/addons/point_of_sale/static/src/js/models.js#L2024-L2082>"
+" `__)"
 
 # 51a4f517076c4372b1445aa686c37f63
 #: ../../dev/pos/custom-order-data.rst:15
 msgid ""
-"``export_as_JSON``: function converts the current object to *json-String*"
-" (see realization of the Orderline `here "
+"``export_as_JSON``: function converts the current object to *json-String* "
+"(see realization of the Orderline `here "
 "<https://github.com/odoo/odoo/blob/8d7ee3921384ce070d3333cbc4073ffc4f8febc4/addons/point_of_sale/static/src/js/models.js#L2083-L2110>`__"
 " and for the Model `there "
 "<https://github.com/odoo/odoo/blob/8d7ee3921384ce070d3333cbc4073ffc4f8febc4/addons/point_of_sale/static/src/js/models.js#L1558-L1576>`__)"
 msgstr ""
+"`` export_as_JSON``: функция преобразует текущий объект в * json-String * "
+"(см. реализацию строки заказа `здесь "
+"<https://github.com/odoo/odoo/blob/8d7ee3921384ce070d3333cbc4073ffc4f8febc4/addons/point_of_sale/static/src/js/models.js#L2083-L2110>"
+" `__ и для Модели` "
+"<https://github.com/odoo/odoo/blob/8d7ee3921384ce070d3333cbc4073ffc4f8febc4/addons/point_of_sale/static/src/js/models.js#L1558-L1576>"
+" `__)"
 
 # 97cae119dd6c45fbb8a5b4ae0fcfbcb8
 #: ../../dev/pos/custom-order-data.rst:17
@@ -78,33 +98,43 @@ msgid ""
 "When order is updated ``export_as_JSON`` is called and data are saved to "
 "browser storage."
 msgstr ""
+"Когда заказ обновляется, вызывается `` export_as_JSON`` и данные сохраняются"
+" в хранилище браузера."
 
 # ed58450b6ef74f9c89e76e2e0c90b5dc
 #: ../../dev/pos/custom-order-data.rst:19
 msgid ""
-"Now, if you close page and reopen, then at some point ``init_from_JSON`` "
-"is called to restore order from *json string*."
+"Now, if you close page and reopen, then at some point ``init_from_JSON`` is "
+"called to restore order from *json string*."
 msgstr ""
+"Теперь, если вы закрываете страницу и снова открываете ее, то в какой-то "
+"момент вызывается `` init_from_JSON`` для восстановления порядка из * строки"
+" json *."
 
 # 8a7e2bbacf2a4a109266148cc6c9808f
 #: ../../dev/pos/custom-order-data.rst:21
 msgid "Let's take the example:"
-msgstr ""
+msgstr "Давайте возьмем пример:"
 
 # 10200619066f450586dbda0e2720054e
 #: ../../dev/pos/custom-order-data.rst:24
 msgid "``POS Advanced Order Notes`` module"
-msgstr ""
+msgstr "Модуль `` POS Advanced Order Notes``"
 
 # 61eac8d9ddc745828df8ecba196186f5
 #: ../../dev/pos/custom-order-data.rst:26
 msgid ""
 "This `module <https://github.com/it-projects-llc/pos-"
 "addons/blob/12.0/pos_order_note/static/src/js/order_note.js#L88-L102>`__ "
-"allows adding notes to the entire order, to use already predefined notes "
-"and to speed up the process of creating orders by specifying products "
-"also via notes, which can be automatically applied further."
+"allows adding notes to the entire order, to use already predefined notes and"
+" to speed up the process of creating orders by specifying products also via "
+"notes, which can be automatically applied further."
 msgstr ""
+"Этот `модуль <https://github.com/it-projects-llc/pos-"
+"addons/blob/12.0/pos_order_note/static/src/js/order_note.js#L88-L102> `__ "
+"позволяет добавлять заметки ко всему заказу, использовать уже заданные "
+"заметки и ускорить процесс создания заказов, указав товары также с помощью "
+"заметок, которые могут автоматически применяться в дальнейшем."
 
 # 47d007b47a0a487abd5eccd6c3165048
 #: ../../dev/pos/custom-order-data.rst:40
@@ -113,18 +143,24 @@ msgid ""
 "``export_as_JSON`` launches to convert data of current order into string "
 "(including notes) and save it in browser storage."
 msgstr ""
+"Когда вы добавляете примечание к своему заказу, запускается триггер, который"
+" вызывает `` export_as_JSON``, чтобы преобразовать данные текущего заказа в "
+"строку (включая примечания) и сохранить ее в хранилище браузера."
 
 # 319ff9548087442996b358e0f7992738
 #: ../../dev/pos/custom-order-data.rst:42
 msgid ""
-"While loading POS in order to get saved notes from the browser storage, "
-"you need to extend ``init_from_JSON`` function."
+"While loading POS in order to get saved notes from the browser storage, you "
+"need to extend ``init_from_JSON`` function."
 msgstr ""
+"При загрузке POS, чтобы получить сохраненные заметки из хранилища браузера, "
+"вам необходимо расширить функцию `` init_from_JSON``."
 
 # ee60c5a4df8f44a593279fd037f81015
 #: ../../dev/pos/custom-order-data.rst:44
 msgid ""
-"Without this code, your module will work, but if you reload POS, your "
-"notes will not be presented (because they are not saved)."
+"Without this code, your module will work, but if you reload POS, your notes "
+"will not be presented (because they are not saved)."
 msgstr ""
-
+"Без этого кода ваш модуль будет работать, но если вы перезагрузите POS, ваши"
+" заметки не будут представлены (потому что они не сохранены)."

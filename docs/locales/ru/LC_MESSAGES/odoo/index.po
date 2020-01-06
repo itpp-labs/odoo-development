@@ -21,5 +21,4 @@ msgstr ""
 # 9664080955a24fc7b1072072652eb96a
 #: ../../odoo/index.rst:2
 msgid "Odoo"
-msgstr ""
-
+msgstr "Odoo"

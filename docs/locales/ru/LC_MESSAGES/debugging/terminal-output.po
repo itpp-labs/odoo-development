@@ -21,25 +21,31 @@ msgstr ""
 # 5fa1c145cb0c469bba64d1e9332f8547
 #: ../../debugging/terminal-output.rst:3
 msgid "Terminal logs"
-msgstr ""
+msgstr "Терминальные журналы"
 
 # 4affa83fc1064e22bbf064627af48c32
 #: ../../debugging/terminal-output.rst:5
 msgid ""
-"**Logs** from **terminal** *(in development environment)* or **log file**"
-" *(in production environment)* are primary source to find the reason of a"
-" problem."
+"**Logs** from **terminal** *(in development environment)* or **log file** "
+"*(in production environment)* are primary source to find the reason of a "
+"problem."
 msgstr ""
+"** Журналы ** из ** терминала ** * (в среде разработки) * или ** файла "
+"журнала ** * (в производственной среде) * являются основным источником для "
+"поиска причины проблемы."
 
 # 035a9b30fe9f44f1a3125c1aa06878db
 #: ../../debugging/terminal-output.rst:7
-msgid "To control output level use :doc:`- - log-handler <../admin/log-handler>`"
+msgid ""
+"To control output level use :doc:`- - log-handler <../admin/log-handler>`"
 msgstr ""
+"Для управления уровнем вывода используйте: doc: `- - log-handler &lt;../ "
+"admin / log-handler&gt;`"
 
 # 620e9e744bd64738ab072936ee4269f8
 #: ../../debugging/terminal-output.rst:10
 msgid "Output format"
-msgstr ""
+msgstr "Выходной формат"
 
 # cf7ec4ed37a2453c93ed549263a390b3
 #: ../../debugging/terminal-output.rst:12
@@ -48,40 +54,45 @@ msgid ""
 "<https://github.com/odoo/odoo/blob/11.0/odoo/netsvc.py#L98>`__ is as "
 "following::"
 msgstr ""
+"`Формат по умолчанию "
+"<https://github.com/odoo/odoo/blob/11.0/odoo/netsvc.py#L98> `__ выглядит "
+"следующим образом:"
 
 # ad504c5930d340fe840f8f2d61462b63
 #: ../../debugging/terminal-output.rst:23
 msgid "Name"
-msgstr ""
+msgstr "имя"
 
 # 97a642ac8e0c48cca5bee696d799e558
 #: ../../debugging/terminal-output.rst:25
 msgid ""
-"*Name* is argument of creation ``_logger`` object. Usually it's equal to "
-"::"
-msgstr ""
+"*Name* is argument of creation ``_logger`` object. Usually it's equal to ::"
+msgstr "* Имя * - аргумент создания объекта `` _logger``. Обычно это равно ::"
 
 # b9ea2b75081f46e5bcfb099dd6d838dc
 #: ../../debugging/terminal-output.rst:30
 msgid "i.e. equal to package name"
-msgstr ""
+msgstr "то есть равно названию пакета"
 
 # cf4fe627b4f740d0a5c0bca96a3ce81b
 #: ../../debugging/terminal-output.rst:33
 msgid "PID"
-msgstr ""
+msgstr "PID"
 
 # ab1f4cc6ec1b4e8386754594b8ae0944
 #: ../../debugging/terminal-output.rst:35
 msgid ""
-"*PID* is a process ID. E.g. ID of one of :doc:`worker <../admin/workers>`"
-" or :doc:`cron process <../admin/max_cron_threads>`"
+"*PID* is a process ID. E.g. ID of one of :doc:`worker <../admin/workers>` or"
+" :doc:`cron process <../admin/max_cron_threads>`"
 msgstr ""
+"* PID * - это идентификатор процесса. Например, ID одного из: doc: `worker "
+"&lt;../ admin / worker&gt;` или: doc: `процесс cron &lt;../ admin / "
+"max_cron_threads&gt;`"
 
 # 79f3d4eb24e14948b5f566af2499b28f
 #: ../../debugging/terminal-output.rst:38
 msgid "Message"
-msgstr ""
+msgstr "Сообщение"
 
 # cb1d4fbee7f84155b02067271fc0aa02
 #: ../../debugging/terminal-output.rst:40
@@ -89,4 +100,5 @@ msgid ""
 "*Message* is anything passing to one of logging method, e.g. "
 "``_logger.info(Message)``"
 msgstr ""
-
+"* Сообщение * - это что-либо, передаваемое одному из методов ведения "
+"журнала, например `` _logger.info (Message) ``"

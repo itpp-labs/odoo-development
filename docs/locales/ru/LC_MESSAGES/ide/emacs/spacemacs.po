@@ -21,108 +21,110 @@ msgstr ""
 # c993a10b4a834042b807ded266c46ff1
 #: ../../ide/emacs/spacemacs.rst:3
 msgid "Spacemacs"
-msgstr ""
+msgstr "Spacemacs"
 
 # baa98c8844bc4c83acdfa0172b653739
 #: ../../ide/emacs/spacemacs.rst:6
 msgid "Requirements"
-msgstr ""
+msgstr "Требования"
 
 # 55c9cd0c652941e49a818a5f5a7bdf84
 #: ../../ide/emacs/spacemacs.rst:8
 msgid "emacs version 24 or newer."
-msgstr ""
+msgstr "Emacs версия 24 или новее."
 
 # e5b287c0baaa4511a11db518cff4af54
 #: ../../ide/emacs/spacemacs.rst:11
 msgid "Installation"
-msgstr ""
+msgstr "Установка"
 
 # 2532ba4c6ff84ce786ce06f3ec1c1c9f
 #: ../../ide/emacs/spacemacs.rst:13
 msgid "Install spacemacs from github https://github.com/syl20bnr/spacemacs"
-msgstr ""
+msgstr "Установите spacemacs из github https://github.com/syl20bnr/spacemacs"
 
 # bd2f95fe7b3447bb85816ffdf22675f6
 #: ../../ide/emacs/spacemacs.rst:16
 msgid "Documentation"
-msgstr ""
+msgstr "Документация"
 
 # d8b099a9dcfc4730ae8d6531243e4b45
 #: ../../ide/emacs/spacemacs.rst:18
 msgid "http://spacemacs.org/doc/DOCUMENTATION.html"
-msgstr ""
+msgstr "http://spacemacs.org/doc/DOCUMENTATION.html"
 
 # 74cba223dd144e028ecfffc3f7724693
 #: ../../ide/emacs/spacemacs.rst:22
 msgid "Layers for Odoo development"
-msgstr ""
+msgstr "Слои для разработки Odoo"
 
 # 0331d1b3410b4f0dbc7cb79ed2f39986
 #: ../../ide/emacs/spacemacs.rst:24
 msgid "Use the following layers:"
-msgstr ""
+msgstr "Используйте следующие слои:"
 
 # 35dcd83e8b084b66bf917d0c8415bff1
 #: ../../ide/emacs/spacemacs.rst:26
 msgid "auto-completion"
-msgstr ""
+msgstr "автозавершение"
 
 # 63881350b5034989ba2d27cec7252823
 #: ../../ide/emacs/spacemacs.rst:27
 msgid "better-defaults"
-msgstr ""
+msgstr "лучше по умолчанию"
 
 # d22e7276240d41049e485f8b02466406
 #: ../../ide/emacs/spacemacs.rst:28
 msgid "emacs-lisp"
-msgstr ""
+msgstr "Emacs-шепелявость"
 
 # 2dd6b7c5f3924738a3e510cce83b7408
 #: ../../ide/emacs/spacemacs.rst:29
 msgid "git"
-msgstr ""
+msgstr "мерзавец"
 
 # e9a42f316b6042ebb1baf7bff5aa3c26
 #: ../../ide/emacs/spacemacs.rst:30
 msgid "syntax-checking"
-msgstr ""
+msgstr "Синтаксис проверка"
 
 # bf82b02e00fb4781b34e9432eb3eead6
 #: ../../ide/emacs/spacemacs.rst:31
 msgid "version-control"
-msgstr ""
+msgstr "контроль версий"
 
 # cc175c5a68144c60ac0e8356824a3ccb
 #: ../../ide/emacs/spacemacs.rst:32
 msgid "pyhton"
-msgstr ""
+msgstr "pyhton"
 
 # fca7617945e84b69a34090f679ecb136
 #: ../../ide/emacs/spacemacs.rst:33
 msgid "eyebrowse"
-msgstr ""
+msgstr "eyebrowse"
 
 # 198ba21373384deb8d6e3b06395cc862
 #: ../../ide/emacs/spacemacs.rst:34
 msgid "sql"
-msgstr ""
+msgstr "SQL"
 
 # 7fe102663f2f4b718568215c89478ff3
 #: ../../ide/emacs/spacemacs.rst:35
 msgid "python"
-msgstr ""
+msgstr "питон"
 
 # a7e53877bc224a3386a45a1e3c7aab6b
 #: ../../ide/emacs/spacemacs.rst:36
 msgid "semantic"
-msgstr ""
+msgstr "семантический"
 
 # 29481da7150043369a775a7cec0935c3
 #: ../../ide/emacs/spacemacs.rst:38
 msgid ""
 "Syntax-checking in python uses pylint package "
-"(http://liuluheng.github.io/wiki/public_html/Python/flycheck-pylint-"
-"emacs-with-python.html). Install it by"
+"(http://liuluheng.github.io/wiki/public_html/Python/flycheck-pylint-emacs-"
+"with-python.html). Install it by"
 msgstr ""
-
+"Проверка синтаксиса в python использует пакет pylint "
+"(http://liuluheng.github.io/wiki/public_html/Python/flycheck-pylint-emacs-"
+"with-python.html). Установите его"

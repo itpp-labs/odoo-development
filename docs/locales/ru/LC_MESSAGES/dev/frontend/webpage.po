@@ -21,82 +21,94 @@ msgstr ""
 # 3ac8f36f0ec44b1cb94fc15d85333105
 #: ../../dev/frontend/webpage.rst:2
 msgid "Web page"
-msgstr ""
+msgstr "веб-страница"
 
 # 98a191e3372e4b6096a95248f061cba7
 #: ../../dev/frontend/webpage.rst:4
 msgid "**Common**"
-msgstr ""
+msgstr "** Общие **"
 
 # d0d7aaf20841433f95672d14f5768905
 #: ../../dev/frontend/webpage.rst:7
 msgid "Open a new project:"
-msgstr ""
+msgstr "Откройте новый проект:"
 
 # d453959f944f43cca50ebde77ca31473
 #: ../../dev/frontend/webpage.rst:13
 msgid "Add  ``website`` as a dependency to ``newpage``:"
-msgstr ""
+msgstr "Добавьте `` website`` как зависимость к `` newpage``:"
 
 # 9f4835d623a041d281a6aef01059a85b
 #: ../../dev/frontend/webpage.rst:19
 msgid ""
 "then add the website=True flag on the controller, this sets up a few new "
-"variables on the request object and allows using the website layout in "
-"our template."
+"variables on the request object and allows using the website layout in our "
+"template."
 msgstr ""
+"затем добавьте флаг website = True на контроллер, это установит несколько "
+"новых переменных в объекте запроса и позволит использовать макет сайта в "
+"нашем шаблоне."
 
 # cbcea7730fe042eca492914e2ceb88c4
 #: ../../dev/frontend/webpage.rst:22
 msgid "**Creating pages**"
-msgstr ""
+msgstr "** Создание страниц **"
 
 # 1d346e0068a04f73bfadd87ab1a120ac
 #: ../../dev/frontend/webpage.rst:24
 msgid "**1 way**"
-msgstr ""
+msgstr "** 1 способ **"
 
 # b01564b4100c45ff9dc194c7fb5ce6cd
 #: ../../dev/frontend/webpage.rst:26
 msgid "Write the following code in ``controllers.py``:"
-msgstr ""
+msgstr "Напишите следующий код в `` controllers.py``:"
 
 # 90ef9a7f67074d1281fe7d22d3e9a7c7
 #: ../../dev/frontend/webpage.rst:36
 msgid ""
 "The new web page will appear by adding - ``/new-page/`` "
-"``http.request.render('newpage.index')`` – downloading a tamplate for a "
-"new page"
+"``http.request.render('newpage.index')`` – downloading a tamplate for a new "
+"page"
 msgstr ""
+"Новая веб-страница появится, добавив - `` / new-page / `` `` "
+"http.request.render (&#39;newpage.index&#39;) `` - загрузив тамплату для "
+"новой страницы"
 
 # 96f934eaef1b4fa2b0cd9870b0180ec9
 #: ../../dev/frontend/webpage.rst:39
 msgid "A pattern ``templates.xml``"
-msgstr ""
+msgstr "Шаблон `` templates.xml``"
 
 # a372cbaa72d44c7ab2105d745e5ba471
 #: ../../dev/frontend/webpage.rst:59
-msgid "``website.layout`` means that the elements of pattern website are used."
+msgid ""
+"``website.layout`` means that the elements of pattern website are used."
 msgstr ""
+"`` website.layout`` означает, что используются элементы шаблона сайта."
 
 # b1cace9659744f359e8a1eb17b61c973
 #: ../../dev/frontend/webpage.rst:61
 msgid ""
-"After restarting the server while updating the module (in order to update"
-" the manifest and template) access http://localhost:8069/new-page/. You "
-"will see a new page with a title *'My first web page'* and with text "
-"*'Hello, world!'*"
+"After restarting the server while updating the module (in order to update "
+"the manifest and template) access http://localhost:8069/new-page/. You will "
+"see a new page with a title *'My first web page'* and with text *'Hello, "
+"world!'*"
 msgstr ""
+"После перезапуска сервера при обновлении модуля (для обновления манифеста и "
+"шаблона) перейдите по адресу http: // localhost: 8069 / new-page /. Вы "
+"увидите новую страницу с заголовком * «Моя первая веб-страница» * и текстом "
+"* «Привет, мир!» *"
 
 # 48a0e8daf8ed4706a1e5c454a98e3226
 #: ../../dev/frontend/webpage.rst:65
 msgid "**2 way**"
-msgstr ""
+msgstr "**2 пути**"
 
 # 192a90e14ab24fa4a7216cfb66ae99dd
 #: ../../dev/frontend/webpage.rst:67
 msgid "Write in pattern the following:"
-msgstr ""
+msgstr "Напишите в шаблоне следующее:"
 
 # 2985371d90e844c79f43e79da623e63a
 #: ../../dev/frontend/webpage.rst:86
@@ -104,14 +116,15 @@ msgid ""
 "``page=\"True\"`` creates a page as follows below: "
 "http://localhost:8069/page/services/"
 msgstr ""
+"`` page = &quot;True&quot; `` создает страницу следующим образом: http: // "
+"localhost: 8069 / page / services /"
 
 # b88fff7fed3c4a9cb7f868d3ec32e2b9
 #: ../../dev/frontend/webpage.rst:89
 msgid "If add in ``view.xml``:"
-msgstr ""
+msgstr "Если добавить в `` view.xml``:"
 
 # b94ff67d370349ffaa3b786502e68091
 #: ../../dev/frontend/webpage.rst:100
 msgid "This code will add a link to the main menu."
-msgstr ""
-
+msgstr "Этот код добавит ссылку в главное меню."

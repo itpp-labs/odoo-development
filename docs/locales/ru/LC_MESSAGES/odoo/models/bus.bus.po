@@ -21,12 +21,12 @@ msgstr ""
 # d150b20c43af45ac89ed60b2d44156ca
 #: ../../odoo/models/bus.bus.rst:3
 msgid "bus.bus"
-msgstr ""
+msgstr "bus.bus"
 
 # b2972c78d93d4e11ad2500407320963e
 #: ../../odoo/models/bus.bus.rst:6
 msgid "Bus"
-msgstr ""
+msgstr "автобус"
 
 # fee750689b4d465ea63789daf907a643
 #: ../../odoo/models/bus.bus.rst:8
@@ -34,171 +34,192 @@ msgid ""
 "Bus is a module for instant notifications via longpolling. Add it to "
 "dependencies list:"
 msgstr ""
+"Bus - это модуль для мгновенных уведомлений через longpolling. Добавьте его "
+"в список зависимостей:"
 
 # 4e4f8b6facf04deebe22291cbda0d802
 #: ../../odoo/models/bus.bus.rst:14
 msgid "Mail module in odoo 9.0 is already depended on module bus."
-msgstr ""
+msgstr "Почтовый модуль в odoo 9.0 уже зависит от шины модуля."
 
 # 94949dad7bec4102a229e2907831bb0b
 #: ../../odoo/models/bus.bus.rst:16
 msgid ""
-"Don't mistake longpolling bus with :doc:`core.bus "
-"<../../dev/js/core.bus>` which is client-side only and part of ``web`` "
-"module."
+"Don't mistake longpolling bus with :doc:`core.bus <../../dev/js/core.bus>` "
+"which is client-side only and part of ``web`` module."
 msgstr ""
+"Не путайте longpolling bus с: doc: `core.bus &lt;../../ dev / js / "
+"core.bus&gt;`, который только на стороне клиента и является частью модуля ``"
+" web``."
 
 # 3ef82c92abe74ded84a7805d164ac275
 #: ../../odoo/models/bus.bus.rst:19
 msgid "What is longpolling"
-msgstr ""
+msgstr "Что такое длинный опрос"
 
 # b37ec7f1066a48feb612b20d020a536f
 #: ../../odoo/models/bus.bus.rst:21
 msgid ":doc:`About longpolling <../../admin/about_longpolling>`"
-msgstr ""
+msgstr ": doc: `О длинном опросе &lt;../../ admin / about_longpolling&gt;`"
 
 # 75a3a3ce7376430398c7b797e0d8d5ae
 #: ../../odoo/models/bus.bus.rst:23
 msgid ":doc:`How to enable Longpolling in odoo <../../admin/longpolling>`"
 msgstr ""
+": doc: `Как включить Longpolling в odoo &lt;../../ admin / longpolling&gt;`"
 
 # af06a3fbfbab46ffae31f24d7dfe9efc
 #: ../../odoo/models/bus.bus.rst:26
 msgid "How to implement longpolling"
-msgstr ""
+msgstr "Как реализовать лонгполлинг"
 
 # 5adb6f3fe2044520a33434dc2c613e19
 #: ../../odoo/models/bus.bus.rst:32
 msgid "Scheme of work"
-msgstr ""
+msgstr "Схема работы"
 
 # 2cc53097ac1d4eadb6277cffd30395a1
 #: ../../odoo/models/bus.bus.rst:34
 msgid "Specify channels that current client is listening"
-msgstr ""
+msgstr "Укажите каналы, которые слушает текущий клиент"
 
 # 7669953d7ffc4b7da5ee7d89a1aa7975
 #: ../../odoo/models/bus.bus.rst:35
 msgid "Bind notification event to your handler"
-msgstr ""
+msgstr "Привязать событие уведомления к вашему обработчику"
 
 # 9dd4a2f4d2d4432a9b63eab8073a2ec9
 # 43b7058f3a854e169fec7445dac8118a
 #: ../../odoo/models/bus.bus.rst:36 ../../odoo/models/bus.bus.rst:107
 msgid "Start polling"
-msgstr ""
+msgstr "Начать опрос"
 
 # 7121b2df0c1f44d88a006727ae910835
 #: ../../odoo/models/bus.bus.rst:37
 msgid "Send notification to some channel via python code"
-msgstr ""
+msgstr "Отправить уведомление на некоторый канал через код Python"
 
 # a5df1401665d4183ae441dd093a34c06
 #: ../../odoo/models/bus.bus.rst:40
 msgid "Channel identifier"
-msgstr ""
+msgstr "Идентификатор канала"
 
 # df83678e572341f3a19be26c814bea3e
 #: ../../odoo/models/bus.bus.rst:42
 msgid ""
-"Channel identifier - is a way to distinguish one channel from another. In"
-" the main, channel contains dbname, some string and some id."
+"Channel identifier - is a way to distinguish one channel from another. In "
+"the main, channel contains dbname, some string and some id."
 msgstr ""
+"Идентификатор канала - это способ отличить один канал от другого. В основном"
+" канал содержит dbname, некоторую строку и некоторый идентификатор."
 
 # 3256ec9739604be8925e99195777fae4
 #: ../../odoo/models/bus.bus.rst:44
 msgid "Added via js identifiers can be string only."
-msgstr ""
+msgstr "Добавленные через js идентификаторы могут быть только строковыми."
 
 # bd6ed87eebcf4eff89642c716dd590b4
 #: ../../odoo/models/bus.bus.rst:50
 msgid "Added via python identifiers can be a string or any data structure."
 msgstr ""
+"С помощью идентификаторов Python может быть добавлена строка или любая "
+"структура данных."
 
 # 518f752f54ff4fd0b2193524b97a5fd2
 #: ../../odoo/models/bus.bus.rst:60
 msgid ""
-"JSON.stringify in js and json.dumps in python could give a different "
-"result."
+"JSON.stringify in js and json.dumps in python could give a different result."
 msgstr ""
+"JSON.stringify в js и json.dumps в python могут дать другой результат."
 
 # 688e5b71190543e5a7cfa5f880009122
 #: ../../odoo/models/bus.bus.rst:63
 msgid "Listened channels"
-msgstr ""
+msgstr "Прослушанные каналы"
 
 # 8e3724b9f8744c17824ac6dfc0d970eb
 #: ../../odoo/models/bus.bus.rst:65
 msgid ""
-"You can add channels in two ways: either on the server side via ``_poll``"
-" function in bus controller or in js file using the method "
+"You can add channels in two ways: either on the server side via ``_poll`` "
+"function in bus controller or in js file using the method "
 "``bus.add_channel()``."
 msgstr ""
+"Вы можете добавить каналы двумя способами: либо на стороне сервера через "
+"функцию `` _poll`` в контроллере шины, либо в файле js, используя метод `` "
+"bus.add_channel () ``."
 
 # b65a683b0c064bb489d6259502955886
 #: ../../odoo/models/bus.bus.rst:67
 msgid "With controllers:"
-msgstr ""
+msgstr "С контроллерами:"
 
 # 6c0a0ba73440411c972b183f94a18752
 #: ../../odoo/models/bus.bus.rst:85
 msgid "In the js file:"
-msgstr ""
+msgstr "В файле js:"
 
 # 4ce5e5e38ef0476f96a3aaca86c878a6
 #: ../../odoo/models/bus.bus.rst:98
 msgid "Binding notification event"
-msgstr ""
+msgstr "Обязательное уведомление о событии"
 
 # b18352c99ab248feab0b40cc3f94afcd
 # 0554f7592ba74258b19c5e41725bdd72
 #: ../../odoo/models/bus.bus.rst:100 ../../odoo/models/bus.bus.rst:109
 msgid "In js file:"
-msgstr ""
+msgstr "В файле js:"
 
 # e3f1466e9c4741d4b50f13ca5047fa48
 #: ../../odoo/models/bus.bus.rst:115
 msgid ""
-"You don't need to call ``bus.start_polling();`` if it was already started"
-" by other module."
+"You don't need to call ``bus.start_polling();`` if it was already started by"
+" other module."
 msgstr ""
+"Вам не нужно вызывать `` bus.start_polling (); ``, если он уже был запущен "
+"другим модулем."
 
 # 9da72e86f7b941919d2e07d962fbeb07
 #: ../../odoo/models/bus.bus.rst:117
 msgid ""
-"When polling starts, request ``/longpolling/poll`` is sent, so you can "
-"find and check it via Network tool in your browser"
+"When polling starts, request ``/longpolling/poll`` is sent, so you can find "
+"and check it via Network tool in your browser"
 msgstr ""
+"Когда начинается опрос, отправляется запрос `` / longpolling / poll``, так "
+"что вы можете найти и проверить его с помощью инструмента «Сеть» в своем "
+"браузере."
 
 # 31f8282a4af54326a45418552a971e99
 #: ../../odoo/models/bus.bus.rst:120
 msgid "Sending notification"
-msgstr ""
+msgstr "Отправка уведомления"
 
 # 639118b867744c3cb85faa92467c5290
 #: ../../odoo/models/bus.bus.rst:122
 msgid ""
 "You can send notification only through a python. If you need to do it "
-"through the client send a signal to server in a usual way first (e.g. via"
-" `controllers <http://odoo-"
+"through the client send a signal to server in a usual way first (e.g. via "
+"`controllers <http://odoo-"
 "development.readthedocs.io/en/latest/dev/py/controllers.html>`_)."
 msgstr ""
+"Вы можете отправить уведомление только через питона. Если вам нужно сделать "
+"это через клиента, сначала отправьте сигнал на сервер обычным способом "
+"(например, через `контроллеры <http://odoo-"
+"development.readthedocs.io/en/latest/dev/py/controllers.html> `_)."
 
 # fbcc1d2b4d734ce984663d39f2d0301f
 #: ../../odoo/models/bus.bus.rst:131
 msgid "Handling notifications"
-msgstr ""
+msgstr "Обработка уведомлений"
 
 # eed9d0c1c4a74928afb6fb3a6fea74b8
 #: ../../odoo/models/bus.bus.rst:150
 msgid "Examples"
-msgstr ""
+msgstr "Примеры"
 
 # 9407108040b34634a0bc7567c024541e
 #: ../../odoo/models/bus.bus.rst:151
 msgid "**pos_multi_session:**"
-msgstr ""
+msgstr "** pos_multi_session: **"
 
 # a1be2f1f8e2b432ea3f764cd10f63ab1
 #: ../../odoo/models/bus.bus.rst:153
@@ -206,6 +227,8 @@ msgid ""
 "`add channel (python) <https://github.com/it-projects-llc/pos-"
 "addons/blob/9.0/pos_multi_session/controllers/pos_multi_session.py#L18>`__"
 msgstr ""
+"`добавить канал (питон) <https://github.com/it-projects-llc/pos-"
+"addons/blob/9.0/pos_multi_session/controllers/pos_multi_session.py#L18> `__"
 
 # b41e1d1458844cb5940cbff9d3a449d6
 #: ../../odoo/models/bus.bus.rst:155
@@ -213,6 +236,9 @@ msgid ""
 "`bind event <https://github.com/it-projects-llc/pos-"
 "addons/blob/9.0/pos_multi_session/static/src/js/pos_multi_session.js#L411>`__"
 msgstr ""
+"`связать событие <https://github.com/it-projects-llc/pos-"
+"addons/blob/9.0/pos_multi_session/static/src/js/pos_multi_session.js#L411> "
+"`__"
 
 # 96cf1fd9f772462b9e83823a018445fc
 #: ../../odoo/models/bus.bus.rst:157
@@ -220,18 +246,22 @@ msgid ""
 "`send notification <https://github.com/it-projects-llc/pos-"
 "addons/blob/9.0/pos_multi_session/pos_multi_session_models.py#L25>`__"
 msgstr ""
+"`отправить уведомление <https://github.com/it-projects-llc/pos-"
+"addons/blob/9.0/pos_multi_session/pos_multi_session_models.py#L25> `__"
 
 # d382a16d50184f148fe3ba0031b0e31c
 #: ../../odoo/models/bus.bus.rst:159
 msgid "**chess:**"
-msgstr ""
+msgstr "** шахматы: **"
 
 # eeaf523ac26b42dfa7a8c4e2e5e986e8
 #: ../../odoo/models/bus.bus.rst:161
 msgid ""
-"`add channel (js) <https://github.com/GabbasovDinar/addons-dev/blob"
-"/website-addons-8.0-chess/chess/static/js/chesschat.js#L11-L14>`__"
+"`add channel (js) <https://github.com/GabbasovDinar/addons-dev/blob/website-"
+"addons-8.0-chess/chess/static/js/chesschat.js#L11-L14>`__"
 msgstr ""
+"`добавить канал (js) <https://github.com/GabbasovDinar/addons-"
+"dev/blob/website-addons-8.0-chess/chess/static/js/chesschat.js#L11-L14> `__"
 
 # 52126dd2a54a490eb285055b7276a621
 #: ../../odoo/models/bus.bus.rst:163
@@ -239,18 +269,23 @@ msgid ""
 "`bind event <https://github.com/GabbasovDinar/addons-dev/blob/website-"
 "addons-8.0-chess/chess/models/chess.py#L282-L288>`__"
 msgstr ""
+"`связать событие <https://github.com/GabbasovDinar/addons-dev/blob/website-"
+"addons-8.0-chess/chess/models/chess.py#L282-L288> `__"
 
 # 162b34173c9345a5aa59d91013056a1a
 #: ../../odoo/models/bus.bus.rst:165
 msgid ""
-"`send notification <https://github.com/GabbasovDinar/addons-dev/blob"
-"/website-addons-8.0-chess/chess/static/js/chesschat.js#L134-L145>`__"
+"`send notification <https://github.com/GabbasovDinar/addons-"
+"dev/blob/website-addons-8.0-chess/chess/static/js/chesschat.js#L134-L145>`__"
 msgstr ""
+"`отправить уведомление <https://github.com/GabbasovDinar/addons-"
+"dev/blob/website-addons-8.0-chess/chess/static/js/chesschat.js#L134-L145> "
+"`__"
 
 # e85d6534d13b4e3f865d0465b22f2996
 #: ../../odoo/models/bus.bus.rst:167
 msgid "**mail_move_message:**"
-msgstr ""
+msgstr "** mail_move_message: **"
 
 # 46352051a4e24d7abcf468e3874fe5da
 #: ../../odoo/models/bus.bus.rst:169
@@ -258,6 +293,9 @@ msgid ""
 "`add channel (python) <https://github.com/x620/mail-"
 "addons/blob/9.0-mail_move_message/mail_move_message/controllers/main.py#L15>`__"
 msgstr ""
+"`добавить канал (питон) <https://github.com/x620/mail-"
+"addons/blob/9.0-mail_move_message/mail_move_message/controllers/main.py#L15>"
+" `__"
 
 # 6249f221f27d465e8393a125cdecc18c
 #: ../../odoo/models/bus.bus.rst:171
@@ -265,6 +303,9 @@ msgid ""
 "`bind event <https://github.com/x620/mail-"
 "addons/blob/9.0-mail_move_message/mail_base/static/src/js/base.js#L1150-L1152>`__"
 msgstr ""
+"`связать событие <https://github.com/x620/mail-"
+"addons/blob/9.0-mail_move_message/mail_base/static/src/js/base.js#L1150-L1152>"
+" `__"
 
 # 0d64c34fea9a4ce39774ca0103e00b2f
 #: ../../odoo/models/bus.bus.rst:173
@@ -272,4 +313,6 @@ msgid ""
 "`send notification <https://github.com/x620/mail-"
 "addons/blob/9.0-mail_move_message/mail_move_message/mail_move_message_models.py#L312>`__"
 msgstr ""
-
+"`отправить уведомление <https://github.com/x620/mail-"
+"addons/blob/9.0-mail_move_message/mail_move_message/mail_move_message_models.py#L312>"
+" `__"

@@ -22,19 +22,19 @@ msgstr ""
 #: ../../migration/migrate-odoo-10-to-11.rst:3
 msgid "``10.0-`` → ``11.0+``, py2 → py3, shared Settings, sudo.get_param()"
 msgstr ""
+"`` 10.0-`` → `` 11.0 + ``, py2 → py3, общие настройки, sudo.get_param ()"
 
 # 16c00d1e394b4192b3b30c5c89fa1427
 #: ../../migration/migrate-odoo-10-to-11.rst:6
 msgid "New API"
-msgstr ""
+msgstr "Новый API"
 
 # 81c9b4a29f8246ddb03377d24f5e855f
 #: ../../migration/migrate-odoo-10-to-11.rst:20
 msgid "New references"
-msgstr ""
+msgstr "Новые ссылки"
 
 # 0648b19f1e06496990616372d9ea4202
 #: ../../migration/migrate-odoo-10-to-11.rst:52
 msgid "Python 3"
-msgstr ""
-
+msgstr "Python 3"

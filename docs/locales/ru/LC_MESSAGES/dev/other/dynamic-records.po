@@ -21,30 +21,35 @@ msgstr ""
 # 3eea7989ecf840549b5249de13a336c1
 #: ../../dev/other/dynamic-records.rst:3
 msgid "Dynamic records"
-msgstr ""
+msgstr "Динамические записи"
 
 # aaa82e1f6003484c876be0ac8f6e82e1
 #: ../../dev/other/dynamic-records.rst:5
 msgid ""
-"While :doc:`XML <../xml/index>`  allows you  create only *static* "
-"records, there is a way to create record dynamically via python code. You"
-" need dynamic records, for example, to add support both for enterprise "
-"and community releases or to add some records to each company in database"
-" etc."
+"While :doc:`XML <../xml/index>`  allows you  create only *static* records, "
+"there is a way to create record dynamically via python code. You need "
+"dynamic records, for example, to add support both for enterprise and "
+"community releases or to add some records to each company in database etc."
 msgstr ""
+"Хотя: doc: `XML &lt;../ xml / index&gt;` позволяет создавать только * "
+"статические * записи, существует способ динамического создания записи с "
+"помощью кода Python. Например, вам нужны динамические записи, чтобы добавить"
+" поддержку для корпоративных и общественных выпусков или добавить некоторые "
+"записи для каждой компании в базе данных и т. Д."
 
 # 2d8d71b180c3495aad4cf0eeccbd2f78
 #: ../../dev/other/dynamic-records.rst:7
 msgid "There several ways to execute code on installation:"
-msgstr ""
+msgstr "Есть несколько способов выполнить код при установке:"
 
 # 28683be7bf5445cc91083db9521df93d
 # d51f28fc206d4e23b2589d7985b196b1
 # fc81aa6ecfd146508078467384434d68
-#: ../../dev/other/dynamic-records.rst:9 ../../dev/other/dynamic-records.rst:10
+#: ../../dev/other/dynamic-records.rst:9
+#: ../../dev/other/dynamic-records.rst:10
 #: ../../dev/other/dynamic-records.rst:11
 msgid "TODO"
-msgstr ""
+msgstr "СДЕЛАТЬ"
 
 # 9e8d7fee69b04c718efbf0bba8c0f9f6
 #: ../../dev/other/dynamic-records.rst:13
@@ -54,21 +59,25 @@ msgid ""
 "delete such dynamic records right after updating. There are two ways to "
 "resolve it."
 msgstr ""
+"Проблема с динамическими записями заключается в том, что odoo рассматривает "
+"такие записи как записи, которые были в XML-файлах, но теперь удалены. Это "
+"означает, что odoo удалит такие динамические записи сразу после обновления. "
+"Есть два способа решить это."
 
 # 943a0a07721b49f59d951fe515ff0d2c
 #: ../../dev/other/dynamic-records.rst:16
 msgid "noupdate=False"
-msgstr ""
+msgstr "noupdate = False"
 
 # 81931d841bc54a95bf0ac5ae8a60c573
 #: ../../dev/other/dynamic-records.rst:18
 msgid "Simply add update=True to your ``ir.model.data`` record: ::"
-msgstr ""
+msgstr "Просто добавьте update = True в вашу запись `` ir.model.data``: ::"
 
 # 6de4e56251084adeaa23475dc6f23366
 #: ../../dev/other/dynamic-records.rst:38
 msgid "noupdate=True"
-msgstr ""
+msgstr "noupdate = True"
 
 # 55c812bfa200467aa49eec8d9d7773eb
 #: ../../dev/other/dynamic-records.rst:40
@@ -76,40 +85,45 @@ msgid ""
 "If for some reason you cannot use noupdate=False, you can use following "
 "trick."
 msgstr ""
+"Если по какой-то причине вы не можете использовать noupdate = False, вы "
+"можете использовать следующий трюк."
 
 # b4b2eeade57d4cd1bb8171c3d6376a3e
 #: ../../dev/other/dynamic-records.rst:42
 msgid ""
 "Here is the example from ``web_debranding`` module. To create records in "
-"``ir.model.data`` we use name ``_web_debranding``. Then odoo will "
-"consider such records as belonging to another module "
-"(``_web_debranding``) and will not delete them. But it also means, that "
-"odoo will not delete them after uninstalling. For later case, we need to "
-"use ``uninstall_hook``."
+"``ir.model.data`` we use name ``_web_debranding``. Then odoo will consider "
+"such records as belonging to another module (``_web_debranding``) and will "
+"not delete them. But it also means, that odoo will not delete them after "
+"uninstalling. For later case, we need to use ``uninstall_hook``."
 msgstr ""
+"Вот пример из модуля `` web_debranding``. Для создания записей в `` "
+"ir.model.data`` мы используем имя `` _web_debranding``. Тогда odoo будет "
+"считать такие записи принадлежащими другому модулю (`` _web_debranding``) и "
+"не удалит их. Но это также означает, что odoo не удалит их после удаления. "
+"Для дальнейшего случая нам нужно использовать `` uninstall_hook``."
 
 # 04b4d54776b541909597ba8b5c56f295
 #: ../../dev/other/dynamic-records.rst:46
 msgid "Contents"
-msgstr ""
+msgstr "содержание"
 
 # 29ff9934b2df4115a9f9c8540fb8cc85
 #: ../../dev/other/dynamic-records.rst:49
 msgid "python file"
-msgstr ""
+msgstr "файл питона"
 
 # 57bd9f233e8a471fa097db4159602d05
 #: ../../dev/other/dynamic-records.rst:98
 msgid "yaml file"
-msgstr ""
+msgstr "файл yaml"
 
 # da6afbaa176746a7a2cf92ab21aae668
 #: ../../dev/other/dynamic-records.rst:107
 msgid "__openerp__.py"
-msgstr ""
+msgstr "__openerp__.py"
 
 # 54b03514dc2e403bab0a134490da8dc0
 #: ../../dev/other/dynamic-records.rst:117
 msgid "__init__.py"
-msgstr ""
-
+msgstr "__init__.py"

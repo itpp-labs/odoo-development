@@ -21,10 +21,9 @@ msgstr ""
 # 5169d274e43f41c2b2c52ff0cf68b26d
 #: ../../dev/js/inheritance.rst:2
 msgid "Inheritance"
-msgstr ""
+msgstr "наследование"
 
 # 206e17dcbacd43248f3e1bef9b20151d
 #: ../../dev/js/inheritance.rst:4
 msgid "TODO"
-msgstr ""
-
+msgstr "СДЕЛАТЬ"

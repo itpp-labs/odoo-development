@@ -21,12 +21,12 @@ msgstr ""
 # cf2823a6a5de4742b818e8080273d391
 #: ../../dev/docs/README.rst.rst:3
 msgid "README.rst"
-msgstr ""
+msgstr "README.rst"
 
 # 7bb7b739eb3442bd8485c4059c15ebb5
 #: ../../dev/docs/README.rst.rst:6
 msgid "OCA's README"
-msgstr ""
+msgstr "README ОСА"
 
 # 92fe6fc82af345aaaff74b304c1acbf2
 #: ../../dev/docs/README.rst.rst:8
@@ -34,14 +34,17 @@ msgid ""
 "https://raw.githubusercontent.com/OCA/maintainer-"
 "tools/master/template/module/README.rst"
 msgstr ""
+"https://raw.githubusercontent.com/OCA/maintainer-"
+"tools/master/template/module/README.rst"
 
 # e223d7c14ebb4974a3ddbab4577949f5
 #: ../../dev/docs/README.rst.rst:11
 msgid "IT-Projects' README"
-msgstr ""
+msgstr "README IT-проектов"
 
 # 5279a4474b9f4c09820c35a9070261b3
 #: ../../dev/docs/README.rst.rst:13
-msgid "https://gitlab.com/itpp/handbook/blob/master/technical-docs/README.rst.md"
+msgid ""
+"https://gitlab.com/itpp/handbook/blob/master/technical-docs/README.rst.md"
 msgstr ""
-
+"https://gitlab.com/itpp/handbook/blob/master/technical-docs/README.rst.md"

@@ -21,5 +21,4 @@ msgstr ""
 # 2e8748cab56e40eda81c1d0fcb0996c0
 #: ../../dev/js/index.rst:2
 msgid "Javascript"
-msgstr ""
-
+msgstr "Javascript"

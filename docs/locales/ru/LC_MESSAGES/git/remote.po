@@ -21,15 +21,16 @@ msgstr ""
 # cb73721998c2450b80be444e15dd08a0
 #: ../../git/remote.rst:2
 msgid "Check remote bundings"
-msgstr ""
+msgstr "Проверьте удаленные пакеты"
 
 # b60d1e8ad1aa4f31ae670d4d3b0f21ad
 #: ../../git/remote.rst:4
 msgid "Check current branch::"
-msgstr ""
+msgstr "Проверьте текущую ветку ::"
 
 # af1d43ca34634fc69bbcf39c22a11087
 #: ../../git/remote.rst:8
 msgid "Local branch must be bind to origin. If its no do next::"
 msgstr ""
-
+"Местная ветка должна быть привязана к источнику. Если его нет, делайте "
+"следующее:"

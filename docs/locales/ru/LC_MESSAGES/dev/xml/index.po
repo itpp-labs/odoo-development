@@ -21,5 +21,4 @@ msgstr ""
 # 519f3a64fcf44e02b92a535587f2ac44
 #: ../../dev/xml/index.rst:2
 msgid "XML"
-msgstr ""
-
+msgstr "XML"

@@ -21,7 +21,7 @@ msgstr ""
 # 69b2ef07efaa4098bbef63fe47d31af2
 #: ../../git/utils.rst:2
 msgid "Pull request from console"
-msgstr ""
+msgstr "Вытащить запрос из консоли"
 
 # fcba79071de541a796e9454eda59f05d
 #: ../../git/utils.rst:4
@@ -29,16 +29,19 @@ msgid ""
 "Yes it possible! Try this manual: https://github.com/github/hub Than in "
 "console::"
 msgstr ""
+"Да, это возможно! Попробуйте это руководство: https://github.com/github/hub "
+"Чем в консоли ::"
 
 # c7f733dc69494ed399091b1073fb858c
 #: ../../git/utils.rst:9
 msgid "And pull request::"
-msgstr ""
+msgstr "И тянуть запрос ::"
 
 # 19a5ac78de604bd090c6420f35fbdc43
 #: ../../git/utils.rst:13
 msgid ""
-"Nessesary to add some header for pull request. Save it. If everything is "
-"ok you will got link to your pull request."
+"Nessesary to add some header for pull request. Save it. If everything is ok "
+"you will got link to your pull request."
 msgstr ""
-
+"Необходимо добавить заголовок для запроса на получение. Сохрани это. Если "
+"все в порядке, вы получите ссылку на ваш запрос."

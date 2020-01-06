@@ -21,10 +21,9 @@ msgstr ""
 # 388efe2cf4234945a533765802bb04c8
 #: ../../dev/yml/pure-yaml.rst:2
 msgid "Pure YAML"
-msgstr ""
+msgstr "Чистый ЯМЛ"
 
 # fce73df910b44356961e258ad66b2787
 #: ../../dev/yml/pure-yaml.rst:4
 msgid "TODO"
-msgstr ""
-
+msgstr "СДЕЛАТЬ"

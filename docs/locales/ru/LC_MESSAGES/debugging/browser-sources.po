@@ -21,29 +21,35 @@ msgstr ""
 # a6232e2564d54d3587df6903cdf8cd00
 #: ../../debugging/browser-sources.rst:3
 msgid "Sources tab at Browser's dev tools"
-msgstr ""
+msgstr "Вкладка Источники в инструментах разработчика браузера"
 
 # c79f3772ade44475b9f58393f26ac0ef
 #: ../../debugging/browser-sources.rst:5
 msgid ""
-"Allows you to check which client side files are loaded and which are not."
-" To do this:"
+"Allows you to check which client side files are loaded and which are not. To"
+" do this:"
 msgstr ""
+"Позволяет проверить, какие файлы на стороне клиента загружены, а какие нет. "
+"Сделать это:"
 
 # a6e7078cff58499ea6647205bc2fb304
 #: ../../debugging/browser-sources.rst:7
 msgid "Turn on *debug mode (with assets)*"
-msgstr ""
+msgstr "Включить * режим отладки (с активами) *"
 
 # 2443e354d34944c7a22f21632495ba3f
 #: ../../debugging/browser-sources.rst:9
 msgid "Open Developer tools (F12), go to the Sources tab and reload page."
 msgstr ""
+"Откройте Инструменты разработчика (F12), перейдите на вкладку Источники и "
+"перезагрузите страницу."
 
 # ca6c78faaddd4adc9f37a724b9f0b7f3
 #: ../../debugging/browser-sources.rst:11
 msgid "Open left panel (if it is not open yet) and search interested app."
 msgstr ""
+"Откройте левую панель (если она еще не открыта) и найдите интересующее "
+"приложение."
 
 # fbe676f1662347b5a19567dd42aa6443
 #: ../../debugging/browser-sources.rst:13
@@ -51,4 +57,5 @@ msgid ""
 "Example:  :doc:`Missing dependencies error in console <errors/missing-"
 "dependencies>`"
 msgstr ""
-
+"Пример:: doc: `Ошибка отсутствия зависимостей в консоли <errors/missing-"
+"dependencies> `"

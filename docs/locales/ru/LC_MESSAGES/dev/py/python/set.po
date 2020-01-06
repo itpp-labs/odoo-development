@@ -21,7 +21,7 @@ msgstr ""
 # 8b4f2712654745bf85506e2ec41ca44c
 #: ../../dev/py/python/set.rst:2
 msgid "Compare two arrays"
-msgstr ""
+msgstr "Сравните два массива"
 
 # e4ae2dde485149458a625a0f09f7a010
 #: ../../dev/py/python/set.rst:4
@@ -29,4 +29,5 @@ msgid ""
 "a = set(pos_config_obj.floor_ids.ids) b = set(rec.floor_ids.ids) diff = "
 "a.difference(b)"
 msgstr ""
-
+"a = set (pos_config_obj.floor_ids.ids) b = set (rec.floor_ids.ids) diff = "
+"a.difference (b)"

@@ -21,39 +21,47 @@ msgstr ""
 # 876376c5d39b4a598221bdd50451eaf9
 #: ../../dev/docs/index.rst:3
 msgid "Docs and manifests"
-msgstr ""
+msgstr "Документы и манифесты"
 
 # 23df9e6b551840468f5edabf15ed941c
 #: ../../dev/docs/index.rst:6
 msgid "Files"
-msgstr ""
+msgstr "файлы"
 
 # 88b4a409a0c0460295343f0e3538bc08
 #: ../../dev/docs/index.rst:8
 msgid ""
-"**All** files from this section ought to be fully [1]_ prepared "
-"**before** any other files in new module. It helps you to review "
-"requirements again before you start."
+"**All** files from this section ought to be fully [1]_ prepared **before** "
+"any other files in new module. It helps you to review requirements again "
+"before you start."
 msgstr ""
+"** Все ** файлы из этого раздела должны быть полностью [1] _ подготовлены **"
+" перед ** любыми другими файлами в новом модуле. Это поможет вам "
+"пересмотреть требования еще раз, прежде чем начать."
 
 # ed61b8494b354e2b94f1fecd7d908c1d
 #: ../../dev/docs/index.rst:10
 msgid ""
-"The only exception could be made for lists of files in "
-"``__manifest__.py`` (*\"data\"*, *\"qweb\"*, *\"demo\"* fields)."
+"The only exception could be made for lists of files in ``__manifest__.py`` "
+"(*\"data\"*, *\"qweb\"*, *\"demo\"* fields)."
 msgstr ""
+"Единственное исключение можно сделать для списков файлов в полях `` "
+"__manifest __. Py`` (* &quot;data&quot; *, * &quot;qweb&quot; *, * "
+"&quot;demo&quot; *)."
 
 # 7878c3be5f0b45dabce6b4c67c0d278d
 #: ../../dev/docs/index.rst:19
 msgid "and these two files:"
-msgstr ""
+msgstr "и эти два файла:"
 
 # 8e3300f914924b38b8870c201c0b6849
 #: ../../dev/docs/index.rst:21
 msgid ""
 "`changelog.rst <https://gitlab.com/itpp/handbook/blob/master/technical-"
 "docs/changelog.rst.md>`__ `icon.png "
-"<https://gitlab.com/itpp/handbook/blob/master/technical-"
-"docs/icon.png.md>`__"
+"<https://gitlab.com/itpp/handbook/blob/master/technical-docs/icon.png.md>`__"
 msgstr ""
-
+"`changelog.rst <https://gitlab.com/itpp/handbook/blob/master/technical-"
+"docs/changelog.rst.md> `__` icon.png "
+"<https://gitlab.com/itpp/handbook/blob/master/technical-docs/icon.png.md> "
+"`__"

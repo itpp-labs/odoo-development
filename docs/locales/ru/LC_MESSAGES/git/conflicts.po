@@ -21,94 +21,115 @@ msgstr ""
 # db7a7d8c884941829e88c58d58ada763
 #: ../../git/conflicts.rst:2
 msgid "Conflict resolving"
-msgstr ""
+msgstr "Разрешение конфликтов"
 
 # 876846aec6784ced882dec8603836257
 #: ../../git/conflicts.rst:4
 msgid ""
-"After making ``git merge`` or ``git cherry-pick`` there could be "
-"conflicts, because some commits try to make changes on the same line. So,"
-" you need to choose which change shall be use. It could be one variant, "
-"both variants or new variant."
+"After making ``git merge`` or ``git cherry-pick`` there could be conflicts, "
+"because some commits try to make changes on the same line. So, you need to "
+"choose which change shall be use. It could be one variant, both variants or "
+"new variant."
 msgstr ""
+"После выполнения `` git merge`` или `` git cherry-pick`` могут возникнуть "
+"конфликты, потому что некоторые коммиты пытаются внести изменения в одну и "
+"ту же строку. Итак, вам нужно выбрать, какое изменение будет использоваться."
+" Это может быть один вариант, оба варианта или новый вариант."
 
 # d864151ab169418a852c2824c77df64d
 #: ../../git/conflicts.rst:6
 msgid "What to do if you got conflicts:"
-msgstr ""
+msgstr "Что делать, если у вас возникли конфликты:"
 
 # 4dd6e916f1574a4685b676e054261b8b
 #: ../../git/conflicts.rst:8
 msgid "Check status ::"
-msgstr ""
+msgstr "Проверь состояние ::"
 
 # cc6659bb233144db86beef387ef0cef4
 #: ../../git/conflicts.rst:12
 msgid "Resolve conflicts:"
-msgstr ""
+msgstr "Разрешить конфликты:"
 
 # a5e0090accce4032ba594febfb4cc66b
 #: ../../git/conflicts.rst:14
 msgid "either edit files manually:"
-msgstr ""
+msgstr "либо отредактируйте файлы вручную:"
 
 # cda6f676656f41d78fd281b49993d9d6
 #: ../../git/conflicts.rst:16
 msgid "open file with conflicts"
-msgstr ""
+msgstr "открыть файл с конфликтами"
 
 # 8515d27ce2c44e888e1c49d4a3a74e0f
 #: ../../git/conflicts.rst:17
 msgid ""
-"search for ``<<<`` or ``>>>`` and delete obsolete variant or make a mix "
-"of both variants."
+"search for ``<<<`` or ``>>>`` and delete obsolete variant or make a mix of "
+"both variants."
 msgstr ""
+"найдите `` &lt;&lt;&lt; `` или `` &gt;&gt;&gt; `` и удалите устаревший "
+"вариант или сделайте смесь обоих вариантов."
 
 # a5d3f5d0dd77414a8e6e967845388efc
 #: ../../git/conflicts.rst:19
-msgid "or use following commands, if you are sure which version should be kept ::"
+msgid ""
+"or use following commands, if you are sure which version should be kept ::"
 msgstr ""
+"или используйте следующие команды, если вы уверены, какая версия должна быть"
+" сохранена:"
 
 # 81dd3ed4d5294ebe864c1e9126bceab4
 #: ../../git/conflicts.rst:25
 msgid "Mark files as resolved via ``git add`` command"
-msgstr ""
+msgstr "Пометить файлы как разрешенные с помощью команды `` git add``"
 
 # 96c6ca215f6145bbaa9608ba3a54fc2f
 #: ../../git/conflicts.rst:26
 msgid "Done. ::"
-msgstr ""
+msgstr "Выполнено. ::"
 
 # a44b612e4d324a4587f98a26173ca76a
 #: ../../git/conflicts.rst:31
 msgid "Deleted files"
-msgstr ""
+msgstr "Удаленные файлы"
 
 # 42ceb537df6b4576aaa7501f8bb46179
 #: ../../git/conflicts.rst:32
 msgid ""
-"Sometimes, changes can be conflicted because files are not exist anymore "
-"in *ours* version, but updated in *theirs* (or vice versa). In that case "
+"Sometimes, changes can be conflicted because files are not exist anymore in "
+"*ours* version, but updated in *theirs* (or vice versa). In that case "
 "execute the code below in order to ignore such changes:"
 msgstr ""
+"Иногда изменения могут быть противоречивыми, поскольку файлы больше не "
+"существуют в * нашей * версии, но обновляются в * их * (или наоборот). В "
+"этом случае выполните код ниже, чтобы игнорировать такие изменения:"
 
 # 05d63dab13b446ddaebe3c0757b40db5
 #: ../../git/conflicts.rst:41
 msgid "Notes"
-msgstr ""
+msgstr "Примечания"
 
 # 95f1336517f741c7a4e4a9c619275e68
 #: ../../git/conflicts.rst:43
 msgid ""
 "It's important, that on resolving conflict stage you should not make any "
-"updates inside conflicting lines. You can only choose which lines should "
-"be kept and which deleted. E.g. if you resolve conflicts due to porting "
-"some update\\feature from one odoo version (e.g. 8.0) to another (e.g. "
-"9.0), then such changes some time must be tuned to make update\\feature "
-"work on target odoo version. But you have to make such tuning on a new "
-"commit only. Make merging\\chery-picking commits be only about merging "
-"and chery-picking, make porting commits separately."
+"updates inside conflicting lines. You can only choose which lines should be "
+"kept and which deleted. E.g. if you resolve conflicts due to porting some "
+"update\\feature from one odoo version (e.g. 8.0) to another (e.g. 9.0), then"
+" such changes some time must be tuned to make update\\feature work on target"
+" odoo version. But you have to make such tuning on a new commit only. Make "
+"merging\\chery-picking commits be only about merging and chery-picking, make"
+" porting commits separately."
 msgstr ""
+"Важно, чтобы на этапе разрешения конфликта вы не делали никаких обновлений "
+"внутри конфликтующих строк. Вы можете только выбрать, какие строки следует "
+"сохранить, а какие удалить. Например, если вы разрешаете конфликты из-за "
+"переноса некоторого обновления \\ функции из одной версии odoo (например, "
+"8.0) в другую (например, 9.0), то такие изменения должны быть настроены "
+"некоторое время, чтобы заставить update \\ feature работать с целевой "
+"версией odoo. Но вы должны сделать такую настройку только на новом коммите. "
+"Сделайте коммиты слияния \\ chery-picking только о слияниях и chery-picking,"
+" сделайте коммиты портирования отдельно."
 
 # 4bd9e10ade2a4ca3b9e6081e55d2c685
 #: ../../git/conflicts.rst:44
@@ -116,4 +137,5 @@ msgid ""
 "If you don't have conflicts, you do not need to make commit after cherry-"
 "pick because it creates commit by its own."
 msgstr ""
-
+"Если у вас нет конфликтов, вам не нужно делать коммит после cherry-pick, "
+"потому что он создает коммит самостоятельно."

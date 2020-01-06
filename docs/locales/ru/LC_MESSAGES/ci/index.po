@@ -21,5 +21,4 @@ msgstr ""
 # 438db74cb0bd4656a7de3b6e065d1fe7
 #: ../../ci/index.rst:3
 msgid "Continuous Integration"
-msgstr ""
-
+msgstr "Непрерывная интеграция"

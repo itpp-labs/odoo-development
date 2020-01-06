@@ -21,21 +21,25 @@ msgstr ""
 # c366f5db07464f058af73cbf3190bd58
 #: ../../odoo/models/product.template.rst:2
 msgid "product.template"
-msgstr ""
+msgstr "product.template"
 
 # 5c86db47c16941c9ab984664b76fd952
 #: ../../odoo/models/product.template.rst:4
 msgid ""
 "The stores have products that differ from some other only a one or few "
-"properties. Such goods it makes no sense to separate as individual "
-"products. They are join in a group of similar goods, which are called "
-"**template**."
+"properties. Such goods it makes no sense to separate as individual products."
+" They are join in a group of similar goods, which are called **template**."
 msgstr ""
+"В магазинах есть товары, которые отличаются от других только одним или "
+"несколькими свойствами. Такие товары не имеет смысла отделять как отдельные "
+"товары. Они объединяются в группу аналогичных товаров, которые называются **"
+" шаблон **."
 
 # c4f9309a98e34cc0aee61d7851e56404
 #: ../../odoo/models/product.template.rst:6
 msgid ""
-"**shop:** product pages use product.template (when order is created, then"
-" :doc:`product.product` is used)."
+"**shop:** product pages use product.template (when order is created, then "
+":doc:`product.product` is used)."
 msgstr ""
-
+"** магазин: ** на страницах товара используется product.template (при "
+"создании заказа используется: doc: `product.product`)."

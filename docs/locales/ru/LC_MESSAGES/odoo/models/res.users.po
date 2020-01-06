@@ -21,10 +21,9 @@ msgstr ""
 # 3d34189aaa0146ec904c52653ad4d799
 #: ../../odoo/models/res.users.rst:2
 msgid "res.users"
-msgstr ""
+msgstr "res.users"
 
 # 63c85628a5f4494aa6d0455572a8fc22
 #: ../../odoo/models/res.users.rst:4
 msgid "TODO"
-msgstr ""
-
+msgstr "СДЕЛАТЬ"

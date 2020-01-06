@@ -21,5 +21,4 @@ msgstr ""
 # 88e2352e0df748b9b92823129c90a18b
 #: ../../dev/yml/index.rst:2
 msgid "YAML"
-msgstr ""
-
+msgstr "YAML"

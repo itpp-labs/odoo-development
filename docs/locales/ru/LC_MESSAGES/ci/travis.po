@@ -21,10 +21,9 @@ msgstr ""
 # d470907f048d4ce7ad7d68c48ed957b0
 #: ../../ci/travis.rst:3
 msgid "Odoo Travis Tests"
-msgstr ""
+msgstr "Одо Трэвис Тесты"
 
 # 99be4987b39b49189db83e2ea2aae1f2
 #: ../../ci/travis.rst:5
 msgid "TODO"
-msgstr ""
-
+msgstr "СДЕЛАТЬ"

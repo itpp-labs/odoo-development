@@ -21,5 +21,4 @@ msgstr ""
 # 4a25aec496f24e14a4d0a1f97e60634c
 #: ../../dev/index.rst:2
 msgid "Module Development"
-msgstr ""
-
+msgstr "Разработка модуля"

@@ -21,5 +21,4 @@ msgstr ""
 # 148eaa9ac3bc4eabae0874d8f756a6d7
 #: ../../dev/css/index.rst:2
 msgid "CSS"
-msgstr ""
-
+msgstr "CSS"

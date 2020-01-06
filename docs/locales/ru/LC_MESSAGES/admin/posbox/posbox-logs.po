@@ -21,22 +21,25 @@ msgstr ""
 # 338d4ebad7724b38b7a54ce336807744
 #: ../../admin/posbox/posbox-logs.rst:2
 msgid "Reading logs on posbox"
-msgstr ""
+msgstr "Чтение логов на posbox"
 
 # f7e2925ede0b4ee695616e341c8e72f8
 #: ../../admin/posbox/posbox-logs.rst:4
 msgid "Reading logs"
-msgstr ""
+msgstr "Чтение журналов"
 
 # 46923d0e08af4bc9925e5e64ef83b4b8
 #: ../../admin/posbox/posbox-logs.rst:10
 msgid ""
-"`Edit <https://odoo-development.readthedocs.io/en/latest/admin/posbox"
-"/administrate-posbox.html#how-to-edit-config>`_  log level:"
+"`Edit <https://odoo-"
+"development.readthedocs.io/en/latest/admin/posbox/administrate-"
+"posbox.html#how-to-edit-config>`_  log level:"
 msgstr ""
+"`Редактировать <https://odoo-"
+"development.readthedocs.io/en/latest/admin/posbox/administrate-"
+"posbox.html#how-to-edit-config> `_ уровень журнала:"
 
 # afba9885bc6a48ae940bcfa78b3485dc
 #: ../../admin/posbox/posbox-logs.rst:16
 msgid "replace to"
-msgstr ""
-
+msgstr "заменить на"

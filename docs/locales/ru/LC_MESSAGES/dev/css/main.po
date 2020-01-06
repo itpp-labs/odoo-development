@@ -21,32 +21,33 @@ msgstr ""
 # fae91eb5f7d64239a49d9bead85adf8f
 #: ../../dev/css/main.rst:2
 msgid "CSS tips and tricks"
-msgstr ""
+msgstr "CSS советы и хитрости"
 
 # 63a69ee1174741628cdf4e4a1f2b0ccb
 #: ../../dev/css/main.rst:5
 msgid "Add your css on template"
-msgstr ""
+msgstr "Добавьте свой CSS на шаблон"
 
 # 81b6a560bb9742e4b460338e53b95663
 #: ../../dev/css/main.rst:6
 msgid "Code::"
-msgstr ""
+msgstr "Код::"
 
 # 9d68452aed484a35a85c90af2aa7ab90
 #: ../../dev/css/main.rst:14
 msgid "*website_sale.assets_frontend* is what you inherits."
-msgstr ""
+msgstr "* website_sale.assets_frontend * - это то, что вы наследуете."
 
 # bf3883cea3324a17b77bf3341fa1d5b5
 #: ../../dev/css/main.rst:17
 msgid "Hide fields"
-msgstr ""
+msgstr "Скрыть поля"
 
 # 124da99a71ad47f09595a52d9996a555
 #: ../../dev/css/main.rst:18
 msgid ""
-"Hide all children (that have attribute bill='1') of oe_website_sale class"
-" owner (that have attribute bill_enabled='0')::"
+"Hide all children (that have attribute bill='1') of oe_website_sale class "
+"owner (that have attribute bill_enabled='0')::"
 msgstr ""
-
+"Скрыть все дочерние элементы (имеющие атрибут bill = &#39;1&#39;) владельца "
+"класса oe_website_sale (имеющие атрибут bill_enabled = &#39;0&#39;) ::"

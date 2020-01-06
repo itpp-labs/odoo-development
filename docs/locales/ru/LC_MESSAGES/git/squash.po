@@ -21,77 +21,83 @@ msgstr ""
 # 21d68169c9e149239a6a5b72d23de84d
 #: ../../git/squash.rst:3
 msgid "Squash commits into one"
-msgstr ""
+msgstr "Сквош фиксируется в одном"
 
 # d7e24541d21b46019561b11bfe2fb6ec
 #: ../../git/squash.rst:6
 msgid "Backup"
-msgstr ""
+msgstr "Резервный"
 
 # ac41485f20194d15a097415e9b278e9a
 #: ../../git/squash.rst:8
 msgid "Before making a squash consider to \"backup\" your commits."
 msgstr ""
+"Перед тем, как сделать сквош, подумайте о «резервном копировании» ваших "
+"коммитов."
 
 # 7cc75ec0464749eea68b3e240b696452
 #: ../../git/squash.rst:10
 msgid "Local backup:"
-msgstr ""
+msgstr "Локальное резервное копирование:"
 
 # 08fc94f272e94111ac8aa6bd78abd618
 #: ../../git/squash.rst:16
 msgid "Remote backup"
-msgstr ""
+msgstr "Удаленное резервное копирование"
 
 # d0f71c46f7da4b8ba07593a43637ac36
 #: ../../git/squash.rst:22
 msgid "To restore original state you can use following command:"
 msgstr ""
+"Для восстановления исходного состояния вы можете использовать следующую "
+"команду:"
 
 # 2d5630c66a0348b3bde2a87a48c16f73
 #: ../../git/squash.rst:36
 msgid "``git commit --amend``"
-msgstr ""
+msgstr "`` git commit --amend``"
 
 # a8e181502dc144b0b7d50d483fc9f229
 #: ../../git/squash.rst:38
 msgid "Instead of creating new commit, adds updates to the latest commit."
 msgstr ""
+"Вместо создания нового коммита, добавляет обновления к последнему коммиту."
 
 # 375c264432564d81bd8e5bcfaf7cf06e
 #: ../../git/squash.rst:41
 msgid "``git rebase -i``"
-msgstr ""
+msgstr "`` git rebase -i``"
 
 # b1c2637c75f24a7482d4a8b9e42f524f
 #: ../../git/squash.rst:43
 msgid "Interactive squashing"
-msgstr ""
+msgstr "Интерактивная сквош"
 
 # 414f6bb799434ed4b0efe51b8beefb69
 #: ../../git/squash.rst:51
 msgid ""
-"Then edit opened file and keep ``pick`` for the first commit and and "
-"replace ``pick`` with ``squash`` for the rest ones. E.g."
+"Then edit opened file and keep ``pick`` for the first commit and and replace"
+" ``pick`` with ``squash`` for the rest ones. E.g."
 msgstr ""
+"Затем отредактируйте открытый файл и оставьте `` pick`` для первого коммита "
+"и замените `` pick`` на `` squash`` для остальных. Например"
 
 # 15aca7ec7f5e4d99827854e5f1366bfc
 #: ../../git/squash.rst:53
 msgid "Origin::"
-msgstr ""
+msgstr "Происхождение ::"
 
 # 973f938dd24c4bc59b0625a201544108
 #: ../../git/squash.rst:57
 msgid "Edited::"
-msgstr ""
+msgstr "Отредактированный ::"
 
 # 50ce4c95e10c4d9ab2a7c8cab2f3460f
 #: ../../git/squash.rst:61
 msgid "If you remove a line here THAT COMMIT WILL BE LOST."
-msgstr ""
+msgstr "Если вы удалите строку здесь, то этот коммит будет потерян."
 
 # 630a5a3e1a974bf58b162000c737f36e
 #: ../../git/squash.rst:64
 msgid "Push"
-msgstr ""
-
+msgstr "От себя"

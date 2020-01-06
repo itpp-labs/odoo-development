@@ -21,22 +21,27 @@ msgstr ""
 # b1c89eed311a40e5a170edd465d1b4e7
 #: ../../dev/pos/dom-cache.rst:3
 msgid "Dom Cache"
-msgstr ""
+msgstr "Дом Кеш"
 
 # 51a60cded7cd444bbe77435b03166f82
 #: ../../dev/pos/dom-cache.rst:5
 msgid "Dom Cache is used to save rendered elements to speed POS up."
 msgstr ""
+"Dom Cache используется для сохранения визуализированных элементов для "
+"ускорения POS."
 
 # d3cf7507aec44617b228c55b6df146b9
 #: ../../dev/pos/dom-cache.rst:7
 msgid "To add something to Dom Cache you need to do something like this:"
 msgstr ""
+"Чтобы добавить что-то в Dom Cache, вам нужно сделать что-то вроде этого:"
 
 # 538752f4c9a448349201009d489e41f2
 #: ../../dev/pos/dom-cache.rst:14
 msgid "To restore rendered element from cache do something like this"
 msgstr ""
+"Чтобы восстановить визуализированный элемент из кэша, сделайте что-то вроде "
+"этого"
 
 # 6ab0a3db7d444611a91b5acd5f5c8b96
 #: ../../dev/pos/dom-cache.rst:21
@@ -44,32 +49,41 @@ msgid ""
 "Here is complete example from Point of Sale `module "
 "<https://github.com/odoo/odoo/blob/12.0/addons/point_of_sale/static/src/js/screens.js#L761-L789>`__:"
 msgstr ""
+"Вот полный пример из модуля Point of Sale "
+"<https://github.com/odoo/odoo/blob/12.0/addons/point_of_sale/static/src/js/screens.js#L761-L789>"
+" `__:"
 
 # 5fe0cb85c8214b92b00121aca7f658ba
 #: ../../dev/pos/dom-cache.rst:23
 msgid ""
-"The purpose of this code is the optimization of the elements rendering in"
-" POS. Each new POS loading use data from ``DomCache`` - thereby save time"
-" for the rendering of new elements."
+"The purpose of this code is the optimization of the elements rendering in "
+"POS. Each new POS loading use data from ``DomCache`` - thereby save time for"
+" the rendering of new elements."
 msgstr ""
+"Целью этого кода является оптимизация рендеринга элементов в POS. Каждая "
+"новая загрузка POS использует данные из `` DomCache`` - тем самым экономит "
+"время на рендеринг новых элементов."
 
 # 736b96c9ad2542b4aade4befe7ecc4d7
 #: ../../dev/pos/dom-cache.rst:25
 msgid "Let's take the example:"
-msgstr ""
+msgstr "Давайте возьмем пример:"
 
 # 72882e58bd4c47a99c7b1e32826fce1f
 #: ../../dev/pos/dom-cache.rst:28
 msgid "``POS Order History`` module"
-msgstr ""
+msgstr "Модуль `` POS Order History``"
 
 # b8f77b5552f24f78948d8c87f97ec2a0
 #: ../../dev/pos/dom-cache.rst:30
 msgid ""
 "In this  in this `module <https://github.com/it-projects-llc/pos-"
-"addons/blob/12.0/pos_orders_history/static/src/js/screens.js#L159-L198>`__"
-" ``DomCache`` is used when the orders' list renders."
+"addons/blob/12.0/pos_orders_history/static/src/js/screens.js#L159-L198>`__ "
+"``DomCache`` is used when the orders' list renders."
 msgstr ""
+"В этом в этом модуле <https://github.com/it-projects-llc/pos-"
+"addons/blob/12.0/pos_orders_history/static/src/js/screens.js#L159-L198> `__`"
+" `DomCache`` используется при отображении списка заказов."
 
 # 5aafb020cde84c369947006ea897c64a
 #: ../../dev/pos/dom-cache.rst:32
@@ -77,11 +91,14 @@ msgid ""
 "After the first loading POS elements of orders, which have been rendered "
 "(*HTML code*), are saved in Cache."
 msgstr ""
+"После первой загрузки POS-элементы заказов, которые были обработаны (* HTML "
+"code *), сохраняются в Cache."
 
 # 2057b7ca6ef34f488287f180c60dacc5
 #: ../../dev/pos/dom-cache.rst:34
 msgid ""
-"After reloading POS the existence of saved elements in Cache are checked "
-"and this data is used when orders are rendered."
+"After reloading POS the existence of saved elements in Cache are checked and"
+" this data is used when orders are rendered."
 msgstr ""
-
+"После перезагрузки POS проверяется наличие сохраненных элементов в Cache, и "
+"эти данные используются при обработке заказов."

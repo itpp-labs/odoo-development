@@ -21,5 +21,4 @@ msgstr ""
 # 4707c372ad234c95a46b64104bbea3b6
 #: ../../debugging/errors/index.rst:2
 msgid "Typical errors"
-msgstr ""
-
+msgstr "Типичные ошибки"

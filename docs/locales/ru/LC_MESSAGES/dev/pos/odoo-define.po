@@ -21,40 +21,49 @@ msgstr ""
 # 2b20407e789642628ae3baeaea57c6a5
 #: ../../dev/pos/odoo-define.rst:3
 msgid "``odoo.define`` function"
-msgstr ""
+msgstr "Функция `` odoo.define``"
 
 # 3125ac782ee64556b19f75abe739ac3a
 #: ../../dev/pos/odoo-define.rst:5
 msgid ""
 "Official doc about the topic is `here: "
-"<https://www.odoo.com/documentation/12.0/reference/javascript_reference.html"
-"#javascript-module-system>`__"
+"<https://www.odoo.com/documentation/12.0/reference/javascript_reference.html#javascript-"
+"module-system>`__"
 msgstr ""
+"Официальный документ о теме `здесь: "
+"<https://www.odoo.com/documentation/12.0/reference/javascript_reference.html#javascript-"
+"module-system> `__"
 
 # bc96862a77b04738b65cc9b61b3785a3
 #: ../../dev/pos/odoo-define.rst:7
 msgid ""
 "*Javascript Module* in odoo is some piece of code declared via "
-"``odoo.define('js_module_name', ...)`` and can be used in other modules "
-"via ``require('js_module_name')``."
+"``odoo.define('js_module_name', ...)`` and can be used in other modules via "
+"``require('js_module_name')``."
 msgstr ""
+"* Модуль Javascript * в odoo - это некоторый фрагмент кода, объявленный "
+"через `` odoo.define (&#39;js_module_name&#39;, ...) `` и может "
+"использоваться в других модулях через `` require (&#39;js_module_name&#39;) "
+"``."
 
 # 5af4697f12c84453807800f34dc4bba9
 #: ../../dev/pos/odoo-define.rst:9
 msgid "**Example:**"
-msgstr ""
+msgstr "**Пример:**"
 
 # 3cbb01321eb54ac4b4779444f07f2867
 #: ../../dev/pos/odoo-define.rst:25
 msgid "You cannot rename variable ``require``."
-msgstr ""
+msgstr "Вы не можете переименовать переменную `` require``."
 
 # 9f3db08aeec04ff4bc11ec2a33f80fd5
 #: ../../dev/pos/odoo-define.rst:29
 msgid ""
-"Single file may have several *JS modules*, though it's recommended to put"
-" them to different files"
+"Single file may have several *JS modules*, though it's recommended to put "
+"them to different files"
 msgstr ""
+"В одном файле может быть несколько * JS-модулей *, хотя рекомендуется "
+"помещать их в разные файлы"
 
 # bc652474d8674a249aca23c7fc9793a2
 #: ../../dev/pos/odoo-define.rst:33
@@ -62,49 +71,60 @@ msgid ""
 "You can use any string as a module name, but recommended way is "
 "``<ODOO_MODULE>.<JS_MODULE>``, e.g. ``point_of_sale.popups``"
 msgstr ""
+"Вы можете использовать любую строку в качестве имени модуля, но "
+"рекомендуется использовать `` <ODOO_MODULE> , <JS_MODULE> ``, например `` "
+"point_of_sale.popups``"
 
 # 034c3a69f7c045f7bb47404dde4da21c
 #: ../../dev/pos/odoo-define.rst:36
 msgid "Return value"
-msgstr ""
+msgstr "Возвращаемое значение"
 
 # 6932120841864f8db4fcd5493248e5ec
 #: ../../dev/pos/odoo-define.rst:38
 msgid ""
-"A js-module may return value. That value can be used in another js-"
-"modules (of the same odoo-module or others)."
+"A js-module may return value. That value can be used in another js-modules "
+"(of the same odoo-module or others)."
 msgstr ""
+"JS-модуль может возвращать значение. Это значение может быть использовано в "
+"других js-модулях (того же odoo-модуля или других)."
 
 # 21bf67c6eee44515b18eb7aa1f8e7ff6
 #: ../../dev/pos/odoo-define.rst:40
 msgid "For example:"
-msgstr ""
+msgstr "Например:"
 
 # 1b8b675b36c84eabac739aa6f190bcc5
 #: ../../dev/pos/odoo-define.rst:53
 msgid "Then, we can use ``define_screen`` as following:"
-msgstr ""
+msgstr "Затем мы можем использовать `` define_screen`` следующим образом:"
 
 # ac9a336f4d6a4efe8841dbef89f523a1
 #: ../../dev/pos/odoo-define.rst:71
 msgid ""
-"If you don't to use value returned by another js-module, you still might "
-"you you *import js-module* (via require(....)) to be sure that that "
-"module is loaded before executing you module."
+"If you don't to use value returned by another js-module, you still might you"
+" you *import js-module* (via require(....)) to be sure that that module is "
+"loaded before executing you module."
 msgstr ""
+"Если вы не используете значение, возвращаемое другим js-модулем, вы все "
+"равно можете * импортировать js-module * (через require (....)), чтобы "
+"убедиться, что этот модуль загружен перед выполнением вашего модуля."
 
 # c06e74e992cc4eb1b8e531fe0710f2aa
 #: ../../dev/pos/odoo-define.rst:74
 msgid "Asynchronous modules"
-msgstr ""
+msgstr "Асинхронные модули"
 
 # 4071d2f505814a998261950f1d444c50
 #: ../../dev/pos/odoo-define.rst:76
 msgid ""
-"It can happen that a module needs to perform some work before it is "
-"ready. For example, it could do a rpc to load some data. In that case, "
-"the module can simply return a deferred (promise). In that case, the "
-"module system will simply wait for the deferred to complete before "
-"registering the module."
+"It can happen that a module needs to perform some work before it is ready. "
+"For example, it could do a rpc to load some data. In that case, the module "
+"can simply return a deferred (promise). In that case, the module system will"
+" simply wait for the deferred to complete before registering the module."
 msgstr ""
-
+"Может случиться так, что модуль должен выполнить некоторую работу, прежде "
+"чем он будет готов. Например, он может сделать RPC для загрузки некоторых "
+"данных. В этом случае модуль может просто вернуть отложенное (обещание). В "
+"этом случае система модулей просто будет ждать завершения отсроченного перед"
+" регистрацией модуля."

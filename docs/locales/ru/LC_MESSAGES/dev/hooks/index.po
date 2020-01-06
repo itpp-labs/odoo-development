@@ -21,5 +21,4 @@ msgstr ""
 # 51685ee37c264b71b009d9c36df6696d
 #: ../../dev/hooks/index.rst:2
 msgid "Hooks"
-msgstr ""
-
+msgstr "Крючки"

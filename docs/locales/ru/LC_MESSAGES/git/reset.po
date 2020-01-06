@@ -21,24 +21,26 @@ msgstr ""
 # 1b562503af2d4435841f3c582052462d
 #: ../../git/reset.rst:2
 msgid "Cancel lame commit"
-msgstr ""
+msgstr "Отмена хромого коммита"
 
 # 05f14d81ed9b41ca81b79a9994f40cf6
 #: ../../git/reset.rst:4
 msgid "Imagine you make lame commit. Now to repair things do next:"
 msgstr ""
+"Представьте, что вы делаете хромой коммит. Сейчас для ремонта дела делаем "
+"следующее:"
 
 # de3ece68dd634a5bbc3a11d77bc4365d
 #: ../../git/reset.rst:6
 msgid "git reset HEAD~1 --soft"
-msgstr ""
+msgstr "git reset HEAD ~ 1 --soft"
 
 # 76e15dd3ca3f4be181ea04e256decb2f
 # de9267a09e6944dfa0cc75f76b7b8af0
 # 71c46eeb0c7f40848845698b2a6a9c71
 #: ../../git/reset.rst:7 ../../git/reset.rst:14 ../../git/reset.rst:20
 msgid "git status"
-msgstr ""
+msgstr "статус мерзавца"
 
 # d1673bbf4b4d459491722d7c4c732d8c
 # 3ab09a1d5c5d4a84ab9a10cf3042adf0
@@ -47,37 +49,42 @@ msgid ""
 "You will see: Your branch is behind 'origin/8.0' by 1 commit, and can be "
 "fast-forwarded. (use \"git pull\" to update your local branch)"
 msgstr ""
+"Вы увидите: ваша ветвь отстает от &#39;origin / 8.0&#39; на 1 коммит и может"
+" быть быстро перенесена. (используйте «git pull» для обновления вашей "
+"локальной ветки)"
 
 # 1d75a7f1dc3e4e86a704cf1ea7376690
 #: ../../git/reset.rst:12
 msgid "git add // Add here changed (fixed) files"
-msgstr ""
+msgstr "git add // Добавить сюда измененные (исправленные) файлы"
 
 # bf36d4a11d50428d90263db753ba2a77
 #: ../../git/reset.rst:13
 msgid "git diff --cached  //make sure everything is ok."
-msgstr ""
+msgstr "git diff --cached // убедитесь, что все в порядке."
 
 # 158a8e9d403643b2a6cec543e6993f39
 #: ../../git/reset.rst:19
 msgid "git commit -m'I fixed my mistakes'"
-msgstr ""
+msgstr "git commit -m&#39;I исправил свои ошибки &#39;"
 
 # 395ee99f9c7c4dcf8f70a9a513bfbb4c
 #: ../../git/reset.rst:22
 msgid ""
-"You will see: Your branch and 'origin/8.0' have diverged, and have 1 and "
-"1 different commit each, respectively. (use \"git pull\" to merge the "
-"remote branch into yours)"
+"You will see: Your branch and 'origin/8.0' have diverged, and have 1 and 1 "
+"different commit each, respectively. (use \"git pull\" to merge the remote "
+"branch into yours)"
 msgstr ""
+"Вы увидите: ваша ветка и &#39;origin / 8.0&#39; разошлись и имеют 1 и 1 "
+"разные коммиты соответственно. (используйте &quot;git pull&quot;, чтобы "
+"объединить удаленную ветку с вашей)"
 
 # 0610c232aa75486d8e0400249451710e
 #: ../../git/reset.rst:26
 msgid "Now finaly force is with you:"
-msgstr ""
+msgstr "Теперь, наконец, сила с вами"
 
 # 726df4bf93484d6b9eb5a36f3279a47a
 #: ../../git/reset.rst:28
 msgid "git push origin 8.0 -f"
-msgstr ""
-
+msgstr "git push origin 8.0 -f"

@@ -21,17 +21,17 @@ msgstr ""
 # 150ef7fcdc144f2786f2e5a87b72be7b
 #: ../../ide/visual-studio-code/install.rst:3
 msgid "Install Visual Studio Code"
-msgstr ""
+msgstr "Установите код Visual Studio"
 
 # 6652403d7b25450382ea4dcc828ea885
 #: ../../ide/visual-studio-code/install.rst:5
 msgid "install visualstudiocode from https://code.visualstudio.com"
-msgstr ""
+msgstr "установить visualstudiocode с https://code.visualstudio.com"
 
 # f575873b49f6402187007948c36210c9
 #: ../../ide/visual-studio-code/install.rst:8
 msgid "add the following Extensions :"
-msgstr ""
+msgstr "добавьте следующие расширения:"
 
 # 233030fbafee4ce9aef48ba0f511c465
 #: ../../ide/visual-studio-code/install.rst:7
@@ -39,27 +39,34 @@ msgid ""
 "python: "
 "https://marketplace.visualstudio.com/items?itemName=donjayamanne.python"
 msgstr ""
+"python: "
+"https://marketplace.visualstudio.com/items?itemName=donjayamanne.python"
 
 # 38abe77f87ff42f9bddfa3ed8743e44b
 #: ../../ide/visual-studio-code/install.rst:8
 msgid ""
 "odoo-snippets: "
-"https://marketplace.visualstudio.com/items?itemName=jeffery9.odoo-"
-"snippets"
+"https://marketplace.visualstudio.com/items?itemName=jeffery9.odoo-snippets"
 msgstr ""
+"odoo-сниппеты: "
+"https://marketplace.visualstudio.com/items?itemName=jeffery9.odoo-snippets"
 
 # 6f08ae847c554ac18bf75b5784cef645
 #: ../../ide/visual-studio-code/install.rst:10
 msgid ""
-"Fallow the same instructions in (emacs-pylint) to install pylint and "
-"Pylint Odoo plugin. Then make same configurations in pylintrc file as "
-"descriped there."
+"Fallow the same instructions in (emacs-pylint) to install pylint and Pylint "
+"Odoo plugin. Then make same configurations in pylintrc file as descriped "
+"there."
 msgstr ""
+"Выполните те же инструкции в (emacs-pylint) для установки pylint и плагина "
+"Pylint Odoo. Затем выполните те же настройки в файле pylintrc, как описано "
+"здесь."
 
 # 2101f95ce3704ec4a9364615c4a66cb6
 #: ../../ide/visual-studio-code/install.rst:13
 msgid ""
-"pylintrc file can be placed in the user invirument to work for all "
-"projects. like for debian \"~/.pylintrc\""
+"pylintrc file can be placed in the user invirument to work for all projects."
+" like for debian \"~/.pylintrc\""
 msgstr ""
-
+"Файл pylintrc может быть помещен в пользовательскую среду для работы со "
+"всеми проектами. как для Debian &quot;~ / .pylintrc&quot;"

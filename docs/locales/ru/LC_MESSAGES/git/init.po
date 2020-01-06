@@ -21,24 +21,26 @@ msgstr ""
 # f630777d73904c30955452c79c1ac777
 #: ../../git/init.rst:3
 msgid "Initial git & github configuration"
-msgstr ""
+msgstr "Начальная конфигурация git &amp; github"
 
 # 80ee2a189b954a7496940940fb19c2f1
 #: ../../git/init.rst:6
 msgid "ssh keys"
-msgstr ""
+msgstr "SSH ключи"
 
 # ba30521cc45d496b80ec497a9fa6e629
 #: ../../git/init.rst:7
 msgid ""
-"Configure github ssh keys: https://help.github.com/articles/connecting-"
-"to-github-with-ssh/"
+"Configure github ssh keys: https://help.github.com/articles/connecting-to-"
+"github-with-ssh/"
 msgstr ""
+"Настройте github ssh-ключи: https://help.github.com/articles/connecting-to-"
+"github-with-ssh/"
 
 # 8e1c2046ab8b46d89b0d316cc8bf5e4f
 #: ../../git/init.rst:10
 msgid "gpg keys"
-msgstr ""
+msgstr "ключи gpg"
 
 # b0614634c5874142a1d1ac41520b753c
 #: ../../git/init.rst:12
@@ -46,6 +48,8 @@ msgid ""
 "Generate gpg keys: https://help.github.com/articles/generating-a-new-gpg-"
 "key/"
 msgstr ""
+"Создать ключи gpg: https://help.github.com/articles/generating-a-new-gpg-"
+"key/"
 
 # a5c5525e420642b895ac4c5cbb2f4838
 #: ../../git/init.rst:13
@@ -53,41 +57,48 @@ msgid ""
 "Add gpg key to github: https://help.github.com/articles/adding-a-new-gpg-"
 "key-to-your-github-account/"
 msgstr ""
+"Добавьте ключ gpg в github: https://help.github.com/articles/adding-a-new-"
+"gpg-key-to-your-github-account/"
 
 # a73c9219b4634c0eb2c074dc2b1de4ff
 #: ../../git/init.rst:14
 msgid ""
-"Tell to git which key to use https://help.github.com/articles/telling-"
-"git-about-your-gpg-key/"
+"Tell to git which key to use https://help.github.com/articles/telling-git-"
+"about-your-gpg-key/"
 msgstr ""
+"Скажите git, какой ключ использовать "
+"https://help.github.com/articles/telling-git-about-your-gpg-key/"
 
 # 73f8698e168647db9ab02a684af4d051
 #: ../../git/init.rst:15
 msgid "Tell git to sign all commits:"
-msgstr ""
+msgstr "Скажите git подписать все коммиты:"
 
 # f67ab3f46887473882d51607fd2a60f3
 #: ../../git/init.rst:21
 msgid "Make gpg remember your passphrase"
-msgstr ""
+msgstr "Заставьте gpg запомнить ваш пароль"
 
 # 63b74919fb964f8f8470b379b79f44f6
 #: ../../git/init.rst:40
 msgid "Make a backup if needed"
-msgstr ""
+msgstr "Сделайте резервную копию, если это необходимо"
 
 # 91884a1b4857469b9f8c529d1278a79f
 #: ../../git/init.rst:52
 msgid ""
 "If you lost your key or forgot password, you need to create new one, but "
-"don't remove old one from github, because otherwise all signed by old key"
-" commits will become \"Unverified\""
+"don't remove old one from github, because otherwise all signed by old key "
+"commits will become \"Unverified\""
 msgstr ""
+"Если вы потеряли свой ключ или забыли пароль, вам нужно создать новый, но не"
+" удаляйте старый из github, потому что в противном случае все подписанные "
+"коммитом старого ключа станут «Непроверенными»"
 
 # 515329bf6ff14f268b1486f2297c8927
 #: ../../git/init.rst:58
 msgid "git email"
-msgstr ""
+msgstr "мерзкая электронная почта"
 
 # 46b7f668bff84d0c8de10f15cfdb849d
 #: ../../git/init.rst:60
@@ -95,16 +106,19 @@ msgid ""
 "`Configure email in git <https://help.github.com/articles/setting-your-"
 "email-in-git/>`_. Email must be the same as in github settings::"
 msgstr ""
+"`Настройка электронной почты в git "
+"<https://help.github.com/articles/setting-your-email-in-git/> `_. Email "
+"должен быть таким же, как в настройках github:"
 
 # b82a1a013aa340fa9801f3ab8129c064
 #: ../../git/init.rst:65
 msgid "git editor"
-msgstr ""
+msgstr "редактор git"
 
 # b615013507ea4df4b73cd9929444f047
 #: ../../git/init.rst:71
 msgid "gitignore"
-msgstr ""
+msgstr "gitignore"
 
 # 586e5dd3e28e4624a911523bc1778ea3
 #: ../../git/init.rst:73
@@ -112,9 +126,10 @@ msgid ""
 "`Configure global gitignore <https://help.github.com/articles/ignoring-"
 "files/#create-a-global-gitignore>`_"
 msgstr ""
+"`Настройка глобального gitignore <https://help.github.com/articles/ignoring-"
+"files/#create-a-global-gitignore> `_"
 
 # b319748ef4ea4d7abc5291fa376332f4
 #: ../../git/init.rst:75
 msgid "Possible content for ``~/.gitignore_global``: ::"
-msgstr ""
-
+msgstr "Возможное содержимое для `` ~ / .gitignore_global``: ::"

@@ -21,12 +21,12 @@ msgstr ""
 # 9d54d3b9d23746bc95429bf690c673c7
 #: ../../odoo/models/ir.model.access.rst:3
 msgid "ir.model.access"
-msgstr ""
+msgstr "ir.model.access"
 
 # ed2bf47aab5a4c6fbecbc47024d9dc7b
 #: ../../odoo/models/ir.model.access.rst:5
 msgid "Defines access to a whole model."
-msgstr ""
+msgstr "Определяет доступ ко всей модели."
 
 # 36fc396b0c6e4f10bf103b19aa7eea50
 #: ../../odoo/models/ir.model.access.rst:7
@@ -34,30 +34,41 @@ msgid ""
 "Each access control has a model to which it grants permissions, the "
 "permissions it grants and optionally a group."
 msgstr ""
+"Каждый элемент управления доступом имеет модель, которой он предоставляет "
+"разрешения, разрешения, которые он предоставляет, и, необязательно, группу."
 
 # 0436d48c206c4d539229745fd5f02e36
 #: ../../odoo/models/ir.model.access.rst:10
 msgid ""
 "Access controls are additive, for a given model a user has access all "
-"permissions granted to any of its groups: if the user belongs to one "
-"group which allows writing and another which allows deleting, they can "
-"both write and delete."
+"permissions granted to any of its groups: if the user belongs to one group "
+"which allows writing and another which allows deleting, they can both write "
+"and delete."
 msgstr ""
+"Контроль доступа является аддитивным, для данной модели пользователь имеет "
+"доступ ко всем разрешениям, предоставленным любой из его групп: если "
+"пользователь принадлежит к одной группе, которая разрешает запись, и другой,"
+" которая позволяет удалять, они могут как писать, так и удалять."
 
 # 88e15fc43a704ebe8fe4c1a572725b21
 #: ../../odoo/models/ir.model.access.rst:15
 msgid ""
-"If no group is specified, the access control applies to all users, "
-"otherwise it only applies to the members of the given group."
+"If no group is specified, the access control applies to all users, otherwise"
+" it only applies to the members of the given group."
 msgstr ""
+"Если группа не указана, контроль доступа применяется ко всем пользователям, "
+"в противном случае он применяется только к членам данной группы."
 
 # b3397c98311740dba32b7df1e26aa28b
 #: ../../odoo/models/ir.model.access.rst:18
 msgid ""
-"Available permissions are creation (``perm_create``), searching and "
-"reading (``perm_read``), updating existing records (``perm_write``) and "
-"deleting existing records (``perm_unlink``)"
+"Available permissions are creation (``perm_create``), searching and reading "
+"(``perm_read``), updating existing records (``perm_write``) and deleting "
+"existing records (``perm_unlink``)"
 msgstr ""
+"Доступные разрешения: создание (`` perm_create``), поиск и чтение (`` "
+"perm_read``), обновление существующих записей (`` perm_write``) и удаление "
+"существующих записей (`` perm_unlink``)"
 
 # 49d77487a3ed49f1900a2b12dfc72dfd
 #: ../../odoo/models/ir.model.access.rst:22
@@ -65,24 +76,26 @@ msgid ""
 "When there is no access records for a given model and a permission (e.g. "
 "*read*), then only Superuser has the permision."
 msgstr ""
+"Когда нет записей доступа для данной модели и разрешения (например, * read "
+"*), разрешение имеет только Superuser."
 
 # aea3fe85d57046fe819f68f68467bdd8
 #: ../../odoo/models/ir.model.access.rst:24
 msgid "See also:"
-msgstr ""
+msgstr "Смотрите также:"
 
 # eaf22658e0154536bdff1d69f7379a63
 #: ../../odoo/models/ir.model.access.rst:26
 msgid ":doc:`Superuser rights <../../../dev/access/admin>`"
 msgstr ""
+": doc: `Права суперпользователя &lt;../../../ dev / access / admin&gt;`"
 
 # 2b5e2f992b084a29a82c1e2052f22259
 #: ../../odoo/models/ir.model.access.rst:27
 msgid ":doc:`ir.rule <ir.rule>`"
-msgstr ""
+msgstr ": Документ: `ir.rule <ir.rule> `"
 
 # 8e890853230947e8b4ed257f53bfc61d
 #: ../../odoo/models/ir.model.access.rst:30
 msgid "Fields"
-msgstr ""
-
+msgstr "поля"

@@ -21,7 +21,7 @@ msgstr ""
 # d1a0b842f217467d892a44298d5f9f2e
 #: ../../admin/workers.rst:3
 msgid "``--workers``"
-msgstr ""
+msgstr "`` --Workers``"
 
 # 1af2fd1b485649eba37b51eab5798e4b
 #: ../../admin/workers.rst:5
@@ -29,39 +29,60 @@ msgid ""
 "*Based on this comment from Odony:* "
 "https://github.com/odoo/odoo/issues/39825#issuecomment-555256475"
 msgstr ""
+"* На основании этого комментария от Одони: * "
+"https://github.com/odoo/odoo/issues/39825#issuecomment-555256475"
 
 # 18880895f256491a81f389dd15441dae
 #: ../../admin/workers.rst:7
 #, python-format
 msgid ""
-"So the documentation states that a single worker can handle 6 users. What"
-" it means to say is that a worker can handle on average ~ 6 heavy read "
-"transactions / second (150ms each) = 6 web requests/s. If a user triggers"
-" about 60 heavy requests / minute during active use, that's 1 req/s on "
-"average, so 6 users could max out a worker during peaks, when all of them"
-" are active. But in reality humans don't create sustained load, and the "
-"real usage will average out over time to a much lower number, maybe 20% "
-"of that, so a single worker may be able to handle dozens of normal users."
-" Unless you're facing pathological cases, like a class where all students"
-" click at the same time, or heavy automated RPC scripts (non-human heavy "
-"users), you could start with 1 worker for 30 users, maybe even 40 in a "
-"multi-tenant case where the users are distributed on different time "
-"zones, and not all databases are active at the same time."
+"So the documentation states that a single worker can handle 6 users. What it"
+" means to say is that a worker can handle on average ~ 6 heavy read "
+"transactions / second (150ms each) = 6 web requests/s. If a user triggers "
+"about 60 heavy requests / minute during active use, that's 1 req/s on "
+"average, so 6 users could max out a worker during peaks, when all of them "
+"are active. But in reality humans don't create sustained load, and the real "
+"usage will average out over time to a much lower number, maybe 20% of that, "
+"so a single worker may be able to handle dozens of normal users. Unless "
+"you're facing pathological cases, like a class where all students click at "
+"the same time, or heavy automated RPC scripts (non-human heavy users), you "
+"could start with 1 worker for 30 users, maybe even 40 in a multi-tenant case"
+" where the users are distributed on different time zones, and not all "
+"databases are active at the same time."
 msgstr ""
+"Таким образом, в документации говорится, что один работник может обслуживать"
+" 6 пользователей. Это означает, что работник может обрабатывать в среднем ~ "
+"6 тяжелых операций чтения в секунду (150 мс каждая) = 6 веб-запросов / с. "
+"Если пользователь активирует около 60 тяжелых запросов в минуту во время "
+"активного использования, это в среднем 1 требование / с, поэтому 6 "
+"пользователей могут максимально использовать работника во время пиков, когда"
+" все они активны. Но на самом деле люди не создают устойчивую нагрузку, и "
+"реальное использование со временем будет в среднем намного меньше, может "
+"быть, 20% от этого, так что один работник может справиться с десятками "
+"обычных пользователей. Если вы не сталкиваетесь с патологическими случаями, "
+"например, с классом, в котором все ученики нажимают одновременно, или с "
+"тяжелыми автоматизированными сценариями RPC (не-тяжелые пользователи), вы "
+"можете начать с 1 работника на 30 пользователей, может даже 40 на нескольких"
+" случай арендатора, когда пользователи распределены по разным часовым "
+"поясам, и не все базы данных активны одновременно."
 
 # 593b94535eb248308ddd4a1a29151432
 #: ../../admin/workers.rst:11
 msgid ""
-"If you don't know how many workers you will need, start with 10, but try "
-"to have the flexibility (in RAM and CPU) to deploy more easily as needed."
-" Monitor your system to see how you're doing in terms of resources and "
+"If you don't know how many workers you will need, start with 10, but try to "
+"have the flexibility (in RAM and CPU) to deploy more easily as needed. "
+"Monitor your system to see how you're doing in terms of resources and "
 "transaction rates."
 msgstr ""
+"Если вы не знаете, сколько рабочих вам потребуется, начните с 10, но "
+"постарайтесь иметь гибкость (в ОЗУ и ЦП) для более удобного развертывания по"
+" мере необходимости. Мониторинг вашей системы, чтобы увидеть, как вы делаете"
+" с точки зрения ресурсов и скорости транзакций."
 
 # 42df01b447f04c389d152f0c55614dd7
 #: ../../admin/workers.rst:13
 msgid "Other things to consider:"
-msgstr ""
+msgstr "Другие вещи для рассмотрения:"
 
 # 2fe0ef2ad5854fab8dcae8aa8ac35d43
 #: ../../admin/workers.rst:15
@@ -70,38 +91,54 @@ msgid ""
 "parallel connections and you don't want them to be queued, as users will "
 "feel the delays. 6 or 8 is a minimum, even if you don't have enough CPUs."
 msgstr ""
+"Всегда настраивайте более 6 рабочих, так как браузеры должны будут открывать"
+" много параллельных соединений, и вы не хотите, чтобы они ставились в "
+"очередь, так как пользователи будут чувствовать задержки. 6 или 8 - минимум,"
+" даже если у вас недостаточно процессоров."
 
 # 3602b8d56c1f46b084d3828e19392cb0
 #: ../../admin/workers.rst:16
 msgid ""
-"The real limit to the number of workers is the RAM, not the CPUs. If "
-"workers x limit_memory_hard is much more than the available RAM, you "
-"could cause swapping or crashing. These days get at least 32GB or 64GB "
-"RAM, it's not much, and if you don't allocate everything to Odoo, the "
-"rest will be useful for OS cache and buffers."
+"The real limit to the number of workers is the RAM, not the CPUs. If workers"
+" x limit_memory_hard is much more than the available RAM, you could cause "
+"swapping or crashing. These days get at least 32GB or 64GB RAM, it's not "
+"much, and if you don't allocate everything to Odoo, the rest will be useful "
+"for OS cache and buffers."
 msgstr ""
+"Реальное ограничение количества рабочих - это оперативная память, а не "
+"процессоры. Если рабочие x limit_memory_hard намного больше доступной "
+"оперативной памяти, вы можете вызвать обмен или сбой. В наши дни, по крайней"
+" мере, 32 ГБ или 64 ГБ ОЗУ, это немного, и если вы не выделите все для Odoo,"
+" остальное будет полезно для кэша ОС и буферов."
 
 # f571d769196f4ab296863d54ea722c8f
 #: ../../admin/workers.rst:17
 msgid ""
-"You can go for 2 x num_cpus + 1 workers to make sure you will be using "
-"all the cores available. Having less workers than that is a waste of "
-"resources. But you can have more workers if you want, as long as you have"
-" enough RAM."
+"You can go for 2 x num_cpus + 1 workers to make sure you will be using all "
+"the cores available. Having less workers than that is a waste of resources. "
+"But you can have more workers if you want, as long as you have enough RAM."
 msgstr ""
+"Вы можете использовать 2 x num_cpus + 1 работника, чтобы убедиться, что вы "
+"будете использовать все доступные ядра. Имея меньше работников, чем это "
+"трата ресурсов. Но вы можете иметь больше рабочих, если хотите, если у вас "
+"достаточно оперативной памяти."
 
 # 26a0d993594045efa2dc5cd2f11268c9
 #: ../../admin/workers.rst:18
 msgid ""
-"CPU speed matters, so try to get the best CPU clock speed you can. Better"
-" split the workers on several servers with less CPU cores but higher "
-"clocks speeds."
+"CPU speed matters, so try to get the best CPU clock speed you can. Better "
+"split the workers on several servers with less CPU cores but higher clocks "
+"speeds."
 msgstr ""
+"Скорость процессора имеет значение, поэтому постарайтесь получить "
+"максимальную тактовую частоту процессора, какую только сможете. Лучше "
+"разделить рабочих на несколько серверов с меньшим количеством процессорных "
+"ядер, но с более высокой тактовой частотой."
 
 # 2ca0fb46af344c5099b3caf3ff7f3a62
 #: ../../admin/workers.rst:22
 msgid "Longpolling"
-msgstr ""
+msgstr "Longpolling"
 
 # 5acef4955d7f495b81f65e10e9572718
 #: ../../admin/workers.rst:24
@@ -109,11 +146,14 @@ msgid ""
 "Hidden feature of Multiprocessing is automatic run gevent process for "
 "longpolling support."
 msgstr ""
+"Скрытой особенностью Multiprocessing является автоматический запуск процесса"
+" gevent для поддержки longpolling."
 
 # 925eeea38cbe40e9b09665350a221180
 #: ../../admin/workers.rst:26
 msgid ""
-"Longpolling is an extra proccess, i.e. if you have ``--workers=2`` then "
-"you will get 2 worker processes and 1 gevent process"
+"Longpolling is an extra proccess, i.e. if you have ``--workers=2`` then you "
+"will get 2 worker processes and 1 gevent process"
 msgstr ""
-
+"Longpolling - это дополнительный процесс, т.е. если у вас `` --workers = "
+"2``, вы получите 2 рабочих процесса и 1 процесс gevent"

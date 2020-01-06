@@ -21,5 +21,4 @@ msgstr ""
 # 11706629b4c34568a624aaedcbd032e1
 #: ../../dev/frontend/index.rst:2
 msgid "Frontend"
-msgstr ""
-
+msgstr "Внешний интерфейс"

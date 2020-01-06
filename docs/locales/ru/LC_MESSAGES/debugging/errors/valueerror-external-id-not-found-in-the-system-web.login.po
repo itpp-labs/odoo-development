@@ -21,21 +21,26 @@ msgstr ""
 # 3dc728dd96e24c9b8945f870664b7184
 #: ../../debugging/errors/valueerror-external-id-not-found-in-the-system-web.login.rst:3
 msgid "ValueError: External ID not found in the system: web.login"
-msgstr ""
+msgstr "ValueError: Внешний идентификатор не найден в системе: web.login"
 
 # 3464c0468c594d718747b181b82149f5
 #: ../../debugging/errors/valueerror-external-id-not-found-in-the-system-web.login.rst:67
 msgid ""
 "The error above usually means that there was another problem on database "
-"initialization. So, if you got such error in test database, just drop the"
-" database, start database creation again and pay attention on logs for "
+"initialization. So, if you got such error in test database, just drop the "
+"database, start database creation again and pay attention on logs for "
 "errors."
 msgstr ""
+"Вышеуказанная ошибка обычно означает, что при инициализации базы данных "
+"возникла другая проблема. Итак, если вы получили такую ошибку в тестовой "
+"базе данных, просто удалите базу данных, начните создание базы данных снова "
+"и обратите внимание на журналы ошибок."
 
 # 6572832fcbf349ed952738a6d80c879b
 #: ../../debugging/errors/valueerror-external-id-not-found-in-the-system-web.login.rst:69
 msgid ""
-"If you got such error in production database, then it could be difficult "
-"to fix that. Sorry ¯ \\\\ _ (ツ) _ / ¯"
+"If you got such error in production database, then it could be difficult to "
+"fix that. Sorry ¯ \\\\ _ (ツ) _ / ¯"
 msgstr ""
-
+"Если вы получили такую ошибку в производственной базе данных, это может быть"
+" трудно исправить. Извините ¯ \\\\ _ (ツ) _ / ¯"

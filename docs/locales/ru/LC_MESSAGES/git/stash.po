@@ -21,15 +21,14 @@ msgstr ""
 # 66888c047fda440c9e442fbdfcbef26c
 #: ../../git/stash.rst:2
 msgid "Git stash"
-msgstr ""
+msgstr "Git тайник"
 
 # 8b69ddafc8fb490e8fd73ce5dcb747c7
 #: ../../git/stash.rst:4
 msgid "book: https://git-scm.com/book/no-nb/v1/Git-Tools-Stashing"
-msgstr ""
+msgstr "книга: https://git-scm.com/book/no-nb/v1/Git-Tools-Stashing"
 
 # 72081a8858d34228b053fde959d9a937
 #: ../../git/stash.rst:5
 msgid "man: https://git-scm.com/docs/git-stash"
-msgstr ""
-
+msgstr "человек: https://git-scm.com/docs/git-stash"

@@ -21,5 +21,4 @@ msgstr ""
 # e7be2208c7084a23a6a0aa51e0db104f
 #: ../../dev/html/index.rst:2
 msgid "HTML"
-msgstr ""
-
+msgstr "HTML"

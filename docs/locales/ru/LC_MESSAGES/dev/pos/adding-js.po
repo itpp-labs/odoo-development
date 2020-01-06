@@ -21,12 +21,13 @@ msgstr ""
 # 2f359c5ddecc42b19bc014bbc65e1cbe
 #: ../../dev/pos/adding-js.rst:3
 msgid "Adding ``js`` file to POS"
-msgstr ""
+msgstr "Добавление файла `` js`` в POS"
 
 # 2071b2420da340499de89b5be3a22544
 #: ../../dev/pos/adding-js.rst:5
 msgid "Adding **javascript file** opens a new set of possibilities in Odoo."
 msgstr ""
+"Добавление ** javascript файла ** открывает новый набор возможностей в Odoo."
 
 # 06cd9fdcb3a84310aa3e9aaffcaabcbc
 #: ../../dev/pos/adding-js.rst:7
@@ -35,4 +36,7 @@ msgid ""
 "<https://github.com/it-projects-llc/pos-"
 "addons/blob/15a6853768a888bb7c3fbfd3690ce0cb7537ff3e/pos_debt_notebook/data.xml#L16-L20::>`__"
 msgstr ""
-
+"Давайте рассмотрим пример модуля `` POS Debt &amp; Credit notebook```: "
+"<https://github.com/it-projects-llc/pos-"
+"addons/blob/15a6853768a888bb7c3fbfd3690ce0cb7537ff3e/pos_debt_notebook/data.xml#L16-L20::>"
+" `__"

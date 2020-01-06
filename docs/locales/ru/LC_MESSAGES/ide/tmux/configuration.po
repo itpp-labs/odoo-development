@@ -21,15 +21,14 @@ msgstr ""
 # d69777a1285143a1a0082546c0efd698
 #: ../../ide/tmux/configuration.rst:2
 msgid "Tmux configuration"
-msgstr ""
+msgstr "Конфигурация Tmux"
 
 # 3a52689be45e48fba478fe864977f49d
 #: ../../ide/tmux/configuration.rst:4
 msgid "Create a file with the name ``.tmux.conf`` in your home directory."
-msgstr ""
+msgstr "Создайте файл с именем `` .tmux.conf`` в вашем домашнем каталоге."
 
 # bb28d03bbb044083af078ce9e34fb014
 #: ../../ide/tmux/configuration.rst:6
 msgid "An example of ``.tmux.conf``:"
-msgstr ""
-
+msgstr "Пример `` .tmux.conf``:"

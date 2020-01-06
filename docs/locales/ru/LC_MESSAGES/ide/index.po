@@ -21,5 +21,4 @@ msgstr ""
 # d3d2c8ae924b40a2a80c3e2d02563bb5
 #: ../../ide/index.rst:2
 msgid "IDE"
-msgstr ""
-
+msgstr "IDE"

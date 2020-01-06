@@ -21,67 +21,85 @@ msgstr ""
 # 8f6b824a749f4bf496cead327c01775c
 #: ../../dev/pos/custom-receipt.rst:3
 msgid "Custom Receipt"
-msgstr ""
+msgstr "Таможенная квитанция"
 
 # 009ebb4917d74d28bc85c41089d600a4
 #: ../../dev/pos/custom-receipt.rst:5
 msgid "There are two types of receipts in POS:"
-msgstr ""
+msgstr "В POS есть два типа чеков:"
 
 # b49a9e16130e42eab0bac2dcc759c60f
 #: ../../dev/pos/custom-receipt.rst:7
 msgid "``PosTicket`` - displays on screen after payment;"
-msgstr ""
+msgstr "`` PosTicket`` - отображается на экране после оплаты;"
 
 # 12889e85203545d39214ca70ffe04f6c
 #: ../../dev/pos/custom-receipt.rst:8
 msgid ""
-"``XmlReceipt`` - prints in PosBox after pressing the button Print receipt"
-" on the Payment screen if PosBox connected with the ESC POC printer."
+"``XmlReceipt`` - prints in PosBox after pressing the button Print receipt on"
+" the Payment screen if PosBox connected with the ESC POC printer."
 msgstr ""
+"`` XmlReceipt`` - печатает в PosBox после нажатия кнопки Распечатать "
+"квитанцию на экране оплаты, если PosBox подключен к принтеру ESC POC."
 
 # 4224cfdfd78d41c58719b8a0ca3639cd
 #: ../../dev/pos/custom-receipt.rst:10
 msgid ""
-"These two receipts are implemented on ``Qweb`` and generated after "
-"purchase order. If ``PosTicket`` allows any design in ``Qweb``, then for "
-"``XmlReceipt`` you can use only strictly defined tags, which supported by"
-" the ESC POC printer."
+"These two receipts are implemented on ``Qweb`` and generated after purchase "
+"order. If ``PosTicket`` allows any design in ``Qweb``, then for "
+"``XmlReceipt`` you can use only strictly defined tags, which supported by "
+"the ESC POC printer."
 msgstr ""
+"Эти два чека реализованы в `` Qweb`` и генерируются после заказа на покупку."
+" Если `` PosTicket`` разрешает любой дизайн в `` Qweb``, то для `` "
+"XmlReceipt`` вы можете использовать только строго определенные теги, которые"
+" поддерживаются принтером ESC POC."
 
 # 7b76f12c816940309d4379fb40bfaac5
 #: ../../dev/pos/custom-receipt.rst:12
 msgid ""
-"Using ``t-extend`` mechanism, which takes the template's name to be "
-"modified as a parameter, you can extend existing ``Qweb`` templates for "
-"receipts. After that, a modification with any number t-jquery sub-"
-"directives can be performed."
+"Using ``t-extend`` mechanism, which takes the template's name to be modified"
+" as a parameter, you can extend existing ``Qweb`` templates for receipts. "
+"After that, a modification with any number t-jquery sub-directives can be "
+"performed."
 msgstr ""
+"Используя механизм `` t-extend``, который принимает имя шаблона для "
+"изменения в качестве параметра, вы можете расширить существующие шаблоны `` "
+"Qweb`` для получения. После этого может быть выполнена модификация с любым "
+"количеством поддиректив t-jquery."
 
 # 85c8b58cdd614bd981360ba2602578de
 #: ../../dev/pos/custom-receipt.rst:14
 msgid ""
-"``t-jquery`` directives use the CSS selector. This selector is used in "
-"the extended template for choosing context nodes, for which "
-"``t-operation`` can be applied. If you want to add, for example, another "
-"title for Product in ``XmlReceipt``, you need to create ``Qweb`` with the"
-" following content:"
+"``t-jquery`` directives use the CSS selector. This selector is used in the "
+"extended template for choosing context nodes, for which ``t-operation`` can "
+"be applied. If you want to add, for example, another title for Product in "
+"``XmlReceipt``, you need to create ``Qweb`` with the following content:"
 msgstr ""
+"Директивы `` t-jquery`` используют селектор CSS. Этот селектор используется "
+"в расширенном шаблоне для выбора узлов контекста, для которых может быть "
+"применена `` t-операция``. Если вы хотите добавить, например, другой "
+"заголовок для продукта в `` XmlReceipt``, вам нужно создать `` Qweb`` со "
+"следующим содержимым:"
 
 # 84bf710898d64e069b8f7900cd235f24
 #: ../../dev/pos/custom-receipt.rst:30
 msgid "For the same action for PosTicket:"
-msgstr ""
+msgstr "Для того же действия для PosTicket:"
 
 # 567852e89f8e4589928866d59373883e
 #: ../../dev/pos/custom-receipt.rst:40
 msgid ""
 "One of the difficult but at the same time flexible method of creating "
-"Customer receipt is to download the field from the Server, where ``Qweb``"
-" template is described in the text form. After downloading and before "
+"Customer receipt is to download the field from the Server, where ``Qweb`` "
+"template is described in the text form. After downloading and before "
 "printing this text template need to be converted into ``XML format`` and "
 "produced data based on this template."
 msgstr ""
+"Одним из сложных, но в то же время гибких методов создания квитанции Клиента"
+" является загрузка поля с Сервера, где в текстовой форме описан шаблон `` "
+"Qweb``. После загрузки и перед печатью этот текстовый шаблон необходимо "
+"преобразовать в «формат XML» и получить данные на основе этого шаблона."
 
 # 75dac10ad014474f83a9ee81b34d4642
 #: ../../dev/pos/custom-receipt.rst:46
@@ -89,6 +107,8 @@ msgid ""
 "In POS you need to convert this text format into ``XML`` and generate a "
 "receipt using this template:"
 msgstr ""
+"В POS вам нужно преобразовать этот текстовый формат в `` XML`` и "
+"сгенерировать квитанцию, используя этот шаблон:"
 
 # 214ded92bf294bf4b1ca5d01cc6aba94
 #: ../../dev/pos/custom-receipt.rst:56
@@ -96,6 +116,8 @@ msgid ""
 "Usage of this template instead of standards ones requires to generate "
 "received ``XML``, in order to do this you need to connect ``Qweb``:"
 msgstr ""
+"Использование этого шаблона вместо стандартных требует генерации полученного"
+" `` XML``, для этого вам необходимо подключить `` Qweb``:"
 
 # 78c44573d65a4c389f7417a1175ac0d1
 #: ../../dev/pos/custom-receipt.rst:63
@@ -103,9 +125,12 @@ msgid ""
 "To define a custom function, which will generate a user's ``Qweb`` as "
 "follows:"
 msgstr ""
+"Чтобы определить пользовательскую функцию, которая будет генерировать `` "
+"Qweb`` пользователя следующим образом:"
 
 # f80b693cffc243feab453c78409dad55
 #: ../../dev/pos/custom-receipt.rst:73
-msgid "This function needs to be called every time when the receipt is generated."
+msgid ""
+"This function needs to be called every time when the receipt is generated."
 msgstr ""
-
+"Эту функцию необходимо вызывать каждый раз, когда генерируется квитанция."

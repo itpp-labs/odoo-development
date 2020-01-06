@@ -21,15 +21,14 @@ msgstr ""
 # 82aaff306450436e92d00de17227c961
 #: ../../dev/lint/index.rst:3
 msgid "Lint"
-msgstr ""
+msgstr "корпия"
 
 # 2613f6b3a8114bd98d1fa33bacee7bc5
 #: ../../dev/lint/index.rst:6
 msgid "Installation"
-msgstr ""
+msgstr "Установка"
 
 # fb4380e75b414bf195bd905dea171095
 #: ../../dev/lint/index.rst:27
 msgid "Common lints"
-msgstr ""
-
+msgstr "Общие линты"

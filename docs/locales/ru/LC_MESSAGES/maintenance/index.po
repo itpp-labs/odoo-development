@@ -21,5 +21,4 @@ msgstr ""
 # 88604760343a47de84b0ffa55de79148
 #: ../../maintenance/index.rst:3
 msgid "Maintenance"
-msgstr ""
-
+msgstr "техническое обслуживание"

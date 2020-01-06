@@ -21,15 +21,14 @@ msgstr ""
 # 06763de6e5bb41489c431fe77f218547
 #: ../../dev/js/rpc.rst:3
 msgid "Remote Procedure Call (RPC)"
-msgstr ""
+msgstr "Удаленный вызов процедур (RPC)"
 
 # df2d0b7f1020477688b729070d73dd18
 #: ../../dev/js/rpc.rst:6
 msgid "Call method"
-msgstr ""
+msgstr "Метод вызова"
 
 # c6a29925296f4c919d735b44d1404c4f
 #: ../../dev/js/rpc.rst:37
 msgid "How to call wizard method from js"
-msgstr ""
-
+msgstr "Как вызвать метод мастера из js"

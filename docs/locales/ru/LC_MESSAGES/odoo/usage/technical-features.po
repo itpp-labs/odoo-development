@@ -21,52 +21,53 @@ msgstr ""
 # 695d80b8c1ef4b2cb4b33eec0f82e56a
 #: ../../odoo/usage/technical-features.rst:3
 msgid "How to enable Technical Features"
-msgstr ""
+msgstr "Как включить технические характеристики"
 
 # 449cec09195c485b84e81b49e479d683
 #: ../../odoo/usage/technical-features.rst:6
 msgid "8.0"
-msgstr ""
+msgstr "8,0"
 
 # dd19ee70e4c442848fe06c44f5fe85ca
 #: ../../odoo/usage/technical-features.rst:8
 msgid "open ``Settings / Users / Users``"
-msgstr ""
+msgstr "открыть `` Настройки / Пользователи / Пользователи``"
 
 # 37adc49a23df4a9ebb9c3523515fc8d5
 #: ../../odoo/usage/technical-features.rst:9
 msgid "select your user"
-msgstr ""
+msgstr "выберите своего пользователя"
 
 # 5dd103986fc541e9b71c83d0ad5bf01c
 #: ../../odoo/usage/technical-features.rst:10
 msgid "click ``[Edit]``"
-msgstr ""
+msgstr "нажмите `` [Изменить] ``"
 
 # 42191f6f2a0f4d428473d29c6abd5be1
 #: ../../odoo/usage/technical-features.rst:11
 msgid "switch ``Technical Features`` on"
-msgstr ""
+msgstr "Включить `` Технические характеристики``"
 
 # a96127f621c04f88be96f99d1e71d16f
 #: ../../odoo/usage/technical-features.rst:12
 msgid "click ``[Save]``"
-msgstr ""
+msgstr "нажмите `` [Сохранить] ``"
 
 # c3eb6c5c36f341beaac657a74e595be2
 #: ../../odoo/usage/technical-features.rst:13
 msgid "refresh web page (click ``F5``)"
-msgstr ""
+msgstr "обновить веб-страницу (нажмите `` F5``)"
 
 # 79139b420b8a47348e5c14a4ecee6577
 #: ../../odoo/usage/technical-features.rst:16
 msgid "9.0+"
-msgstr ""
+msgstr "9.0+"
 
 # e7d0ba20179a4799933e324d3d0a4f7c
 #: ../../odoo/usage/technical-features.rst:18
 msgid ""
-"Since Odoo 9.0 to enable Technical Features you only need to "
-":doc:`activate developer mode<debug-mode>`."
+"Since Odoo 9.0 to enable Technical Features you only need to :doc:`activate "
+"developer mode<debug-mode>`."
 msgstr ""
-
+"Начиная с Odoo 9.0 для включения технических функций, вам нужно только: doc:"
+" `активировать режим разработчика <debug-mode> `."

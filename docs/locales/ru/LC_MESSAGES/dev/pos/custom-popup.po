@@ -21,7 +21,7 @@ msgstr ""
 # 9b98bfdf906141aa901a4a326ec1edd0
 #: ../../dev/pos/custom-popup.rst:3
 msgid "Creation of Custom Pop-Ups"
-msgstr ""
+msgstr "Создание пользовательских всплывающих окон"
 
 # 1dfe61f36e5a4ee2b2e2a1372de291bf
 #: ../../dev/pos/custom-popup.rst:5
@@ -29,16 +29,24 @@ msgid ""
 "Use the Custom Pop-Ups to provide information or to prompt Users to do "
 "something in POS. You can define the appearance of a pop-up."
 msgstr ""
+"Используйте пользовательские всплывающие окна, чтобы предоставить информацию"
+" или предложить пользователям сделать что-то в POS. Вы можете определить "
+"внешний вид всплывающего окна."
 
 # b078ab0de3e049819e8bbc29a4243b56
 #: ../../dev/pos/custom-popup.rst:7
 msgid ""
-"**Let take the example of the creation a pop-up of** ``QR Code Scanning "
-"in POS`` `module <https://github.com/it-projects-llc/pos-"
+"**Let take the example of the creation a pop-up of** ``QR Code Scanning in "
+"POS`` `module <https://github.com/it-projects-llc/pos-"
 "addons/blob/6eaac4e168d7cf854d302b298b068e2b38db822c/pos_qr_scan/static/src/js/qr_scan.js>`__"
-" , where we needed to create a pop-up to show the video from camera to "
-"scan QR codes."
+" , where we needed to create a pop-up to show the video from camera to scan "
+"QR codes."
 msgstr ""
+"** Давайте возьмем пример создания всплывающего окна ** `` Сканирования QR-"
+"кода в POS``` <https://github.com/it-projects-llc/pos-"
+"addons/blob/6eaac4e168d7cf854d302b298b068e2b38db822c/pos_qr_scan/static/src/js/qr_scan.js>"
+" `__, где нам нужно было создать всплывающее окно, чтобы показать видео с "
+"камеры для сканирования QR-кодов."
 
 # 52f534a082a1417c8121816026c1c32f
 #: ../../dev/pos/custom-popup.rst:9
@@ -47,6 +55,10 @@ msgid ""
 "llc/pos-"
 "addons/blob/6eaac4e168d7cf854d302b298b068e2b38db822c/pos_qr_scan/static/src/js/qr_scan.js#L10::>`__"
 msgstr ""
+"Сначала приложите необходимые требования: <https://github.com/it-projects-"
+"llc/pos-"
+"addons/blob/6eaac4e168d7cf854d302b298b068e2b38db822c/pos_qr_scan/static/src/js/qr_scan.js#L10::>"
+" `__"
 
 # d7d23f499e964bf48df91820e5ec52bb
 #: ../../dev/pos/custom-popup.rst:16
@@ -55,15 +67,24 @@ msgid ""
 "<https://github.com/it-projects-llc/pos-"
 "addons/blob/6eaac4e168d7cf854d302b298b068e2b38db822c/pos_qr_scan/static/src/js/qr_scan.js#L29-L30::>`__"
 msgstr ""
+"Затем создайте новый экземпляр, новое всплывающее расширение `` по "
+"умолчанию: <https://github.com/it-projects-llc/pos-"
+"addons/blob/6eaac4e168d7cf854d302b298b068e2b38db822c/pos_qr_scan/static/src/js/qr_scan.js#L29-L30::>"
+" `__"
 
 # e53bfe9eda4d49eb90c7623c42a7e1e1
 #: ../../dev/pos/custom-popup.rst:25
 msgid ""
 "To make the pop-up be reachable with regular methods after the "
-"``QrScanPopupWidget`` declaration do the `following: <https://github.com"
-"/it-projects-llc/pos-"
+"``QrScanPopupWidget`` declaration do the `following: <https://github.com/it-"
+"projects-llc/pos-"
 "addons/blob/6eaac4e168d7cf854d302b298b068e2b38db822c/pos_qr_scan/static/src/js/qr_scan.js#L194::>`__"
 msgstr ""
+"Чтобы сделать всплывающее окно доступным обычными методами после объявления "
+"`` QrScanPopupWidget``, сделайте следующее: <https://github.com/it-projects-"
+"llc/pos-"
+"addons/blob/6eaac4e168d7cf854d302b298b068e2b38db822c/pos_qr_scan/static/src/js/qr_scan.js#L194::>"
+" `__"
 
 # e3fb902293eb473494575f6d878c081e
 #: ../../dev/pos/custom-popup.rst:33
@@ -72,4 +93,7 @@ msgid ""
 "llc/pos-"
 "addons/blob/6eaac4e168d7cf854d302b298b068e2b38db822c/pos_qr_scan/static/src/js/qr_scan.js#L17-L20::>`__"
 msgstr ""
-
+"поэтому его можно вызвать с помощью следующего кода: <https://github.com/it-"
+"projects-llc/pos-"
+"addons/blob/6eaac4e168d7cf854d302b298b068e2b38db822c/pos_qr_scan/static/src/js/qr_scan.js#L17-L20::>"
+" `__"
