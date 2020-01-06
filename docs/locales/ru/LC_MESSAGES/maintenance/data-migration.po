@@ -21,30 +21,36 @@ msgstr ""
 # f7c230693ea544f286a272cacbb7e047
 #: ../../maintenance/data-migration.rst:3
 msgid "Data Migration"
-msgstr ""
+msgstr "Перенос данных"
 
 # 82d69ca1e78945cab2e79c0ec2d33fae
 #: ../../maintenance/data-migration.rst:5
 msgid ""
 "Data Migration is a process of keeping correct data in database after "
-"updating to new module version. For example, simple field renaming leads "
-"to data lost if you don't have proper data migration scripts."
+"updating to new module version. For example, simple field renaming leads to "
+"data lost if you don't have proper data migration scripts."
 msgstr ""
+"Перенос данных - это процесс сохранения правильных данных в базе данных "
+"после обновления до новой версии модуля. Например, простое переименование "
+"полей приводит к потере данных, если у вас нет соответствующих сценариев "
+"миграции данных."
 
 # 2c40079fdc274654bb57eee56e9f0bb1
 #: ../../maintenance/data-migration.rst:7
 msgid "For *Module Migration* see :doc:`Porting Modules<../migration/index>`"
 msgstr ""
+"Для * Миграции модулей * см .: doc: `Портирование модулей &lt;../ миграция /"
+" индекс&gt;`"
 
 # 9d4a3585efa147e7a600a09154b743d2
 #: ../../maintenance/data-migration.rst:10
 msgid "Preparing"
-msgstr ""
+msgstr "Подготовка"
 
 # 86241ef08a174dfb85f676ce7b918764
 #: ../../maintenance/data-migration.rst:12
 msgid "Those migrations are between module version."
-msgstr ""
+msgstr "Эти миграции между версиями модуля."
 
 # 5fd2aac2cdc348c4a73468f528ead381
 #: ../../maintenance/data-migration.rst:14
@@ -52,98 +58,129 @@ msgid ""
 "From Odoo "
 "https://github.com/odoo/odoo/blob/11.0/odoo/modules/migration.py#L53:"
 msgstr ""
+"От Odoo "
+"https://github.com/odoo/odoo/blob/11.0/odoo/modules/migration.py#L53:"
 
 # 118cb39e81344061bb437ca4095fa30f
 #: ../../maintenance/data-migration.rst:16
 msgid ""
-"This class manage the migration of modules. Migrations files must be "
-"python files containing a ``migrate(cr, installed_version)`` function. "
-"Theses files must respect a directory tree structure: A 'migrations' "
-"folder which contains a folder by version. Version can be 'module' "
-"version or 'server.module' version (in this case, the files will only be "
-"processed by this version of the server). Python file names must start by"
-" *pre* or *post* and will be executed, respectively, before and after the"
-" module initialisation. *end* scripts are run after all modules have been"
-" updated."
+"This class manage the migration of modules. Migrations files must be python "
+"files containing a ``migrate(cr, installed_version)`` function. Theses files"
+" must respect a directory tree structure: A 'migrations' folder which "
+"contains a folder by version. Version can be 'module' version or "
+"'server.module' version (in this case, the files will only be processed by "
+"this version of the server). Python file names must start by *pre* or *post*"
+" and will be executed, respectively, before and after the module "
+"initialisation. *end* scripts are run after all modules have been updated."
 msgstr ""
+"Этот класс управляет миграцией модулей. Файлы миграции должны быть python-"
+"файлами, содержащими функцию `` migrate (cr, instal_version) ``. Эти файлы "
+"должны соответствовать структуре дерева каталогов: папка "
+"&#39;migrations&#39;, которая содержит папку по версии. Версия может быть "
+"версией &#39;module&#39; или версией &#39;server.module&#39; (в этом случае "
+"файлы будут обрабатываться только этой версией сервера). Имена файлов Python"
+" должны начинаться с * pre * или * post * и будут выполняться соответственно"
+" до и после инициализации модуля. Сценарии * end * запускаются после "
+"обновления всех модулей."
 
 # 159be125a5864120885fa3c94cea7739
 #: ../../maintenance/data-migration.rst:24
 msgid "Example::"
-msgstr ""
+msgstr "Пример::"
 
 # 5d4f62eac8c140fd90a2c7322b1f0267
 #: ../../maintenance/data-migration.rst:40
 msgid "Execution"
-msgstr ""
+msgstr "выполнение"
 
 # 67781f311e4e44a1928511c300957ac4
 #: ../../maintenance/data-migration.rst:42
 msgid ""
 "Migration files are just code files that don't need to be registered "
 "anywhere. When updating an addon Odoo searching in the *migrations* for "
-"folders with a version in between, up to, and including the version that "
-"is in updating for. It happens before all other files were observed, so "
-"at this moment nothing is changed at your database layout. Then, if "
-"folders are found Odoo executes python files with prefix *pre-* in it. "
-"They should contain a defined function called migrate. This function has "
-"two arguments: database cursor and currently installed version."
+"folders with a version in between, up to, and including the version that is "
+"in updating for. It happens before all other files were observed, so at this"
+" moment nothing is changed at your database layout. Then, if folders are "
+"found Odoo executes python files with prefix *pre-* in it. They should "
+"contain a defined function called migrate. This function has two arguments: "
+"database cursor and currently installed version."
 msgstr ""
+"Миграционные файлы - это просто файлы кода, которые не нужно нигде "
+"регистрировать. При обновлении аддона Odoo выполняет поиск в * миграциях * "
+"папок с версией между ними, включая версию, для которой выполняется "
+"обновление. Это происходит до того, как все остальные файлы были обнаружены,"
+" поэтому в данный момент ничего не меняется в вашей структуре базы данных. "
+"Затем, если папки найдены, Odoo запускает файлы python с префиксом * pre- *."
+" Они должны содержать определенную функцию с именем migrate. Эта функция "
+"имеет два аргумента: курсор базы данных и текущую установленную версию."
 
 # 4c0b77693e0e43c9b5d76da0dcb3a3de
 #: ../../maintenance/data-migration.rst:48
 msgid ""
-"After all pre-migrate functions were successfully executed, Odoo updates "
-"the module. Now, the database might be different from the previous "
-"version one. For example, if in a new version we changed the model field "
-"type, in the database this column will be changed without data "
-"preserving. Or if a field was renamed, in the new version just a new "
-"column will be created."
+"After all pre-migrate functions were successfully executed, Odoo updates the"
+" module. Now, the database might be different from the previous version one."
+" For example, if in a new version we changed the model field type, in the "
+"database this column will be changed without data preserving. Or if a field "
+"was renamed, in the new version just a new column will be created."
 msgstr ""
+"После того, как все функции перед миграцией были успешно выполнены, Odoo "
+"обновляет модуль. Теперь база данных может отличаться от предыдущей версии. "
+"Например, если в новой версии мы изменили тип поля модели, в базе данных "
+"этот столбец будет изменен без сохранения данных. Или, если поле было "
+"переименовано, в новой версии будет создан только новый столбец."
 
 # af1b945a01274c4695c82c1dd3371e93
 #: ../../maintenance/data-migration.rst:53
 msgid ""
-"Then, after the module was updated, Odoo search for post-migrate files by"
-" the same algorithm and execute them."
+"Then, after the module was updated, Odoo search for post-migrate files by "
+"the same algorithm and execute them."
 msgstr ""
+"Затем, после обновления модуля, Odoo ищет файлы после переноса по тому же "
+"алгоритму и выполняет их."
 
 # 304d2edc738c4328bb7e2440dcbda27b
 #: ../../maintenance/data-migration.rst:55
 msgid "*end* scripts are run after all modules have been updated."
-msgstr ""
+msgstr "Сценарии * end * запускаются после обновления всех модулей."
 
 # 3915c243882f473582046f7b7ea80f43
 #: ../../maintenance/data-migration.rst:57
 msgid ""
-"Migration updates are not rollbacked if some errors happened later during"
-" modules updating process. So, you shall always try to update module with"
-" migration scripts on a copy first."
+"Migration updates are not rollbacked if some errors happened later during "
+"modules updating process. So, you shall always try to update module with "
+"migration scripts on a copy first."
 msgstr ""
+"Обновления миграции не отменяются, если некоторые ошибки произошли позже во "
+"время обновления модулей. Таким образом, вы всегда должны сначала пытаться "
+"обновить модуль с помощью скриптов миграции на копии."
 
 # 7bb3a26707534c74824980754f87443f
 #: ../../maintenance/data-migration.rst:60
 msgid "Example"
-msgstr ""
+msgstr "пример"
 
 # 5ba665ff431f4f77aab94bb0fbb1f88a
 #: ../../maintenance/data-migration.rst:62
 msgid ""
-"*POS Debt & Credit notebook*. We need to preserve credit_product field "
-"data in the ``product.template`` model after updating to a newer version."
-" In previous version it was boolean field, now it is a many2one field "
-"with the relation to ``account.journal`` model. Here, we, using a "
-"temporary column, calculate transfer data from boolean to many2one "
-"credit_product field."
+"*POS Debt & Credit notebook*. We need to preserve credit_product field data "
+"in the ``product.template`` model after updating to a newer version. In "
+"previous version it was boolean field, now it is a many2one field with the "
+"relation to ``account.journal`` model. Here, we, using a temporary column, "
+"calculate transfer data from boolean to many2one credit_product field."
 msgstr ""
+"* POS долговые и кредитные тетради *. Нам нужно сохранить данные поля "
+"credit_product в модели `` product.template`` после обновления до более "
+"новой версии. В предыдущей версии это было логическое поле, теперь это поле "
+"many2one с отношением к модели `` account.journal``. Здесь мы, используя "
+"временный столбец, вычисляем данные переноса из логического поля в поле "
+"many2one credit_product."
 
 # 1b032c3ddc334aa9b27aa3c4e61cb6a2
 #: ../../maintenance/data-migration.rst:66
 msgid "*pre-migrate.py*::"
-msgstr ""
+msgstr "* Pre-migrate.py * ::"
 
 # cba7c9df7bb647498596c193844aa541
 #: ../../maintenance/data-migration.rst:79
 msgid "*post-migrate.py*::"
-msgstr ""
-
+msgstr "* Post-migrate.py * ::"

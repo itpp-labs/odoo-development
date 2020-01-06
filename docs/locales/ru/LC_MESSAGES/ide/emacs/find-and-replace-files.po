@@ -21,7 +21,7 @@ msgstr ""
 # 571933756e284d10883a46465c709c6b
 #: ../../ide/emacs/find-and-replace-files.rst:3
 msgid "Replace text in recursively found files"
-msgstr ""
+msgstr "Заменить текст в рекурсивно найденных файлах"
 
 # 8befb644e4b44134976e04b2fbe08b47
 #: ../../ide/emacs/find-and-replace-files.rst:5
@@ -29,11 +29,13 @@ msgid ""
 "``M-x find-name-dired``: you will be prompted for a root directory and a "
 "filename pattern."
 msgstr ""
+"`` Mx find-name-dired``: вам будет предложено указать корневой каталог и "
+"шаблон имени файла."
 
 # 8325bb26d1414dd5899fd403d2a1a2fa
 #: ../../ide/emacs/find-and-replace-files.rst:6
 msgid "Press ``t`` to \"toggle mark\" for all files found."
-msgstr ""
+msgstr "Нажмите `` t``, чтобы «пометить метку» для всех найденных файлов."
 
 # be9ef767f52941659d129d07ee9a67ed
 #: ../../ide/emacs/find-and-replace-files.rst:7
@@ -41,13 +43,17 @@ msgid ""
 "Press ``Q`` for \"Query-Replace in Files...\": you will be prompted for "
 "query/substitution regexps."
 msgstr ""
+"Нажмите `` Q`` для «Query-Replace in Files ...»: вам будет предложено "
+"указать регулярные выражения запроса / замены."
 
 # 1ad477ef844d4d81afb17d1c5f2a28ce
 #: ../../ide/emacs/find-and-replace-files.rst:8
 msgid ""
-"Proceed as with ``query-replace-regexp``: ``SPACE`` to replace and move "
-"to next match, ``n`` to skip a match, etc."
+"Proceed as with ``query-replace-regexp``: ``SPACE`` to replace and move to "
+"next match, ``n`` to skip a match, etc."
 msgstr ""
+"Действуйте как с `` query-replace-regexp``: `` SPACE`` для замены и перехода"
+" к следующему совпадению, `` n`` для пропуска совпадения и т. Д."
 
 # 1ceeb149900c428198aef040c5c9d486
 #: ../../ide/emacs/find-and-replace-files.rst:10
@@ -55,4 +61,5 @@ msgid ""
 "Based on: http://stackoverflow.com/questions/270930/using-emacs-to-"
 "recursively-find-and-replace-in-text-files-not-already-open"
 msgstr ""
-
+"Основано на: http://stackoverflow.com/questions/270930/using-emacs-to-"
+"recursively-find-and-replace-in-text-files-not-already-open"

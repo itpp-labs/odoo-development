@@ -21,5 +21,4 @@ msgstr ""
 # 2063b1f1d64042cdbf2d10ae883fc887
 #: ../../dev/lint/xml-lint.rst:3
 msgid "Fixing xml lints in odoo"
-msgstr ""
-
+msgstr "Исправление xml линтов в odoo"

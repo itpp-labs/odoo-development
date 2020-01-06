@@ -21,5 +21,4 @@ msgstr ""
 # 9298acfa9d9949a3a86b08829508ce85
 #: ../../ide/pycharm/index.rst:2
 msgid "PyCharm"
-msgstr ""
-
+msgstr "PyCharm"

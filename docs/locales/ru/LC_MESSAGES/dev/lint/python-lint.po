@@ -21,20 +21,19 @@ msgstr ""
 # aabaf11e14a3486291995aa7aaae0aeb
 #: ../../dev/lint/python-lint.rst:3
 msgid "Fixing python lints in odoo"
-msgstr ""
+msgstr "Исправление Python линтов в Odoo"
 
 # f61bb404f79d457c8a8d0e55d2d46ec2
 #: ../../dev/lint/python-lint.rst:6
 msgid "All versions"
-msgstr ""
+msgstr "Все версии"
 
 # 41d25f1921e24007b75a94f1d592382e
 #: ../../dev/lint/python-lint.rst:34
 msgid "Odoo 10-"
-msgstr ""
+msgstr "Odoo 10-"
 
 # b4d6144f64ba477fb2866e8014f0399e
 #: ../../dev/lint/python-lint.rst:43
 msgid "@api.one -> @api.multi"
-msgstr ""
-
+msgstr "@ api.one -&gt; @ api.multi"

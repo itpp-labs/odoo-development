@@ -21,28 +21,35 @@ msgstr ""
 # b181474b77fd4401b99a73b87e22a6e5
 #: ../../debugging/errors/accesserror-please-contact-your-system-administrator.rst:3
 msgid "AccessError: Please contact your system administrator"
-msgstr ""
+msgstr "AccessError: Пожалуйста, свяжитесь с вашим системным администратором"
 
 # 676a8b7988a84e5a9c9892706f410f49
 #: ../../debugging/errors/accesserror-please-contact-your-system-administrator.rst:5
 msgid ""
-"There is an AccessError which doesn't specify groups that have access to "
-"an operation. It simply states:"
+"There is an AccessError which doesn't specify groups that have access to an "
+"operation. It simply states:"
 msgstr ""
+"Существует ошибка AccessError, которая не определяет группы, которые имеют "
+"доступ к операции. Это просто заявляет:"
 
 # ba9152ec5670443dba165f31d6a78cdc
 #: ../../debugging/errors/accesserror-please-contact-your-system-administrator.rst:9
 msgid ""
-"The requested operation cannot be completed due to security restrictions."
-" Please contact your system administrator."
+"The requested operation cannot be completed due to security restrictions. "
+"Please contact your system administrator."
 msgstr ""
+"Запрошенная операция не может быть завершена из-за ограничений безопасности."
+" Пожалуйста, обратитесь к системному администратору."
 
 # 54ea264099b649e9b4c8e18172a58b3e
 #: ../../debugging/errors/accesserror-please-contact-your-system-administrator.rst:13
 msgid ""
 "Such error means, that your user doesn't satisfy access requirements "
-"specified in  :doc:`ir.rule <../../odoo/models/ir.rule>`. See "
-":doc:`Access section <../../dev/access/index>` for general understanding "
-"how odoo security works."
+"specified in  :doc:`ir.rule <../../odoo/models/ir.rule>`. See :doc:`Access "
+"section <../../dev/access/index>` for general understanding how odoo "
+"security works."
 msgstr ""
-
+"Такая ошибка означает, что ваш пользователь не удовлетворяет требованиям "
+"доступа, указанным в: doc: `ir.rule &lt;../../ odoo / models / ir.rule&gt;`."
+" Смотрите: doc: `Раздел доступа &lt;../../ dev / access / index&gt;` для "
+"общего понимания того, как работает защита odoo."

@@ -21,36 +21,42 @@ msgstr ""
 # 7f223ae813c94d2480c91429a91d821f
 #: ../../ide/visual-studio-code/debugging.rst:3
 msgid "Debugging"
-msgstr ""
+msgstr "Отладка"
 
 # ac63848e87c94d258b88b98984691ade
 #: ../../ide/visual-studio-code/debugging.rst:6
 msgid "Launch Configurations"
-msgstr ""
+msgstr "Конфигурации запуска"
 
 # 8444242c351940bba3083dcc0434fda5
 #: ../../ide/visual-studio-code/debugging.rst:8
 msgid ""
 "To debug your app in VS Code, you'll first need to set up your launch "
-"configuration file - launch.json. Click on the Configure gear icon on the"
-" Debug view top bar, choose your debug environment and VS Code will "
-"generate a launch.json file under your workspace's .vscode folder."
+"configuration file - launch.json. Click on the Configure gear icon on the "
+"Debug view top bar, choose your debug environment and VS Code will generate "
+"a launch.json file under your workspace's .vscode folder."
 msgstr ""
+"Для отладки вашего приложения в VS Code вам сначала необходимо настроить "
+"файл конфигурации запуска - launch.json. Нажмите на значок «Настроить "
+"механизм» в верхней панели окна «Отладка», выберите свою среду отладки, и VS"
+" Code сгенерирует файл launch.json в папке .vscode вашего рабочего "
+"пространства."
 
 # 0f7bcd6a760b4febbf57bf5956aefbd7
 #: ../../ide/visual-studio-code/debugging.rst:12
 msgid "**sample python Debugging**"
-msgstr ""
+msgstr "** пример отладки python **"
 
 # 99a945a879f340d584940de2142a2e4e
 #: ../../ide/visual-studio-code/debugging.rst:36
 msgid ""
-"use \"args\" to specify any options like databace, config or user name "
-"and password."
+"use \"args\" to specify any options like databace, config or user name and "
+"password."
 msgstr ""
+"используйте «args» для указания любых опций, таких как база данных, "
+"конфигурация или имя пользователя и пароль."
 
 # 3ddd86e35c9c49d1ad5ea023a226fcdb
 #: ../../ide/visual-studio-code/debugging.rst:38
 msgid "`sorce <https://code.visualstudio.com/Docs/editor/debugging>`_"
-msgstr ""
-
+msgstr "`Sorce <https://code.visualstudio.com/Docs/editor/debugging> `_"

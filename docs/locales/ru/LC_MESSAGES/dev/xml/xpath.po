@@ -21,46 +21,46 @@ msgstr ""
 # 4ae44c75840642c38e8c646e014b487a
 #: ../../dev/xml/xpath.rst:2
 msgid "Xpath"
-msgstr ""
+msgstr "Xpath"
 
 # a9440691d3d447fbaa244f62074322f0
 #: ../../dev/xml/xpath.rst:5
 msgid "Add some attributes to node"
-msgstr ""
+msgstr "Добавить некоторые атрибуты в узел"
 
 # 5c30b56e4a2c4612acd714c5a5faec9d
 # 3739919de9b4455284657b39c3f08c31
 #: ../../dev/xml/xpath.rst:7 ../../dev/xml/xpath.rst:34
 msgid "Code::"
-msgstr ""
+msgstr "Код::"
 
 # e5a4597484504e48bae10368179213ad
 #: ../../dev/xml/xpath.rst:13
 msgid "Qweb expression::"
-msgstr ""
+msgstr "Qweb выражение ::"
 
 # 8c52c1ec2d374cb299a746f73d060850
 #: ../../dev/xml/xpath.rst:17
 msgid "After rendering it becomes regular attribute::"
-msgstr ""
+msgstr "После рендеринга это становится обычным атрибутом:"
 
 # 08a73c6d7ed845548f816690883e5d3e
 #: ../../dev/xml/xpath.rst:22
 msgid "Important"
-msgstr ""
+msgstr "Важный"
 
 # 1b6aa970834c4cd69d4d2b16e8def5ca
 #: ../../dev/xml/xpath.rst:23
 msgid "Inside of ::"
-msgstr ""
+msgstr "Внутри ::"
 
 # b19508c509da4f42946bfaa0345c1770
 #: ../../dev/xml/xpath.rst:29
 msgid "you can put **only**  ``<attribute name=`` and nothing more."
 msgstr ""
+"Вы можете поставить ** только ** `` <attribute name=`` and nothing more."
 
 # f7396293428349e68aa8b9fac6c2c22b
 #: ../../dev/xml/xpath.rst:32
 msgid "To test xpath"
-msgstr ""
-
+msgstr "Для проверки xpath"

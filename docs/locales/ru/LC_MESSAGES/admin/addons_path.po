@@ -21,19 +21,22 @@ msgstr ""
 # b263b8ec948f43238d1f024d07fc729a
 #: ../../admin/addons_path.rst:3
 msgid "``--addons-path``"
-msgstr ""
+msgstr "`` --Addons-path``"
 
 # bbdc4e60b2af4f68be562e94c70519c8
 #: ../../admin/addons_path.rst:6
 msgid "Duplicate addons"
-msgstr ""
+msgstr "Дублирующиеся аддоны"
 
 # 06664d7b027e4e26bedabdc43947cc4c
 #: ../../admin/addons_path.rst:8
 msgid ""
-"If you have two folder with the same module and you have reason to add "
-"both folders to ``addons_path``, then first found version of the module "
-"will be used. That is folder in the beginning of ``addons_path`` list has"
-" more priority."
+"If you have two folder with the same module and you have reason to add both "
+"folders to ``addons_path``, then first found version of the module will be "
+"used. That is folder in the beginning of ``addons_path`` list has more "
+"priority."
 msgstr ""
-
+"Если у вас есть две папки с одним и тем же модулем, и у вас есть причина "
+"добавить обе папки в `` addons_path``, то будет использоваться первая "
+"найденная версия модуля. То есть папка в начале списка `` addons_path`` "
+"имеет больший приоритет."

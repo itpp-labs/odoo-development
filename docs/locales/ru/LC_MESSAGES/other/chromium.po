@@ -21,17 +21,20 @@ msgstr ""
 # 3876fd19a9024ddf97ba71d289d6df48
 #: ../../other/chromium.rst:3
 msgid "Adjust chromium window size script"
-msgstr ""
+msgstr "Скрипт настройки размера окна хрома"
 
 # cf89a082622c4c31b4709b8dd80376d1
 #: ../../other/chromium.rst:5
 msgid "You can make screenshot with size exactly you need."
-msgstr ""
+msgstr "Вы можете сделать скриншот с нужным вам размером."
 
 # 870cbb326cc0431b906cc486bcabf197
 #: ../../other/chromium.rst:7
-msgid "Open chromium. Do not expand window (or in wount work). Run this command::"
+msgid ""
+"Open chromium. Do not expand window (or in wount work). Run this command::"
 msgstr ""
+"Открытый хром. Не расширяйте окно (или в работе с ценами). Запустите эту "
+"команду ::"
 
 # c8def4749b054c90b2b2da901d652d1e
 #: ../../other/chromium.rst:11
@@ -40,4 +43,7 @@ msgid ""
 "borders to your screenshot size. In my case it 10px to width and 80px to "
 "height. Likely you got same. So for 750 x 371  it be 760 x 451."
 msgstr ""
-
+"Последние два аргумента это ширина и высота. Подумайте о том, чтобы добавить"
+" рамки окна хрома к размеру вашего скриншота В моем случае это 10px по "
+"ширине и 80px по высоте. Скорее всего, вы получили то же самое. Таким "
+"образом, для 750 х 371 это будет 760 х 451."

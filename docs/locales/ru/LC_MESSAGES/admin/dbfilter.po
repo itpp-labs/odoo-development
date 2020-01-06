@@ -21,30 +21,39 @@ msgstr ""
 # 820a2a7de61e4fd5a85c685c0591aef4
 #: ../../admin/dbfilter.rst:3
 msgid "``--db-filter``"
-msgstr ""
+msgstr "`` --Db-filter``"
 
 # f4eabe6162d442c9a5477e6ea4fa6efd
 #: ../../admin/dbfilter.rst:5
 msgid ""
-"The main purpose of ``--db-filter`` is to avoid asking user which "
-"database he needs to use (he may not know it). This is implemented by "
-"checking HOST address, which was used."
+"The main purpose of ``--db-filter`` is to avoid asking user which database "
+"he needs to use (he may not know it). This is implemented by checking HOST "
+"address, which was used."
 msgstr ""
+"Основная цель `--db-filter`` - не спрашивать пользователя, какую базу данных"
+" ему нужно использовать (он может этого не знать). Это реализуется путем "
+"проверки адреса HOST, который был использован."
 
 # e963fa1e711941b5aae4f00d10bda41b
 #: ../../admin/dbfilter.rst:7
 msgid ""
-"For example, you have two independent websites, say ``shop1.example.com``"
-" and ``shop2.example.com``, that point to the same odoo server with two "
+"For example, you have two independent websites, say ``shop1.example.com`` "
+"and ``shop2.example.com``, that point to the same odoo server with two "
 "databases. By using ``--db-filter``  you can configure odoo to use "
 "corresponding database depending on used host address. Check the "
 "documentation links below or jump to examples to find out how to do it."
 msgstr ""
+"Например, у вас есть два независимых веб-сайта, например, `` "
+"shop1.example.com`` и `` shop2.example.com``, которые указывают на один и "
+"тот же сервер odoo с двумя базами данных. Используя `` --db-filter``, вы "
+"можете настроить odoo на использование соответствующей базы данных в "
+"зависимости от используемого адреса хоста. Проверьте ссылки на документацию "
+"ниже или перейдите к примерам, чтобы узнать, как это сделать."
 
 # 01f9b24c4ef24a37ac31ff38c1f6c03d
 #: ../../admin/dbfilter.rst:10
 msgid "Docs"
-msgstr ""
+msgstr "Документы"
 
 # 8140f42a563348b6867617766aa793a1
 #: ../../admin/dbfilter.rst:12
@@ -52,6 +61,8 @@ msgid ""
 "Official documentation: "
 "https://www.odoo.com/documentation/master/setup/deploy.html#dbfilter"
 msgstr ""
+"Официальная документация: "
+"https://www.odoo.com/documentation/master/setup/deploy.html#dbfilter"
 
 # 79120b92a8344c46846d0c8538fc44d4
 #: ../../admin/dbfilter.rst:14
@@ -60,6 +71,8 @@ msgid ""
 "Core code: "
 "https://github.com/odoo/odoo/search?l=Python&q=%22def+db_monodb%22"
 msgstr ""
+"Основной код: "
+"https://github.com/odoo/odoo/search?l=Python&amp;q=%22def+db_monodb%22"
 
 # 095c7610b52e4a3594a09c56f4800184
 #: ../../admin/dbfilter.rst:16
@@ -67,26 +80,29 @@ msgid ""
 "Additional option: https://github.com/OCA/server-"
 "tools/tree/11.0/dbfilter_from_header"
 msgstr ""
+"Дополнительная опция: https://github.com/OCA/server-"
+"tools/tree/11.0/dbfilter_from_header"
 
 # 7c1ba311dfc747c288aaf4a23e95df64
 #: ../../admin/dbfilter.rst:19
 msgid "Examples"
-msgstr ""
+msgstr "Примеры"
 
 # 9b6b801ccb154f789db2e2f0e51d2647
 #: ../../admin/dbfilter.rst:22
 msgid "Single database"
-msgstr ""
+msgstr "Единая база данных"
 
 # ca2fc64fb0854436bb4656aa6e825f60
 #: ../../admin/dbfilter.rst:24
 msgid "If you have a single database, you may set default filter::"
 msgstr ""
+"Если у вас есть одна база данных, вы можете установить фильтр по умолчанию:"
 
 # 35c93a1cddcb40919b03992fe00158dd
 #: ../../admin/dbfilter.rst:30
 msgid "Ignoring other databases"
-msgstr ""
+msgstr "Игнорирование других баз данных"
 
 # 8052a649476343cebd3797b2599df242
 #: ../../admin/dbfilter.rst:32
@@ -94,11 +110,13 @@ msgid ""
 "To force odoo always use only one database, say ``mydb``, use following "
 "filter::"
 msgstr ""
+"Чтобы заставить odoo всегда использовать только одну базу данных, скажем `` "
+"mydb``, используйте следующий фильтр ::"
 
 # 0d0b8b442c92454285cef5aaccc15720
 #: ../../admin/dbfilter.rst:37
 msgid "Database names equal to hostname"
-msgstr ""
+msgstr "Имена баз данных равны имени хоста"
 
 # 1533a933a3254803b86787c3fca32ea8
 #: ../../admin/dbfilter.rst:42
@@ -106,62 +124,68 @@ msgid ""
 "To use filter above, you must name databases equal to host address, for "
 "example:"
 msgstr ""
+"Чтобы использовать фильтр выше, вы должны назвать базы данных равными адресу"
+" хоста, например:"
 
 # 6b5251376e834a49baab6980f945c7e2
 #: ../../admin/dbfilter.rst:44
 msgid "``shop1.example.com`` -- name of the first database"
-msgstr ""
+msgstr "`` shop1.example.com`` - имя первой базы данных"
 
 # ff149614966f494ca04d26cfddeb8442
 #: ../../admin/dbfilter.rst:45
 msgid "``shop2.example.com`` -- name of the second database"
-msgstr ""
+msgstr "`` shop2.example.com`` - имя второй базы данных"
 
 # 9b0a9cc8676c4b029ff7e68d30710711
 #: ../../admin/dbfilter.rst:46
 msgid "``www.super-shop.example.com`` -- name of the third database"
-msgstr ""
+msgstr "`` www.super-shop.example.com`` - название третьей базы данных"
 
 # 094ef058992144b78c226dab3ac844ad
 #: ../../admin/dbfilter.rst:47
 msgid "``it-projects.info`` -- name of the fourth database"
-msgstr ""
+msgstr "`` it-projects.info`` - название четвертой базы данных"
 
 # 59bb5fa727cc4e3a8317ab5143bb0383
 #: ../../admin/dbfilter.rst:49
-msgid "this filter cannot work with and without ``www`` prefix at the same time"
+msgid ""
+"this filter cannot work with and without ``www`` prefix at the same time"
 msgstr ""
+"этот фильтр не может работать с префиксом `` www`` и без него одновременно"
 
 # 96c9d6adbdb94dc88972a07e4d1eabf7
 #: ../../admin/dbfilter.rst:52
 msgid "Database names equal to subdomain"
-msgstr ""
+msgstr "Имена баз данных, равные поддомену"
 
 # ef8660aa624a469b81cde65fc2568a0d
 #: ../../admin/dbfilter.rst:57
 msgid ""
-"To use filter above, you must name databases equal to subdomain, for "
-"example if database name is ``shop``, then the filter will use it for any"
-" of following requests:"
+"To use filter above, you must name databases equal to subdomain, for example"
+" if database name is ``shop``, then the filter will use it for any of "
+"following requests:"
 msgstr ""
+"Чтобы использовать фильтр выше, вы должны назвать базы данных равными "
+"поддомену, например, если имя базы данных равно `` shop``, тогда фильтр "
+"будет использовать его для любого из следующих запросов:"
 
 # 9e4d102ed9f342efa4494ac66e2310ef
 #: ../../admin/dbfilter.rst:59
 msgid "``shop.example.com``"
-msgstr ""
+msgstr "`` shop.example.com``"
 
 # 7a931187e43141ed88913eca143c97d7
 #: ../../admin/dbfilter.rst:60
 msgid "``www.shop.example.com``"
-msgstr ""
+msgstr "`` Www.shop.example.com``"
 
 # a61c6b71a9054bf590504c3d2bc875ea
 #: ../../admin/dbfilter.rst:61
 msgid "``shop.yourbrand.example``"
-msgstr ""
+msgstr "`` shop.yourbrand.example``"
 
 # 1d4a669c684c476daa506cf786221aac
 #: ../../admin/dbfilter.rst:62
 msgid "``www.shop.yourbrand.example``"
-msgstr ""
-
+msgstr "`` Www.shop.yourbrand.example``"

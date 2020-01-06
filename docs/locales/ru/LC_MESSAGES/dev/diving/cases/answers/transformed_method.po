@@ -21,7 +21,7 @@ msgstr ""
 # b2a0c4977e204b18b5336bb2520d64ab
 #: ../../dev/diving/cases/answers/transformed_method.rst:3
 msgid "Solution for case \"Transformed the method\""
-msgstr ""
+msgstr "Решение по делу «Преобразованный метод»"
 
 # 31795cc69b7041fe8f4dedd18cacbcf1
 #: ../../dev/diving/cases/answers/transformed_method.rst:5
@@ -30,11 +30,15 @@ msgid ""
 "<https://github.com/yelizariev/mail-"
 "addons/blob/9.0/mail_move_message/static/src/js/mail_move_message.js#L64>`_."
 msgstr ""
+"Сначала рассмотрим, что делает объект `session.web.form.FormOpenPopup () "
+"<https://github.com/yelizariev/mail-"
+"addons/blob/9.0/mail_move_message/static/src/js/mail_move_message.js#L64> "
+"`_."
 
 # e1bd5ec36ceb429d9e72a81b814d405d
 #: ../../dev/diving/cases/answers/transformed_method.rst:29
 msgid "Assume, in this case, that we got nothing."
-msgstr ""
+msgstr "Предположим, в этом случае, что мы ничего не получили."
 
 # 61b51c8c67ee4d1f8b74ddb224ae0aef
 #: ../../dev/diving/cases/answers/transformed_method.rst:31
@@ -47,21 +51,34 @@ msgid ""
 "<https://github.com/odoo/odoo/blob/9.0/addons/web/static/src/js/views/form_common.js#L850>`_."
 " The object behaves similar to the one that we need."
 msgstr ""
+"Затем мы пытаемся искать методами `объекта "
+"<https://github.com/odoo/odoo/blob/8.0/addons/web/static/src/js/view_form.js#L5373>"
+" `_. В этом случае ** init_popup **, ** display_popup **, ** init_dataset **"
+" и ** setup_form_view **. Успешно. Метод init_dataset находится в объекте "
+"`FormViewDialog "
+"<https://github.com/odoo/odoo/blob/9.0/addons/web/static/src/js/views/form_common.js#L850>"
+" `_. Объект ведет себя подобно тому, что нам нужно."
 
 # 2dae32fe31fb48d6893629bef6937f6c
 #: ../../dev/diving/cases/answers/transformed_method.rst:33
 msgid ""
 "If this step did not give us anything, that we can try search by unique "
-"keywords. For example, in this case, we see arguments of pop.on() "
-"methods: **'closed'** and **'created_completed'**. The word 'closed' does"
-" not suit us, as it can occur often enough. But the word "
-"'create_completed' rare and we can serch by it. And now we again find the"
-" object `FormViewDialog "
+"keywords. For example, in this case, we see arguments of pop.on() methods: "
+"**'closed'** and **'created_completed'**. The word 'closed' does not suit "
+"us, as it can occur often enough. But the word 'create_completed' rare and "
+"we can serch by it. And now we again find the object `FormViewDialog "
 "<https://github.com/odoo/odoo/blob/9.0/addons/web/static/src/js/views/form_common.js#L850>`_."
 msgstr ""
+"Если этот шаг не дал нам ничего, то мы можем попробовать поиск по уникальным"
+" ключевым словам. Например, в этом случае мы видим аргументы методов pop.on "
+"(): ** &#39;closed&#39; ** и ** &#39;creation_completed&#39; **. Слово "
+"«закрытый» нам не подходит, так как оно может встречаться достаточно часто. "
+"Но слово «create_completed» встречается редко, и мы можем найти его. И "
+"теперь мы снова находим объект `FormViewDialog "
+"<https://github.com/odoo/odoo/blob/9.0/addons/web/static/src/js/views/form_common.js#L850>"
+" `_."
 
 # c127002834e946c2bac50c7b3b9254f8
 #: ../../dev/diving/cases/answers/transformed_method.rst:36
 msgid ":doc:`Source Diving Index <../../index>`"
-msgstr ""
-
+msgstr ": doc: `Исходный индекс дайвинга &lt;../../ index&gt;`"

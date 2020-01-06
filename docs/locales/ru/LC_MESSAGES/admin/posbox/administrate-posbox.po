@@ -21,46 +21,70 @@ msgstr ""
 # 8d1de3ec25ab4c7d83ae767bfb515f38
 #: ../../admin/posbox/administrate-posbox.rst:2
 msgid "Introduction"
-msgstr ""
+msgstr "Вступление"
 
 # 47e2674598cb4e5faaebdaed42fdfac2
 #: ../../admin/posbox/administrate-posbox.rst:4
 msgid ""
-"The **POSBox** runs a heavily modified **Raspbian Linux** installation, a"
-" Debian derivative for the **Raspberry Pi**. It also runs a barebones "
+"The **POSBox** runs a heavily modified **Raspbian Linux** installation, a "
+"Debian derivative for the **Raspberry Pi**. It also runs a barebones "
 "installation of Odoo which provides the webserver and the drivers. The "
 "hardware drivers are implemented as Odoo modules. Those modules are all "
-"prefixed with ``hw_*`` and they are the only modules that are running on "
-"the POSBox. Odoo is only used for the framework it provides. No business "
-"data is processed or stored on the POSBox. The Odoo instance is a shallow"
-" git clone of the ``8.0`` branch."
+"prefixed with ``hw_*`` and they are the only modules that are running on the"
+" POSBox. Odoo is only used for the framework it provides. No business data "
+"is processed or stored on the POSBox. The Odoo instance is a shallow git "
+"clone of the ``8.0`` branch."
 msgstr ""
+"** POSBox ** выполняет сильно модифицированную установку ** Raspbian Linux "
+"**, производную Debian для ** Raspberry Pi **. Он также запускает установку "
+"Odoo, которая предоставляет веб-сервер и драйверы. Аппаратные драйверы "
+"реализованы в виде модулей Odoo. Все эти модули имеют префикс `` hw_ * `` и "
+"являются единственными модулями, работающими на POSBox. Odoo используется "
+"только для платформы, которую он предоставляет. Бизнес-данные не "
+"обрабатываются и не хранятся в POSBox. Экземпляр Odoo - это мелкий клон git "
+"ветки `` 8.0``."
 
 # b502d19d88ff4926a62829d33f8cc62b
 #: ../../admin/posbox/administrate-posbox.rst:10
 msgid ""
-"The root partition on the POSBox is mounted ``read-only``, ensuring that "
-"we don't wear out the SD card by writing to it too much. It also ensures "
-"that the filesystem cannot be corrupted by cutting the power to the "
-"POSBox. Linux applications expect to be able to write to certain "
-"directories though. So we provide a ramdisk for ``/etc`` and ``/var`` "
-"(Raspbian automatically provides one for ``/tmp``). These ramdisks are "
-"setup by ``setup_ramdisks.sh``, which we run before all other init "
-"scripts by running it in ``/etc/init.d/rcS``. The ramdisks are named "
-"``/etc_ram`` and ``/var_ram`` respectively. Most data from ``/etc`` and "
-"``/var`` is copied to these tmpfs ramdisks. In order to restrict the size"
-" of the ramdisks, we do not copy over certain things to them (eg. apt "
-"related data). We then bind mount them over the original directories. So "
-"when an application writes to ``/etc/foo/bar`` it's actually writing to "
-"``/etc_ram/foo/bar``. We also bind mount ``/`` to "
-"``/root_bypass_ramdisks`` to be able to get to the real ``/etc`` and "
-"``/var`` during development."
+"The root partition on the POSBox is mounted ``read-only``, ensuring that we "
+"don't wear out the SD card by writing to it too much. It also ensures that "
+"the filesystem cannot be corrupted by cutting the power to the POSBox. Linux"
+" applications expect to be able to write to certain directories though. So "
+"we provide a ramdisk for ``/etc`` and ``/var`` (Raspbian automatically "
+"provides one for ``/tmp``). These ramdisks are setup by "
+"``setup_ramdisks.sh``, which we run before all other init scripts by running"
+" it in ``/etc/init.d/rcS``. The ramdisks are named ``/etc_ram`` and "
+"``/var_ram`` respectively. Most data from ``/etc`` and ``/var`` is copied to"
+" these tmpfs ramdisks. In order to restrict the size of the ramdisks, we do "
+"not copy over certain things to them (eg. apt related data). We then bind "
+"mount them over the original directories. So when an application writes to "
+"``/etc/foo/bar`` it's actually writing to ``/etc_ram/foo/bar``. We also bind"
+" mount ``/`` to ``/root_bypass_ramdisks`` to be able to get to the real "
+"``/etc`` and ``/var`` during development."
 msgstr ""
+"Корневой раздел на POSBox монтируется «только для чтения», поэтому мы не "
+"изнашиваем SD-карту, слишком много записывая на нее. Это также гарантирует, "
+"что файловая система не может быть повреждена путем отключения питания "
+"POSBox. Приложения Linux ожидают, что смогут писать в определенные каталоги."
+" Поэтому мы предоставляем виртуальный диск для `` / etc`` и `` / var`` "
+"(Raspbian автоматически предоставляет диск для `` / tmp``). Эти виртуальные "
+"диски настраиваются с помощью `` setup_ramdisks.sh``, который мы запускаем "
+"перед всеми другими сценариями инициализации, запустив его в `` / etc / "
+"init.d / rcS``. RAM-диски называются `` / etc_ram`` и `` / var_ram`` "
+"соответственно. Большая часть данных из `` / etc`` и `` / var`` копируется в"
+" эти виртуальные диски tmpfs. Чтобы ограничить размер виртуальных дисков, мы"
+" не копируем для них определенные вещи (например, соответствующие данные). "
+"Затем мы связываем их поверх оригинальных каталогов. Поэтому, когда "
+"приложение пишет в `` / etc / foo / bar``, оно фактически записывает в `` / "
+"etc_ram / foo / bar``. Мы также привязываем `` / `` к `` / "
+"root_bypass_ramdisks``, чтобы иметь возможность добраться до реальных `` / "
+"etc`` и `` / var`` во время разработки."
 
 # a54eca60b7e544ae9f173a3f94ccb57f
 #: ../../admin/posbox/administrate-posbox.rst:21
 msgid "How to edit config"
-msgstr ""
+msgstr "Как редактировать конфиг"
 
 # 28347783e06542d58eca19b22b5efe83
 #: ../../admin/posbox/administrate-posbox.rst:23
@@ -68,56 +92,60 @@ msgid ""
 "If you have the POSBox's IP address and an SSH client you can access the "
 "POSBox's system remotely."
 msgstr ""
+"Если у вас есть IP-адрес POSBox и SSH-клиент, вы можете получить удаленный "
+"доступ к системе POSBox."
 
 # c55f78a549d24605b4c4d5f1d72c42b0
 #: ../../admin/posbox/administrate-posbox.rst:25
 msgid "**Login:** ``pi`` **Password:** ``raspberry``"
-msgstr ""
+msgstr "** Логин: ** `` pi`` ** Пароль: ** `` Малина``"
 
 # 229b82dba3b44b20b1d63b68f0071ecf
 #: ../../admin/posbox/administrate-posbox.rst:28
 msgid "Beware that root (/) is mounted read only and so you cannot use write."
 msgstr ""
+"Помните, что root (/) монтируется только для чтения, поэтому вы не можете "
+"использовать запись."
 
 # 7af3162b972e48d38c58d624dd042a2f
 #: ../../admin/posbox/administrate-posbox.rst:30
 msgid "If you want to use it you need to reboot in normal mode."
 msgstr ""
+"Если вы хотите использовать его, вам нужно перезагрузиться в обычном режиме."
 
 # 1364783deebb4e7f948e45fbbf876358
 # 61488b7145394cf88866180d804d586d
 #: ../../admin/posbox/administrate-posbox.rst:38
 #: ../../admin/posbox/administrate-posbox.rst:75
 msgid "sync and reboot posbox"
-msgstr ""
+msgstr "синхронизировать и перезагрузить posbox"
 
 # 8ba1bd790a174db78b53f1628cb7895c
 #: ../../admin/posbox/administrate-posbox.rst:46
 msgid "How to update odoo command-line options"
-msgstr ""
+msgstr "Как обновить параметры командной строки odoo"
 
 # 7b75e27dbd9e490995693bb59f9032b4
 #: ../../admin/posbox/administrate-posbox.rst:48
 msgid "edit /root_bypass_ramdisks/etc/init.d/odoo"
-msgstr ""
+msgstr "edit /root_bypass_ramdisks/etc/init.d/odoo"
 
 # 7f5c8cedbcfa47a8adfdf2dcfc4d45ce
 #: ../../admin/posbox/administrate-posbox.rst:54
 msgid "add ``hw_printer_network`` to ``--load parameter``"
-msgstr ""
+msgstr "добавьте `` hw_printer_network`` в `` --load параметр``"
 
 # 5468e31190a74a2e8e9929b3086b4efd
 #: ../../admin/posbox/administrate-posbox.rst:61
 msgid "How to edit odoo source"
-msgstr ""
+msgstr "Как редактировать исходники odoo"
 
 # 7348807578d045578db73a30610ee22a
 #: ../../admin/posbox/administrate-posbox.rst:63
 msgid "Comment out line 354 in ``hw_escpos/controllers/main.py``"
-msgstr ""
+msgstr "Закомментируйте строку 354 в `` hw_escpos / controllers / main.py``"
 
 # 0b24d4097d7c41ec8e46a26de94f1a7f
 #: ../../admin/posbox/administrate-posbox.rst:69
 msgid "i.e. replace ``driver.push_task('printstatus')`` with"
-msgstr ""
-
+msgstr "т.е. заменить `` driver.push_task (&#39;printstatus&#39;) `` на"

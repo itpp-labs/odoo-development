@@ -21,20 +21,19 @@ msgstr ""
 # 2b489d8237c347fb9b6618c92b2007dd
 #: ../../admin/index.rst:2
 msgid "Odoo administration"
-msgstr ""
+msgstr "Администрация Odoo"
 
 # 9dff236d0b4c491d9322850d4d6cf006
 #: ../../admin/index.rst:4
 msgid "Official docs:"
-msgstr ""
+msgstr "Официальные документы:"
 
 # 6e718ecb2d7d4a72b397de2426150bb5
 #: ../../admin/index.rst:6
 msgid "https://www.odoo.com/documentation/8.0/setup/install.html"
-msgstr ""
+msgstr "https://www.odoo.com/documentation/8.0/setup/install.html"
 
 # 7ad54de8aa6b46e5948be1cd7bd0e0e0
 #: ../../admin/index.rst:7
 msgid "https://www.odoo.com/documentation/8.0/setup/deploy.html"
-msgstr ""
-
+msgstr "https://www.odoo.com/documentation/8.0/setup/deploy.html"

@@ -21,35 +21,45 @@ msgstr ""
 # 383c34d76b6b4836826f9a7bb5d13b35
 #: ../../dev/pos/ms-support.rst:3
 msgid "Multi-session Support"
-msgstr ""
+msgstr "Поддержка нескольких сессий"
 
 # ed1f8c5750524ebc8b583964dc059438
 #: ../../dev/pos/ms-support.rst:5
 msgid ""
 "``pos_multi_session`` is a `module "
-"<https://www.odoo.com/apps/modules/10.0/pos_multi_session/>`__, which "
-"allows synchronizing data in POSes within one multi_session."
+"<https://www.odoo.com/apps/modules/10.0/pos_multi_session/>`__, which allows"
+" synchronizing data in POSes within one multi_session."
 msgstr ""
+"`` pos_multi_session`` является `модулем "
+"<https://www.odoo.com/apps/modules/10.0/pos_multi_session/> `__, который "
+"позволяет синхронизировать данные в POS в пределах одной multi_session."
 
 # ba1ade40407440ae95dd02f909295230
 #: ../../dev/pos/ms-support.rst:7
 msgid ""
-"In order to synchronize new user data Order or Orderline models of one "
-"POS with others, you no need to add a new module ``pos_multi_session`` "
-"into ``depends`` on your module, you need to extend such methods as "
-"``export_as_JSON``, ``init_from_JSON`` and add the method "
-"``apply_ms_data``, which is used for compatibility with ."
+"In order to synchronize new user data Order or Orderline models of one POS "
+"with others, you no need to add a new module ``pos_multi_session`` into "
+"``depends`` on your module, you need to extend such methods as "
+"``export_as_JSON``, ``init_from_JSON`` and add the method ``apply_ms_data``,"
+" which is used for compatibility with ."
 msgstr ""
+"Для синхронизации новых пользовательских данных Order или Orderline моделей "
+"одного POS с другими вам не нужно добавлять новый модуль `` "
+"pos_multi_session`` в `` depen`` вашего модуля, вам нужно расширить такие "
+"методы, как `` export_as_JSON ``, `` init_from_JSON`` и добавьте метод `` "
+"apply_ms_data``, который используется для совместимости с."
 
 # 15e5d27b94f14afd86c5b9d59d5bce3e
 #: ../../dev/pos/ms-support.rst:10
 msgid "Сonsider the **Example of synchronization for the Order model.**"
-msgstr ""
+msgstr "Рассмотрим ** Пример синхронизации для модели заказа. **"
 
 # ba38784181f3427b938c69318b35862a
 #: ../../dev/pos/ms-support.rst:12
 msgid ""
-"Let us have some data for the order and we need to synchronize it with "
-"all POSes, which use the same multi-session:"
+"Let us have some data for the order and we need to synchronize it with all "
+"POSes, which use the same multi-session:"
 msgstr ""
-
+"Позвольте нам иметь некоторые данные для заказа, и нам нужно "
+"синхронизировать их со всеми POS-терминалами, которые используют один и тот "
+"же мульти-сеанс:"

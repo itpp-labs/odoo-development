@@ -21,17 +21,18 @@ msgstr ""
 # 6881d5f84c0b4d3f97dc6abadf05889c
 #: ../../git/multi-pull-request.rst:2
 msgid "Multi Pull Request"
-msgstr ""
+msgstr "Multi Pull Request"
 
 # 549474984741496dbe019563d52b747b
 #: ../../git/multi-pull-request.rst:5
 msgid "Find last merged point"
-msgstr ""
+msgstr "Найти последнюю объединенную точку"
 
 # 6bdeaa11569b4ca3abf3e86095e83bb6
 #: ../../git/multi-pull-request.rst:7
 msgid ""
-"To find last commit ``upstream/8.0`` and ``upstream/9.0`` were merged, "
-"use following commands"
+"To find last commit ``upstream/8.0`` and ``upstream/9.0`` were merged, use "
+"following commands"
 msgstr ""
-
+"Чтобы найти последний коммит `` upstream / 8.0`` и `` upstream / 9.0``, "
+"используйте следующие команды"

@@ -21,12 +21,12 @@ msgstr ""
 # a94751c8f1bf4492a2af8f9055b42d8e
 #: ../../ci/runbot.rst:3
 msgid "Runbot"
-msgstr ""
+msgstr "Runbot"
 
 # e7001d103d104f55975f53436fde936a
 #: ../../ci/runbot.rst:9
 msgid "runbot.odoo.com"
-msgstr ""
+msgstr "runbot.odoo.com"
 
 # 4c022c3673504d8fbe6693c685da904b
 #: ../../ci/runbot.rst:11
@@ -35,6 +35,9 @@ msgid ""
 "checking pull requests to official repository, it is usefull on daily "
 "development routine."
 msgstr ""
+"http://runbot.odoo.com/ - официальный runbot. Хотя его основная цель - "
+"проверка запросов на получение доступа к официальному репозиторию, он "
+"полезен в повседневной рутине разработки."
 
 # 1a1aa92810634d11b86c33a7049975a6
 #: ../../ci/runbot.rst:13
@@ -42,78 +45,85 @@ msgid ""
 "It allows to play with any odoo version. Each build has all modules "
 "installed with demo data."
 msgstr ""
+"Позволяет играть с любой версией odoo. В каждой сборке установлены все "
+"модули с демонстрационными данными."
 
 # f4f6fc87f2ad47c8803c71d9ba879523
 #: ../../ci/runbot.rst:14
 msgid "It allows to quickly try enterprise odoo versions"
-msgstr ""
+msgstr "Это позволяет быстро попробовать корпоративные версии odoo"
 
 # 2388f36a10924f808264770ed6f3c470
 #: ../../ci/runbot.rst:17
 msgid "How to use runbot.odoo.com?"
-msgstr ""
+msgstr "Как использовать runbot.odoo.com?"
 
 # 7c0798a031d04294ab0eee7b43346b56
 #: ../../ci/runbot.rst:19
 msgid "open http://runbot.odoo.com/runbot/"
-msgstr ""
+msgstr "открыть http://runbot.odoo.com/runbot/"
 
 # e5a31a6784654b42a47056bad6340e0f
 #: ../../ci/runbot.rst:20
 msgid "switch to repository you need. Odoo community (odoo/odoo) is default."
 msgstr ""
+"переключитесь на нужный вам репозиторий. Сообщество Odoo (odoo / odoo) по "
+"умолчанию."
 
 # f683c1b887b249caa7924746771faeaf
 #: ../../ci/runbot.rst:21
 msgid "find a row with odoo version you need (10.0, 9.0, 8.0, 7.0)"
-msgstr ""
+msgstr "найдите строку с нужной вам версией odoo (10.0, 9.0, 8.0, 7.0)"
 
 # 818a7b3ffc9c4db3963be17c7ce7ba8e
 #: ../../ci/runbot.rst:22
 msgid ""
-"click on *fast forward* icon to open latest build. Alternatively, click "
-"on any blue button on a row, that corresponds to odoo version you need."
+"click on *fast forward* icon to open latest build. Alternatively, click on "
+"any blue button on a row, that corresponds to odoo version you need."
 msgstr ""
+"нажмите на значок * fast forward *, чтобы открыть последнюю сборку. Кроме "
+"того, нажмите любую синюю кнопку в строке, которая соответствует нужной "
+"версии odoo."
 
 # da040b4a458341cbb914f9d1d894eb16
 #: ../../ci/runbot.rst:23
 msgid "on login page enter credentials:"
-msgstr ""
+msgstr "на странице входа введите учетные данные:"
 
 # 220cb8112c4e402eaae4266de3e2622e
 #: ../../ci/runbot.rst:25
 msgid "Admin"
-msgstr ""
+msgstr "Администратор"
 
 # df6db1d8d920473bbad3ec64d4b6ce49
 #: ../../ci/runbot.rst:27
 msgid "login: ``admin``"
-msgstr ""
+msgstr "Логин: `` admin``"
 
 # d2990a9a3f1a4d7ea4b7f406cef08804
 #: ../../ci/runbot.rst:28
 msgid "password: ``admin``"
-msgstr ""
+msgstr "пароль: `` admin``"
 
 # c5f124449af846c1a322642b1b264eab
 #: ../../ci/runbot.rst:30
 msgid "Demo"
-msgstr ""
+msgstr "демонстрация"
 
 # 08db1a432c284e499d1a864adfc32442
 #: ../../ci/runbot.rst:32
 msgid "login: ``demo``"
-msgstr ""
+msgstr "Логин: `` demo``"
 
 # c416a56b4afb4c7499b259588b528a57
 #: ../../ci/runbot.rst:33
 msgid "password: ``demo``"
-msgstr ""
+msgstr "пароль: `` demo``"
 
 # 7601b387734f4bc8b5c5710d06dcba85
 #: ../../ci/runbot.rst:39
 msgid "runbot.it-projects.info"
-msgstr ""
+msgstr "runbot.it-projects.info"
 
 # ade07a61d7bd4094a401f82601b3d26a
 #: ../../ci/runbot.rst:41
@@ -121,94 +131,110 @@ msgid ""
 "http://runbot.it-projects.info/ -- customized runbot for IT-Projects` "
 "repositories."
 msgstr ""
+"http://runbot.it-projects.info/ - настраиваемый runbot для репозиториев IT-"
+"проектов."
 
 # 9eb8068966ad4a838919074ed3bd9e99
 #: ../../ci/runbot.rst:43
 msgid "Stages of making a build:"
-msgstr ""
+msgstr "Этапы изготовления сборки:"
 
 # 9fc52478bbde4f00b80d6f439c16f61f
 #: ../../ci/runbot.rst:45
 msgid "Checkout sources from github"
-msgstr ""
+msgstr "Извлечь источники из github"
 
 # 9b880cfa88a34b049952807b7a82a50d
 #: ../../ci/runbot.rst:46
 msgid ""
-"**-base** database: install updated modules for pull request builds and "
-"base modules for branch builds. For some repositories explicit modules "
-"(i.e. ones, that are specified in runbot settings) are installed too"
+"**-base** database: install updated modules for pull request builds and base"
+" modules for branch builds. For some repositories explicit modules (i.e. "
+"ones, that are specified in runbot settings) are installed too"
 msgstr ""
+"** - база ** базы данных: установить обновленные модули для сборок по "
+"запросу и базовые модули для сборок веток. Для некоторых репозиториев также "
+"установлены явные модули (т.е. те, которые указаны в настройках runbot)"
 
 # 7986d839ea1644d697e895bfd397e297
 #: ../../ci/runbot.rst:49
 msgid "**-all** database: install all modules of the repo"
-msgstr ""
+msgstr "** - все ** базы данных: установить все модули репо"
 
 # 34dc16744a7a49d1bed6d1d116130bdc
 #: ../../ci/runbot.rst:50
 msgid "run the build with two prepared databases"
-msgstr ""
+msgstr "запустить сборку с двумя подготовленными базами данных"
 
 # 1288beeb3b6b4a1fa89ed2edb636215a
 #: ../../ci/runbot.rst:52
 msgid "Main features:"
-msgstr ""
+msgstr "Основные характеристики:"
 
 # 9dd61cc59c5b4dec8db43b208c00db59
 #: ../../ci/runbot.rst:54
 msgid "Blue button - enter to **-all** database"
-msgstr ""
+msgstr "Синяя кнопка - войти в ** - все ** базы данных"
 
 # b8fb481f4ab7412fb8c4bb5246c093d6
 #: ../../ci/runbot.rst:55
 msgid "Green button - enter to **-base** database"
-msgstr ""
+msgstr "Зеленая кнопка - войти в ** - базу ** базы данных"
 
 # 7d810cc53c74400b9cdfade4d44435d5
 #: ../../ci/runbot.rst:56
 msgid "Key logs (shown on build page) -- key logs, warnings and errors"
 msgstr ""
+"Ключевые журналы (показанные на странице сборки) - ключевые журналы, "
+"предупреждения и ошибки"
 
 # dbe512e3e1534a88998467c7c8f6479c
 #: ../../ci/runbot.rst:57
 msgid "Detailed logs (txt files)"
-msgstr ""
+msgstr "Подробные журналы (текстовые файлы)"
 
 # e702f6c501d647e49370a99b8eff571a
 #: ../../ci/runbot.rst:59
 msgid ""
-"*Full base logs* -- full logs of installation process in **-base** "
-"database"
+"*Full base logs* -- full logs of installation process in **-base** database"
 msgstr ""
+"* Полные журналы базы * - полные журналы процесса установки в ** - базу ** "
+"базы данных"
 
 # 8ea7be51e84941f898b14ddb00912250
 #: ../../ci/runbot.rst:60
-msgid "*Full all logs* -- full logs of installation process in **-all** database"
+msgid ""
+"*Full all logs* -- full logs of installation process in **-all** database"
 msgstr ""
+"* Полный все журналы * - полные журналы процесса установки в ** - все ** "
+"базы данных"
 
 # a7a7f6ae54974d6ab16841d3f034b752
 #: ../../ci/runbot.rst:61
 msgid ""
 "*Full run logs* -- full logs for both databases after running, i.e. when "
-"Blue and Green button are available. Logs includes cron work, url "
-"requests etc"
+"Blue and Green button are available. Logs includes cron work, url requests "
+"etc"
 msgstr ""
+"* Журналы полного прогона * - полные журналы для обеих баз данных после "
+"запуска, т.е. когда доступны синяя и зеленая кнопка. Журналы включают в себя"
+" работу cron, URL-запросы и т. Д."
 
 # d869fee386cc4df3b5d87c947cb62d14
 #: ../../ci/runbot.rst:70
 msgid "How to deploy runbot?"
-msgstr ""
+msgstr "Как развернуть runbot?"
 
 # 0eba027c1a0a4fd39840593e371d50c3
 #: ../../ci/runbot.rst:72
 msgid ""
-"There is docker that allows you deploy you own runbot for your "
-"repositores. Check it out for further information"
+"There is docker that allows you deploy you own runbot for your repositores. "
+"Check it out for further information"
 msgstr ""
+"Существует докер, который позволяет вам развернуть свой собственный runbot "
+"для ваших репозиториев. Проверьте это для получения дополнительной "
+"информации"
 
 # cc7e5ef8371f47b8879a4d8888c2207a
 #: ../../ci/runbot.rst:74
 msgid "https://github.com/it-projects-llc/odoo-runbot-docker"
-msgstr ""
-
+msgstr "https://github.com/it-projects-llc/odoo-runbot-docker"

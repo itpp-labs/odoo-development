@@ -21,5 +21,4 @@ msgstr ""
 # 85d9d03ef1814566b9199a8f82b4fb69
 #: ../../dev/diving/cases/answers/index.rst:5
 msgid "Solutions for Source Diving Cases"
-msgstr ""
-
+msgstr "Решения для случаев дайвинга"

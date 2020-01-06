@@ -21,10 +21,9 @@ msgstr ""
 # 8e3db8bdf1684f8ea2f54d53e70ac934
 #: ../../admin/max_cron_threads.rst:3
 msgid "``--max-cron-threads``"
-msgstr ""
+msgstr "`` --Max-хрон-threads``"
 
 # d2d0f62c3df54e3ab52c4660afa54886
 #: ../../admin/max_cron_threads.rst:5
 msgid "Here is definition from ``odoo/tools/config.py``"
-msgstr ""
-
+msgstr "Вот определение из `` odoo / tools / config.py``"

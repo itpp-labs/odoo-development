@@ -21,29 +21,36 @@ msgstr ""
 # fc8bc600d6ed4159bfd4aa75dd9702d0
 #: ../../other/rst.rst:3
 msgid "RST format"
-msgstr ""
+msgstr "RST формат"
 
 # f5be9765102043549813da55bc8a815b
 #: ../../other/rst.rst:7
 msgid "Document Title / Subtitle"
-msgstr ""
+msgstr "Название документа / Субтитры"
 
 # 24ed00455bc3450da14e3e4b2ec2d5e9
 #: ../../other/rst.rst:9
 msgid ""
-"The title of the whole document is distinct from section titles and may "
-"be formatted somewhat differently (e.g. the HTML writer by default shows "
-"it as a centered heading)."
+"The title of the whole document is distinct from section titles and may be "
+"formatted somewhat differently (e.g. the HTML writer by default shows it as "
+"a centered heading)."
 msgstr ""
+"Заголовок всего документа отличается от заголовков разделов и может быть "
+"отформатирован несколько иначе (например, писатель HTML по умолчанию "
+"показывает его в виде центрированного заголовка)."
 
 # 78852cf95ec041ec83408ca8b6d14664
 #: ../../other/rst.rst:13
 msgid ""
-"To indicate the document title in reStructuredText, use a unique "
-"adornment style at the beginning of the document.  To indicate the "
-"document subtitle, use another unique adornment style immediately after "
-"the document title.  For example::"
+"To indicate the document title in reStructuredText, use a unique adornment "
+"style at the beginning of the document.  To indicate the document subtitle, "
+"use another unique adornment style immediately after the document title.  "
+"For example::"
 msgstr ""
+"Чтобы указать заголовок документа в reStructuredText, используйте уникальный"
+" стиль украшения в начале документа. Чтобы указать субтитры документа, "
+"используйте другой уникальный стиль оформления сразу после заголовка "
+"документа. Например::"
 
 # dc29f690cf38413396ff19342cf369ef
 #: ../../other/rst.rst:30
@@ -52,121 +59,126 @@ msgid ""
 "signs, but are distict and unrelated styles.  The text of overline-and-"
 "underlined titles (but not underlined-only) may be inset for aesthetics."
 msgstr ""
+"Обратите внимание, что надписи «Заголовок документа» и «Заголовок раздела» "
+"выше используют знаки равенства, но являются отдельными и не связанными "
+"стилями. Текст заглавных и подчеркнутых заголовков (но не только "
+"подчеркнутых) может быть вставлен для эстетики."
 
 # 28c08263bb8b45de9970fa4062200415
 #: ../../other/rst.rst:37
 msgid "Sections"
-msgstr ""
+msgstr "Разделы"
 
 # 487a707739794d29ba4b0d2fb7bb87ea
 #: ../../other/rst.rst:39
 msgid "# with overline, for parts"
-msgstr ""
+msgstr "# с надписью, для деталей"
 
 # f6ed57acb3af48c48782188b6a66e24d
 #: ../../other/rst.rst:40
 msgid "\\*\\  with overline, for chapters"
-msgstr ""
+msgstr "\\ * \\ с подчеркиванием, для глав"
 
 # 85da179004bb442d8c0731cf504bbc65
 #: ../../other/rst.rst:41
 msgid "=, for sections"
-msgstr ""
+msgstr "=, для разделов"
 
 # 54c8b97b28284cc3b4a352a7c9fef1df
 #: ../../other/rst.rst:42
 msgid "-, for subsections"
-msgstr ""
+msgstr "- для подразделов"
 
 # bccbc0af91ef425aa99dc1d55cdce7df
 #: ../../other/rst.rst:43
 msgid "^, for subsubsections"
-msgstr ""
+msgstr "^, для подразделов"
 
 # 8e8e72e38fad42d1bbb580180109af60
 #: ../../other/rst.rst:44
 msgid "\", for paragraphs"
-msgstr ""
+msgstr "&quot;, для пунктов"
 
 # 1886e89e6ad64cc2a24c0332deb62c75
 #: ../../other/rst.rst:47
 msgid "Code block"
-msgstr ""
+msgstr "Блок кода"
 
 # c1d35f52d81d47218c63781a5620259f
 #: ../../other/rst.rst:48
 msgid ""
-"Enter double colon (\\::\\)  and then empty line and then at least one "
-"space and finaly you can enter your code."
+"Enter double colon (\\::\\)  and then empty line and then at least one space"
+" and finaly you can enter your code."
 msgstr ""
+"Введите двойное двоеточие (\\ :: \\) и затем пустую строку, а затем хотя бы "
+"один пробел и, наконец, вы можете ввести свой код."
 
 # 20d28a3ae45144bd8cfa9b5aee76bf89
 #: ../../other/rst.rst:50
 msgid "Also you can use ``inplace code reference`` by using \\``\\  \\``\\."
-msgstr ""
+msgstr "Также вы можете использовать `` ссылку на код`` с помощью \\ `` \\ \\ `` \\."
 
 # 0c46db3e3ee9426db430b1aab25a4570
 #: ../../other/rst.rst:53
 msgid "Selection"
-msgstr ""
+msgstr "выбор"
 
 # 24a0c37f526740dfba6a7826d7be663d
 #: ../../other/rst.rst:54
 msgid "``**bold**``"
-msgstr ""
+msgstr "`` ** жирный ** ``"
 
 # f5f5afe17a174f23b7cebf43fedf3262
 #: ../../other/rst.rst:55
 msgid "``*italic*``"
-msgstr ""
+msgstr "`` * Курсивный * ``"
 
 # d097ea3200534341a545d86dd7f29993
 #: ../../other/rst.rst:56
 msgid "````code````"
-msgstr ""
+msgstr "`` `` `Code````"
 
 # 96ad2de035614d4e81df14107c2678c1
 #: ../../other/rst.rst:59
 msgid "Lists"
-msgstr ""
+msgstr "Списки"
 
 # 38bec3bcc09b44bebdc657c03ed227a8
 #: ../../other/rst.rst:60
 msgid "\\*\\  - not numerated"
-msgstr ""
+msgstr "\\ * \\ - не нумеруется"
 
 # cf8c5c1c5144468caba2950cabc29199
 #: ../../other/rst.rst:61
 msgid "\\#.\\  - numerated"
-msgstr ""
+msgstr "\\ #. \\ - нумерованный"
 
 # 11e4527e54f747a6949845326e23bd6a
 #: ../../other/rst.rst:62
 msgid "1,2,3, ... - numerated"
-msgstr ""
+msgstr "1,2,3, ... - нумеруются"
 
 # 7680eb54578140eea5a344d9ab7349a3
 #: ../../other/rst.rst:66
 msgid "Links"
-msgstr ""
+msgstr "связи"
 
 # de7420fd127c4f0da02927d637484331
 #: ../../other/rst.rst:68
 msgid "internal link::"
-msgstr ""
+msgstr "внутренняя ссылка ::"
 
 # ab92c92517164099ba0ea7a8df01ff1f
 #: ../../other/rst.rst:72
 msgid "external link::"
-msgstr ""
+msgstr "внешняя ссылка::"
 
 # 4edcba3ae27143dfb3eb1fa262dad87a
 #: ../../other/rst.rst:77
 msgid "More documentations"
-msgstr ""
+msgstr "Больше документации"
 
 # 71f8b2a65c2d4c29b10b7f1e8d9709b6
 #: ../../other/rst.rst:79
 msgid "http://docutils.sourceforge.net/docs/user/rst/quickref.html"
-msgstr ""
-
+msgstr "http://docutils.sourceforge.net/docs/user/rst/quickref.html"

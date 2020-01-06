@@ -21,59 +21,63 @@ msgstr ""
 # d8d2d3fd8b684ec4a5c8d9dddc4a0ec9
 #: ../../dev/other/odoo.rst:2
 msgid "Odoo database"
-msgstr ""
+msgstr "База данных Odoo"
 
 # 777c1caf55b7468fbfa5f19c6cd3602a
 #: ../../dev/other/odoo.rst:5
 msgid "Many to many"
-msgstr ""
+msgstr "Много ко многим"
 
 # 42db7124bed0406f835df5ca87385a6b
 #: ../../dev/other/odoo.rst:7
 msgid ""
-"For every *many to many* field odoo creating new relations table for "
-"example *pos_multi_rel* with *_rel* postfix."
+"For every *many to many* field odoo creating new relations table for example"
+" *pos_multi_rel* with *_rel* postfix."
 msgstr ""
+"Для каждого * много ко многим * поля odoo создайте новую таблицу отношений, "
+"например * pos_multi_rel * с постфиксом * _rel *."
 
 # d454e09474b844f8b1cc7f7a754f0ea0
 #: ../../dev/other/odoo.rst:10
 msgid "Odoo way of shaman"
-msgstr ""
+msgstr "Оду способ шамана"
 
 # fe70cbcf0be349b0a803b2373cdc22f7
 #: ../../dev/other/odoo.rst:12
 msgid "**What to do if something not work but should to**"
-msgstr ""
+msgstr "** Что делать, если что-то не работает, но должен **"
 
 # e47f8ba4a40243e1be306efc1ce88f4f
 #: ../../dev/other/odoo.rst:14
 msgid "Refresh page"
-msgstr ""
+msgstr "Обновить страницу"
 
 # b15902fd38d84c78887511c1bf8622d0
 #: ../../dev/other/odoo.rst:15
 msgid "Update module"
-msgstr ""
+msgstr "Модуль обновления"
 
 # 71193a190a924ab786441c29eab04965
 #: ../../dev/other/odoo.rst:16
 msgid "Check openerp file **depends**, **demo** and other important fields"
-msgstr ""
+msgstr "Проверьте файл openerp ** зависит **, ** демо ** и другие важные поля"
 
 # 5ed6e620fc2442589ed8513625f156d5
 #: ../../dev/other/odoo.rst:17
 msgid "Check odoo config you use to run odoo. Especially addons paths"
 msgstr ""
+"Проверьте конфигурацию odoo, которую вы используете для запуска odoo. "
+"Особенности аддонов путей"
 
 # de2066d02c1144d69ee995785e493142
 #: ../../dev/other/odoo.rst:18
 msgid "Uninstall and install again modules in depends"
-msgstr ""
+msgstr "Удалите и установите заново модули в зависимости"
 
 # c28c4605305e4732a229f1fe02bc9ddb
 #: ../../dev/other/odoo.rst:19
 msgid "Clean browser cache"
-msgstr ""
+msgstr "Очистить кеш браузера"
 
 # b27c2f7630eb4159afa40f3dc64fdfb7
 #: ../../dev/other/odoo.rst:20
@@ -81,9 +85,10 @@ msgid ""
 "Carefully check logs. Look up if needed files loaded or not. May be some "
 "errors."
 msgstr ""
+"Внимательно проверяйте логи. Посмотрите, если нужные файлы загружены или "
+"нет. Могут быть некоторые ошибки."
 
 # 56a5a174e40041b9b060b9e1679c9403
 #: ../../dev/other/odoo.rst:21
 msgid "Create new base and install all modules."
-msgstr ""
-
+msgstr "Создайте новую базу и установите все модули."

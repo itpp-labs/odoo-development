@@ -21,33 +21,33 @@ msgstr ""
 # e20180cdb1b948f482bec0dc3574666b
 #: ../../odoo/models/product.product.rst:2
 msgid "product.product"
-msgstr ""
+msgstr "product.product"
 
 # 0e7edfc99fd5414faac451153dcfa4ad
 #: ../../odoo/models/product.product.rst:4
 msgid ""
-"The product, unlike the :doc:`template <product.template>`, it is a "
-"separate product that can be calculated, set the price, to assign a "
-"discount."
+"The product, unlike the :doc:`template <product.template>`, it is a separate"
+" product that can be calculated, set the price, to assign a discount."
 msgstr ""
+"Продукт, в отличие от шаблона: doc: ` <product.template> `, это отдельный "
+"продукт, который можно рассчитать, установить цену, назначить скидку."
 
 # 262bec6c513348d4a4380182fe5992d4
 #: ../../odoo/models/product.product.rst:6
 msgid "product.product is used:"
-msgstr ""
+msgstr "product.product используется:"
 
 # 4e1a4ce082704272a0226a295efcf292
 #: ../../odoo/models/product.product.rst:8
 msgid "sale.order"
-msgstr ""
+msgstr "sale.order"
 
 # 272bff81ff72488b8cf9c245b7d229fa
 #: ../../odoo/models/product.product.rst:9
 msgid "stock"
-msgstr ""
+msgstr "склад"
 
 # 9a9f76579b904c8ebf089846740af706
 #: ../../odoo/models/product.product.rst:10
 msgid "pos"
-msgstr ""
-
+msgstr "позиция"

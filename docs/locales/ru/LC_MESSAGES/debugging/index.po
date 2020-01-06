@@ -21,10 +21,9 @@ msgstr ""
 # 0235208b567245919479704eef959aa9
 #: ../../debugging/index.rst:3
 msgid "Debugging"
-msgstr ""
+msgstr "Отладка"
 
 # 1e7b486d31a6418d87a112b73e7fa8bc
 #: ../../debugging/index.rst:5
 msgid "This section describes how to find the reason of existing problem."
-msgstr ""
-
+msgstr "В этом разделе описывается, как найти причину существующей проблемы."

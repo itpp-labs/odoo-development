@@ -21,41 +21,56 @@ msgstr ""
 # a01dce12f3d04ccc8dd2388aea9eb5b8
 #: ../../dev/pos/load-data-to-pos.rst:3
 msgid "Loading data to POS"
-msgstr ""
+msgstr "Загрузка данных в POS"
 
 # 053c48843bd0478a9960d9d1702f34d0
 #: ../../dev/pos/load-data-to-pos.rst:5
 msgid "By default POS uploads next models:"
-msgstr ""
+msgstr "По умолчанию POS загружает следующие модели:"
 
 # 22f77e1224d243c1b7473a4c8d520e43
 #: ../../dev/pos/load-data-to-pos.rst:7
 msgid ""
 "``res.users``, ``res.company``, ``decimal.precision``, ``uom.uom``, "
 "``res.partner``, ``res.country``, ``account.tax``, ``pos.session``, "
-"``pos.config``, ``res.users``, ``stock.location``, ``product.pricelist``,"
-" ``product.pricelist.item``, ``product.category``, ``res.currency``, "
+"``pos.config``, ``res.users``, ``stock.location``, ``product.pricelist``, "
+"``product.pricelist.item``, ``product.category``, ``res.currency``, "
 "``pos.category``, ``product.product``, ``account.bank.statement``, "
 "``account.journal``, ``account.fiscal.position``, "
 "``account.fiscal.position.tax``."
 msgstr ""
+"`` res.users``, `` res.company``, `` decimal.precision``, `` uom.uom``, `` "
+"res.partner``, `` res.country``, `` account.tax``, `` pos.session``, `` "
+"pos.config``, `` res.users``, `` stock.location``, `` product.pricelist``, "
+"`` product. pricelist.item``, `` product.category``, `` res.currency``, `` "
+"pos.category``, `` product.product``, `` account.bank.statement``, `` "
+"account.journal``, `` account.fiscal.position``, `` "
+"account.fiscal.position.tax``."
 
 # 8f212f3f16d843bd98ebf769a43894b1
 #: ../../dev/pos/load-data-to-pos.rst:9
 msgid ""
-"If we've added a new field in the backend and want them to be presented "
-"in the POS we can use **load_fields method** inside the ``PosModel`` "
+"If we've added a new field in the backend and want them to be presented in "
+"the POS we can use **load_fields method** inside the ``PosModel`` "
 "**initialize function**."
 msgstr ""
+"Если мы добавили новое поле в бэкэнд и хотим, чтобы они были представлены в "
+"POS, мы можем использовать метод ** load_fields ** внутри `` PosModel`` ** "
+"** инициализирующей функции **."
 
 # 2311806c596046c5be63a9fbe6983dfe
 #: ../../dev/pos/load-data-to-pos.rst:11
 msgid ""
-"In the next example taken from ``POS Debt & Credit notebook`` module we "
-"add some new fields to the ``account.journal`` `model: "
-"<https://github.com/it-projects-llc/pos-"
+"In the next example taken from ``POS Debt & Credit notebook`` module we add "
+"some new fields to the ``account.journal`` `model: <https://github.com/it-"
+"projects-llc/pos-"
 "addons/blob/fb8b0724fd4b5a0e66a64ece17643025e45330a8/pos_debt_notebook/static/src/js/pos.js#L29-L30::>`__"
 msgstr ""
+"В следующем примере, взятом из модуля `` POS Debt &amp; Credit notebook``, "
+"мы добавим несколько новых полей в модель `` account.journal```: "
+"<https://github.com/it-projects-llc/pos-"
+"addons/blob/fb8b0724fd4b5a0e66a64ece17643025e45330a8/pos_debt_notebook/static/src/js/pos.js#L29-L30::>"
+" `__"
 
 # 5214f439f7cf4902b67354a25a56bacf
 #: ../../dev/pos/load-data-to-pos.rst:20
@@ -65,60 +80,80 @@ msgid ""
 "<https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/static/src/js/models.js#L1175-L1215::>`__"
 " ."
 msgstr ""
+"Для загрузки новой модели в POS мы используем `` load_models (models, "
+"options) ``. Описание взято из `odoo "
+"<https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/static/src/js/models.js#L1175-L1215::>"
+" `__"
 
 # 7d3e2332cbd2444e868a8bd596297cde
 #: ../../dev/pos/load-data-to-pos.rst:24
 msgid "Loads ``openerp`` models at the point of sale startup."
-msgstr ""
+msgstr "Загружает `` openerp`` модели в точке стартапа."
 
 # bdb9608b3e3c4481916cba69e83adf37
 #: ../../dev/pos/load-data-to-pos.rst:26
 msgid "``load_models`` take an array of model loader declarations."
-msgstr ""
+msgstr "`` load_models`` принимает массив объявлений загрузчика модели."
 
 # ea62916c0dd746dfb3b35c143b25ee67
 #: ../../dev/pos/load-data-to-pos.rst:28
 msgid ""
-"The models will be loaded in the array order. If no ``openerp`` model "
-"name is provided, no server data will be loaded, but the system can be "
-"used to preprocess data before load."
+"The models will be loaded in the array order. If no ``openerp`` model name "
+"is provided, no server data will be loaded, but the system can be used to "
+"preprocess data before load."
 msgstr ""
+"Модели будут загружены в порядке массива. Если имя модели `` openerp`` не "
+"указано, данные сервера не будут загружены, но систему можно использовать "
+"для предварительной обработки данных перед загрузкой."
 
 # ee88f3fe366e43af989d7b5592a50cf4
 #: ../../dev/pos/load-data-to-pos.rst:30
 msgid ""
-"Loader arguments can be functions that return a dynamic value. The "
-"function takes the ``PosModel`` as the first argument and a temporary "
-"object that is shared by all models, and can be used to store transient "
-"information between model loads."
+"Loader arguments can be functions that return a dynamic value. The function "
+"takes the ``PosModel`` as the first argument and a temporary object that is "
+"shared by all models, and can be used to store transient information between"
+" model loads."
 msgstr ""
+"Аргументы загрузчика могут быть функциями, которые возвращают динамическое "
+"значение. Функция принимает `` PosModel`` в качестве первого аргумента и "
+"временный объект, который используется всеми моделями и может использоваться"
+" для хранения переходной информации между загрузками моделей."
 
 # ddd793c278f74c8eaa60f91f5fc27e95
 #: ../../dev/pos/load-data-to-pos.rst:32
 msgid ""
-"There is no dependency management. The models must be loaded in the right"
-" order. Newly added models are loaded at the end but the after / before "
+"There is no dependency management. The models must be loaded in the right "
+"order. Newly added models are loaded at the end but the after / before "
 "options can be used to load directly before / after another model."
 msgstr ""
+"Нет управления зависимостями. Модели должны быть загружены в правильном "
+"порядке. Недавно добавленные модели загружаются в конце, но параметры "
+"«после» и «до» могут использоваться для загрузки непосредственно перед / "
+"после другой модели."
 
 # d8787225c44549548105775ee0d0f437
 #: ../../dev/pos/load-data-to-pos.rst:62
 msgid ""
-"Example below uploads all records meet the domain ``account.invoice`` "
-"model."
+"Example below uploads all records meet the domain ``account.invoice`` model."
 msgstr ""
+"В приведенном ниже примере все записи соответствуют модели домена `` "
+"account.invoice``."
 
 # 9625879fc82642d1a6c493c36626057c
 #: ../../dev/pos/load-data-to-pos.rst:64
 msgid "The **loaded** function is a handler for uploaded data."
 msgstr ""
+"** загруженная ** функция является обработчиком для загруженных данных."
 
 # 459eac8dd650487b91001676324d8cb8
 #: ../../dev/pos/load-data-to-pos.rst:66
 msgid ""
-"Here you can proceed and save this `example <https://github.com/it-"
-"projects-llc/pos-"
+"Here you can proceed and save this `example <https://github.com/it-projects-"
+"llc/pos-"
 "addons/blob/d0323907e35082d6d10416c2f7ef8497aa47dc31/pos_invoice_pay/static/src/js/main.js#L51-L64::>`__"
 " which is taken from ``Pay Sale Orders & Invoices over POS`` module:"
 msgstr ""
-
+"Здесь вы можете продолжить и сохранить этот пример <https://github.com/it-"
+"projects-llc/pos-"
+"addons/blob/d0323907e35082d6d10416c2f7ef8497aa47dc31/pos_invoice_pay/static/src/js/main.js#L51-L64::>"
+" `__ берется из модуля` `Оплата заказов и счетов через POS```:"

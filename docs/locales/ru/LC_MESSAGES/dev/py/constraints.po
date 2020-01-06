@@ -21,15 +21,18 @@ msgstr ""
 # 8764444df61444f0a60dab213cd311e0
 #: ../../dev/py/constraints.rst:2
 msgid "Model constraints"
-msgstr ""
+msgstr "Ограничения модели"
 
 # 2cc87edcdc5c4922afb592820ad84910
 #: ../../dev/py/constraints.rst:4
 msgid ""
-"Odoo provides two ways to set up automatically verified invariants: "
-"`Python constraints <openerp.api.constrains>` and `SQL constraints "
+"Odoo provides two ways to set up automatically verified invariants: `Python "
+"constraints <openerp.api.constrains>` and `SQL constraints "
 "<openerp.models.Model._sql_constraints>`."
 msgstr ""
+"Odoo предоставляет два способа настройки автоматически проверяемых "
+"инвариантов: `ограничения Python <openerp.api.constrains> `и` ограничения "
+"SQL <openerp.models.Model._sql_constraints> `."
 
 # b5ee4da1c0b14baaab203ea347d1a63e
 #: ../../dev/py/constraints.rst:8
@@ -38,17 +41,25 @@ msgid ""
 "`~openerp.api.constrains`, and invoked on a recordset. The decorator "
 "specifies which fields are involved in the constraint, so that the "
 "constraint is automatically evaluated when one of them is modified. The "
-"method is expected to raise an exception if its invariant is not "
-"satisfied::"
+"method is expected to raise an exception if its invariant is not satisfied::"
 msgstr ""
+"Ограничение Python определяется как метод, украшенный `~ "
+"openerp.api.constrains` и вызываемый для набора записей. Декоратор "
+"определяет, какие поля участвуют в ограничении, поэтому ограничение "
+"автоматически оценивается при изменении одного из них. Ожидается, что метод "
+"вызовет исключение, если его инвариант не выполняется:"
 
 # 9810d6955b44483ba80f15c8622f5e32
 #: ../../dev/py/constraints.rst:24
 msgid ""
 "SQL constraints are defined through the model attribute "
-"`~openerp.models.Model._sql_constraints`. The latter is assigned to a "
-"list of triples of strings ``(name, sql_definition, message)``, where "
-"``name`` is a valid SQL constraint name, ``sql_definition`` is a "
-"``table_constraint_`` expression, and ``message`` is the error message."
+"`~openerp.models.Model._sql_constraints`. The latter is assigned to a list "
+"of triples of strings ``(name, sql_definition, message)``, where ``name`` is"
+" a valid SQL constraint name, ``sql_definition`` is a ``table_constraint_`` "
+"expression, and ``message`` is the error message."
 msgstr ""
-
+"Ограничения SQL определяются через атрибут модели `~ "
+"openerp.models.Model._sql_constraints`. Последний присваивается списку троек"
+" строк `` (name, sql_definition, message) ``, где `` name`` - допустимое имя"
+" ограничения SQL, `` sql_definition`` - выражение `` table_constraint_``, и "
+"`` message`` - это сообщение об ошибке."

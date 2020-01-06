@@ -21,15 +21,16 @@ msgstr ""
 # 68fa9c353acc4f7db6ae7a23852f80a5
 #: ../../dev/js/core.bus.rst:3
 msgid "core.bus"
-msgstr ""
+msgstr "core.bus"
 
 # 5780664909f24b8dbd58e5e033c75d6b
 #: ../../dev/js/core.bus.rst:5
 msgid "core.bus (web.bus in 8.0) is used handle js events between modules."
 msgstr ""
+"core.bus (web.bus в 8.0) используется для обработки событий js между "
+"модулями."
 
 # aecf15d2095743198a59d4f736d384c6
 #: ../../dev/js/core.bus.rst:8
 msgid "Usage"
-msgstr ""
-
+msgstr "использование"

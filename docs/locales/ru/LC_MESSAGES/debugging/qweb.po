@@ -21,62 +21,71 @@ msgstr ""
 # 894afe0d7a564b4b91cb48d029a8e2ae
 #: ../../debugging/qweb.rst:2
 msgid "QWeb"
-msgstr ""
+msgstr "Qweb"
 
 # 00a4cc78b93d4545b002d59c6b99fd00
 #: ../../debugging/qweb.rst:4
 msgid "The javascript QWeb implementation provides a few debugging hooks:"
-msgstr ""
+msgstr "Реализация javascript QWeb предоставляет несколько отладочных хуков:"
 
 # 2d8e44a2a1c04e13a345205a3faeedd7
 #: ../../debugging/qweb.rst:12
 msgid "``t-log``"
-msgstr ""
+msgstr "`` Т-log``"
 
 # 33437796a633492793cc94608ae34e82
 #: ../../debugging/qweb.rst:7
 msgid ""
-"takes an expression parameter, evaluates the expression during rendering "
-"and logs its result with ``console.log``::"
+"takes an expression parameter, evaluates the expression during rendering and"
+" logs its result with ``console.log``::"
 msgstr ""
+"принимает параметр выражения, вычисляет выражение во время рендеринга и "
+"записывает его результат с помощью `` console.log`` ::"
 
 # dbb2e07e9f7042b582f467dd3447dc16
 #: ../../debugging/qweb.rst:13
 msgid "will print ``42`` to the console"
-msgstr ""
+msgstr "выведет `` 42`` на консоль"
 
 # e9783c9c182f40c59c789e516db0701c
 #: ../../debugging/qweb.rst:21
 msgid "``t-debug``"
-msgstr ""
+msgstr "`` Т-debug``"
 
 # 40e15a420c5c405bb69e91f918cd81c3
 #: ../../debugging/qweb.rst:15
 msgid "triggers a debugger breakpoint during template rendering::"
-msgstr ""
+msgstr "запускает точку останова отладчика во время рендеринга шаблона:"
 
 # a856591b526c4754bcaf6791a4ceb2c1
 #: ../../debugging/qweb.rst:21
 msgid ""
-"will stop execution if debugging is active (exact condition depend on the"
-" browser and its development tools)"
+"will stop execution if debugging is active (exact condition depend on the "
+"browser and its development tools)"
 msgstr ""
+"остановит выполнение, если отладка активна (точное условие зависит от "
+"браузера и его инструментов разработки)"
 
 # ec576b4d1f7e4454ad694ca530d15994
 #: ../../debugging/qweb.rst:31
 msgid "``t-js``"
-msgstr ""
+msgstr "`` Т-js``"
 
 # b2d9704f86a8409bace04e5838515ce3
 #: ../../debugging/qweb.rst:24
 msgid ""
-"the node's body is javascript code executed during template rendering. "
-"Takes a ``context`` parameter, which is the name under which the "
-"rendering context will be available in the ``t-js``'s body::"
+"the node's body is javascript code executed during template rendering. Takes"
+" a ``context`` parameter, which is the name under which the rendering "
+"context will be available in the ``t-js``'s body::"
 msgstr ""
+"тело узла - это код JavaScript, выполняемый во время рендеринга шаблона. "
+"Принимает параметр `` context``, который является именем, под которым "
+"контекст рендеринга будет доступен в теле `` t-js`` ::"
 
 # 6a2c60f0836f45ab99c741299ddd6220
 #: ../../debugging/qweb.rst:33
-msgid "`Source <https://www.odoo.com/documentation/8.0/reference/qweb.html#id4>`_"
+msgid ""
+"`Source <https://www.odoo.com/documentation/8.0/reference/qweb.html#id4>`_"
 msgstr ""
-
+"`Источник <https://www.odoo.com/documentation/8.0/reference/qweb.html#id4> "
+"`_"

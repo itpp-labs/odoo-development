@@ -21,5 +21,4 @@ msgstr ""
 # 1f5d54b801d54b209997347c53b801cd
 #: ../../ci/coverage.rst:3
 msgid "Coverage"
-msgstr ""
-
+msgstr "покрытие"

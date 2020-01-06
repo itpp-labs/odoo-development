@@ -21,5 +21,4 @@ msgstr ""
 # a31a0cee26db402b9d32df59fb1a60fe
 #: ../../git/index.rst:2
 msgid "Git and Github"
-msgstr ""
-
+msgstr "Git и Github"

@@ -21,7 +21,7 @@ msgstr ""
 # 4172a0abf4f24d5b84f4ac33c2f0f10a
 #: ../../ide/emacs/emacs.rst:2
 msgid "Emacs"
-msgstr ""
+msgstr "Emacs"
 
 # bca95ca85fbf4b7fb2bd9c0e5b7c6644
 #: ../../ide/emacs/emacs.rst:5
@@ -29,37 +29,40 @@ msgid ""
 "Install emacs 24.4+ http://askubuntu.com/questions/437255/how-to-install-"
 "emacs-24-4-on-ubuntu"
 msgstr ""
+"Установите emacs 24.4+ http://askubuntu.com/questions/437255/how-to-install-"
+"emacs-24-4-on-ubuntu"
 
 # ebf931f8352a4083b16db540c54cadf5
 #: ../../ide/emacs/emacs.rst:7
 msgid "Open Emacs"
-msgstr ""
+msgstr "Открытые Emacs"
 
 # f43302bea3ad43868b3c36413093fbe8
 #: ../../ide/emacs/emacs.rst:8
 msgid "Press Alt-x package-list-packages"
-msgstr ""
+msgstr "Нажмите Alt-x пакет-список-пакетов"
 
 # 3d5c52e775ba4d6d98bfa4e125bdad7c
 #: ../../ide/emacs/emacs.rst:9
 msgid "install packages: click i and then x"
-msgstr ""
+msgstr "установить пакеты: нажмите i, а затем x"
 
 # 71f98021c06e4bffb6fd7b122be0b9cc
 #: ../../ide/emacs/emacs.rst:10
 msgid ""
-"some packages require dependencies, that have to be installed via "
-"terminal * flymake * loccur * flymake-css * flymake-jslint * flymake-"
-"python-pyflakes"
+"some packages require dependencies, that have to be installed via terminal *"
+" flymake * loccur * flymake-css * flymake-jslint * flymake-python-pyflakes"
 msgstr ""
+"некоторые пакеты требуют зависимостей, которые должны быть установлены через"
+" терминал * flymake * loccur * flymake-css * flymake-jslint * flymake-"
+"python-pyflakes"
 
 # 4380704da21f4f88a4adb26d44661e00
 #: ../../ide/emacs/emacs.rst:21
 msgid "magit"
-msgstr ""
+msgstr "Magit"
 
 # d0cde4f8dea748f4ac1a6a6253e12fa8
 #: ../../ide/emacs/emacs.rst:22
 msgid "js3-mode"
-msgstr ""
-
+msgstr "СП3-режим"

@@ -21,17 +21,19 @@ msgstr ""
 # 4d6385088cd34457adac54e5343552b2
 #: ../../ide/visual-studio-code/configuration.rst:3
 msgid "Configuration:-"
-msgstr ""
+msgstr "Конфигурация: -"
 
 # 707c2553cc4947bdb75137bae6faf5f0
 #: ../../ide/visual-studio-code/configuration.rst:5
 msgid "**sample configuration (for user or workspace setting)**"
 msgstr ""
+"** пример конфигурации (для настройки пользователя или рабочей области) **"
 
 # 9f4db74687b8430aa080c5a284eeb7df
 #: ../../ide/visual-studio-code/configuration.rst:46
 msgid ""
-"some lines are commented because it is optional. you can activate them if"
-" needed like in the case of using Virtualenv."
+"some lines are commented because it is optional. you can activate them if "
+"needed like in the case of using Virtualenv."
 msgstr ""
-
+"некоторые строки закомментированы, потому что это необязательно. Вы можете "
+"активировать их при необходимости, как в случае использования Virtualenv."

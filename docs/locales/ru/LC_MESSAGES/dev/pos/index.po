@@ -21,35 +21,34 @@ msgstr ""
 # 7e2093fe4cb846d7b93088e4a0a84868
 #: ../../dev/pos/index.rst:3
 msgid "Point of Sale (POS)"
-msgstr ""
+msgstr "Торговая точка (POS)"
 
 # 7f3f1f1fa3224818baae637a4e36108e
 #: ../../dev/pos/index.rst:6
 msgid "New POS Module"
-msgstr ""
+msgstr "Новый POS-модуль"
 
 # 43551abc6b694277975920b2cf246dd3
 #: ../../dev/pos/index.rst:15
 msgid "UI extending"
-msgstr ""
+msgstr "Расширение интерфейса"
 
 # 871bd0e321534beabce7af483a21143e
 #: ../../dev/pos/index.rst:24
 msgid "Receipts & Printers"
-msgstr ""
+msgstr "Квитанции и принтеры"
 
 # 5e75aa1ab4e84a5ea185f7c5d6fee7a0
 #: ../../dev/pos/index.rst:30
 msgid "Extra Order Data"
-msgstr ""
+msgstr "Дополнительные данные заказа"
 
 # dfc0e2a885e14ef6bb26edc0d71f5dda
 #: ../../dev/pos/index.rst:40
 msgid "Instant syncronization"
-msgstr ""
+msgstr "Мгновенная синхронизация"
 
 # 72bea3a0fdce4faa837b49d99174cb37
 #: ../../dev/pos/index.rst:48
 msgid "Advanced POS Development"
-msgstr ""
-
+msgstr "Продвинутая разработка POS"

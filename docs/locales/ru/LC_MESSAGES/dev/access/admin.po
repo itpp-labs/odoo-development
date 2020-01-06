@@ -21,19 +21,21 @@ msgstr ""
 # 2548ba75922a4d97af41f018a5a6e27b
 #: ../../dev/access/admin.rst:3
 msgid "Superuser rights"
-msgstr ""
+msgstr "Права суперпользователя"
 
 # c1a3e7626a5d4991b328ddb25e10e8ff
 #: ../../dev/access/admin.rst:5
 msgid ""
-"Administrator, i.e. user with id 1 (``SUPERUSER_ID``), has exceptions "
-"about access rights."
+"Administrator, i.e. user with id 1 (``SUPERUSER_ID``), has exceptions about "
+"access rights."
 msgstr ""
+"Администратор, то есть пользователь с идентификатором 1 (`` SUPERUSER_ID``),"
+" имеет исключения относительно прав доступа."
 
 # a2421754e58348fc829dd8846301196f
 #: ../../dev/access/admin.rst:8
 msgid "ir.model.access"
-msgstr ""
+msgstr "ir.model.access"
 
 # f696f676bb444ed98841de6cbbd7392f
 #: ../../dev/access/admin.rst:10
@@ -42,4 +44,6 @@ msgid ""
 "Rules)<../../odoo/models/ir.model.access>`, then only Administrator has "
 "access to that model."
 msgstr ""
-
+"Если какая-то модель не имеет записей в: doc: `ir.model.access (Правила "
+"доступа) &lt;../../ odoo / models / ir.model.access&gt;`, то только "
+"администратор имеет доступ к этой модели."

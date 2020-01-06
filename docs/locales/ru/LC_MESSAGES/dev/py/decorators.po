@@ -21,86 +21,103 @@ msgstr ""
 # ff7c71c9c4214bc599e8c4f167278f23
 #: ../../dev/py/decorators.rst:2
 msgid "Python decorators"
-msgstr ""
+msgstr "Python декораторы"
 
 # db59519537484c1bb19f1b6d44294c58
 #: ../../dev/py/decorators.rst:4
 msgid "Original article"
-msgstr ""
+msgstr "Оригинальная статья"
 
 # b84da5545ae84fc092c50770926a4f6f
 #: ../../dev/py/decorators.rst:5
-msgid "http://odoo-new-api-guide-line.readthedocs.org/en/latest/decorator.html"
+msgid ""
+"http://odoo-new-api-guide-line.readthedocs.org/en/latest/decorator.html"
 msgstr ""
+"http://odoo-new-api-guide-line.readthedocs.org/en/latest/decorator.html"
 
 # 12508b0a420a4224a4b924b776bf678e
 #: ../../dev/py/decorators.rst:8
 msgid "@api.one"
-msgstr ""
+msgstr "@ api.one"
 
 # daa8e34d511643c1bd591044aaf2f7b0
 #: ../../dev/py/decorators.rst:10
 msgid "the decorator is deprecated. Use ``@api.multi`` instead"
-msgstr ""
+msgstr "декоратор устарел. Используйте взамен `` @ api.multi``"
 
 # 2aa1ea439f6e449fa9f8d310a34aeb68
 #: ../../dev/py/decorators.rst:12
 msgid ""
 "api.one is meant to be used when method is called only on one record. It "
 "makes sure, that there are no multiple records when calling method with "
-"api.one decorator. Let say you got record partner =  res.partner(1,). It "
-"is only one record and there is method for example (in res.partner)::"
+"api.one decorator. Let say you got record partner =  res.partner(1,). It is "
+"only one record and there is method for example (in res.partner)::"
 msgstr ""
+"api.one предназначен для использования, когда метод вызывается только для "
+"одной записи. Это обеспечивает отсутствие множественных записей при вызове "
+"метода с помощью декоратора api.one. Допустим, у вас есть запись партнера = "
+"res.partner (1,). Это только одна запись, и есть метод, например (в "
+"res.partner) ::"
 
 # eb2c133980c94328b6969a8017baf3b5
 #: ../../dev/py/decorators.rst:18
 msgid "calling it like this works::"
-msgstr ""
+msgstr "называть это так работает ::"
 
 # d26e8525c7fa442d883e640d18bd72f2
 #: ../../dev/py/decorators.rst:22
 msgid "But if there would be more records, like::"
-msgstr ""
+msgstr "Но если будет больше записей, например:"
 
 # df5b9ad0824f48efb9b368aae9372e86
 #: ../../dev/py/decorators.rst:26
 msgid ""
-"calling it, would raise Warning, telling you that you can only call it on"
-" one record."
+"calling it, would raise Warning, telling you that you can only call it on "
+"one record."
 msgstr ""
+"вызов этого вызовет предупреждение, сообщающее, что вы можете вызывать его "
+"только на одной записи."
 
 # e235725fd0034842a162e9621ca0ed38
 #: ../../dev/py/decorators.rst:30
 msgid "@api.multi"
-msgstr ""
+msgstr "@ api.multi"
 
 # b74498661adb4b2783a80511054acd18
 #: ../../dev/py/decorators.rst:32
 msgid "Methods without decorators works the same way as ``@api.multi``"
-msgstr ""
+msgstr "Методы без декораторов работают так же, как `` @ api.multi``"
 
 # 51c002f623c74ebc86b125c7e94fcea6
 #: ../../dev/py/decorators.rst:34
 msgid "something. For example::"
-msgstr ""
+msgstr "что нибудь. Например::"
 
 # 74fec63dbd534eab9dd60c27ff1d105d
 #: ../../dev/py/decorators.rst:44
 msgid "@api.model"
-msgstr ""
+msgstr "@ api.model"
 
 # 7ed602c57db94bfc9720a29c0f7cdfbc
 #: ../../dev/py/decorators.rst:46
 msgid ""
-"And api.model is considered to be used when you need to do something with"
-" model itself and don't need to modify/check some exact model's "
+"And api.model is considered to be used when you need to do something with "
+"model itself and don't need to modify/check some exact model's "
 "record/records. For example there could be method that returns some meta "
 "info about model's structure or some helper methods, etc. Also in "
-"documentation it is said that this api is good to use when migrating from"
-" old api, because it \"politely\" converts code to new api. Also in my "
-"own experience, if you need method to return something, model decorator "
-"is good for it. api.one returns empty list, so it might lead to "
-"unexpected behavior when using api.one on method when it is supposed to "
-"return something."
+"documentation it is said that this api is good to use when migrating from "
+"old api, because it \"politely\" converts code to new api. Also in my own "
+"experience, if you need method to return something, model decorator is good "
+"for it. api.one returns empty list, so it might lead to unexpected behavior "
+"when using api.one on method when it is supposed to return something."
 msgstr ""
-
+"И api.model считается используемым, когда вам нужно что-то сделать с самой "
+"моделью, и вам не нужно изменять / проверять какие-то точные записи / записи"
+" модели. Например, может существовать метод, который возвращает некоторую "
+"метаинформацию о структуре модели или некоторые вспомогательные методы и т. "
+"Д. Также в документации говорится, что этот API хорошо использовать при "
+"переходе от старого API, поскольку он «вежливо» преобразует код в новый API."
+" , Также по моему опыту, если вам нужен метод, чтобы вернуть что-то, модель "
+"декоратор подходит для этого. api.one возвращает пустой список, поэтому это "
+"может привести к неожиданному поведению при использовании метода api.one on,"
+" когда он должен что-то возвращать."

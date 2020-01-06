@@ -21,10 +21,9 @@ msgstr ""
 # c6ba2e0a9c6148fc9f4c448bfc9dfc93
 #: ../../dev/yml/odoo-yaml.rst:2
 msgid "YAML in odoo"
-msgstr ""
+msgstr "YAML в оду"
 
 # bae39eaef8384df0869df7c1226df27f
 #: ../../dev/yml/odoo-yaml.rst:4
 msgid "TODO"
-msgstr ""
-
+msgstr "СДЕЛАТЬ"

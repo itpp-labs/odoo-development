@@ -21,22 +21,25 @@ msgstr ""
 # f973c25f026e47a0a2335b06d27f709b
 #: ../../ide/pycharm/PyCharm.rst:2
 msgid "PyCharm"
-msgstr ""
+msgstr "PyCharm"
 
 # 3348ec057cf74907a5ca33383d6c3909
 #: ../../ide/pycharm/PyCharm.rst:5
 msgid "Remote access with pgAdmin to Odoo postgre database on Ubuntu"
 msgstr ""
+"Удаленный доступ с помощью pgAdmin к базе данных Odoo postgre в Ubuntu"
 
 # 8048d37e73b44b3d8ed4142010487bf7
 #: ../../ide/pycharm/PyCharm.rst:6
-msgid "**This is for PgAdmin integration, but same method working with PyCharm.**"
+msgid ""
+"**This is for PgAdmin integration, but same method working with PyCharm.**"
 msgstr ""
+"** Это для интеграции с PgAdmin, но такой же метод работает с PyCharm. **"
 
 # 41091586e7164aef8307e192357b0364
 #: ../../ide/pycharm/PyCharm.rst:9
 msgid "STEP #1 – get pgAdmin Install pgAdmin from pgadmin.org"
-msgstr ""
+msgstr "ШАГ № 1 - получить pgAdmin Установить pgAdmin с pgadmin.org"
 
 # 763541776a8c4d488159c65284fd7124
 #: ../../ide/pycharm/PyCharm.rst:12
@@ -45,6 +48,9 @@ msgid ""
 "etc/postgresql/9.x/main/pg_hba.conf and add following line: host    all"
 "             all             all                     md5"
 msgstr ""
+"ШАГ # 2 - разрешить удаленное подключение к серверу postgre отовсюду "
+"Откройте файл etc / postgresql / 9.x / main / pg_hba.conf и добавьте "
+"следующую строку: host all all all md5"
 
 # 111731a4baee469e815e7c7fa2847c7b
 #: ../../ide/pycharm/PyCharm.rst:16
@@ -53,14 +59,20 @@ msgid ""
 "etc/postgresql/9.x/main/postgresql.conf and change following line: "
 "listen_addresses = ‘*’"
 msgstr ""
+"ШАГ # 3 - пусть сервер postgre слушает всех. Откройте etc / postgresql / 9.x"
+" / main / postgresql.conf и измените следующую строку: listen_addresses = "
+"&#39;*&#39;"
 
 # b05e3e2a8f3b43eba3247ca7534407cc
 #: ../../ide/pycharm/PyCharm.rst:20
 msgid ""
-"STEP #4 – give the user “postgres” a password Start the psql terminal: "
-"sudo -u postgres psql Give a password: ALTER USER postgres PASSWORD "
+"STEP #4 – give the user “postgres” a password Start the psql terminal: sudo "
+"-u postgres psql Give a password: ALTER USER postgres PASSWORD "
 "‘yourpassword’; Leave the psql terminal: \\q"
 msgstr ""
+"ШАГ # 4 - дать пользователю «postgres» пароль. Запустите терминал psql: sudo"
+" -u postgres psql. Введите пароль: ALTER USER postgres PASSWORD "
+"&#39;yourpassword&#39;; Оставьте терминал psql: \\ q"
 
 # 1296ca76f37641beb7b8a90b2c3b5896
 #: ../../ide/pycharm/PyCharm.rst:25
@@ -68,21 +80,25 @@ msgid ""
 "STEP #5 Restart postgre server by executing this terminal command: sudo "
 "/etc/init.d/postgresql restart"
 msgstr ""
+"ШАГ # 5 Перезапустите сервер postgre, выполнив команду терминала: sudo "
+"/etc/init.d/postgresql restart"
 
 # b05d19432d7b46b7b0c8e8fb632b5cfe
 #: ../../ide/pycharm/PyCharm.rst:29
 msgid "STEP #6 Start pgAdmin and add a connection to a server like this:"
 msgstr ""
+"ШАГ # 6 Запустите pgAdmin и добавьте соединение с сервером следующим "
+"образом:"
 
 # e448909c97fc4bd1a2b14b1f05eab904
 #: ../../ide/pycharm/PyCharm.rst:34
 msgid "You are ready!"
-msgstr ""
+msgstr "Ты готов!"
 
 # eb8e5baa6910452285cadaf423dd5fd8
 #: ../../ide/pycharm/PyCharm.rst:36
 msgid "Original:"
-msgstr ""
+msgstr "Оригинал:"
 
 # 5355497fd87741088d197dffe9f61fc3
 #: ../../ide/pycharm/PyCharm.rst:38
@@ -90,4 +106,5 @@ msgid ""
 "http://odoo.guide/remote-access-with-pgadmin-to-odoo-postgre-database-on-"
 "ubuntu/"
 msgstr ""
-
+"http://odoo.guide/remote-access-with-pgadmin-to-odoo-postgre-database-on-"
+"ubuntu/"

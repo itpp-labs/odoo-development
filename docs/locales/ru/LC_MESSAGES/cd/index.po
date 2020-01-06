@@ -21,10 +21,9 @@ msgstr ""
 # 4000df7f920e43128013e6aaaaa736a2
 #: ../../cd/index.rst:3
 msgid "Continuous Delivery"
-msgstr ""
+msgstr "Непрерывная доставка"
 
 # 263f1a32fcdc4eb28eccb943bbcc4e91
 #: ../../cd/index.rst:5
 msgid "TODO"
-msgstr ""
-
+msgstr "СДЕЛАТЬ"

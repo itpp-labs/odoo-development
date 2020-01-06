@@ -21,27 +21,28 @@ msgstr ""
 # 38e2f58f32b94f2eb7387547551b2d62
 #: ../../dev/diving/cases/index.rst:3
 msgid "Source Diving Cases"
-msgstr ""
+msgstr "Исходные Дайвинг Случаи"
 
 # f7f34cb3b235472e8bbd23c571ffc7e2
 #: ../../dev/diving/cases/index.rst:5
 msgid "This section contains live examples of source diving."
-msgstr ""
+msgstr "Этот раздел содержит живые примеры исходного дайвинга."
 
 # d08c707d023543bda2c64f7f774a41c4
 #: ../../dev/diving/cases/index.rst:7
 msgid ""
-"Each case contains problem description and possible solutions. Use "
-"problems as exercises and solutions as manual."
+"Each case contains problem description and possible solutions. Use problems "
+"as exercises and solutions as manual."
 msgstr ""
+"Каждый случай содержит описание проблемы и возможные решения. Используйте "
+"проблемы в качестве упражнений, а решения в качестве руководства."
 
 # 8e46a2989c1d40ecac8bc98f1340fb03
 #: ../../dev/diving/cases/index.rst:14
 msgid "Guidelines"
-msgstr ""
+msgstr "Методические рекомендации"
 
 # 30f08155755f4b47a95e21d6802138fa
 #: ../../dev/diving/cases/index.rst:16
 msgid "Use template below for new cases"
-msgstr ""
-
+msgstr "Используйте шаблон ниже для новых случаев"

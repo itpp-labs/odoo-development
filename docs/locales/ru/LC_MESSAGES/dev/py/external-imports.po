@@ -21,24 +21,26 @@ msgstr ""
 # 08141e6a8a2d42e79a415635b047d984
 #: ../../dev/py/external-imports.rst:3
 msgid "External dependencies in odoo"
-msgstr ""
+msgstr "Внешние зависимости в odoo"
 
 # fad322f041774da0956196cac0562333
 #: ../../dev/py/external-imports.rst:6
 msgid "What"
-msgstr ""
+msgstr "какая"
 
 # cba3211820d04c0b87532536120f974a
 #: ../../dev/py/external-imports.rst:8
 msgid ""
-"External dependencies are python packages or any binaries, that have to "
-"be installed to make module work."
+"External dependencies are python packages or any binaries, that have to be "
+"installed to make module work."
 msgstr ""
+"Внешние зависимости - это пакеты Python или любые двоичные файлы, которые "
+"должны быть установлены для работы модуля."
 
 # 189e2971cb554acab1fdb732d271ace6
 #: ../../dev/py/external-imports.rst:12
 msgid "How"
-msgstr ""
+msgstr "Как"
 
 # 1e2199f43af34a0f925a6bfa695d9a45
 #: ../../dev/py/external-imports.rst:14
@@ -46,14 +48,19 @@ msgid ""
 "In python files where you use external dependencies you will need to add "
 "``try-except`` with a debug log."
 msgstr ""
+"В файлах python, где вы используете внешние зависимости, вам нужно добавить "
+"`` try-Кроме`` с журналом отладки."
 
 # 87dfdc374a054ad7ba90594f79fa0f79
 #: ../../dev/py/external-imports.rst:34
 msgid ""
-"This rule doesn't apply to the test files since these files are loaded "
-"only when running tests and in such a case your module and their external"
-" dependencies are installed."
+"This rule doesn't apply to the test files since these files are loaded only "
+"when running tests and in such a case your module and their external "
+"dependencies are installed."
 msgstr ""
+"Это правило не применяется к тестовым файлам, поскольку эти файлы "
+"загружаются только при выполнении тестов, и в этом случае ваш модуль и его "
+"внешние зависимости установлены."
 
 # f0445b0d3e12447e82f43798a112cc48
 #: ../../dev/py/external-imports.rst:37
@@ -61,11 +68,13 @@ msgid ""
 "Also, you you need to add external dependencies to "
 ":doc:`manifest<../docs/__manifest__.py>`."
 msgstr ""
+"Также вам необходимо добавить внешние зависимости в: doc: `manifest &lt;../ "
+"docs / __ manifest __. Py&gt;`."
 
 # 6f8a87ffbff3424e9f77db39077be1bf
 #: ../../dev/py/external-imports.rst:40
 msgid "Why"
-msgstr ""
+msgstr "Почему"
 
 # 933262edb5c249baabfb4a47fc4f1533
 #: ../../dev/py/external-imports.rst:42
@@ -73,28 +82,34 @@ msgid ""
 "Odoo loads python files of a module whenever following conditions are "
 "satisfied:"
 msgstr ""
+"Odoo загружает Python-файлы модуля, когда выполняются следующие условия:"
 
 # 24df55c6e1aa4e83bf1a010a22b350f6
 #: ../../dev/py/external-imports.rst:44
 msgid "the module has static folder (e.g. for an icon)"
-msgstr ""
+msgstr "модуль имеет статическую папку (например, для иконки)"
 
 # e899b22e1f9340f9880f60d316fd08de
 #: ../../dev/py/external-imports.rst:45
 msgid ""
 "the module marked as installable in "
-":doc:`manifest<../docs/__manifest__.py>`, i.e. the module *can* be "
-"installed"
+":doc:`manifest<../docs/__manifest__.py>`, i.e. the module *can* be installed"
 msgstr ""
+"модуль, помеченный как устанавливаемый в: doc: `manifest &lt;../ docs / __ "
+"manifest __. py&gt;`, т.е. модуль * можно * установить"
 
 # 01b33bcf8dc84c85801425bb7a478581
 #: ../../dev/py/external-imports.rst:47
 msgid ""
-"One can see, that odoo loads python files even if module is not installed"
-" (and even not intenteded to be installed). But modules usually are added"
-" to addons-path as a part of some repository (e.g. *pos-addons*). This is"
-" why importing external dependencies without ``try-except`` leads to "
-"problems on adding repostitory to :doc:`addons-"
-"path<../../admin/addons_path>`."
+"One can see, that odoo loads python files even if module is not installed "
+"(and even not intenteded to be installed). But modules usually are added to "
+"addons-path as a part of some repository (e.g. *pos-addons*). This is why "
+"importing external dependencies without ``try-except`` leads to problems on "
+"adding repostitory to :doc:`addons-path<../../admin/addons_path>`."
 msgstr ""
-
+"Видно, что odoo загружает файлы Python, даже если модуль не установлен (и "
+"даже не предназначен для установки). Но модули обычно добавляются в addons-"
+"path как часть некоторого репозитория (например, * pos-addons *). Вот почему"
+" импорт внешних зависимостей без `` try-кроме`` приводит к проблемам при "
+"добавлении репозитория в: doc: `addons-path &lt;../../ admin / "
+"addons_path&gt;`."

@@ -21,10 +21,9 @@ msgstr ""
 # aa5dce425fdf499fa1b8bf1c7ad6ba47
 #: ../../migration/migrate-odoo-11-to-12.rst:3
 msgid "``11.0-`` → ``12.0+``"
-msgstr ""
+msgstr "`` 11.0-`` → `` 12.0 + ``"
 
 # c5d45252d40c4297825f9ca6bce7cba5
 #: ../../migration/migrate-odoo-11-to-12.rst:6
 msgid "New API"
-msgstr ""
-
+msgstr "Новый API"

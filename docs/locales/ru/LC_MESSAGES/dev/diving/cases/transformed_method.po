@@ -21,29 +21,38 @@ msgstr ""
 # a642554f11ab4896b810c72e7afcdcba
 #: ../../dev/diving/cases/transformed_method.rst:3
 msgid "Case: \"Transformed the method\""
-msgstr ""
+msgstr "Дело: «Преобразованный метод»"
 
 # 8ef44dd0d2294c1f9cb4ec9007dfd00e
 #: ../../dev/diving/cases/transformed_method.rst:6
 msgid "Context"
-msgstr ""
+msgstr "контекст"
 
 # 24dca3f3e5b04795b67c4a6a2cba73cd
 #: ../../dev/diving/cases/transformed_method.rst:8
 msgid ""
-"When porting module `mail_move_message <https://github.com/yelizariev"
-"/mail-addons/tree/9.0/mail_move_message>`_ in the file "
+"When porting module `mail_move_message <https://github.com/yelizariev/mail-"
+"addons/tree/9.0/mail_move_message>`_ in the file "
 "`static/src/js/mail_move_message.js <https://github.com/yelizariev/mail-"
 "addons/blob/9.0/mail_move_message/static/src/js/mail_move_message.js>`_ "
 "there is a method `session.web.form.FormOpenPopup(this) "
 "<https://github.com/yelizariev/mail-"
 "addons/blob/9.0/mail_move_message/static/src/js/mail_move_message.js#L64>`_."
 msgstr ""
+"При портировании модуля `mail_move_message "
+"<https://github.com/yelizariev/mail-addons/tree/9.0/mail_move_message> `_ в "
+"файле` static / src / js / mail_move_message.js "
+"<https://github.com/yelizariev/mail-"
+"addons/blob/9.0/mail_move_message/static/src/js/mail_move_message.js> `_ "
+"есть метод` session.web.form.FormOpenPopup (this) "
+"<https://github.com/yelizariev/mail-"
+"addons/blob/9.0/mail_move_message/static/src/js/mail_move_message.js#L64> "
+"`_."
 
 # 51e7e82566c544f9bb0d5bcf5dc24b1c
 #: ../../dev/diving/cases/transformed_method.rst:11
 msgid "Problem"
-msgstr ""
+msgstr "проблема"
 
 # bfb1e966761b4701923e59e2f3250c63
 #: ../../dev/diving/cases/transformed_method.rst:13
@@ -51,14 +60,15 @@ msgid ""
 "In 9.0 not found such object. What object would be the analogue of the "
 "object? What you need to do to find this object?"
 msgstr ""
+"В 9.0 не найден такой объект. Какой объект будет аналогом объекта? Что нужно"
+" сделать, чтобы найти этот объект?"
 
 # 6c226fb23dfa42f0aad24e42e9256dcc
 #: ../../dev/diving/cases/transformed_method.rst:16
 msgid "Solution"
-msgstr ""
+msgstr "Решение"
 
 # 3bf68c0222c54c40a424745808e63275
 #: ../../dev/diving/cases/transformed_method.rst:18
 msgid ":doc:`Possible solution <./answers/transformed_method>`"
-msgstr ""
-
+msgstr ": doc: `Возможное решение &lt;./ answers / transformed_method&gt;`"

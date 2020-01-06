@@ -21,7 +21,7 @@ msgstr ""
 # c939a31193c04e92a45804a322415843
 #: ../../admin/posbox/posbox-emulation.rst:2
 msgid "Running PosBox on your computer for development purposes"
-msgstr ""
+msgstr "Запуск PosBox на вашем компьютере в целях разработки"
 
 # 4617d0d447e94b1b980172062063c6e0
 #: ../../admin/posbox/posbox-emulation.rst:4
@@ -29,26 +29,32 @@ msgid ""
 "Running PosBox on your computer is means running the second odoo server "
 "instead PosBox."
 msgstr ""
+"Запуск PosBox на вашем компьютере означает запуск второго сервера odoo "
+"вместо PosBox."
 
 # 6c60dba0017b42f4a9bbd02fea141960
 #: ../../admin/posbox/posbox-emulation.rst:6
 msgid ""
-"For run the second odoo server it's necessary to change the configuration"
-" settings which is different from the running settings the first odoo "
-"server."
+"For run the second odoo server it's necessary to change the configuration "
+"settings which is different from the running settings the first odoo server."
 msgstr ""
+"Для запуска второго сервера odoo необходимо изменить параметры конфигурации,"
+" которые отличаются от текущих настроек первого сервера odoo."
 
 # b3c3d6b77a5f4f01a8e7f1b1c38d44d7
 #: ../../admin/posbox/posbox-emulation.rst:8
 msgid "For this, just change the ``xmlrpc`` and ``longpolling`` port value."
 msgstr ""
+"Для этого просто измените значение порта `` xmlrpc`` и `` longpolling``."
 
 # 4162295e881e46d98d08de1b2bec5dea
 #: ../../admin/posbox/posbox-emulation.rst:10
 msgid ""
-"For example, if the run settings for the first odoo server ``/path/to"
-"/openerp-server1.conf``::"
+"For example, if the run settings for the first odoo server "
+"``/path/to/openerp-server1.conf``::"
 msgstr ""
+"Например, если настройки запуска для первого odoo-сервера `` / path / to / "
+"openerp-server1.conf`` ::"
 
 # a29cc926263c43728884374e29c0047a
 #: ../../admin/posbox/posbox-emulation.rst:15
@@ -56,6 +62,8 @@ msgid ""
 "then the settings for the second odoo server ``/path/to/openerp-"
 "server2.conf`` can be as follows::"
 msgstr ""
+"тогда настройки для второго odoo-сервера `` / path / to / openerp-"
+"server2.conf`` могут быть следующими:"
 
 # eef7882c66774f0ca849dc2ddd06bfd9
 #: ../../admin/posbox/posbox-emulation.rst:20
@@ -63,21 +71,28 @@ msgid ""
 "Example of running **PosBox** on your computer with used ``Network "
 "Printer``:"
 msgstr ""
+"Пример запуска ** PosBox ** на вашем компьютере с использованием `` Network "
+"Printer``:"
 
 # bdd73ca27cd74337b8080f9270ae47ed
 #: ../../admin/posbox/posbox-emulation.rst:22
 msgid "Run first Odoo Server, e.g.::"
-msgstr ""
+msgstr "Запустите первый сервер Odoo, например:"
 
 # 03d3ec6108bd4868a6247195ca6041d0
 #: ../../admin/posbox/posbox-emulation.rst:26
 msgid ""
 "Install the `Pos Printer Network "
-"<https://www.odoo.com/apps/modules/10.0/pos_printer_network/>`_ module on"
-" Odoo in a `usual <http://odoo-"
+"<https://www.odoo.com/apps/modules/10.0/pos_printer_network/>`_ module on "
+"Odoo in a `usual <http://odoo-"
 "development.readthedocs.io/en/latest/odoo/usage/install-"
 "module.html?highlight=install#from-app-store-install>`_ way."
 msgstr ""
+"Установите `Pos Printer Network "
+"<https://www.odoo.com/apps/modules/10.0/pos_printer_network/> `_ модуль на "
+"Odoo в` обычном <http://odoo-"
+"development.readthedocs.io/en/latest/odoo/usage/install-"
+"module.html?highlight=install#from-app-store-install> `_ способ."
 
 # d28d4f3e3a9e4bbdbbcfc784cc567955
 #: ../../admin/posbox/posbox-emulation.rst:27
@@ -85,32 +100,41 @@ msgid ""
 "Configure PosBox using the `installation instructions "
 "<https://apps.odoo.com/apps/modules/10.0/pos_printer_network/>`_."
 msgstr ""
+"Сконфигурируйте PosBox, используя `инструкции по установке "
+"<https://apps.odoo.com/apps/modules/10.0/pos_printer_network/> `_."
 
 # 2fc589c460bf49f8a5cf4e59e7fe8768
 #: ../../admin/posbox/posbox-emulation.rst:28
 msgid ""
-"Run second Odoo Server using new settings and add to ``--load "
-"parameters``, e.g.::"
+"Run second Odoo Server using new settings and add to ``--load parameters``, "
+"e.g.::"
 msgstr ""
+"Запустите второй Odoo Server, используя новые настройки, и добавьте в `` "
+"--load parameters``, например:"
 
 # 6b884755f5d043328a493278c8e63c2b
 #: ../../admin/posbox/posbox-emulation.rst:32
 msgid "Print in network printer."
-msgstr ""
+msgstr "Печать в сетевом принтере."
 
 # ca66f7c322884245a31f1074ae9ac921
 #: ../../admin/posbox/posbox-emulation.rst:35
 msgid "Run PosBox via docker"
-msgstr ""
+msgstr "Запустите PosBox через докер"
 
 # f8d21d80ae2449d8bf00419fa1ab8494
 #: ../../admin/posbox/posbox-emulation.rst:36
 msgid ""
 "Example with `hw_printer_network "
-"<https://www.odoo.com/apps/modules/10.0/pos_printer_network/>`_ and "
-"`PosBox 8.0 "
+"<https://www.odoo.com/apps/modules/10.0/pos_printer_network/>`_ and `PosBox "
+"8.0 "
 "<https://github.com/odoo/odoo/tree/8.0/addons/point_of_sale/tools/posbox>`_:"
 msgstr ""
+"Пример с `hw_printer_network "
+"<https://www.odoo.com/apps/modules/10.0/pos_printer_network/> `_ и` PosBox "
+"8.0 "
+"<https://github.com/odoo/odoo/tree/8.0/addons/point_of_sale/tools/posbox> "
+"`_:"
 
 # fe7f506362b2441f938854639f45be15
 #: ../../admin/posbox/posbox-emulation.rst:54
@@ -118,6 +142,8 @@ msgid ""
 "To use your version of built-in odoo modules use add following ``-v "
 "path/to/odoo:/mnt/odoo-source``."
 msgstr ""
+"Чтобы использовать вашу версию встроенных модулей odoo, используйте "
+"следующий `` -v путь / к / odoo: / mnt / odoo-source``."
 
 # 6ba4e6ee0d5548d99f281d0e4e0f1e7f
 #: ../../admin/posbox/posbox-emulation.rst:56
@@ -125,12 +151,16 @@ msgid ""
 "Source of this docker can be found here: https://github.com/it-projects-"
 "llc/install-odoo/tree/8.0/dockers/posbox"
 msgstr ""
+"Источник этого докера можно найти здесь: https://github.com/it-projects-"
+"llc/install-odoo/tree/8.0/dockers/posbox"
 
 # df145b7276dd4f6a83ab6e24da4a033f
 #: ../../admin/posbox/posbox-emulation.rst:58
 msgid ""
-"It actually doesn't work and raises error \"No backend available\". "
-"Probably --device=/dev/SOMETHING has to be sued instead of `` "
-"--privileged     -v /dev/bus/usb:/dev/bus/usb ``"
+"It actually doesn't work and raises error \"No backend available\". Probably"
+" --device=/dev/SOMETHING has to be sued instead of `` --privileged     -v "
+"/dev/bus/usb:/dev/bus/usb ``"
 msgstr ""
-
+"Это на самом деле не работает и выдает ошибку «Нет доступного бэкэнда». "
+"Вероятно, вместо - `--privileged -v / dev / bus / usb: / dev / bus / usb` "
+"`следует использовать --device = / dev / SOMETHING"

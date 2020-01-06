@@ -21,5 +21,4 @@ msgstr ""
 # d1f4056303044b9a90bf0f4c17d7692b
 #: ../../dev/lint/rst-lint.rst:3
 msgid "Fixing rst lints in odoo"
-msgstr ""
-
+msgstr "Исправление первых линтов в odoo"

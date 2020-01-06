@@ -21,57 +21,57 @@ msgstr ""
 # 11d80f84d6384b54bdcfb77b690e8bfd
 #: ../../dev/pos/action-buttons.rst:3
 msgid "Action Buttons"
-msgstr ""
+msgstr "Кнопки действий"
 
 # 87902e0dee9141afb23e0ee5ad47cebc
 #: ../../dev/pos/action-buttons.rst:5
 msgid "``Action Buttons`` are following buttons:"
-msgstr ""
+msgstr "`` Action Buttons`` - это следующие кнопки:"
 
 # 7e7cf3bfbe694f9cacf87a8b87c6fe8d
 #: ../../dev/pos/action-buttons.rst:7
 msgid "``Note``"
-msgstr ""
+msgstr "`` Note``"
 
 # 73902ddc96a24b52ad584da777ab2d0d
 #: ../../dev/pos/action-buttons.rst:8
 msgid "``Transfer``"
-msgstr ""
+msgstr "`` Transfer``"
 
 # 65c2cfa784a24f678ae02837f762e77e
 #: ../../dev/pos/action-buttons.rst:9
 msgid "``Guests``"
-msgstr ""
+msgstr "`` Guests``"
 
 # 391b6a3b02064c5095397c383ac91eae
 #: ../../dev/pos/action-buttons.rst:10
 msgid "``Bill``"
-msgstr ""
+msgstr "`` Bill``"
 
 # 7cc8cdc74e54421999b14b53f8795923
 #: ../../dev/pos/action-buttons.rst:11
 msgid "``Split``"
-msgstr ""
+msgstr "`` Split``"
 
 # f98e5f9de03246dbae6a215efc8883e1
 #: ../../dev/pos/action-buttons.rst:12
 msgid "``Order``"
-msgstr ""
+msgstr "`` Order``"
 
 # d21aec29981649beba4a4c8a02c9f77e
 #: ../../dev/pos/action-buttons.rst:13
 msgid "``Discount``"
-msgstr ""
+msgstr "`` Discount``"
 
 # 1caca2df2eba48cca9d5c9afd860e8ca
 #: ../../dev/pos/action-buttons.rst:14
 msgid "etc."
-msgstr ""
+msgstr "и т.п."
 
 # aef6ad4484864e13acb16747fcd489b7
 #: ../../dev/pos/action-buttons.rst:16
 msgid "that are located above **Numpad**."
-msgstr ""
+msgstr "которые расположены выше ** Numpad **."
 
 # 2ab96ffc544647d8967529e0b87fbde1
 #: ../../dev/pos/action-buttons.rst:18
@@ -80,6 +80,9 @@ msgid ""
 "(``Discount`` button, which allows defining the size of discount for the "
 "order) and **pos_restaurant** module (``Split``, ``Guests`` buttons etc.)"
 msgstr ""
+"Эти кнопки отображаются только после установки модуля ** pos_discount ** "
+"(кнопка `` Скидка``, позволяющая определить размер скидки на заказ) и модуля"
+" ** pos_restaurant ** (`` Split``, `` Гости`) `кнопки и т. д.)"
 
 # 6c455d156a054b6e8e0a1ee914d51fe3
 #: ../../dev/pos/action-buttons.rst:20
@@ -87,14 +90,19 @@ msgid ""
 "You can create your own buttons assigning them to actions (for example "
 "**open_popup**, **screen** and etc)."
 msgstr ""
+"Вы можете создавать свои собственные кнопки, назначая их действиям "
+"(например, ** open_popup **, ** screen ** и т. Д.)."
 
 # db9332e594a44881a9b135a1ec9cfd79
 #: ../../dev/pos/action-buttons.rst:22
 msgid ""
-"To create a Button you need to inherit **ActionButtonWidget** Class, "
-"select **define_action_button** and choose the necessary action after the"
-" pressing corresponding button."
+"To create a Button you need to inherit **ActionButtonWidget** Class, select "
+"**define_action_button** and choose the necessary action after the pressing "
+"corresponding button."
 msgstr ""
+"Чтобы создать кнопку, вам нужно унаследовать ** ActionButtonWidget ** Class,"
+" выбрать ** define_action_button ** и выбрать необходимое действие после "
+"нажатия соответствующей кнопки."
 
 # b0f2b46344914d82bed176eb1b949ded
 #: ../../dev/pos/action-buttons.rst:24
@@ -102,18 +110,23 @@ msgid ""
 "*Consider, for example, the way of creating a simple Button, which opens "
 "popup-window.*"
 msgstr ""
+"* Рассмотрим, например, способ создания простой кнопки, которая открывает "
+"всплывающее окно. *"
 
 # f2ca49a2be2049b8a4a86df96cd77bff
 #: ../../dev/pos/action-buttons.rst:74
 msgid "The definition of the ``template`` in ``Qweb``:"
-msgstr ""
+msgstr "Определение `` template`` в `` Qweb``:"
 
 # 2bd86cc62c904e8c8bfe13c6ee7cd681
 #: ../../dev/pos/action-buttons.rst:84
 msgid ""
 "For a concrete example check the **POS Orders History** `module "
 "<https://github.com/it-projects-llc/pos-"
-"addons/blob/12.0/pos_orders_history/static/src/js/screens.js#L22>`__ , "
-"where you can see that a button with the label *Orders History* is added."
+"addons/blob/12.0/pos_orders_history/static/src/js/screens.js#L22>`__ , where"
+" you can see that a button with the label *Orders History* is added."
 msgstr ""
-
+"Для конкретного примера проверьте модуль ** POS Orders History ** ` "
+"<https://github.com/it-projects-llc/pos-"
+"addons/blob/12.0/pos_orders_history/static/src/js/screens.js#L22> `__, где "
+"вы видите, что добавлена кнопка с надписью * История заказов *."

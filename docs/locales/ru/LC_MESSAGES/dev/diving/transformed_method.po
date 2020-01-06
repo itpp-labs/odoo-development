@@ -21,58 +21,71 @@ msgstr ""
 # a1e44db76f3040a0887b2186451fe90f
 #: ../../dev/diving/transformed_method.rst:3
 msgid "Overview: \"Transformed the method\""
-msgstr ""
+msgstr "Обзор: «Преобразованный метод»"
 
 # 844ecea0979242a082a0703f95592383
 #: ../../dev/diving/transformed_method.rst:5
 msgid ""
-"Quite often when porting a module from 8.0 to 9.0 there is a situation, "
-"when 8.0 is a object, but there is no 9.0. And it is not clear - it is "
-"outdated and it was removed or it was renamed. In very advanced cases, an"
-" object can be renamed and changed almost beyond recognition."
+"Quite often when porting a module from 8.0 to 9.0 there is a situation, when"
+" 8.0 is a object, but there is no 9.0. And it is not clear - it is outdated "
+"and it was removed or it was renamed. In very advanced cases, an object can "
+"be renamed and changed almost beyond recognition."
 msgstr ""
+"Довольно часто при портировании модуля с 8.0 на 9.0 возникает ситуация, "
+"когда 8.0 является объектом, а 9.0 отсутствует. И не понятно - устарел и был"
+" удален или переименован. В очень сложных случаях объект может быть "
+"переименован и изменен почти до неузнаваемости."
 
 # 91e9b290981749229434f9df5a30cb9b
 #: ../../dev/diving/transformed_method.rst:7
 msgid "To search you need to take several steps:"
-msgstr ""
+msgstr "Для поиска нужно сделать несколько шагов:"
 
 # c336719beb5347a9aa7ea6c81e52b75f
 #: ../../dev/diving/transformed_method.rst:9
 msgid "The default view that such an object exist, but it was renamed."
 msgstr ""
+"Представление по умолчанию, что такой объект существует, но он был "
+"переименован."
 
 # d4bb5ed2633a45259cea61d430866055
 #: ../../dev/diving/transformed_method.rst:11
 msgid "Look, what makes this object."
-msgstr ""
+msgstr "Смотри, что делает этот объект."
 
 # abb833d42c3d464cb4579a9b1d739993
 #: ../../dev/diving/transformed_method.rst:13
 msgid ""
-"Search by name of methods that contains the given object, excluding "
-"common words (for example, init, start, destroy...)."
+"Search by name of methods that contains the given object, excluding common "
+"words (for example, init, start, destroy...)."
 msgstr ""
+"Поиск по названию методов, содержащих данный объект, за исключением общих "
+"слов (например, init, start, destroy ...)."
 
 # 5cbe83d6ddba4e6b8bfa8e7b36d2c2c1
 #: ../../dev/diving/transformed_method.rst:15
 msgid ""
-"If the result is not found that search by unique keywords which can be "
-"found by bringing the object."
+"If the result is not found that search by unique keywords which can be found"
+" by bringing the object."
 msgstr ""
+"Если результат не найден, ищите по уникальным ключевым словам, которые можно"
+" найти, приведя объект."
 
 # 6f2257e008e04c809743f8c6a9766be5
 #: ../../dev/diving/transformed_method.rst:17
-msgid "If anything gave no results, then maybe the object is deleted as obsolete."
+msgid ""
+"If anything gave no results, then maybe the object is deleted as obsolete."
 msgstr ""
+"Если что-то не дало результатов, то, возможно, объект удаляется как "
+"устаревший."
 
 # 14777879c234496bae101a8f1aac545e
 #: ../../dev/diving/transformed_method.rst:19
 msgid ":doc:`Case <./cases/transformed_method>`"
-msgstr ""
+msgstr ": doc: `Case &lt;./ case / transformed_method&gt;`"
 
 # 423acc11999a4b798d020fc0bc201134
 #: ../../dev/diving/transformed_method.rst:21
 msgid ":doc:`Possible solution <./cases/answers/transformed_method>`"
 msgstr ""
-
+": doc: `Возможное решение &lt;./ case / answers / transformed_method&gt;`"

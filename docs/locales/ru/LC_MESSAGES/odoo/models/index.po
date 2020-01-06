@@ -21,10 +21,9 @@ msgstr ""
 # fa96e309934e43f69a7ed967db1b085c
 #: ../../odoo/models/index.rst:2
 msgid "Models"
-msgstr ""
+msgstr "модели"
 
 # 201595a621484f10a5838d01b7b9ad3f
 #: ../../odoo/models/index.rst:4
 msgid "Section helps in understanding built-in models"
-msgstr ""
-
+msgstr "Раздел помогает в понимании встроенных моделей"

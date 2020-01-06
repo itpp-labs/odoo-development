@@ -21,5 +21,4 @@ msgstr ""
 # 1f4d07abc252447eb2983b73cf19c467
 #: ../../other/index.rst:2
 msgid "Other"
-msgstr ""
-
+msgstr "Другой"

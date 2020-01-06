@@ -21,34 +21,36 @@ msgstr ""
 # feb391edafe0416493a49111515622f2
 #: ../../odoo/usage/install-module.rst:3
 msgid "How to install/update module"
-msgstr ""
+msgstr "Как установить / обновить модуль"
 
 # cd113a4bf37d4934ad6ebcfd1b9234a9
 #: ../../odoo/usage/install-module.rst:8
 msgid ""
-"``Import Module`` tool (import from a zip  file) doesn't work for modules"
-" with python files. It means that it doesn't work in most cases"
+"``Import Module`` tool (import from a zip  file) doesn't work for modules "
+"with python files. It means that it doesn't work in most cases"
 msgstr ""
+"Инструмент `` Module Module`` (импорт из zip-файла) не работает для модулей "
+"с файлами Python. Это означает, что это не работает в большинстве случаев"
 
 # 0103b5d6a0f9470ba262517b552a57d8
 #: ../../odoo/usage/install-module.rst:15
 msgid "From zip archive"
-msgstr ""
+msgstr "Из почтового архива"
 
 # e13b338a295045a4a1cec9628521a32d
 #: ../../odoo/usage/install-module.rst:17
 msgid "unzip module to your addons folder"
-msgstr ""
+msgstr "разархивируйте модуль в папку дополнений"
 
 # 5cbb4274e8134d55a01029d53c728a0e
 #: ../../odoo/usage/install-module.rst:18
 msgid "restart odoo server"
-msgstr ""
+msgstr "перезапустите сервер odoo"
 
 # 0c4231782a554fc582967aa469788ac4
 #: ../../odoo/usage/install-module.rst:21
 msgid "11.0+"
-msgstr ""
+msgstr "11.0+"
 
 # 3fddc0bfd60b4971ac9de2a288fd98ba
 # 85dc8633f08a471bb931af2d19306a2b
@@ -59,7 +61,7 @@ msgstr ""
 #: ../../odoo/usage/install-module.rst:61
 #: ../../odoo/usage/install-module.rst:80
 msgid "install"
-msgstr ""
+msgstr "устанавливать"
 
 # b50c0a43aab74f15b4a4ad1aaee4365f
 # e25bdd2419c6462ebc9d23f8365029f3
@@ -68,7 +70,7 @@ msgstr ""
 #: ../../odoo/usage/install-module.rst:45
 #: ../../odoo/usage/install-module.rst:63
 msgid ":doc:`activate developer mode <debug-mode>`"
-msgstr ""
+msgstr ": doc: `активировать режим разработчика <debug-mode> `"
 
 # 3d064b3d8a7444ae87bfdfa59bb4abfe
 # aedb075767db4d48a49a028f81bc1409
@@ -83,7 +85,7 @@ msgstr ""
 #: ../../odoo/usage/install-module.rst:64
 #: ../../odoo/usage/install-module.rst:72
 msgid "navigate to ``Apps`` menu"
-msgstr ""
+msgstr "перейдите в меню `` Apps``"
 
 # 6c3d6ed76ef74ff3ba05f9f203f92686
 # 8999d5f3d4ad4be89769e80d9de36999
@@ -92,7 +94,7 @@ msgstr ""
 #: ../../odoo/usage/install-module.rst:47
 #: ../../odoo/usage/install-module.rst:65
 msgid "click ``Update Apps List``"
-msgstr ""
+msgstr "нажмите «Обновить список приложений»"
 
 # c3bd04d70b4d4a75a6c2f5e585cecf92
 # 33c2119d2c9c4675bc2111446bd8a32d
@@ -111,7 +113,7 @@ msgstr ""
 #: ../../odoo/usage/install-module.rst:83
 #: ../../odoo/usage/install-module.rst:90
 msgid "search and open a module you need"
-msgstr ""
+msgstr "найдите и откройте нужный вам модуль"
 
 # a6a74d0da7da4229be6f817a7b80e14e
 # 360624cbe0d743de846e7b547fa1826c
@@ -122,7 +124,7 @@ msgstr ""
 #: ../../odoo/usage/install-module.rst:67
 #: ../../odoo/usage/install-module.rst:84
 msgid "click ``[Install]``"
-msgstr ""
+msgstr "нажмите `` [Установить] ``"
 
 # 95d254c832c9427aad3145a5a69093a9
 # 5d568250c746435689e4882dd3fc50a0
@@ -133,7 +135,7 @@ msgstr ""
 #: ../../odoo/usage/install-module.rst:70
 #: ../../odoo/usage/install-module.rst:87
 msgid "update"
-msgstr ""
+msgstr "Обновить"
 
 # e6c4937f40404a8c99e402976a26c4b1
 # 55a277f0ab294abf8ab62ae87281b8e1
@@ -144,27 +146,26 @@ msgstr ""
 #: ../../odoo/usage/install-module.rst:74
 #: ../../odoo/usage/install-module.rst:91
 msgid "click ``[Upgrade]``"
-msgstr ""
+msgstr "нажмите `` [Обновить] ``"
 
 # 0b80cdfc6d6642a490a79c9ed6248eb3
 #: ../../odoo/usage/install-module.rst:40
 msgid "10.0+"
-msgstr ""
+msgstr "10.0+"
 
 # 76cda64888af4b37b6d8c418c79ed8a9
 #: ../../odoo/usage/install-module.rst:59
 msgid "9.0"
-msgstr ""
+msgstr "9,0"
 
 # 1fbfb50f166c4ab2ad7fb4bfdbc8bbf3
 #: ../../odoo/usage/install-module.rst:77
 msgid "8.0"
-msgstr ""
+msgstr "8,0"
 
 # 0d284bd3dc2046fa8de85cd5598acdd6
 # dba5cb3b652440588b32f2bfb1d3cb5a
 #: ../../odoo/usage/install-module.rst:82
 #: ../../odoo/usage/install-module.rst:89
 msgid "navigate to ``[[ Settings ]] >> Local Modules``"
-msgstr ""
-
+msgstr "перейдите к `` [[Настройки]] &gt;&gt; Локальные модули``"

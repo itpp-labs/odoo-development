@@ -21,44 +21,47 @@ msgstr ""
 # 63118fa1420548a688d2a2bc014eb2f7
 #: ../../dev/pos/send-pos-orders-to-server.rst:3
 msgid "Sending POS Orders to Server"
-msgstr ""
+msgstr "Отправка POS-заказов на сервер"
 
 # 3e9648f8c8424e51b085b630eeef2b95
 #: ../../dev/pos/send-pos-orders-to-server.rst:5
 msgid ""
-"This article describes the process of sending POS Orders to odoo server "
-"and demonstrates possible usage of extending it."
+"This article describes the process of sending POS Orders to odoo server and "
+"demonstrates possible usage of extending it."
 msgstr ""
+"В этой статье описывается процесс отправки POS-заказов на сервер odoo и "
+"демонстрируется возможное использование его расширения."
 
 # ab0b2b9330d3406188e216be96b0b4c6
 #: ../../dev/pos/send-pos-orders-to-server.rst:8
 msgid "The general process is as follows:"
-msgstr ""
+msgstr "Общий процесс выглядит следующим образом:"
 
 # 4a35b98107b04928bc12cc59cad6c573
 #: ../../dev/pos/send-pos-orders-to-server.rst:10
 msgid "Client side:"
-msgstr ""
+msgstr "Сторона клиента:"
 
 # 11a69a0cbfd54aa2b53f0030121ea570
 #: ../../dev/pos/send-pos-orders-to-server.rst:12
 msgid "``export_as_JSON``: converts *order data* to send to the server"
 msgstr ""
+"`` export_as_JSON``: конвертирует * данные заказа * для отправки на сервер"
 
 # 04a5d67097a140ddb8a9bfaa0c6ce452
 #: ../../dev/pos/send-pos-orders-to-server.rst:14
 msgid "then *order* is saved to browser cache"
-msgstr ""
+msgstr "затем * заказ * сохраняется в кеш браузера"
 
 # 6469427f25a54222bb012c9a81359fe3
 #: ../../dev/pos/send-pos-orders-to-server.rst:16
 msgid "then POS tries to send data to server"
-msgstr ""
+msgstr "затем POS пытается отправить данные на сервер"
 
 # 55c52bf17e64450282215e170f3e30c6
 #: ../../dev/pos/send-pos-orders-to-server.rst:19
 msgid "Backend side:"
-msgstr ""
+msgstr "Бэкэнд сторона:"
 
 # d256440869fd4a269e63034c7a42fcba
 #: ../../dev/pos/send-pos-orders-to-server.rst:21
@@ -66,14 +69,21 @@ msgid ""
 "``create_from_ui``: data come to POS (see `here "
 "<https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/models/pos_order.py#L722-L751>`__)"
 msgstr ""
+"`` create_from_ui``: данные поступают в POS (см. здесь "
+"<https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/models/pos_order.py#L722-L751>"
+" `__)"
 
 # 475c4f21158144b59a5d1c7c9fe50a5c
 #: ../../dev/pos/send-pos-orders-to-server.rst:23
 msgid ""
-"``_process_order``: process order json (created records in database, etc."
-" see `here "
+"``_process_order``: process order json (created records in database, etc. "
+"see `here "
 "<https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/models/pos_order.py#L116-L155>`__)"
 msgstr ""
+"`` _process_order``: порядок обработки json (созданные записи в базе данных "
+"и т. д. см. здесь "
+"<https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/models/pos_order.py#L116-L155>"
+" `__)"
 
 # c6b3c6d4c77a4f0caedc5fd0cf8dc110
 #: ../../dev/pos/send-pos-orders-to-server.rst:25
@@ -81,57 +91,70 @@ msgid ""
 "``_order_fields``: prepare dictionary for create method (see `how "
 "<https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/models/pos_order.py#L34-L50>`__)"
 msgstr ""
+"`` _order_fields``: подготовить словарь для метода create (смотрите `how "
+"<https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/models/pos_order.py#L34-L50>"
+" `__)"
 
 # 9928793d699c407697b19db0fafea465
 #: ../../dev/pos/send-pos-orders-to-server.rst:27
 msgid ""
-"So, in order to pass additional information and handle it on server we "
-"need:"
+"So, in order to pass additional information and handle it on server we need:"
 msgstr ""
+"Итак, чтобы передать дополнительную информацию и обработать ее на сервере, "
+"нам нужно:"
 
 # c49aaa839d594c47938f0a381c83b34d
 #: ../../dev/pos/send-pos-orders-to-server.rst:29
 msgid "extend ``export_as_JSON`` in client side"
-msgstr ""
+msgstr "расширить `` export_as_JSON`` на стороне клиента"
 
 # 503306e4bde34975b48c1d39e57c4250
 #: ../../dev/pos/send-pos-orders-to-server.rst:30
 msgid "extend ``_process_order`` in server side"
-msgstr ""
+msgstr "расширить `` _process_order`` на стороне сервера"
 
 # 543a03cfc7bd438d874e4cba4e9eafe2
 #: ../../dev/pos/send-pos-orders-to-server.rst:32
 msgid "Let's check it on example:"
-msgstr ""
+msgstr "Давайте проверим это на примере:"
 
 # d59da0ce57d34cabac44f01a54bcbb4d
 #: ../../dev/pos/send-pos-orders-to-server.rst:35
 msgid "``Saving removed products of POS order`` module"
-msgstr ""
+msgstr "Модуль `` Сохранение удаленных продуктов POS-заказа``"
 
 # 5427f87a5f704ffbb210deebbddb384a
 #: ../../dev/pos/send-pos-orders-to-server.rst:37
-msgid "The module allows to add a reason on canceling order or orderline in POS."
+msgid ""
+"The module allows to add a reason on canceling order or orderline in POS."
 msgstr ""
+"Модуль позволяет добавить причину отмены заказа или строки заказа в POS."
 
 # c4d42bcc15074a6ab6b9f7de9a280541
 #: ../../dev/pos/send-pos-orders-to-server.rst:39
 msgid "In order to do it we:"
-msgstr ""
+msgstr "Для этого мы:"
 
 # 9005800259ea42c9b1d1fcbe3edcbeda
 #: ../../dev/pos/send-pos-orders-to-server.rst:41
 msgid ""
-"extend ``export_as_JSON`` in client side (see `here <https://github.com"
-"/it-projects-llc/pos-"
+"extend ``export_as_JSON`` in client side (see `here <https://github.com/it-"
+"projects-llc/pos-"
 "addons/blob/c5539c847d0656f6885087e27e497b8d985f1e31/pos_order_cancel/static/src/js/models.js#L138-L144>`__)"
 msgstr ""
+"расширить `` export_as_JSON`` на стороне клиента (см. здесь "
+"<https://github.com/it-projects-llc/pos-"
+"addons/blob/c5539c847d0656f6885087e27e497b8d985f1e31/pos_order_cancel/static/src/js/models.js#L138-L144>"
+" `__)"
 
 # d34a853afad5433689708aa8b7d5ef84
 #: ../../dev/pos/send-pos-orders-to-server.rst:59
 msgid ""
-"extend ``_process_order`` in server side (see `here <https://github.com"
-"/it-projects-llc/pos-"
+"extend ``_process_order`` in server side (see `here <https://github.com/it-"
+"projects-llc/pos-"
 "addons/blob/c5539c847d0656f6885087e27e497b8d985f1e31/pos_order_cancel/models/models.py#L56-L62>`__)"
 msgstr ""
-
+"расширить `` _process_order`` на стороне сервера (см. здесь "
+"<https://github.com/it-projects-llc/pos-"
+"addons/blob/c5539c847d0656f6885087e27e497b8d985f1e31/pos_order_cancel/models/models.py#L56-L62>"
+" `__)"

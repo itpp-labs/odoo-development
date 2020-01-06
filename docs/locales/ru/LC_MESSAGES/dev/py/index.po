@@ -21,5 +21,4 @@ msgstr ""
 # bfb3b6516a86486086d922995d389fe7
 #: ../../dev/py/index.rst:2
 msgid "Odoo Python"
-msgstr ""
-
+msgstr "Odoo Python"

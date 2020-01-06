@@ -21,17 +21,20 @@ msgstr ""
 # 5603a2d70c0646ff8277157d81273db2
 #: ../../git/git_update.rst:3
 msgid "Update Git"
-msgstr ""
+msgstr "Обновление Git"
 
 # 115c1eaa2811473ab1844687c9172cad
 #: ../../git/git_update.rst:5
 msgid ""
-"Ubuntu 14.04 official deb repository has 1.9 version of Git. It is too "
-"old and have to be updated."
+"Ubuntu 14.04 official deb repository has 1.9 version of Git. It is too old "
+"and have to be updated."
 msgstr ""
+"Официальный deb-репозиторий Ubuntu 14.04 имеет версию Git 1.9. Это слишком "
+"старый и должен быть обновлен."
 
 # 33789a0b14394bada9ba660a286d8698
 #: ../../git/git_update.rst:8
-msgid "http://askubuntu.com/questions/579589/upgrade-git-version-on-ubuntu-14-04"
+msgid ""
+"http://askubuntu.com/questions/579589/upgrade-git-version-on-ubuntu-14-04"
 msgstr ""
-
+"http://askubuntu.com/questions/579589/upgrade-git-version-on-ubuntu-14-04"

@@ -21,5 +21,4 @@ msgstr ""
 # 44d01772dca44ae982a5622c2a2d2c7e
 #: ../../dev/lint/js-lint.rst:3
 msgid "Fixing Javascript lints in odoo"
-msgstr ""
-
+msgstr "Исправление ошибок в JavaScript в odoo"

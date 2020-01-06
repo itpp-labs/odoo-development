@@ -21,42 +21,43 @@ msgstr ""
 # cb5f9ce9d6364331a074e7f46d0cf30c
 #: ../../debugging/errors/failed-modules.rst:2
 msgid "Error: Failed modules"
-msgstr ""
+msgstr "Ошибка: сбойные модули"
 
 # b97f5dc0c04b47fc8bdb7f6f3a9a4017
 #: ../../debugging/errors/failed-modules.rst:5
 msgid ""
-"If into server console no errors but boot.js raise exception that find "
-"out reason error next steps:"
+"If into server console no errors but boot.js raise exception that find out "
+"reason error next steps:"
 msgstr ""
+"Если в консоли сервера нет ошибок, но boot.js выдает исключение, которое "
+"определяет причину ошибки, следующие шаги:"
 
 # 1cc5a481d8714adf98db969b0602e948
 #: ../../debugging/errors/failed-modules.rst:9
 msgid "Go to error line into boot.js."
-msgstr ""
+msgstr "Перейти к строке ошибки в boot.js."
 
 # 614470dfc3f047fdbc5e08657627e8db
 #: ../../debugging/errors/failed-modules.rst:11
 msgid "Turn on breakpoint."
-msgstr ""
+msgstr "Включите точку останова."
 
 # bc96453bf13643839b61881e5abc8c92
 #: ../../debugging/errors/failed-modules.rst:15
 msgid "Rerun script (click F5)"
-msgstr ""
+msgstr "Сценарий повторного запуска (нажмите F5)"
 
 # d95ad3a41bb042d795cd34f281d7f35f
 #: ../../debugging/errors/failed-modules.rst:17
 msgid "When script stop on error line move to console."
-msgstr ""
+msgstr "Когда скрипт остановится на строке ошибки, перейдите в консоль."
 
 # e842f1ae5a7e40af887f9209f80ec70d
 #: ../../debugging/errors/failed-modules.rst:19
 msgid "Type command::"
-msgstr ""
+msgstr "Введите команду ::"
 
 # 3e3615fc571b4b53a095426f15b38105
 #: ../../debugging/errors/failed-modules.rst:23
 msgid "To receive the output"
-msgstr ""
-
+msgstr "Чтобы получить вывод"

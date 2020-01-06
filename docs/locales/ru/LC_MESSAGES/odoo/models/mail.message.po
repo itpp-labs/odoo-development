@@ -21,70 +21,96 @@ msgstr ""
 # 0b74063c7d14486fafb7854608b2e353
 #: ../../odoo/models/mail.message.rst:2
 msgid "mail.message"
-msgstr ""
+msgstr "mail.message"
 
 # 2f88e6ced40e4b198716df79f71cf5e8
 #: ../../odoo/models/mail.message.rst:5
 msgid "**Message Subtypes in Odoo**"
-msgstr ""
+msgstr "** Подтипы сообщений в Odoo **"
 
 # 58de40daac7144e9bc9e9917851156aa
 #: ../../odoo/models/mail.message.rst:8
 msgid ""
-"Most of the time in Odoo multiple users work upon one particular record "
-"or document like sale order,Invoice ,Tasks etc. In such scenarios,it "
-"becomes extremely important to track changes done by every individual "
-"against that document. It helps management to find any possible reason in"
-" case of any issue occurs. Odoo provides this feature to great extent "
-"with the help of OpenChatter Integration."
+"Most of the time in Odoo multiple users work upon one particular record or "
+"document like sale order,Invoice ,Tasks etc. In such scenarios,it becomes "
+"extremely important to track changes done by every individual against that "
+"document. It helps management to find any possible reason in case of any "
+"issue occurs. Odoo provides this feature to great extent with the help of "
+"OpenChatter Integration."
 msgstr ""
+"Большую часть времени в Odoo несколько пользователей работают над одной "
+"конкретной записью или документом, таким как заказ на продажу, счет-фактура,"
+" задачи и т. Д. В таких сценариях становится чрезвычайно важно отслеживать "
+"изменения, внесенные каждым лицом в этот документ. Это помогает руководству "
+"найти любую возможную причину в случае возникновения любой проблемы. Odoo "
+"предоставляет эту функцию в значительной степени с помощью интеграции "
+"OpenChatter."
 
 # 278014d473b9481eb8a57a587a77838b
 #: ../../odoo/models/mail.message.rst:10
 msgid ""
 "Consider a scenario where multiple users are working in a single "
 "project.Various parameters for that project are already configured like "
-"deadline,Initially Planned Hours etc. Now one of the user changes the "
-"value of Planned Hours. So now it is important to know which user has "
-"changed it and what was the previous value. We can track it by creating "
-"message subtypes in Odoo as following."
+"deadline,Initially Planned Hours etc. Now one of the user changes the value "
+"of Planned Hours. So now it is important to know which user has changed it "
+"and what was the previous value. We can track it by creating message "
+"subtypes in Odoo as following."
 msgstr ""
+"Рассмотрим сценарий, в котором несколько пользователей работают в одном "
+"проекте. Различные параметры для этого проекта уже настроены, например, "
+"крайний срок, изначально запланированные часы и т. Д. Теперь один из "
+"пользователей изменяет значение запланированных часов. Поэтому теперь важно "
+"знать, какой пользователь изменил его и какое значение было предыдущим. Мы "
+"можем отследить это, создав подтипы сообщений в Odoo следующим образом."
 
 # 52dfca67fcdf49a68c1006b5e73fcb14
 #: ../../odoo/models/mail.message.rst:12
 msgid "It needs to be defined in XML which will have following syntax."
 msgstr ""
+"Это должно быть определено в XML, который будет иметь следующий синтаксис."
 
 # 89e7efcc3813461ba8a1f08ba7f7ec6f
 #: ../../odoo/models/mail.message.rst:23
 msgid ""
-"Users can also have a mail.message.subtype that depends on an other to "
-"act through a relation field. For the planned hours, we can have "
-"following syntax for it."
+"Users can also have a mail.message.subtype that depends on an other to act "
+"through a relation field. For the planned hours, we can have following "
+"syntax for it."
 msgstr ""
+"Пользователи также могут иметь тип mail.message.subtype, который зависит от "
+"другого, чтобы действовать через поле отношения. Для запланированных часов у"
+" нас может быть следующий синтаксис для него."
 
 # eaffe40739fd4c4992b443145c65913e
 #: ../../odoo/models/mail.message.rst:35
 msgid ""
 "Odoo provide feature to track various events related with one particular "
-"document with the help of _track attribute. If we inherit mail.thread "
-"object then with the help of _track attribute, user can sent notification"
-" also to keep aware others about changes happening against this "
-"particular document. The syntax can be as follow."
+"document with the help of _track attribute. If we inherit mail.thread object"
+" then with the help of _track attribute, user can sent notification also to "
+"keep aware others about changes happening against this particular document. "
+"The syntax can be as follow."
 msgstr ""
+"Odoo предоставляет возможность отслеживать различные события, связанные с "
+"одним конкретным документом, с помощью атрибута _track. Если мы наследуем "
+"объект mail.thread, то с помощью атрибута _track пользователь может также "
+"отправлять уведомления, чтобы информировать других об изменениях, "
+"происходящих в этом конкретном документе. Синтаксис может быть следующим."
 
 # 6f42be90cbbe43d1a73f23395e119f2d
 #: ../../odoo/models/mail.message.rst:45
 msgid ""
-"In order to track changes related with any field,Odoo provides an "
-"attribute named as track_visibility.It has to be defined at field level "
-"which has below syntax."
+"In order to track changes related with any field,Odoo provides an attribute "
+"named as track_visibility.It has to be defined at field level which has "
+"below syntax."
 msgstr ""
+"Чтобы отслеживать изменения, связанные с любым полем, Odoo предоставляет "
+"атрибут с именем track_visibility. Он должен быть определен на уровне поля, "
+"который имеет синтаксис ниже."
 
 # 9a444a63d7e941a4a7bfd49c0ae17206
 #: ../../odoo/models/mail.message.rst:51
 msgid ""
-"Hence, it is easy to track the changes done so far against any particular"
-" document by different users."
+"Hence, it is easy to track the changes done so far against any particular "
+"document by different users."
 msgstr ""
-
+"Следовательно, легко отслеживать изменения, сделанные до сих пор в отношении"
+" любого конкретного документа различными пользователями."

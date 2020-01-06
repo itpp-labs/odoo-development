@@ -21,17 +21,17 @@ msgstr ""
 # a05b7c0832b149eea01814f965a2d19c
 #: ../../migration/migrate-odoo-7-to-8.rst:3
 msgid "``7.0-`` → ``8.0+``, ``(cr, uid, ids, context)`` → ``self.env``"
-msgstr ""
+msgstr "`` 7.0-`` → `` 8.0 + ``, `` (cr, uid, id, context) `` → `` self.env``"
 
 # 9a5ce27b1b38482199e69729f837ffb2
 #: ../../migration/migrate-odoo-7-to-8.rst:6
 msgid "Automatic replacements"
-msgstr ""
+msgstr "Автоматические замены"
 
 # 65cf02640e5d412bb528f48cc9871e42
 #: ../../migration/migrate-odoo-7-to-8.rst:67
 msgid "Semi-Automatic replacements"
-msgstr ""
+msgstr "Полуавтоматические замены"
 
 # 4c30b6a47ca04858a231ac73a985dc67
 #: ../../migration/migrate-odoo-7-to-8.rst:69
@@ -39,6 +39,8 @@ msgid ""
 "We recommend to use commands below after commiting previous changes. It "
 "allows you to check differences."
 msgstr ""
+"Мы рекомендуем использовать команды ниже после фиксации предыдущих "
+"изменений. Это позволяет проверить различия."
 
 # 3d5204d96ff342aab60cdfacb805d75e
 #: ../../migration/migrate-odoo-7-to-8.rst:71
@@ -46,4 +48,5 @@ msgid ""
 "The commands doesn't update code fully and usually you need to continue "
 "updates manually."
 msgstr ""
-
+"Команды не обновляют код полностью, и обычно вам необходимо продолжить "
+"обновление вручную."

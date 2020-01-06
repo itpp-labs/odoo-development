@@ -21,69 +21,72 @@ msgstr ""
 # 839911bec41043baa5ffb9d10bd0b26f
 #: ../../odoo/usage/create-database.rst:3
 msgid "How to create database"
-msgstr ""
+msgstr "Как создать базу данных"
 
 # a19d945dc3004f668d84a7186038eca8
 #: ../../odoo/usage/create-database.rst:6
 msgid "From UI"
-msgstr ""
+msgstr "Из пользовательского интерфейса"
 
 # 5ea0dc81ce544626b5a57ca21731a43f
 #: ../../odoo/usage/create-database.rst:8
 msgid "To create new database open ``/web/database/manager``"
 msgstr ""
+"Для создания новой базы данных откройте `` / web / database / manager``"
 
 # 7db59bf055ee4671b955a3a14b5eef91
 #: ../../odoo/usage/create-database.rst:11
 msgid "8.0-"
-msgstr ""
+msgstr "8.0-"
 
 # 62c1cf60e4664b4580448a3b8984eda2
 #: ../../odoo/usage/create-database.rst:14
 msgid "Database with dots"
-msgstr ""
+msgstr "База данных с точками"
 
 # d8ee4926bf22494982f8792094ea95bc
 #: ../../odoo/usage/create-database.rst:16
 msgid ""
-"Early version of odoo doesn't allow to create databases with dots. You "
-"can remove this restriction in two ways:"
+"Early version of odoo doesn't allow to create databases with dots. You can "
+"remove this restriction in two ways:"
 msgstr ""
+"Ранняя версия odoo не позволяет создавать базы данных с точками. Вы можете "
+"снять это ограничение двумя способами:"
 
 # a300ec284519492c91f1dbb60dc371a7
 #: ../../odoo/usage/create-database.rst:18
 msgid "Updates sources::"
-msgstr ""
+msgstr "Источники обновлений ::"
 
 # 53db4a48afc54a1ea8608f1b1a2635a5
 #: ../../odoo/usage/create-database.rst:23
 msgid "update html code via *Inspect Element* tool"
-msgstr ""
+msgstr "обновить HTML-код с помощью инструмента * Inspect Element *"
 
 # a313bb301df546fda2e99560ef44bdbd
 #: ../../odoo/usage/create-database.rst:25
 msgid "You must remove the matches field value."
-msgstr ""
+msgstr "Вы должны удалить значение поля совпадений."
 
 # ebff10ac03f14dab8a852368e13e9549
 #: ../../odoo/usage/create-database.rst:30
 msgid "From terminal"
-msgstr ""
+msgstr "От терминала"
 
 # ee29558034a945309b83058b06121500
 #: ../../odoo/usage/create-database.rst:33
 msgid "9.0+"
-msgstr ""
+msgstr "9.0+"
 
 # 228cc39f918d401fb0e76131a6bf3528
 #: ../../odoo/usage/create-database.rst:35
 msgid ""
-"To create new database simple add ``-d`` parameter when you run odoo, "
-"e.g.::"
+"To create new database simple add ``-d`` parameter when you run odoo, e.g.::"
 msgstr ""
+"Для создания новой базы данных просто добавьте параметр `` -d`` при запуске "
+"odoo, например:"
 
 # 530b16130c8d4e6cb4622c7eb224fe7d
 #: ../../odoo/usage/create-database.rst:39
 msgid "-- will create new database with name ``database1``"
-msgstr ""
-
+msgstr "- создаст новую базу данных с именем `` database1``"

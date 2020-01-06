@@ -21,7 +21,7 @@ msgstr ""
 # 4f92b54e298b4897a590b3e167c1876c
 #: ../../git/checkout-pr.rst:3
 msgid "Create branch from another's Pull Request"
-msgstr ""
+msgstr "Создать ветку из чужого Pull Request"
 
 # 2693867706f640b08a382eb4c2612fd4
 #: ../../git/checkout-pr.rst:10
@@ -29,16 +29,19 @@ msgid ""
 "More information: https://help.github.com/articles/checking-out-pull-"
 "requests-locally/"
 msgstr ""
+"Дополнительная информация: https://help.github.com/articles/checking-out-"
+"pull-requests-locally/"
 
 # 9d4e5a0652984a00a35b0ecdbbd3abae
 #: ../../git/checkout-pr.rst:13
 msgid "Push updates to another's Pull Request"
-msgstr ""
+msgstr "Push-обновления для чьего-либо запроса на извлечение"
 
 # 87fb23d687094feeb51c763375b37b41
 #: ../../git/checkout-pr.rst:15
 msgid ""
-"If you have access to edit PR files via github UI, you can push such "
-"updates from console"
+"If you have access to edit PR files via github UI, you can push such updates"
+" from console"
 msgstr ""
-
+"Если у вас есть доступ к редактированию PR-файлов через пользовательский "
+"интерфейс github, вы можете отправить такие обновления из консоли."

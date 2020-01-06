@@ -21,17 +21,17 @@ msgstr ""
 # ab76a196c51a4e7cade25f3e6a3fffde
 #: ../../migration/migrate-odoo-12-to-13.rst:3
 msgid "``12.0-`` → ``13.0+``"
-msgstr ""
+msgstr "`` 12.0-`` → `` 13.0 + ``"
 
 # c897c64a29124e97ac92bfa6a13bc752
 #: ../../migration/migrate-odoo-12-to-13.rst:6
 msgid "New API"
-msgstr ""
+msgstr "Новый API"
 
 # 3bfc5eb84cc24d619d45c6a7a99e7222
 #: ../../migration/migrate-odoo-12-to-13.rst:58
 msgid "web_settings_dashboard"
-msgstr ""
+msgstr "web_settings_dashboard"
 
 # ec3bd700577c4b03b168b852af030cc8
 #: ../../migration/migrate-odoo-12-to-13.rst:60
@@ -39,21 +39,23 @@ msgid ""
 "``web_settings_dashboard`` is merged to ``base_setup`` "
 "https://github.com/odoo/odoo/commit/78565b1dc933692abba46a73f2298b7ea8e03c88"
 msgstr ""
+"`` web_settings_dashboard`` объединяется с `` base_setup`` "
+"https://github.com/odoo/odoo/commit/78565b1dc933692abba46a73f2298b7ea8e03c88"
 
 # bba65a02a2384a669608046a63657425
 #: ../../migration/migrate-odoo-12-to-13.rst:62
 msgid "``[[ Settings ]] >> Dashboard`` is deleted!"
-msgstr ""
+msgstr "`` [[Настройки]] &gt;&gt; Dashboard`` удалено!"
 
 # 79502c08e4964c2ca974d8254b4802b8
 #: ../../migration/migrate-odoo-12-to-13.rst:65
 msgid "Automatic update"
-msgstr ""
+msgstr "Автоматическое обновление"
 
 # e25f55746d6041259fdd704fdb053a01
 #: ../../migration/migrate-odoo-12-to-13.rst:73
 msgid "Processing old js file"
-msgstr ""
+msgstr "Обработка старого файла JS"
 
 # 9e250189cb614d408c2ef6b6745c100a
 #: ../../migration/migrate-odoo-12-to-13.rst:80
@@ -61,46 +63,50 @@ msgid ""
 "If the code above gives non-empty output, you may need to do following "
 "updates:"
 msgstr ""
+"Если приведенный выше код дает непустые выходные данные, вам может "
+"потребоваться выполнить следующие обновления:"
 
 # 0d3acf7604624bcb8abf2753f1f7f14b
 #: ../../migration/migrate-odoo-12-to-13.rst:82
 msgid "get rid of that js"
-msgstr ""
+msgstr "избавиться от этого JS"
 
 # 4cefefacba0243c6806d6c9431d07107
 #: ../../migration/migrate-odoo-12-to-13.rst:83
 msgid "Move missed configuration to Settings menu (``res.config``)"
 msgstr ""
+"Переместить пропущенную конфигурацию в меню настроек (`` res.config``)"
 
 # 772c90ed721c4aeea1a880ceafc18a9f
 #: ../../migration/migrate-odoo-12-to-13.rst:86
 msgid "nvd3"
-msgstr ""
+msgstr "nvd3"
 
 # 8d93b42f28f94c77b7d6f6d4de17176a
 #: ../../migration/migrate-odoo-12-to-13.rst:88
-msgid "The library is deleted: https://github.com/odoo/odoo/commit/596206cdf6d"
-msgstr ""
+msgid ""
+"The library is deleted: https://github.com/odoo/odoo/commit/596206cdf6d"
+msgstr "Библиотека удалена: https://github.com/odoo/odoo/commit/596206cdf6d"
 
 # bff16b871554405a83133aa21292e428
 #: ../../migration/migrate-odoo-12-to-13.rst:90
 msgid "Here are examples how to update code:"
-msgstr ""
+msgstr "Вот примеры, как обновить код:"
 
 # 716fea18e92847fc928fe60bb0bd12b6
 #: ../../migration/migrate-odoo-12-to-13.rst:92
 msgid "Switch to Chart.js:"
-msgstr ""
+msgstr "Переключиться на Chart.js:"
 
 # 2c301243cf4b4c4581ae2646e1992a92
 #: ../../migration/migrate-odoo-12-to-13.rst:94
 msgid "https://github.com/odoo/odoo/commit/3ab3082a326"
-msgstr ""
+msgstr "https://github.com/odoo/odoo/commit/3ab3082a326"
 
 # c2019a3fb7ed4b4baccca02193840d19
 #: ../../migration/migrate-odoo-12-to-13.rst:97
 msgid "external_dependencies"
-msgstr ""
+msgstr "external_dependencies"
 
 # 1aff1dc6d07946c9bd6849e2c7f16c76
 #: ../../migration/migrate-odoo-12-to-13.rst:99
@@ -110,11 +116,15 @@ msgid ""
 " instead of python package. Which is the name you use on installing via "
 "``pip install ...``, and not the name in python code like ``import ...``"
 msgstr ""
+"Атрибут этого манифеста `должен использовать имя Pypi "
+"<https://github.com/odoo/odoo/commit/795c7b0a9415d04a777e1a5d48921adbd72f38cf>"
+" `__ вместо пакета python. Какое имя вы используете при установке через `` "
+"pip install ... ``, а не имя в коде Python, как `` import ... ``"
 
 # fe756541577b43ea85744c62ca716003
 #: ../../migration/migrate-odoo-12-to-13.rst:102
 msgid "company_ids in res.users"
-msgstr ""
+msgstr "company_ids в res.users"
 
 # 5f781b74c621422996c26d7c63b42418
 #: ../../migration/migrate-odoo-12-to-13.rst:104
@@ -122,4 +132,5 @@ msgid ""
 "The field ``company_ids`` is mandatory: "
 "https://github.com/odoo/odoo/commit/4205cb2728041487bd026bf5c6bac590e0ace1e9"
 msgstr ""
-
+"Поле `` company_ids`` обязательно для заполнения: "
+"https://github.com/odoo/odoo/commit/4205cb2728041487bd026bf5c6bac590e0ace1e9"

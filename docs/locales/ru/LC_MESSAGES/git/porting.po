@@ -21,74 +21,89 @@ msgstr ""
 # 2662a596b72a4ca1bf1cc41997a11b23
 #: ../../git/porting.rst:3
 msgid "Porting"
-msgstr ""
+msgstr "Портирование"
 
 # de935fdaa0044616927147b937f51161
 #: ../../git/porting.rst:5
 msgid ""
-"If you add some feature to one branch and need to add it to anoher "
-"branch, then you have to make *port*."
+"If you add some feature to one branch and need to add it to anoher branch, "
+"then you have to make *port*."
 msgstr ""
+"Если вы добавили какую-то функцию в одну ветку и вам нужно добавить ее в "
+"другую ветку, то вам нужно сделать * port *."
 
 # 3202bbe99c8946a3b6c1cf44fbcbd1c6
 #: ../../git/porting.rst:7
 msgid "See also:"
-msgstr ""
+msgstr "Смотрите также:"
 
 # b660b04a7dde46eb9e65beac2a89dc0c
 #: ../../git/porting.rst:9
 msgid ":doc:`Conflicts resolving <conflicts>`"
-msgstr ""
+msgstr ": doc: `Разрешение конфликтов <conflicts> `"
 
 # 1d32177d067c4e68a64215731dff73f6
 #: ../../git/porting.rst:12
 msgid "Forward-port"
-msgstr ""
+msgstr "Форвард-порт"
 
 # ae6e22a364f84fa5bf4abe73ac81a2ea
 #: ../../git/porting.rst:14
 msgid ""
-"It's the simplest case. You merge commits from older branch (e.g. 8.0) to"
-" newer branch (e.g. 9.0) ::"
+"It's the simplest case. You merge commits from older branch (e.g. 8.0) to "
+"newer branch (e.g. 9.0) ::"
 msgstr ""
+"Это самый простой случай. Вы объединяете коммиты из более старой ветви "
+"(например, 8.0) в более новую ветку (например, 9.0) ::"
 
 # 4d866c9e43f14bfaa38bb99eaebfc40d
 #: ../../git/porting.rst:23
 msgid ""
-"After ``git merge`` you probably need to make some minor changes. In that"
-" case just add new commits to newer branch ::"
+"After ``git merge`` you probably need to make some minor changes. In that "
+"case just add new commits to newer branch ::"
 msgstr ""
+"После `` git merge`` вам, вероятно, понадобится внести небольшие изменения. "
+"В этом случае просто добавьте новые коммиты в более новую ветку ::"
 
 # 93d07640714443abaae8463f81e02e73
 #: ../../git/porting.rst:30
 msgid "Back-port"
-msgstr ""
+msgstr "Back-порт"
 
 # 1c3f38d1c4304572afb837c78282ec84
 #: ../../git/porting.rst:33
 msgid ""
-"If you need to port new feature from newer branch (e.g. 9.0) to older one"
-" (e.g. 8.0), then you have to make *back-port*."
+"If you need to port new feature from newer branch (e.g. 9.0) to older one "
+"(e.g. 8.0), then you have to make *back-port*."
 msgstr ""
+"Если вам нужно перенести новую функцию из более новой ветви (например, 9.0) "
+"в более старую (например, 8.0), то вы должны сделать * back-port *."
 
 # 6b312599045f4b588d289a7cc5111e1c
 #: ../../git/porting.rst:35
 msgid ""
-"The problem here is that newer branch has commits which should be applied"
-" for newer branch only. That is you cannot just make ``git merge 9.0``, "
-"because it brings 9.0-only commits to 8.0 branch. Possible solutions here"
-" are:"
+"The problem here is that newer branch has commits which should be applied "
+"for newer branch only. That is you cannot just make ``git merge 9.0``, "
+"because it brings 9.0-only commits to 8.0 branch. Possible solutions here "
+"are:"
 msgstr ""
+"Проблема здесь в том, что в более новой ветви есть коммиты, которые должны "
+"применяться только для более новой ветви. То есть вы не можете просто "
+"сделать `` git merge 9.0``, потому что он приносит коммиты только 9.0 в "
+"ветку 8.0. Возможные решения здесь:"
 
 # 3873746e84fa4ac3b7a48fe6ea793d0f
 #: ../../git/porting.rst:38
 msgid "git cherry-pick"
-msgstr ""
+msgstr "мерзавец"
 
 # 879e9f739e9d4e88ae158b3db436e3b1
 #: ../../git/porting.rst:41
-msgid "Apply commits from newer branch (e.g. 9.0) to older branch (e.g. 8.0) ::"
+msgid ""
+"Apply commits from newer branch (e.g. 9.0) to older branch (e.g. 8.0) ::"
 msgstr ""
+"Применить коммиты из более новой ветви (например, 9.0) к более старой ветви "
+"(например, 8.0):"
 
 # 1f37dd6085db429c836885319d5c1c29
 #: ../../git/porting.rst:54
@@ -96,19 +111,24 @@ msgid ""
 "Also possible to pick the commit from any remote repository. Add this "
 "repository to your remotes. Do fetch from it. And then cherry-pick."
 msgstr ""
+"Также можно выбрать коммит из любого удаленного репозитория. Добавьте этот "
+"репозиторий к вашим пультам. Извлекай из этого. А потом вишня."
 
 # abfa10789bf8436d84828d5eb23a8a5f
 #: ../../git/porting.rst:57
 msgid "cherry-pick range of commits"
-msgstr ""
+msgstr "Вишневый выбор коммитов"
 
 # eb26d4afc80b46e1aa8f570cfc1c0f4f
 #: ../../git/porting.rst:59
 msgid ""
-"The command ``git cherry-pick A..B`` applies commits betwwen A and B, but"
-" without A (A must be older than B). To apply inclusive range of commits "
-"use format as follows::"
+"The command ``git cherry-pick A..B`` applies commits betwwen A and B, but "
+"without A (A must be older than B). To apply inclusive range of commits use "
+"format as follows::"
 msgstr ""
+"Команда `` git cherry-pick A..B`` применяет коммиты между A и B, но без A (A"
+" должен быть старше B). Чтобы применить диапазон коммитов, используйте "
+"формат следующим образом:"
 
 # 7f2f800d2f7442c49f6d8cff2512b7da
 #: ../../git/porting.rst:63
@@ -116,4 +136,5 @@ msgid ""
 "For example, to backport this PR https://github.com/it-projects-llc/odoo-"
 "saas-tools/pull/286/commits , use command::"
 msgstr ""
-
+"Например, чтобы зарегистрировать этот PR https://github.com/it-projects-"
+"llc/odoo-saas-tools/pull/286/commits, используйте команду ::"

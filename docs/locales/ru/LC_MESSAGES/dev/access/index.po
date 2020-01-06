@@ -21,32 +21,32 @@ msgstr ""
 # 4474150606bd48a8b76b7a3b3ef3ce48
 #: ../../dev/access/index.rst:2
 msgid "Access"
-msgstr ""
+msgstr "Доступ"
 
 # ee33571cddc247b093a9bec16cd71472
 #: ../../dev/access/index.rst:9
 msgid "See also:"
-msgstr ""
+msgstr "Смотрите также:"
 
 # d504a16d40014e2fa4f38be681f8064a
 #: ../../dev/access/index.rst:11
 msgid ":doc:`ir.model.access <../../odoo/models/ir.model.access>`"
 msgstr ""
+": doc: `ir.model.access &lt;../../ odoo / models / ir.model.access&gt;`"
 
 # 3e1df20f5a914cd6a34949998f0c2dcc
 #: ../../dev/access/index.rst:12
 msgid ":doc:`ir.rule <../../odoo/models/ir.rule>`"
-msgstr ""
+msgstr ": doc: `ir.rule &lt;../../ odoo / models / ir.rule&gt;`"
 
 # 16855992094b48dab875cebd4b537add
 #: ../../dev/access/index.rst:15
 msgid "Video Lessons"
-msgstr ""
+msgstr "Видео уроки"
 
 # d748cbb2b1a948a09448e698c1f651d7
 #: ../../dev/access/index.rst:17
 msgid ""
-"`Правила доступа <https://www.youtube.com/watch?v=wRJ_hvXKF0E>`__ "
-"(Russian)"
+"`Правила доступа <https://www.youtube.com/watch?v=wRJ_hvXKF0E>`__ (Russian)"
 msgstr ""
-
+"`Правила доступа <https://www.youtube.com/watch?v=wRJ_hvXKF0E> `__ (русский)"

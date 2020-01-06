@@ -21,7 +21,7 @@ msgstr ""
 # 4670d5b1a3054906b44c82602709e3c0
 #: ../../dev/py/fields.rst:2
 msgid "Fields"
-msgstr ""
+msgstr "поля"
 
 # 7e526ffec4bf462bb576411ff76e181d
 #: ../../dev/py/fields.rst:4
@@ -29,16 +29,18 @@ msgid ""
 "*Based on:* http://odoo-new-api-guide-"
 "line.readthedocs.io/en/latest/fields.html"
 msgstr ""
+"* Основано на: * http://odoo-new-api-guide-"
+"line.readthedocs.io/en/latest/fields.html"
 
 # 06ec0913e7fd4efb8ad7ee5ab580632c
 #: ../../dev/py/fields.rst:10
 msgid "Now fields are class property: ::"
-msgstr ""
+msgstr "Теперь поля являются свойством класса: ::"
 
 # 92e8ae25017140658ca3538a2f085897
 #: ../../dev/py/fields.rst:42
 msgid "Field inheritance"
-msgstr ""
+msgstr "Полевое наследование"
 
 # 6c557b09b94b44e0a2e74dac08f85109
 #: ../../dev/py/fields.rst:44
@@ -46,31 +48,33 @@ msgid ""
 "One of the new features of the API is to be able to change only one "
 "attribute of the field: ::"
 msgstr ""
+"Одна из новых функций API - возможность изменять только один атрибут поля: "
+"::"
 
 # 04efdf6706db41379d8acbb936409bad
 #: ../../dev/py/fields.rst:49
 msgid "Field types"
-msgstr ""
+msgstr "Типы полей"
 
 # 74afe5a89fa34820a46946b6fa04f534
 #: ../../dev/py/fields.rst:52
 msgid "Boolean"
-msgstr ""
+msgstr "логический"
 
 # a3ede7dfa6094b43a586ab539990437f
 #: ../../dev/py/fields.rst:54
 msgid "Boolean type field: ::"
-msgstr ""
+msgstr "Поле логического типа: ::"
 
 # 1fbc9e4b4f9c482d85016b03ea6a1941
 #: ../../dev/py/fields.rst:59
 msgid "Char"
-msgstr ""
+msgstr "голец"
 
 # 83b220e778d94b499f1890a38e9efd99
 #: ../../dev/py/fields.rst:61
 msgid "Store string with variable len.: ::"
-msgstr ""
+msgstr "Сохранить строку с переменной len .: ::"
 
 # e9cb1cdd33084e21881abd7e9d2dc337
 # 7c970040235245beb47dbc04bd96349f
@@ -87,12 +91,12 @@ msgstr ""
 #: ../../dev/py/fields.rst:222 ../../dev/py/fields.rst:235
 #: ../../dev/py/fields.rst:253
 msgid "Specific options:"
-msgstr ""
+msgstr "Конкретные варианты:"
 
 # 28e1ca5b536c437c8dcee5359542fac9
 #: ../../dev/py/fields.rst:68
 msgid "size: data will be trimmed to specified size"
-msgstr ""
+msgstr "размер: данные будут обрезаны до указанного размера"
 
 # 0aa9b3cbc0e84fb2b90f7523b710f79b
 # 489e876cb4f74f299efbf4604dfbc7b3
@@ -100,180 +104,200 @@ msgstr ""
 #: ../../dev/py/fields.rst:69 ../../dev/py/fields.rst:81
 #: ../../dev/py/fields.rst:93
 msgid "translate: field can be translated"
-msgstr ""
+msgstr "перевести: поле можно перевести"
 
 # d38ba00321b54d9f879d4a5d5b12f230
 #: ../../dev/py/fields.rst:72
 msgid "Text"
-msgstr ""
+msgstr "Текст"
 
 # bb99f22280884d67a7645492a84c1d36
 #: ../../dev/py/fields.rst:74
 msgid "Used to store long text.: ::"
-msgstr ""
+msgstr "Используется для хранения длинного текста. ::"
 
 # 66ac3f5f9372466594dd27a58cf85de0
 #: ../../dev/py/fields.rst:84
 msgid "HTML"
-msgstr ""
+msgstr "HTML"
 
 # e5a5909d203b4d9dbc62f1b82e218304
 #: ../../dev/py/fields.rst:86
 msgid "Used to store HTML, provides an HTML widget.: ::"
-msgstr ""
+msgstr "Используется для хранения HTML, предоставляет виджет HTML .: ::"
 
 # b079ce04044e4a0788c3bf4d0ad9d7b4
 #: ../../dev/py/fields.rst:97
 msgid "Integer"
-msgstr ""
+msgstr "целое число"
 
 # 27e689d25fa44d1cb57aaea6b11064b9
 #: ../../dev/py/fields.rst:99
 msgid ""
-"Store integer value. No NULL value support. If value is not set it "
-"returns 0: ::"
+"Store integer value. No NULL value support. If value is not set it returns "
+"0: ::"
 msgstr ""
+"Сохраните целочисленное значение. Нет поддержки значения NULL. Если значение"
+" не установлено, возвращается 0: ::"
 
 # 94320b188fba41bf99245771268d7b61
 #: ../../dev/py/fields.rst:104
 msgid "Float"
-msgstr ""
+msgstr "терка"
 
 # b1f741d5fe274b14abce9ea4108c0533
 #: ../../dev/py/fields.rst:106
 msgid ""
-"Store float value. No NULL value support. If value is not set it returns "
-"0.0 If digits option is set it will use numeric type: ::"
+"Store float value. No NULL value support. If value is not set it returns 0.0"
+" If digits option is set it will use numeric type: ::"
 msgstr ""
+"Хранить значение с плавающей запятой. Нет поддержки значения NULL. Если "
+"значение не установлено, возвращается 0.0. Если задана опция цифр, будет "
+"использоваться числовой тип: ::"
 
 # b12e15bcedb447dfb030d3995ac84007
 #: ../../dev/py/fields.rst:116
 msgid ""
-"digits: force use of numeric type on database. Parameter can be a tuple "
-"(int len, float len) or a callable that return a tuple and take a cursor "
-"as parameter"
+"digits: force use of numeric type on database. Parameter can be a tuple (int"
+" len, float len) or a callable that return a tuple and take a cursor as "
+"parameter"
 msgstr ""
+"цифры: принудительное использование числового типа в базе данных. Параметр "
+"может быть кортежем (int len, float len) или вызываемым, который возвращает "
+"кортеж и принимает курсор в качестве параметра"
 
 # 2e4113f495fd40fa87b47629b73714dd
 #: ../../dev/py/fields.rst:119
 msgid "Date"
-msgstr ""
+msgstr "Дата"
 
 # 0c7bfde929184d34a53902e0e00accb1
 #: ../../dev/py/fields.rst:121
 msgid "Store date. The field provides some helpers:"
-msgstr ""
+msgstr "Дата магазина. Поле предоставляет несколько помощников:"
 
 # 636f046d7c324288a1d3873c6de430a0
 #: ../../dev/py/fields.rst:124
 msgid "``context_today`` returns current day date string based on tz"
-msgstr ""
+msgstr "`` context_today`` возвращает строку даты текущего дня на основе tz"
 
 # d1c5b4fc91034306994310ecfb93fdd1
 #: ../../dev/py/fields.rst:125
 msgid "``today`` returns current system date string"
-msgstr ""
+msgstr "`` today`` возвращает строку текущей системной даты"
 
 # c1748979d57c4242b68a143f7223867f
 # 4f184857cd744eb792e8431042808b41
 #: ../../dev/py/fields.rst:126 ../../dev/py/fields.rst:153
 msgid "``from_string`` returns datetime.date() from string"
-msgstr ""
+msgstr "`` from_string`` возвращает datetime.date () из строки"
 
 # ec7dd25eca9c493381dcd481de1b797d
 # 2b1715bedaaa47e18f1e359875466e22
 #: ../../dev/py/fields.rst:127 ../../dev/py/fields.rst:154
 msgid "``to_string`` returns date string from datetime.date"
-msgstr ""
+msgstr "`` to_string`` возвращает строку даты из datetime.date"
 
 # 9430eede35b94386b5d6ec73b1d80262
 # 9c1b72a7edda47f2b7b0386ad9c5f392
 #: ../../dev/py/fields.rst:129 ../../dev/py/fields.rst:156
 msgid ": ::"
-msgstr ""
+msgstr "::"
 
 # 077bc08226d24e6a90918b2dc71406fe
 #: ../../dev/py/fields.rst:146
 msgid "DateTime"
-msgstr ""
+msgstr "DateTime"
 
 # 4081c62b91c242388a563aa4ffd042ee
 #: ../../dev/py/fields.rst:148
 msgid "Store datetime. The field provide some helper:"
-msgstr ""
+msgstr "Хранить дату и время Поле предоставляет некоторый помощник:"
 
 # 58dd1d00581e4eb3bd01e4ec987af342
 #: ../../dev/py/fields.rst:151
 msgid "``context_timestamp`` returns current day date string based on tz"
 msgstr ""
+"`` context_timestamp`` возвращает строку даты текущего дня на основе tz"
 
 # fe24e379bda046fe9c657500370ec304
 #: ../../dev/py/fields.rst:152
 msgid "``now`` returns current system date string"
-msgstr ""
+msgstr "`` now`` возвращает строку текущей системной даты"
 
 # 8030d71d0d774a159347d381ad96cabe
 #: ../../dev/py/fields.rst:169
 msgid "Binary"
-msgstr ""
+msgstr "двоичный"
 
 # 7b4db1213f04430db100c4ff3fa5708d
 #: ../../dev/py/fields.rst:171
 msgid "Store file encoded in base64 in bytea column: ::"
-msgstr ""
+msgstr "Сохраните файл, закодированный в base64, в столбце bytea: ::"
 
 # f32785b748da405f87ec5e98e3d339bf
 #: ../../dev/py/fields.rst:176
 msgid "Selection"
-msgstr ""
+msgstr "выбор"
 
 # 4dfe4579b8854e4f8293f6cfe69938db
 #: ../../dev/py/fields.rst:178
 msgid ""
 "Store text in database but propose a selection widget. It induces no "
-"selection constraint in database. Selection must be set as a list of "
-"tuples or a callable that returns a list of tuples: ::"
+"selection constraint in database. Selection must be set as a list of tuples "
+"or a callable that returns a list of tuples: ::"
 msgstr ""
+"Сохраните текст в базе данных, но предложите виджет выбора. Это не вызывает "
+"никаких ограничений выбора в базе данных. Выбор должен быть установлен в "
+"виде списка кортежей или вызываемого элемента, который возвращает список "
+"кортежей: ::"
 
 # c4b44113f77e49218894776449ebea03
 # 3ccce80f60704dda93a8569c7d7f729a
 #: ../../dev/py/fields.rst:188 ../../dev/py/fields.rst:209
-msgid "selection: a list of tuple or a callable name that take recordset as input"
+msgid ""
+"selection: a list of tuple or a callable name that take recordset as input"
 msgstr ""
+"selection: список кортежей или вызываемых имен, которые принимают набор "
+"записей в качестве входных данных"
 
 # 39bd013195db4ad9a67da562f16b4027
 #: ../../dev/py/fields.rst:189
 msgid ""
-"size: the option size=1 is mandatory when using indexes that are "
-"integers, not strings"
+"size: the option size=1 is mandatory when using indexes that are integers, "
+"not strings"
 msgstr ""
+"size: опция size = 1 обязательна при использовании целых индексов, а не "
+"строк"
 
 # 6610dc739649427c9b454190ad2760c7
 #: ../../dev/py/fields.rst:191
 msgid ""
-"When extending a model, if you want to add possible values to a selection"
-" field, you may use the `selection_add` keyword argument::"
+"When extending a model, if you want to add possible values to a selection "
+"field, you may use the `selection_add` keyword argument::"
 msgstr ""
+"При расширении модели, если вы хотите добавить возможные значения в поле "
+"выбора, вы можете использовать аргумент ключевого слова `selection_add` ::"
 
 # 24645eef588f4f458774620a5e88bfcf
 #: ../../dev/py/fields.rst:199
 msgid "Reference"
-msgstr ""
+msgstr "Ссылка"
 
 # 9f938675b35b4d6698d026c2adbcae20
 #: ../../dev/py/fields.rst:201
 msgid "Store an arbitrary reference to a model and a row: ::"
-msgstr ""
+msgstr "Сохраните произвольную ссылку на модель и строку: ::"
 
 # ed03de551e6541878d9fe85b0420449a
 #: ../../dev/py/fields.rst:213
 msgid "Many2one"
-msgstr ""
+msgstr "Many2one"
 
 # 45e3e1064c2643f691d2ee576d1ea326
 #: ../../dev/py/fields.rst:215
 msgid "Store a relation against a co-model: ::"
-msgstr ""
+msgstr "Сохранить отношение к совместной модели: ::"
 
 # da971b10dd7940759c106895558cde8c
 # d06bb8a58d934f7abe09fa06d96cee94
@@ -281,51 +305,55 @@ msgstr ""
 #: ../../dev/py/fields.rst:224 ../../dev/py/fields.rst:237
 #: ../../dev/py/fields.rst:255
 msgid "comodel_name: name of the opposite model"
-msgstr ""
+msgstr "comodel_name: имя противоположной модели"
 
 # 61862749067a401683875b47104b07e6
 #: ../../dev/py/fields.rst:225
 msgid ""
-"delegate: set it to ``True`` to make fields of the target model "
-"accessible from the current model (corresponds to ``_inherits``)"
+"delegate: set it to ``True`` to make fields of the target model accessible "
+"from the current model (corresponds to ``_inherits``)"
 msgstr ""
+"делегат: установите его в `` True``, чтобы сделать поля целевой модели "
+"доступными из текущей модели (соответствует `` _inherits``)"
 
 # 7e286e70d7f14cffa26a5e746d44b5b2
 #: ../../dev/py/fields.rst:228
 msgid "One2many"
-msgstr ""
+msgstr "One2many"
 
 # eff3dddfb3b64997a4108851b5165c87
 #: ../../dev/py/fields.rst:230
 msgid "Store a relation against many rows of co-model: ::"
-msgstr ""
+msgstr "Сохранить отношение ко многим строкам совместной модели: ::"
 
 # 9f876e7f33aa4c26a4154c3a5f10c8ff
 #: ../../dev/py/fields.rst:238
 msgid "inverse_name: relational column of the opposite model"
-msgstr ""
+msgstr "inverse_name: реляционный столбец противоположной модели"
 
 # aab78febc048465e9d7fe4feac31166c
 #: ../../dev/py/fields.rst:242
 msgid "Many2many"
-msgstr ""
+msgstr "Many2many"
 
 # 8650281c30624d67aea0f98c210b3e17
 #: ../../dev/py/fields.rst:244
 msgid "Store a relation against many2many rows of co-model: ::"
-msgstr ""
+msgstr "Сохраните отношение ко многим многим строкам совместной модели: ::"
 
 # fb18519877ff4207be0c745189036e04
 #: ../../dev/py/fields.rst:256
 msgid "relation: relational table name"
-msgstr ""
+msgstr "отношение: имя реляционной таблицы"
 
 # 4d281141f5e74ac2a9ca2fd25e499b90
 #: ../../dev/py/fields.rst:257
 msgid ""
-"columns1: relational table left column name (reference to record in "
-"current table)"
+"columns1: relational table left column name (reference to record in current "
+"table)"
 msgstr ""
+"columns1: имя левого столбца реляционной таблицы (ссылка на запись в текущей"
+" таблице)"
 
 # e94d2a8adc9d42c99bd4163126dd23f8
 #: ../../dev/py/fields.rst:258
@@ -333,48 +361,56 @@ msgid ""
 "columns2: relational table right column name (reference to record in "
 "*comodel_name* table)"
 msgstr ""
+"columns2: имя правого столбца реляционной таблицы (ссылка на запись в "
+"таблице * comodel_name *)"
 
 # bc59fa83a3cd49e2a6de97dce16f1cd6
 #: ../../dev/py/fields.rst:260
 msgid ""
-"In order to make two mutual many2many fields in different models use in "
-"them the same relation table and inverse columns::"
+"In order to make two mutual many2many fields in different models use in them"
+" the same relation table and inverse columns::"
 msgstr ""
+"Чтобы сделать два взаимных много-много-много полей в разных моделях, "
+"используйте в них одну и ту же таблицу отношений и обратные столбцы:"
 
 # c704ee591c5148b1b28e06a393b919e7
 #: ../../dev/py/fields.rst:272
 msgid "Name Conflicts"
-msgstr ""
+msgstr "Конфликты имен"
 
 # e13069a7f62d4bf9b47183d089450a94
 #: ../../dev/py/fields.rst:275
 msgid "fields and method name can conflict."
-msgstr ""
+msgstr "поля и имя метода могут конфликтовать."
 
 # a610c7cddeac497f8769fb0e1405a247
 #: ../../dev/py/fields.rst:277
 msgid "When you call a record as a dict it will force to look on the columns."
 msgstr ""
+"Когда вы называете запись диктовкой, она заставляет смотреть на столбцы."
 
 # a0320d8f9076449797a1ab9898c5d137
 #: ../../dev/py/fields.rst:281
 msgid "Fields Defaults"
-msgstr ""
+msgstr "Поля по умолчанию"
 
 # 0dbb737f2d914430a5ebd224c5ba9d31
 #: ../../dev/py/fields.rst:283
 msgid "Default is now a keyword of a field:"
-msgstr ""
+msgstr "По умолчанию теперь используется ключевое слово поля:"
 
 # 049be387a7434fbb9f76f6bc2a1215ab
 #: ../../dev/py/fields.rst:285
 msgid "You can attribute it a value or a function"
-msgstr ""
+msgstr "Вы можете приписать ему значение или функцию"
 
 # a88329472cf54f45b8e4d924b3d5b059
 #: ../../dev/py/fields.rst:297
-msgid "Using a fun will force you to define function before fields definition."
+msgid ""
+"Using a fun will force you to define function before fields definition."
 msgstr ""
+"Использование веселья заставит вас определить функцию перед определением "
+"полей."
 
 # 0fd5f2a36de04361a58875d39f142506
 #: ../../dev/py/fields.rst:299
@@ -382,130 +418,159 @@ msgid ""
 "Note. Default value cannot depend on values of other fields of a record, "
 "i.e. you cannot read other fields via ``self`` in the function."
 msgstr ""
+"Заметка. Значение по умолчанию не может зависеть от значений других полей "
+"записи, т. Е. Вы не можете читать другие поля через `` self`` в функции."
 
 # 17cf1baae0df41f7943ff43b24be0875
 #: ../../dev/py/fields.rst:302
 msgid "Computed Fields"
-msgstr ""
+msgstr "Вычисляемые поля"
 
 # d572f8a795ce4b478187316a0a482e7b
 #: ../../dev/py/fields.rst:303
 msgid "There is no more direct creation of fields.function."
-msgstr ""
+msgstr "Больше нет прямого создания полей."
 
 # 247561b8a08a41f19bd94cecbae67b4d
 #: ../../dev/py/fields.rst:305
 msgid ""
-"Instead you add a ``compute`` kwarg. The value is the name of the "
-"function as a string or a function. This allows to have fields definition"
-" atop of class: ::"
+"Instead you add a ``compute`` kwarg. The value is the name of the function "
+"as a string or a function. This allows to have fields definition atop of "
+"class: ::"
 msgstr ""
+"Вместо этого вы добавляете `` compute`` kwarg. Значение - это имя функции в "
+"виде строки или функции. Это позволяет иметь определение полей поверх "
+"класса: ::"
 
 # ee30ae29b2634ad1a167ae349832965b
 #: ../../dev/py/fields.rst:318
 msgid ""
-"The function can be void. It should modify record property in order to be"
-" written to the cache: ::"
+"The function can be void. It should modify record property in order to be "
+"written to the cache: ::"
 msgstr ""
+"Функция может быть недействительной. Он должен изменить свойство записи для "
+"записи в кеш: ::"
 
 # 1a484e444f924f26b421984bb8ebae36
 #: ../../dev/py/fields.rst:323
 msgid ""
-"Be aware that this assignation will trigger a write into the database. If"
-" you need to do bulk change or must be careful about performance, you "
-"should do classic call to write"
+"Be aware that this assignation will trigger a write into the database. If "
+"you need to do bulk change or must be careful about performance, you should "
+"do classic call to write"
 msgstr ""
+"Имейте в виду, что это назначение приведет к записи в базу данных. Если вам "
+"нужно сделать массовое изменение или вы должны быть осторожны с "
+"производительностью, вы должны сделать классический вызов, чтобы написать"
 
 # 4e0b160922f147b0b1faa94c708638cc
 #: ../../dev/py/fields.rst:327
 msgid ""
-"To provide a search function on a non stored computed field you have to "
-"add a ``search`` kwarg on the field. The value is the name of the "
-"function as a string or a reference to a previously defined method. The "
-"function takes the second and third member of a domain tuple and returns "
-"a domain itself ::"
+"To provide a search function on a non stored computed field you have to add "
+"a ``search`` kwarg on the field. The value is the name of the function as a "
+"string or a reference to a previously defined method. The function takes the"
+" second and third member of a domain tuple and returns a domain itself ::"
 msgstr ""
+"Чтобы обеспечить функцию поиска для несохраненного вычисляемого поля, вы "
+"должны добавить к полю `` search``. Значение - это имя функции в виде строки"
+" или ссылка на ранее определенный метод. Функция принимает второго и "
+"третьего члена доменного кортежа и возвращает сам домен:"
 
 # 030b85b2796a438b936fd720ecc0b5c4
 #: ../../dev/py/fields.rst:337
 msgid "Inverse"
-msgstr ""
+msgstr "обратный"
 
 # 64f9fdcab1464a63a32d1b6903396f91
 #: ../../dev/py/fields.rst:339
 msgid ""
-"The inverse key allows to trigger call of the decorated function when the"
-" field is written/\"created\""
+"The inverse key allows to trigger call of the decorated function when the "
+"field is written/\"created\""
 msgstr ""
+"Обратный ключ позволяет вызвать вызов декорированной функции, когда поле "
+"написано / «создано»"
 
 # b46119b622694a63af21e519b527ba6f
 #: ../../dev/py/fields.rst:344
 msgid "Multi Fields"
-msgstr ""
+msgstr "Мульти поля"
 
 # 485d3076168f42c9a3ce345e9934d11b
 #: ../../dev/py/fields.rst:345
 msgid "To have one function that compute multiple values: ::"
-msgstr ""
+msgstr "Чтобы иметь одну функцию, которая вычисляет несколько значений: ::"
 
 # 45ec96c3cd2d4092b3449329599b65f8
 #: ../../dev/py/fields.rst:356
 msgid "Related Field"
-msgstr ""
+msgstr "Связанное поле"
 
 # 985a31a86f8a45119384c6b26a198232
 #: ../../dev/py/fields.rst:358
 msgid "There is not anymore ``fields.related`` fields."
-msgstr ""
+msgstr "Больше нет полей `` fields.related``."
 
 # a0e374f5f47847d4a973a83ae4885069
 #: ../../dev/py/fields.rst:360
 msgid "Instead you just set the name argument related to your model: ::"
 msgstr ""
+"Вместо этого вы просто устанавливаете аргумент name, связанный с вашей "
+"моделью: ::"
 
 # 0d495b8c19524294aa9dabfb88f6797d
 #: ../../dev/py/fields.rst:365
 msgid "The ``type`` kwarg is not needed anymore."
-msgstr ""
+msgstr "`` Type`` kwarg больше не нужен."
 
 # 5939d8045ffe492f96c57851e541d033
 #: ../../dev/py/fields.rst:367
 msgid ""
-"Setting the ``store`` kwarg will automatically store the value in "
-"database. With new API the value of the related field will be "
-"automatically updated, sweet. ::"
+"Setting the ``store`` kwarg will automatically store the value in database. "
+"With new API the value of the related field will be automatically updated, "
+"sweet. ::"
 msgstr ""
+"Установка `` store`` kwarg автоматически сохранит значение в базе данных. С "
+"новым API значение соответствующего поля будет автоматически обновлено, "
+"сладко. ::"
 
 # 2d90db46b5a04fd1a7139880a673db40
 #: ../../dev/py/fields.rst:376
 msgid ""
-"When updating any related field not all translations of related field are"
-" translated if field is stored!!"
+"When updating any related field not all translations of related field are "
+"translated if field is stored!!"
 msgstr ""
+"При обновлении любого связанного поля не все переводы связанного поля "
+"переводятся, если поле сохранено !!"
 
 # 63792f4d73a74d45822c1bb3578383d5
 #: ../../dev/py/fields.rst:380
 msgid ""
-"Chained related fields modification will trigger invalidation of the "
-"cache for all elements of the chain."
+"Chained related fields modification will trigger invalidation of the cache "
+"for all elements of the chain."
 msgstr ""
+"Модификация связанных связанных цепочек вызовет аннулирование кэша для всех "
+"элементов цепочки."
 
 # e336acde3802427b866acb2efc681549
 #: ../../dev/py/fields.rst:385
 msgid "Property Field"
-msgstr ""
+msgstr "Поле собственности"
 
 # 6e519a8477364451bf42bead19dc9fd4
 #: ../../dev/py/fields.rst:387
 msgid ""
-"There is some use cases where value of the field must change depending of"
-" the current company."
+"There is some use cases where value of the field must change depending of "
+"the current company."
 msgstr ""
+"В некоторых случаях значение поля должно меняться в зависимости от текущей "
+"компании."
 
 # 8d38c3a0fe0f4e5d923b65d58aeae5b4
 #: ../../dev/py/fields.rst:390
-msgid "To activate such behavior you can now use the `company_dependent` option."
+msgid ""
+"To activate such behavior you can now use the `company_dependent` option."
 msgstr ""
+"Чтобы активировать такое поведение, теперь вы можете использовать опцию "
+"`company_dependent`."
 
 # 3e09e12762a04e409a138a64c7df8fe1
 #: ../../dev/py/fields.rst:392
@@ -513,36 +578,40 @@ msgid ""
 "A notable evolution in new API is that \"property fields\" are now "
 "searchable."
 msgstr ""
+"Заметная эволюция в новом API заключается в том, что «поля свойств» теперь "
+"доступны для поиска."
 
 # ad118a3ee5f943ec8df458ac85f51f85
 #: ../../dev/py/fields.rst:395
 msgid "WIP copyable option"
-msgstr ""
+msgstr "WIP копируемая опция"
 
 # 72e177bc209048148a7840e5cc63de98
 #: ../../dev/py/fields.rst:397
 msgid ""
-"There is a dev running that will prevent to redefine copy by simply "
-"setting a copy option on fields: ::"
+"There is a dev running that will prevent to redefine copy by simply setting "
+"a copy option on fields: ::"
 msgstr ""
+"Есть запущенный разработчик, который не позволит переопределить копию, "
+"просто установив параметр копирования в полях: ::"
 
 # 106acfa3ac5a481e8820c919d10ce7a7
 #: ../../dev/py/fields.rst:403
 msgid "Special fields"
-msgstr ""
+msgstr "Специальные поля"
 
 # 9ca8d61d06b24fc69b94917ba50923a9
 #: ../../dev/py/fields.rst:406
 msgid "active"
-msgstr ""
+msgstr "активный"
 
 # 1651233dc2ba4f3d9b569154e32aeede
 #: ../../dev/py/fields.rst:408
 msgid "TODO"
-msgstr ""
+msgstr "СДЕЛАТЬ"
 
 # 088fed41099a4304a117959be09b4f31
 #: ../../dev/py/fields.rst:410
 msgid "See https://github.com/odoo/odoo/blob/11.0/odoo/models.py#L3556-L3560"
 msgstr ""
-
+"См. Https://github.com/odoo/odoo/blob/11.0/odoo/models.py#L3556-L3560."

@@ -21,15 +21,14 @@ msgstr ""
 # 65a43d64c2824b73bd739bed38ee7b76
 #: ../../migration/migrate-odoo-9-to-10.rst:3
 msgid "``9.0-`` → ``10.0+``, __openerp__.py → __manifest__.py"
-msgstr ""
+msgstr "`` 9.0-`` → `` 10.0 + ``, __openerp__.py → __manifest__.py"
 
 # 5bb6a03da4bd4ff983043c4f7f6ed6c3
 #: ../../migration/migrate-odoo-9-to-10.rst:6
 msgid "New API"
-msgstr ""
+msgstr "Новый API"
 
 # d5883187c7f44a94869ce6f9423aa56e
 #: ../../migration/migrate-odoo-9-to-10.rst:14
 msgid "New references"
-msgstr ""
-
+msgstr "Новые ссылки"

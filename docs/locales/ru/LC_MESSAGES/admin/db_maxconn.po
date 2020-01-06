@@ -21,78 +21,82 @@ msgstr ""
 # 66affa802088423582cb1d31d8258ce2
 #: ../../admin/db_maxconn.rst:3
 msgid "``--db_maxconn``"
-msgstr ""
+msgstr "`` --Db_maxconn``"
 
 # 6a89085477cd407680422642d804ebc2
 #: ../../admin/db_maxconn.rst:5
 msgid "Here is definition from ``odoo/tools/config.py``"
-msgstr ""
+msgstr "Вот определение из `` odoo / tools / config.py``"
 
 # d944294476ad40388aec09abfb5f346d
 #: ../../admin/db_maxconn.rst:13
 msgid "More accurate explanantion of this option is as following:"
-msgstr ""
+msgstr "Более точное объяснение этой опции следующее:"
 
 # cb8f8959bf054a03a18d85456425cafb
 #: ../../admin/db_maxconn.rst:15
 msgid ""
-"``db_maxconn`` -- specify the the maximum number of physical connections "
-"to posgresql **per odoo process, but for all databases**"
+"``db_maxconn`` -- specify the the maximum number of physical connections to "
+"posgresql **per odoo process, but for all databases**"
 msgstr ""
+"`` db_maxconn`` - указать максимальное количество физических подключений к "
+"posgresql ** на процесс odoo, но для всех баз данных **"
 
 # e665c842d5b0404488d86c1aaa462545
 #: ../../admin/db_maxconn.rst:17
 msgid "**How much process odoo runs?**"
-msgstr ""
+msgstr "** Сколько процесс ODOO работает? **"
 
 # 8203b9f3d4ae4c3f8bbb2d4ccb35d4fe
 #: ../../admin/db_maxconn.rst:19
 msgid ":doc:`longpolling <longpolling>` -- no more than 1 process"
-msgstr ""
+msgstr ": Документ: `longpolling <longpolling> `- не более 1 процесса"
 
 # cf3198656aa04283915c908bde14015a
 # 2eac43319e3f4835983e45f4f073ef6b
 #: ../../admin/db_maxconn.rst:20 ../../admin/db_maxconn.rst:90
 msgid ":doc:`workers <workers>`"
-msgstr ""
+msgstr ": Doc: `рабочие <workers> `"
 
 # 0365bba4dfa54579beb60c82643972db
 # a7be17b28f7140fa890fc9bfb5838fbf
 #: ../../admin/db_maxconn.rst:21 ../../admin/db_maxconn.rst:91
 msgid ":doc:`max_cron_threads <max_cron_threads>`"
-msgstr ""
+msgstr ": Doc: `max_cron_threads <max_cron_threads> `"
 
 # 58b98de830d14b6d8334d79040b25547
 #: ../../admin/db_maxconn.rst:24
 msgid "**What it means practically?**"
-msgstr ""
+msgstr "** Что это означает практически? **"
 
 # 20ed54a864e046deb6f6737f4f15dcdb
 #: ../../admin/db_maxconn.rst:26
 msgid ""
-"If you have deployment with big number of databases or simultaneous users"
-" you may face following error::"
+"If you have deployment with big number of databases or simultaneous users "
+"you may face following error::"
 msgstr ""
+"Если у вас развертывание с большим количеством баз данных или одновременных "
+"пользователей, вы можете столкнуться со следующей ошибкой:"
 
 # f4068500b0554b1bba6e2064a967deb1
 #: ../../admin/db_maxconn.rst:85
 msgid "To resolve it you need configure following parameters:"
-msgstr ""
+msgstr "Для ее решения необходимо настроить следующие параметры:"
 
 # c9909be30ac04925ad8626e1eb634423
 #: ../../admin/db_maxconn.rst:87
 msgid "In odoo"
-msgstr ""
+msgstr "В оду"
 
 # 6b15383c8fae4e3686ddab602ac906d6
 #: ../../admin/db_maxconn.rst:89
 msgid "``db_maxconn``"
-msgstr ""
+msgstr "`` db_maxconn``"
 
 # da0a2089f7b14d878801588a9413f594
 #: ../../admin/db_maxconn.rst:93
 msgid "In posgresql"
-msgstr ""
+msgstr "В posgresql"
 
 # 7d90956630ed4f11b764372dfa132db8
 #: ../../admin/db_maxconn.rst:95
@@ -100,90 +104,122 @@ msgid ""
 "`max_connections <https://www.postgresql.org/docs/current/static/runtime-"
 "config-connection.html#GUC-MAX-CONNECTIONS>`_"
 msgstr ""
+"`max_connections <https://www.postgresql.org/docs/current/static/runtime-"
+"config-connection.html#GUC-MAX-CONNECTIONS> `_"
 
 # 166dd2edce444108bd3287791b72b0e2
 #: ../../admin/db_maxconn.rst:97
 msgid "Those parameters must satisfy following condition:"
-msgstr ""
+msgstr "Эти параметры должны удовлетворять следующему условию:"
 
 # 1ee36bca25f140229cb36c469bf331b6
 #: ../../admin/db_maxconn.rst:105
 msgid "For example, if you have following values:"
-msgstr ""
+msgstr "Например, если у вас есть следующие значения:"
 
 # fb91a859d85b4be9819c7e2c43f27508
 #: ../../admin/db_maxconn.rst:107
 msgid "workers = 1 (minimal value to make longpolling work)"
-msgstr ""
+msgstr "работники = 1 (минимальное значение, чтобы заставить работать долго)"
 
 # 2c5cd314ff0d4bb38d9fe67bbee9c51c
 #: ../../admin/db_maxconn.rst:108
 msgid "max_cron_threads = 2 (default)"
-msgstr ""
+msgstr "max_cron_threads = 2 (по умолчанию)"
 
 # 3922cf9529ed40b58e97eac4f8b63de9
 #: ../../admin/db_maxconn.rst:109
 msgid "db_maxconn = 64 (default)"
-msgstr ""
+msgstr "db_maxconn = 64 (по умолчанию)"
 
 # 64549303e2af4463bdf9b13c94283b24
 #: ../../admin/db_maxconn.rst:110
 msgid "max_connections = 100 (default)"
-msgstr ""
+msgstr "max_connections = 100 (по умолчанию)"
 
 # e10c3512933b48afa75e141250ac8091
 #: ../../admin/db_maxconn.rst:112
 msgid ""
-"then ``(1 + 1 + 2) * 64 = 256 > 100``, i.e. the condition is not "
-"satisfied and such deployment may face the error described above."
+"then ``(1 + 1 + 2) * 64 = 256 > 100``, i.e. the condition is not satisfied "
+"and such deployment may face the error described above."
 msgstr ""
+"затем `` (1 + 1 + 2) * 64 = 256&gt; 100``, т.е. условие не выполняется, и "
+"такое развертывание может столкнуться с ошибкой, описанной выше."
 
 # 0a6305f60aae481f81c6d9e3d9efbcfa
 #: ../../admin/db_maxconn.rst:114
-msgid "**Ok, but which values are good for specific server and load conditions?**"
+msgid ""
+"**Ok, but which values are good for specific server and load conditions?**"
 msgstr ""
+"** Хорошо, но какие значения хороши для конкретного сервера и условий "
+"нагрузки? **"
 
 # 3f816d71584f4ba2830ff4080a4fc180
 #: ../../admin/db_maxconn.rst:116
 msgid ""
 "Checkout `this comment "
-"<https://github.com/odoo/odoo/issues/39825#issuecomment-555175814>`__ "
-"from odony. Specifically, for ``db_maxconn`` param the quote is below."
+"<https://github.com/odoo/odoo/issues/39825#issuecomment-555175814>`__ from "
+"odony. Specifically, for ``db_maxconn`` param the quote is below."
 msgstr ""
+"Оформить заказ "
+"<https://github.com/odoo/odoo/issues/39825#issuecomment-555175814> `__ из "
+"одони. В частности, для параметра `` db_maxconn`` цитата приведена ниже."
 
 # fc23b22399ce41128ec10d54089cf67d
 #: ../../admin/db_maxconn.rst:118
 msgid ""
-"PostgreSQL's ``max_connections`` should be set higher than ``db_maxpool *"
-" number_of_processes``. You may need to tweak the kernel sysctl if you "
-"need ``max_connections`` higher than 1-2k."
+"PostgreSQL's ``max_connections`` should be set higher than ``db_maxpool * "
+"number_of_processes``. You may need to tweak the kernel sysctl if you need "
+"``max_connections`` higher than 1-2k."
 msgstr ""
+"`` Max_connections`` в PostgreSQL должен быть установлен выше, чем `` "
+"db_maxpool * number_of_processes``. Вам может потребоваться настроить ядро "
+"sysctl, если вам нужно `` max_connections`` выше, чем 1-2k."
 
 # 49c4a5f8732848c4a0eb849aa7b07b3a
 #: ../../admin/db_maxconn.rst:120
 msgid ""
-"For multi-processing mode, each HTTP worker handles a single request at a"
-" time, so theoretically ``db_maxconn=2`` could work (some requests need 2"
-" cursors, hence 2 db connections). However for multi-tenant this is not "
+"For multi-processing mode, each HTTP worker handles a single request at a "
+"time, so theoretically ``db_maxconn=2`` could work (some requests need 2 "
+"cursors, hence 2 db connections). However for multi-tenant this is not "
 "optimal because each request will need to reopen a new connection to a "
-"different db - setting it a bit higher is better. With lots of workers, "
-"32 is a good trade-off, as 64 could make you reach kernel limits. Also "
-"keep in mind that the limit applies to the longpolling worker too, and "
-"you don't want to delay chat messages too much because of a full "
-"connection pool, so don't set it too low no matter what. Keeping the "
-"value in the 32-64 range usually seems a good choice."
+"different db - setting it a bit higher is better. With lots of workers, 32 "
+"is a good trade-off, as 64 could make you reach kernel limits. Also keep in "
+"mind that the limit applies to the longpolling worker too, and you don't "
+"want to delay chat messages too much because of a full connection pool, so "
+"don't set it too low no matter what. Keeping the value in the 32-64 range "
+"usually seems a good choice."
 msgstr ""
+"В режиме многопроцессорной обработки каждый рабочий HTTP обрабатывает один "
+"запрос за раз, поэтому теоретически может работать `` db_maxconn = 2`` (для "
+"некоторых запросов требуется 2 курсора, следовательно, 2 дБ соединения). "
+"Однако для мультитенанта это не оптимально, потому что каждый запрос должен "
+"будет заново открывать новое соединение с другой базой данных - лучше "
+"установить его немного выше. С большим количеством работников 32 - это "
+"хороший компромисс, так как 64 может заставить вас достичь ограничений ядра."
+" Также имейте в виду, что ограничение применяется и к работнику с длинным "
+"опросом, и вы не хотите слишком долго откладывать сообщения чата из-за "
+"полного пула соединений, поэтому не устанавливайте его слишком низким, "
+"несмотря ни на что. Сохранение значения в диапазоне 32-64 обычно кажется "
+"хорошим выбором."
 
 # 414b114f0b44406d88b50343e28ddd58
 #: ../../admin/db_maxconn.rst:122
 msgid ""
-"For multi-thread mode, since there is only 1 process, this is the size of"
-" the global connection pool. To prevent errors, it should be set between "
-"1x and 2x the expected number of concurrent requests at a time. Can be "
-"estimated based on the number of databases and the expected activity. "
-"Having a single process handle more than 20 request at a time on a single"
-" core (remember that multi-thread depends on the GIL) is unlikely to give"
-" good performance, so again, a setting in the 32-64 range will most "
-"likely work for a normal load."
+"For multi-thread mode, since there is only 1 process, this is the size of "
+"the global connection pool. To prevent errors, it should be set between 1x "
+"and 2x the expected number of concurrent requests at a time. Can be "
+"estimated based on the number of databases and the expected activity. Having"
+" a single process handle more than 20 request at a time on a single core "
+"(remember that multi-thread depends on the GIL) is unlikely to give good "
+"performance, so again, a setting in the 32-64 range will most likely work "
+"for a normal load."
 msgstr ""
-
+"Для многопоточного режима, поскольку существует только 1 процесс, это размер"
+" глобального пула соединений. Во избежание ошибок его следует устанавливать "
+"между 1x и 2x ожидаемым количеством одновременных запросов одновременно. "
+"Можно оценить на основе количества баз данных и ожидаемой активности. Если "
+"один процесс обрабатывает более 20 запросов одновременно на одном ядре "
+"(помните, что многопотоковость зависит от GIL) вряд ли даст хорошую "
+"производительность, поэтому, опять же, настройка в диапазоне 32-64, скорее "
+"всего, будет работать для нормальная нагрузка."

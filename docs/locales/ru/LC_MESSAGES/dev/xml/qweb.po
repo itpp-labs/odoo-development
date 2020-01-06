@@ -21,50 +21,58 @@ msgstr ""
 # ac46f2cf908245bd92ad8f66b13588ee
 #: ../../dev/xml/qweb.rst:2
 msgid "Basic stuff"
-msgstr ""
+msgstr "Основные вещи"
 
 # 133b7892acf24ba6acd88743ff3a7875
 #: ../../dev/xml/qweb.rst:5
 msgid "Call method of some model and put result in variable"
-msgstr ""
+msgstr "Вызовите метод некоторой модели и поместите результат в переменную"
 
 # 55f2a39a71254fb4983a66c67f608ffd
 # 79bb11f682d74dc4bb7c093f5f37e2d5
 # 668a88f680fc4fd3ba77d2748224c65a
 # cee619ba64784f1bb6fdff6292278fc3
 # 3a7037bb66034151a0b8a288a1cd42f9
-#: ../../dev/xml/qweb.rst:6 ../../dev/xml/qweb.rst:14 ../../dev/xml/qweb.rst:20
-#: ../../dev/xml/qweb.rst:26 ../../dev/xml/qweb.rst:34
+#: ../../dev/xml/qweb.rst:6 ../../dev/xml/qweb.rst:14
+#: ../../dev/xml/qweb.rst:20 ../../dev/xml/qweb.rst:26
+#: ../../dev/xml/qweb.rst:34
 msgid "Code::"
-msgstr ""
+msgstr "Код::"
 
 # f397c076e42d4fac93359e63a176a718
 #: ../../dev/xml/qweb.rst:10
-msgid "Here *website* means you use website=True in controller. TODO my be wrong."
+msgid ""
+"Here *website* means you use website=True in controller. TODO my be wrong."
 msgstr ""
+"Здесь * веб-сайт * означает, что вы используете веб-сайт = True в "
+"контроллере. ТОДО, я могу ошибаться."
 
 # 4817355f714340f0be623b53fb4c3b14
 #: ../../dev/xml/qweb.rst:13
 msgid "Get value of some setting ir.config_parameter and put it in variable"
 msgstr ""
+"Получите значение некоторого параметра ir.config_parameter и поместите его в"
+" переменную"
 
 # 241c4390750a41e98338f1b3acb95e7b
 #: ../../dev/xml/qweb.rst:19
 msgid "Show value of variable"
-msgstr ""
+msgstr "Показать значение переменной"
 
 # 46b80a23fc0f4c43bae1b7635ccab547
 #: ../../dev/xml/qweb.rst:25
 msgid "Use variable in condition"
-msgstr ""
+msgstr "Используйте переменную в условии"
 
 # ec06d149e4a3448a83f96d00d03b66b4
 #: ../../dev/xml/qweb.rst:33
 msgid "Get variable transmitted by render() in XML template"
-msgstr ""
+msgstr "Получить переменную, передаваемую render () в шаблоне XML"
 
 # 64a6c68e183e40bdbd8a2f35cef45983
 #: ../../dev/xml/qweb.rst:38
-msgid "my_var is element of 'values' dictionary (second argument of render())."
+msgid ""
+"my_var is element of 'values' dictionary (second argument of render())."
 msgstr ""
-
+"my_var является элементом словаря &#39;values&#39; (второй аргумент render "
+"())."

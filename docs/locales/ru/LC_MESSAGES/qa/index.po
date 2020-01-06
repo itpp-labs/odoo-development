@@ -21,7 +21,7 @@ msgstr ""
 # 0c2beb606b4c4869b24ccd7e12b4609a
 #: ../../qa/index.rst:3
 msgid "Quality assurance"
-msgstr ""
+msgstr "Гарантия качества"
 
 # b95bb2483ce2483385a8ebfc08f4880c
 #: ../../qa/index.rst:5
@@ -29,4 +29,5 @@ msgid ""
 "The section moved and now is available `here <https://odoo-"
 "test.sh/qa/index.html>`__."
 msgstr ""
-
+"Раздел перенесен и теперь доступен здесь <https://odoo-"
+"test.sh/qa/index.html> `__."

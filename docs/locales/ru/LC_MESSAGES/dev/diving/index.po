@@ -21,12 +21,15 @@ msgstr ""
 # e942cf2b76c5490aad564a2adfbbaa74
 #: ../../dev/diving/index.rst:3
 msgid "Source Diving"
-msgstr ""
+msgstr "Источник Дайвинг"
 
 # b9d80af7efbb4f1ba5cfedd5d6708c0f
 #: ../../dev/diving/index.rst:6
 msgid ""
-"`Source Diving <https://yelizariev.github.io/odoo/development/2015/04/17"
-"/source-diving.html>`_ is a way to find answers to your questions."
+"`Source Diving "
+"<https://yelizariev.github.io/odoo/development/2015/04/17/source-"
+"diving.html>`_ is a way to find answers to your questions."
 msgstr ""
-
+"`Источник Дайвинг "
+"<https://yelizariev.github.io/odoo/development/2015/04/17/source-"
+"diving.html> `_ это способ найти ответы на ваши вопросы."

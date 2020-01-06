@@ -21,37 +21,46 @@ msgstr ""
 # 6fc649da432243eba80b16df71fb4b9e
 #: ../../odoo/models/ir.actions.todo.rst:2
 msgid "ir.actions.todo"
-msgstr ""
+msgstr "ir.actions.todo"
 
 # 8d8e9e4d82ea49009db8d04ab4ac2110
 #: ../../odoo/models/ir.actions.todo.rst:4
 msgid ""
 "The model is used for executing actions (records in the "
 "\"ir.actions.act_window\" model). The model allows to set conditions and "
-"sequence of appearance of wizards. Also you can specify a regular "
-"interface window but only as last action. Code::"
+"sequence of appearance of wizards. Also you can specify a regular interface "
+"window but only as last action. Code::"
 msgstr ""
+"Модель используется для выполнения действий (записи в модели "
+"&quot;ir.actions.act_window&quot;). Модель позволяет задавать условия и "
+"последовательность появления мастеров. Также вы можете указать обычное окно "
+"интерфейса, но только в качестве последнего действия. Код::"
 
 # a859e43d98b84d0eb33e9c5395661034
 #: ../../odoo/models/ir.actions.todo.rst:16
 msgid "The startup type can be one of the following:"
-msgstr ""
+msgstr "Тип запуска может быть одним из следующих:"
 
 # 1fb98dec5bfd414c93514df2ffda7a28
 #: ../../odoo/models/ir.actions.todo.rst:18
 msgid "manual: Launched manually."
-msgstr ""
+msgstr "ручной: запускается вручную."
 
 # 15f6880607b441658fd7b4763cf6a769
 #: ../../odoo/models/ir.actions.todo.rst:19
 msgid ""
-"automatic: Runs whenever the system is reconfigured. The launch takes "
-"place either after install/upgrade any module or after calling the "
-"\"execute\" method in the \"res.config\" model."
+"automatic: Runs whenever the system is reconfigured. The launch takes place "
+"either after install/upgrade any module or after calling the \"execute\" "
+"method in the \"res.config\" model."
 msgstr ""
+"автоматический: запускается всякий раз, когда система переконфигурируется. "
+"Запуск происходит либо после установки / обновления любого модуля, либо "
+"после вызова метода execute в модели res.config."
 
 # c6bb6d2231054003afe18f5df66d6a6c
 #: ../../odoo/models/ir.actions.todo.rst:21
-msgid "once: After having been launched manually, it sets automatically to Done."
+msgid ""
+"once: After having been launched manually, it sets automatically to Done."
 msgstr ""
-
+"один раз: после запуска вручную автоматически устанавливается значение "
+"«Готово»."

@@ -21,18 +21,19 @@ msgstr ""
 # 327fe86125b34af38028bbf67334c0d6
 #: ../../dev/xml/create-records.rst:2
 msgid "Create record of model"
-msgstr ""
+msgstr "Создать запись модели"
 
 # ff349a7d47f2409e85f0424ebf5f43a5
 #: ../../dev/xml/create-records.rst:4
 msgid "Create new record::"
-msgstr ""
+msgstr "Создать новую запись ::"
 
 # c40a899067b24b3aab14bc8b646ed9b4
 #: ../../dev/xml/create-records.rst:14
 msgid ""
-"If model exist it will be modifyed. Record creating in module it "
-"declareted. To change model created in another module add mule name "
-"before id::"
+"If model exist it will be modifyed. Record creating in module it declareted."
+" To change model created in another module add mule name before id::"
 msgstr ""
-
+"Если модель существует, она будет изменена. Создание записи в модуле "
+"объявлено. Чтобы изменить модель, созданную в другом модуле, добавьте имя "
+"мула перед id ::"

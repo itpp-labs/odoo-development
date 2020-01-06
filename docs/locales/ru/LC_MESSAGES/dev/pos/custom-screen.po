@@ -21,7 +21,7 @@ msgstr ""
 # 87d51d3849f445d3a1b05d1dafc94d75
 #: ../../dev/pos/custom-screen.rst:3
 msgid "Custom Screens"
-msgstr ""
+msgstr "Пользовательские экраны"
 
 # 5b25244038704144bd305b18a1934978
 #: ../../dev/pos/custom-screen.rst:5
@@ -29,23 +29,25 @@ msgid ""
 "List of **partners**, **payment's screen**, and **floor screen** are "
 "examples of ``screens``."
 msgstr ""
+"Список ** партнеров **, ** экран оплаты ** и ** экран экрана ** являются "
+"примерами `` экранов``."
 
 # 782a133484ac4a7abc03d7471b0f5523
 #: ../../dev/pos/custom-screen.rst:7
 msgid "We will consider *an example of creating the User interface*."
-msgstr ""
+msgstr "Мы рассмотрим * пример создания пользовательского интерфейса *."
 
 # edbf76069da54ddf990e711046dfd0e4
 #: ../../dev/pos/custom-screen.rst:9
 msgid ""
-"In order to create a new ``custom screen`` we plug ``screens`` and "
-"``gui``:"
+"In order to create a new ``custom screen`` we plug ``screens`` and ``gui``:"
 msgstr ""
+"Для создания нового `` custom screen`` мы подключаем `` screen`` и `` gui``:"
 
 # 62bf8887e7c4422b878171741e064b41
 #: ../../dev/pos/custom-screen.rst:16
 msgid "Then we declare a new variable and inherit ``ScreenWidget``:"
-msgstr ""
+msgstr "Затем мы объявляем новую переменную и наследуем `` ScreenWidget``:"
 
 # e1f0164cfc7d4f9b928cb660f075a85a
 #: ../../dev/pos/custom-screen.rst:23
@@ -54,33 +56,43 @@ msgid ""
 "Then we need to define a template, where the structure of the screen is "
 "described using ``Qweb``:"
 msgstr ""
+"Теперь `` CustomScreenWidget`` состоит из всех методов из `` ScreenWidget``."
+" Затем нам нужно определить шаблон, где структура экрана описывается с "
+"помощью `` Qweb``:"
 
 # e8b255acd82844139d6601ffb4f16b9a
 #: ../../dev/pos/custom-screen.rst:29
 msgid "In ``Qweb`` we define a template as follows:"
-msgstr ""
+msgstr "В `` Qweb`` мы определяем шаблон следующим образом:"
 
 # b768a952f78e42c7a0542bb6ef54a56b
 #: ../../dev/pos/custom-screen.rst:59
 msgid "Define styles in ``css`` file, which you need for the screen."
-msgstr ""
+msgstr "Определите стили в файле `` css``, который вам нужен для экрана."
 
 # 21037eab66db4c40a1bf7e2bf3a8efec
 #: ../../dev/pos/custom-screen.rst:61
 msgid ""
-"This ``Qweb`` will be rendered every time when the method "
-"``renderElement`` runs (prior to the downloading POS all screens are "
-"drawn and hidden already). This method can be redefine and, for example, "
-"used for actions of  ``back`` and ``next`` buttons:"
+"This ``Qweb`` will be rendered every time when the method ``renderElement`` "
+"runs (prior to the downloading POS all screens are drawn and hidden "
+"already). This method can be redefine and, for example, used for actions of"
+"  ``back`` and ``next`` buttons:"
 msgstr ""
+"Этот `` Qweb`` будет отображаться каждый раз, когда запускается метод `` "
+"renderElement`` (до загрузки POS все экраны уже прорисованы и скрыты). Этот "
+"метод можно переопределить и, например, использовать для действий кнопок `` "
+"назад`` и `` next``:"
 
 # 474b8850559b4165933c040da1efea16
 #: ../../dev/pos/custom-screen.rst:77
 msgid ""
-"All screens are hidden by default (except those, which are called after "
-"POS downloading). In order to open Custom Screens you need to define it "
-"inside screens' list:"
+"All screens are hidden by default (except those, which are called after POS "
+"downloading). In order to open Custom Screens you need to define it inside "
+"screens' list:"
 msgstr ""
+"Все экраны по умолчанию скрыты (кроме тех, которые вызываются после загрузки"
+" POS). Для того, чтобы открыть пользовательские экраны, необходимо "
+"определить их в списке экранов:"
 
 # cec0e009cd0f4a0a8468f6de9e3d746b
 #: ../../dev/pos/custom-screen.rst:84
@@ -88,11 +100,13 @@ msgid ""
 "In order to open Custom Screen you need to call the next function (for "
 "example after click to the Action button):"
 msgstr ""
+"Чтобы открыть пользовательский экран, необходимо вызвать следующую функцию "
+"(например, после нажатия кнопки «Действие»):"
 
 # 02677f5c76c9498d9e08d82ff35104e2
 #: ../../dev/pos/custom-screen.rst:90
 msgid "*where* ``this`` is a pointer to ``PosModel``."
-msgstr ""
+msgstr "* где * `` this`` - указатель на `` PosModel``."
 
 # 55ce02d39a484a3b95308b8b8f9d292d
 #: ../../dev/pos/custom-screen.rst:92
@@ -102,4 +116,7 @@ msgid ""
 "addons/blob/12.0/pos_orders_history/static/src/js/screens.js#L311>`__ , "
 "where ``orders_history_screen`` is defined."
 msgstr ""
-
+"Для конкретного примера проверьте модуль ** POS Orders History ** ` "
+"<https://github.com/it-projects-llc/pos-"
+"addons/blob/12.0/pos_orders_history/static/src/js/screens.js#L311> `__, где`"
+" `orders_history_screen`` определено."

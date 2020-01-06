@@ -21,5 +21,4 @@ msgstr ""
 # 6867261d34ae41ed9eed35675e284bc1
 #: ../../dev/py/python/index.rst:2
 msgid "Pure Python"
-msgstr ""
-
+msgstr "Чистый Питон"
