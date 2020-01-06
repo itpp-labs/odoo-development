@@ -23,13 +23,16 @@ jobs:
         cd docs
         sphinx-build -b gettext . _build/gettext
         sphinx-intl update -p _build/gettext -l ru
+        BRANCH="${GITHUB_REF:11}"
+        echo "::set-env name=BRANCH::$BRANCH"
+        # TODO we may need to don't make commit if branch is not master
 
     - name: Commit changes
       uses: yelizariev/git-auto-commit-action@custom-author-and-token2
       with:
         commit_author_name: Marc Demo (Github Actions)
         commit_author_email: i18n-bot@it-projects.info
-        branch: master
+        branch: ${{ env.BRANCH }}
         commit_message: | 
           :alien: update translation files
           
