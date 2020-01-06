@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2019, IT-Projects LLC
+# This file is distributed under the same license as the Odoo Development
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Development master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-06 13:43+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/runner/work/odoo-development/odoo-development/docs/index.rst:2
+#: f43f9b001574414198b5741db4eb61ff
+msgid "Odoo development"
+msgstr ""
+
+#: /home/runner/work/odoo-development/odoo-development/docs/index.rst:4
+#: 33c01f6f87944372994bcb40ee44eb77
+msgid "Join our telegram group: https://t.me/odoo_talks"
+msgstr ""
+
+#: /home/runner/work/odoo-development/odoo-development/docs/index.rst:23
+#: 5ce4475956074a94ab415469faf76cd3
+msgid "Need our service?"
+msgstr ""
+
+#: /home/runner/work/odoo-development/odoo-development/docs/index.rst:26
+#: d96f88658b914940ac4265f76fa9f0ef
+msgid ""
+"For module development contact us by `email <mailto:it@it-"
+"projects.info>`__ or fill out `request form <https://www.it-"
+"projects.info/page/website.contactus>`__:"
+msgstr ""
+
+#: /home/runner/work/odoo-development/odoo-development/docs/index.rst:28
+#: e8b0c64daff547c1b025d369d97d8ee9
+msgid "it@it-projects.info"
+msgstr ""
+
+#: /home/runner/work/odoo-development/odoo-development/docs/index.rst:29
+#: 8ca313c4c14c4a55986af8ab06245258
+msgid "https://www.it-projects.info/page/website.contactus"
+msgstr ""
+
