@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../admin/about_longpolling.rst:2
 msgid "About longpolling"
-msgstr ""
+msgstr "Про лонгпулинг (из админ.по)"
 
 #: ../../admin/about_longpolling.rst:4
 msgid "**What is HTTP Long Polling?**"
