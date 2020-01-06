@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Официальный документ о теме `здесь: "
 "<https://www.odoo.com/documentation/12.0/reference/javascript_reference.html#javascript-"
-"module-system> `__"
+"module-system>'__"
 
 # bc96862a77b04738b65cc9b61b3785a3
 #: ../../dev/pos/odoo-define.rst:7

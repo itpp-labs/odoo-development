@@ -56,7 +56,7 @@ msgid ""
 "<https://www.odoo.com/apps/modules/10.0/web_debranding/>`_"
 msgstr ""
 "10.0+ с `web_debranding "
-"<https://www.odoo.com/apps/modules/10.0/web_debranding/> `_"
+"<https://www.odoo.com/apps/modules/10.0/web_debranding/>'_"
 
 # 40079dfaa6f1465a90268a5bbcf59b8c
 #: ../../odoo/usage/debug-mode.rst:24

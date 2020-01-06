@@ -29,8 +29,8 @@ msgid ""
 "`Longpolling <https://www.google.com/#q=longpolling>`_ is a way to deliver "
 "instant notification to web client (e.g. in chats)."
 msgstr ""
-"`Longpolling <https://www.google.com/#q=longpolling> `_ - это способ "
-"доставки мгновенного уведомления веб-клиенту (например, в чатах)."
+"`Longpolling <https://www.google.com/#q=longpolling>'_ - это способ доставки"
+" мгновенного уведомления веб-клиенту (например, в чатах)."
 
 # fa728542424d4d69b212646bf9a08ce2
 #: ../../admin/longpolling.rst:7
@@ -69,8 +69,8 @@ msgid ""
 "gevent file (see `#10207 <https://github.com/odoo/odoo/pull/10207>`_): ::"
 msgstr ""
 "если вы устанавливаете odoo 9.0 через пакет deb, вам нужно восстановить файл"
-" openerp-gevent (см. `# 10207 <https://github.com/odoo/odoo/pull/10207> `_):"
-" ::"
+" openerp-gevent (см. `# 10207 <https://github.com/odoo/odoo/pull/10207>'_): "
+"::"
 
 # 86affe0c107e493ab22e94722f7b2a55
 #: ../../admin/longpolling.rst:37
@@ -79,4 +79,4 @@ msgid ""
 "development.readthedocs.io/en/latest/admin/about_longpolling.html>`_"
 msgstr ""
 "`Узнайте больше о longpolling <https://odoo-"
-"development.readthedocs.io/en/latest/admin/about_longpolling.html> `_"
+"development.readthedocs.io/en/latest/admin/about_longpolling.html>'_"

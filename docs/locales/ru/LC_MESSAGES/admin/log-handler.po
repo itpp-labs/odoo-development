@@ -39,7 +39,7 @@ msgid ""
 " you can run it with parameter::"
 msgstr ""
 "Например, если вы хотите иметь уровень DEBUG для модуля `telegram "
-"<https://github.com/it-projects-llc/odoo-telegram/tree/9.0/telegram> `_ "
+"<https://github.com/it-projects-llc/odoo-telegram/tree/9.0/telegram>'_ "
 "только, вы можете запустить его с параметром ::"
 
 # 008a904a85fc413a990aff81877ac16c

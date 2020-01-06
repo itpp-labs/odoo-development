@@ -50,8 +50,8 @@ msgid ""
 " ``base,web``"
 msgstr ""
 "`Odoo 12 "
-"<https://github.com/odoo/odoo/blob/95b4f2ab4b5698ab3a28c9c35ac8da6fb6def983/odoo/tools/config.py#L120>"
-" `__:` `base, web``"
+"<https://github.com/odoo/odoo/blob/95b4f2ab4b5698ab3a28c9c35ac8da6fb6def983/odoo/tools/config.py#L120>'__:`"
+" `base, web``"
 
 # 8161709cea474c15951e68412421c22c
 #: ../../admin/server_wide_modules.rst:11
@@ -61,8 +61,8 @@ msgid ""
 " ``web``"
 msgstr ""
 "`Odoo 11 "
-"<https://github.com/odoo/odoo/blob/717f4583949219c346c87c390fbc336b4f31571c/odoo/tools/config.py#L119>"
-" `__:` `web``"
+"<https://github.com/odoo/odoo/blob/717f4583949219c346c87c390fbc336b4f31571c/odoo/tools/config.py#L119>'__:`"
+" `web``"
 
 # 21440c02753c461e937abf9bc8748625
 #: ../../admin/server_wide_modules.rst:12
@@ -72,8 +72,8 @@ msgid ""
 " ``web,web_kanban``"
 msgstr ""
 "`Odoo 10 "
-"<https://github.com/odoo/odoo/blob/80d363cd31ec56b72e38e02571285349b60e428e/odoo/tools/config.py#L114>"
-" `__:` `web, web_kanban``"
+"<https://github.com/odoo/odoo/blob/80d363cd31ec56b72e38e02571285349b60e428e/odoo/tools/config.py#L114>'__:`"
+" `web, web_kanban``"
 
 # 4e82c3c6b8634e0bb4a1d94a550ad818
 #: ../../admin/server_wide_modules.rst:13
@@ -83,8 +83,8 @@ msgid ""
 " ``web,web_kanban``"
 msgstr ""
 "`Odoo 9 "
-"<https://github.com/odoo/odoo/blob/752dcc761caf15cb532b1e787e9a378a8112a6a4/openerp/tools/config.py#L114>"
-" `__:` `web, web_kanban``"
+"<https://github.com/odoo/odoo/blob/752dcc761caf15cb532b1e787e9a378a8112a6a4/openerp/tools/config.py#L114>'__:`"
+" `web, web_kanban``"
 
 # b8899584acf64da28147cb576c34aa17
 #: ../../admin/server_wide_modules.rst:14
@@ -94,8 +94,8 @@ msgid ""
 " ``web,web_kanban``"
 msgstr ""
 "`Odoo 8 "
-"<https://github.com/odoo/odoo/blob/492d8ce4d024e11c9aa715d4a4b7f99493eaef4b/openerp/tools/config.py#L145>"
-" `__:` `web, web_kanban``"
+"<https://github.com/odoo/odoo/blob/492d8ce4d024e11c9aa715d4a4b7f99493eaef4b/openerp/tools/config.py#L145>'__:`"
+" `web, web_kanban``"
 
 # 01c071a1f7564b0ea0d5427b091f42ca
 #: ../../admin/server_wide_modules.rst:15
@@ -105,8 +105,8 @@ msgid ""
 " ``web,web_kanban``"
 msgstr ""
 "`Odoo 7 "
-"<https://github.com/odoo/odoo/blob/ae34a1e93ec3e6e54ece9d546d527af5787f5c3f/openerp/tools/config.py#L487>"
-" `__:` `web, web_kanban``"
+"<https://github.com/odoo/odoo/blob/ae34a1e93ec3e6e54ece9d546d527af5787f5c3f/openerp/tools/config.py#L487>'__:`"
+" `web, web_kanban``"
 
 # 6d0898972b82487284a17d9a69c8f810
 #: ../../admin/server_wide_modules.rst:18

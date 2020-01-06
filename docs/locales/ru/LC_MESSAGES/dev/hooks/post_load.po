@@ -58,8 +58,8 @@ msgid ""
 " to use it to be sure."
 msgstr ""
 "С ОДО 12 "
-"<https://github.com/odoo/odoo/commit/8226aa1db828d2a559c7ffaa31a27ef3e5ba4d0b>"
-" `_ monkey patch может быть применен без post_load, но все же рекомендуется "
+"<https://github.com/odoo/odoo/commit/8226aa1db828d2a559c7ffaa31a27ef3e5ba4d0b>'_"
+" monkey patch может быть применен без post_load, но все же рекомендуется "
 "использовать его, чтобы быть уверенным."
 
 # 87b5b631cf42425a8553555fddd26738
@@ -76,8 +76,8 @@ msgstr ""
 "доступен в пути аддонов. Это происходит потому, что odoo загружает файлы "
 "Python модуля, если в модуле есть статическая папка (независимо от того, "
 "установлен модуль или нет - см. Метод `` load_addons`` в `http.py "
-"<https://github.com/odoo/odoo/blob/10.0/odoo/http.py> `_ файл исходного кода"
-" odoo)."
+"<https://github.com/odoo/odoo/blob/10.0/odoo/http.py>'_ файл исходного кода "
+"odoo)."
 
 # 19f7948d3df5489dbafe1efa21507a9a
 #: ../../dev/hooks/post_load.rst:48
@@ -107,7 +107,7 @@ msgid ""
 "telegram>`_."
 msgstr ""
 "Конечно. Например, из `модуля телеграммы <https://github.com/it-projects-"
-"llc/odoo-telegram> `_."
+"llc/odoo-telegram>'_."
 
 # c9317e8410b9449a816546abc1e6c983
 #: ../../dev/hooks/post_load.rst:57

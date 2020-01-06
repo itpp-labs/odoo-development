@@ -105,7 +105,7 @@ msgid ""
 "config-connection.html#GUC-MAX-CONNECTIONS>`_"
 msgstr ""
 "`max_connections <https://www.postgresql.org/docs/current/static/runtime-"
-"config-connection.html#GUC-MAX-CONNECTIONS> `_"
+"config-connection.html#GUC-MAX-CONNECTIONS>'_"
 
 # 166dd2edce444108bd3287791b72b0e2
 #: ../../admin/db_maxconn.rst:97
@@ -162,7 +162,7 @@ msgid ""
 "odony. Specifically, for ``db_maxconn`` param the quote is below."
 msgstr ""
 "Оформить заказ "
-"<https://github.com/odoo/odoo/issues/39825#issuecomment-555175814> `__ из "
+"<https://github.com/odoo/odoo/issues/39825#issuecomment-555175814>'__ из "
 "одони. В частности, для параметра `` db_maxconn`` цитата приведена ниже."
 
 # fc23b22399ce41128ec10d54089cf67d

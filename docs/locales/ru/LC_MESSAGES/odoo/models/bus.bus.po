@@ -202,7 +202,7 @@ msgstr ""
 "Вы можете отправить уведомление только через питона. Если вам нужно сделать "
 "это через клиента, сначала отправьте сигнал на сервер обычным способом "
 "(например, через `контроллеры <http://odoo-"
-"development.readthedocs.io/en/latest/dev/py/controllers.html> `_)."
+"development.readthedocs.io/en/latest/dev/py/controllers.html>'_)."
 
 # fbcc1d2b4d734ce984663d39f2d0301f
 #: ../../odoo/models/bus.bus.rst:131
@@ -226,7 +226,7 @@ msgid ""
 "addons/blob/9.0/pos_multi_session/controllers/pos_multi_session.py#L18>`__"
 msgstr ""
 "`добавить канал (питон) <https://github.com/it-projects-llc/pos-"
-"addons/blob/9.0/pos_multi_session/controllers/pos_multi_session.py#L18> `__"
+"addons/blob/9.0/pos_multi_session/controllers/pos_multi_session.py#L18>'__"
 
 # b41e1d1458844cb5940cbff9d3a449d6
 #: ../../odoo/models/bus.bus.rst:155
@@ -235,8 +235,7 @@ msgid ""
 "addons/blob/9.0/pos_multi_session/static/src/js/pos_multi_session.js#L411>`__"
 msgstr ""
 "`связать событие <https://github.com/it-projects-llc/pos-"
-"addons/blob/9.0/pos_multi_session/static/src/js/pos_multi_session.js#L411> "
-"`__"
+"addons/blob/9.0/pos_multi_session/static/src/js/pos_multi_session.js#L411>'__"
 
 # 96cf1fd9f772462b9e83823a018445fc
 #: ../../odoo/models/bus.bus.rst:157
@@ -245,7 +244,7 @@ msgid ""
 "addons/blob/9.0/pos_multi_session/pos_multi_session_models.py#L25>`__"
 msgstr ""
 "`отправить уведомление <https://github.com/it-projects-llc/pos-"
-"addons/blob/9.0/pos_multi_session/pos_multi_session_models.py#L25> `__"
+"addons/blob/9.0/pos_multi_session/pos_multi_session_models.py#L25>'__"
 
 # d382a16d50184f148fe3ba0031b0e31c
 #: ../../odoo/models/bus.bus.rst:159
@@ -259,7 +258,7 @@ msgid ""
 "addons-8.0-chess/chess/static/js/chesschat.js#L11-L14>`__"
 msgstr ""
 "`добавить канал (js) <https://github.com/GabbasovDinar/addons-"
-"dev/blob/website-addons-8.0-chess/chess/static/js/chesschat.js#L11-L14> `__"
+"dev/blob/website-addons-8.0-chess/chess/static/js/chesschat.js#L11-L14>'__"
 
 # 52126dd2a54a490eb285055b7276a621
 #: ../../odoo/models/bus.bus.rst:163
@@ -268,7 +267,7 @@ msgid ""
 "addons-8.0-chess/chess/models/chess.py#L282-L288>`__"
 msgstr ""
 "`связать событие <https://github.com/GabbasovDinar/addons-dev/blob/website-"
-"addons-8.0-chess/chess/models/chess.py#L282-L288> `__"
+"addons-8.0-chess/chess/models/chess.py#L282-L288>'__"
 
 # 162b34173c9345a5aa59d91013056a1a
 #: ../../odoo/models/bus.bus.rst:165
@@ -277,8 +276,7 @@ msgid ""
 "dev/blob/website-addons-8.0-chess/chess/static/js/chesschat.js#L134-L145>`__"
 msgstr ""
 "`отправить уведомление <https://github.com/GabbasovDinar/addons-"
-"dev/blob/website-addons-8.0-chess/chess/static/js/chesschat.js#L134-L145> "
-"`__"
+"dev/blob/website-addons-8.0-chess/chess/static/js/chesschat.js#L134-L145>'__"
 
 # e85d6534d13b4e3f865d0465b22f2996
 #: ../../odoo/models/bus.bus.rst:167
@@ -292,8 +290,7 @@ msgid ""
 "addons/blob/9.0-mail_move_message/mail_move_message/controllers/main.py#L15>`__"
 msgstr ""
 "`добавить канал (питон) <https://github.com/x620/mail-"
-"addons/blob/9.0-mail_move_message/mail_move_message/controllers/main.py#L15>"
-" `__"
+"addons/blob/9.0-mail_move_message/mail_move_message/controllers/main.py#L15>'__"
 
 # 6249f221f27d465e8393a125cdecc18c
 #: ../../odoo/models/bus.bus.rst:171
@@ -302,8 +299,7 @@ msgid ""
 "addons/blob/9.0-mail_move_message/mail_base/static/src/js/base.js#L1150-L1152>`__"
 msgstr ""
 "`связать событие <https://github.com/x620/mail-"
-"addons/blob/9.0-mail_move_message/mail_base/static/src/js/base.js#L1150-L1152>"
-" `__"
+"addons/blob/9.0-mail_move_message/mail_base/static/src/js/base.js#L1150-L1152>'__"
 
 # 0d64c34fea9a4ce39774ca0103e00b2f
 #: ../../odoo/models/bus.bus.rst:173
@@ -312,5 +308,4 @@ msgid ""
 "addons/blob/9.0-mail_move_message/mail_move_message/mail_move_message_models.py#L312>`__"
 msgstr ""
 "`отправить уведомление <https://github.com/x620/mail-"
-"addons/blob/9.0-mail_move_message/mail_move_message/mail_move_message_models.py#L312>"
-" `__"
+"addons/blob/9.0-mail_move_message/mail_move_message/mail_move_message_models.py#L312>'__"
