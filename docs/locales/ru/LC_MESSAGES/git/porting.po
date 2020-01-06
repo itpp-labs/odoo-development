@@ -1,0 +1,119 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2019, IT-Projects LLC
+# This file is distributed under the same license as the Odoo Development
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Development master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+# 2662a596b72a4ca1bf1cc41997a11b23
+#: ../../git/porting.rst:3
+msgid "Porting"
+msgstr ""
+
+# de935fdaa0044616927147b937f51161
+#: ../../git/porting.rst:5
+msgid ""
+"If you add some feature to one branch and need to add it to anoher "
+"branch, then you have to make *port*."
+msgstr ""
+
+# 3202bbe99c8946a3b6c1cf44fbcbd1c6
+#: ../../git/porting.rst:7
+msgid "See also:"
+msgstr ""
+
+# b660b04a7dde46eb9e65beac2a89dc0c
+#: ../../git/porting.rst:9
+msgid ":doc:`Conflicts resolving <conflicts>`"
+msgstr ""
+
+# 1d32177d067c4e68a64215731dff73f6
+#: ../../git/porting.rst:12
+msgid "Forward-port"
+msgstr ""
+
+# ae6e22a364f84fa5bf4abe73ac81a2ea
+#: ../../git/porting.rst:14
+msgid ""
+"It's the simplest case. You merge commits from older branch (e.g. 8.0) to"
+" newer branch (e.g. 9.0) ::"
+msgstr ""
+
+# 4d866c9e43f14bfaa38bb99eaebfc40d
+#: ../../git/porting.rst:23
+msgid ""
+"After ``git merge`` you probably need to make some minor changes. In that"
+" case just add new commits to newer branch ::"
+msgstr ""
+
+# 93d07640714443abaae8463f81e02e73
+#: ../../git/porting.rst:30
+msgid "Back-port"
+msgstr ""
+
+# 1c3f38d1c4304572afb837c78282ec84
+#: ../../git/porting.rst:33
+msgid ""
+"If you need to port new feature from newer branch (e.g. 9.0) to older one"
+" (e.g. 8.0), then you have to make *back-port*."
+msgstr ""
+
+# 6b312599045f4b588d289a7cc5111e1c
+#: ../../git/porting.rst:35
+msgid ""
+"The problem here is that newer branch has commits which should be applied"
+" for newer branch only. That is you cannot just make ``git merge 9.0``, "
+"because it brings 9.0-only commits to 8.0 branch. Possible solutions here"
+" are:"
+msgstr ""
+
+# 3873746e84fa4ac3b7a48fe6ea793d0f
+#: ../../git/porting.rst:38
+msgid "git cherry-pick"
+msgstr ""
+
+# 879e9f739e9d4e88ae158b3db436e3b1
+#: ../../git/porting.rst:41
+msgid "Apply commits from newer branch (e.g. 9.0) to older branch (e.g. 8.0) ::"
+msgstr ""
+
+# 1f37dd6085db429c836885319d5c1c29
+#: ../../git/porting.rst:54
+msgid ""
+"Also possible to pick the commit from any remote repository. Add this "
+"repository to your remotes. Do fetch from it. And then cherry-pick."
+msgstr ""
+
+# abfa10789bf8436d84828d5eb23a8a5f
+#: ../../git/porting.rst:57
+msgid "cherry-pick range of commits"
+msgstr ""
+
+# eb26d4afc80b46e1aa8f570cfc1c0f4f
+#: ../../git/porting.rst:59
+msgid ""
+"The command ``git cherry-pick A..B`` applies commits betwwen A and B, but"
+" without A (A must be older than B). To apply inclusive range of commits "
+"use format as follows::"
+msgstr ""
+
+# 7f2f800d2f7442c49f6d8cff2512b7da
+#: ../../git/porting.rst:63
+msgid ""
+"For example, to backport this PR https://github.com/it-projects-llc/odoo-"
+"saas-tools/pull/286/commits , use command::"
+msgstr ""
+

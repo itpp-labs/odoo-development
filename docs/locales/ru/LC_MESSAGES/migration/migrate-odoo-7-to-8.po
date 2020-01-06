@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2019, IT-Projects LLC
+# This file is distributed under the same license as the Odoo Development
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Development master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+# a05b7c0832b149eea01814f965a2d19c
+#: ../../migration/migrate-odoo-7-to-8.rst:3
+msgid "``7.0-`` → ``8.0+``, ``(cr, uid, ids, context)`` → ``self.env``"
+msgstr ""
+
+# 9a5ce27b1b38482199e69729f837ffb2
+#: ../../migration/migrate-odoo-7-to-8.rst:6
+msgid "Automatic replacements"
+msgstr ""
+
+# 65cf02640e5d412bb528f48cc9871e42
+#: ../../migration/migrate-odoo-7-to-8.rst:67
+msgid "Semi-Automatic replacements"
+msgstr ""
+
+# 4c30b6a47ca04858a231ac73a985dc67
+#: ../../migration/migrate-odoo-7-to-8.rst:69
+msgid ""
+"We recommend to use commands below after commiting previous changes. It "
+"allows you to check differences."
+msgstr ""
+
+# 3d5204d96ff342aab60cdfacb805d75e
+#: ../../migration/migrate-odoo-7-to-8.rst:71
+msgid ""
+"The commands doesn't update code fully and usually you need to continue "
+"updates manually."
+msgstr ""
+

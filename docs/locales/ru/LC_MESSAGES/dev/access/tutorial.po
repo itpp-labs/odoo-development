@@ -1,0 +1,176 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2019, IT-Projects LLC
+# This file is distributed under the same license as the Odoo Development
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Development master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+# 8dd267022fe843e486aec90530a5eeb7
+#: ../../dev/access/tutorial.rst:2
+msgid "Security tutorial"
+msgstr ""
+
+# ccdac7e4eea84642afb25de7e9d7fe99
+#: ../../dev/access/tutorial.rst:7
+msgid "Resources:"
+msgstr ""
+
+# 7117c56705b3436d9de0c04b7817c110
+#: ../../dev/access/tutorial.rst:5
+msgid "http://odoo-docs.readthedocs.org/en/latest/04_security.html"
+msgstr ""
+
+# 6c114d5bc18c44d1ae4e6e8d2da3cace
+#: ../../dev/access/tutorial.rst:6
+msgid "https://www.odoo.com/documentation/9.0/howtos/backend.html#security"
+msgstr ""
+
+# 60938d098bd64a59895fc20ddb576a28
+#: ../../dev/access/tutorial.rst:7
+msgid "https://www.odoo.com/documentation/9.0/reference/security.html"
+msgstr ""
+
+# 692b14be02f6427fa92a5d6e5a48b1be
+#: ../../dev/access/tutorial.rst:9
+msgid ""
+"Odoo is very flexible on the subject of security. We can control what "
+"users can do and what they cannot on different levels. Also we can "
+"control independently each of the four basic operations: read, write, "
+"create, unlink. I.e. allow only read, allow only create, grant permission"
+" to create or delete only."
+msgstr ""
+
+# fe8d1700e458477b9498f83b029656c4
+#: ../../dev/access/tutorial.rst:17
+msgid "On fields/menu level we can:"
+msgstr ""
+
+# d8352753e1d440a4859b21101bdcc1c8
+#: ../../dev/access/tutorial.rst:15
+msgid "hide fields or menus for some users and show them for others"
+msgstr ""
+
+# a468e0cc3d2e42f1a391e80a23c0441b
+#: ../../dev/access/tutorial.rst:16
+msgid "make fields readonly for some users and make them editable for others"
+msgstr ""
+
+# 7118cb7c3d9a442da83c59dd270a2daf
+#: ../../dev/access/tutorial.rst:17
+msgid ""
+"show different variants to pick on the Selection fields for different "
+"users"
+msgstr ""
+
+# 8ca5443ca726413598d201ff01833e3a
+#: ../../dev/access/tutorial.rst:19
+msgid ""
+"On the fields level of security ``res.users`` and ``res.groups`` models "
+"are used. These models relate to each other as many2many. This means that"
+" a user can be a member of many groups and one group can be assigned to "
+"many users."
+msgstr ""
+
+# b30d27b15ccb47dcb70842dac9992f3d
+#: ../../dev/access/tutorial.rst:23
+msgid ""
+"One example of how we can hide menu in regard to current user's groups is"
+" the following."
+msgstr ""
+
+# e4df50654d9a4366b5a2a88de22511d2
+#: ../../dev/access/tutorial.rst:27
+msgid ""
+"On the picture above in ``Settings / Users`` we can see only ``Users`` "
+"menu. We know that there should be ``Groups`` menu also. Let Us see in "
+"``./openerp/addons/base/res/res_users_view.xml`` on the point of how "
+"menuitem can be hidden."
+msgstr ""
+
+# 88bf7467b3934c4ca213c6708f058f54
+#: ../../dev/access/tutorial.rst:49
+msgid ""
+"The ``groups`` attribute in the ``menuitem`` element shows us that only "
+"the members of ``base.group_no_one`` group can see the ``Groups`` menu "
+"item. The ``base.group_no_one`` xmlid is defined in the "
+"``./openerp/addons/base/security/base_security.xml`` as follows."
+msgstr ""
+
+# 99999bc69895490cbb0e72ab77d4e257
+#: ../../dev/access/tutorial.rst:90
+msgid ""
+"Here we can see the ``group_no_one`` along with the other base groups. "
+"Note that ``group_no_one`` has ``Technical Features`` name. Let us "
+"include our user in the ``Technical Features`` group. Since we have no "
+"access to the ``Groups`` menu item, the only way we can do it is from the"
+" ``Users`` menu item. See the picture below."
+msgstr ""
+
+# f83d7b2dabdc4efe81c7f4f8eff87b14
+#: ../../dev/access/tutorial.rst:98
+msgid ""
+"Check the ``Technical Features`` box and reload odoo. Now we can see the "
+"``Groups`` menu item!"
+msgstr ""
+
+# 61abce0c07ca4b7bbe5b7a01d03c4bfc
+#: ../../dev/access/tutorial.rst:103
+msgid ""
+"From ``Settings / Users / Groups`` we can see a list of existing groups. "
+"Here we also can assign users for groups."
+msgstr ""
+
+# bdf8d3b63fb54e04942b74ac71f8505c
+#: ../../dev/access/tutorial.rst:107
+msgid "Hide fields"
+msgstr ""
+
+# 395e0607ffed453dacb0e25943160160
+#: ../../dev/access/tutorial.rst:109
+msgid ""
+"In the ``./openerp/addons/base/res/res_users_view.xml`` we can see the "
+"``view_users_simple_form`` view. Note here that the ``company_id`` field "
+"is visible only for members of the ``base.group_multi_company`` group."
+msgstr ""
+
+# 37230db07382466992a2354fd337752e
+#: ../../dev/access/tutorial.rst:155
+msgid ""
+"Our current user is Administrator. By default he is not a member of the "
+"``base.group_multicompany`` group. That is why the ``company_id`` isn't "
+"visible for him on the form."
+msgstr ""
+
+# f0ec95bb87d94ca292943b6ef50d8098
+#: ../../dev/access/tutorial.rst:164
+msgid "Model records:"
+msgstr ""
+
+# b2be41cd7b0644e2943777a135fd917f
+#: ../../dev/access/tutorial.rst:164
+msgid "restrict access to specified subset of records in model"
+msgstr ""
+
+# a61f3a96d2f3471aa7dd20be06b17ee0
+#: ../../dev/access/tutorial.rst:167
+msgid "Model:"
+msgstr ""
+
+# 3b4ca850897345ae91b0b973dc0cc3e8
+#: ../../dev/access/tutorial.rst:167
+msgid "restrict access to all records of model"
+msgstr ""
+

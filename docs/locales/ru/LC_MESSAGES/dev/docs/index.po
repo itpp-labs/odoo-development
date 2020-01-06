@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2019, IT-Projects LLC
+# This file is distributed under the same license as the Odoo Development
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Development master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+# 876376c5d39b4a598221bdd50451eaf9
+#: ../../dev/docs/index.rst:3
+msgid "Docs and manifests"
+msgstr ""
+
+# 23df9e6b551840468f5edabf15ed941c
+#: ../../dev/docs/index.rst:6
+msgid "Files"
+msgstr ""
+
+# 88b4a409a0c0460295343f0e3538bc08
+#: ../../dev/docs/index.rst:8
+msgid ""
+"**All** files from this section ought to be fully [1]_ prepared "
+"**before** any other files in new module. It helps you to review "
+"requirements again before you start."
+msgstr ""
+
+# ed61b8494b354e2b94f1fecd7d908c1d
+#: ../../dev/docs/index.rst:10
+msgid ""
+"The only exception could be made for lists of files in "
+"``__manifest__.py`` (*\"data\"*, *\"qweb\"*, *\"demo\"* fields)."
+msgstr ""
+
+# 7878c3be5f0b45dabce6b4c67c0d278d
+#: ../../dev/docs/index.rst:19
+msgid "and these two files:"
+msgstr ""
+
+# 8e3300f914924b38b8870c201c0b6849
+#: ../../dev/docs/index.rst:21
+msgid ""
+"`changelog.rst <https://gitlab.com/itpp/handbook/blob/master/technical-"
+"docs/changelog.rst.md>`__ `icon.png "
+"<https://gitlab.com/itpp/handbook/blob/master/technical-"
+"docs/icon.png.md>`__"
+msgstr ""
+

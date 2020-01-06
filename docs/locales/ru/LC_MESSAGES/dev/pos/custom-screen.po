@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2019, IT-Projects LLC
+# This file is distributed under the same license as the Odoo Development
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Development master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+# 87d51d3849f445d3a1b05d1dafc94d75
+#: ../../dev/pos/custom-screen.rst:3
+msgid "Custom Screens"
+msgstr ""
+
+# 5b25244038704144bd305b18a1934978
+#: ../../dev/pos/custom-screen.rst:5
+msgid ""
+"List of **partners**, **payment's screen**, and **floor screen** are "
+"examples of ``screens``."
+msgstr ""
+
+# 782a133484ac4a7abc03d7471b0f5523
+#: ../../dev/pos/custom-screen.rst:7
+msgid "We will consider *an example of creating the User interface*."
+msgstr ""
+
+# edbf76069da54ddf990e711046dfd0e4
+#: ../../dev/pos/custom-screen.rst:9
+msgid ""
+"In order to create a new ``custom screen`` we plug ``screens`` and "
+"``gui``:"
+msgstr ""
+
+# 62bf8887e7c4422b878171741e064b41
+#: ../../dev/pos/custom-screen.rst:16
+msgid "Then we declare a new variable and inherit ``ScreenWidget``:"
+msgstr ""
+
+# e1f0164cfc7d4f9b928cb660f075a85a
+#: ../../dev/pos/custom-screen.rst:23
+msgid ""
+"Now ``CustomScreenWidget`` consist of all methods from ``ScreenWidget``. "
+"Then we need to define a template, where the structure of the screen is "
+"described using ``Qweb``:"
+msgstr ""
+
+# e8b255acd82844139d6601ffb4f16b9a
+#: ../../dev/pos/custom-screen.rst:29
+msgid "In ``Qweb`` we define a template as follows:"
+msgstr ""
+
+# b768a952f78e42c7a0542bb6ef54a56b
+#: ../../dev/pos/custom-screen.rst:59
+msgid "Define styles in ``css`` file, which you need for the screen."
+msgstr ""
+
+# 21037eab66db4c40a1bf7e2bf3a8efec
+#: ../../dev/pos/custom-screen.rst:61
+msgid ""
+"This ``Qweb`` will be rendered every time when the method "
+"``renderElement`` runs (prior to the downloading POS all screens are "
+"drawn and hidden already). This method can be redefine and, for example, "
+"used for actions of  ``back`` and ``next`` buttons:"
+msgstr ""
+
+# 474b8850559b4165933c040da1efea16
+#: ../../dev/pos/custom-screen.rst:77
+msgid ""
+"All screens are hidden by default (except those, which are called after "
+"POS downloading). In order to open Custom Screens you need to define it "
+"inside screens' list:"
+msgstr ""
+
+# cec0e009cd0f4a0a8468f6de9e3d746b
+#: ../../dev/pos/custom-screen.rst:84
+msgid ""
+"In order to open Custom Screen you need to call the next function (for "
+"example after click to the Action button):"
+msgstr ""
+
+# 02677f5c76c9498d9e08d82ff35104e2
+#: ../../dev/pos/custom-screen.rst:90
+msgid "*where* ``this`` is a pointer to ``PosModel``."
+msgstr ""
+
+# 55ce02d39a484a3b95308b8b8f9d292d
+#: ../../dev/pos/custom-screen.rst:92
+msgid ""
+"For a concrete example check the **POS Orders History** `module "
+"<https://github.com/it-projects-llc/pos-"
+"addons/blob/12.0/pos_orders_history/static/src/js/screens.js#L311>`__ , "
+"where ``orders_history_screen`` is defined."
+msgstr ""
+

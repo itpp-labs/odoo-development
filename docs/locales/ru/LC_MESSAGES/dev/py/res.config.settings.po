@@ -1,0 +1,152 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2019, IT-Projects LLC
+# This file is distributed under the same license as the Odoo Development
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Development master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+# 6cb3d91d4c34465a9d6317360223ccd3
+#: ../../dev/py/res.config.settings.rst:2
+msgid "res.config.settings"
+msgstr ""
+
+# a6423259991e41318cb6fdbcbec617fb
+#: ../../dev/py/res.config.settings.rst:4
+msgid ""
+"*Based on* "
+"https://github.com/odoo/odoo/blob/10.0/odoo/addons/base/res/res_config.py"
+msgstr ""
+
+# 37c517fa792e4c1a8e5803091205031d
+#: ../../dev/py/res.config.settings.rst:6
+msgid ""
+"``res.config.settings`` is a base configuration wizard for application "
+"settings.  It provides support for setting default values, assigning "
+"groups to employee users, and installing modules. To make such a "
+"'settings' wizard, define a model like::"
+msgstr ""
+
+# c18fa969c2224ade92ffa034f038d56b
+#: ../../dev/py/res.config.settings.rst:20
+msgid ""
+"The method ``execute`` (*Apply* button) provides some support based on a "
+"naming convention:"
+msgstr ""
+
+# 20d37358cecb4986b3c8f497980bb32d
+#: ../../dev/py/res.config.settings.rst:22
+msgid ""
+"For a field like ``default_XXX``, ``execute`` sets the (global) default "
+"value of the field ``XXX`` in the model named by ``default_model`` to the"
+" field's value."
+msgstr ""
+
+# 15bab585a61b4b208a068cefabaed5e5
+#: ../../dev/py/res.config.settings.rst:25
+msgid ""
+"For a boolean field like ``group_XXX``, ``execute`` adds/removes "
+"'implied_group' to/from the implied groups of 'group', depending on the "
+"field's value. By default 'group' is the group Employee.  Groups are "
+"given by their xml id. The attribute 'group' may contain several xml ids,"
+" separated by commas."
+msgstr ""
+
+# d2cb67980f87418a96dd8dd183c407c6
+#: ../../dev/py/res.config.settings.rst:30
+msgid ""
+"For a boolean field like ``module_XXX``, ``execute`` triggers the "
+"immediate installation of the module named ``XXX`` if the field has value"
+" ``True``."
+msgstr ""
+
+# 9d90fb077dfe4ad2a2cf2169639045a8
+#: ../../dev/py/res.config.settings.rst:33
+msgid ""
+"For the other fields, the method ``execute`` invokes all methods with a "
+"name that starts with ``set_``; such methods can be defined to implement "
+"the effect of those fields."
+msgstr ""
+
+# 525e973c45674fa780c13dfd844b0fdf
+#: ../../dev/py/res.config.settings.rst:37
+msgid ""
+"The method ``default_get`` retrieves values that reflect the current "
+"status of the fields like ``default_XXX``, ``group_XXX`` and "
+"``module_XXX``.  It also invokes all methods with a name that starts with"
+" ``get_default_``; such methods can be defined to provide current values "
+"for other fields."
+msgstr ""
+
+# e01cd5922b5b44ffb10a218183fcace1
+#: ../../dev/py/res.config.settings.rst:43
+msgid "Example"
+msgstr ""
+
+# 83c36317aa0d47bf83fdec334f99302c
+#: ../../dev/py/res.config.settings.rst:79
+msgid "Update settings on module install"
+msgstr ""
+
+# 8bbd68a4e877480b8abdb3e91b8d40a5
+#: ../../dev/py/res.config.settings.rst:81
+msgid "To update settings from any ``res.config.settings`` do as follows:"
+msgstr ""
+
+# 2cd2987dbb634dc59cf1fa08e8e160e8
+#: ../../dev/py/res.config.settings.rst:84
+msgid "default_XXX"
+msgstr ""
+
+# 3396fa8f8dcc47b195ab1dd412b7274f
+#: ../../dev/py/res.config.settings.rst:86
+msgid "TODO"
+msgstr ""
+
+# b175a05944c747c9860fe5b01d32db5a
+#: ../../dev/py/res.config.settings.rst:89
+msgid "group_XXX"
+msgstr ""
+
+# e0fb0e6bfddb4ca5ae08bc5d67e4d8ca
+#: ../../dev/py/res.config.settings.rst:91
+msgid "Add **implied group(s)** to a **group** via ``implied_ids`` field::"
+msgstr ""
+
+# c901d8b534014d5481f63cd7e4c437bb
+#: ../../dev/py/res.config.settings.rst:100
+msgid "module_XXX"
+msgstr ""
+
+# 14e3e5d4143c48b2b9e5ba71282f4c6f
+#: ../../dev/py/res.config.settings.rst:102
+msgid ""
+"Add XXX to the \"depends\" parameter in the "
+":doc:`__manifest__.py<../docs/__manifest__.py>` file."
+msgstr ""
+
+# b5d993b983d84fc5b682cf8d3469e385
+#: ../../dev/py/res.config.settings.rst:105
+msgid "Other fields"
+msgstr ""
+
+# 5b2c447734744b078ba44ac4de561671
+#: ../../dev/py/res.config.settings.rst:107
+msgid ""
+"Usually, other fields are saved to ``ir.config_parameter``, so just "
+":doc:`update ir.config_parameter<../../odoo/models/ir.config_parameter>`,"
+" for example::"
+msgstr ""
+

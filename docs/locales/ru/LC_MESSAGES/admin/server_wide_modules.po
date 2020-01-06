@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2019, IT-Projects LLC
+# This file is distributed under the same license as the Odoo Development
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Development master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+# 1925fa9241a842e881967341be22f911
+#: ../../admin/server_wide_modules.rst:3
+msgid "``--load``"
+msgstr ""
+
+# 17a9d0999ba844cea9a0fb91a7a62952
+#: ../../admin/server_wide_modules.rst:5
+msgid ""
+"The option ``--load`` (also known as ``server_wide_modules``) is used to "
+"define list of modules that are loaded on odoo start. Such modules are "
+"loaded even if there are no databases in odoo. Odoo by default loads "
+"``web`` module, but exact list may varies for different odoo versions"
+msgstr ""
+
+# aaeba35c3ee6461d833b3fab6a01d368
+#: ../../admin/server_wide_modules.rst:8
+msgid "Default value"
+msgstr ""
+
+# e67c3fa096b941599abc86c708744375
+#: ../../admin/server_wide_modules.rst:10
+msgid ""
+"`Odoo 12 "
+"<https://github.com/odoo/odoo/blob/95b4f2ab4b5698ab3a28c9c35ac8da6fb6def983/odoo/tools/config.py#L120>`__:"
+" ``base,web``"
+msgstr ""
+
+# 8161709cea474c15951e68412421c22c
+#: ../../admin/server_wide_modules.rst:11
+msgid ""
+"`Odoo 11 "
+"<https://github.com/odoo/odoo/blob/717f4583949219c346c87c390fbc336b4f31571c/odoo/tools/config.py#L119>`__:"
+" ``web``"
+msgstr ""
+
+# 21440c02753c461e937abf9bc8748625
+#: ../../admin/server_wide_modules.rst:12
+msgid ""
+"`Odoo 10 "
+"<https://github.com/odoo/odoo/blob/80d363cd31ec56b72e38e02571285349b60e428e/odoo/tools/config.py#L114>`__:"
+" ``web,web_kanban``"
+msgstr ""
+
+# 4e82c3c6b8634e0bb4a1d94a550ad818
+#: ../../admin/server_wide_modules.rst:13
+msgid ""
+"`Odoo 9 "
+"<https://github.com/odoo/odoo/blob/752dcc761caf15cb532b1e787e9a378a8112a6a4/openerp/tools/config.py#L114>`__:"
+" ``web,web_kanban``"
+msgstr ""
+
+# b8899584acf64da28147cb576c34aa17
+#: ../../admin/server_wide_modules.rst:14
+msgid ""
+"`Odoo 8 "
+"<https://github.com/odoo/odoo/blob/492d8ce4d024e11c9aa715d4a4b7f99493eaef4b/openerp/tools/config.py#L145>`__:"
+" ``web,web_kanban``"
+msgstr ""
+
+# 01c071a1f7564b0ea0d5427b091f42ca
+#: ../../admin/server_wide_modules.rst:15
+msgid ""
+"`Odoo 7 "
+"<https://github.com/odoo/odoo/blob/ae34a1e93ec3e6e54ece9d546d527af5787f5c3f/openerp/tools/config.py#L487>`__:"
+" ``web,web_kanban``"
+msgstr ""
+
+# 6d0898972b82487284a17d9a69c8f810
+#: ../../admin/server_wide_modules.rst:18
+msgid "Adding new module to the list"
+msgstr ""
+
+# 90da72207249400abfc8f6eff1796505
+#: ../../admin/server_wide_modules.rst:20
+msgid "In general, you need to take default value and add there a new module."
+msgstr ""
+
+# d0e1790776e54e22aae97ce7483a5a5b
+#: ../../admin/server_wide_modules.rst:23
+msgid "Via CLI"
+msgstr ""
+
+# 39be261b336d4d51884fa5f6408078de
+#: ../../admin/server_wide_modules.rst:32
+msgid "Via config file"
+msgstr ""
+
+# aeddf61fe18146ccb4ae3c57b4a236c4
+#: ../../admin/server_wide_modules.rst:33
+msgid ""
+"Parameter name is config file is ``server_wide_modules``. Add this "
+"parameter if it's not presented yet or modify existing value by adding "
+"new module::"
+msgstr ""
+
+# fe02d1cca18f4c4ca38972f05c7af620
+#: ../../admin/server_wide_modules.rst:41
+msgid "Odoo.sh"
+msgstr ""
+
+# 35d36c1b760b4a2791b6daa13cb8cb7c
+#: ../../admin/server_wide_modules.rst:43
+msgid "navigate to Shell tab in odoo.sh"
+msgstr ""
+
+# bd0233b76b5e4c8ab755c2e5837b4020
+#: ../../admin/server_wide_modules.rst:44
+msgid "execute ``nano .config/odoo/odoo.conf``"
+msgstr ""
+
+# d29d3c0f69df4356ae1ecacfde9efcab
+#: ../../admin/server_wide_modules.rst:45
+msgid "add ``server_wide_modules`` parameter with NEWMODULE added (see above)"
+msgstr ""
+
+# 10ce251e72b44980b5ac553cd554ccd2
+#: ../../admin/server_wide_modules.rst:46
+msgid "restart server by executing following command: ``odoosh-restart``"
+msgstr ""
+

@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2019, IT-Projects LLC
+# This file is distributed under the same license as the Odoo Development
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Development master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+# 8d1de3ec25ab4c7d83ae767bfb515f38
+#: ../../admin/posbox/administrate-posbox.rst:2
+msgid "Introduction"
+msgstr ""
+
+# 47e2674598cb4e5faaebdaed42fdfac2
+#: ../../admin/posbox/administrate-posbox.rst:4
+msgid ""
+"The **POSBox** runs a heavily modified **Raspbian Linux** installation, a"
+" Debian derivative for the **Raspberry Pi**. It also runs a barebones "
+"installation of Odoo which provides the webserver and the drivers. The "
+"hardware drivers are implemented as Odoo modules. Those modules are all "
+"prefixed with ``hw_*`` and they are the only modules that are running on "
+"the POSBox. Odoo is only used for the framework it provides. No business "
+"data is processed or stored on the POSBox. The Odoo instance is a shallow"
+" git clone of the ``8.0`` branch."
+msgstr ""
+
+# b502d19d88ff4926a62829d33f8cc62b
+#: ../../admin/posbox/administrate-posbox.rst:10
+msgid ""
+"The root partition on the POSBox is mounted ``read-only``, ensuring that "
+"we don't wear out the SD card by writing to it too much. It also ensures "
+"that the filesystem cannot be corrupted by cutting the power to the "
+"POSBox. Linux applications expect to be able to write to certain "
+"directories though. So we provide a ramdisk for ``/etc`` and ``/var`` "
+"(Raspbian automatically provides one for ``/tmp``). These ramdisks are "
+"setup by ``setup_ramdisks.sh``, which we run before all other init "
+"scripts by running it in ``/etc/init.d/rcS``. The ramdisks are named "
+"``/etc_ram`` and ``/var_ram`` respectively. Most data from ``/etc`` and "
+"``/var`` is copied to these tmpfs ramdisks. In order to restrict the size"
+" of the ramdisks, we do not copy over certain things to them (eg. apt "
+"related data). We then bind mount them over the original directories. So "
+"when an application writes to ``/etc/foo/bar`` it's actually writing to "
+"``/etc_ram/foo/bar``. We also bind mount ``/`` to "
+"``/root_bypass_ramdisks`` to be able to get to the real ``/etc`` and "
+"``/var`` during development."
+msgstr ""
+
+# a54eca60b7e544ae9f173a3f94ccb57f
+#: ../../admin/posbox/administrate-posbox.rst:21
+msgid "How to edit config"
+msgstr ""
+
+# 28347783e06542d58eca19b22b5efe83
+#: ../../admin/posbox/administrate-posbox.rst:23
+msgid ""
+"If you have the POSBox's IP address and an SSH client you can access the "
+"POSBox's system remotely."
+msgstr ""
+
+# c55f78a549d24605b4c4d5f1d72c42b0
+#: ../../admin/posbox/administrate-posbox.rst:25
+msgid "**Login:** ``pi`` **Password:** ``raspberry``"
+msgstr ""
+
+# 229b82dba3b44b20b1d63b68f0071ecf
+#: ../../admin/posbox/administrate-posbox.rst:28
+msgid "Beware that root (/) is mounted read only and so you cannot use write."
+msgstr ""
+
+# 7af3162b972e48d38c58d624dd042a2f
+#: ../../admin/posbox/administrate-posbox.rst:30
+msgid "If you want to use it you need to reboot in normal mode."
+msgstr ""
+
+# 1364783deebb4e7f948e45fbbf876358
+# 61488b7145394cf88866180d804d586d
+#: ../../admin/posbox/administrate-posbox.rst:38
+#: ../../admin/posbox/administrate-posbox.rst:75
+msgid "sync and reboot posbox"
+msgstr ""
+
+# 8ba1bd790a174db78b53f1628cb7895c
+#: ../../admin/posbox/administrate-posbox.rst:46
+msgid "How to update odoo command-line options"
+msgstr ""
+
+# 7b75e27dbd9e490995693bb59f9032b4
+#: ../../admin/posbox/administrate-posbox.rst:48
+msgid "edit /root_bypass_ramdisks/etc/init.d/odoo"
+msgstr ""
+
+# 7f5c8cedbcfa47a8adfdf2dcfc4d45ce
+#: ../../admin/posbox/administrate-posbox.rst:54
+msgid "add ``hw_printer_network`` to ``--load parameter``"
+msgstr ""
+
+# 5468e31190a74a2e8e9929b3086b4efd
+#: ../../admin/posbox/administrate-posbox.rst:61
+msgid "How to edit odoo source"
+msgstr ""
+
+# 7348807578d045578db73a30610ee22a
+#: ../../admin/posbox/administrate-posbox.rst:63
+msgid "Comment out line 354 in ``hw_escpos/controllers/main.py``"
+msgstr ""
+
+# 0b24d4097d7c41ec8e46a26de94f1a7f
+#: ../../admin/posbox/administrate-posbox.rst:69
+msgid "i.e. replace ``driver.push_task('printstatus')`` with"
+msgstr ""
+

@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2019, IT-Projects LLC
+# This file is distributed under the same license as the Odoo Development
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Development master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+# 3ac8f36f0ec44b1cb94fc15d85333105
+#: ../../dev/frontend/webpage.rst:2
+msgid "Web page"
+msgstr ""
+
+# 98a191e3372e4b6096a95248f061cba7
+#: ../../dev/frontend/webpage.rst:4
+msgid "**Common**"
+msgstr ""
+
+# d0d7aaf20841433f95672d14f5768905
+#: ../../dev/frontend/webpage.rst:7
+msgid "Open a new project:"
+msgstr ""
+
+# d453959f944f43cca50ebde77ca31473
+#: ../../dev/frontend/webpage.rst:13
+msgid "Add  ``website`` as a dependency to ``newpage``:"
+msgstr ""
+
+# 9f4835d623a041d281a6aef01059a85b
+#: ../../dev/frontend/webpage.rst:19
+msgid ""
+"then add the website=True flag on the controller, this sets up a few new "
+"variables on the request object and allows using the website layout in "
+"our template."
+msgstr ""
+
+# cbcea7730fe042eca492914e2ceb88c4
+#: ../../dev/frontend/webpage.rst:22
+msgid "**Creating pages**"
+msgstr ""
+
+# 1d346e0068a04f73bfadd87ab1a120ac
+#: ../../dev/frontend/webpage.rst:24
+msgid "**1 way**"
+msgstr ""
+
+# b01564b4100c45ff9dc194c7fb5ce6cd
+#: ../../dev/frontend/webpage.rst:26
+msgid "Write the following code in ``controllers.py``:"
+msgstr ""
+
+# 90ef9a7f67074d1281fe7d22d3e9a7c7
+#: ../../dev/frontend/webpage.rst:36
+msgid ""
+"The new web page will appear by adding - ``/new-page/`` "
+"``http.request.render('newpage.index')`` – downloading a tamplate for a "
+"new page"
+msgstr ""
+
+# 96f934eaef1b4fa2b0cd9870b0180ec9
+#: ../../dev/frontend/webpage.rst:39
+msgid "A pattern ``templates.xml``"
+msgstr ""
+
+# a372cbaa72d44c7ab2105d745e5ba471
+#: ../../dev/frontend/webpage.rst:59
+msgid "``website.layout`` means that the elements of pattern website are used."
+msgstr ""
+
+# b1cace9659744f359e8a1eb17b61c973
+#: ../../dev/frontend/webpage.rst:61
+msgid ""
+"After restarting the server while updating the module (in order to update"
+" the manifest and template) access http://localhost:8069/new-page/. You "
+"will see a new page with a title *'My first web page'* and with text "
+"*'Hello, world!'*"
+msgstr ""
+
+# 48a0e8daf8ed4706a1e5c454a98e3226
+#: ../../dev/frontend/webpage.rst:65
+msgid "**2 way**"
+msgstr ""
+
+# 192a90e14ab24fa4a7216cfb66ae99dd
+#: ../../dev/frontend/webpage.rst:67
+msgid "Write in pattern the following:"
+msgstr ""
+
+# 2985371d90e844c79f43e79da623e63a
+#: ../../dev/frontend/webpage.rst:86
+msgid ""
+"``page=\"True\"`` creates a page as follows below: "
+"http://localhost:8069/page/services/"
+msgstr ""
+
+# b88fff7fed3c4a9cb7f868d3ec32e2b9
+#: ../../dev/frontend/webpage.rst:89
+msgid "If add in ``view.xml``:"
+msgstr ""
+
+# b94ff67d370349ffaa3b786502e68091
+#: ../../dev/frontend/webpage.rst:100
+msgid "This code will add a link to the main menu."
+msgstr ""
+

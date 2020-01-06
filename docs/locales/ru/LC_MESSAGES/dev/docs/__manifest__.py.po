@@ -1,0 +1,298 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2019, IT-Projects LLC
+# This file is distributed under the same license as the Odoo Development
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Development master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+# 8d2e6f866c9b4263ab8e251f3b49a0bd
+#: ../../dev/docs/__manifest__.py.rst:3
+msgid "__manifest__.py (__openerp__.py)"
+msgstr ""
+
+# fad439df51384b4792a8a6cee900ae1b
+#: ../../dev/docs/__manifest__.py.rst:6
+msgid "OCA's manifest"
+msgstr ""
+
+# 358b20863fd3419ea46f0b7064756964
+#: ../../dev/docs/__manifest__.py.rst:8
+msgid ""
+"https://github.com/OCA/maintainer-"
+"tools/blob/master/template/module/__openerp__.py"
+msgstr ""
+
+# 3bd6b49dc95947b7a88ab0ae33609ccd
+#: ../../dev/docs/__manifest__.py.rst:11
+msgid "name"
+msgstr ""
+
+# 663bcf538673416aaee54f97dfa950c5
+#: ../../dev/docs/__manifest__.py.rst:13
+msgid "It must be non-technical name of the module"
+msgstr ""
+
+# acdeb4eaa5224015857d0b8c0203e0ac
+#: ../../dev/docs/__manifest__.py.rst:16
+msgid "summary"
+msgstr ""
+
+# 5b94b23b25614f85883f7bd8c7124a93
+#: ../../dev/docs/__manifest__.py.rst:18
+msgid ""
+"Short description of the module. E.g. you can describe here which problem"
+" is solved by the module. It could sound as a slogan."
+msgstr ""
+
+# ea8020564a704bfc8f71cf44c871fe7c
+#: ../../dev/docs/__manifest__.py.rst:21
+msgid "category"
+msgstr ""
+
+# 3c7528aaae9642c79c589d228571e293
+#: ../../dev/docs/__manifest__.py.rst:23
+msgid "Categories from the list below are preferred."
+msgstr ""
+
+# 78e8b6013519417389e0a520109d6a6e
+#: ../../dev/docs/__manifest__.py.rst:25
+msgid "``Accounting``"
+msgstr ""
+
+# e09826e48f544ef0a059c685d439e785
+#: ../../dev/docs/__manifest__.py.rst:26
+msgid "``Discuss``"
+msgstr ""
+
+# d9412db672d349fab4ac14158f0e59f0
+#: ../../dev/docs/__manifest__.py.rst:27
+msgid "``Document Management``"
+msgstr ""
+
+# 9105abe839f34037ae489729dc4dd18c
+#: ../../dev/docs/__manifest__.py.rst:28
+msgid "``eCommerce``"
+msgstr ""
+
+# b03019d026794769a629d049eef45656
+#: ../../dev/docs/__manifest__.py.rst:29
+msgid "``Human Resources``"
+msgstr ""
+
+# 2a49e4f43b3f480c87193c5475c21d88
+#: ../../dev/docs/__manifest__.py.rst:30
+msgid "``Industries``"
+msgstr ""
+
+# 132aaf87026e4616ba1f57793f42ad5c
+#: ../../dev/docs/__manifest__.py.rst:31
+msgid "``Localization``"
+msgstr ""
+
+# ddf16d95646e4425bf6800922cc04ac2
+#: ../../dev/docs/__manifest__.py.rst:32
+msgid "``Manufacturing``"
+msgstr ""
+
+# b752d1b24a344b53941ef7d84490457b
+#: ../../dev/docs/__manifest__.py.rst:33
+msgid "``Marketing``"
+msgstr ""
+
+# e3680d0ca05a49ef8eabc76ef5004c6f
+#: ../../dev/docs/__manifest__.py.rst:34
+msgid "``Point of Sale``"
+msgstr ""
+
+# 9295c437eebb493bbd9f01d3e17ce29c
+#: ../../dev/docs/__manifest__.py.rst:35
+msgid "``Productivity``"
+msgstr ""
+
+# 60835e9efc064f74a14d11edc939e296
+#: ../../dev/docs/__manifest__.py.rst:36
+msgid "``Project``"
+msgstr ""
+
+# 7f897cd2a1464be8beb22cdca72a0cef
+#: ../../dev/docs/__manifest__.py.rst:37
+msgid "``Purchases``"
+msgstr ""
+
+# d39382b01d4a42c7a1065fdb9c15db5d
+#: ../../dev/docs/__manifest__.py.rst:38
+msgid "``Sales``"
+msgstr ""
+
+# 8b918d16d3c0402fabf67202e00042cc
+#: ../../dev/docs/__manifest__.py.rst:39
+msgid "``Warehouse``"
+msgstr ""
+
+# 7b7b80c1f014440aa2838f15d7909d80
+#: ../../dev/docs/__manifest__.py.rst:40
+msgid "``Website``"
+msgstr ""
+
+# 74ee4e2d8856400fb21af5d9c34a65c9
+#: ../../dev/docs/__manifest__.py.rst:41
+msgid "``Extra Tools``"
+msgstr ""
+
+# 92a3143058cd49d89918885bbcbfe07d
+#: ../../dev/docs/__manifest__.py.rst:44
+msgid "Hidden"
+msgstr ""
+
+# 1fd6fe2498bb478987cd79aa2379b90f
+#: ../../dev/docs/__manifest__.py.rst:46
+msgid "For technical modules ``Hidden`` category can be used::"
+msgstr ""
+
+# b020c2559c574fbe8882f09b49a09084
+#: ../../dev/docs/__manifest__.py.rst:50
+msgid "Such modules are excluded from search results on app store."
+msgstr ""
+
+# afec1869b25c413aae5e3ab2b9baed68
+#: ../../dev/docs/__manifest__.py.rst:53
+msgid "version"
+msgstr ""
+
+# c6d6a443439049a48289f6d457b581e4
+#: ../../dev/docs/__manifest__.py.rst:56
+msgid "version in IT-Projects"
+msgstr ""
+
+# adeb3c0135bd412eb2d00635cf0f5c7d
+#: ../../dev/docs/__manifest__.py.rst:57
+msgid ""
+"https://gitlab.com/itpp/handbook/blob/master/technical-"
+"docs/__manifest__.md#version"
+msgstr ""
+
+# 9eaab3a64f324187a3e6a1d084cbc0a1
+#: ../../dev/docs/__manifest__.py.rst:60
+msgid "version in OCA"
+msgstr ""
+
+# 92740a1033b84115a0e82488385851d5
+#: ../../dev/docs/__manifest__.py.rst:61
+msgid ""
+"https://github.com/OCA/odoo-"
+"community.org/blob/master/website/Contribution/CONTRIBUTING.rst#version-"
+"numbers"
+msgstr ""
+
+# 1a3d8e11c5984888b7e29d39d2c31ebd
+#: ../../dev/docs/__manifest__.py.rst:64
+msgid "author"
+msgstr ""
+
+# 908480ee5b9e46e186071d2772028e30
+#: ../../dev/docs/__manifest__.py.rst:66
+msgid "Use company first and then developer(s): ::"
+msgstr ""
+
+# 758c0fa6b30f493bb654860e44c867b7
+#: ../../dev/docs/__manifest__.py.rst:70
+msgid ""
+"In the main, if module already exists and you make small updates\\fixes, "
+"you should not add your name to authors."
+msgstr ""
+
+# ca3f64e36aee418ebe2036079f0b53fc
+#: ../../dev/docs/__manifest__.py.rst:73
+msgid "author in OCA"
+msgstr ""
+
+# 852dbbbed5a44834939e93879fa2494b
+#: ../../dev/docs/__manifest__.py.rst:75
+msgid ""
+"https://github.com/OCA/odoo-"
+"community.org/blob/master/website/Contribution/CONTRIBUTING.rst"
+"#backporting-odoo-modules"
+msgstr ""
+
+# 35ef344081774e559f927d8faa09aa68
+#: ../../dev/docs/__manifest__.py.rst:78
+msgid "website"
+msgstr ""
+
+# 17cbddee89084e6e89d6820e075503f5
+#: ../../dev/docs/__manifest__.py.rst:80
+msgid ""
+"Url to personal page at company's website (e.g. ``\"https://it-"
+"projects.info/team/yelizariev\"``)"
+msgstr ""
+
+# 902219b669c94ab99f665f2fc3268d1d
+#: ../../dev/docs/__manifest__.py.rst:83
+msgid "license"
+msgstr ""
+
+# afe87c5bfba447cd83d653ad75fc7c71
+#: ../../dev/docs/__manifest__.py.rst:85
+msgid "IT-Projects LLC uses following licences:"
+msgstr ""
+
+# 2579c5a1e266479e98dbfe7a23bd2204
+#: ../../dev/docs/__manifest__.py.rst:87
+msgid "``\"GPL-3\"`` for odoo 8.0 and below"
+msgstr ""
+
+# 3f5080335e154d53ad166d724d92d983
+#: ../../dev/docs/__manifest__.py.rst:88
+msgid "``\"LGPL-3\"`` for odoo 9.0 and above"
+msgstr ""
+
+# f5ce1d0bcf7b49009d255e104842e247
+#: ../../dev/docs/__manifest__.py.rst:90
+msgid "For OCA's repositories use ``\"AGPL-3\"``."
+msgstr ""
+
+# 4f1930f9d7a94435bd162b347ff5c1a7
+#: ../../dev/docs/__manifest__.py.rst:93
+msgid "external_dependencies"
+msgstr ""
+
+# 51fa0c6d7a864088b47d322d311f46c0
+#: ../../dev/docs/__manifest__.py.rst:95
+msgid "Check if some python library exists::"
+msgstr ""
+
+# 5167f5d9a51541eda8d431dbb395507d
+#: ../../dev/docs/__manifest__.py.rst:100
+msgid "Check if some sytem application exists::"
+msgstr ""
+
+# e0aa9930ed2e48ea81bf23a0653731e2
+#: ../../dev/docs/__manifest__.py.rst:105
+msgid "See also: :doc:`External dependencies in odoo<../py/external-imports>`"
+msgstr ""
+
+# ceb209ab5b304cd180f4bb036771197c
+#: ../../dev/docs/__manifest__.py.rst:109
+msgid "IT-Projects' Template"
+msgstr ""
+
+# 5f463091d7ec465a9d5cc5a934191a9d
+#: ../../dev/docs/__manifest__.py.rst:110
+msgid ""
+"https://gitlab.com/itpp/handbook/blob/master/technical-"
+"docs/__manifest__.md"
+msgstr ""
+

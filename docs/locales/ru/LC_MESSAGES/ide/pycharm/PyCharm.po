@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2019, IT-Projects LLC
+# This file is distributed under the same license as the Odoo Development
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Development master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+# f973c25f026e47a0a2335b06d27f709b
+#: ../../ide/pycharm/PyCharm.rst:2
+msgid "PyCharm"
+msgstr ""
+
+# 3348ec057cf74907a5ca33383d6c3909
+#: ../../ide/pycharm/PyCharm.rst:5
+msgid "Remote access with pgAdmin to Odoo postgre database on Ubuntu"
+msgstr ""
+
+# 8048d37e73b44b3d8ed4142010487bf7
+#: ../../ide/pycharm/PyCharm.rst:6
+msgid "**This is for PgAdmin integration, but same method working with PyCharm.**"
+msgstr ""
+
+# 41091586e7164aef8307e192357b0364
+#: ../../ide/pycharm/PyCharm.rst:9
+msgid "STEP #1 – get pgAdmin Install pgAdmin from pgadmin.org"
+msgstr ""
+
+# 763541776a8c4d488159c65284fd7124
+#: ../../ide/pycharm/PyCharm.rst:12
+msgid ""
+"STEP #2 – allow postgre server remote connections from everywhere Open "
+"etc/postgresql/9.x/main/pg_hba.conf and add following line: host    all"
+"             all             all                     md5"
+msgstr ""
+
+# 111731a4baee469e815e7c7fa2847c7b
+#: ../../ide/pycharm/PyCharm.rst:16
+msgid ""
+"STEP #3 – let the postgre server listen to everyone Open "
+"etc/postgresql/9.x/main/postgresql.conf and change following line: "
+"listen_addresses = ‘*’"
+msgstr ""
+
+# b05e3e2a8f3b43eba3247ca7534407cc
+#: ../../ide/pycharm/PyCharm.rst:20
+msgid ""
+"STEP #4 – give the user “postgres” a password Start the psql terminal: "
+"sudo -u postgres psql Give a password: ALTER USER postgres PASSWORD "
+"‘yourpassword’; Leave the psql terminal: \\q"
+msgstr ""
+
+# 1296ca76f37641beb7b8a90b2c3b5896
+#: ../../ide/pycharm/PyCharm.rst:25
+msgid ""
+"STEP #5 Restart postgre server by executing this terminal command: sudo "
+"/etc/init.d/postgresql restart"
+msgstr ""
+
+# b05d19432d7b46b7b0c8e8fb632b5cfe
+#: ../../ide/pycharm/PyCharm.rst:29
+msgid "STEP #6 Start pgAdmin and add a connection to a server like this:"
+msgstr ""
+
+# e448909c97fc4bd1a2b14b1f05eab904
+#: ../../ide/pycharm/PyCharm.rst:34
+msgid "You are ready!"
+msgstr ""
+
+# eb8e5baa6910452285cadaf423dd5fd8
+#: ../../ide/pycharm/PyCharm.rst:36
+msgid "Original:"
+msgstr ""
+
+# 5355497fd87741088d197dffe9f61fc3
+#: ../../ide/pycharm/PyCharm.rst:38
+msgid ""
+"http://odoo.guide/remote-access-with-pgadmin-to-odoo-postgre-database-on-"
+"ubuntu/"
+msgstr ""
+

@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2019, IT-Projects LLC
+# This file is distributed under the same license as the Odoo Development
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Development master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+# 8764444df61444f0a60dab213cd311e0
+#: ../../dev/py/constraints.rst:2
+msgid "Model constraints"
+msgstr ""
+
+# 2cc87edcdc5c4922afb592820ad84910
+#: ../../dev/py/constraints.rst:4
+msgid ""
+"Odoo provides two ways to set up automatically verified invariants: "
+"`Python constraints <openerp.api.constrains>` and `SQL constraints "
+"<openerp.models.Model._sql_constraints>`."
+msgstr ""
+
+# b5ee4da1c0b14baaab203ea347d1a63e
+#: ../../dev/py/constraints.rst:8
+msgid ""
+"A Python constraint is defined as a method decorated with "
+"`~openerp.api.constrains`, and invoked on a recordset. The decorator "
+"specifies which fields are involved in the constraint, so that the "
+"constraint is automatically evaluated when one of them is modified. The "
+"method is expected to raise an exception if its invariant is not "
+"satisfied::"
+msgstr ""
+
+# 9810d6955b44483ba80f15c8622f5e32
+#: ../../dev/py/constraints.rst:24
+msgid ""
+"SQL constraints are defined through the model attribute "
+"`~openerp.models.Model._sql_constraints`. The latter is assigned to a "
+"list of triples of strings ``(name, sql_definition, message)``, where "
+"``name`` is a valid SQL constraint name, ``sql_definition`` is a "
+"``table_constraint_`` expression, and ``message`` is the error message."
+msgstr ""
+

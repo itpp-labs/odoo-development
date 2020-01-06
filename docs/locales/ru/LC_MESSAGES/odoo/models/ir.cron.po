@@ -1,0 +1,246 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2019, IT-Projects LLC
+# This file is distributed under the same license as the Odoo Development
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Development master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+# 361cdd8b3107404cad4b8a5103fee38f
+#: ../../odoo/models/ir.cron.rst:2
+msgid "ir.cron"
+msgstr ""
+
+# a43b5d9591a04c778ed89d82f5107d3d
+#: ../../odoo/models/ir.cron.rst:5
+msgid "**Creating automated actions in Odoo**"
+msgstr ""
+
+# 10eea222d68647429e315bcecfb8304b
+#: ../../odoo/models/ir.cron.rst:8
+msgid ""
+"Schedulers are automated actions that run automatically over a time "
+"period and can do a lot of things. They give the ability to execute "
+"actions database without needing manual interaction. Odoo makes running a"
+" background job easy: simply insert a record to ``ir.cron`` table and "
+"Odoo will execute it as defined."
+msgstr ""
+
+# 120ba21775c547839ff09e874a9e5dfa
+#: ../../odoo/models/ir.cron.rst:11
+msgid "**1. Creating the model and method of this model.**"
+msgstr ""
+
+# 66a8b4aebd0a4578b4bab6ab6fb25d40
+#: ../../odoo/models/ir.cron.rst:22
+msgid "**2. Creating the automated action**"
+msgstr ""
+
+# 99944c729ec549db8e832aaeb7d5bea3
+#: ../../odoo/models/ir.cron.rst:25
+msgid ""
+"`If you want to build new modules in the guidelines from Odoo you should "
+"add the code for an automated action under yourDefaultModule/data/ in a "
+"separate XML file.`"
+msgstr ""
+
+# 41c9f09f45404ef5ba003f57480113bf
+#: ../../odoo/models/ir.cron.rst:27
+msgid ""
+"An important thing to note with automated actions is that they should "
+"always be defined within a noupdate field since this shouldn’t be updated"
+" when you update your module."
+msgstr ""
+
+# aeed10109a8f43b7956c63e0cc10751b
+#: ../../odoo/models/ir.cron.rst:50
+msgid ""
+"The first thing you notice is the data ``noupdate=\"1\"``, this is "
+"telling Odoo that all code within this tag shouldn’t be updated when you "
+"update your module."
+msgstr ""
+
+# d7acefb63a8c428f9b18498ad5a37b10
+#: ../../odoo/models/ir.cron.rst:56
+msgid ""
+"The id is an unique identifier for Odoo to know what record is linked to "
+"which id. The model called (\"ir.cron\") is the model specifically made "
+"by Odoo for all automated actions. This model contains all automated "
+"actions and should always be specified."
+msgstr ""
+
+# 6387902c52604eef9ceaeca52d29300f
+#: ../../odoo/models/ir.cron.rst:62
+msgid "The next line is the name."
+msgstr ""
+
+# ace049aa97b54e35a10e3d8afaf03fee
+#: ../../odoo/models/ir.cron.rst:68
+msgid "Boolean value indicating whether the cron job is active or not."
+msgstr ""
+
+# 0798c81686b446a9beb00f4b927e65ed
+#: ../../odoo/models/ir.cron.rst:74
+msgid ""
+"This user id is referring to a specific user, in most cases this will be "
+"base.user_root."
+msgstr ""
+
+# cae2e51a26054f1c96478aae9a7defe9
+#: ../../odoo/models/ir.cron.rst:80
+msgid ""
+"Number of times the scheduler is to be called based on the "
+"\"interval_type\""
+msgstr ""
+
+# 6e7cd6dff44f4c9dba3f528f61f8102c
+#: ../../odoo/models/ir.cron.rst:86
+msgid "Interval Unit."
+msgstr ""
+
+# ec36892149944af9b271354b388134f7
+#: ../../odoo/models/ir.cron.rst:88
+msgid ""
+"It should be one value for the list: ``minutes``, ``hours``, ``days``, "
+"``weeks``, ``months``."
+msgstr ""
+
+# d5dca5afda584ff5a6cf8f4730ef155a
+#: ../../odoo/models/ir.cron.rst:94
+msgid ""
+"An integer value specifying how many times the job is executed. A "
+"negative value means no limit."
+msgstr ""
+
+# 82330598f8bf455488bd6493a6049f4b
+#: ../../odoo/models/ir.cron.rst:100
+msgid ""
+"A boolean value indicating whether missed occurrences should be executed "
+"when the server restarts."
+msgstr ""
+
+# 5028ed30865347968ec83c2cdb0d389b
+#: ../../odoo/models/ir.cron.rst:106
+msgid "Next planned execution date for this job."
+msgstr ""
+
+# 5997af783b764ecb908b09c227dce4b9
+#: ../../odoo/models/ir.cron.rst:112
+msgid ""
+"The field ``model`` specifies on which model the automated action should "
+"be called."
+msgstr ""
+
+# 8d39186453d04d60be7633c8cc5613f6
+#: ../../odoo/models/ir.cron.rst:118
+msgid "Name of the method to be called when this job is processed."
+msgstr ""
+
+# 4c003bcfa05b40ab9c7e86c673d7c55c
+#: ../../odoo/models/ir.cron.rst:124
+msgid "The arguments to be passed to the method."
+msgstr ""
+
+# 221450127fb1432ca4482905ad7e8872
+#: ../../odoo/models/ir.cron.rst:130
+msgid ""
+"The priority of the job, as an integer: 0 means higher priority, 10 means"
+" lower priority."
+msgstr ""
+
+# d0e3252227aa49678e6af79669e7c646
+#: ../../odoo/models/ir.cron.rst:133
+msgid "**Defaults.**"
+msgstr ""
+
+# 99b4d54e934b46268aefe81df395e507
+#: ../../odoo/models/ir.cron.rst:137
+msgid "Name"
+msgstr ""
+
+# 766f0f52551f46cc9c7959bd36553844
+#: ../../odoo/models/ir.cron.rst:137
+msgid "Definition"
+msgstr ""
+
+# fdafceec5c11429ea6ad633f95656df2
+#: ../../odoo/models/ir.cron.rst:139
+msgid "nextcall"
+msgstr ""
+
+# 9613e90cf88542cba4c2341da641c65f
+#: ../../odoo/models/ir.cron.rst:139
+msgid "``lambda *a: time.strftime(DEFAULT_SERVER_DATETIME_FORMAT``"
+msgstr ""
+
+# 00c0cb5a188940be8e49537ba8d02e6c
+#: ../../odoo/models/ir.cron.rst:141
+msgid "priority"
+msgstr ""
+
+# 40a28f0d95d94d9da3ef4af5a69bb54c
+#: ../../odoo/models/ir.cron.rst:141
+msgid "5"
+msgstr ""
+
+# cde38a8e034e4b6683573d5231f74381
+#: ../../odoo/models/ir.cron.rst:143
+msgid "user_id"
+msgstr ""
+
+# 47a3fac5c36b492280f4a54f8616d542
+#: ../../odoo/models/ir.cron.rst:143
+msgid "``lambda obj,cr,uid,context: uid``"
+msgstr ""
+
+# bf3f343f9a454979aa33752c50c0c6ff
+#: ../../odoo/models/ir.cron.rst:145
+msgid "interval_number"
+msgstr ""
+
+# 3b3baf9325a9430aac13d7b42877a8aa
+# 8fd23b4dd9ae4d0f8f272b96530c547b
+# d1ee0aafb0de42cb80ac789b25912845
+# f008ee8f641e4ce799dcf6f38e1a757d
+#: ../../odoo/models/ir.cron.rst:145 ../../odoo/models/ir.cron.rst:149
+#: ../../odoo/models/ir.cron.rst:151 ../../odoo/models/ir.cron.rst:153
+msgid "1"
+msgstr ""
+
+# 028e05c6c1db4ce3a6078db0efa98cd8
+#: ../../odoo/models/ir.cron.rst:147
+msgid "interval_type"
+msgstr ""
+
+# 3dfe68d8f5f64b09aa2d8cf1702eebfd
+#: ../../odoo/models/ir.cron.rst:147
+msgid "months"
+msgstr ""
+
+# a883074c14804cd78639d2384a8a76e3
+#: ../../odoo/models/ir.cron.rst:149
+msgid "numbercall"
+msgstr ""
+
+# 69a27c9adcff48f7966a7645b127fce7
+#: ../../odoo/models/ir.cron.rst:151
+msgid "active"
+msgstr ""
+
+# 5f7dbf8e2997449295cb8c0e6fd54163
+#: ../../odoo/models/ir.cron.rst:153
+msgid "doall"
+msgstr ""
+

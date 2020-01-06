@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2019, IT-Projects LLC
+# This file is distributed under the same license as the Odoo Development
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Development master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+# feb391edafe0416493a49111515622f2
+#: ../../odoo/usage/install-module.rst:3
+msgid "How to install/update module"
+msgstr ""
+
+# cd113a4bf37d4934ad6ebcfd1b9234a9
+#: ../../odoo/usage/install-module.rst:8
+msgid ""
+"``Import Module`` tool (import from a zip  file) doesn't work for modules"
+" with python files. It means that it doesn't work in most cases"
+msgstr ""
+
+# 0103b5d6a0f9470ba262517b552a57d8
+#: ../../odoo/usage/install-module.rst:15
+msgid "From zip archive"
+msgstr ""
+
+# e13b338a295045a4a1cec9628521a32d
+#: ../../odoo/usage/install-module.rst:17
+msgid "unzip module to your addons folder"
+msgstr ""
+
+# 5cbb4274e8134d55a01029d53c728a0e
+#: ../../odoo/usage/install-module.rst:18
+msgid "restart odoo server"
+msgstr ""
+
+# 0c4231782a554fc582967aa469788ac4
+#: ../../odoo/usage/install-module.rst:21
+msgid "11.0+"
+msgstr ""
+
+# 3fddc0bfd60b4971ac9de2a288fd98ba
+# 85dc8633f08a471bb931af2d19306a2b
+# 0e1667d285be445693fe27f8fd72d973
+# 7e445f9b2d704fddb364cad172864f8e
+#: ../../odoo/usage/install-module.rst:24
+#: ../../odoo/usage/install-module.rst:43
+#: ../../odoo/usage/install-module.rst:61
+#: ../../odoo/usage/install-module.rst:80
+msgid "install"
+msgstr ""
+
+# b50c0a43aab74f15b4a4ad1aaee4365f
+# e25bdd2419c6462ebc9d23f8365029f3
+# 948b4748f75b4285a52c3b2f1a5a5d14
+#: ../../odoo/usage/install-module.rst:26
+#: ../../odoo/usage/install-module.rst:45
+#: ../../odoo/usage/install-module.rst:63
+msgid ":doc:`activate developer mode <debug-mode>`"
+msgstr ""
+
+# 3d064b3d8a7444ae87bfdfa59bb4abfe
+# aedb075767db4d48a49a028f81bc1409
+# 815f3d56c6744734ae3b31d4a69fae3a
+# c2ddc2be06104f4ba09dd87edf57102b
+# 52a3afbe32f94ac2b9d129963b314060
+# bd1957d40a0443f78e596691b22ca2c2
+#: ../../odoo/usage/install-module.rst:27
+#: ../../odoo/usage/install-module.rst:35
+#: ../../odoo/usage/install-module.rst:46
+#: ../../odoo/usage/install-module.rst:54
+#: ../../odoo/usage/install-module.rst:64
+#: ../../odoo/usage/install-module.rst:72
+msgid "navigate to ``Apps`` menu"
+msgstr ""
+
+# 6c3d6ed76ef74ff3ba05f9f203f92686
+# 8999d5f3d4ad4be89769e80d9de36999
+# 682b0e06cbc045e48ee8bb6a8deb5d1d
+#: ../../odoo/usage/install-module.rst:28
+#: ../../odoo/usage/install-module.rst:47
+#: ../../odoo/usage/install-module.rst:65
+msgid "click ``Update Apps List``"
+msgstr ""
+
+# c3bd04d70b4d4a75a6c2f5e585cecf92
+# 33c2119d2c9c4675bc2111446bd8a32d
+# 2d120161a18a40ca8379efa6478e3ee5
+# 1c2707e57f6f443094f9168840eef032
+# 6fbd78d6b127496fa6a66da1f97540ce
+# 15652912aefa4799bbb50e2385503ba2
+# e506518291bf4db3b4c2be8bd940ba25
+# edf940de3d9444ffbb530ad5a7363ee3
+#: ../../odoo/usage/install-module.rst:29
+#: ../../odoo/usage/install-module.rst:36
+#: ../../odoo/usage/install-module.rst:48
+#: ../../odoo/usage/install-module.rst:55
+#: ../../odoo/usage/install-module.rst:66
+#: ../../odoo/usage/install-module.rst:73
+#: ../../odoo/usage/install-module.rst:83
+#: ../../odoo/usage/install-module.rst:90
+msgid "search and open a module you need"
+msgstr ""
+
+# a6a74d0da7da4229be6f817a7b80e14e
+# 360624cbe0d743de846e7b547fa1826c
+# b33a50e3fddb4d06acdce3ee3671b379
+# 31af51947ecb40aab929798213068a1c
+#: ../../odoo/usage/install-module.rst:30
+#: ../../odoo/usage/install-module.rst:49
+#: ../../odoo/usage/install-module.rst:67
+#: ../../odoo/usage/install-module.rst:84
+msgid "click ``[Install]``"
+msgstr ""
+
+# 95d254c832c9427aad3145a5a69093a9
+# 5d568250c746435689e4882dd3fc50a0
+# 95697b8c898843dfb89aff1897ebb0de
+# 039431d3f5894c988c073de05605b1b3
+#: ../../odoo/usage/install-module.rst:33
+#: ../../odoo/usage/install-module.rst:52
+#: ../../odoo/usage/install-module.rst:70
+#: ../../odoo/usage/install-module.rst:87
+msgid "update"
+msgstr ""
+
+# e6c4937f40404a8c99e402976a26c4b1
+# 55a277f0ab294abf8ab62ae87281b8e1
+# d824a6e7bee94b698e56eb8f7c93f9ef
+# ad3a693a4f56445893f12e262f8c1421
+#: ../../odoo/usage/install-module.rst:37
+#: ../../odoo/usage/install-module.rst:56
+#: ../../odoo/usage/install-module.rst:74
+#: ../../odoo/usage/install-module.rst:91
+msgid "click ``[Upgrade]``"
+msgstr ""
+
+# 0b80cdfc6d6642a490a79c9ed6248eb3
+#: ../../odoo/usage/install-module.rst:40
+msgid "10.0+"
+msgstr ""
+
+# 76cda64888af4b37b6d8c418c79ed8a9
+#: ../../odoo/usage/install-module.rst:59
+msgid "9.0"
+msgstr ""
+
+# 1fbfb50f166c4ab2ad7fb4bfdbc8bbf3
+#: ../../odoo/usage/install-module.rst:77
+msgid "8.0"
+msgstr ""
+
+# 0d284bd3dc2046fa8de85cd5598acdd6
+# dba5cb3b652440588b32f2bfb1d3cb5a
+#: ../../odoo/usage/install-module.rst:82
+#: ../../odoo/usage/install-module.rst:89
+msgid "navigate to ``[[ Settings ]] >> Local Modules``"
+msgstr ""
+

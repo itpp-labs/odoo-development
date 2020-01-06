@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2019, IT-Projects LLC
+# This file is distributed under the same license as the Odoo Development
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Development master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+# f02cb119b83a4168b2eac079327d16a0
+#: ../../admin/longpolling.rst:3
+msgid "How to enable Longpolling in odoo"
+msgstr ""
+
+# ceae1df05b97474bbf6e336b47b788ae
+#: ../../admin/longpolling.rst:5
+msgid ""
+"`Longpolling <https://www.google.com/#q=longpolling>`_ is a way to "
+"deliver instant notification to web client (e.g. in chats)."
+msgstr ""
+
+# fa728542424d4d69b212646bf9a08ce2
+#: ../../admin/longpolling.rst:7
+msgid "To activate longpolling:"
+msgstr ""
+
+# f62991e30b42419f99039a77d2a59953
+#: ../../admin/longpolling.rst:9
+msgid "install dependencies"
+msgstr ""
+
+# f44e806dbfd5436a9704a67c9f2e8a95
+#: ../../admin/longpolling.rst:11
+msgid "odoo 11.0 ::"
+msgstr ""
+
+# b4cec5492a684c76bcae5279c4f436a1
+#: ../../admin/longpolling.rst:15
+msgid "odoo 10.0 ::"
+msgstr ""
+
+# aeecc405bd184d9aadca673d5ba71c10
+#: ../../admin/longpolling.rst:20
+msgid "set non-zero value for :doc:`workers <workers>` parameter"
+msgstr ""
+
+# 9c74efd24d5f4e4c8fa2f871336def55
+#: ../../admin/longpolling.rst:21
+msgid "configure nginx ::"
+msgstr ""
+
+# 0e205c302a62413eb9a4fa027104bdd4
+#: ../../admin/longpolling.rst:30
+msgid ""
+"if you install odoo 9.0 via deb package, then you have to restore "
+"openerp-gevent file (see `#10207 "
+"<https://github.com/odoo/odoo/pull/10207>`_): ::"
+msgstr ""
+
+# 86affe0c107e493ab22e94722f7b2a55
+#: ../../admin/longpolling.rst:37
+msgid ""
+"`Read more about longpolling <https://odoo-"
+"development.readthedocs.io/en/latest/admin/about_longpolling.html>`_"
+msgstr ""
+
