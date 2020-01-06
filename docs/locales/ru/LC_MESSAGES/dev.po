@@ -1,0 +1,3235 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2019, IT-Projects LLC
+# This file is distributed under the same license as the Odoo Development
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Development master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-06 17:06+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../dev/access/admin.rst:3
+msgid "Superuser rights"
+msgstr ""
+
+#: ../../dev/access/admin.rst:5
+msgid ""
+"Administrator, i.e. user with id 1 (``SUPERUSER_ID``), has exceptions "
+"about access rights."
+msgstr ""
+
+#: ../../dev/access/admin.rst:8
+msgid "ir.model.access"
+msgstr ""
+
+#: ../../dev/access/admin.rst:10
+msgid ""
+"If some model doesn't have records in :doc:`ir.model.access (Access "
+"Rules)<../../odoo/models/ir.model.access>`, then only Administrator has "
+"access to that model."
+msgstr ""
+
+#: ../../dev/access/index.rst:2
+msgid "Access"
+msgstr ""
+
+#: ../../dev/access/index.rst:9
+msgid "See also:"
+msgstr ""
+
+#: ../../dev/access/index.rst:11
+msgid ":doc:`ir.model.access <../../odoo/models/ir.model.access>`"
+msgstr ""
+
+#: ../../dev/access/index.rst:12
+msgid ":doc:`ir.rule <../../odoo/models/ir.rule>`"
+msgstr ""
+
+#: ../../dev/access/index.rst:15
+msgid "Video Lessons"
+msgstr ""
+
+#: ../../dev/access/index.rst:17
+msgid ""
+"`Правила доступа <https://www.youtube.com/watch?v=wRJ_hvXKF0E>`__ "
+"(Russian)"
+msgstr ""
+
+#: ../../dev/access/tutorial.rst:2
+msgid "Security tutorial"
+msgstr ""
+
+#: ../../dev/access/tutorial.rst:7
+msgid "Resources:"
+msgstr ""
+
+#: ../../dev/access/tutorial.rst:5
+msgid "http://odoo-docs.readthedocs.org/en/latest/04_security.html"
+msgstr ""
+
+#: ../../dev/access/tutorial.rst:6
+msgid "https://www.odoo.com/documentation/9.0/howtos/backend.html#security"
+msgstr ""
+
+#: ../../dev/access/tutorial.rst:7
+msgid "https://www.odoo.com/documentation/9.0/reference/security.html"
+msgstr ""
+
+#: ../../dev/access/tutorial.rst:9
+msgid ""
+"Odoo is very flexible on the subject of security. We can control what "
+"users can do and what they cannot on different levels. Also we can "
+"control independently each of the four basic operations: read, write, "
+"create, unlink. I.e. allow only read, allow only create, grant permission"
+" to create or delete only."
+msgstr ""
+
+#: ../../dev/access/tutorial.rst:17
+msgid "On fields/menu level we can:"
+msgstr ""
+
+#: ../../dev/access/tutorial.rst:15
+msgid "hide fields or menus for some users and show them for others"
+msgstr ""
+
+#: ../../dev/access/tutorial.rst:16
+msgid "make fields readonly for some users and make them editable for others"
+msgstr ""
+
+#: ../../dev/access/tutorial.rst:17
+msgid ""
+"show different variants to pick on the Selection fields for different "
+"users"
+msgstr ""
+
+#: ../../dev/access/tutorial.rst:19
+msgid ""
+"On the fields level of security ``res.users`` and ``res.groups`` models "
+"are used. These models relate to each other as many2many. This means that"
+" a user can be a member of many groups and one group can be assigned to "
+"many users."
+msgstr ""
+
+#: ../../dev/access/tutorial.rst:23
+msgid ""
+"One example of how we can hide menu in regard to current user's groups is"
+" the following."
+msgstr ""
+
+#: ../../dev/access/tutorial.rst:27
+msgid ""
+"On the picture above in ``Settings / Users`` we can see only ``Users`` "
+"menu. We know that there should be ``Groups`` menu also. Let Us see in "
+"``./openerp/addons/base/res/res_users_view.xml`` on the point of how "
+"menuitem can be hidden."
+msgstr ""
+
+#: ../../dev/access/tutorial.rst:49
+msgid ""
+"The ``groups`` attribute in the ``menuitem`` element shows us that only "
+"the members of ``base.group_no_one`` group can see the ``Groups`` menu "
+"item. The ``base.group_no_one`` xmlid is defined in the "
+"``./openerp/addons/base/security/base_security.xml`` as follows."
+msgstr ""
+
+#: ../../dev/access/tutorial.rst:90
+msgid ""
+"Here we can see the ``group_no_one`` along with the other base groups. "
+"Note that ``group_no_one`` has ``Technical Features`` name. Let us "
+"include our user in the ``Technical Features`` group. Since we have no "
+"access to the ``Groups`` menu item, the only way we can do it is from the"
+" ``Users`` menu item. See the picture below."
+msgstr ""
+
+#: ../../dev/access/tutorial.rst:98
+msgid ""
+"Check the ``Technical Features`` box and reload odoo. Now we can see the "
+"``Groups`` menu item!"
+msgstr ""
+
+#: ../../dev/access/tutorial.rst:103
+msgid ""
+"From ``Settings / Users / Groups`` we can see a list of existing groups. "
+"Here we also can assign users for groups."
+msgstr ""
+
+#: ../../dev/access/tutorial.rst:107 ../../dev/css/main.rst:17
+msgid "Hide fields"
+msgstr ""
+
+#: ../../dev/access/tutorial.rst:109
+msgid ""
+"In the ``./openerp/addons/base/res/res_users_view.xml`` we can see the "
+"``view_users_simple_form`` view. Note here that the ``company_id`` field "
+"is visible only for members of the ``base.group_multi_company`` group."
+msgstr ""
+
+#: ../../dev/access/tutorial.rst:155
+msgid ""
+"Our current user is Administrator. By default he is not a member of the "
+"``base.group_multicompany`` group. That is why the ``company_id`` isn't "
+"visible for him on the form."
+msgstr ""
+
+#: ../../dev/access/tutorial.rst:164
+msgid "Model records:"
+msgstr ""
+
+#: ../../dev/access/tutorial.rst:164
+msgid "restrict access to specified subset of records in model"
+msgstr ""
+
+#: ../../dev/access/tutorial.rst:167
+msgid "Model:"
+msgstr ""
+
+#: ../../dev/access/tutorial.rst:167
+msgid "restrict access to all records of model"
+msgstr ""
+
+#: ../../dev/css/index.rst:2
+msgid "CSS"
+msgstr ""
+
+#: ../../dev/css/main.rst:2
+msgid "CSS tips and tricks"
+msgstr ""
+
+#: ../../dev/css/main.rst:5
+msgid "Add your css on template"
+msgstr ""
+
+#: ../../dev/css/main.rst:6 ../../dev/html/main.rst:5
+#: ../../dev/html/main.rst:15 ../../dev/xml/qweb.rst:6
+#: ../../dev/xml/qweb.rst:14 ../../dev/xml/qweb.rst:20
+#: ../../dev/xml/qweb.rst:26 ../../dev/xml/qweb.rst:34
+#: ../../dev/xml/xpath.rst:7 ../../dev/xml/xpath.rst:34
+msgid "Code::"
+msgstr ""
+
+#: ../../dev/css/main.rst:14
+msgid "*website_sale.assets_frontend* is what you inherits."
+msgstr ""
+
+#: ../../dev/css/main.rst:18
+msgid ""
+"Hide all children (that have attribute bill='1') of oe_website_sale class"
+" owner (that have attribute bill_enabled='0')::"
+msgstr ""
+
+#: ../../dev/diving/cases/answers/index.rst:5
+msgid "Solutions for Source Diving Cases"
+msgstr ""
+
+#: ../../dev/diving/cases/answers/transformed_method.rst:3
+msgid "Solution for case \"Transformed the method\""
+msgstr ""
+
+#: ../../dev/diving/cases/answers/transformed_method.rst:5
+msgid ""
+"First consider what makes the object `session.web.form.FormOpenPopup() "
+"<https://github.com/yelizariev/mail-"
+"addons/blob/9.0/mail_move_message/static/src/js/mail_move_message.js#L64>`_."
+msgstr ""
+
+#: ../../dev/diving/cases/answers/transformed_method.rst:29
+msgid "Assume, in this case, that we got nothing."
+msgstr ""
+
+#: ../../dev/diving/cases/answers/transformed_method.rst:31
+msgid ""
+"Then we try search by methods of `object "
+"<https://github.com/odoo/odoo/blob/8.0/addons/web/static/src/js/view_form.js#L5373>`_."
+" In this case, **init_popup**, **display_popup**, **init_dataset** and "
+"**setup_form_view**. Successfully. Method init_dataset is in object "
+"`FormViewDialog "
+"<https://github.com/odoo/odoo/blob/9.0/addons/web/static/src/js/views/form_common.js#L850>`_."
+" The object behaves similar to the one that we need."
+msgstr ""
+
+#: ../../dev/diving/cases/answers/transformed_method.rst:33
+msgid ""
+"If this step did not give us anything, that we can try search by unique "
+"keywords. For example, in this case, we see arguments of pop.on() "
+"methods: **'closed'** and **'created_completed'**. The word 'closed' does"
+" not suit us, as it can occur often enough. But the word "
+"'create_completed' rare and we can serch by it. And now we again find the"
+" object `FormViewDialog "
+"<https://github.com/odoo/odoo/blob/9.0/addons/web/static/src/js/views/form_common.js#L850>`_."
+msgstr ""
+
+#: ../../dev/diving/cases/answers/transformed_method.rst:36
+msgid ":doc:`Source Diving Index <../../index>`"
+msgstr ""
+
+#: ../../dev/diving/cases/index.rst:3
+msgid "Source Diving Cases"
+msgstr ""
+
+#: ../../dev/diving/cases/index.rst:5
+msgid "This section contains live examples of source diving."
+msgstr ""
+
+#: ../../dev/diving/cases/index.rst:7
+msgid ""
+"Each case contains problem description and possible solutions. Use "
+"problems as exercises and solutions as manual."
+msgstr ""
+
+#: ../../dev/diving/cases/index.rst:14 ../../dev/guidelines.rst:3
+msgid "Guidelines"
+msgstr ""
+
+#: ../../dev/diving/cases/index.rst:16
+msgid "Use template below for new cases"
+msgstr ""
+
+#: ../../dev/diving/cases/transformed_method.rst:3
+msgid "Case: \"Transformed the method\""
+msgstr ""
+
+#: ../../dev/diving/cases/transformed_method.rst:6
+msgid "Context"
+msgstr ""
+
+#: ../../dev/diving/cases/transformed_method.rst:8
+msgid ""
+"When porting module `mail_move_message <https://github.com/yelizariev"
+"/mail-addons/tree/9.0/mail_move_message>`_ in the file "
+"`static/src/js/mail_move_message.js <https://github.com/yelizariev/mail-"
+"addons/blob/9.0/mail_move_message/static/src/js/mail_move_message.js>`_ "
+"there is a method `session.web.form.FormOpenPopup(this) "
+"<https://github.com/yelizariev/mail-"
+"addons/blob/9.0/mail_move_message/static/src/js/mail_move_message.js#L64>`_."
+msgstr ""
+
+#: ../../dev/diving/cases/transformed_method.rst:11
+msgid "Problem"
+msgstr ""
+
+#: ../../dev/diving/cases/transformed_method.rst:13
+msgid ""
+"In 9.0 not found such object. What object would be the analogue of the "
+"object? What you need to do to find this object?"
+msgstr ""
+
+#: ../../dev/diving/cases/transformed_method.rst:16
+msgid "Solution"
+msgstr ""
+
+#: ../../dev/diving/cases/transformed_method.rst:18
+msgid ":doc:`Possible solution <./answers/transformed_method>`"
+msgstr ""
+
+#: ../../dev/diving/index.rst:3
+msgid "Source Diving"
+msgstr ""
+
+#: ../../dev/diving/index.rst:6
+msgid ""
+"`Source Diving <https://yelizariev.github.io/odoo/development/2015/04/17"
+"/source-diving.html>`_ is a way to find answers to your questions."
+msgstr ""
+
+#: ../../dev/diving/transformed_method.rst:3
+msgid "Overview: \"Transformed the method\""
+msgstr ""
+
+#: ../../dev/diving/transformed_method.rst:5
+msgid ""
+"Quite often when porting a module from 8.0 to 9.0 there is a situation, "
+"when 8.0 is a object, but there is no 9.0. And it is not clear - it is "
+"outdated and it was removed or it was renamed. In very advanced cases, an"
+" object can be renamed and changed almost beyond recognition."
+msgstr ""
+
+#: ../../dev/diving/transformed_method.rst:7
+msgid "To search you need to take several steps:"
+msgstr ""
+
+#: ../../dev/diving/transformed_method.rst:9
+msgid "The default view that such an object exist, but it was renamed."
+msgstr ""
+
+#: ../../dev/diving/transformed_method.rst:11
+msgid "Look, what makes this object."
+msgstr ""
+
+#: ../../dev/diving/transformed_method.rst:13
+msgid ""
+"Search by name of methods that contains the given object, excluding "
+"common words (for example, init, start, destroy...)."
+msgstr ""
+
+#: ../../dev/diving/transformed_method.rst:15
+msgid ""
+"If the result is not found that search by unique keywords which can be "
+"found by bringing the object."
+msgstr ""
+
+#: ../../dev/diving/transformed_method.rst:17
+msgid "If anything gave no results, then maybe the object is deleted as obsolete."
+msgstr ""
+
+#: ../../dev/diving/transformed_method.rst:19
+msgid ":doc:`Case <./cases/transformed_method>`"
+msgstr ""
+
+#: ../../dev/diving/transformed_method.rst:21
+msgid ":doc:`Possible solution <./cases/answers/transformed_method>`"
+msgstr ""
+
+#: ../../dev/docs/README.rst.rst:3
+msgid "README.rst"
+msgstr ""
+
+#: ../../dev/docs/README.rst.rst:6
+msgid "OCA's README"
+msgstr ""
+
+#: ../../dev/docs/README.rst.rst:8
+msgid ""
+"https://raw.githubusercontent.com/OCA/maintainer-"
+"tools/master/template/module/README.rst"
+msgstr ""
+
+#: ../../dev/docs/README.rst.rst:11
+msgid "IT-Projects' README"
+msgstr ""
+
+#: ../../dev/docs/README.rst.rst:13
+msgid "https://gitlab.com/itpp/handbook/blob/master/technical-docs/README.rst.md"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:3
+msgid "__manifest__.py (__openerp__.py)"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:6
+msgid "OCA's manifest"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:8
+msgid ""
+"https://github.com/OCA/maintainer-"
+"tools/blob/master/template/module/__openerp__.py"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:11
+msgid "name"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:13
+msgid "It must be non-technical name of the module"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:16
+msgid "summary"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:18
+msgid ""
+"Short description of the module. E.g. you can describe here which problem"
+" is solved by the module. It could sound as a slogan."
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:21
+msgid "category"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:23
+msgid "Categories from the list below are preferred."
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:25
+msgid "``Accounting``"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:26
+msgid "``Discuss``"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:27
+msgid "``Document Management``"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:28
+msgid "``eCommerce``"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:29
+msgid "``Human Resources``"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:30
+msgid "``Industries``"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:31
+msgid "``Localization``"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:32
+msgid "``Manufacturing``"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:33
+msgid "``Marketing``"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:34
+msgid "``Point of Sale``"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:35
+msgid "``Productivity``"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:36
+msgid "``Project``"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:37
+msgid "``Purchases``"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:38
+msgid "``Sales``"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:39
+msgid "``Warehouse``"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:40
+msgid "``Website``"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:41
+msgid "``Extra Tools``"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:44
+msgid "Hidden"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:46
+msgid "For technical modules ``Hidden`` category can be used::"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:50
+msgid "Such modules are excluded from search results on app store."
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:53
+msgid "version"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:56
+msgid "version in IT-Projects"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:57
+msgid ""
+"https://gitlab.com/itpp/handbook/blob/master/technical-"
+"docs/__manifest__.md#version"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:60
+msgid "version in OCA"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:61
+msgid ""
+"https://github.com/OCA/odoo-"
+"community.org/blob/master/website/Contribution/CONTRIBUTING.rst#version-"
+"numbers"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:64
+msgid "author"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:66
+msgid "Use company first and then developer(s): ::"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:70
+msgid ""
+"In the main, if module already exists and you make small updates\\fixes, "
+"you should not add your name to authors."
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:73
+msgid "author in OCA"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:75
+msgid ""
+"https://github.com/OCA/odoo-"
+"community.org/blob/master/website/Contribution/CONTRIBUTING.rst"
+"#backporting-odoo-modules"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:78
+msgid "website"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:80
+msgid ""
+"Url to personal page at company's website (e.g. ``\"https://it-"
+"projects.info/team/yelizariev\"``)"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:83
+msgid "license"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:85
+msgid "IT-Projects LLC uses following licences:"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:87
+msgid "``\"GPL-3\"`` for odoo 8.0 and below"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:88
+msgid "``\"LGPL-3\"`` for odoo 9.0 and above"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:90
+msgid "For OCA's repositories use ``\"AGPL-3\"``."
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:93
+msgid "external_dependencies"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:95
+msgid "Check if some python library exists::"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:100
+msgid "Check if some sytem application exists::"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:105
+msgid "See also: :doc:`External dependencies in odoo<../py/external-imports>`"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:109
+msgid "IT-Projects' Template"
+msgstr ""
+
+#: ../../dev/docs/__manifest__.py.rst:110
+msgid ""
+"https://gitlab.com/itpp/handbook/blob/master/technical-"
+"docs/__manifest__.md"
+msgstr ""
+
+#: ../../dev/docs/index.rst:3
+msgid "Docs and manifests"
+msgstr ""
+
+#: ../../dev/docs/index.rst:6
+msgid "Files"
+msgstr ""
+
+#: ../../dev/docs/index.rst:8
+msgid ""
+"**All** files from this section ought to be fully [1]_ prepared "
+"**before** any other files in new module. It helps you to review "
+"requirements again before you start."
+msgstr ""
+
+#: ../../dev/docs/index.rst:10
+msgid ""
+"The only exception could be made for lists of files in "
+"``__manifest__.py`` (*\"data\"*, *\"qweb\"*, *\"demo\"* fields)."
+msgstr ""
+
+#: ../../dev/docs/index.rst:19
+msgid "and these two files:"
+msgstr ""
+
+#: ../../dev/docs/index.rst:21
+msgid ""
+"`changelog.rst <https://gitlab.com/itpp/handbook/blob/master/technical-"
+"docs/changelog.rst.md>`__ `icon.png "
+"<https://gitlab.com/itpp/handbook/blob/master/technical-"
+"docs/icon.png.md>`__"
+msgstr ""
+
+#: ../../dev/docs/usage-instructions.rst:3
+msgid "doc/index.rst"
+msgstr ""
+
+#: ../../dev/docs/usage-instructions.rst:5
+msgid ""
+"This description will be available in App store under *Documentation* "
+"tab. Example: https://www.odoo.com/apps/modules/8.0/pos_multi_session/"
+msgstr ""
+
+#: ../../dev/docs/usage-instructions.rst:7
+msgid "Does not use OCA"
+msgstr ""
+
+#: ../../dev/docs/usage-instructions.rst:9
+msgid ""
+"IT-Projects' ``doc/index.rst`` is available here: "
+"https://gitlab.com/itpp/handbook/blob/master/technical-docs/usage-"
+"instruction.md"
+msgstr ""
+
+#: ../../dev/frontend/index.rst:2
+msgid "Frontend"
+msgstr ""
+
+#: ../../dev/frontend/webpage.rst:2
+msgid "Web page"
+msgstr ""
+
+#: ../../dev/frontend/webpage.rst:4
+msgid "**Common**"
+msgstr ""
+
+#: ../../dev/frontend/webpage.rst:7
+msgid "Open a new project:"
+msgstr ""
+
+#: ../../dev/frontend/webpage.rst:13
+msgid "Add  ``website`` as a dependency to ``newpage``:"
+msgstr ""
+
+#: ../../dev/frontend/webpage.rst:19
+msgid ""
+"then add the website=True flag on the controller, this sets up a few new "
+"variables on the request object and allows using the website layout in "
+"our template."
+msgstr ""
+
+#: ../../dev/frontend/webpage.rst:22
+msgid "**Creating pages**"
+msgstr ""
+
+#: ../../dev/frontend/webpage.rst:24
+msgid "**1 way**"
+msgstr ""
+
+#: ../../dev/frontend/webpage.rst:26
+msgid "Write the following code in ``controllers.py``:"
+msgstr ""
+
+#: ../../dev/frontend/webpage.rst:36
+msgid ""
+"The new web page will appear by adding - ``/new-page/`` "
+"``http.request.render('newpage.index')`` – downloading a tamplate for a "
+"new page"
+msgstr ""
+
+#: ../../dev/frontend/webpage.rst:39
+msgid "A pattern ``templates.xml``"
+msgstr ""
+
+#: ../../dev/frontend/webpage.rst:59
+msgid "``website.layout`` means that the elements of pattern website are used."
+msgstr ""
+
+#: ../../dev/frontend/webpage.rst:61
+msgid ""
+"After restarting the server while updating the module (in order to update"
+" the manifest and template) access http://localhost:8069/new-page/. You "
+"will see a new page with a title *'My first web page'* and with text "
+"*'Hello, world!'*"
+msgstr ""
+
+#: ../../dev/frontend/webpage.rst:65
+msgid "**2 way**"
+msgstr ""
+
+#: ../../dev/frontend/webpage.rst:67
+msgid "Write in pattern the following:"
+msgstr ""
+
+#: ../../dev/frontend/webpage.rst:86
+msgid ""
+"``page=\"True\"`` creates a page as follows below: "
+"http://localhost:8069/page/services/"
+msgstr ""
+
+#: ../../dev/frontend/webpage.rst:89
+msgid "If add in ``view.xml``:"
+msgstr ""
+
+#: ../../dev/frontend/webpage.rst:100
+msgid "This code will add a link to the main menu."
+msgstr ""
+
+#: ../../dev/guidelines.rst:5
+msgid "Source:"
+msgstr ""
+
+#: ../../dev/guidelines.rst:7
+msgid "https://www.odoo.com/documentation/8.0/reference/guidelines.html"
+msgstr ""
+
+#: ../../dev/guidelines.rst:10
+msgid "Comments"
+msgstr ""
+
+#: ../../dev/guidelines.rst:12
+msgid ""
+"First of all, comments in the source are required if it's not obvious "
+"**why** are doing something."
+msgstr ""
+
+#: ../../dev/guidelines.rst:14
+msgid ""
+"Additionally, you can add comments about **what** are you doing, if it "
+"could be helpful."
+msgstr ""
+
+#: ../../dev/hooks/index.rst:2
+msgid "Hooks"
+msgstr ""
+
+#: ../../dev/hooks/post_load.rst:3
+msgid "post_load"
+msgstr ""
+
+#: ../../dev/hooks/post_load.rst:10
+msgid "What do we know from comments in odoo source?"
+msgstr ""
+
+#: ../../dev/hooks/post_load.rst:19
+msgid "What is it actually for?"
+msgstr ""
+
+#: ../../dev/hooks/post_load.rst:21
+msgid "For **Monkey patches**"
+msgstr ""
+
+#: ../../dev/hooks/post_load.rst:26
+msgid "Example of monkey patch in odoo"
+msgstr ""
+
+#: ../../dev/hooks/post_load.rst:38
+msgid "Why shall we use ``post_load`` to apply monkey patch?"
+msgstr ""
+
+#: ../../dev/hooks/post_load.rst:40
+msgid ""
+"Since `odoo 12 "
+"<https://github.com/odoo/odoo/commit/8226aa1db828d2a559c7ffaa31a27ef3e5ba4d0b>`_"
+" monkey patch could be applied without post_load, but it's still "
+"recommended to use it to be sure."
+msgstr ""
+
+#: ../../dev/hooks/post_load.rst:42
+msgid ""
+"Because otherwise monkey patch will be applied every time it is available"
+" in addons path. It happens because odoo loads python files of a module "
+"if there is a static folder in the module (no matter if the module is "
+"installed or not -- see ``load_addons`` method in `http.py "
+"<https://github.com/odoo/odoo/blob/10.0/odoo/http.py>`_ file of odoo "
+"source)."
+msgstr ""
+
+#: ../../dev/hooks/post_load.rst:48
+msgid "How to use post_load?"
+msgstr ""
+
+#: ../../dev/hooks/post_load.rst:50
+msgid ""
+"You need to define a function available in ``__init__.py`` file of the "
+"module. Then set that function name as value of ``\"post_load\"`` "
+"attribute in module manifest."
+msgstr ""
+
+#: ../../dev/hooks/post_load.rst:53
+msgid "Example?"
+msgstr ""
+
+#: ../../dev/hooks/post_load.rst:55
+msgid ""
+"Sure. E.g. from  `telegram module <https://github.com/it-projects-llc"
+"/odoo-telegram>`_."
+msgstr ""
+
+#: ../../dev/hooks/post_load.rst:57
+msgid "In *__openerp__.py*"
+msgstr ""
+
+#: ../../dev/hooks/post_load.rst:70 ../../dev/hooks/post_load.rst:124
+msgid "In *__init__.py*"
+msgstr ""
+
+#: ../../dev/hooks/post_load.rst:98
+msgid "Something else we need to know?"
+msgstr ""
+
+#: ../../dev/hooks/post_load.rst:100
+msgid "Yes."
+msgstr ""
+
+#: ../../dev/hooks/post_load.rst:102
+msgid ""
+"Additionally, if you need to apply monkey patch before any other "
+"initialisation, the module has to be added to "
+":doc:`server_wide_modules<../../admin/server_wide_modules>` parameter."
+msgstr ""
+
+#: ../../dev/hooks/post_load.rst:105
+msgid "Other usage of post_load?"
+msgstr ""
+
+#: ../../dev/hooks/post_load.rst:107
+msgid ""
+"In case of extending pos-box modules (e.g. ``hw_escpos``), you probably "
+"need to use post_load, because importing hw_escpos from your module runs "
+"posbox specific initialisation."
+msgstr ""
+
+#: ../../dev/hooks/post_load.rst:109
+msgid "Example from hw_printer_network module:"
+msgstr ""
+
+#: ../../dev/hooks/post_load.rst:111
+msgid "In *__manifest__.py*"
+msgstr ""
+
+#: ../../dev/hooks/post_load.rst:131
+msgid "In *controllers/hw_printer_network_controller.py*"
+msgstr ""
+
+#: ../../dev/html/index.rst:2 ../../dev/py/fields.rst:84
+msgid "HTML"
+msgstr ""
+
+#: ../../dev/html/main.rst:2
+msgid "Active elements"
+msgstr ""
+
+#: ../../dev/html/main.rst:4
+msgid "Link-button that calls controller"
+msgstr ""
+
+#: ../../dev/html/main.rst:11
+msgid ""
+"Here action=\"/shop/checkout\" sets controller address. Class a-submit "
+"usually means do what in 'action' of form."
+msgstr ""
+
+#: ../../dev/html/main.rst:14
+msgid "Submit with button"
+msgstr ""
+
+#: ../../dev/html/main.rst:21
+msgid ""
+"Wherein in controller in \\**post will be available some values from "
+"source form, those like <input/>."
+msgstr ""
+
+#: ../../dev/index.rst:2
+msgid "Module Development"
+msgstr ""
+
+#: ../../dev/js/core.bus.rst:3
+msgid "core.bus"
+msgstr ""
+
+#: ../../dev/js/core.bus.rst:5
+msgid "core.bus (web.bus in 8.0) is used handle js events between modules."
+msgstr ""
+
+#: ../../dev/js/core.bus.rst:8
+msgid "Usage"
+msgstr ""
+
+#: ../../dev/js/index.rst:2
+msgid "Javascript"
+msgstr ""
+
+#: ../../dev/js/inheritance.rst:2 ../../dev/pos/inheritance.rst:3
+msgid "Inheritance"
+msgstr ""
+
+#: ../../dev/js/inheritance.rst:4 ../../dev/other/dynamic-records.rst:9
+#: ../../dev/other/dynamic-records.rst:10
+#: ../../dev/other/dynamic-records.rst:11 ../../dev/py/fields.rst:408
+#: ../../dev/py/res.config.settings.rst:86 ../../dev/yml/odoo-yaml.rst:4
+#: ../../dev/yml/pure-yaml.rst:4
+msgid "TODO"
+msgstr ""
+
+#: ../../dev/js/rpc.rst:3
+msgid "Remote Procedure Call (RPC)"
+msgstr ""
+
+#: ../../dev/js/rpc.rst:6
+msgid "Call method"
+msgstr ""
+
+#: ../../dev/js/rpc.rst:37
+msgid "How to call wizard method from js"
+msgstr ""
+
+#: ../../dev/lint/index.rst:3
+msgid "Lint"
+msgstr ""
+
+#: ../../dev/lint/index.rst:6
+msgid "Installation"
+msgstr ""
+
+#: ../../dev/lint/index.rst:27
+msgid "Common lints"
+msgstr ""
+
+#: ../../dev/lint/js-lint.rst:3
+msgid "Fixing Javascript lints in odoo"
+msgstr ""
+
+#: ../../dev/lint/python-lint.rst:3
+msgid "Fixing python lints in odoo"
+msgstr ""
+
+#: ../../dev/lint/python-lint.rst:6
+msgid "All versions"
+msgstr ""
+
+#: ../../dev/lint/python-lint.rst:34
+msgid "Odoo 10-"
+msgstr ""
+
+#: ../../dev/lint/python-lint.rst:43
+msgid "@api.one -> @api.multi"
+msgstr ""
+
+#: ../../dev/lint/rst-lint.rst:3
+msgid "Fixing rst lints in odoo"
+msgstr ""
+
+#: ../../dev/lint/xml-lint.rst:3
+msgid "Fixing xml lints in odoo"
+msgstr ""
+
+#: ../../dev/other/dynamic-records.rst:3
+msgid "Dynamic records"
+msgstr ""
+
+#: ../../dev/other/dynamic-records.rst:5
+msgid ""
+"While :doc:`XML <../xml/index>`  allows you  create only *static* "
+"records, there is a way to create record dynamically via python code. You"
+" need dynamic records, for example, to add support both for enterprise "
+"and community releases or to add some records to each company in database"
+" etc."
+msgstr ""
+
+#: ../../dev/other/dynamic-records.rst:7
+msgid "There several ways to execute code on installation:"
+msgstr ""
+
+#: ../../dev/other/dynamic-records.rst:13
+msgid ""
+"The problem with dynamic records is that odoo considers such records as "
+"ones, which were in xml files, but now deleted. It means that odoo will "
+"delete such dynamic records right after updating. There are two ways to "
+"resolve it."
+msgstr ""
+
+#: ../../dev/other/dynamic-records.rst:16
+msgid "noupdate=False"
+msgstr ""
+
+#: ../../dev/other/dynamic-records.rst:18
+msgid "Simply add update=True to your ``ir.model.data`` record: ::"
+msgstr ""
+
+#: ../../dev/other/dynamic-records.rst:38
+msgid "noupdate=True"
+msgstr ""
+
+#: ../../dev/other/dynamic-records.rst:40
+msgid ""
+"If for some reason you cannot use noupdate=False, you can use following "
+"trick."
+msgstr ""
+
+#: ../../dev/other/dynamic-records.rst:42
+msgid ""
+"Here is the example from ``web_debranding`` module. To create records in "
+"``ir.model.data`` we use name ``_web_debranding``. Then odoo will "
+"consider such records as belonging to another module "
+"(``_web_debranding``) and will not delete them. But it also means, that "
+"odoo will not delete them after uninstalling. For later case, we need to "
+"use ``uninstall_hook``."
+msgstr ""
+
+#: ../../dev/other/dynamic-records.rst:46
+msgid "Contents"
+msgstr ""
+
+#: ../../dev/other/dynamic-records.rst:49
+msgid "python file"
+msgstr ""
+
+#: ../../dev/other/dynamic-records.rst:98
+msgid "yaml file"
+msgstr ""
+
+#: ../../dev/other/dynamic-records.rst:107
+msgid "__openerp__.py"
+msgstr ""
+
+#: ../../dev/other/dynamic-records.rst:117
+msgid "__init__.py"
+msgstr ""
+
+#: ../../dev/other/index.rst:2
+msgid "Other"
+msgstr ""
+
+#: ../../dev/other/odoo.rst:2
+msgid "Odoo database"
+msgstr ""
+
+#: ../../dev/other/odoo.rst:5
+msgid "Many to many"
+msgstr ""
+
+#: ../../dev/other/odoo.rst:7
+msgid ""
+"For every *many to many* field odoo creating new relations table for "
+"example *pos_multi_rel* with *_rel* postfix."
+msgstr ""
+
+#: ../../dev/other/odoo.rst:10
+msgid "Odoo way of shaman"
+msgstr ""
+
+#: ../../dev/other/odoo.rst:12
+msgid "**What to do if something not work but should to**"
+msgstr ""
+
+#: ../../dev/other/odoo.rst:14
+msgid "Refresh page"
+msgstr ""
+
+#: ../../dev/other/odoo.rst:15
+msgid "Update module"
+msgstr ""
+
+#: ../../dev/other/odoo.rst:16
+msgid "Check openerp file **depends**, **demo** and other important fields"
+msgstr ""
+
+#: ../../dev/other/odoo.rst:17
+msgid "Check odoo config you use to run odoo. Especially addons paths"
+msgstr ""
+
+#: ../../dev/other/odoo.rst:18
+msgid "Uninstall and install again modules in depends"
+msgstr ""
+
+#: ../../dev/other/odoo.rst:19
+msgid "Clean browser cache"
+msgstr ""
+
+#: ../../dev/other/odoo.rst:20
+msgid ""
+"Carefully check logs. Look up if needed files loaded or not. May be some "
+"errors."
+msgstr ""
+
+#: ../../dev/other/odoo.rst:21
+msgid "Create new base and install all modules."
+msgstr ""
+
+#: ../../dev/pos/action-buttons.rst:3
+msgid "Action Buttons"
+msgstr ""
+
+#: ../../dev/pos/action-buttons.rst:5
+msgid "``Action Buttons`` are following buttons:"
+msgstr ""
+
+#: ../../dev/pos/action-buttons.rst:7
+msgid "``Note``"
+msgstr ""
+
+#: ../../dev/pos/action-buttons.rst:8
+msgid "``Transfer``"
+msgstr ""
+
+#: ../../dev/pos/action-buttons.rst:9
+msgid "``Guests``"
+msgstr ""
+
+#: ../../dev/pos/action-buttons.rst:10
+msgid "``Bill``"
+msgstr ""
+
+#: ../../dev/pos/action-buttons.rst:11
+msgid "``Split``"
+msgstr ""
+
+#: ../../dev/pos/action-buttons.rst:12
+msgid "``Order``"
+msgstr ""
+
+#: ../../dev/pos/action-buttons.rst:13
+msgid "``Discount``"
+msgstr ""
+
+#: ../../dev/pos/action-buttons.rst:14
+msgid "etc."
+msgstr ""
+
+#: ../../dev/pos/action-buttons.rst:16
+msgid "that are located above **Numpad**."
+msgstr ""
+
+#: ../../dev/pos/action-buttons.rst:18
+msgid ""
+"These buttons only show up after installing **pos_discount** module "
+"(``Discount`` button, which allows defining the size of discount for the "
+"order) and **pos_restaurant** module (``Split``, ``Guests`` buttons etc.)"
+msgstr ""
+
+#: ../../dev/pos/action-buttons.rst:20
+msgid ""
+"You can create your own buttons assigning them to actions (for example "
+"**open_popup**, **screen** and etc)."
+msgstr ""
+
+#: ../../dev/pos/action-buttons.rst:22
+msgid ""
+"To create a Button you need to inherit **ActionButtonWidget** Class, "
+"select **define_action_button** and choose the necessary action after the"
+" pressing corresponding button."
+msgstr ""
+
+#: ../../dev/pos/action-buttons.rst:24
+msgid ""
+"*Consider, for example, the way of creating a simple Button, which opens "
+"popup-window.*"
+msgstr ""
+
+#: ../../dev/pos/action-buttons.rst:74
+msgid "The definition of the ``template`` in ``Qweb``:"
+msgstr ""
+
+#: ../../dev/pos/action-buttons.rst:84
+msgid ""
+"For a concrete example check the **POS Orders History** `module "
+"<https://github.com/it-projects-llc/pos-"
+"addons/blob/12.0/pos_orders_history/static/src/js/screens.js#L22>`__ , "
+"where you can see that a button with the label *Orders History* is added."
+msgstr ""
+
+#: ../../dev/pos/adding-js.rst:3
+msgid "Adding ``js`` file to POS"
+msgstr ""
+
+#: ../../dev/pos/adding-js.rst:5
+msgid "Adding **javascript file** opens a new set of possibilities in Odoo."
+msgstr ""
+
+#: ../../dev/pos/adding-js.rst:7
+msgid ""
+"Let take the example of the ``POS Debt & Credit notebook`` `module: "
+"<https://github.com/it-projects-llc/pos-"
+"addons/blob/15a6853768a888bb7c3fbfd3690ce0cb7537ff3e/pos_debt_notebook/data.xml#L16-L20::>`__"
+msgstr ""
+
+#: ../../dev/pos/custom-order-data.rst:3
+msgid "Custom order data in browser storage"
+msgstr ""
+
+#: ../../dev/pos/custom-order-data.rst:5
+msgid ""
+"Before the payment orders in POS are kept in browser storage. Thereby if "
+"we again open POS module (should not be confused with the closing of the "
+"session) the system automatically retrieves data from the storage."
+msgstr ""
+
+#: ../../dev/pos/custom-order-data.rst:7
+msgid ""
+"If your model adds data (of the field), then you need to make additional "
+"data processing in order to save this data among reopenings."
+msgstr ""
+
+#: ../../dev/pos/custom-order-data.rst:9
+msgid ""
+"Because of the browser storage (*localStorage*) allows saving data only "
+"with the type String POS converts the ``Order`` object to the String and "
+"inversely."
+msgstr ""
+
+#: ../../dev/pos/custom-order-data.rst:11
+msgid "For this purpose following methods are used:"
+msgstr ""
+
+#: ../../dev/pos/custom-order-data.rst:13
+msgid ""
+"``init_from_JSON``: function reads parameters of the order from the "
+"*json-String* and saves to the current object (see realization of the "
+"Orderline `here "
+"<https://github.com/odoo/odoo/blob/8d7ee3921384ce070d3333cbc4073ffc4f8febc4/addons/point_of_sale/static/src/js/models.js#L1365-L1383>`__"
+" and for the Model `there "
+"<https://github.com/odoo/odoo/blob/8d7ee3921384ce070d3333cbc4073ffc4f8febc4/addons/point_of_sale/static/src/js/models.js#L2024-L2082>`__)"
+msgstr ""
+
+#: ../../dev/pos/custom-order-data.rst:15
+msgid ""
+"``export_as_JSON``: function converts the current object to *json-String*"
+" (see realization of the Orderline `here "
+"<https://github.com/odoo/odoo/blob/8d7ee3921384ce070d3333cbc4073ffc4f8febc4/addons/point_of_sale/static/src/js/models.js#L2083-L2110>`__"
+" and for the Model `there "
+"<https://github.com/odoo/odoo/blob/8d7ee3921384ce070d3333cbc4073ffc4f8febc4/addons/point_of_sale/static/src/js/models.js#L1558-L1576>`__)"
+msgstr ""
+
+#: ../../dev/pos/custom-order-data.rst:17
+msgid ""
+"When order is updated ``export_as_JSON`` is called and data are saved to "
+"browser storage."
+msgstr ""
+
+#: ../../dev/pos/custom-order-data.rst:19
+msgid ""
+"Now, if you close page and reopen, then at some point ``init_from_JSON`` "
+"is called to restore order from *json string*."
+msgstr ""
+
+#: ../../dev/pos/custom-order-data.rst:21 ../../dev/pos/dom-cache.rst:25
+msgid "Let's take the example:"
+msgstr ""
+
+#: ../../dev/pos/custom-order-data.rst:24
+msgid "``POS Advanced Order Notes`` module"
+msgstr ""
+
+#: ../../dev/pos/custom-order-data.rst:26
+msgid ""
+"This `module <https://github.com/it-projects-llc/pos-"
+"addons/blob/12.0/pos_order_note/static/src/js/order_note.js#L88-L102>`__ "
+"allows adding notes to the entire order, to use already predefined notes "
+"and to speed up the process of creating orders by specifying products "
+"also via notes, which can be automatically applied further."
+msgstr ""
+
+#: ../../dev/pos/custom-order-data.rst:40
+msgid ""
+"When you add the note to your Order, the trigger which calls "
+"``export_as_JSON`` launches to convert data of current order into string "
+"(including notes) and save it in browser storage."
+msgstr ""
+
+#: ../../dev/pos/custom-order-data.rst:42
+msgid ""
+"While loading POS in order to get saved notes from the browser storage, "
+"you need to extend ``init_from_JSON`` function."
+msgstr ""
+
+#: ../../dev/pos/custom-order-data.rst:44
+msgid ""
+"Without this code, your module will work, but if you reload POS, your "
+"notes will not be presented (because they are not saved)."
+msgstr ""
+
+#: ../../dev/pos/custom-popup.rst:3
+msgid "Creation of Custom Pop-Ups"
+msgstr ""
+
+#: ../../dev/pos/custom-popup.rst:5
+msgid ""
+"Use the Custom Pop-Ups to provide information or to prompt Users to do "
+"something in POS. You can define the appearance of a pop-up."
+msgstr ""
+
+#: ../../dev/pos/custom-popup.rst:7
+msgid ""
+"**Let take the example of the creation a pop-up of** ``QR Code Scanning "
+"in POS`` `module <https://github.com/it-projects-llc/pos-"
+"addons/blob/6eaac4e168d7cf854d302b298b068e2b38db822c/pos_qr_scan/static/src/js/qr_scan.js>`__"
+" , where we needed to create a pop-up to show the video from camera to "
+"scan QR codes."
+msgstr ""
+
+#: ../../dev/pos/custom-popup.rst:9
+msgid ""
+"First, attach necessary `requirements: <https://github.com/it-projects-"
+"llc/pos-"
+"addons/blob/6eaac4e168d7cf854d302b298b068e2b38db822c/pos_qr_scan/static/src/js/qr_scan.js#L10::>`__"
+msgstr ""
+
+#: ../../dev/pos/custom-popup.rst:16
+msgid ""
+"Then, create a new instance, the new default pop-up `extension: "
+"<https://github.com/it-projects-llc/pos-"
+"addons/blob/6eaac4e168d7cf854d302b298b068e2b38db822c/pos_qr_scan/static/src/js/qr_scan.js#L29-L30::>`__"
+msgstr ""
+
+#: ../../dev/pos/custom-popup.rst:25
+msgid ""
+"To make the pop-up be reachable with regular methods after the "
+"``QrScanPopupWidget`` declaration do the `following: <https://github.com"
+"/it-projects-llc/pos-"
+"addons/blob/6eaac4e168d7cf854d302b298b068e2b38db822c/pos_qr_scan/static/src/js/qr_scan.js#L194::>`__"
+msgstr ""
+
+#: ../../dev/pos/custom-popup.rst:33
+msgid ""
+"so it can be called with the next `code: <https://github.com/it-projects-"
+"llc/pos-"
+"addons/blob/6eaac4e168d7cf854d302b298b068e2b38db822c/pos_qr_scan/static/src/js/qr_scan.js#L17-L20::>`__"
+msgstr ""
+
+#: ../../dev/pos/custom-receipt.rst:3
+msgid "Custom Receipt"
+msgstr ""
+
+#: ../../dev/pos/custom-receipt.rst:5
+msgid "There are two types of receipts in POS:"
+msgstr ""
+
+#: ../../dev/pos/custom-receipt.rst:7
+msgid "``PosTicket`` - displays on screen after payment;"
+msgstr ""
+
+#: ../../dev/pos/custom-receipt.rst:8
+msgid ""
+"``XmlReceipt`` - prints in PosBox after pressing the button Print receipt"
+" on the Payment screen if PosBox connected with the ESC POC printer."
+msgstr ""
+
+#: ../../dev/pos/custom-receipt.rst:10
+msgid ""
+"These two receipts are implemented on ``Qweb`` and generated after "
+"purchase order. If ``PosTicket`` allows any design in ``Qweb``, then for "
+"``XmlReceipt`` you can use only strictly defined tags, which supported by"
+" the ESC POC printer."
+msgstr ""
+
+#: ../../dev/pos/custom-receipt.rst:12
+msgid ""
+"Using ``t-extend`` mechanism, which takes the template's name to be "
+"modified as a parameter, you can extend existing ``Qweb`` templates for "
+"receipts. After that, a modification with any number t-jquery sub-"
+"directives can be performed."
+msgstr ""
+
+#: ../../dev/pos/custom-receipt.rst:14
+msgid ""
+"``t-jquery`` directives use the CSS selector. This selector is used in "
+"the extended template for choosing context nodes, for which "
+"``t-operation`` can be applied. If you want to add, for example, another "
+"title for Product in ``XmlReceipt``, you need to create ``Qweb`` with the"
+" following content:"
+msgstr ""
+
+#: ../../dev/pos/custom-receipt.rst:30
+msgid "For the same action for PosTicket:"
+msgstr ""
+
+#: ../../dev/pos/custom-receipt.rst:40
+msgid ""
+"One of the difficult but at the same time flexible method of creating "
+"Customer receipt is to download the field from the Server, where ``Qweb``"
+" template is described in the text form. After downloading and before "
+"printing this text template need to be converted into ``XML format`` and "
+"produced data based on this template."
+msgstr ""
+
+#: ../../dev/pos/custom-receipt.rst:46
+msgid ""
+"In POS you need to convert this text format into ``XML`` and generate a "
+"receipt using this template:"
+msgstr ""
+
+#: ../../dev/pos/custom-receipt.rst:56
+msgid ""
+"Usage of this template instead of standards ones requires to generate "
+"received ``XML``, in order to do this you need to connect ``Qweb``:"
+msgstr ""
+
+#: ../../dev/pos/custom-receipt.rst:63
+msgid ""
+"To define a custom function, which will generate a user's ``Qweb`` as "
+"follows:"
+msgstr ""
+
+#: ../../dev/pos/custom-receipt.rst:73
+msgid "This function needs to be called every time when the receipt is generated."
+msgstr ""
+
+#: ../../dev/pos/custom-screen.rst:3
+msgid "Custom Screens"
+msgstr ""
+
+#: ../../dev/pos/custom-screen.rst:5
+msgid ""
+"List of **partners**, **payment's screen**, and **floor screen** are "
+"examples of ``screens``."
+msgstr ""
+
+#: ../../dev/pos/custom-screen.rst:7
+msgid "We will consider *an example of creating the User interface*."
+msgstr ""
+
+#: ../../dev/pos/custom-screen.rst:9
+msgid ""
+"In order to create a new ``custom screen`` we plug ``screens`` and "
+"``gui``:"
+msgstr ""
+
+#: ../../dev/pos/custom-screen.rst:16
+msgid "Then we declare a new variable and inherit ``ScreenWidget``:"
+msgstr ""
+
+#: ../../dev/pos/custom-screen.rst:23
+msgid ""
+"Now ``CustomScreenWidget`` consist of all methods from ``ScreenWidget``. "
+"Then we need to define a template, where the structure of the screen is "
+"described using ``Qweb``:"
+msgstr ""
+
+#: ../../dev/pos/custom-screen.rst:29
+msgid "In ``Qweb`` we define a template as follows:"
+msgstr ""
+
+#: ../../dev/pos/custom-screen.rst:59
+msgid "Define styles in ``css`` file, which you need for the screen."
+msgstr ""
+
+#: ../../dev/pos/custom-screen.rst:61
+msgid ""
+"This ``Qweb`` will be rendered every time when the method "
+"``renderElement`` runs (prior to the downloading POS all screens are "
+"drawn and hidden already). This method can be redefine and, for example, "
+"used for actions of  ``back`` and ``next`` buttons:"
+msgstr ""
+
+#: ../../dev/pos/custom-screen.rst:77
+msgid ""
+"All screens are hidden by default (except those, which are called after "
+"POS downloading). In order to open Custom Screens you need to define it "
+"inside screens' list:"
+msgstr ""
+
+#: ../../dev/pos/custom-screen.rst:84
+msgid ""
+"In order to open Custom Screen you need to call the next function (for "
+"example after click to the Action button):"
+msgstr ""
+
+#: ../../dev/pos/custom-screen.rst:90
+msgid "*where* ``this`` is a pointer to ``PosModel``."
+msgstr ""
+
+#: ../../dev/pos/custom-screen.rst:92
+msgid ""
+"For a concrete example check the **POS Orders History** `module "
+"<https://github.com/it-projects-llc/pos-"
+"addons/blob/12.0/pos_orders_history/static/src/js/screens.js#L311>`__ , "
+"where ``orders_history_screen`` is defined."
+msgstr ""
+
+#: ../../dev/pos/dom-cache.rst:3
+msgid "Dom Cache"
+msgstr ""
+
+#: ../../dev/pos/dom-cache.rst:5
+msgid "Dom Cache is used to save rendered elements to speed POS up."
+msgstr ""
+
+#: ../../dev/pos/dom-cache.rst:7
+msgid "To add something to Dom Cache you need to do something like this:"
+msgstr ""
+
+#: ../../dev/pos/dom-cache.rst:14
+msgid "To restore rendered element from cache do something like this"
+msgstr ""
+
+#: ../../dev/pos/dom-cache.rst:21
+msgid ""
+"Here is complete example from Point of Sale `module "
+"<https://github.com/odoo/odoo/blob/12.0/addons/point_of_sale/static/src/js/screens.js#L761-L789>`__:"
+msgstr ""
+
+#: ../../dev/pos/dom-cache.rst:23
+msgid ""
+"The purpose of this code is the optimization of the elements rendering in"
+" POS. Each new POS loading use data from ``DomCache`` - thereby save time"
+" for the rendering of new elements."
+msgstr ""
+
+#: ../../dev/pos/dom-cache.rst:28
+msgid "``POS Order History`` module"
+msgstr ""
+
+#: ../../dev/pos/dom-cache.rst:30
+msgid ""
+"In this  in this `module <https://github.com/it-projects-llc/pos-"
+"addons/blob/12.0/pos_orders_history/static/src/js/screens.js#L159-L198>`__"
+" ``DomCache`` is used when the orders' list renders."
+msgstr ""
+
+#: ../../dev/pos/dom-cache.rst:32
+msgid ""
+"After the first loading POS elements of orders, which have been rendered "
+"(*HTML code*), are saved in Cache."
+msgstr ""
+
+#: ../../dev/pos/dom-cache.rst:34
+msgid ""
+"After reloading POS the existence of saved elements in Cache are checked "
+"and this data is used when orders are rendered."
+msgstr ""
+
+#: ../../dev/pos/gui.rst:3
+msgid "JS access and inheritance"
+msgstr ""
+
+#: ../../dev/pos/gui.rst:6
+msgid "action_button"
+msgstr ""
+
+#: ../../dev/pos/gui.rst:8
+msgid ""
+"Here you will find explanation of how to get/inherit action_button POS "
+"objects."
+msgstr ""
+
+#: ../../dev/pos/gui.rst:10
+msgid ""
+"For example we have definition in `this file "
+"<https://github.com/odoo/odoo/blob/9.0/addons/pos_reprint/static/src/js/reprint.js#L1>`_::"
+msgstr ""
+
+#: ../../dev/pos/gui.rst:19
+msgid ""
+"This defenition doesn't return class ReprintButton. So, we cannot inherit"
+" it in a usual way."
+msgstr ""
+
+#: ../../dev/pos/gui.rst:21
+msgid ""
+"In order to reach that object we need get instance of it using ``gui``. "
+"Then we can inherit it"
+msgstr ""
+
+#: ../../dev/pos/gui.rst:23
+msgid ""
+"To make clear what this is like look up example where guests number "
+"button renderings::"
+msgstr ""
+
+#: ../../dev/pos/gui.rst:27
+msgid ""
+"While you can make call and even replace function with new one, you are "
+"not able to make inheritance via ``extend`` or ``include`` functions. "
+"It's because we cannot reach Class and only get access to instance of "
+"that class."
+msgstr ""
+
+#: ../../dev/pos/gui.rst:30
+msgid "This kind of approach make sense only for those widgets::"
+msgstr ""
+
+#: ../../dev/pos/gui.rst:42
+msgid "screen_classes"
+msgstr ""
+
+#: ../../dev/pos/gui.rst:45
+msgid ""
+"To create new screen widget (via the extend() method) or to modify "
+"existing screen widget (via the include() method) you need the target "
+"class. Usually you can get this class using following code: ::"
+msgstr ""
+
+#: ../../dev/pos/gui.rst:56
+msgid ""
+"But it is available only for widgets that are returned by main function "
+"in the file \"point_of_sale/static/src/js/screens.js\"."
+msgstr ""
+
+#: ../../dev/pos/gui.rst:59
+msgid "**List of the screens:**"
+msgstr ""
+
+#: ../../dev/pos/gui.rst:61
+msgid "ReceiptScreenWidget"
+msgstr ""
+
+#: ../../dev/pos/gui.rst:62
+msgid "ActionButtonWidget"
+msgstr ""
+
+#: ../../dev/pos/gui.rst:63
+msgid "define_action_button"
+msgstr ""
+
+#: ../../dev/pos/gui.rst:64
+msgid "ScreenWidget"
+msgstr ""
+
+#: ../../dev/pos/gui.rst:65
+msgid "PaymentScreenWidget"
+msgstr ""
+
+#: ../../dev/pos/gui.rst:66
+msgid "OrderWidget"
+msgstr ""
+
+#: ../../dev/pos/gui.rst:67
+msgid "NumpadWidget"
+msgstr ""
+
+#: ../../dev/pos/gui.rst:68
+msgid "ProductScreenWidget"
+msgstr ""
+
+#: ../../dev/pos/gui.rst:69
+msgid "ProductListWidget"
+msgstr ""
+
+#: ../../dev/pos/gui.rst:71
+msgid ""
+"In other cases you can get targeted screen widget class using following "
+"code: ::"
+msgstr ""
+
+#: ../../dev/pos/gui.rst:81
+msgid "List of screens available via ``screen_classes``:"
+msgstr ""
+
+#: ../../dev/pos/index.rst:3
+msgid "Point of Sale (POS)"
+msgstr ""
+
+#: ../../dev/pos/index.rst:6
+msgid "New POS Module"
+msgstr ""
+
+#: ../../dev/pos/index.rst:15
+msgid "UI extending"
+msgstr ""
+
+#: ../../dev/pos/index.rst:24
+msgid "Receipts & Printers"
+msgstr ""
+
+#: ../../dev/pos/index.rst:30
+msgid "Extra Order Data"
+msgstr ""
+
+#: ../../dev/pos/index.rst:40
+msgid "Instant syncronization"
+msgstr ""
+
+#: ../../dev/pos/index.rst:48
+msgid "Advanced POS Development"
+msgstr ""
+
+#: ../../dev/pos/inheritance.rst:5
+msgid ""
+"POS has two types of classes: Models, Widget. Extending those classes are"
+" slightly different."
+msgstr ""
+
+#: ../../dev/pos/inheritance.rst:9
+msgid ""
+"Not all classes has easy way to get them to inherit. Some tricks are "
+"available `here <https://odoo-"
+"development.readthedocs.io/en/latest/dev/pos/gui.html>`__ ."
+msgstr ""
+
+#: ../../dev/pos/inheritance.rst:13
+msgid "Model"
+msgstr ""
+
+#: ../../dev/pos/inheritance.rst:15
+msgid "Model classes work with data only and don't work with UI directly."
+msgstr ""
+
+#: ../../dev/pos/inheritance.rst:17
+msgid ""
+"To extend that kind of class, you need to use ``extend`` method. It "
+"creates a copy of class with redefined method. Normally, you need to "
+"override original class with updated one. Also, to call original method, "
+"put original class to a variable."
+msgstr ""
+
+#: ../../dev/pos/inheritance.rst:19
+msgid ""
+"Here is an `example <https://github.com/it-projects-llc/pos-"
+"addons/blob/fb8b072/pos_debt_notebook/static/src/js/pos.js#L23-L33>`__:"
+msgstr ""
+
+#: ../../dev/pos/inheritance.rst:42
+msgid "Widget"
+msgstr ""
+
+#: ../../dev/pos/inheritance.rst:44
+msgid "Widget classes work with UI."
+msgstr ""
+
+#: ../../dev/pos/inheritance.rst:46
+msgid ""
+"Widget extend is much easier than Model extending: just use ``include`` "
+"and ``_super``."
+msgstr ""
+
+#: ../../dev/pos/inheritance.rst:48
+msgid ""
+"Here is an `example <https://github.com/it-projects-llc/pos-"
+"addons/blob/fb8b072/pos_debt_notebook/static/src/js/pos.js#L379-L385>`__:"
+msgstr ""
+
+#: ../../dev/pos/load-data-to-pos.rst:3
+msgid "Loading data to POS"
+msgstr ""
+
+#: ../../dev/pos/load-data-to-pos.rst:5
+msgid "By default POS uploads next models:"
+msgstr ""
+
+#: ../../dev/pos/load-data-to-pos.rst:7
+msgid ""
+"``res.users``, ``res.company``, ``decimal.precision``, ``uom.uom``, "
+"``res.partner``, ``res.country``, ``account.tax``, ``pos.session``, "
+"``pos.config``, ``res.users``, ``stock.location``, ``product.pricelist``,"
+" ``product.pricelist.item``, ``product.category``, ``res.currency``, "
+"``pos.category``, ``product.product``, ``account.bank.statement``, "
+"``account.journal``, ``account.fiscal.position``, "
+"``account.fiscal.position.tax``."
+msgstr ""
+
+#: ../../dev/pos/load-data-to-pos.rst:9
+msgid ""
+"If we've added a new field in the backend and want them to be presented "
+"in the POS we can use **load_fields method** inside the ``PosModel`` "
+"**initialize function**."
+msgstr ""
+
+#: ../../dev/pos/load-data-to-pos.rst:11
+msgid ""
+"In the next example taken from ``POS Debt & Credit notebook`` module we "
+"add some new fields to the ``account.journal`` `model: "
+"<https://github.com/it-projects-llc/pos-"
+"addons/blob/fb8b0724fd4b5a0e66a64ece17643025e45330a8/pos_debt_notebook/static/src/js/pos.js#L29-L30::>`__"
+msgstr ""
+
+#: ../../dev/pos/load-data-to-pos.rst:20
+msgid ""
+"In order to upload a new model into POS we use "
+"``load_models(models,options)``. Description's taken from `odoo "
+"<https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/static/src/js/models.js#L1175-L1215::>`__"
+" ."
+msgstr ""
+
+#: ../../dev/pos/load-data-to-pos.rst:24
+msgid "Loads ``openerp`` models at the point of sale startup."
+msgstr ""
+
+#: ../../dev/pos/load-data-to-pos.rst:26
+msgid "``load_models`` take an array of model loader declarations."
+msgstr ""
+
+#: ../../dev/pos/load-data-to-pos.rst:28
+msgid ""
+"The models will be loaded in the array order. If no ``openerp`` model "
+"name is provided, no server data will be loaded, but the system can be "
+"used to preprocess data before load."
+msgstr ""
+
+#: ../../dev/pos/load-data-to-pos.rst:30
+msgid ""
+"Loader arguments can be functions that return a dynamic value. The "
+"function takes the ``PosModel`` as the first argument and a temporary "
+"object that is shared by all models, and can be used to store transient "
+"information between model loads."
+msgstr ""
+
+#: ../../dev/pos/load-data-to-pos.rst:32
+msgid ""
+"There is no dependency management. The models must be loaded in the right"
+" order. Newly added models are loaded at the end but the after / before "
+"options can be used to load directly before / after another model."
+msgstr ""
+
+#: ../../dev/pos/load-data-to-pos.rst:62
+msgid ""
+"Example below uploads all records meet the domain ``account.invoice`` "
+"model."
+msgstr ""
+
+#: ../../dev/pos/load-data-to-pos.rst:64
+msgid "The **loaded** function is a handler for uploaded data."
+msgstr ""
+
+#: ../../dev/pos/load-data-to-pos.rst:66
+msgid ""
+"Here you can proceed and save this `example <https://github.com/it-"
+"projects-llc/pos-"
+"addons/blob/d0323907e35082d6d10416c2f7ef8497aa47dc31/pos_invoice_pay/static/src/js/main.js#L51-L64::>`__"
+" which is taken from ``Pay Sale Orders & Invoices over POS`` module:"
+msgstr ""
+
+#: ../../dev/pos/longpolling.rst:3
+msgid "POS Longpolling"
+msgstr ""
+
+#: ../../dev/pos/longpolling.rst:5
+msgid ""
+"It is a custom odoo `module <https://github.com/it-projects-llc/pos-"
+"addons/tree/12.0/pos_longpolling>`__ made by `IT-Projects LLC, <https"
+"://it-projects.info>`__ which allows sending instant updates to the POS "
+"interfaces from backend."
+msgstr ""
+
+#: ../../dev/pos/longpolling.rst:7
+msgid "It provides following methods in *Backend side*:"
+msgstr ""
+
+#: ../../dev/pos/longpolling.rst:9
+msgid ""
+"``self.env['pos.config].send_to_all_poses(channel_name, data)``: "
+"broadcasts messages to all opened POSes  (see `example "
+"<https://github.com/it-projects-llc/pos-"
+"addons/blob/28d2b00bfd3f5d09bb65d5bf3245a6b87ed1d67b/pos_longpolling/models/pos_longpolling_models.py#L49-L53>`__)"
+msgstr ""
+
+#: ../../dev/pos/longpolling.rst:11
+msgid ""
+"``pos_set._send_to_channel(channel_name, data)``: broadcasts message to "
+"the POSes in ``pos_set`` (see `example <https://github.com/it-projects-"
+"llc/pos-"
+"addons/blob/28d2b00bfd3f5d09bb65d5bf3245a6b87ed1d67b/pos_longpolling/models/pos_longpolling_models.py#L22-L31>`__)"
+msgstr ""
+
+#: ../../dev/pos/longpolling.rst:13
+msgid ""
+"``_send_to_channel_by_id(self, dbname, pos_id, channel_name)``: sends "
+"message to exact POS ``pos_id``, uses data base name ``dbname`` , "
+"``channel_name``, ``message='PONG'`` (see `example <https://github.com"
+"/it-projects-llc/pos-"
+"addons/blob/28d2b00bfd3f5d09bb65d5bf3245a6b87ed1d67b/pos_longpolling/models/pos_longpolling_models.py#L34-L38>`__)"
+msgstr ""
+
+#: ../../dev/pos/longpolling.rst:17
+msgid ""
+"POS will get notification only if it's subscribed to the specified "
+"``channel_name``."
+msgstr ""
+
+#: ../../dev/pos/longpolling.rst:19
+msgid "For *Client side* the methods are:"
+msgstr ""
+
+#: ../../dev/pos/longpolling.rst:21
+msgid ""
+"``add_bus(key, sync_server)``: allows to create additional Bus to sync "
+"data with another Sync Server (see `example <https://github.com/it-"
+"projects-llc/pos-"
+"addons/blob/4b9385b71f13f5df993317196d23972b65a7c2f8/pos_multi_session/static/src/js/pos_multi_session.js#L146>`__"
+" in ``pos_multi_session`` - it gets data from local server to speed up "
+"synchronization)"
+msgstr ""
+
+#: ../../dev/pos/longpolling.rst:25
+msgid ""
+"You don't need to use ``add_bus`` if you connect with your regular odoo "
+"server."
+msgstr ""
+
+#: ../../dev/pos/longpolling.rst:27
+msgid ""
+"``add_channel_callback: function(channel_name, callback, thisArg)``: "
+"subscribes to specific channel (see `example <https://github.com/it-"
+"projects-llc/pos-"
+"addons/blob/28d2b00bfd3f5d09bb65d5bf3245a6b87ed1d67b/pos_longpolling/static/src/js/pos_longpolling.js#L97>`__)"
+msgstr ""
+
+#: ../../dev/pos/longpolling.rst:29
+msgid ""
+"Let's check  example of usage taking as a basis ``Sync Partners in POS`` "
+"module:"
+msgstr ""
+
+#: ../../dev/pos/longpolling.rst:32
+msgid "Sync Partners in POS module"
+msgstr ""
+
+#: ../../dev/pos/longpolling.rst:34
+msgid ""
+"This `module <https://github.com/it-projects-llc/pos-"
+"addons/blob/907b16cc3a4ea613bf4fc81891a03739405e57a7/pos_partner_sync/>`__"
+" on each partner update (in Backend) notifies POSes to update partner "
+"data."
+msgstr ""
+
+#: ../../dev/pos/longpolling.rst:36
+msgid "Here you can see how it uses ``pos_longpolling``:"
+msgstr ""
+
+#: ../../dev/pos/longpolling.rst:39
+msgid "BACKEND"
+msgstr ""
+
+#: ../../dev/pos/longpolling.rst:41
+msgid ""
+"On partner update ``send_field_updates``  `method. <https://github.com"
+"/it-projects-llc/pos-"
+"addons/blob/907b16cc3a4ea613bf4fc81891a03739405e57a7/pos_partner_sync/models/res_partner.py#L39-L43::>`__"
+" is called:"
+msgstr ""
+
+#: ../../dev/pos/longpolling.rst:51
+msgid "It uses ``send_to_all_poses`` method."
+msgstr ""
+
+#: ../../dev/pos/longpolling.rst:54
+msgid "CLIENT"
+msgstr ""
+
+#: ../../dev/pos/longpolling.rst:56
+msgid ""
+"On POS starting it's subscribed to `channel <https://github.com/it-"
+"projects-llc/pos-"
+"addons/blob/e471b4af2f062852d256d46c200e582b0f20d0ad/pos_partner_sync/static/src/js/pos_partner_sync.js#L13-L19::>`__"
+" ``pos_partner_sync``."
+msgstr ""
+
+#: ../../dev/pos/longpolling.rst:68
+msgid ""
+"On notification `on_barcode_updates <https://github.com/it-projects-llc"
+"/pos-"
+"addons/blob/e471b4af2f062852d256d46c200e582b0f20d0ad/pos_partner_sync/static/src/js/pos_partner_sync.js#L20-L38>`__"
+" is called, which reloads partner data:"
+msgstr ""
+
+#: ../../dev/pos/ms-support.rst:3
+msgid "Multi-session Support"
+msgstr ""
+
+#: ../../dev/pos/ms-support.rst:5
+msgid ""
+"``pos_multi_session`` is a `module "
+"<https://www.odoo.com/apps/modules/10.0/pos_multi_session/>`__, which "
+"allows synchronizing data in POSes within one multi_session."
+msgstr ""
+
+#: ../../dev/pos/ms-support.rst:7
+msgid ""
+"In order to synchronize new user data Order or Orderline models of one "
+"POS with others, you no need to add a new module ``pos_multi_session`` "
+"into ``depends`` on your module, you need to extend such methods as "
+"``export_as_JSON``, ``init_from_JSON`` and add the method "
+"``apply_ms_data``, which is used for compatibility with ."
+msgstr ""
+
+#: ../../dev/pos/ms-support.rst:10
+msgid "Сonsider the **Example of synchronization for the Order model.**"
+msgstr ""
+
+#: ../../dev/pos/ms-support.rst:12
+msgid ""
+"Let us have some data for the order and we need to synchronize it with "
+"all POSes, which use the same multi-session:"
+msgstr ""
+
+#: ../../dev/pos/odoo-define.rst:3
+msgid "``odoo.define`` function"
+msgstr ""
+
+#: ../../dev/pos/odoo-define.rst:5
+msgid ""
+"Official doc about the topic is `here: "
+"<https://www.odoo.com/documentation/12.0/reference/javascript_reference.html"
+"#javascript-module-system>`__"
+msgstr ""
+
+#: ../../dev/pos/odoo-define.rst:7
+msgid ""
+"*Javascript Module* in odoo is some piece of code declared via "
+"``odoo.define('js_module_name', ...)`` and can be used in other modules "
+"via ``require('js_module_name')``."
+msgstr ""
+
+#: ../../dev/pos/odoo-define.rst:9
+msgid "**Example:**"
+msgstr ""
+
+#: ../../dev/pos/odoo-define.rst:25
+msgid "You cannot rename variable ``require``."
+msgstr ""
+
+#: ../../dev/pos/odoo-define.rst:29
+msgid ""
+"Single file may have several *JS modules*, though it's recommended to put"
+" them to different files"
+msgstr ""
+
+#: ../../dev/pos/odoo-define.rst:33
+msgid ""
+"You can use any string as a module name, but recommended way is "
+"``<ODOO_MODULE>.<JS_MODULE>``, e.g. ``point_of_sale.popups``"
+msgstr ""
+
+#: ../../dev/pos/odoo-define.rst:36
+msgid "Return value"
+msgstr ""
+
+#: ../../dev/pos/odoo-define.rst:38
+msgid ""
+"A js-module may return value. That value can be used in another js-"
+"modules (of the same odoo-module or others)."
+msgstr ""
+
+#: ../../dev/pos/odoo-define.rst:40
+msgid "For example:"
+msgstr ""
+
+#: ../../dev/pos/odoo-define.rst:53
+msgid "Then, we can use ``define_screen`` as following:"
+msgstr ""
+
+#: ../../dev/pos/odoo-define.rst:71
+msgid ""
+"If you don't to use value returned by another js-module, you still might "
+"you you *import js-module* (via require(....)) to be sure that that "
+"module is loaded before executing you module."
+msgstr ""
+
+#: ../../dev/pos/odoo-define.rst:74
+msgid "Asynchronous modules"
+msgstr ""
+
+#: ../../dev/pos/odoo-define.rst:76
+msgid ""
+"It can happen that a module needs to perform some work before it is "
+"ready. For example, it could do a rpc to load some data. In that case, "
+"the module can simply return a deferred (promise). In that case, the "
+"module system will simply wait for the deferred to complete before "
+"registering the module."
+msgstr ""
+
+#: ../../dev/pos/send-pos-orders-to-server.rst:3
+msgid "Sending POS Orders to Server"
+msgstr ""
+
+#: ../../dev/pos/send-pos-orders-to-server.rst:5
+msgid ""
+"This article describes the process of sending POS Orders to odoo server "
+"and demonstrates possible usage of extending it."
+msgstr ""
+
+#: ../../dev/pos/send-pos-orders-to-server.rst:8
+msgid "The general process is as follows:"
+msgstr ""
+
+#: ../../dev/pos/send-pos-orders-to-server.rst:10
+msgid "Client side:"
+msgstr ""
+
+#: ../../dev/pos/send-pos-orders-to-server.rst:12
+msgid "``export_as_JSON``: converts *order data* to send to the server"
+msgstr ""
+
+#: ../../dev/pos/send-pos-orders-to-server.rst:14
+msgid "then *order* is saved to browser cache"
+msgstr ""
+
+#: ../../dev/pos/send-pos-orders-to-server.rst:16
+msgid "then POS tries to send data to server"
+msgstr ""
+
+#: ../../dev/pos/send-pos-orders-to-server.rst:19
+msgid "Backend side:"
+msgstr ""
+
+#: ../../dev/pos/send-pos-orders-to-server.rst:21
+msgid ""
+"``create_from_ui``: data come to POS (see `here "
+"<https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/models/pos_order.py#L722-L751>`__)"
+msgstr ""
+
+#: ../../dev/pos/send-pos-orders-to-server.rst:23
+msgid ""
+"``_process_order``: process order json (created records in database, etc."
+" see `here "
+"<https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/models/pos_order.py#L116-L155>`__)"
+msgstr ""
+
+#: ../../dev/pos/send-pos-orders-to-server.rst:25
+msgid ""
+"``_order_fields``: prepare dictionary for create method (see `how "
+"<https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/models/pos_order.py#L34-L50>`__)"
+msgstr ""
+
+#: ../../dev/pos/send-pos-orders-to-server.rst:27
+msgid ""
+"So, in order to pass additional information and handle it on server we "
+"need:"
+msgstr ""
+
+#: ../../dev/pos/send-pos-orders-to-server.rst:29
+msgid "extend ``export_as_JSON`` in client side"
+msgstr ""
+
+#: ../../dev/pos/send-pos-orders-to-server.rst:30
+msgid "extend ``_process_order`` in server side"
+msgstr ""
+
+#: ../../dev/pos/send-pos-orders-to-server.rst:32
+msgid "Let's check it on example:"
+msgstr ""
+
+#: ../../dev/pos/send-pos-orders-to-server.rst:35
+msgid "``Saving removed products of POS order`` module"
+msgstr ""
+
+#: ../../dev/pos/send-pos-orders-to-server.rst:37
+msgid "The module allows to add a reason on canceling order or orderline in POS."
+msgstr ""
+
+#: ../../dev/pos/send-pos-orders-to-server.rst:39
+msgid "In order to do it we:"
+msgstr ""
+
+#: ../../dev/pos/send-pos-orders-to-server.rst:41
+msgid ""
+"extend ``export_as_JSON`` in client side (see `here <https://github.com"
+"/it-projects-llc/pos-"
+"addons/blob/c5539c847d0656f6885087e27e497b8d985f1e31/pos_order_cancel/static/src/js/models.js#L138-L144>`__)"
+msgstr ""
+
+#: ../../dev/pos/send-pos-orders-to-server.rst:59
+msgid ""
+"extend ``_process_order`` in server side (see `here <https://github.com"
+"/it-projects-llc/pos-"
+"addons/blob/c5539c847d0656f6885087e27e497b8d985f1e31/pos_order_cancel/models/models.py#L56-L62>`__)"
+msgstr ""
+
+#: ../../dev/py/constraints.rst:2
+msgid "Model constraints"
+msgstr ""
+
+#: ../../dev/py/constraints.rst:4
+msgid ""
+"Odoo provides two ways to set up automatically verified invariants: "
+"`Python constraints <openerp.api.constrains>` and `SQL constraints "
+"<openerp.models.Model._sql_constraints>`."
+msgstr ""
+
+#: ../../dev/py/constraints.rst:8
+msgid ""
+"A Python constraint is defined as a method decorated with "
+"`~openerp.api.constrains`, and invoked on a recordset. The decorator "
+"specifies which fields are involved in the constraint, so that the "
+"constraint is automatically evaluated when one of them is modified. The "
+"method is expected to raise an exception if its invariant is not "
+"satisfied::"
+msgstr ""
+
+#: ../../dev/py/constraints.rst:24
+msgid ""
+"SQL constraints are defined through the model attribute "
+"`~openerp.models.Model._sql_constraints`. The latter is assigned to a "
+"list of triples of strings ``(name, sql_definition, message)``, where "
+"``name`` is a valid SQL constraint name, ``sql_definition`` is a "
+"``table_constraint_`` expression, and ``message`` is the error message."
+msgstr ""
+
+#: ../../dev/py/controllers.rst:2
+msgid "Web controllers"
+msgstr ""
+
+#: ../../dev/py/controllers.rst:4
+msgid "Send values to web page"
+msgstr ""
+
+#: ../../dev/py/controllers.rst:6
+msgid ""
+"If you need to transmit on rendering page some vars, you need to put that"
+" vars in dictionary and place it as second argument::"
+msgstr ""
+
+#: ../../dev/py/decorators.rst:2
+msgid "Python decorators"
+msgstr ""
+
+#: ../../dev/py/decorators.rst:4
+msgid "Original article"
+msgstr ""
+
+#: ../../dev/py/decorators.rst:5
+msgid "http://odoo-new-api-guide-line.readthedocs.org/en/latest/decorator.html"
+msgstr ""
+
+#: ../../dev/py/decorators.rst:8
+msgid "@api.one"
+msgstr ""
+
+#: ../../dev/py/decorators.rst:10
+msgid "the decorator is deprecated. Use ``@api.multi`` instead"
+msgstr ""
+
+#: ../../dev/py/decorators.rst:12
+msgid ""
+"api.one is meant to be used when method is called only on one record. It "
+"makes sure, that there are no multiple records when calling method with "
+"api.one decorator. Let say you got record partner =  res.partner(1,). It "
+"is only one record and there is method for example (in res.partner)::"
+msgstr ""
+
+#: ../../dev/py/decorators.rst:18
+msgid "calling it like this works::"
+msgstr ""
+
+#: ../../dev/py/decorators.rst:22
+msgid "But if there would be more records, like::"
+msgstr ""
+
+#: ../../dev/py/decorators.rst:26
+msgid ""
+"calling it, would raise Warning, telling you that you can only call it on"
+" one record."
+msgstr ""
+
+#: ../../dev/py/decorators.rst:30
+msgid "@api.multi"
+msgstr ""
+
+#: ../../dev/py/decorators.rst:32
+msgid "Methods without decorators works the same way as ``@api.multi``"
+msgstr ""
+
+#: ../../dev/py/decorators.rst:34
+msgid "something. For example::"
+msgstr ""
+
+#: ../../dev/py/decorators.rst:44
+msgid "@api.model"
+msgstr ""
+
+#: ../../dev/py/decorators.rst:46
+msgid ""
+"And api.model is considered to be used when you need to do something with"
+" model itself and don't need to modify/check some exact model's "
+"record/records. For example there could be method that returns some meta "
+"info about model's structure or some helper methods, etc. Also in "
+"documentation it is said that this api is good to use when migrating from"
+" old api, because it \"politely\" converts code to new api. Also in my "
+"own experience, if you need method to return something, model decorator "
+"is good for it. api.one returns empty list, so it might lead to "
+"unexpected behavior when using api.one on method when it is supposed to "
+"return something."
+msgstr ""
+
+#: ../../dev/py/external-imports.rst:3
+msgid "External dependencies in odoo"
+msgstr ""
+
+#: ../../dev/py/external-imports.rst:6
+msgid "What"
+msgstr ""
+
+#: ../../dev/py/external-imports.rst:8
+msgid ""
+"External dependencies are python packages or any binaries, that have to "
+"be installed to make module work."
+msgstr ""
+
+#: ../../dev/py/external-imports.rst:12
+msgid "How"
+msgstr ""
+
+#: ../../dev/py/external-imports.rst:14
+msgid ""
+"In python files where you use external dependencies you will need to add "
+"``try-except`` with a debug log."
+msgstr ""
+
+#: ../../dev/py/external-imports.rst:34
+msgid ""
+"This rule doesn't apply to the test files since these files are loaded "
+"only when running tests and in such a case your module and their external"
+" dependencies are installed."
+msgstr ""
+
+#: ../../dev/py/external-imports.rst:37
+msgid ""
+"Also, you you need to add external dependencies to "
+":doc:`manifest<../docs/__manifest__.py>`."
+msgstr ""
+
+#: ../../dev/py/external-imports.rst:40
+msgid "Why"
+msgstr ""
+
+#: ../../dev/py/external-imports.rst:42
+msgid ""
+"Odoo loads python files of a module whenever following conditions are "
+"satisfied:"
+msgstr ""
+
+#: ../../dev/py/external-imports.rst:44
+msgid "the module has static folder (e.g. for an icon)"
+msgstr ""
+
+#: ../../dev/py/external-imports.rst:45
+msgid ""
+"the module marked as installable in "
+":doc:`manifest<../docs/__manifest__.py>`, i.e. the module *can* be "
+"installed"
+msgstr ""
+
+#: ../../dev/py/external-imports.rst:47
+msgid ""
+"One can see, that odoo loads python files even if module is not installed"
+" (and even not intenteded to be installed). But modules usually are added"
+" to addons-path as a part of some repository (e.g. *pos-addons*). This is"
+" why importing external dependencies without ``try-except`` leads to "
+"problems on adding repostitory to :doc:`addons-"
+"path<../../admin/addons_path>`."
+msgstr ""
+
+#: ../../dev/py/fields.rst:2
+msgid "Fields"
+msgstr ""
+
+#: ../../dev/py/fields.rst:4
+msgid ""
+"*Based on:* http://odoo-new-api-guide-"
+"line.readthedocs.io/en/latest/fields.html"
+msgstr ""
+
+#: ../../dev/py/fields.rst:10
+msgid "Now fields are class property: ::"
+msgstr ""
+
+#: ../../dev/py/fields.rst:42
+msgid "Field inheritance"
+msgstr ""
+
+#: ../../dev/py/fields.rst:44
+msgid ""
+"One of the new features of the API is to be able to change only one "
+"attribute of the field: ::"
+msgstr ""
+
+#: ../../dev/py/fields.rst:49
+msgid "Field types"
+msgstr ""
+
+#: ../../dev/py/fields.rst:52
+msgid "Boolean"
+msgstr ""
+
+#: ../../dev/py/fields.rst:54
+msgid "Boolean type field: ::"
+msgstr ""
+
+#: ../../dev/py/fields.rst:59
+msgid "Char"
+msgstr ""
+
+#: ../../dev/py/fields.rst:61
+msgid "Store string with variable len.: ::"
+msgstr ""
+
+#: ../../dev/py/fields.rst:66 ../../dev/py/fields.rst:79
+#: ../../dev/py/fields.rst:91 ../../dev/py/fields.rst:114
+#: ../../dev/py/fields.rst:186 ../../dev/py/fields.rst:207
+#: ../../dev/py/fields.rst:222 ../../dev/py/fields.rst:235
+#: ../../dev/py/fields.rst:253
+msgid "Specific options:"
+msgstr ""
+
+#: ../../dev/py/fields.rst:68
+msgid "size: data will be trimmed to specified size"
+msgstr ""
+
+#: ../../dev/py/fields.rst:69 ../../dev/py/fields.rst:81
+#: ../../dev/py/fields.rst:93
+msgid "translate: field can be translated"
+msgstr ""
+
+#: ../../dev/py/fields.rst:72
+msgid "Text"
+msgstr ""
+
+#: ../../dev/py/fields.rst:74
+msgid "Used to store long text.: ::"
+msgstr ""
+
+#: ../../dev/py/fields.rst:86
+msgid "Used to store HTML, provides an HTML widget.: ::"
+msgstr ""
+
+#: ../../dev/py/fields.rst:97
+msgid "Integer"
+msgstr ""
+
+#: ../../dev/py/fields.rst:99
+msgid ""
+"Store integer value. No NULL value support. If value is not set it "
+"returns 0: ::"
+msgstr ""
+
+#: ../../dev/py/fields.rst:104
+msgid "Float"
+msgstr ""
+
+#: ../../dev/py/fields.rst:106
+msgid ""
+"Store float value. No NULL value support. If value is not set it returns "
+"0.0 If digits option is set it will use numeric type: ::"
+msgstr ""
+
+#: ../../dev/py/fields.rst:116
+msgid ""
+"digits: force use of numeric type on database. Parameter can be a tuple "
+"(int len, float len) or a callable that return a tuple and take a cursor "
+"as parameter"
+msgstr ""
+
+#: ../../dev/py/fields.rst:119
+msgid "Date"
+msgstr ""
+
+#: ../../dev/py/fields.rst:121
+msgid "Store date. The field provides some helpers:"
+msgstr ""
+
+#: ../../dev/py/fields.rst:124
+msgid "``context_today`` returns current day date string based on tz"
+msgstr ""
+
+#: ../../dev/py/fields.rst:125
+msgid "``today`` returns current system date string"
+msgstr ""
+
+#: ../../dev/py/fields.rst:126 ../../dev/py/fields.rst:153
+msgid "``from_string`` returns datetime.date() from string"
+msgstr ""
+
+#: ../../dev/py/fields.rst:127 ../../dev/py/fields.rst:154
+msgid "``to_string`` returns date string from datetime.date"
+msgstr ""
+
+#: ../../dev/py/fields.rst:129 ../../dev/py/fields.rst:156
+msgid ": ::"
+msgstr ""
+
+#: ../../dev/py/fields.rst:146
+msgid "DateTime"
+msgstr ""
+
+#: ../../dev/py/fields.rst:148
+msgid "Store datetime. The field provide some helper:"
+msgstr ""
+
+#: ../../dev/py/fields.rst:151
+msgid "``context_timestamp`` returns current day date string based on tz"
+msgstr ""
+
+#: ../../dev/py/fields.rst:152
+msgid "``now`` returns current system date string"
+msgstr ""
+
+#: ../../dev/py/fields.rst:169
+msgid "Binary"
+msgstr ""
+
+#: ../../dev/py/fields.rst:171
+msgid "Store file encoded in base64 in bytea column: ::"
+msgstr ""
+
+#: ../../dev/py/fields.rst:176
+msgid "Selection"
+msgstr ""
+
+#: ../../dev/py/fields.rst:178
+msgid ""
+"Store text in database but propose a selection widget. It induces no "
+"selection constraint in database. Selection must be set as a list of "
+"tuples or a callable that returns a list of tuples: ::"
+msgstr ""
+
+#: ../../dev/py/fields.rst:188 ../../dev/py/fields.rst:209
+msgid "selection: a list of tuple or a callable name that take recordset as input"
+msgstr ""
+
+#: ../../dev/py/fields.rst:189
+msgid ""
+"size: the option size=1 is mandatory when using indexes that are "
+"integers, not strings"
+msgstr ""
+
+#: ../../dev/py/fields.rst:191
+msgid ""
+"When extending a model, if you want to add possible values to a selection"
+" field, you may use the `selection_add` keyword argument::"
+msgstr ""
+
+#: ../../dev/py/fields.rst:199
+msgid "Reference"
+msgstr ""
+
+#: ../../dev/py/fields.rst:201
+msgid "Store an arbitrary reference to a model and a row: ::"
+msgstr ""
+
+#: ../../dev/py/fields.rst:213
+msgid "Many2one"
+msgstr ""
+
+#: ../../dev/py/fields.rst:215
+msgid "Store a relation against a co-model: ::"
+msgstr ""
+
+#: ../../dev/py/fields.rst:224 ../../dev/py/fields.rst:237
+#: ../../dev/py/fields.rst:255
+msgid "comodel_name: name of the opposite model"
+msgstr ""
+
+#: ../../dev/py/fields.rst:225
+msgid ""
+"delegate: set it to ``True`` to make fields of the target model "
+"accessible from the current model (corresponds to ``_inherits``)"
+msgstr ""
+
+#: ../../dev/py/fields.rst:228
+msgid "One2many"
+msgstr ""
+
+#: ../../dev/py/fields.rst:230
+msgid "Store a relation against many rows of co-model: ::"
+msgstr ""
+
+#: ../../dev/py/fields.rst:238
+msgid "inverse_name: relational column of the opposite model"
+msgstr ""
+
+#: ../../dev/py/fields.rst:242
+msgid "Many2many"
+msgstr ""
+
+#: ../../dev/py/fields.rst:244
+msgid "Store a relation against many2many rows of co-model: ::"
+msgstr ""
+
+#: ../../dev/py/fields.rst:256
+msgid "relation: relational table name"
+msgstr ""
+
+#: ../../dev/py/fields.rst:257
+msgid ""
+"columns1: relational table left column name (reference to record in "
+"current table)"
+msgstr ""
+
+#: ../../dev/py/fields.rst:258
+msgid ""
+"columns2: relational table right column name (reference to record in "
+"*comodel_name* table)"
+msgstr ""
+
+#: ../../dev/py/fields.rst:260
+msgid ""
+"In order to make two mutual many2many fields in different models use in "
+"them the same relation table and inverse columns::"
+msgstr ""
+
+#: ../../dev/py/fields.rst:272
+msgid "Name Conflicts"
+msgstr ""
+
+#: ../../dev/py/fields.rst:275
+msgid "fields and method name can conflict."
+msgstr ""
+
+#: ../../dev/py/fields.rst:277
+msgid "When you call a record as a dict it will force to look on the columns."
+msgstr ""
+
+#: ../../dev/py/fields.rst:281
+msgid "Fields Defaults"
+msgstr ""
+
+#: ../../dev/py/fields.rst:283
+msgid "Default is now a keyword of a field:"
+msgstr ""
+
+#: ../../dev/py/fields.rst:285
+msgid "You can attribute it a value or a function"
+msgstr ""
+
+#: ../../dev/py/fields.rst:297
+msgid "Using a fun will force you to define function before fields definition."
+msgstr ""
+
+#: ../../dev/py/fields.rst:299
+msgid ""
+"Note. Default value cannot depend on values of other fields of a record, "
+"i.e. you cannot read other fields via ``self`` in the function."
+msgstr ""
+
+#: ../../dev/py/fields.rst:302
+msgid "Computed Fields"
+msgstr ""
+
+#: ../../dev/py/fields.rst:303
+msgid "There is no more direct creation of fields.function."
+msgstr ""
+
+#: ../../dev/py/fields.rst:305
+msgid ""
+"Instead you add a ``compute`` kwarg. The value is the name of the "
+"function as a string or a function. This allows to have fields definition"
+" atop of class: ::"
+msgstr ""
+
+#: ../../dev/py/fields.rst:318
+msgid ""
+"The function can be void. It should modify record property in order to be"
+" written to the cache: ::"
+msgstr ""
+
+#: ../../dev/py/fields.rst:323
+msgid ""
+"Be aware that this assignation will trigger a write into the database. If"
+" you need to do bulk change or must be careful about performance, you "
+"should do classic call to write"
+msgstr ""
+
+#: ../../dev/py/fields.rst:327
+msgid ""
+"To provide a search function on a non stored computed field you have to "
+"add a ``search`` kwarg on the field. The value is the name of the "
+"function as a string or a reference to a previously defined method. The "
+"function takes the second and third member of a domain tuple and returns "
+"a domain itself ::"
+msgstr ""
+
+#: ../../dev/py/fields.rst:337
+msgid "Inverse"
+msgstr ""
+
+#: ../../dev/py/fields.rst:339
+msgid ""
+"The inverse key allows to trigger call of the decorated function when the"
+" field is written/\"created\""
+msgstr ""
+
+#: ../../dev/py/fields.rst:344
+msgid "Multi Fields"
+msgstr ""
+
+#: ../../dev/py/fields.rst:345
+msgid "To have one function that compute multiple values: ::"
+msgstr ""
+
+#: ../../dev/py/fields.rst:356
+msgid "Related Field"
+msgstr ""
+
+#: ../../dev/py/fields.rst:358
+msgid "There is not anymore ``fields.related`` fields."
+msgstr ""
+
+#: ../../dev/py/fields.rst:360
+msgid "Instead you just set the name argument related to your model: ::"
+msgstr ""
+
+#: ../../dev/py/fields.rst:365
+msgid "The ``type`` kwarg is not needed anymore."
+msgstr ""
+
+#: ../../dev/py/fields.rst:367
+msgid ""
+"Setting the ``store`` kwarg will automatically store the value in "
+"database. With new API the value of the related field will be "
+"automatically updated, sweet. ::"
+msgstr ""
+
+#: ../../dev/py/fields.rst:376
+msgid ""
+"When updating any related field not all translations of related field are"
+" translated if field is stored!!"
+msgstr ""
+
+#: ../../dev/py/fields.rst:380
+msgid ""
+"Chained related fields modification will trigger invalidation of the "
+"cache for all elements of the chain."
+msgstr ""
+
+#: ../../dev/py/fields.rst:385
+msgid "Property Field"
+msgstr ""
+
+#: ../../dev/py/fields.rst:387
+msgid ""
+"There is some use cases where value of the field must change depending of"
+" the current company."
+msgstr ""
+
+#: ../../dev/py/fields.rst:390
+msgid "To activate such behavior you can now use the `company_dependent` option."
+msgstr ""
+
+#: ../../dev/py/fields.rst:392
+msgid ""
+"A notable evolution in new API is that \"property fields\" are now "
+"searchable."
+msgstr ""
+
+#: ../../dev/py/fields.rst:395
+msgid "WIP copyable option"
+msgstr ""
+
+#: ../../dev/py/fields.rst:397
+msgid ""
+"There is a dev running that will prevent to redefine copy by simply "
+"setting a copy option on fields: ::"
+msgstr ""
+
+#: ../../dev/py/fields.rst:403
+msgid "Special fields"
+msgstr ""
+
+#: ../../dev/py/fields.rst:406
+msgid "active"
+msgstr ""
+
+#: ../../dev/py/fields.rst:410
+msgid "See https://github.com/odoo/odoo/blob/11.0/odoo/models.py#L3556-L3560"
+msgstr ""
+
+#: ../../dev/py/index.rst:2
+msgid "Odoo Python"
+msgstr ""
+
+#: ../../dev/py/one2one.rst:3
+msgid "One2one field in odoo"
+msgstr ""
+
+#: ../../dev/py/one2one.rst:5
+msgid ""
+"Odoo ORM doesn't support ``One2one`` fields, but you can do them "
+"manually. In the example below we make one2one relationship between "
+"models ``fleet.vehicle`` and ``account.asset.asset``."
+msgstr ""
+
+#: ../../dev/py/one2one.rst:7
+msgid ""
+"In short, you set normal ``Mane2one`` field (``vehicle_id`` in the "
+"example) in a one model (doesn't really matter which of the models you "
+"choose) and corresponding ``One2many`` field (``asset_ids`` in the "
+"example) in another model. Then we add virtural ``Many2one`` field "
+"(``asset_id`` in the example) with attributes ``compute`` and "
+"``inverse``."
+msgstr ""
+
+#: ../../dev/py/one2one.rst:40
+msgid "TODO: replace ``@api.one`` to ``@api.multi``"
+msgstr ""
+
+#: ../../dev/py/postgres-views.rst:3
+msgid "Reports models via  PostgreSQL views"
+msgstr ""
+
+#: ../../dev/py/postgres-views.rst:5
+msgid ""
+"`Postgres View <https://www.postgresql.org/docs/current/static/sql-"
+"createview.html>`_ is a kind of table, which is not physically "
+"materialized. Instead, the query is run every time the view is referenced"
+" in a query."
+msgstr ""
+
+#: ../../dev/py/postgres-views.rst:7
+msgid "To create Postgres View in odoo do as follows:"
+msgstr ""
+
+#: ../../dev/py/postgres-views.rst:9
+msgid "create new model"
+msgstr ""
+
+#: ../../dev/py/postgres-views.rst:10
+msgid "all fields must have the flag ``readonly=True``."
+msgstr ""
+
+#: ../../dev/py/postgres-views.rst:11
+msgid ""
+"specify the parameter ``_auto=False`` to the odoo model, so no table "
+"corresponding to the fields is created automatically."
+msgstr ""
+
+#: ../../dev/py/postgres-views.rst:12
+msgid ""
+"add a method ``init(self, cr)`` that creates a PostgreSQL View matching "
+"the fields declared in the model."
+msgstr ""
+
+#: ../../dev/py/postgres-views.rst:14
+msgid "``id`` field has to be specified in ``SELECT`` part. See example below"
+msgstr ""
+
+#: ../../dev/py/postgres-views.rst:16
+msgid "add views for the model in a usual way"
+msgstr ""
+
+#: ../../dev/py/postgres-views.rst:18
+msgid "Example:"
+msgstr ""
+
+#: ../../dev/py/python/index.rst:2
+msgid "Pure Python"
+msgstr ""
+
+#: ../../dev/py/python/set.rst:2
+msgid "Compare two arrays"
+msgstr ""
+
+#: ../../dev/py/python/set.rst:4
+msgid ""
+"a = set(pos_config_obj.floor_ids.ids) b = set(rec.floor_ids.ids) diff = "
+"a.difference(b)"
+msgstr ""
+
+#: ../../dev/py/res.config.settings.rst:2
+msgid "res.config.settings"
+msgstr ""
+
+#: ../../dev/py/res.config.settings.rst:4
+msgid ""
+"*Based on* "
+"https://github.com/odoo/odoo/blob/10.0/odoo/addons/base/res/res_config.py"
+msgstr ""
+
+#: ../../dev/py/res.config.settings.rst:6
+msgid ""
+"``res.config.settings`` is a base configuration wizard for application "
+"settings.  It provides support for setting default values, assigning "
+"groups to employee users, and installing modules. To make such a "
+"'settings' wizard, define a model like::"
+msgstr ""
+
+#: ../../dev/py/res.config.settings.rst:20
+msgid ""
+"The method ``execute`` (*Apply* button) provides some support based on a "
+"naming convention:"
+msgstr ""
+
+#: ../../dev/py/res.config.settings.rst:22
+msgid ""
+"For a field like ``default_XXX``, ``execute`` sets the (global) default "
+"value of the field ``XXX`` in the model named by ``default_model`` to the"
+" field's value."
+msgstr ""
+
+#: ../../dev/py/res.config.settings.rst:25
+msgid ""
+"For a boolean field like ``group_XXX``, ``execute`` adds/removes "
+"'implied_group' to/from the implied groups of 'group', depending on the "
+"field's value. By default 'group' is the group Employee.  Groups are "
+"given by their xml id. The attribute 'group' may contain several xml ids,"
+" separated by commas."
+msgstr ""
+
+#: ../../dev/py/res.config.settings.rst:30
+msgid ""
+"For a boolean field like ``module_XXX``, ``execute`` triggers the "
+"immediate installation of the module named ``XXX`` if the field has value"
+" ``True``."
+msgstr ""
+
+#: ../../dev/py/res.config.settings.rst:33
+msgid ""
+"For the other fields, the method ``execute`` invokes all methods with a "
+"name that starts with ``set_``; such methods can be defined to implement "
+"the effect of those fields."
+msgstr ""
+
+#: ../../dev/py/res.config.settings.rst:37
+msgid ""
+"The method ``default_get`` retrieves values that reflect the current "
+"status of the fields like ``default_XXX``, ``group_XXX`` and "
+"``module_XXX``.  It also invokes all methods with a name that starts with"
+" ``get_default_``; such methods can be defined to provide current values "
+"for other fields."
+msgstr ""
+
+#: ../../dev/py/res.config.settings.rst:43
+msgid "Example"
+msgstr ""
+
+#: ../../dev/py/res.config.settings.rst:79
+msgid "Update settings on module install"
+msgstr ""
+
+#: ../../dev/py/res.config.settings.rst:81
+msgid "To update settings from any ``res.config.settings`` do as follows:"
+msgstr ""
+
+#: ../../dev/py/res.config.settings.rst:84
+msgid "default_XXX"
+msgstr ""
+
+#: ../../dev/py/res.config.settings.rst:89
+msgid "group_XXX"
+msgstr ""
+
+#: ../../dev/py/res.config.settings.rst:91
+msgid "Add **implied group(s)** to a **group** via ``implied_ids`` field::"
+msgstr ""
+
+#: ../../dev/py/res.config.settings.rst:100
+msgid "module_XXX"
+msgstr ""
+
+#: ../../dev/py/res.config.settings.rst:102
+msgid ""
+"Add XXX to the \"depends\" parameter in the "
+":doc:`__manifest__.py<../docs/__manifest__.py>` file."
+msgstr ""
+
+#: ../../dev/py/res.config.settings.rst:105
+msgid "Other fields"
+msgstr ""
+
+#: ../../dev/py/res.config.settings.rst:107
+msgid ""
+"Usually, other fields are saved to ``ir.config_parameter``, so just "
+":doc:`update ir.config_parameter<../../odoo/models/ir.config_parameter>`,"
+" for example::"
+msgstr ""
+
+#: ../../dev/py/x2many.rst:2
+msgid "x2many values filling"
+msgstr ""
+
+#: ../../dev/py/x2many.rst:4
+msgid ""
+"To fill or manipulate one2many or many2many field with according values "
+"(records) you need to use special command as says below."
+msgstr ""
+
+#: ../../dev/py/x2many.rst:6
+msgid ""
+"This format is a list of triplets executed sequentially, where each "
+"triplet is a command to execute on the set of records. Not all commands "
+"apply in all situations. Possible commands are:"
+msgstr ""
+
+#: ../../dev/py/x2many.rst:9
+msgid ""
+"**(0, _, values)** adds a new record created from the provided **value** "
+"dict."
+msgstr ""
+
+#: ../../dev/py/x2many.rst:10
+msgid ""
+"**(1, id, values)** updates an existing record of id **id** with the "
+"values in **values**. Can not be used in `~.create`."
+msgstr ""
+
+#: ../../dev/py/x2many.rst:11
+msgid ""
+"**(2, id, _)** removes the record of id **id** from the set, then deletes"
+" it (from the database). Can not be used in `~.create`."
+msgstr ""
+
+#: ../../dev/py/x2many.rst:12
+msgid ""
+"**(3, id, _)** removes the record of id **id** from the set, but does not"
+" delete it. Can not be used on `~openerp.fields.One2many`. Can not be "
+"used in `~.create`."
+msgstr ""
+
+#: ../../dev/py/x2many.rst:13
+msgid ""
+"**(4, id, _)** adds an existing record of id **id** to the set. Can not "
+"be used on `~openerp.fields.One2many`."
+msgstr ""
+
+#: ../../dev/py/x2many.rst:14
+msgid ""
+"**(5, _, _)** removes all records from the set, equivalent to using the "
+"command **3** on every record explicitly. Can not be used on "
+"`~openerp.fields.One2many`. Can not be used in `~.create`."
+msgstr ""
+
+#: ../../dev/py/x2many.rst:15
+msgid ""
+"**(6, _, ids)** replaces all existing records in the set by the **ids** "
+"list, equivalent to using the command **5** followed by a command **4** "
+"for each **id** in **ids**. Can not be used on "
+"`~openerp.fields.One2many`."
+msgstr ""
+
+#: ../../dev/py/x2many.rst:17
+msgid ""
+"Values marked as **_** in the list above are ignored and can be anything,"
+" generally **0** or **False**."
+msgstr ""
+
+#: ../../dev/py/x2many.rst:19
+msgid "Taken from https://github.com/odoo/odoo/blob/9.0/openerp/models.py"
+msgstr ""
+
+#: ../../dev/xml/create-records.rst:2
+msgid "Create record of model"
+msgstr ""
+
+#: ../../dev/xml/create-records.rst:4
+msgid "Create new record::"
+msgstr ""
+
+#: ../../dev/xml/create-records.rst:14
+msgid ""
+"If model exist it will be modifyed. Record creating in module it "
+"declareted. To change model created in another module add mule name "
+"before id::"
+msgstr ""
+
+#: ../../dev/xml/group-id-in-views.rst:3
+msgid "``Group_id`` in views"
+msgstr ""
+
+#: ../../dev/xml/group-id-in-views.rst:5
+msgid ""
+"``groups_id`` in views (mostly in views that inherits other views) allows"
+" to specify for which group make those inheritance."
+msgstr ""
+
+#: ../../dev/xml/group-id-in-views.rst:7
+msgid ""
+"For example, if you need to add a button that will be available for "
+"managers only, make the following:"
+msgstr ""
+
+#: ../../dev/xml/group-id-in-views.rst:25
+msgid "If ``groups_id`` is omitted, then the update is applied for all users."
+msgstr ""
+
+#: ../../dev/xml/index.rst:2
+msgid "XML"
+msgstr ""
+
+#: ../../dev/xml/inherit.rst:2
+msgid "Inherit"
+msgstr ""
+
+#: ../../dev/xml/inherit.rst:5
+msgid "Collisions and priority"
+msgstr ""
+
+#: ../../dev/xml/inherit.rst:7
+msgid ""
+"If two or more xml templates inherit same parent template they can have "
+"same priorities. It may produce conflicts and unexpected behavior. What "
+"you need is just set priority explicitly in your template::"
+msgstr ""
+
+#: ../../dev/xml/inherit.rst:29
+msgid "Less priority means prior execution."
+msgstr ""
+
+#: ../../dev/xml/inherit.rst:31
+msgid "Default priority is 16."
+msgstr ""
+
+#: ../../dev/xml/qweb.rst:2
+msgid "Basic stuff"
+msgstr ""
+
+#: ../../dev/xml/qweb.rst:5
+msgid "Call method of some model and put result in variable"
+msgstr ""
+
+#: ../../dev/xml/qweb.rst:10
+msgid "Here *website* means you use website=True in controller. TODO my be wrong."
+msgstr ""
+
+#: ../../dev/xml/qweb.rst:13
+msgid "Get value of some setting ir.config_parameter and put it in variable"
+msgstr ""
+
+#: ../../dev/xml/qweb.rst:19
+msgid "Show value of variable"
+msgstr ""
+
+#: ../../dev/xml/qweb.rst:25
+msgid "Use variable in condition"
+msgstr ""
+
+#: ../../dev/xml/qweb.rst:33
+msgid "Get variable transmitted by render() in XML template"
+msgstr ""
+
+#: ../../dev/xml/qweb.rst:38
+msgid "my_var is element of 'values' dictionary (second argument of render())."
+msgstr ""
+
+#: ../../dev/xml/xpath.rst:2
+msgid "Xpath"
+msgstr ""
+
+#: ../../dev/xml/xpath.rst:5
+msgid "Add some attributes to node"
+msgstr ""
+
+#: ../../dev/xml/xpath.rst:13
+msgid "Qweb expression::"
+msgstr ""
+
+#: ../../dev/xml/xpath.rst:17
+msgid "After rendering it becomes regular attribute::"
+msgstr ""
+
+#: ../../dev/xml/xpath.rst:22
+msgid "Important"
+msgstr ""
+
+#: ../../dev/xml/xpath.rst:23
+msgid "Inside of ::"
+msgstr ""
+
+#: ../../dev/xml/xpath.rst:29
+msgid "you can put **only**  ``<attribute name=`` and nothing more."
+msgstr ""
+
+#: ../../dev/xml/xpath.rst:32
+msgid "To test xpath"
+msgstr ""
+
+#: ../../dev/yml/index.rst:2
+msgid "YAML"
+msgstr ""
+
+#: ../../dev/yml/odoo-yaml.rst:2
+msgid "YAML in odoo"
+msgstr ""
+
+#: ../../dev/yml/pure-yaml.rst:2
+msgid "Pure YAML"
+msgstr ""
+

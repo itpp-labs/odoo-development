@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2019, IT-Projects LLC
+# This file is distributed under the same license as the Odoo Development
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Development master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+# c939a31193c04e92a45804a322415843
+#: ../../admin/posbox/posbox-emulation.rst:2
+msgid "Running PosBox on your computer for development purposes"
+msgstr ""
+
+# 4617d0d447e94b1b980172062063c6e0
+#: ../../admin/posbox/posbox-emulation.rst:4
+msgid ""
+"Running PosBox on your computer is means running the second odoo server "
+"instead PosBox."
+msgstr ""
+
+# 6c60dba0017b42f4a9bbd02fea141960
+#: ../../admin/posbox/posbox-emulation.rst:6
+msgid ""
+"For run the second odoo server it's necessary to change the configuration"
+" settings which is different from the running settings the first odoo "
+"server."
+msgstr ""
+
+# b3c3d6b77a5f4f01a8e7f1b1c38d44d7
+#: ../../admin/posbox/posbox-emulation.rst:8
+msgid "For this, just change the ``xmlrpc`` and ``longpolling`` port value."
+msgstr ""
+
+# 4162295e881e46d98d08de1b2bec5dea
+#: ../../admin/posbox/posbox-emulation.rst:10
+msgid ""
+"For example, if the run settings for the first odoo server ``/path/to"
+"/openerp-server1.conf``::"
+msgstr ""
+
+# a29cc926263c43728884374e29c0047a
+#: ../../admin/posbox/posbox-emulation.rst:15
+msgid ""
+"then the settings for the second odoo server ``/path/to/openerp-"
+"server2.conf`` can be as follows::"
+msgstr ""
+
+# eef7882c66774f0ca849dc2ddd06bfd9
+#: ../../admin/posbox/posbox-emulation.rst:20
+msgid ""
+"Example of running **PosBox** on your computer with used ``Network "
+"Printer``:"
+msgstr ""
+
+# bdd73ca27cd74337b8080f9270ae47ed
+#: ../../admin/posbox/posbox-emulation.rst:22
+msgid "Run first Odoo Server, e.g.::"
+msgstr ""
+
+# 03d3ec6108bd4868a6247195ca6041d0
+#: ../../admin/posbox/posbox-emulation.rst:26
+msgid ""
+"Install the `Pos Printer Network "
+"<https://www.odoo.com/apps/modules/10.0/pos_printer_network/>`_ module on"
+" Odoo in a `usual <http://odoo-"
+"development.readthedocs.io/en/latest/odoo/usage/install-"
+"module.html?highlight=install#from-app-store-install>`_ way."
+msgstr ""
+
+# d28d4f3e3a9e4bbdbbcfc784cc567955
+#: ../../admin/posbox/posbox-emulation.rst:27
+msgid ""
+"Configure PosBox using the `installation instructions "
+"<https://apps.odoo.com/apps/modules/10.0/pos_printer_network/>`_."
+msgstr ""
+
+# 2fc589c460bf49f8a5cf4e59e7fe8768
+#: ../../admin/posbox/posbox-emulation.rst:28
+msgid ""
+"Run second Odoo Server using new settings and add to ``--load "
+"parameters``, e.g.::"
+msgstr ""
+
+# 6b884755f5d043328a493278c8e63c2b
+#: ../../admin/posbox/posbox-emulation.rst:32
+msgid "Print in network printer."
+msgstr ""
+
+# ca66f7c322884245a31f1074ae9ac921
+#: ../../admin/posbox/posbox-emulation.rst:35
+msgid "Run PosBox via docker"
+msgstr ""
+
+# f8d21d80ae2449d8bf00419fa1ab8494
+#: ../../admin/posbox/posbox-emulation.rst:36
+msgid ""
+"Example with `hw_printer_network "
+"<https://www.odoo.com/apps/modules/10.0/pos_printer_network/>`_ and "
+"`PosBox 8.0 "
+"<https://github.com/odoo/odoo/tree/8.0/addons/point_of_sale/tools/posbox>`_:"
+msgstr ""
+
+# fe7f506362b2441f938854639f45be15
+#: ../../admin/posbox/posbox-emulation.rst:54
+msgid ""
+"To use your version of built-in odoo modules use add following ``-v "
+"path/to/odoo:/mnt/odoo-source``."
+msgstr ""
+
+# 6ba4e6ee0d5548d99f281d0e4e0f1e7f
+#: ../../admin/posbox/posbox-emulation.rst:56
+msgid ""
+"Source of this docker can be found here: https://github.com/it-projects-"
+"llc/install-odoo/tree/8.0/dockers/posbox"
+msgstr ""
+
+# df145b7276dd4f6a83ab6e24da4a033f
+#: ../../admin/posbox/posbox-emulation.rst:58
+msgid ""
+"It actually doesn't work and raises error \"No backend available\". "
+"Probably --device=/dev/SOMETHING has to be sued instead of `` "
+"--privileged     -v /dev/bus/usb:/dev/bus/usb ``"
+msgstr ""
+

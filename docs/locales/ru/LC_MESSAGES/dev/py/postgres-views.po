@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2019, IT-Projects LLC
+# This file is distributed under the same license as the Odoo Development
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Development master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+# f869985f53ea4aa590ae1bb2bc4bda21
+#: ../../dev/py/postgres-views.rst:3
+msgid "Reports models via  PostgreSQL views"
+msgstr ""
+
+# 9fa472c1e1fb4fa09a3079f6d22fcd8b
+#: ../../dev/py/postgres-views.rst:5
+msgid ""
+"`Postgres View <https://www.postgresql.org/docs/current/static/sql-"
+"createview.html>`_ is a kind of table, which is not physically "
+"materialized. Instead, the query is run every time the view is referenced"
+" in a query."
+msgstr ""
+
+# d9987ca354b94058aee4a86d2f8df06a
+#: ../../dev/py/postgres-views.rst:7
+msgid "To create Postgres View in odoo do as follows:"
+msgstr ""
+
+# ba5cfacf47e2474eb6519f1ea2932e21
+#: ../../dev/py/postgres-views.rst:9
+msgid "create new model"
+msgstr ""
+
+# 47aec076af4d42338587ca5a3c3bf47e
+#: ../../dev/py/postgres-views.rst:10
+msgid "all fields must have the flag ``readonly=True``."
+msgstr ""
+
+# 2d98826138084ed5aa9367f80723e16e
+#: ../../dev/py/postgres-views.rst:11
+msgid ""
+"specify the parameter ``_auto=False`` to the odoo model, so no table "
+"corresponding to the fields is created automatically."
+msgstr ""
+
+# 2acedb192bce43f0ada8c81b8f9570bc
+#: ../../dev/py/postgres-views.rst:12
+msgid ""
+"add a method ``init(self, cr)`` that creates a PostgreSQL View matching "
+"the fields declared in the model."
+msgstr ""
+
+# 57bf5c7ff7ee4f9f83c88f636f027561
+#: ../../dev/py/postgres-views.rst:14
+msgid "``id`` field has to be specified in ``SELECT`` part. See example below"
+msgstr ""
+
+# ce83884673ad4ea9973753908a5d23b8
+#: ../../dev/py/postgres-views.rst:16
+msgid "add views for the model in a usual way"
+msgstr ""
+
+# 1eb33b17d150452980cc6793e21faa02
+#: ../../dev/py/postgres-views.rst:18
+msgid "Example:"
+msgstr ""
+

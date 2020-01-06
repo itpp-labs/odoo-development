@@ -1,0 +1,119 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2019, IT-Projects LLC
+# This file is distributed under the same license as the Odoo Development
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Development master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+# 11d80f84d6384b54bdcfb77b690e8bfd
+#: ../../dev/pos/action-buttons.rst:3
+msgid "Action Buttons"
+msgstr ""
+
+# 87902e0dee9141afb23e0ee5ad47cebc
+#: ../../dev/pos/action-buttons.rst:5
+msgid "``Action Buttons`` are following buttons:"
+msgstr ""
+
+# 7e7cf3bfbe694f9cacf87a8b87c6fe8d
+#: ../../dev/pos/action-buttons.rst:7
+msgid "``Note``"
+msgstr ""
+
+# 73902ddc96a24b52ad584da777ab2d0d
+#: ../../dev/pos/action-buttons.rst:8
+msgid "``Transfer``"
+msgstr ""
+
+# 65c2cfa784a24f678ae02837f762e77e
+#: ../../dev/pos/action-buttons.rst:9
+msgid "``Guests``"
+msgstr ""
+
+# 391b6a3b02064c5095397c383ac91eae
+#: ../../dev/pos/action-buttons.rst:10
+msgid "``Bill``"
+msgstr ""
+
+# 7cc8cdc74e54421999b14b53f8795923
+#: ../../dev/pos/action-buttons.rst:11
+msgid "``Split``"
+msgstr ""
+
+# f98e5f9de03246dbae6a215efc8883e1
+#: ../../dev/pos/action-buttons.rst:12
+msgid "``Order``"
+msgstr ""
+
+# d21aec29981649beba4a4c8a02c9f77e
+#: ../../dev/pos/action-buttons.rst:13
+msgid "``Discount``"
+msgstr ""
+
+# 1caca2df2eba48cca9d5c9afd860e8ca
+#: ../../dev/pos/action-buttons.rst:14
+msgid "etc."
+msgstr ""
+
+# aef6ad4484864e13acb16747fcd489b7
+#: ../../dev/pos/action-buttons.rst:16
+msgid "that are located above **Numpad**."
+msgstr ""
+
+# 2ab96ffc544647d8967529e0b87fbde1
+#: ../../dev/pos/action-buttons.rst:18
+msgid ""
+"These buttons only show up after installing **pos_discount** module "
+"(``Discount`` button, which allows defining the size of discount for the "
+"order) and **pos_restaurant** module (``Split``, ``Guests`` buttons etc.)"
+msgstr ""
+
+# 6c455d156a054b6e8e0a1ee914d51fe3
+#: ../../dev/pos/action-buttons.rst:20
+msgid ""
+"You can create your own buttons assigning them to actions (for example "
+"**open_popup**, **screen** and etc)."
+msgstr ""
+
+# db9332e594a44881a9b135a1ec9cfd79
+#: ../../dev/pos/action-buttons.rst:22
+msgid ""
+"To create a Button you need to inherit **ActionButtonWidget** Class, "
+"select **define_action_button** and choose the necessary action after the"
+" pressing corresponding button."
+msgstr ""
+
+# b0f2b46344914d82bed176eb1b949ded
+#: ../../dev/pos/action-buttons.rst:24
+msgid ""
+"*Consider, for example, the way of creating a simple Button, which opens "
+"popup-window.*"
+msgstr ""
+
+# f2ca49a2be2049b8a4a86df96cd77bff
+#: ../../dev/pos/action-buttons.rst:74
+msgid "The definition of the ``template`` in ``Qweb``:"
+msgstr ""
+
+# 2bd86cc62c904e8c8bfe13c6ee7cd681
+#: ../../dev/pos/action-buttons.rst:84
+msgid ""
+"For a concrete example check the **POS Orders History** `module "
+"<https://github.com/it-projects-llc/pos-"
+"addons/blob/12.0/pos_orders_history/static/src/js/screens.js#L22>`__ , "
+"where you can see that a button with the label *Orders History* is added."
+msgstr ""
+

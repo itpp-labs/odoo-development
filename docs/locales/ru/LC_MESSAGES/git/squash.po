@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2019, IT-Projects LLC
+# This file is distributed under the same license as the Odoo Development
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Development master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+# 21d68169c9e149239a6a5b72d23de84d
+#: ../../git/squash.rst:3
+msgid "Squash commits into one"
+msgstr ""
+
+# d7e24541d21b46019561b11bfe2fb6ec
+#: ../../git/squash.rst:6
+msgid "Backup"
+msgstr ""
+
+# ac41485f20194d15a097415e9b278e9a
+#: ../../git/squash.rst:8
+msgid "Before making a squash consider to \"backup\" your commits."
+msgstr ""
+
+# 7cc75ec0464749eea68b3e240b696452
+#: ../../git/squash.rst:10
+msgid "Local backup:"
+msgstr ""
+
+# 08fc94f272e94111ac8aa6bd78abd618
+#: ../../git/squash.rst:16
+msgid "Remote backup"
+msgstr ""
+
+# d0f71c46f7da4b8ba07593a43637ac36
+#: ../../git/squash.rst:22
+msgid "To restore original state you can use following command:"
+msgstr ""
+
+# 2d5630c66a0348b3bde2a87a48c16f73
+#: ../../git/squash.rst:36
+msgid "``git commit --amend``"
+msgstr ""
+
+# a8e181502dc144b0b7d50d483fc9f229
+#: ../../git/squash.rst:38
+msgid "Instead of creating new commit, adds updates to the latest commit."
+msgstr ""
+
+# 375c264432564d81bd8e5bcfaf7cf06e
+#: ../../git/squash.rst:41
+msgid "``git rebase -i``"
+msgstr ""
+
+# b1c2637c75f24a7482d4a8b9e42f524f
+#: ../../git/squash.rst:43
+msgid "Interactive squashing"
+msgstr ""
+
+# 414f6bb799434ed4b0efe51b8beefb69
+#: ../../git/squash.rst:51
+msgid ""
+"Then edit opened file and keep ``pick`` for the first commit and and "
+"replace ``pick`` with ``squash`` for the rest ones. E.g."
+msgstr ""
+
+# 15aca7ec7f5e4d99827854e5f1366bfc
+#: ../../git/squash.rst:53
+msgid "Origin::"
+msgstr ""
+
+# 973f938dd24c4bc59b0625a201544108
+#: ../../git/squash.rst:57
+msgid "Edited::"
+msgstr ""
+
+# 50ce4c95e10c4d9ab2a7c8cab2f3460f
+#: ../../git/squash.rst:61
+msgid "If you remove a line here THAT COMMIT WILL BE LOST."
+msgstr ""
+
+# 630a5a3e1a974bf58b162000c737f36e
+#: ../../git/squash.rst:64
+msgid "Push"
+msgstr ""
+

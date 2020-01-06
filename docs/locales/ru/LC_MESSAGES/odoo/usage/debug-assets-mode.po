@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2019, IT-Projects LLC
+# This file is distributed under the same license as the Odoo Development
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Development master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+# ac8f695b55aa4a4b93902041de41f78f
+#: ../../odoo/usage/debug-assets-mode.rst:3
+msgid "How to activate debug assets mode"
+msgstr ""
+
+# ee1c59b566a34514b56a90612d023610
+#: ../../odoo/usage/debug-assets-mode.rst:5
+msgid "Add ``debug=assets`` parameter to your url, e.g.: ::"
+msgstr ""
+
+# 527a17f885dc48079831baf0418ed171
+#: ../../odoo/usage/debug-assets-mode.rst:9
+msgid "or use UI as described below"
+msgstr ""
+
+# 282c505b13c54b58b4b86d47812753e1
+#: ../../odoo/usage/debug-assets-mode.rst:12
+msgid "10.0+"
+msgstr ""
+
+# 324bf41701704137a9755397dfd4cfa6
+#: ../../odoo/usage/debug-assets-mode.rst:14
+msgid "go to ``Settings``"
+msgstr ""
+
+# 819abac42adc467faee938a0252a20c4
+#: ../../odoo/usage/debug-assets-mode.rst:16
+msgid "click ``Activate the developer mode(with assets)``"
+msgstr ""
+

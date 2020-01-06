@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2019, IT-Projects LLC
+# This file is distributed under the same license as the Odoo Development
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Development master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+# b181474b77fd4401b99a73b87e22a6e5
+#: ../../debugging/errors/accesserror-please-contact-your-system-administrator.rst:3
+msgid "AccessError: Please contact your system administrator"
+msgstr ""
+
+# 676a8b7988a84e5a9c9892706f410f49
+#: ../../debugging/errors/accesserror-please-contact-your-system-administrator.rst:5
+msgid ""
+"There is an AccessError which doesn't specify groups that have access to "
+"an operation. It simply states:"
+msgstr ""
+
+# ba9152ec5670443dba165f31d6a78cdc
+#: ../../debugging/errors/accesserror-please-contact-your-system-administrator.rst:9
+msgid ""
+"The requested operation cannot be completed due to security restrictions."
+" Please contact your system administrator."
+msgstr ""
+
+# 54ea264099b649e9b4c8e18172a58b3e
+#: ../../debugging/errors/accesserror-please-contact-your-system-administrator.rst:13
+msgid ""
+"Such error means, that your user doesn't satisfy access requirements "
+"specified in  :doc:`ir.rule <../../odoo/models/ir.rule>`. See "
+":doc:`Access section <../../dev/access/index>` for general understanding "
+"how odoo security works."
+msgstr ""
+

@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2019, IT-Projects LLC
+# This file is distributed under the same license as the Odoo Development
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Development master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+# 8b9d42af5b304f6185249225a0290ec0
+#: ../../ide/tmux/installation.rst:2
+msgid "Tmux installation"
+msgstr ""
+
+# 5af22015c88a448b8af83bb62b84a9cb
+#: ../../ide/tmux/installation.rst:6
+msgid "Install Tmux"
+msgstr ""
+
+# 8dffb6a7475547cd8244317621f2fc4f
+#: ../../ide/tmux/installation.rst:12
+msgid "Check version"
+msgstr ""
+
+# b97fe1bee38d4f9390ca8c38bb90b30f
+#: ../../ide/tmux/installation.rst:18
+msgid ""
+"If you have 1.8 or older then you should update. Here are update commands"
+" for ubuntu 14.04"
+msgstr ""
+
+# acbcec0a5b874fd2a07494921a364ece
+#: ../../ide/tmux/installation.rst:29
+msgid ""
+"Now if you do ``tmux -V`` it should show ``tmux 2.0`` which is a good "
+"version for tmux plugins."
+msgstr ""
+
+# 1c1e600955fd448dae636846d11a8a33
+#: ../../ide/tmux/installation.rst:31
+msgid ""
+"Based on: http://stackoverflow.com/questions/25940944/ugrade-tmux-"
+"from-1-8-to-1-9-on-ubuntu-14-04"
+msgstr ""
+
+# b0534ae06e2c486da7289ca058c22a53
+#: ../../ide/tmux/installation.rst:35
+msgid "Install Tmux Plugin Manager"
+msgstr ""
+
+# 6f1e1e33a0f94a15b714452d85967069
+#: ../../ide/tmux/installation.rst:37
+msgid "Requirements: ``tmux`` version 1.9 (or higher), ``git``, ``bash``"
+msgstr ""
+
+# 6b69db8d12ac4088ac4643b1669aff58
+#: ../../ide/tmux/installation.rst:39
+msgid "Clone TPM:"
+msgstr ""
+
+# 9e76b07bc991485c9095ef9b8e333905
+#: ../../ide/tmux/installation.rst:45
+msgid "Put this at the bottom of .tmux.conf:"
+msgstr ""
+
+# 2c8b5e317f5d440993fd321b405cccc9
+#: ../../ide/tmux/installation.rst:61
+msgid "Reload TMUX environment so TPM is sourced:"
+msgstr ""
+
+# 859a50cfc2d84678b1442f89be6c5c3f
+#: ../../ide/tmux/installation.rst:68
+msgid "Based on: https://github.com/tmux-plugins/tpm"
+msgstr ""
+
+# 313283b5b4b24709bc103d4876efc226
+#: ../../ide/tmux/installation.rst:71
+msgid "Install Tmux Resurrect"
+msgstr ""
+
+# d9931517f6104be6a167501d3d018e91
+#: ../../ide/tmux/installation.rst:73
+msgid "Add plugin to the list of TPM plugins in .tmux.conf:"
+msgstr ""
+
+# 897df7136ee24c6e9b802e99ce7b0e12
+#: ../../ide/tmux/installation.rst:79
+msgid ""
+"Hit ``prefix + I`` to fetch the plugin and source it. You should now be "
+"able to use the plugin."
+msgstr ""
+
+# b5bb3a5c82e14138b188029c312dfa5a
+#: ../../ide/tmux/installation.rst:81
+msgid "Based on: https://github.com/tmux-plugins/tmux-resurrect"
+msgstr ""
+
+# 3ade7c230f1f4187ab82461754559e28
+#: ../../ide/tmux/installation.rst:84
+msgid "Install tmux-continuum"
+msgstr ""
+
+# 72ad36b0e1fc43cc92bc6c41cd0c615d
+#: ../../ide/tmux/installation.rst:86
+msgid ""
+"Last saved environment is automatically restored when tmux is started. "
+"Put the following lines in ``tmux.conf``:"
+msgstr ""
+
+# e4828187f1bc41f1b02b11a5dea8991c
+#: ../../ide/tmux/installation.rst:94
+msgid ""
+"Your environment will be automatically saved every 5 minutes. When you "
+"start tmux it will automatically restore"
+msgstr ""
+
+# 3cfbe8381f044a2d88c831b7dec58968
+#: ../../ide/tmux/installation.rst:97
+msgid "Based on: https://github.com/tmux-plugins/tmux-continuum"
+msgstr ""
+

@@ -1,0 +1,161 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2019, IT-Projects LLC
+# This file is distributed under the same license as the Odoo Development
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Development master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+# e7d8dd49c6a34a088a79128534bf0ca5
+#: ../../dev/pos/gui.rst:3
+msgid "JS access and inheritance"
+msgstr ""
+
+# 2ee08eecca2c4eee8fe4d1985a96de21
+#: ../../dev/pos/gui.rst:6
+msgid "action_button"
+msgstr ""
+
+# bb1946030a8046038cdc43d214d8f5f2
+#: ../../dev/pos/gui.rst:8
+msgid ""
+"Here you will find explanation of how to get/inherit action_button POS "
+"objects."
+msgstr ""
+
+# 156edfa44cd444fcb60008a56729e035
+#: ../../dev/pos/gui.rst:10
+msgid ""
+"For example we have definition in `this file "
+"<https://github.com/odoo/odoo/blob/9.0/addons/pos_reprint/static/src/js/reprint.js#L1>`_::"
+msgstr ""
+
+# e1e311c70923485d997c6f71055c0467
+#: ../../dev/pos/gui.rst:19
+msgid ""
+"This defenition doesn't return class ReprintButton. So, we cannot inherit"
+" it in a usual way."
+msgstr ""
+
+# 6104bb1af5fe4499b2573458911c6276
+#: ../../dev/pos/gui.rst:21
+msgid ""
+"In order to reach that object we need get instance of it using ``gui``. "
+"Then we can inherit it"
+msgstr ""
+
+# 096c04a7a3b8476c972fd27ec590f2d7
+#: ../../dev/pos/gui.rst:23
+msgid ""
+"To make clear what this is like look up example where guests number "
+"button renderings::"
+msgstr ""
+
+# 0d274de6c1e04f55aed371a1187e6b77
+#: ../../dev/pos/gui.rst:27
+msgid ""
+"While you can make call and even replace function with new one, you are "
+"not able to make inheritance via ``extend`` or ``include`` functions. "
+"It's because we cannot reach Class and only get access to instance of "
+"that class."
+msgstr ""
+
+# 3646411adafb47da8d0f7c7cbfcd0996
+#: ../../dev/pos/gui.rst:30
+msgid "This kind of approach make sense only for those widgets::"
+msgstr ""
+
+# 4738648a2a5d46c5b6d74f2f8cc674b2
+#: ../../dev/pos/gui.rst:42
+msgid "screen_classes"
+msgstr ""
+
+# b987d6e10c8e48ceb27970bf10365ba1
+#: ../../dev/pos/gui.rst:45
+msgid ""
+"To create new screen widget (via the extend() method) or to modify "
+"existing screen widget (via the include() method) you need the target "
+"class. Usually you can get this class using following code: ::"
+msgstr ""
+
+# 494a2540c250419f8607e8b5e46c767b
+#: ../../dev/pos/gui.rst:56
+msgid ""
+"But it is available only for widgets that are returned by main function "
+"in the file \"point_of_sale/static/src/js/screens.js\"."
+msgstr ""
+
+# 069a360a71904603b604f76adea487a7
+#: ../../dev/pos/gui.rst:59
+msgid "**List of the screens:**"
+msgstr ""
+
+# c35676505fb94ca0bd013a761e57e4a5
+#: ../../dev/pos/gui.rst:61
+msgid "ReceiptScreenWidget"
+msgstr ""
+
+# d499a150451d43ad844f0db569b36fd2
+#: ../../dev/pos/gui.rst:62
+msgid "ActionButtonWidget"
+msgstr ""
+
+# f857c057296a492b80d73b0038edc976
+#: ../../dev/pos/gui.rst:63
+msgid "define_action_button"
+msgstr ""
+
+# 4b0a06ebc1c04c81af5684c13058f71e
+#: ../../dev/pos/gui.rst:64
+msgid "ScreenWidget"
+msgstr ""
+
+# ab836b9266574193864f6819fa3e2782
+#: ../../dev/pos/gui.rst:65
+msgid "PaymentScreenWidget"
+msgstr ""
+
+# e95ab08c95e9484abd11e5bdb15d0de2
+#: ../../dev/pos/gui.rst:66
+msgid "OrderWidget"
+msgstr ""
+
+# 2b6cdc168b0a492bad65fd791ed849d1
+#: ../../dev/pos/gui.rst:67
+msgid "NumpadWidget"
+msgstr ""
+
+# b6757b99f2944358a66b074c82c4fcd6
+#: ../../dev/pos/gui.rst:68
+msgid "ProductScreenWidget"
+msgstr ""
+
+# 421365034a7d422c9c6c13b6c2b4fc56
+#: ../../dev/pos/gui.rst:69
+msgid "ProductListWidget"
+msgstr ""
+
+# 3345b0ab469346cb94a3e4e3bf1ec60b
+#: ../../dev/pos/gui.rst:71
+msgid ""
+"In other cases you can get targeted screen widget class using following "
+"code: ::"
+msgstr ""
+
+# 1c0a100917e6452ea45981237241985c
+#: ../../dev/pos/gui.rst:81
+msgid "List of screens available via ``screen_classes``:"
+msgstr ""
+

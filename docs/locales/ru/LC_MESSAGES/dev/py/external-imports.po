@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2019, IT-Projects LLC
+# This file is distributed under the same license as the Odoo Development
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Development master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+# 08141e6a8a2d42e79a415635b047d984
+#: ../../dev/py/external-imports.rst:3
+msgid "External dependencies in odoo"
+msgstr ""
+
+# fad322f041774da0956196cac0562333
+#: ../../dev/py/external-imports.rst:6
+msgid "What"
+msgstr ""
+
+# cba3211820d04c0b87532536120f974a
+#: ../../dev/py/external-imports.rst:8
+msgid ""
+"External dependencies are python packages or any binaries, that have to "
+"be installed to make module work."
+msgstr ""
+
+# 189e2971cb554acab1fdb732d271ace6
+#: ../../dev/py/external-imports.rst:12
+msgid "How"
+msgstr ""
+
+# 1e2199f43af34a0f925a6bfa695d9a45
+#: ../../dev/py/external-imports.rst:14
+msgid ""
+"In python files where you use external dependencies you will need to add "
+"``try-except`` with a debug log."
+msgstr ""
+
+# 87dfdc374a054ad7ba90594f79fa0f79
+#: ../../dev/py/external-imports.rst:34
+msgid ""
+"This rule doesn't apply to the test files since these files are loaded "
+"only when running tests and in such a case your module and their external"
+" dependencies are installed."
+msgstr ""
+
+# f0445b0d3e12447e82f43798a112cc48
+#: ../../dev/py/external-imports.rst:37
+msgid ""
+"Also, you you need to add external dependencies to "
+":doc:`manifest<../docs/__manifest__.py>`."
+msgstr ""
+
+# 6f8a87ffbff3424e9f77db39077be1bf
+#: ../../dev/py/external-imports.rst:40
+msgid "Why"
+msgstr ""
+
+# 933262edb5c249baabfb4a47fc4f1533
+#: ../../dev/py/external-imports.rst:42
+msgid ""
+"Odoo loads python files of a module whenever following conditions are "
+"satisfied:"
+msgstr ""
+
+# 24df55c6e1aa4e83bf1a010a22b350f6
+#: ../../dev/py/external-imports.rst:44
+msgid "the module has static folder (e.g. for an icon)"
+msgstr ""
+
+# e899b22e1f9340f9880f60d316fd08de
+#: ../../dev/py/external-imports.rst:45
+msgid ""
+"the module marked as installable in "
+":doc:`manifest<../docs/__manifest__.py>`, i.e. the module *can* be "
+"installed"
+msgstr ""
+
+# 01b33bcf8dc84c85801425bb7a478581
+#: ../../dev/py/external-imports.rst:47
+msgid ""
+"One can see, that odoo loads python files even if module is not installed"
+" (and even not intenteded to be installed). But modules usually are added"
+" to addons-path as a part of some repository (e.g. *pos-addons*). This is"
+" why importing external dependencies without ``try-except`` leads to "
+"problems on adding repostitory to :doc:`addons-"
+"path<../../admin/addons_path>`."
+msgstr ""
+

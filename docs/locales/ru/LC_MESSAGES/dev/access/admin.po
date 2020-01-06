@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2019, IT-Projects LLC
+# This file is distributed under the same license as the Odoo Development
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Development master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+# 2548ba75922a4d97af41f018a5a6e27b
+#: ../../dev/access/admin.rst:3
+msgid "Superuser rights"
+msgstr ""
+
+# c1a3e7626a5d4991b328ddb25e10e8ff
+#: ../../dev/access/admin.rst:5
+msgid ""
+"Administrator, i.e. user with id 1 (``SUPERUSER_ID``), has exceptions "
+"about access rights."
+msgstr ""
+
+# a2421754e58348fc829dd8846301196f
+#: ../../dev/access/admin.rst:8
+msgid "ir.model.access"
+msgstr ""
+
+# f696f676bb444ed98841de6cbbd7392f
+#: ../../dev/access/admin.rst:10
+msgid ""
+"If some model doesn't have records in :doc:`ir.model.access (Access "
+"Rules)<../../odoo/models/ir.model.access>`, then only Administrator has "
+"access to that model."
+msgstr ""
+

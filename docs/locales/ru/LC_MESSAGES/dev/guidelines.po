@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2019, IT-Projects LLC
+# This file is distributed under the same license as the Odoo Development
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Development master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+# 713d83f433f94dc589dbb030d0138203
+#: ../../dev/guidelines.rst:3
+msgid "Guidelines"
+msgstr ""
+
+# 2ea7a6a60ffe407783ea9d258e8f3fe5
+#: ../../dev/guidelines.rst:5
+msgid "Source:"
+msgstr ""
+
+# ca83676585ef4fbcb5fb3b7c3f46fa89
+#: ../../dev/guidelines.rst:7
+msgid "https://www.odoo.com/documentation/8.0/reference/guidelines.html"
+msgstr ""
+
+# b0e167eb8e33491cbbcc0108a05f05a3
+#: ../../dev/guidelines.rst:10
+msgid "Comments"
+msgstr ""
+
+# 29acf3f9a7f84f5d8ef071ee1c0cd77f
+#: ../../dev/guidelines.rst:12
+msgid ""
+"First of all, comments in the source are required if it's not obvious "
+"**why** are doing something."
+msgstr ""
+
+# e2fabdeb943a4dc49de5f7acf3af6491
+#: ../../dev/guidelines.rst:14
+msgid ""
+"Additionally, you can add comments about **what** are you doing, if it "
+"could be helpful."
+msgstr ""
+

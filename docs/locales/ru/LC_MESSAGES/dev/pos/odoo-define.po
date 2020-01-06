@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2019, IT-Projects LLC
+# This file is distributed under the same license as the Odoo Development
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Development master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+# 2b20407e789642628ae3baeaea57c6a5
+#: ../../dev/pos/odoo-define.rst:3
+msgid "``odoo.define`` function"
+msgstr ""
+
+# 3125ac782ee64556b19f75abe739ac3a
+#: ../../dev/pos/odoo-define.rst:5
+msgid ""
+"Official doc about the topic is `here: "
+"<https://www.odoo.com/documentation/12.0/reference/javascript_reference.html"
+"#javascript-module-system>`__"
+msgstr ""
+
+# bc96862a77b04738b65cc9b61b3785a3
+#: ../../dev/pos/odoo-define.rst:7
+msgid ""
+"*Javascript Module* in odoo is some piece of code declared via "
+"``odoo.define('js_module_name', ...)`` and can be used in other modules "
+"via ``require('js_module_name')``."
+msgstr ""
+
+# 5af4697f12c84453807800f34dc4bba9
+#: ../../dev/pos/odoo-define.rst:9
+msgid "**Example:**"
+msgstr ""
+
+# 3cbb01321eb54ac4b4779444f07f2867
+#: ../../dev/pos/odoo-define.rst:25
+msgid "You cannot rename variable ``require``."
+msgstr ""
+
+# 9f3db08aeec04ff4bc11ec2a33f80fd5
+#: ../../dev/pos/odoo-define.rst:29
+msgid ""
+"Single file may have several *JS modules*, though it's recommended to put"
+" them to different files"
+msgstr ""
+
+# bc652474d8674a249aca23c7fc9793a2
+#: ../../dev/pos/odoo-define.rst:33
+msgid ""
+"You can use any string as a module name, but recommended way is "
+"``<ODOO_MODULE>.<JS_MODULE>``, e.g. ``point_of_sale.popups``"
+msgstr ""
+
+# 034c3a69f7c045f7bb47404dde4da21c
+#: ../../dev/pos/odoo-define.rst:36
+msgid "Return value"
+msgstr ""
+
+# 6932120841864f8db4fcd5493248e5ec
+#: ../../dev/pos/odoo-define.rst:38
+msgid ""
+"A js-module may return value. That value can be used in another js-"
+"modules (of the same odoo-module or others)."
+msgstr ""
+
+# 21bf67c6eee44515b18eb7aa1f8e7ff6
+#: ../../dev/pos/odoo-define.rst:40
+msgid "For example:"
+msgstr ""
+
+# 1b8b675b36c84eabac739aa6f190bcc5
+#: ../../dev/pos/odoo-define.rst:53
+msgid "Then, we can use ``define_screen`` as following:"
+msgstr ""
+
+# ac9a336f4d6a4efe8841dbef89f523a1
+#: ../../dev/pos/odoo-define.rst:71
+msgid ""
+"If you don't to use value returned by another js-module, you still might "
+"you you *import js-module* (via require(....)) to be sure that that "
+"module is loaded before executing you module."
+msgstr ""
+
+# c06e74e992cc4eb1b8e531fe0710f2aa
+#: ../../dev/pos/odoo-define.rst:74
+msgid "Asynchronous modules"
+msgstr ""
+
+# 4071d2f505814a998261950f1d444c50
+#: ../../dev/pos/odoo-define.rst:76
+msgid ""
+"It can happen that a module needs to perform some work before it is "
+"ready. For example, it could do a rpc to load some data. In that case, "
+"the module can simply return a deferred (promise). In that case, the "
+"module system will simply wait for the deferred to complete before "
+"registering the module."
+msgstr ""
+

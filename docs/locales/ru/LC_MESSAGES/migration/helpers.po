@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2019, IT-Projects LLC
+# This file is distributed under the same license as the Odoo Development
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Development master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+# 81203ff3cbbb4f9589518e4bf721256f
+#: ../../migration/helpers.rst:3
+msgid "Common Migration Helpers"
+msgstr ""
+
+# 248496f13d3b49f39fffddbbed60a34d
+#: ../../migration/helpers.rst:9
+msgid "Creating Pull Requests in batch"
+msgstr ""
+
+# 2198c3579ad54f20bbe71cb5cee31b58
+#: ../../migration/helpers.rst:11
+msgid "See https://odoo-devops.readthedocs.io/en/latest/git/github.html"
+msgstr ""
+
+# c82f45763c6b486d9100eef77e8c88f7
+#: ../../migration/helpers.rst:14
+msgid "Switching off unported modules"
+msgstr ""
+
+# 408fba9f68f847139f98f69723e277da
+#: ../../migration/helpers.rst:37
+msgid "Updating odoo version in files"
+msgstr ""
+
+# f386d36c8646461388b8e6b26f053c8c
+#: ../../migration/helpers.rst:39
+msgid "Once per repository:"
+msgstr ""
+
+# 5ab1089444724403b5fa36d64593cd2b
+#: ../../migration/helpers.rst:48
+msgid ""
+"General helpers (could be executed in new branch as well as on porting "
+"modules):"
+msgstr ""
+
+# bd054baedbc544edb8e939e3647bcc67
+#: ../../migration/helpers.rst:58
+msgid "Only on porting modules:"
+msgstr ""
+
+# d4c0122a93844d00a5a1e6af9766f216
+#: ../../migration/helpers.rst:66
+msgid "Reviewing odoo updates"
+msgstr ""
+
+# aeecc68e65a94e4d8b5bca4829edd14e
+#: ../../migration/helpers.rst:68
+msgid "Code below helps you to find what is new between odoo branches"
+msgstr ""
+
+# eaecac4701ed4a92b70b344c99b65626
+#: ../../migration/helpers.rst:101
+msgid "Reviewing module source"
+msgstr ""
+
+# 9426498139cb40179ed793108602136a
+#: ../../migration/helpers.rst:103
+msgid ""
+"Commands below may help you to estimate amount of work to migrate module."
+" The commands simply show all source in one view"
+msgstr ""
+
+# 1d7274fab6f34202907012cd31666cd5
+#: ../../migration/helpers.rst:114
+msgid "Other tools"
+msgstr ""
+
+# 85581d57bc1d44899c4f3c21fbd5fb6e
+#: ../../migration/helpers.rst:116
+msgid "all-in-one tool: https://github.com/grap/odoo-migrate"
+msgstr ""
+
+# 029bc7b86e8f4bbe9adf42c306d2253c
+#: ../../migration/helpers.rst:117
+msgid ""
+"OCA autopep: https://github.com/OCA/maintainer-tools#auto-fix-"
+"pep8-guidelines"
+msgstr ""
+
+# 348ecf057aad4bf6ac21ecdbf96daff7
+#: ../../migration/helpers.rst:118
+msgid ""
+"`bowler <https://pybowler.io>`__ based fixers: "
+"https://gist.github.com/blaggacao/13cf79fad489bca962e4a43eb580e9ee"
+msgstr ""
+

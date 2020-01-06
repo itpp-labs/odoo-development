@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2019, IT-Projects LLC
+# This file is distributed under the same license as the Odoo Development
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Development master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+# d8d2d3fd8b684ec4a5c8d9dddc4a0ec9
+#: ../../dev/other/odoo.rst:2
+msgid "Odoo database"
+msgstr ""
+
+# 777c1caf55b7468fbfa5f19c6cd3602a
+#: ../../dev/other/odoo.rst:5
+msgid "Many to many"
+msgstr ""
+
+# 42db7124bed0406f835df5ca87385a6b
+#: ../../dev/other/odoo.rst:7
+msgid ""
+"For every *many to many* field odoo creating new relations table for "
+"example *pos_multi_rel* with *_rel* postfix."
+msgstr ""
+
+# d454e09474b844f8b1cc7f7a754f0ea0
+#: ../../dev/other/odoo.rst:10
+msgid "Odoo way of shaman"
+msgstr ""
+
+# fe70cbcf0be349b0a803b2373cdc22f7
+#: ../../dev/other/odoo.rst:12
+msgid "**What to do if something not work but should to**"
+msgstr ""
+
+# e47f8ba4a40243e1be306efc1ce88f4f
+#: ../../dev/other/odoo.rst:14
+msgid "Refresh page"
+msgstr ""
+
+# b15902fd38d84c78887511c1bf8622d0
+#: ../../dev/other/odoo.rst:15
+msgid "Update module"
+msgstr ""
+
+# 71193a190a924ab786441c29eab04965
+#: ../../dev/other/odoo.rst:16
+msgid "Check openerp file **depends**, **demo** and other important fields"
+msgstr ""
+
+# 5ed6e620fc2442589ed8513625f156d5
+#: ../../dev/other/odoo.rst:17
+msgid "Check odoo config you use to run odoo. Especially addons paths"
+msgstr ""
+
+# de2066d02c1144d69ee995785e493142
+#: ../../dev/other/odoo.rst:18
+msgid "Uninstall and install again modules in depends"
+msgstr ""
+
+# c28c4605305e4732a229f1fe02bc9ddb
+#: ../../dev/other/odoo.rst:19
+msgid "Clean browser cache"
+msgstr ""
+
+# b27c2f7630eb4159afa40f3dc64fdfb7
+#: ../../dev/other/odoo.rst:20
+msgid ""
+"Carefully check logs. Look up if needed files loaded or not. May be some "
+"errors."
+msgstr ""
+
+# 56a5a174e40041b9b060b9e1679c9403
+#: ../../dev/other/odoo.rst:21
+msgid "Create new base and install all modules."
+msgstr ""
+

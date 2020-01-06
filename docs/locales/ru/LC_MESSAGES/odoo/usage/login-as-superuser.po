@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2019, IT-Projects LLC
+# This file is distributed under the same license as the Odoo Development
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Development master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+# 7bba44e7e6464fcf85a341bbe4b6280e
+#: ../../odoo/usage/login-as-superuser.rst:3
+msgid "How to log in as a superuser"
+msgstr ""
+
+# 79657e3d5de141de998ae0c1aef43738
+#: ../../odoo/usage/login-as-superuser.rst:6
+msgid "12.0+"
+msgstr ""
+
+# 2955937d172345518691a12e92705236
+#: ../../odoo/usage/login-as-superuser.rst:8
+msgid "open page with login form, for example::"
+msgstr ""
+
+# 1d7900006ed347e29410c445c7fe4dcb
+#: ../../odoo/usage/login-as-superuser.rst:13
+msgid "add ``debug`` parameter to your url, for example::"
+msgstr ""
+
+# 6330ddb60efa42659b0ac40b48efec31
+#: ../../odoo/usage/login-as-superuser.rst:17
+msgid ""
+"enter the username and password of a user which is in ``Administration: "
+"Settings`` (``base.group_system``) security group, for example::"
+msgstr ""
+
+# f198fa0d140b4c808d9cb3975d09dea7
+#: ../../odoo/usage/login-as-superuser.rst:22
+msgid "click to ``Log in as superuser`` link below the ``Log in`` button"
+msgstr ""
+
