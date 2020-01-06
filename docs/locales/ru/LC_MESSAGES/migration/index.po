@@ -41,8 +41,8 @@ msgid ""
 "sometimes is called just *migration*."
 msgstr ""
 "Как слово * портирование * иногда заменяется на * миграция *. Вы не должны "
-"путать это с: doc: `Миграция данных &lt;../ maintenance / data "
-"-igration&gt;`, которая иногда называется просто * миграция *."
+"путать это с :doc:`Data Migration<../maintenance/data-migration>`, которая "
+"иногда называется просто * миграция *."
 
 # 10dd9099cf954b2087d34a5246b242bf
 #: ../../migration/index.rst:20

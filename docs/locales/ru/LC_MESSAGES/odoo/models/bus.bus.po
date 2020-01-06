@@ -48,9 +48,8 @@ msgid ""
 "Don't mistake longpolling bus with :doc:`core.bus <../../dev/js/core.bus>` "
 "which is client-side only and part of ``web`` module."
 msgstr ""
-"Не путайте longpolling bus с: doc: `core.bus &lt;../../ dev / js / "
-"core.bus&gt;`, который только на стороне клиента и является частью модуля ``"
-" web``."
+"Не путайте longpolling bus с :doc:`core.bus <../../dev/js/core.bus>`, "
+"который только на стороне клиента и является частью модуля `` web``."
 
 # 3ef82c92abe74ded84a7805d164ac275
 #: ../../odoo/models/bus.bus.rst:19
@@ -60,13 +59,12 @@ msgstr "Что такое длинный опрос"
 # b37ec7f1066a48feb612b20d020a536f
 #: ../../odoo/models/bus.bus.rst:21
 msgid ":doc:`About longpolling <../../admin/about_longpolling>`"
-msgstr ": doc: `О длинном опросе &lt;../../ admin / about_longpolling&gt;`"
+msgstr " :doc:`About longpolling <../../admin/about_longpolling>`"
 
 # 75a3a3ce7376430398c7b797e0d8d5ae
 #: ../../odoo/models/bus.bus.rst:23
 msgid ":doc:`How to enable Longpolling in odoo <../../admin/longpolling>`"
-msgstr ""
-": doc: `Как включить Longpolling в odoo &lt;../../ admin / longpolling&gt;`"
+msgstr " :doc:`How to enable Longpolling in odoo <../../admin/longpolling>`"
 
 # af06a3fbfbab46ffae31f24d7dfe9efc
 #: ../../odoo/models/bus.bus.rst:26

@@ -71,4 +71,4 @@ msgstr "Решение"
 # 3bf68c0222c54c40a424745808e63275
 #: ../../dev/diving/cases/transformed_method.rst:18
 msgid ":doc:`Possible solution <./answers/transformed_method>`"
-msgstr ": doc: `Возможное решение &lt;./ answers / transformed_method&gt;`"
+msgstr " :doc:`Possible solution <./answers/transformed_method>`"

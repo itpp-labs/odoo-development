@@ -54,4 +54,3 @@ msgid ""
 "Fork repo, clone repo to you machine, make commits, push updates, create "
 "Pull Request"
 msgstr ""
-

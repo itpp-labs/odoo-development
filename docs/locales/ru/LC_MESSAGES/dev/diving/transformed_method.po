@@ -82,10 +82,9 @@ msgstr ""
 # 14777879c234496bae101a8f1aac545e
 #: ../../dev/diving/transformed_method.rst:19
 msgid ":doc:`Case <./cases/transformed_method>`"
-msgstr ": doc: `Case &lt;./ case / transformed_method&gt;`"
+msgstr " :doc:`Case <./cases/transformed_method>`"
 
 # 423acc11999a4b798d020fc0bc201134
 #: ../../dev/diving/transformed_method.rst:21
 msgid ":doc:`Possible solution <./cases/answers/transformed_method>`"
-msgstr ""
-": doc: `Возможное решение &lt;./ case / answers / transformed_method&gt;`"
+msgstr " :doc:`Possible solution <./cases/answers/transformed_method>`"

@@ -40,7 +40,7 @@ msgstr "Смотрите также:"
 # b660b04a7dde46eb9e65beac2a89dc0c
 #: ../../git/porting.rst:9
 msgid ":doc:`Conflicts resolving <conflicts>`"
-msgstr ": doc: `Разрешение конфликтов <conflicts> `"
+msgstr " :doc:`Conflicts resolving <conflicts>`"
 
 # 1d32177d067c4e68a64215731dff73f6
 #: ../../git/porting.rst:12

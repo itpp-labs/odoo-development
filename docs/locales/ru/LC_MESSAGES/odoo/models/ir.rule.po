@@ -137,8 +137,7 @@ msgstr "Смотрите также:"
 # b17287cf0596488cad566b2356268ae8
 #: ../../odoo/models/ir.rule.rst:31
 msgid ":doc:`Superuser rights <../../../dev/access/admin>`"
-msgstr ""
-": doc: `Права суперпользователя &lt;../../../ dev / access / admin&gt;`"
+msgstr " :doc:`Superuser rights <../../../dev/access/admin>`"
 
 # 783a213f070b453794dbfded0c86d254
 #: ../../odoo/models/ir.rule.rst:34

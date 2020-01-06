@@ -30,8 +30,8 @@ msgid ""
 " nor in :doc:`Console <browser-console>`. Then you can try to find some "
 "usefull information  at Network tab of browser's developer tools."
 msgstr ""
-"Иногда ошибки не выводятся ни в: doc: `Терминал <terminal-output> `ни в: "
-"doc:` Консоль <browser-console> `. Затем вы можете попробовать найти "
+"Иногда ошибки не выводятся ни в :doc:`Terminal <terminal-output>`ни в "
+":doc:`Terminal <terminal-output>`. Затем вы можете попробовать найти "
 "полезную информацию на вкладке «Сеть» инструментов разработчика браузера."
 
 # efba22e7067b4a6eb5602da654c1cc47

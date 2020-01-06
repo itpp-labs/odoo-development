@@ -68,8 +68,8 @@ msgid ""
 "Also, you you need to add external dependencies to "
 ":doc:`manifest<../docs/__manifest__.py>`."
 msgstr ""
-"Также вам необходимо добавить внешние зависимости в: doc: `manifest &lt;../ "
-"docs / __ manifest __. Py&gt;`."
+"Также вам необходимо добавить внешние зависимости в "
+":doc:`manifest<../docs/__manifest__.py>`."
 
 # 6f8a87ffbff3424e9f77db39077be1bf
 #: ../../dev/py/external-imports.rst:40
@@ -95,8 +95,8 @@ msgid ""
 "the module marked as installable in "
 ":doc:`manifest<../docs/__manifest__.py>`, i.e. the module *can* be installed"
 msgstr ""
-"модуль, помеченный как устанавливаемый в: doc: `manifest &lt;../ docs / __ "
-"manifest __. py&gt;`, т.е. модуль * можно * установить"
+"модуль, помеченный как устанавливаемый в "
+":doc:`manifest<../docs/__manifest__.py>`, т.е. модуль * можно * установить"
 
 # 01b33bcf8dc84c85801425bb7a478581
 #: ../../dev/py/external-imports.rst:47
@@ -111,5 +111,4 @@ msgstr ""
 "даже не предназначен для установки). Но модули обычно добавляются в addons-"
 "path как часть некоторого репозитория (например, * pos-addons *). Вот почему"
 " импорт внешних зависимостей без `` try-кроме`` приводит к проблемам при "
-"добавлении репозитория в: doc: `addons-path &lt;../../ admin / "
-"addons_path&gt;`."
+"добавлении репозитория в :doc:`addons-path<../../admin/addons_path>`."

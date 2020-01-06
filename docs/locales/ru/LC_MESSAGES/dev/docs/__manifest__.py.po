@@ -301,8 +301,7 @@ msgstr "Проверьте, существует ли какое-либо сис
 #: ../../dev/docs/__manifest__.py.rst:105
 msgid "See also: :doc:`External dependencies in odoo<../py/external-imports>`"
 msgstr ""
-"Смотрите также:: doc: `Внешние зависимости в odoo &lt;../ py / external-"
-"import&gt;`"
+"Смотрите также: :doc:`External dependencies in odoo<../py/external-imports>`"
 
 # ceb209ab5b304cd180f4bb036771197c
 #: ../../dev/docs/__manifest__.py.rst:109

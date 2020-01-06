@@ -55,8 +55,7 @@ msgstr "odoo 10.0 ::"
 # aeecc405bd184d9aadca673d5ba71c10
 #: ../../admin/longpolling.rst:20
 msgid "set non-zero value for :doc:`workers <workers>` parameter"
-msgstr ""
-"установить ненулевое значение для: doc: `работники <workers> `параметр"
+msgstr "установить ненулевое значение для :doc:`workers <workers>`параметр"
 
 # 9c74efd24d5f4e4c8fa2f871336def55
 #: ../../admin/longpolling.rst:21

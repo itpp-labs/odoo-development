@@ -81,4 +81,4 @@ msgstr ""
 # c127002834e946c2bac50c7b3b9254f8
 #: ../../dev/diving/cases/answers/transformed_method.rst:36
 msgid ":doc:`Source Diving Index <../../index>`"
-msgstr ": doc: `Исходный индекс дайвинга &lt;../../ index&gt;`"
+msgstr " :doc:`Source Diving Index <../../index>`"
