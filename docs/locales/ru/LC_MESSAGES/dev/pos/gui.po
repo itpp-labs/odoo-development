@@ -44,8 +44,8 @@ msgid ""
 "<https://github.com/odoo/odoo/blob/9.0/addons/pos_reprint/static/src/js/reprint.js#L1>`_::"
 msgstr ""
 "Например, у нас есть определение в этом файле "
-"<https://github.com/odoo/odoo/blob/9.0/addons/pos_reprint/static/src/js/reprint.js#L1>'_"
-" ::"
+"<https://github.com/odoo/odoo/blob/9.0/addons/pos_reprint/static/src/js/reprint.js#L1>"
+" `_ ::"
 
 # e1e311c70923485d997c6f71055c0467
 #: ../../dev/pos/gui.rst:19

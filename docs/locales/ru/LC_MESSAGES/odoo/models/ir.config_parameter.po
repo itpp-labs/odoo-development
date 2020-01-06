@@ -106,8 +106,8 @@ msgid ""
 " odoo 12"
 msgstr ""
 "Файлы Yaml не поддерживаются <https://odoo-"
-"development.readthedocs.io/en/latest/odoo/models/ir.config_parameter.html>'__"
-" odoo 12"
+"development.readthedocs.io/en/latest/odoo/models/ir.config_parameter.html> "
+"`__ odoo 12"
 
 # f98943ca534f4801b3ed9eff34a08c31
 #: ../../odoo/models/ir.config_parameter.rst:59

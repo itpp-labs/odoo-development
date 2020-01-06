@@ -32,7 +32,8 @@ msgid ""
 msgstr ""
 "Сначала рассмотрим, что делает объект `session.web.form.FormOpenPopup () "
 "<https://github.com/yelizariev/mail-"
-"addons/blob/9.0/mail_move_message/static/src/js/mail_move_message.js#L64>'_."
+"addons/blob/9.0/mail_move_message/static/src/js/mail_move_message.js#L64> "
+"`_."
 
 # e1bd5ec36ceb429d9e72a81b814d405d
 #: ../../dev/diving/cases/answers/transformed_method.rst:29
@@ -51,12 +52,12 @@ msgid ""
 " The object behaves similar to the one that we need."
 msgstr ""
 "Затем мы пытаемся искать методами `объекта "
-"<https://github.com/odoo/odoo/blob/8.0/addons/web/static/src/js/view_form.js#L5373>'_."
-" В этом случае ** init_popup **, ** display_popup **, ** init_dataset ** и "
-"** setup_form_view **. Успешно. Метод init_dataset находится в объекте "
+"<https://github.com/odoo/odoo/blob/8.0/addons/web/static/src/js/view_form.js#L5373>"
+" `_. В этом случае ** init_popup **, ** display_popup **, ** init_dataset **"
+" и ** setup_form_view **. Успешно. Метод init_dataset находится в объекте "
 "`FormViewDialog "
-"<https://github.com/odoo/odoo/blob/9.0/addons/web/static/src/js/views/form_common.js#L850>'_."
-" Объект ведет себя подобно тому, что нам нужно."
+"<https://github.com/odoo/odoo/blob/9.0/addons/web/static/src/js/views/form_common.js#L850>"
+" `_. Объект ведет себя подобно тому, что нам нужно."
 
 # 2dae32fe31fb48d6893629bef6937f6c
 #: ../../dev/diving/cases/answers/transformed_method.rst:33
@@ -74,7 +75,8 @@ msgstr ""
 "«закрытый» нам не подходит, так как оно может встречаться достаточно часто. "
 "Но слово «create_completed» встречается редко, и мы можем найти его. И "
 "теперь мы снова находим объект `FormViewDialog "
-"<https://github.com/odoo/odoo/blob/9.0/addons/web/static/src/js/views/form_common.js#L850>'_."
+"<https://github.com/odoo/odoo/blob/9.0/addons/web/static/src/js/views/form_common.js#L850>"
+" `_."
 
 # c127002834e946c2bac50c7b3b9254f8
 #: ../../dev/diving/cases/answers/transformed_method.rst:36

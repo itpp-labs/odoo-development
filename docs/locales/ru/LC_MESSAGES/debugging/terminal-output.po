@@ -55,7 +55,7 @@ msgid ""
 "following::"
 msgstr ""
 "`Формат по умолчанию "
-"<https://github.com/odoo/odoo/blob/11.0/odoo/netsvc.py#L98>'__ выглядит "
+"<https://github.com/odoo/odoo/blob/11.0/odoo/netsvc.py#L98> `__ выглядит "
 "следующим образом:"
 
 # ad504c5930d340fe840f8f2d61462b63

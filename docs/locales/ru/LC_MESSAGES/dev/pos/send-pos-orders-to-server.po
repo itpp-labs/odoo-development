@@ -70,7 +70,8 @@ msgid ""
 "<https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/models/pos_order.py#L722-L751>`__)"
 msgstr ""
 "`` create_from_ui``: данные поступают в POS (см. здесь "
-"<https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/models/pos_order.py#L722-L751>'__)"
+"<https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/models/pos_order.py#L722-L751>"
+" `__)"
 
 # 475c4f21158144b59a5d1c7c9fe50a5c
 #: ../../dev/pos/send-pos-orders-to-server.rst:23
@@ -81,7 +82,8 @@ msgid ""
 msgstr ""
 "`` _process_order``: порядок обработки json (созданные записи в базе данных "
 "и т. д. см. здесь "
-"<https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/models/pos_order.py#L116-L155>'__)"
+"<https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/models/pos_order.py#L116-L155>"
+" `__)"
 
 # c6b3c6d4c77a4f0caedc5fd0cf8dc110
 #: ../../dev/pos/send-pos-orders-to-server.rst:25
@@ -90,7 +92,8 @@ msgid ""
 "<https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/models/pos_order.py#L34-L50>`__)"
 msgstr ""
 "`` _order_fields``: подготовить словарь для метода create (смотрите `how "
-"<https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/models/pos_order.py#L34-L50>'__)"
+"<https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/models/pos_order.py#L34-L50>"
+" `__)"
 
 # 9928793d699c407697b19db0fafea465
 #: ../../dev/pos/send-pos-orders-to-server.rst:27
@@ -141,7 +144,8 @@ msgid ""
 msgstr ""
 "расширить `` export_as_JSON`` на стороне клиента (см. здесь "
 "<https://github.com/it-projects-llc/pos-"
-"addons/blob/c5539c847d0656f6885087e27e497b8d985f1e31/pos_order_cancel/static/src/js/models.js#L138-L144>'__)"
+"addons/blob/c5539c847d0656f6885087e27e497b8d985f1e31/pos_order_cancel/static/src/js/models.js#L138-L144>"
+" `__)"
 
 # d34a853afad5433689708aa8b7d5ef84
 #: ../../dev/pos/send-pos-orders-to-server.rst:59
@@ -152,4 +156,5 @@ msgid ""
 msgstr ""
 "расширить `` _process_order`` на стороне сервера (см. здесь "
 "<https://github.com/it-projects-llc/pos-"
-"addons/blob/c5539c847d0656f6885087e27e497b8d985f1e31/pos_order_cancel/models/models.py#L56-L62>'__)"
+"addons/blob/c5539c847d0656f6885087e27e497b8d985f1e31/pos_order_cancel/models/models.py#L56-L62>"
+" `__)"

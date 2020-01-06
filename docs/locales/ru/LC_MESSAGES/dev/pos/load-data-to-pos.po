@@ -69,7 +69,8 @@ msgstr ""
 "В следующем примере, взятом из модуля `` POS Debt &amp; Credit notebook``, "
 "мы добавим несколько новых полей в модель `` account.journal```: "
 "<https://github.com/it-projects-llc/pos-"
-"addons/blob/fb8b0724fd4b5a0e66a64ece17643025e45330a8/pos_debt_notebook/static/src/js/pos.js#L29-L30::>'__"
+"addons/blob/fb8b0724fd4b5a0e66a64ece17643025e45330a8/pos_debt_notebook/static/src/js/pos.js#L29-L30::>"
+" `__"
 
 # 5214f439f7cf4902b67354a25a56bacf
 #: ../../dev/pos/load-data-to-pos.rst:20
@@ -81,7 +82,8 @@ msgid ""
 msgstr ""
 "Для загрузки новой модели в POS мы используем `` load_models (models, "
 "options) ``. Описание взято из `odoo "
-"<https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/static/src/js/models.js#L1175-L1215::>'__"
+"<https://github.com/odoo/odoo/blob/33f1e5f64be0113e4e3ad7cb8de373d8ab5daa7b/addons/point_of_sale/static/src/js/models.js#L1175-L1215::>"
+" `__"
 
 # 7d3e2332cbd2444e868a8bd596297cde
 #: ../../dev/pos/load-data-to-pos.rst:24
@@ -153,5 +155,5 @@ msgid ""
 msgstr ""
 "Здесь вы можете продолжить и сохранить этот пример <https://github.com/it-"
 "projects-llc/pos-"
-"addons/blob/d0323907e35082d6d10416c2f7ef8497aa47dc31/pos_invoice_pay/static/src/js/main.js#L51-L64::>'__"
-" берется из модуля` `Оплата заказов и счетов через POS```:"
+"addons/blob/d0323907e35082d6d10416c2f7ef8497aa47dc31/pos_invoice_pay/static/src/js/main.js#L51-L64::>"
+" `__ берется из модуля` `Оплата заказов и счетов через POS```:"

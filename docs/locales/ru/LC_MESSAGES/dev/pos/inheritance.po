@@ -41,7 +41,7 @@ msgid ""
 msgstr ""
 "Не у всех классов есть простой способ заставить их наследовать. Некоторые "
 "трюки доступны здесь <https://odoo-"
-"development.readthedocs.io/en/latest/dev/pos/gui.html>'__"
+"development.readthedocs.io/en/latest/dev/pos/gui.html> `__"
 
 # 14d78cba24654bfc8a3b072dfcf472e6
 #: ../../dev/pos/inheritance.rst:13
@@ -75,7 +75,7 @@ msgid ""
 "addons/blob/fb8b072/pos_debt_notebook/static/src/js/pos.js#L23-L33>`__:"
 msgstr ""
 "Вот пример <https://github.com/it-projects-llc/pos-"
-"addons/blob/fb8b072/pos_debt_notebook/static/src/js/pos.js#L23-L33>'__:"
+"addons/blob/fb8b072/pos_debt_notebook/static/src/js/pos.js#L23-L33> `__:"
 
 # 7ff24763bfec49538bb72235be654ff6
 #: ../../dev/pos/inheritance.rst:42
@@ -103,4 +103,4 @@ msgid ""
 "addons/blob/fb8b072/pos_debt_notebook/static/src/js/pos.js#L379-L385>`__:"
 msgstr ""
 "Вот пример <https://github.com/it-projects-llc/pos-"
-"addons/blob/fb8b072/pos_debt_notebook/static/src/js/pos.js#L379-L385>'__:"
+"addons/blob/fb8b072/pos_debt_notebook/static/src/js/pos.js#L379-L385> `__:"

@@ -59,4 +59,4 @@ msgstr ""
 # 3ddd86e35c9c49d1ad5ea023a226fcdb
 #: ../../ide/visual-studio-code/debugging.rst:38
 msgid "`sorce <https://code.visualstudio.com/Docs/editor/debugging>`_"
-msgstr "`Sorce <https://code.visualstudio.com/Docs/editor/debugging>'_"
+msgstr "`Sorce <https://code.visualstudio.com/Docs/editor/debugging> `_"
