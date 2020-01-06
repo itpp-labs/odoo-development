@@ -4,7 +4,7 @@ About longpolling
 **What is HTTP Long Polling?**
 
 
-Web applications were originally developed around a client/server model, where the Web client is always the initiator of transactions, requesting data from the server. Thus, there was no mechanism for the server to independently send, or push, data to the client without the client first making a request. 
+Web applications were originally developed around a client/server model, where the client is always the initiator of transactions, requesting data from the server. Thus, there was no mechanism for the server to independently send, or push, data to the client without the client first making a request. 
 
 **In a Nutshell: HTTP Long Polling**
 
