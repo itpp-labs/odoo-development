@@ -89,10 +89,10 @@ msgid ""
 "module.html?highlight=install#from-app-store-install>`_ way."
 msgstr ""
 "Установите `Pos Printer Network "
-"<https://www.odoo.com/apps/modules/10.0/pos_printer_network/> `_ модуль на "
+"<https://www.odoo.com/apps/modules/10.0/pos_printer_network/>`_ модуль на "
 "Odoo в` обычном <http://odoo-"
 "development.readthedocs.io/en/latest/odoo/usage/install-"
-"module.html?highlight=install#from-app-store-install> `_ способ."
+"module.html?highlight=install#from-app-store-install>`_ способ."
 
 # d28d4f3e3a9e4bbdbbcfc784cc567955
 #: ../../admin/posbox/posbox-emulation.rst:27
@@ -101,7 +101,7 @@ msgid ""
 "<https://apps.odoo.com/apps/modules/10.0/pos_printer_network/>`_."
 msgstr ""
 "Сконфигурируйте PosBox, используя `инструкции по установке "
-"<https://apps.odoo.com/apps/modules/10.0/pos_printer_network/> `_."
+"<https://apps.odoo.com/apps/modules/10.0/pos_printer_network/>`_."
 
 # 2fc589c460bf49f8a5cf4e59e7fe8768
 #: ../../admin/posbox/posbox-emulation.rst:28
@@ -131,10 +131,9 @@ msgid ""
 "<https://github.com/odoo/odoo/tree/8.0/addons/point_of_sale/tools/posbox>`_:"
 msgstr ""
 "Пример с `hw_printer_network "
-"<https://www.odoo.com/apps/modules/10.0/pos_printer_network/> `_ и` PosBox "
+"<https://www.odoo.com/apps/modules/10.0/pos_printer_network/>`_ и` PosBox "
 "8.0 "
-"<https://github.com/odoo/odoo/tree/8.0/addons/point_of_sale/tools/posbox> "
-"`_:"
+"<https://github.com/odoo/odoo/tree/8.0/addons/point_of_sale/tools/posbox>`_:"
 
 # fe7f506362b2441f938854639f45be15
 #: ../../admin/posbox/posbox-emulation.rst:54

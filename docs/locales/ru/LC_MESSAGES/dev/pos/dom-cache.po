@@ -50,8 +50,7 @@ msgid ""
 "<https://github.com/odoo/odoo/blob/12.0/addons/point_of_sale/static/src/js/screens.js#L761-L789>`__:"
 msgstr ""
 "Вот полный пример из модуля Point of Sale "
-"<https://github.com/odoo/odoo/blob/12.0/addons/point_of_sale/static/src/js/screens.js#L761-L789>"
-" `__:"
+"<https://github.com/odoo/odoo/blob/12.0/addons/point_of_sale/static/src/js/screens.js#L761-L789>`__:"
 
 # 5fe0cb85c8214b92b00121aca7f658ba
 #: ../../dev/pos/dom-cache.rst:23
@@ -82,8 +81,8 @@ msgid ""
 "``DomCache`` is used when the orders' list renders."
 msgstr ""
 "В этом в этом модуле <https://github.com/it-projects-llc/pos-"
-"addons/blob/12.0/pos_orders_history/static/src/js/screens.js#L159-L198> `__`"
-" `DomCache`` используется при отображении списка заказов."
+"addons/blob/12.0/pos_orders_history/static/src/js/screens.js#L159-L198>`__` "
+"`DomCache`` используется при отображении списка заказов."
 
 # 5aafb020cde84c369947006ea897c64a
 #: ../../dev/pos/dom-cache.rst:32
