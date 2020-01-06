@@ -40,4 +40,4 @@ ReadTheDocs doc: https://docs.readthedocs.io/en/stable/guides/manage-translation
 
 To update translation make PR with updates in ``docs/locales`` folder.
 
-To activate new language send PR with update of ``.github/workflow/translations.yml``
+To activate new language send PR with update of ``.github/workflow/translations.yml``. Then the new language must be [activated in ReadTheDocs admin panel](https://docs.readthedocs.io/en/stable/localization.html#project-with-multiple-translations).
