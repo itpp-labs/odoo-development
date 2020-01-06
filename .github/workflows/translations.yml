@@ -37,4 +37,4 @@ jobs:
           :alien: update translation files
           
           Sent from Github Actions (see .github/workflows/translations.yml )
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.MY_GITHUB_TOKEN }}
