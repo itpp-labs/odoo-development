@@ -66,7 +66,7 @@ msgstr ""
 # 811be78f0aba405dae9815b20351eff9
 #: ../../admin/posbox/install-posbox-image.rst:16
 msgid "Download `Etcher <https://etcher.io/>`_ and install it."
-msgstr "Скачать `Etcher <https://etcher.io/>'_ и установите его."
+msgstr "Скачать `Etcher <https://etcher.io/>`_ и установите его."
 
 # 0b4c3aa0a2fd4a85aa52c477cda03b3a
 #: ../../admin/posbox/install-posbox-image.rst:17
@@ -108,7 +108,7 @@ msgid ""
 "might work as well."
 msgstr ""
 "Официально поддерживаемое оборудование указано на странице «POS Hardware». "
-"<https://www.odoo.com/page/point-of-sale-hardware>'_, но другое оборудование"
+"<https://www.odoo.com/page/point-of-sale-hardware>`_, но другое оборудование"
 " также может работать."
 
 # a75356394236417aad571b8b5ab669b9

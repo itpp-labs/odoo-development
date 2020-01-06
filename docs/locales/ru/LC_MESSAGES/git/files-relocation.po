@@ -35,7 +35,7 @@ msgid ""
 "<https://github.com/OCA/maintainer-tools/wiki/Migration-to-version-10.0>`_"
 msgstr ""
 "Этот раздел основан на инструкции OCA. <https://github.com/OCA/maintainer-"
-"tools/wiki/Migration-to-version-10.0>'_"
+"tools/wiki/Migration-to-version-10.0>`_"
 
 # fc8540799ba44e80aa51934f7b3a2028
 #: ../../git/files-relocation.rst:13

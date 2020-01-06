@@ -71,9 +71,9 @@ msgid ""
 msgstr ""
 "`` init_from_JSON``: функция считывает параметры порядка из * json-String * "
 "и сохраняет в текущий объект (см. реализацию Orderline `здесь "
-"<https://github.com/odoo/odoo/blob/8d7ee3921384ce070d3333cbc4073ffc4f8febc4/addons/point_of_sale/static/src/js/models.js#L1365-L1383>'__"
+"<https://github.com/odoo/odoo/blob/8d7ee3921384ce070d3333cbc4073ffc4f8febc4/addons/point_of_sale/static/src/js/models.js#L1365-L1383>`__"
 " и для Модели` "
-"<https://github.com/odoo/odoo/blob/8d7ee3921384ce070d3333cbc4073ffc4f8febc4/addons/point_of_sale/static/src/js/models.js#L2024-L2082>'__)"
+"<https://github.com/odoo/odoo/blob/8d7ee3921384ce070d3333cbc4073ffc4f8febc4/addons/point_of_sale/static/src/js/models.js#L2024-L2082>`__)"
 
 # 51a4f517076c4372b1445aa686c37f63
 #: ../../dev/pos/custom-order-data.rst:15
@@ -86,9 +86,9 @@ msgid ""
 msgstr ""
 "`` export_as_JSON``: функция преобразует текущий объект в * json-String * "
 "(см. реализацию строки заказа `здесь "
-"<https://github.com/odoo/odoo/blob/8d7ee3921384ce070d3333cbc4073ffc4f8febc4/addons/point_of_sale/static/src/js/models.js#L2083-L2110>'__"
+"<https://github.com/odoo/odoo/blob/8d7ee3921384ce070d3333cbc4073ffc4f8febc4/addons/point_of_sale/static/src/js/models.js#L2083-L2110>`__"
 " и для Модели` "
-"<https://github.com/odoo/odoo/blob/8d7ee3921384ce070d3333cbc4073ffc4f8febc4/addons/point_of_sale/static/src/js/models.js#L1558-L1576>'__)"
+"<https://github.com/odoo/odoo/blob/8d7ee3921384ce070d3333cbc4073ffc4f8febc4/addons/point_of_sale/static/src/js/models.js#L1558-L1576>`__)"
 
 # 97cae119dd6c45fbb8a5b4ae0fcfbcb8
 #: ../../dev/pos/custom-order-data.rst:17
@@ -129,7 +129,7 @@ msgid ""
 "notes, which can be automatically applied further."
 msgstr ""
 "Этот `модуль <https://github.com/it-projects-llc/pos-"
-"addons/blob/12.0/pos_order_note/static/src/js/order_note.js#L88-L102>'__ "
+"addons/blob/12.0/pos_order_note/static/src/js/order_note.js#L88-L102>`__ "
 "позволяет добавлять заметки ко всему заказу, использовать уже заданные "
 "заметки и ускорить процесс создания заказов, указав товары также с помощью "
 "заметок, которые могут автоматически применяться в дальнейшем."

@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 "`Редактировать <https://odoo-"
 "development.readthedocs.io/en/latest/admin/posbox/administrate-"
-"posbox.html#how-to-edit-config>'_ уровень журнала:"
+"posbox.html#how-to-edit-config>`_ уровень журнала:"
 
 # afba9885bc6a48ae940bcfa78b3485dc
 #: ../../admin/posbox/posbox-logs.rst:16

@@ -117,7 +117,7 @@ msgid ""
 "``pip install ...``, and not the name in python code like ``import ...``"
 msgstr ""
 "Атрибут этого манифеста `должен использовать имя Pypi "
-"<https://github.com/odoo/odoo/commit/795c7b0a9415d04a777e1a5d48921adbd72f38cf>'__"
+"<https://github.com/odoo/odoo/commit/795c7b0a9415d04a777e1a5d48921adbd72f38cf>`__"
 " вместо пакета python. Какое имя вы используете при установке через `` pip "
 "install ... ``, а не имя в коде Python, как `` import ... ``"
 

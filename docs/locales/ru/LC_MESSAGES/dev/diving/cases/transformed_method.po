@@ -40,13 +40,13 @@ msgid ""
 "addons/blob/9.0/mail_move_message/static/src/js/mail_move_message.js#L64>`_."
 msgstr ""
 "При портировании модуля `mail_move_message "
-"<https://github.com/yelizariev/mail-addons/tree/9.0/mail_move_message>'_ в "
+"<https://github.com/yelizariev/mail-addons/tree/9.0/mail_move_message>`_ в "
 "файле` static / src / js / mail_move_message.js "
 "<https://github.com/yelizariev/mail-"
-"addons/blob/9.0/mail_move_message/static/src/js/mail_move_message.js>'_ есть"
+"addons/blob/9.0/mail_move_message/static/src/js/mail_move_message.js>`_ есть"
 " метод` session.web.form.FormOpenPopup (this) "
 "<https://github.com/yelizariev/mail-"
-"addons/blob/9.0/mail_move_message/static/src/js/mail_move_message.js#L64>'_."
+"addons/blob/9.0/mail_move_message/static/src/js/mail_move_message.js#L64>`_."
 
 # 51e7e82566c544f9bb0d5bcf5dc24b1c
 #: ../../dev/diving/cases/transformed_method.rst:11
