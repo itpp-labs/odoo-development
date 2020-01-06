@@ -31,7 +31,7 @@ msgid ""
 " synchronizing data in POSes within one multi_session."
 msgstr ""
 "`` pos_multi_session`` является `модулем "
-"<https://www.odoo.com/apps/modules/10.0/pos_multi_session/> `__, который "
+"<https://www.odoo.com/apps/modules/10.0/pos_multi_session/>'__, который "
 "позволяет синхронизировать данные в POS в пределах одной multi_session."
 
 # ba1ade40407440ae95dd02f909295230

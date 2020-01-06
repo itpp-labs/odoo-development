@@ -31,7 +31,7 @@ msgid ""
 " Instead, the query is run every time the view is referenced in a query."
 msgstr ""
 "`Postgres View <https://www.postgresql.org/docs/current/static/sql-"
-"createview.html> `_ это своего рода таблица, которая физически не "
+"createview.html>'_ это своего рода таблица, которая физически не "
 "материализуется. Вместо этого запрос выполняется каждый раз, когда на "
 "представление ссылаются в запросе."
 

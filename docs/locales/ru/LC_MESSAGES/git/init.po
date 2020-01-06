@@ -107,7 +107,7 @@ msgid ""
 "email-in-git/>`_. Email must be the same as in github settings::"
 msgstr ""
 "`Настройка электронной почты в git "
-"<https://help.github.com/articles/setting-your-email-in-git/> `_. Email "
+"<https://help.github.com/articles/setting-your-email-in-git/>'_. Email "
 "должен быть таким же, как в настройках github:"
 
 # b82a1a013aa340fa9801f3ab8129c064
@@ -127,7 +127,7 @@ msgid ""
 "files/#create-a-global-gitignore>`_"
 msgstr ""
 "`Настройка глобального gitignore <https://help.github.com/articles/ignoring-"
-"files/#create-a-global-gitignore> `_"
+"files/#create-a-global-gitignore>'_"
 
 # b319748ef4ea4d7abc5291fa376332f4
 #: ../../git/init.rst:75

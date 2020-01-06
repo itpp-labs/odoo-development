@@ -44,9 +44,9 @@ msgid ""
 msgstr ""
 "** Давайте возьмем пример создания всплывающего окна ** `` Сканирования QR-"
 "кода в POS``` <https://github.com/it-projects-llc/pos-"
-"addons/blob/6eaac4e168d7cf854d302b298b068e2b38db822c/pos_qr_scan/static/src/js/qr_scan.js>"
-" `__, где нам нужно было создать всплывающее окно, чтобы показать видео с "
-"камеры для сканирования QR-кодов."
+"addons/blob/6eaac4e168d7cf854d302b298b068e2b38db822c/pos_qr_scan/static/src/js/qr_scan.js>'__,"
+" где нам нужно было создать всплывающее окно, чтобы показать видео с камеры "
+"для сканирования QR-кодов."
 
 # 52f534a082a1417c8121816026c1c32f
 #: ../../dev/pos/custom-popup.rst:9
@@ -57,8 +57,7 @@ msgid ""
 msgstr ""
 "Сначала приложите необходимые требования: <https://github.com/it-projects-"
 "llc/pos-"
-"addons/blob/6eaac4e168d7cf854d302b298b068e2b38db822c/pos_qr_scan/static/src/js/qr_scan.js#L10::>"
-" `__"
+"addons/blob/6eaac4e168d7cf854d302b298b068e2b38db822c/pos_qr_scan/static/src/js/qr_scan.js#L10::>'__"
 
 # d7d23f499e964bf48df91820e5ec52bb
 #: ../../dev/pos/custom-popup.rst:16
@@ -69,8 +68,7 @@ msgid ""
 msgstr ""
 "Затем создайте новый экземпляр, новое всплывающее расширение `` по "
 "умолчанию: <https://github.com/it-projects-llc/pos-"
-"addons/blob/6eaac4e168d7cf854d302b298b068e2b38db822c/pos_qr_scan/static/src/js/qr_scan.js#L29-L30::>"
-" `__"
+"addons/blob/6eaac4e168d7cf854d302b298b068e2b38db822c/pos_qr_scan/static/src/js/qr_scan.js#L29-L30::>'__"
 
 # e53bfe9eda4d49eb90c7623c42a7e1e1
 #: ../../dev/pos/custom-popup.rst:25
@@ -83,8 +81,7 @@ msgstr ""
 "Чтобы сделать всплывающее окно доступным обычными методами после объявления "
 "`` QrScanPopupWidget``, сделайте следующее: <https://github.com/it-projects-"
 "llc/pos-"
-"addons/blob/6eaac4e168d7cf854d302b298b068e2b38db822c/pos_qr_scan/static/src/js/qr_scan.js#L194::>"
-" `__"
+"addons/blob/6eaac4e168d7cf854d302b298b068e2b38db822c/pos_qr_scan/static/src/js/qr_scan.js#L194::>'__"
 
 # e3fb902293eb473494575f6d878c081e
 #: ../../dev/pos/custom-popup.rst:33
@@ -95,5 +92,4 @@ msgid ""
 msgstr ""
 "поэтому его можно вызвать с помощью следующего кода: <https://github.com/it-"
 "projects-llc/pos-"
-"addons/blob/6eaac4e168d7cf854d302b298b068e2b38db822c/pos_qr_scan/static/src/js/qr_scan.js#L17-L20::>"
-" `__"
+"addons/blob/6eaac4e168d7cf854d302b298b068e2b38db822c/pos_qr_scan/static/src/js/qr_scan.js#L17-L20::>'__"
