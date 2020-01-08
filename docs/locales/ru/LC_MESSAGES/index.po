@@ -21,17 +21,17 @@ msgstr ""
 #: /home/runner/work/odoo-development/odoo-development/docs/index.rst:2
 #: f43f9b001574414198b5741db4eb61ff
 msgid "Odoo development"
-msgstr ""
+msgstr "Настольная книга разработчика Щвщщ (Odoo)"
 
 #: /home/runner/work/odoo-development/odoo-development/docs/index.rst:4
 #: 33c01f6f87944372994bcb40ee44eb77
 msgid "Join our telegram group: https://t.me/odoo_talks"
-msgstr ""
+msgstr "Сообщество разработчиков: https://t.me/odoo_talks"
 
 #: /home/runner/work/odoo-development/odoo-development/docs/index.rst:23
 #: 5ce4475956074a94ab415469faf76cd3
 msgid "Need our service?"
-msgstr ""
+msgstr "Нужна помощь?"
 
 #: /home/runner/work/odoo-development/odoo-development/docs/index.rst:26
 #: d96f88658b914940ac4265f76fa9f0ef
@@ -40,6 +40,9 @@ msgid ""
 "or fill out `request form <https://www.it-"
 "projects.info/page/website.contactus>`__:"
 msgstr ""
+"Свяжитесь с нами по `электропочте <mailto:it@it-projects.info>`__ "
+"или заполните `форму <https://www.it-"
+"projects.info/page/website.contactus>`__:"
 
 #: /home/runner/work/odoo-development/odoo-development/docs/index.rst:28
 #: e8b0c64daff547c1b025d369d97d8ee9
