@@ -21,7 +21,7 @@ msgstr ""
 # b263b8ec948f43238d1f024d07fc729a
 #: ../../admin/addons_path.rst:3
 msgid "``--addons-path``"
-msgstr "`` --Addons-path``"
+msgstr "``--addons-path``"
 
 # bbdc4e60b2af4f68be562e94c70519c8
 #: ../../admin/addons_path.rst:6
