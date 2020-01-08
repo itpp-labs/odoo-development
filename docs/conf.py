@@ -46,7 +46,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Odoo Development'
-copyright = u'2016-2019, IT-Projects LLC'
+copyright = u'2016-2020, IT-Projects LLC'
 author = u'IT-Projects LLC'
 
 # The version info for the project you're documenting, acts as replacement for
