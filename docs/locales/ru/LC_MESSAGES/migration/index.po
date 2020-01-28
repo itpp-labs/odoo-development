@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Development master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"POT-Creation-Date: 2020-01-28 11:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,48 +19,65 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 
 # 382ccd6896034399b9bfee89534c34cd
-#: ../../migration/index.rst:3
+#: /home/runner/work/odoo-development/odoo-development/docs/migration/index.rst:3
+#: f0e4f9131d7b42968c71329ef7cc43c8
 msgid "Porting Modules"
 msgstr "Модули портирования"
 
-# 4a03c6af5a6440c69bf3698fe3a08d4a
-#: ../../migration/index.rst:15
-msgid ""
-"Porting Modules is a process of adapting module to new version. E.g. we have"
-" module for odoo 10.0 and we want to make module work in odoo 11.0"
+#: /home/runner/work/odoo-development/odoo-development/docs/migration/index.rst:5
+#: a53c33d4268f430e832df3669e561466
+msgid "this section is moved to https://itpp.dev/port/"
 msgstr ""
-"Портирование модулей - это процесс адаптации модуля к новой версии. "
-"Например, у нас есть модуль для odoo 10.0, и мы хотим, чтобы модуль работал "
-"в odoo 11.0"
+
+# 4a03c6af5a6440c69bf3698fe3a08d4a
+#~ msgid ""
+#~ "Porting Modules is a process of "
+#~ "adapting module to new version. E.g. "
+#~ "we have module for odoo 10.0 and"
+#~ " we want to make module work in"
+#~ " odoo 11.0"
+#~ msgstr ""
+#~ "Портирование модулей - это процесс "
+#~ "адаптации модуля к новой версии. "
+#~ "Например, у нас есть модуль для "
+#~ "odoo 10.0, и мы хотим, чтобы "
+#~ "модуль работал в odoo 11.0"
 
 # 2303b2bc59cc4743abe4efbc6a2ee2ef
-#: ../../migration/index.rst:17
-msgid ""
-"As word *porting* is sometimes replaced to *migration*. You shall not "
-"confuse it with :doc:`Data Migration<../maintenance/data-migration>`, which "
-"sometimes is called just *migration*."
-msgstr ""
-"Как слово * портирование * иногда заменяется на * миграция *. Вы не должны "
-"путать это с :doc:`Data Migration<../maintenance/data-migration>`, которая "
-"иногда называется просто * миграция *."
+#~ msgid ""
+#~ "As word *porting* is sometimes replaced"
+#~ " to *migration*. You shall not "
+#~ "confuse it with :doc:`Data "
+#~ "Migration<../maintenance/data-migration>`, which "
+#~ "sometimes is called just *migration*."
+#~ msgstr ""
+#~ "Как слово * портирование * иногда "
+#~ "заменяется на * миграция *. Вы не"
+#~ " должны путать это с :doc:`Data "
+#~ "Migration<../maintenance/data-migration>`, которая "
+#~ "иногда называется просто * миграция *."
 
 # 10dd9099cf954b2087d34a5246b242bf
-#: ../../migration/index.rst:20
-msgid ""
-"We are happy to share our experience and hope that it will help someone to "
-"port odoo modules. We will be glad, if you share this page or recommend our "
-"team for module migration jobs:"
-msgstr ""
-"Мы рады поделиться нашим опытом и надеемся, что это поможет кому-то "
-"портировать модули odoo. Мы будем рады, если вы поделитесь этой страницей "
-"или порекомендуете нашу команду для работы по миграции модулей:"
+#~ msgid ""
+#~ "We are happy to share our "
+#~ "experience and hope that it will "
+#~ "help someone to port odoo modules. "
+#~ "We will be glad, if you share "
+#~ "this page or recommend our team "
+#~ "for module migration jobs:"
+#~ msgstr ""
+#~ "Мы рады поделиться нашим опытом и "
+#~ "надеемся, что это поможет кому-то "
+#~ "портировать модули odoo. Мы будем рады,"
+#~ " если вы поделитесь этой страницей "
+#~ "или порекомендуете нашу команду для "
+#~ "работы по миграции модулей:"
 
 # ac943aa740ff49ab8ce28a1c9c0186a8
-#: ../../migration/index.rst:22
-msgid "it@it-projects.info"
-msgstr "it@it-projects.info"
+#~ msgid "it@it-projects.info"
+#~ msgstr "it@it-projects.info"
 
 # 641605adcf08471d9c818ea122b7d19c
-#: ../../migration/index.rst:23
-msgid "https://www.it-projects.info/page/module-migration"
-msgstr "https://www.it-projects.info/page/module-migration"
+#~ msgid "https://www.it-projects.info/page/module-migration"
+#~ msgstr "https://www.it-projects.info/page/module-migration"
+
