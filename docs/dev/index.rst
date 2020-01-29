@@ -17,6 +17,7 @@ Module Development
    access/index
    hooks/index
    diving/index
+   translation/index
    lint/index
    other/index
 

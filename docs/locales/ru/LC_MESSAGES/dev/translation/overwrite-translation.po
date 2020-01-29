@@ -1,0 +1,33 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2020, IT-Projects LLC
+# This file is distributed under the same license as the Odoo Development
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Development master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-29 08:45+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /home/runner/work/odoo-development/odoo-development/docs/dev/translation/overwrite-translation.rst:3
+#: 936b555c1ece421681ac8f80e2cb58fa
+msgid "How to overwrite built-in translation"
+msgstr ""
+
+#: /home/runner/work/odoo-development/odoo-development/docs/dev/translation/overwrite-translation.rst:5
+#: d6f6800896c54a2aa6694fd02dd2d88c
+msgid ""
+"You may need to change built-in translation via a module. You could be "
+"done via data xml files by calling ``_set_ids`` method. For example, for "
+"menus it could look as following:"
+msgstr ""
+
