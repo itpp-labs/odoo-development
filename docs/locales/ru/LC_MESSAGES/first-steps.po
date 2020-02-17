@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Development master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-06 13:43+0000\n"
+"POT-Creation-Date: 2020-02-17 10:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,39 +18,39 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: /home/runner/work/odoo-development/odoo-development/docs/first-steps.rst:2
-#: f5ff5db0e93246a5a877599a1f6702d5
+#: ../../first-steps.rst:2 25ff2639ed8f4ab0ac6e7dcecc962cf2
 msgid "First steps"
 msgstr ""
 
-#: /home/runner/work/odoo-development/odoo-development/docs/first-steps.rst:4
-#: 984daf7785a941ebb20ce6d19c3e42f2
+#: ../../first-steps.rst:4 4d12d144e2be40cb83c3ba6d145c937a
 msgid "`Install odoo <https://xoe-labs.github.io/dockery-odoo/>`__"
 msgstr ""
 
-#: /home/runner/work/odoo-development/odoo-development/docs/first-steps.rst:5
-#: 46fb36e13b2a4efdb23109a941291243
+#: ../../first-steps.rst:5 263a3fd4eee24079be6a9825544170eb
 msgid ""
-"take the course `Bulding a module "
+"take the course `Building a module "
 "<https://www.odoo.com/documentation/10.0/howtos/backend.html>`_"
 msgstr ""
 
-#: /home/runner/work/odoo-development/odoo-development/docs/first-steps.rst:6
-#: 9777ddaba8f84ae79d87cf3d53a38c85
+#: ../../first-steps.rst:6 6abfd0d8a6d547258ec63daeb81e7216
 msgid ""
 "read the article `Source diving "
 "<https://yelizariev.github.io/odoo/development/2015/04/17/source-"
 "diving.html>`_"
 msgstr ""
 
-#: /home/runner/work/odoo-development/odoo-development/docs/first-steps.rst:7
-#: 034cc86477654982ae931b242fa29df8
+#: ../../first-steps.rst:7 1e681e69b3b54ab583a0debd57dbdf15
 msgid "Get tasks from your Guru!"
 msgstr ""
 
-#: /home/runner/work/odoo-development/odoo-development/docs/first-steps.rst:8
-#: a0835c58441b4198ac66540182c9fffa
+#: ../../first-steps.rst:8 635f14780ece4388a68b6519025f9625
 msgid ""
 "Fork repo, clone repo to you machine, make commits, push updates, create "
 "Pull Request"
 msgstr ""
+
+#~ msgid ""
+#~ "take the course `Bulding a module "
+#~ "<https://www.odoo.com/documentation/10.0/howtos/backend.html>`_"
+#~ msgstr ""
+
