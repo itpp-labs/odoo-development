@@ -17,7 +17,7 @@ Other things to consider:
 * You can go for 2 x num_cpus + 1 workers to make sure you will be using all the cores available. Having less workers than that is a waste of resources. But you can have more workers if you want, as long as you have enough RAM.
 * CPU speed matters, so try to get the best CPU clock speed you can. Better split the workers on several servers with less CPU cores but higher clocks speeds.
 
-On a single core CPU, you need a least 2 workers otherwise wkhtmltopdf will not work.
+On a single core CPU, you need `at least 2 workers otherwise wkhtmltopdf will not work <https://github.com/odoo/odoo/blob/241efab999efb97c157ae6d10d74bac22008bb70/addons/web/static/src/js/chrome/action_manager_report.js#L29>`__.
 
 Longpolling
 ===========
