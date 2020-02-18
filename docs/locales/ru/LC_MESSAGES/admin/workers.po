@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Development master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-18 10:12+0000\n"
+"POT-Creation-Date: 2020-02-18 11:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,12 +19,12 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 
 # d1a0b842f217467d892a44298d5f9f2e
-#: ../../admin/workers.rst:3 ac8aa667755a46628d4f7032cb62ba50
+#: ../../admin/workers.rst:3 6209671ae3614a1689596171f0590513
 msgid "``--workers``"
 msgstr "`` --Workers``"
 
 # 1af2fd1b485649eba37b51eab5798e4b
-#: ../../admin/workers.rst:5 07dc1b632e0647bd83e4516a8a834fb4
+#: ../../admin/workers.rst:5 37f10f8c65624284834a93cb1c31b88d
 msgid ""
 "*Based on this comment from Odony:* "
 "https://github.com/odoo/odoo/issues/39825#issuecomment-555256475"
@@ -33,7 +33,7 @@ msgstr ""
 "https://github.com/odoo/odoo/issues/39825#issuecomment-555256475"
 
 # 18880895f256491a81f389dd15441dae
-#: ../../admin/workers.rst:7 b0aa2b3c8c334a3182021e1b81e73e42
+#: ../../admin/workers.rst:7 bca8812f34b3429fa443c52b000448b8
 #, python-format
 msgid ""
 "So the documentation states that a single worker can handle 6 users. What"
@@ -68,7 +68,7 @@ msgstr ""
 " активны одновременно."
 
 # 593b94535eb248308ddd4a1a29151432
-#: ../../admin/workers.rst:11 533f810b0e6247a0b428ae8a0e85187e
+#: ../../admin/workers.rst:11 13b28da894dd44699750f20b217982fb
 msgid ""
 "If you don't know how many workers you will need, start with 10, but try "
 "to have the flexibility (in RAM and CPU) to deploy more easily as needed."
@@ -81,12 +81,12 @@ msgstr ""
 "делаете с точки зрения ресурсов и скорости транзакций."
 
 # 42df01b447f04c389d152f0c55614dd7
-#: ../../admin/workers.rst:13 edc14a71e8c14acb9e0724a6e63121b2
+#: ../../admin/workers.rst:13 72d98a0209334a36bb956814d8c8776c
 msgid "Other things to consider:"
 msgstr "Другие вещи для рассмотрения:"
 
 # 2fe0ef2ad5854fab8dcae8aa8ac35d43
-#: ../../admin/workers.rst:15 f38d8fd0d58348c39a2023c6cb59d72d
+#: ../../admin/workers.rst:15 25f706e588af4764bca3b72d388995a0
 msgid ""
 "Always configure more than 6 workers, as browsers will need to open many "
 "parallel connections and you don't want them to be queued, as users will "
@@ -98,7 +98,7 @@ msgstr ""
 "или 8 - минимум, даже если у вас недостаточно процессоров."
 
 # 3602b8d56c1f46b084d3828e19392cb0
-#: ../../admin/workers.rst:16 8e7488b78ebd4932907b6071a4284945
+#: ../../admin/workers.rst:16 3cb372d09d9946d7b41d941bf6b7527a
 msgid ""
 "The real limit to the number of workers is the RAM, not the CPUs. If "
 "workers x limit_memory_hard is much more than the available RAM, you "
@@ -113,7 +113,7 @@ msgstr ""
 " для Odoo, остальное будет полезно для кэша ОС и буферов."
 
 # f571d769196f4ab296863d54ea722c8f
-#: ../../admin/workers.rst:17 603506772088493d9d9300fe5c63dffe
+#: ../../admin/workers.rst:17 68f8076a7c724d69a1363eb748020729
 msgid ""
 "You can go for 2 x num_cpus + 1 workers to make sure you will be using "
 "all the cores available. Having less workers than that is a waste of "
@@ -126,7 +126,7 @@ msgstr ""
 "у вас достаточно оперативной памяти."
 
 # 26a0d993594045efa2dc5cd2f11268c9
-#: ../../admin/workers.rst:18 0bf7c8706c5b4ae998a935aa47b78964
+#: ../../admin/workers.rst:18 662d0bba017b42a3aeabd05c260f0b09
 msgid ""
 "CPU speed matters, so try to get the best CPU clock speed you can. Better"
 " split the workers on several servers with less CPU cores but higher "
@@ -137,23 +137,23 @@ msgstr ""
 "разделить рабочих на несколько серверов с меньшим количеством "
 "процессорных ядер, но с более высокой тактовой частотой."
 
-#: ../../admin/workers.rst:21 dcd3cc34db774d65aad33a5d88774ad7
+#: ../../admin/workers.rst:21 6d7e0916a6354ab497d322876fd84aa9
 msgid "wkhtmltopdf"
 msgstr ""
 
-#: ../../admin/workers.rst:23 d678884d76f14d8186dcb07fd87010e0
+#: ../../admin/workers.rst:23 ceb3d62ee28b46e9be7b3b303dad0116
 msgid ""
-"You need `at least 2 workers otherwise wkhtmltopdf will not work "
+"`Workers value must be at least 2 to make wkhtmltopdf work "
 "<https://github.com/odoo/odoo/blob/241efab999efb97c157ae6d10d74bac22008bb70/addons/web/static/src/js/chrome/action_manager_report.js#L29>`__."
 msgstr ""
 
 # 2ca0fb46af344c5099b3caf3ff7f3a62
-#: ../../admin/workers.rst:26 83a50f311aa24937ae68d4c6cfed8803
+#: ../../admin/workers.rst:26 bf7cb04689e54f818e05cac54ba6c907
 msgid "Longpolling"
 msgstr "Longpolling"
 
 # 5acef4955d7f495b81f65e10e9572718
-#: ../../admin/workers.rst:28 3c5e8ceb517745738344893e4b0dfbb5
+#: ../../admin/workers.rst:28 f89a516b61004c37b706aa59b91fb05c
 msgid ""
 "Hidden feature of Multiprocessing is automatic run gevent process for "
 "longpolling support."
@@ -162,7 +162,7 @@ msgstr ""
 "процесса gevent для поддержки longpolling."
 
 # 925eeea38cbe40e9b09665350a221180
-#: ../../admin/workers.rst:30 8a9d6eac55d1475d96ada6d9eb81612d
+#: ../../admin/workers.rst:30 ac49829e12544ea0a451142402614051
 msgid ""
 "Longpolling is an extra proccess, i.e. if you have ``--workers=2`` then "
 "you will get 2 worker processes and 1 gevent process"
@@ -174,6 +174,12 @@ msgstr ""
 #~ "On a single core CPU, you need "
 #~ "`at least 2 workers otherwise "
 #~ "wkhtmltopdf will not work "
+#~ "<https://github.com/odoo/odoo/blob/241efab999efb97c157ae6d10d74bac22008bb70/addons/web/static/src/js/chrome/action_manager_report.js#L29>`__."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You need `at least 2 workers "
+#~ "otherwise wkhtmltopdf will not work "
 #~ "<https://github.com/odoo/odoo/blob/241efab999efb97c157ae6d10d74bac22008bb70/addons/web/static/src/js/chrome/action_manager_report.js#L29>`__."
 #~ msgstr ""
 
