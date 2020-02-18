@@ -20,7 +20,7 @@ Other things to consider:
 wkhtmltopdf
 ===========
 
-You need `at least 2 workers otherwise wkhtmltopdf will not work <https://github.com/odoo/odoo/blob/241efab999efb97c157ae6d10d74bac22008bb70/addons/web/static/src/js/chrome/action_manager_report.js#L29>`__.
+`Workers value must be at least 2 to make wkhtmltopdf work <https://github.com/odoo/odoo/blob/241efab999efb97c157ae6d10d74bac22008bb70/addons/web/static/src/js/chrome/action_manager_report.js#L29>`__.
 
 Longpolling
 ===========
