@@ -7,6 +7,7 @@ The option ``--load`` (also known as ``server_wide_modules``) is used to define 
 Default value
 =============
 
+* `Odoo 13 <https://github.com/odoo/odoo/blob/f080964694c01a79c52e05c0ceb42c18d4c77df5/odoo/tools/config.py#L126>`__: ``base,web``
 * `Odoo 12 <https://github.com/odoo/odoo/blob/95b4f2ab4b5698ab3a28c9c35ac8da6fb6def983/odoo/tools/config.py#L120>`__: ``base,web``
 * `Odoo 11 <https://github.com/odoo/odoo/blob/717f4583949219c346c87c390fbc336b4f31571c/odoo/tools/config.py#L119>`__: ``web``
 * `Odoo 10 <https://github.com/odoo/odoo/blob/80d363cd31ec56b72e38e02571285349b60e428e/odoo/tools/config.py#L114>`__: ``web,web_kanban``
