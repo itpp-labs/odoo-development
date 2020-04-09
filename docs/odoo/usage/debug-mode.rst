@@ -9,8 +9,17 @@ Add ``debug`` parameter to your url, for example::
 or use UI as described below
 
 
-10.0+
+13.0+
 =====
+
+* go to ``Settings``
+* go to ``General Settings``
+* scroll to **Developer Tools** section 
+
+.. image:: ../../images/debug-13.0.png
+
+10.0, 11.0, 12.0
+================
 
 * go to ``Settings``
 
