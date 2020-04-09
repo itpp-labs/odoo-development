@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Development master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"POT-Creation-Date: 2020-04-09 06:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,38 +19,55 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 
 # 227b2bbca74444cd87ab92f64b8826c2
-#: ../../odoo/usage/debug-mode.rst:3
+#: ../../odoo/usage/debug-mode.rst:3 9554149e388c464a998c844748ff4d88
 msgid "How to activate developer mode"
 msgstr "Как активировать режим разработчика"
 
 # 50f084a3ef3147b88202890883d888af
-#: ../../odoo/usage/debug-mode.rst:5
+#: ../../odoo/usage/debug-mode.rst:5 9a00ee8353ed412b937fae59694d5b3c
 msgid "Add ``debug`` parameter to your url, for example::"
 msgstr "Добавьте параметр `` debug`` в ваш URL, например:"
 
 # f601de4393d54eb3a02ea9547f34cfb2
-#: ../../odoo/usage/debug-mode.rst:9
+#: ../../odoo/usage/debug-mode.rst:9 0b5ad9351f924980a0756350340fbde6
 msgid "or use UI as described below"
 msgstr "или используйте пользовательский интерфейс, как описано ниже"
 
 # 6e85b1bf51cf4450b91aeeb5a989b4c5
-#: ../../odoo/usage/debug-mode.rst:13
-msgid "10.0+"
+#: ../../odoo/usage/debug-mode.rst:13 3a5c903214374e9698b941994277bd78
+#, fuzzy
+msgid "13.0+"
 msgstr "10.0+"
 
 # 0096bc12787a4f4b81ec94c9901feb01
-#: ../../odoo/usage/debug-mode.rst:15
+#: ../../odoo/usage/debug-mode.rst:15 ../../odoo/usage/debug-mode.rst:24
+#: 08660478f5a54dd99ebbf0c13dbd1e87 0ec398704d214eb7803cb31623dd1395
 msgid "go to ``Settings``"
 msgstr "перейти к `` Настройки``"
 
+# 0096bc12787a4f4b81ec94c9901feb01
+#: ../../odoo/usage/debug-mode.rst:16 0ff6fccdf1bb4789adb9f2fe95969ca5
+#, fuzzy
+msgid "go to ``General Settings``"
+msgstr "перейти к `` Настройки``"
+
+#: ../../odoo/usage/debug-mode.rst:17 338b99c8c6c6467c89661b4f906464ce
+msgid "scroll to **Developer Tools** section"
+msgstr ""
+
+#: ../../odoo/usage/debug-mode.rst:22 e8909be2cca047b38b6ae6e99f50f4fc
+msgid "10.0, 11.0, 12.0"
+msgstr ""
+
 # 462614080e2942cc9aeb7f3afdf864d7
 # 05c97338e10c4fb6b4c48000651936f1
-#: ../../odoo/usage/debug-mode.rst:17 ../../odoo/usage/debug-mode.rst:37
+#: ../../odoo/usage/debug-mode.rst:26 ../../odoo/usage/debug-mode.rst:46
+#: a9b6a3c184b54350be1a4d347797de28 ab7f72ca50fd4308b004804815959dd9
 msgid "click ``Activate the developer mode``"
 msgstr "нажмите `` Активировать режим разработчика``"
 
 # ab27a655c07244f3bc932879e1073ff3
-#: ../../odoo/usage/debug-mode.rst:22
+#: ../../odoo/usage/debug-mode.rst:31 30fd5c29300f4f46b0dc3643c71610b7
 msgid ""
 "10.0+ with the `web_debranding "
 "<https://www.odoo.com/apps/modules/10.0/web_debranding/>`_"
@@ -59,30 +76,31 @@ msgstr ""
 "<https://www.odoo.com/apps/modules/10.0/web_debranding/>`_"
 
 # 40079dfaa6f1465a90268a5bbcf59b8c
-#: ../../odoo/usage/debug-mode.rst:24
+#: ../../odoo/usage/debug-mode.rst:33 042c47b227c9489e82abb73d94e6eeec
 msgid "go to the User menu on the upper right corner"
 msgstr "перейдите в меню пользователя в правом верхнем углу"
 
 # 5fff5b9071dd474dbe99d8c9d35af4dd
-#: ../../odoo/usage/debug-mode.rst:26
+#: ../../odoo/usage/debug-mode.rst:35 322f4155eecd4d3e9555875778c3241c
 msgid "click ``Developer mode``"
 msgstr "нажмите `` Режим разработчика``"
 
 # 0313f5858efc4b79816a0f69e9326488
-#: ../../odoo/usage/debug-mode.rst:31
+#: ../../odoo/usage/debug-mode.rst:40 3bdbfb7169db48a292b4167434b8697f
 msgid "9.0, 8.0"
 msgstr "9,0, 8,0"
 
 # 4fa450ebbbdc498fb265c068ecd9489a
-#: ../../odoo/usage/debug-mode.rst:33
+#: ../../odoo/usage/debug-mode.rst:42 225073d0f07b40aa97344f86346e5fed
 msgid "click button at top right-hand corner ``<User Name> -> About Odoo``"
 msgstr "нажмите кнопку в правом верхнем углу `` <User Name> -&gt; О Одо``"
 
 # 15c0b59b41c845d6a7fcb829c5b17f98
-#: ../../odoo/usage/debug-mode.rst:41
+#: ../../odoo/usage/debug-mode.rst:50 acb2f8699eb14d10895d4c6f9b899c9a
 msgid ""
 "In odoo 8.0 you may need to :doc:`Enable technical features<technical-"
 "features>` too"
 msgstr ""
-"В odoo 8.0 вам может понадобиться :doc:`Enable technical features<technical-"
-"features>`тоже"
+"В odoo 8.0 вам может понадобиться :doc:`Enable technical features"
+"<technical-features>`тоже"
+
