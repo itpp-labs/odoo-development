@@ -10,8 +10,6 @@ Odoo development
    * https://odoo-debranding.com/odoo-ce-vs-ee/: Odoo Editions Comparison 
    * https://odoo-debranding.com/oca/: List of OCA repositories
    
-Join our telegram group: https://t.me/odoo_talks
-
 .. toctree::
    :maxdepth: 2
 
