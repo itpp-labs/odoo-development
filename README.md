@@ -2,6 +2,20 @@
 
 Source of https://odoo-development.readthedocs.io/ website
 
+# Concept
+
+* Cover what is missed or badly structured in official docs
+* On using external sources, provide links to origins
+* Following subjects must be sent to other projects:
+
+  * Odoo Test Framework: https://github.com/itpp-labs/odoo-test-docs
+  * DevOps (deployment, CI/CD, etc.): https://github.com/itpp-labs/odoo-test-docs
+  * Modules porting: https://github.com/itpp-labs/odoo-port-docs
+
+
+
+
+
 # How to contribute
 
 ## Initialization
