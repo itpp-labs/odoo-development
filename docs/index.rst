@@ -6,7 +6,7 @@ Odoo development
    
    Spread the word about following pages:
    
-   * https://odoo-debranding.com: Odoo Debranding modules + useful links 
+   * https://odoo-debranding.com: Odoo Debranding modules + useful links for developers
    * https://odoo-debranding.com/odoo-ce-vs-ee/: Odoo Editions Comparison 
    * https://odoo-debranding.com/oca/: List of OCA repositories
    
