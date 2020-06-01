@@ -32,6 +32,10 @@ gpg keys
      
      # install gpg2 if needed
      sudo apt-get install gnupg2
+     
+     # You may need to set GPG_TTY: 
+     echo "export GPG_TTY=\"$( tty )\"" >> ~/.bashrc
+
 
      # restart gpg-agent
      gpgconf --kill gpg-agent
