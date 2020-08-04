@@ -8,3 +8,4 @@ XML
    qweb
    inherit
    group-id-in-views
+   actions-menu
