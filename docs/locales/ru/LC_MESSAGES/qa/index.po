@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Development master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"POT-Creation-Date: 2020-08-04 12:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,15 +19,15 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 
 # 0c2beb606b4c4869b24ccd7e12b4609a
-#: ../../qa/index.rst:3
+#: ../../qa/index.rst:3 9fd5893fd42247cf976e33e848253913
 msgid "Quality assurance"
 msgstr "Гарантия качества"
 
 # b95bb2483ce2483385a8ebfc08f4880c
-#: ../../qa/index.rst:5
-msgid ""
-"The section moved and now is available `here <https://odoo-"
-"test.sh/qa/index.html>`__."
+#: ../../qa/index.rst:5 7b49545085ad433aadda5399bb8c037a
+#, fuzzy
+msgid "The section moved and now is available `here <https://itpp.dev/test/>`__."
 msgstr ""
 "Раздел перенесен и теперь доступен здесь <https://odoo-"
 "test.sh/qa/index.html>`__."
+
