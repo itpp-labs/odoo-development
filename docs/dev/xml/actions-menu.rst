@@ -6,6 +6,9 @@
 
 To add such button, you need to create ``ir.actions.act_window`` record with ``binding_model_id`` value.
 
+14.0+
+=====
+
 `Example for Odoo 14.0+ <https://github.com/odoo/odoo/blob/45c9dc8e389908d32be076b3b49597a9dd305b5b/addons/crm_sms/views/crm_lead_views.xml#L17-L28>`__:
 
 .. code-block:: xml
@@ -23,7 +26,12 @@ To add such button, you need to create ``ir.actions.act_window`` record with ``b
         <field name="binding_view_types">form</field>
     </record>
 
-`Example for Odoo 13.0- <https://github.com/odoo/odoo/blob/2a7ec79c6a4563b608a4525ebccdea5978799caa/addons/crm_sms/views/crm_lead_views.xml#L17-L28>`__:
+See also https://www.odoo.com/documentation/master/howtos/backend.html#launching-wizards
+
+13.0
+====
+
+`Example for Odoo 13.0 <https://github.com/odoo/odoo/blob/2a7ec79c6a4563b608a4525ebccdea5978799caa/addons/crm_sms/views/crm_lead_views.xml#L17-L28>`__:
 
 .. code-block:: xml
 
@@ -40,5 +48,22 @@ To add such button, you need to create ``ir.actions.act_window`` record with ``b
         }"
     />
 
+See also https://www.odoo.com/documentation/13.0/howtos/backend.html#launching-wizards
 
-See also https://www.odoo.com/documentation/master/howtos/backend.html#launching-wizards
+12.0-
+=====
+
+`Example for Odoo 12.0- <https://github.com/odoo/odoo/blob/6c53f1a09d0969379d59d361158c48a31a841b76/addons/point_of_sale/views/pos_config_view.xml#L504-L509>`__:
+
+There is not `binding_views` options in these versions
+
+.. code-block:: xml
+
+    <act_window
+        id="act_pos_config_sessions"
+        name="Sessions"
+        src_model="pos.config"
+        res_model="pos.session"
+        domain="[('config_id', '=', active_id)]" />
+
+See also https://www.odoo.com/documentation/12.0/howtos/backend.html#launching-wizards
