@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Development master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-04 12:17+0000\n"
+"POT-Creation-Date: 2020-08-06 10:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,25 +18,36 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../dev/xml/actions-menu.rst:3 aec2e49487604677b762adf70b75bc34
+#: ../../dev/xml/actions-menu.rst:3 7e9dc8f1da5c4976b3ad7d49a5121458
 msgid "Actions Menu"
 msgstr ""
 
-#: ../../dev/xml/actions-menu.rst:7 52da75d4e10b42bd9bea4b86ba7eda15
+#: ../../dev/xml/actions-menu.rst:7 8c1a8b6520ec431cb0e72142ef611140
 msgid ""
 "To add such button, you need to create ``ir.actions.act_window`` record "
 "with ``binding_model_id`` value."
 msgstr ""
 
-#: ../../dev/xml/actions-menu.rst:9 18b11b9d7eb2400ebe87701096c1a940
+#: ../../dev/xml/actions-menu.rst:9 53eb557eca4049e2bd1d12d019f87e90
 msgid ""
-"`Example "
+"`Example for Odoo 14.0+ "
 "<https://github.com/odoo/odoo/blob/45c9dc8e389908d32be076b3b49597a9dd305b5b/addons/crm_sms/views/crm_lead_views.xml#L17-L28>`__:"
 msgstr ""
 
-#: ../../dev/xml/actions-menu.rst:27 9f058bca983843a5be1d6aecf7ee395b
+#: ../../dev/xml/actions-menu.rst:26 91e44d990bff4ccaa52c4aa569d46b2f
+msgid ""
+"`Example for Odoo 13.0- "
+"<https://github.com/odoo/odoo/blob/2a7ec79c6a4563b608a4525ebccdea5978799caa/addons/crm_sms/views/crm_lead_views.xml#L17-L28>`__:"
+msgstr ""
+
+#: ../../dev/xml/actions-menu.rst:44 ae522cf049794ca99c4f7fcf0c29b5dd
 msgid ""
 "See also https://www.odoo.com/documentation/master/howtos/backend.html"
 "#launching-wizards"
 msgstr ""
+
+#~ msgid ""
+#~ "`Example "
+#~ "<https://github.com/odoo/odoo/blob/45c9dc8e389908d32be076b3b49597a9dd305b5b/addons/crm_sms/views/crm_lead_views.xml#L17-L28>`__:"
+#~ msgstr ""
 
