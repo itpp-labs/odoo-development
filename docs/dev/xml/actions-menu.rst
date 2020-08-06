@@ -55,7 +55,8 @@ See also https://www.odoo.com/documentation/13.0/howtos/backend.html#launching-w
 
 `Example for Odoo 12.0- <https://github.com/odoo/odoo/blob/6c53f1a09d0969379d59d361158c48a31a841b76/addons/point_of_sale/views/pos_config_view.xml#L504-L509>`__:
 
-There is not `binding_views` options in these versions
+* there is no ``binding_views`` option
+* ``src_model`` is the same as ``binding_model``
 
 .. code-block:: xml
 
