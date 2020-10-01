@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Development master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-02 11:21+0000\n"
+"POT-Creation-Date: 2020-10-01 10:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,12 +19,12 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 
 # 1925fa9241a842e881967341be22f911
-#: ../../admin/server_wide_modules.rst:3 211ffde19eab4bad99eba1e6c1a19a43
+#: ../../admin/server_wide_modules.rst:3 4ce6d7f7b606432980d44aa279cdb039
 msgid "``--load``"
 msgstr "`` --Load``"
 
 # 17a9d0999ba844cea9a0fb91a7a62952
-#: ../../admin/server_wide_modules.rst:5 7175d752fcb4458db4c6d9494edaf495
+#: ../../admin/server_wide_modules.rst:5 289620d89d324ed59b3273f4b32f4c38
 msgid ""
 "The option ``--load`` (also known as ``server_wide_modules``) is used to "
 "define list of modules that are loaded on odoo start. Such modules are "
@@ -38,12 +38,24 @@ msgstr ""
 "отличаться для разных версий odoo"
 
 # aaeba35c3ee6461d833b3fab6a01d368
-#: ../../admin/server_wide_modules.rst:8 31230e22aa74473c9c5491195279e3a6
+#: ../../admin/server_wide_modules.rst:8 23feb0f127d54391992d6222797e039e
 msgid "Default value"
 msgstr "Значение по умолчанию"
 
 # e67c3fa096b941599abc86c708744375
-#: ../../admin/server_wide_modules.rst:10 c3cb54d80548471ea5094e388260fb23
+#: ../../admin/server_wide_modules.rst:10 ff023e7c10d34a61bd8fd56dabda5c28
+#, fuzzy
+msgid ""
+"`Odoo 14 "
+"<https://github.com/odoo/odoo/blob/7925e30482ad0df4b2a004c223c3eb87f3ce725f/odoo/tools/config.py#L123>`__:"
+" ``base,web``"
+msgstr ""
+"`Odoo 12 "
+"<https://github.com/odoo/odoo/blob/95b4f2ab4b5698ab3a28c9c35ac8da6fb6def983/odoo/tools/config.py#L120>`__:`"
+" `base, web``"
+
+# e67c3fa096b941599abc86c708744375
+#: ../../admin/server_wide_modules.rst:11 1e026a2aa4344f3baeb9c5efa76d4b3d
 #, fuzzy
 msgid ""
 "`Odoo 13 "
@@ -55,7 +67,7 @@ msgstr ""
 " `base, web``"
 
 # e67c3fa096b941599abc86c708744375
-#: ../../admin/server_wide_modules.rst:11 438026f512954993a444c90028f3d0ff
+#: ../../admin/server_wide_modules.rst:12 0bbea019f59c4b70a146ee6375519333
 msgid ""
 "`Odoo 12 "
 "<https://github.com/odoo/odoo/blob/95b4f2ab4b5698ab3a28c9c35ac8da6fb6def983/odoo/tools/config.py#L120>`__:"
@@ -66,7 +78,7 @@ msgstr ""
 " `base, web``"
 
 # 8161709cea474c15951e68412421c22c
-#: ../../admin/server_wide_modules.rst:12 41d50f02fe1b48acb9290b5192f12ec6
+#: ../../admin/server_wide_modules.rst:13 7f3c0310e625421a89a051047e956379
 msgid ""
 "`Odoo 11 "
 "<https://github.com/odoo/odoo/blob/717f4583949219c346c87c390fbc336b4f31571c/odoo/tools/config.py#L119>`__:"
@@ -77,7 +89,7 @@ msgstr ""
 " `web``"
 
 # 21440c02753c461e937abf9bc8748625
-#: ../../admin/server_wide_modules.rst:13 8152b51e8b8d4ec8bbbbdf80fbafb6aa
+#: ../../admin/server_wide_modules.rst:14 eb5b641048474813b6acfab20357e824
 msgid ""
 "`Odoo 10 "
 "<https://github.com/odoo/odoo/blob/80d363cd31ec56b72e38e02571285349b60e428e/odoo/tools/config.py#L114>`__:"
@@ -88,7 +100,7 @@ msgstr ""
 " `web, web_kanban``"
 
 # 4e82c3c6b8634e0bb4a1d94a550ad818
-#: ../../admin/server_wide_modules.rst:14 aad40e9653e8481381523ebe4103b4bd
+#: ../../admin/server_wide_modules.rst:15 562bbd14121343e8b5210ebe50170c74
 msgid ""
 "`Odoo 9 "
 "<https://github.com/odoo/odoo/blob/752dcc761caf15cb532b1e787e9a378a8112a6a4/openerp/tools/config.py#L114>`__:"
@@ -99,7 +111,7 @@ msgstr ""
 " `web, web_kanban``"
 
 # b8899584acf64da28147cb576c34aa17
-#: ../../admin/server_wide_modules.rst:15 631c9eb9c7f146a8a9fd7ae4d86a039b
+#: ../../admin/server_wide_modules.rst:16 cbbb02daa7614763b91928efbe25ec89
 msgid ""
 "`Odoo 8 "
 "<https://github.com/odoo/odoo/blob/492d8ce4d024e11c9aa715d4a4b7f99493eaef4b/openerp/tools/config.py#L145>`__:"
@@ -110,7 +122,7 @@ msgstr ""
 " `web, web_kanban``"
 
 # 01c071a1f7564b0ea0d5427b091f42ca
-#: ../../admin/server_wide_modules.rst:16 1aba9e6da52742c298e0492355b1ef30
+#: ../../admin/server_wide_modules.rst:17 04da67a05ddf4e70be376c356f41bc9b
 msgid ""
 "`Odoo 7 "
 "<https://github.com/odoo/odoo/blob/ae34a1e93ec3e6e54ece9d546d527af5787f5c3f/openerp/tools/config.py#L487>`__:"
@@ -121,29 +133,29 @@ msgstr ""
 " `web, web_kanban``"
 
 # 6d0898972b82487284a17d9a69c8f810
-#: ../../admin/server_wide_modules.rst:19 25baf990d3a34008a257f19ab3beaf92
+#: ../../admin/server_wide_modules.rst:20 ea2831d67fcd42249b0782ad2636c61e
 msgid "Adding new module to the list"
 msgstr "Добавление нового модуля в список"
 
 # 90da72207249400abfc8f6eff1796505
-#: ../../admin/server_wide_modules.rst:21 56b378502ff749ecb3f073e3a14d3f8c
+#: ../../admin/server_wide_modules.rst:22 e6f64e36b39e432d9acd2944c93f7057
 msgid "In general, you need to take default value and add there a new module."
 msgstr ""
 "В общем, вам нужно взять значение по умолчанию и добавить туда новый "
 "модуль."
 
 # d0e1790776e54e22aae97ce7483a5a5b
-#: ../../admin/server_wide_modules.rst:24 b68a3bca2e6341a89923e9336f70cc2d
+#: ../../admin/server_wide_modules.rst:25 fc07d6c95988408395442f66e8edbd10
 msgid "Via CLI"
 msgstr "Через CLI"
 
 # 39be261b336d4d51884fa5f6408078de
-#: ../../admin/server_wide_modules.rst:33 b3293443f7694fdb98919ce43a3eb321
+#: ../../admin/server_wide_modules.rst:34 741c6f6fd28f4847920e113469b72afe
 msgid "Via config file"
 msgstr "Через конфигурационный файл"
 
 # aeddf61fe18146ccb4ae3c57b4a236c4
-#: ../../admin/server_wide_modules.rst:34 54f98f8f357445fe99d24f1477a14215
+#: ../../admin/server_wide_modules.rst:35 60e9666131c040b88da17986dbdb7713
 msgid ""
 "Parameter name is config file is ``server_wide_modules``. Add this "
 "parameter if it's not presented yet or modify existing value by adding "
@@ -154,29 +166,29 @@ msgstr ""
 "значение, добавив новый модуль ::"
 
 # fe02d1cca18f4c4ca38972f05c7af620
-#: ../../admin/server_wide_modules.rst:42 5bc96d4fe17c4366ad696253d026f9d5
+#: ../../admin/server_wide_modules.rst:43 a569a0f7182a4af590832ae640b75e66
 msgid "Odoo.sh"
 msgstr "Odoo.sh"
 
 # 35d36c1b760b4a2791b6daa13cb8cb7c
-#: ../../admin/server_wide_modules.rst:44 b500facc427b4f759bd5db5baaacc7d1
+#: ../../admin/server_wide_modules.rst:45 b89992d068304bfa91bf1fccf054ed7d
 msgid "navigate to Shell tab in odoo.sh"
 msgstr "перейдите на вкладку Shell в odoo.sh"
 
 # bd0233b76b5e4c8ab755c2e5837b4020
-#: ../../admin/server_wide_modules.rst:45 dc1f28a5cb734fefbb4fbb62794cfcd2
+#: ../../admin/server_wide_modules.rst:46 2b50ee53733a4a2184ff1111ae64c3f6
 msgid "execute ``nano .config/odoo/odoo.conf``"
 msgstr "выполнить `` nano .config / odoo / odoo.conf``"
 
 # d29d3c0f69df4356ae1ecacfde9efcab
-#: ../../admin/server_wide_modules.rst:46 a08a1383912f41069765ab972ddabc07
+#: ../../admin/server_wide_modules.rst:47 6446b3a7a50b490cbb8d7674a1f9a2ef
 msgid "add ``server_wide_modules`` parameter with NEWMODULE added (see above)"
 msgstr ""
 "добавить параметр `` server_wide_modules`` с добавлением NEWMODULE (см. "
 "выше)"
 
 # 10ce251e72b44980b5ac553cd554ccd2
-#: ../../admin/server_wide_modules.rst:47 bc03fe13c68844bd928f044a6a40e4c0
+#: ../../admin/server_wide_modules.rst:48 bdff04ec987f4cfabddfbd2b7c2a72f2
 msgid "restart server by executing following command: ``odoosh-restart``"
 msgstr "перезапустите сервер, выполнив следующую команду: `` odoosh-restart``"
 
