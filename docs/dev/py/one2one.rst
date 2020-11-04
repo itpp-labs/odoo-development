@@ -4,7 +4,7 @@
 
 Odoo ORM doesn't support ``One2one`` fields, but you can do them manually. In the example below we make one2one relationship between models ``fleet.vehicle`` and ``account.asset.asset``.
 
-In short, you set normal ``Mane2one`` field (``vehicle_id`` in the example) in a one model (doesn't really matter which of the models you choose) and corresponding ``One2many`` field (``asset_ids`` in the example) in another model. Then we add virtural ``Many2one`` field (``asset_id`` in the example) with attributes ``compute`` and ``inverse``.
+In short, you set normal ``Many2one`` field (``vehicle_id`` in the example) in a one model (doesn't really matter which of the models you choose) and corresponding ``One2many`` field (``asset_ids`` in the example) in another model. Then we add virtual ``Many2one`` field (``asset_id`` in the example) with attributes ``compute`` and ``inverse``.
 
 .. code-block:: python
 
