@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Development master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"POT-Creation-Date: 2020-11-04 08:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,12 +19,12 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 
 # a933dbbe3a6b447ca3dedcb5514b9440
-#: ../../dev/py/x2many.rst:2
+#: ../../dev/py/x2many.rst:2 81e5ad85d897431997b631b5c8b9e9e6
 msgid "x2many values filling"
 msgstr "заполнение множества значений"
 
 # c2d6ac47f8e84c9b896526cf2ea68e4b
-#: ../../dev/py/x2many.rst:4
+#: ../../dev/py/x2many.rst:4 dfc0cb398fa948ab8ab5285842bf4c74
 msgid ""
 "To fill or manipulate one2many or many2many field with according values "
 "(records) you need to use special command as says below."
@@ -34,97 +34,100 @@ msgstr ""
 "специальную команду, как указано ниже."
 
 # 98920e4e6bd9483e8cdeebac889b0cbc
-#: ../../dev/py/x2many.rst:6
+#: ../../dev/py/x2many.rst:6 6b4d2fb9fa3b4f27a2411225229d6ffa
 msgid ""
-"This format is a list of triplets executed sequentially, where each triplet "
-"is a command to execute on the set of records. Not all commands apply in all"
-" situations. Possible commands are:"
+"This format is a list of triplets executed sequentially, where each "
+"triplet is a command to execute on the set of records. Not all commands "
+"apply in all situations. Possible commands are:"
 msgstr ""
 "Этот формат представляет собой список триплетов, выполняемых "
 "последовательно, где каждый триплет является командой для выполнения на "
-"множестве записей. Не все команды применяются во всех ситуациях. Возможные "
-"команды:"
+"множестве записей. Не все команды применяются во всех ситуациях. "
+"Возможные команды:"
 
 # deb7a997b8d54bb1b8fb8bd2ce94d0e8
-#: ../../dev/py/x2many.rst:9
+#: ../../dev/py/x2many.rst:9 b6f0f3a7bf394606a61d571b35538218
 msgid ""
 "**(0, _, values)** adds a new record created from the provided **value** "
 "dict."
 msgstr ""
-"** (0, _, значения) ** добавляет новую запись, созданную из предоставленного"
-" ** значения ** dict."
+"** (0, _, значения) ** добавляет новую запись, созданную из "
+"предоставленного ** значения ** dict."
 
 # 09c54f8b61ea41c3b4546107f35f7bfc
-#: ../../dev/py/x2many.rst:10
+#: ../../dev/py/x2many.rst:10 203ef2930be0497f92ae9908c304054a
 msgid ""
-"**(1, id, values)** updates an existing record of id **id** with the values "
-"in **values**. Can not be used in `~.create`."
+"**(1, id, values)** updates an existing record of id **id** with the "
+"values in **values**. Can not be used in `~.create`."
 msgstr ""
-"** (1, id, значения) ** обновляет существующую запись id ** id ** значениями"
-" в ** значениях **. Не может использоваться в `~ .create`."
+"** (1, id, значения) ** обновляет существующую запись id ** id ** "
+"значениями в ** значениях **. Не может использоваться в `~ .create`."
 
 # efc85ae359f8496ba75c0b640803fadd
-#: ../../dev/py/x2many.rst:11
+#: ../../dev/py/x2many.rst:11 7bde24b02c60447687001afba556f02a
 msgid ""
-"**(2, id, _)** removes the record of id **id** from the set, then deletes it"
-" (from the database). Can not be used in `~.create`."
+"**(2, id, _)** removes the record of id **id** from the set, then deletes"
+" it (from the database). Can not be used in `~.create`."
 msgstr ""
-"** (2, id, _) ** удаляет запись id ** id ** из набора, а затем удаляет ее "
-"(из базы данных). Не может использоваться в `~ .create`."
+"** (2, id, _) ** удаляет запись id ** id ** из набора, а затем удаляет ее"
+" (из базы данных). Не может использоваться в `~ .create`."
 
 # 581aa8a5b5fe4fb9875c8075f25c8620
-#: ../../dev/py/x2many.rst:12
+#: ../../dev/py/x2many.rst:12 c89c98e666574af7b899ded3e9e52d54
 msgid ""
-"**(3, id, _)** removes the record of id **id** from the set, but does not "
-"delete it. Can not be used on `~openerp.fields.One2many`. Can not be used in"
-" `~.create`."
+"**(3, id, _)** removes the record of id **id** from the set, but does not"
+" delete it. Can not be used on `~openerp.fields.One2many`. Can not be "
+"used in `~.create`."
 msgstr ""
-"** (3, id, _) ** удаляет запись id ** id ** из набора, но не удаляет ее. Не "
-"может использоваться на `~ openerp.fields.One2many`. Не может использоваться"
-" в `~ .create`."
+"** (3, id, _) ** удаляет запись id ** id ** из набора, но не удаляет ее. "
+"Не может использоваться на `~ openerp.fields.One2many`. Не может "
+"использоваться в `~ .create`."
 
 # 90610cfed9bb47139784787c05831a53
-#: ../../dev/py/x2many.rst:13
+#: ../../dev/py/x2many.rst:13 6dc22c9fa8a6473e8f86f3c5ba942ffc
 msgid ""
-"**(4, id, _)** adds an existing record of id **id** to the set. Can not be "
-"used on `~openerp.fields.One2many`."
+"**(4, id, _)** adds an existing record of id **id** to the set. Can not "
+"be used on `~openerp.fields.One2many`."
 msgstr ""
 "** (4, id, _) ** добавляет существующую запись id ** id ** к набору. Не "
 "может использоваться на `~ openerp.fields.One2many`."
 
 # b9ee0c764a984e5ba4f735159a53c4ed
-#: ../../dev/py/x2many.rst:14
+#: ../../dev/py/x2many.rst:14 368050f66b1749fda5219d676d26f1ff
 msgid ""
 "**(5, _, _)** removes all records from the set, equivalent to using the "
 "command **3** on every record explicitly. Can not be used on "
 "`~openerp.fields.One2many`. Can not be used in `~.create`."
 msgstr ""
 "** (5, _, _) ** удаляет все записи из набора, что эквивалентно явному "
-"использованию команды ** 3 ** для каждой записи. Не может использоваться на "
-"`~ openerp.fields.One2many`. Не может использоваться в `~ .create`."
+"использованию команды ** 3 ** для каждой записи. Не может использоваться "
+"на `~ openerp.fields.One2many`. Не может использоваться в `~ .create`."
 
 # 43f76ea6f0964d37a40d6a9889c3393e
-#: ../../dev/py/x2many.rst:15
+#: ../../dev/py/x2many.rst:15 9baf0c9606184580bd60a000c55462ac
 msgid ""
 "**(6, _, ids)** replaces all existing records in the set by the **ids** "
-"list, equivalent to using the command **5** followed by a command **4** for "
-"each **id** in **ids**. Can not be used on `~openerp.fields.One2many`."
+"list, equivalent to using the command **5** followed by a command **4** "
+"for each **id** in **ids**. Can not be used on "
+"`~openerp.fields.One2many`."
 msgstr ""
-"** (6, _, ids) ** заменяет все существующие записи в наборе на список ** ids"
-" **, что эквивалентно использованию команды ** 5 **, за которой следует "
-"команда ** 4 ** для каждого ** id ** in ** id **. Не может использоваться на"
-" `~ openerp.fields.One2many`."
+"** (6, _, ids) ** заменяет все существующие записи в наборе на список ** "
+"ids **, что эквивалентно использованию команды ** 5 **, за которой "
+"следует команда ** 4 ** для каждого ** id ** in ** id **. Не может "
+"использоваться на `~ openerp.fields.One2many`."
 
 # fd91ebdd18a84c15aac2d19fa3910636
-#: ../../dev/py/x2many.rst:17
+#: ../../dev/py/x2many.rst:17 b655ac0ca6894ff6a51204dcc3780a65
 msgid ""
-"Values marked as **_** in the list above are ignored and can be anything, "
-"generally **0** or **False**."
+"Values marked as **_** in the list above are ignored and can be anything,"
+" generally **0** or **False**."
 msgstr ""
-"Значения, помеченные как ** _ ** в приведенном выше списке, игнорируются и "
-"могут быть чем угодно, обычно ** 0 ** или ** False **."
+"Значения, помеченные как ** _ ** в приведенном выше списке, игнорируются "
+"и могут быть чем угодно, обычно ** 0 ** или ** False **."
 
 # 2b17799c507d4983bb25ef734bca53e6
-#: ../../dev/py/x2many.rst:19
-msgid "Taken from https://github.com/odoo/odoo/blob/9.0/openerp/models.py"
+#: ../../dev/py/x2many.rst:19 b3bfc8af64e24782b4ec6bb9498a38cf
+#, fuzzy
+msgid "Based on https://github.com/odoo/odoo/blob/master/odoo/models.py"
 msgstr "Взято с https://github.com/odoo/odoo/blob/9.0/openerp/models.py"
+
