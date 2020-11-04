@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Development master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"POT-Creation-Date: 2020-11-04 07:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,37 +19,41 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 
 # 33f654d6588c4777a9777e4ecc43e868
-#: ../../dev/py/one2one.rst:3
+#: ../../dev/py/one2one.rst:3 f58163a5a719464fa201a471d1fa3e95
 msgid "One2one field in odoo"
 msgstr "One2one поле в odoo"
 
 # 54fa32f7590e4fee8c178e0a93854a9b
-#: ../../dev/py/one2one.rst:5
+#: ../../dev/py/one2one.rst:5 e55c7787680e46d6be0a72f05c85d08b
 msgid ""
-"Odoo ORM doesn't support ``One2one`` fields, but you can do them manually. "
-"In the example below we make one2one relationship between models "
-"``fleet.vehicle`` and ``account.asset.asset``."
+"Odoo ORM doesn't support ``One2one`` fields, but you can do them "
+"manually. In the example below we make one2one relationship between "
+"models ``fleet.vehicle`` and ``account.asset.asset``."
 msgstr ""
-"Odoo ORM не поддерживает поля `` One2one``, но вы можете сделать их вручную."
-" В приведенном ниже примере мы устанавливаем связь one2one между моделями ``"
-" fleet.vehicle`` и `` account.asset.asset``."
+"Odoo ORM не поддерживает поля `` One2one``, но вы можете сделать их "
+"вручную. В приведенном ниже примере мы устанавливаем связь one2one между "
+"моделями `` fleet.vehicle`` и `` account.asset.asset``."
 
 # f9d6e7ef7f3b4152a69880e6e33df154
-#: ../../dev/py/one2one.rst:7
+#: ../../dev/py/one2one.rst:7 4a54166dc56a4975a6c3374236aa53a0
+#, fuzzy
 msgid ""
-"In short, you set normal ``Mane2one`` field (``vehicle_id`` in the example) "
-"in a one model (doesn't really matter which of the models you choose) and "
-"corresponding ``One2many`` field (``asset_ids`` in the example) in another "
-"model. Then we add virtural ``Many2one`` field (``asset_id`` in the example)"
-" with attributes ``compute`` and ``inverse``."
+"In short, you set normal ``Many2one`` field (``vehicle_id`` in the "
+"example) in a one model (doesn't really matter which of the models you "
+"choose) and corresponding ``One2many`` field (``asset_ids`` in the "
+"example) in another model. Then we add virtual ``Many2one`` field "
+"(``asset_id`` in the example) with attributes ``compute`` and "
+"``inverse``."
 msgstr ""
 "Короче говоря, вы устанавливаете нормальное поле `` Mane2one`` (в данном "
-"случае `` vehicle_id``) в одной модели (не имеет значения, какую из моделей "
-"вы выбираете) и соответствующее поле `` One2many`` (`` asset_ids`` в "
-"примере) в другой модели. Затем мы добавляем виртуальное поле `` Many2one`` "
-"(`` asset_id`` в примере) с атрибутами `` compute`` и `` inverse``."
+"случае `` vehicle_id``) в одной модели (не имеет значения, какую из "
+"моделей вы выбираете) и соответствующее поле `` One2many`` (`` "
+"asset_ids`` в примере) в другой модели. Затем мы добавляем виртуальное "
+"поле `` Many2one`` (`` asset_id`` в примере) с атрибутами `` compute`` и "
+"`` inverse``."
 
 # 54ea2f04595f44efb8544d41546bb0d4
-#: ../../dev/py/one2one.rst:40
+#: ../../dev/py/one2one.rst:40 96c3ffba417844bb8bed82d1329ac53f
 msgid "TODO: replace ``@api.one`` to ``@api.multi``"
 msgstr "TODO: заменить `` @ api.one`` на `` @ api.multi``"
+
