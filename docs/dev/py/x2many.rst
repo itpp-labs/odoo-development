@@ -16,4 +16,4 @@ commands apply in all situations. Possible commands are:
 
 .. note:: Values marked as **_** in the list above are ignored and can be anything, generally **0** or **False**.
 
-Taken from https://github.com/odoo/odoo/blob/9.0/openerp/models.py
+Based on https://github.com/odoo/odoo/blob/master/odoo/models.py
