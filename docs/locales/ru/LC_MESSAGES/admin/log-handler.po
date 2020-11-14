@@ -9,110 +9,111 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Development master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-06 17:13+0500\n"
+"POT-Creation-Date: 2020-11-14 04:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.9.0\n"
 
 # 3cc0772e55354021a05ed8434e60ed4f
-#: ../../admin/log-handler.rst:3
+#: ../../admin/log-handler.rst:3 09d4f7b1d34e40da8f0e29855b7a777b
 msgid "``--log-handler``"
 msgstr "`` --Log-handler``"
 
 # 369c9ddddeb042e9af5a40368216592d
-#: ../../admin/log-handler.rst:9
-msgid ""
-"Setups a handler at LEVEL for a given PREFIX. This option can be repeated."
+#: ../../admin/log-handler.rst:9 14f7f0a5e12b4d92a3c25033a146a59b
+msgid "Setups a handler at LEVEL for a given PREFIX. This option can be repeated."
 msgstr ""
-"Устанавливает обработчик на УРОВЕНЬ для данного ПРЕФИКСА. Эта опция может "
-"быть повторена."
+"Устанавливает обработчик на УРОВЕНЬ для данного ПРЕФИКСА. Эта опция может"
+" быть повторена."
 
 # e029293c92e240c6894ccf72493a0e9c
-#: ../../admin/log-handler.rst:11
+#: ../../admin/log-handler.rst:11 9761478908bc4f098c1d9f81804d73b5
+#, fuzzy
 msgid ""
-"For example, if you want to have DEBUG level for module `telegram "
-"<https://github.com/it-projects-llc/odoo-telegram/tree/9.0/telegram>`_ only,"
-" you can run it with parameter::"
+"For example, if you want to have DEBUG level for module `sync "
+"<https://github.com/itpp-labs/sync-addons/tree/12.0/sync>`_ only, you can"
+" run it with parameter::"
 msgstr ""
 "Например, если вы хотите иметь уровень DEBUG для модуля `telegram "
 "<https://github.com/it-projects-llc/odoo-telegram/tree/9.0/telegram>`_ "
 "только, вы можете запустить его с параметром ::"
 
 # 008a904a85fc413a990aff81877ac16c
-#: ../../admin/log-handler.rst:15
+#: ../../admin/log-handler.rst:15 d501d7623de34c59b9ca5fab823e1467
 msgid "To disable werkzeug logs add following parameter::"
 msgstr "Чтобы отключить логи werkzeug, добавьте следующий параметр:"
 
 # 6a4fe65abe344323b2709dda4d156e44
-#: ../../admin/log-handler.rst:19
+#: ../../admin/log-handler.rst:19 f5d9a7f620a3496e82c6d39bbf440c67
 msgid "To see all odoo log messages::"
 msgstr "Чтобы увидеть все сообщения журнала odoo:"
 
 # 07538de85a5d4a709972313271c76e39
-#: ../../admin/log-handler.rst:23
+#: ../../admin/log-handler.rst:23 d75f8b5032b14e8f89babfea4aa166be
 msgid "To see all log messages (including ones from libs)::"
 msgstr "Чтобы увидеть все сообщения журнала (в том числе от libs):"
 
 # ef30ee0d30284e1c978cdd49abdaf6fb
-#: ../../admin/log-handler.rst:28
+#: ../../admin/log-handler.rst:28 dac591e818b848038cc658acc8aec258
 msgid "Log levels"
 msgstr "Уровни журнала"
 
 # 66eaa76b3320486fad1903996475569c
-#: ../../admin/log-handler.rst:30
+#: ../../admin/log-handler.rst:30 a194a93a7ded4869acff362546190a80
 msgid "CRITICAL"
 msgstr "КРИТИЧЕСКИЕ"
 
 # 10ac4abcecd14ec4acfa702c9016c017
-#: ../../admin/log-handler.rst:31
+#: ../../admin/log-handler.rst:31 eb5bc75599d3443f9819ab93a26b04c9
 msgid "ERROR"
 msgstr "ОШИБКА"
 
 # 07ef78a8c86a4a42943e2bc42bf781bb
-#: ../../admin/log-handler.rst:32
+#: ../../admin/log-handler.rst:32 6b395583923b46ec9f93f41c876f5795
 msgid "WARNING"
 msgstr "ПРЕДУПРЕЖДЕНИЕ"
 
 # 0cfc860eedef42169736c942d61e8e15
-#: ../../admin/log-handler.rst:33
+#: ../../admin/log-handler.rst:33 f231685a127a434693fcf724710ec8a7
 msgid "INFO"
 msgstr "ИНФОРМАЦИЯ"
 
 # f0860a23db8747d586e8da8d757cfefd
-#: ../../admin/log-handler.rst:34
+#: ../../admin/log-handler.rst:34 3834287bb3b845bebe7033c77022ca60
 msgid "DEBUG"
 msgstr "DEBUG"
 
 # e0dd45bd9c0c4d33b7df62ba3f5fe373
-#: ../../admin/log-handler.rst:35
+#: ../../admin/log-handler.rst:35 734c4fd9c2624fcd8056185be0f0ff1c
 msgid "NOTSET"
 msgstr "НЕ УСТАНОВЛЕНО"
 
 # c3a9ea398ce24098b581fda732bedb0e
-#: ../../admin/log-handler.rst:38
+#: ../../admin/log-handler.rst:38 de176ee3ac364a2c9b79680a57abbd42
 msgid "Usefull logs"
 msgstr "Полезные журналы"
 
 # ba68c62d31ab4b9eb1f705911c804eb2
-#: ../../admin/log-handler.rst:40
+#: ../../admin/log-handler.rst:40 b4634d2f2559446caa7643212201a6cd
 msgid "Show api requests::"
 msgstr "Показать запросы API:"
 
 # 1f4a822b72c14088aa8b07e3dead68fa
-#: ../../admin/log-handler.rst:46
+#: ../../admin/log-handler.rst:46 ab624c463ceb45e0b8436ac33d0d30db
 msgid "Using in config file"
 msgstr "Использование в конфигурационном файле"
 
 # 7a21f141b08e4267a6f2ca3ca95e59a8
-#: ../../admin/log-handler.rst:48
+#: ../../admin/log-handler.rst:48 ee83d00d94584fca8fe47074190200ea
 msgid ""
 "To make settings via config file use keyword ``log_handler`` and set the "
 "values as comma-seprated list, e.g. ::"
 msgstr ""
-"Чтобы выполнить настройки через конфигурационный файл, используйте ключевое "
-"слово `` log_handler`` и задайте значения в виде списка, разделенного "
-"запятыми, например:"
+"Чтобы выполнить настройки через конфигурационный файл, используйте "
+"ключевое слово `` log_handler`` и задайте значения в виде списка, "
+"разделенного запятыми, например:"
+
