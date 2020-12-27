@@ -195,6 +195,27 @@ you may use the `selection_add` keyword argument::
        _inherits = 'some.model'
        type = fields.Selection(selection_add=[('b', 'B'), ('c', 'C')])
 
+
+`Since Odoo 14.0 <https://github.com/odoo/odoo/commit/f0481392c6501cae2c38359f526da1eefa451337>`__ you have to specify `ondelete attribute <https://github.com/odoo/odoo/blob/14.0/odoo/fields.py#L2194-L2210>`__.
+
+``ondelete`` provides a fallback mechanism for any overridden
+        field with a selection_add. It is a dict that maps every option
+        from the selection_add to a fallback action.
+        This fallback action will be applied to all records whose
+        selection_add option maps to it.
+        The actions can be any of the following:
+
+- ``'set null'`` -- the default, all records with this option will have their selection value set to False.
+  
+- ``'cascade'`` -- all records with this option will be deleted along with the option itself.
+- ``'set default'`` -- all records with this option will be set to the default of the field definition
+- ``<callable>`` -- a callable whose first and only argument will be the set of records containing the specified Selection option, for custom processing. e.g.::
+
+      my_selection = fields.Selection(selection_add=[
+           ('bacon', "Bacon"),
+      ], ondelete={'bacon': lambda records: record.write({'my_selection': 'bar'})})
+
+
 Reference
 #########
 
