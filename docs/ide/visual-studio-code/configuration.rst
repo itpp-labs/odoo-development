@@ -35,7 +35,7 @@ Configuration:-
             // add this auto-save option so the pylint will sow errors while editing otherwise 
             //it will only show the errors on file save
             "files.autoSave": "afterDelay",
-            "files.autoSaveDelay": 500
+            "files.autoSaveDelay": 500,
 
             // The following will hide the compiled file in the editor/ add other file to hide them from editor
             "files.exclude": {
