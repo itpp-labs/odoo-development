@@ -7,23 +7,21 @@ To fill or manipulate one2many or many2many field with according values (records
 Odoo 15.0+
 ----------
 
-First import ``fields``
+First import ``Command``
 
 .. code-block:: python
 
-    from odoo import fields
-    # or Command directly:
-    # from odoo.fields import Command
+    from odoo.fields import Command
 
 Then assign list of following commands to a x2many field:
 
-* ``fields.Command.create(values)``
-* ``fields.Command.update(id, values)``
-* ``fields.Command.delete(id)``
-* ``fields.Command.unlink(id)``
-* ``fields.Command.link(id)``
-* ``fields.Command.clear()``
-* ``fields.Command.set(ids)``
+* ``Command.create(values)``
+* ``Command.update(id, values)``
+* ``Command.delete(id)``
+* ``Command.unlink(id)``
+* ``Command.link(id)``
+* ``Command.clear()``
+* ``Command.set(ids)``
 
 Based on https://github.com/odoo/odoo/blob/84f89d6ff887e750ea79656328362333cfce27fd/odoo/fields.py#L2868-L2982
 
