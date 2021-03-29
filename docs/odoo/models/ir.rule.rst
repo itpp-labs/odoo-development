@@ -20,7 +20,7 @@ To check either user has access for example to *read* a record, system do as fol
 
   * if the record **doesn't satisfy** (doesn't fit to domain) for at least one of the global rules, then user **doesn't get** access
 
-* Find and check non-global rules for the **model** and for *read* operation.
+* Find and check non-global rules for the **model**, which *perm_read* equal True and ``groups`` that intersect with current user groups.
 
   * if there are no such rules, then user **get** access
   * if the record **satisfy** (fit to domain) for **at least one** of the non-global rules, then user **get** access
