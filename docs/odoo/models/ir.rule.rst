@@ -22,7 +22,7 @@ To check either user has access for example to *read* a record, system do as fol
 
 * Find and check non-global rules for the **model** and for *read* operation.
 
-  * if there are no such groups, then user **get** access
+  * if there are no such rules, then user **get** access
   * if the record **satisfy** (fit to domain) for **at least one** of the non-global rules, then user **get** access
   * if the record **doesn't satisfy** for **all**  non-global rules, then user **doesn't get** access
 
