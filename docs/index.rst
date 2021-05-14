@@ -30,7 +30,7 @@ Odoo development
 .. admonition:: Need our service?
    :class: warning
 
-   For module development contact us by `email <mailto:it@it-projects.info>`__ or fill out `request form <https://www.it-projects.info/page/website.contactus>`__:
+   For module development contact us by `email <mailto:info@itpp.dev>`__ or fill out `request form <https://itpp.dev>`__:
 
-   * it@it-projects.info
-   * https://www.it-projects.info/page/website.contactus
+   * info@itpp.dev
+   * https://itpp.dev
