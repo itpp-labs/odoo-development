@@ -6,6 +6,8 @@ Data Migration is a process of keeping correct data in database after updating t
 
 For *Module Migration* see :doc:`Porting Modules<../migration/index>`
 
+.. note:: Module porting and data migration combined is usually called *Database Upgrading* in Odoo world
+
 Preparing
 ---------
 
