@@ -19,7 +19,7 @@ Available permissions are creation (``perm_create``), searching and reading
 (``perm_read``), updating existing records (``perm_write``) and deleting
 existing records (``perm_unlink``)
 
-When there is no access records for a given model and a permission (e.g. *read*), then only Superuser has the permision.
+When there is no access records for a given model and permission (e.g. *read*), then only Superuser has the permision.
 
 See also:
 
