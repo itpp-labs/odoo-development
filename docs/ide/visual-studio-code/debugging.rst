@@ -18,7 +18,7 @@ Launch Configurations
             "type": "python",
             "request": "launch",
             "stopOnEntry": false,
-            "pythonPath": "${config.python.pythonPath}",
+            "pythonPath": "${config:python.pythonPath}",
             //"program": "${file}", use this to debug opened file.
             "program": "${workspaceRoot}/Path/To/odoo.py",
             "args": [
