@@ -28,7 +28,7 @@
     Exception: bus.Bus unavailable
 
 Error above means you haven't configured :doc:`longpolling <../../admin/about_longpolling>` properly. Longpolling is
-used for instant notifications and updates. If you are sure that you don't need
+used for instant notifications and updates when multiple workers is enabled i.e number of workers set in the configuration file is greather than one. If you are sure that you don't need
 it, you can ignore the error.
 
 To fix the error check following page: :doc:`How to enable Longpolling in odoo <../../admin/longpolling>` 
